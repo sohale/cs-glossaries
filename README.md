@@ -1,5 +1,6 @@
 # C++ glossary
-Over the years, a precise vocabulary is built around C++ by the C++ community e.g. Bjarne Stroustrup. A glossary of C++ terms. A glossary of C++ terms. A mor rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
+Over the years, a precise vocabulary is built around C++ by the C++ community e.g. Bjarne Stroustrup. A glossary of C++ terms. A glossary of C++ terms. A mor rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html). The current document is orthogonal to the aforementioned glossary.
+
 # Terms
 
 ###Uniform
@@ -37,7 +38,8 @@ Scope-based Resource Management'' (SBRM) see RAII
 * C++11
 * C++14
 * C++1y
- 
+* C-style cast
+
 ## Phrases
 Example phrases
 * RAII (stack-based) object
