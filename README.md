@@ -1,5 +1,5 @@
 # C++ glossary
-A glossary of C++ terms. A glossary of C++ terms. A mor rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
+Over the years, a precise vocabulary is built around C++ by the C++ community e.g. Bjarne Stroustrup. A glossary of C++ terms. A glossary of C++ terms. A mor rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
 # Terms
 
 ###Uniform
