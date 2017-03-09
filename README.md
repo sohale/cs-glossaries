@@ -1,5 +1,5 @@
-# cpp-glossary
-A glossary of C++ terms
+# C++ glossary
+A glossary of C++ terms. A glossary of C++ terms. A mor rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
 # Terms
 
 ###Uniform
@@ -34,6 +34,9 @@ Scope-based Resource Management'' (SBRM) see RAII
 * the C++ standard library
 * smart pointers
 * heap objects
+* C++11
+* C++14
+* C++1y
  
 ## Phrases
 Example phrases
