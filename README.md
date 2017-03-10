@@ -23,6 +23,11 @@ See initializer_list
 
 ### stack unwinding
 
+### implementation defined
+### C++'s semantics
+### undefined
+
+
 ## General or broad
 * the initialization syntax
 * exception safety
