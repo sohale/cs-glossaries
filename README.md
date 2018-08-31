@@ -40,8 +40,13 @@ See initializer_list
 
 ### Runtime type information
 In C++ not all information is available in runtime. By its nature.
+Check term RTTI.
 
 Solutions: the compiler can provide them using `dynamic_cast`, `typeid()`, and `type_info`. 
+
+### move-related:
+#### move-constructible
+#### move-assignable
 
 
 ### strict weak ordering
