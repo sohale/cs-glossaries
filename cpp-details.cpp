@@ -15,5 +15,19 @@ class my_comparator {
     related: heap.
 */
 
+// comparing and functors
+vector<int> frequency;
+struct cmp
+{
+    bool operator()(int a, int b)
+    {
+        return frequency[a] < frequency[b];
+    }
+};
+set<int, cmp> s;
+priority_queue<int, vector<int>, cmp> pq;
+// See questions: Why is () used in the following?
+sort(data.begin(), data.end(), greater<int>());
+
 
 // TODO: split into separate cpp files in a folder for this. `comparator.cpp`, etc.
