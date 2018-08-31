@@ -4,3 +4,7 @@
 
 ## Three ways of defining order.
 [here](fusharblog.com/3-ways-to-define-comparison-functions-in-cpp/). Comparator. operator<()
+
+## Why `()` is done when a *functor* is used.
+
+### Use an example of `less<T>`
