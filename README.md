@@ -27,6 +27,8 @@ See initializer_list
 ### C++'s semantics
 ### undefined
 
+### strict weak ordering
+The strict weak ordering criterion
 
 ## General or broad
 * the initialization syntax
