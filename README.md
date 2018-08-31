@@ -6,6 +6,9 @@ These are the terms that are used almost in the identical form.
 
 # Terms
 
+### emplace
+Construct and insert element. Reason: to avoid a copy constructor? (Since C++11 ?)
+
 ### Uniform
 Uniform and universal are the 4th alternative of initialisation.
 ### Universal
