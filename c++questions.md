@@ -14,6 +14,21 @@
 in sort()
 ### Why two forms for `sort()`?
 Comparator versus ...
+`template <class RandomAccessIterator>
+  void partial_sort (RandomAccessIterator first, RandomAccessIterator middle,
+                     RandomAccessIterator last);`
+custom (2)
+`template <class RandomAccessIterator, class Compare>
+  void partial_sort (RandomAccessIterator first, RandomAccessIterator middle,
+                     RandomAccessIterator last, Compare comp);`
+
+
+`template <class RandomAccessIterator>
+  void sort (RandomAccessIterator first, RandomAccessIterator last);`
+custom (2)
+`template <class RandomAccessIterator, class Compare>
+  void sort (RandomAccessIterator first, RandomAccessIterator last, Compare comp);`
+
 ### move-constructible and move-assignable are properties of what?
 Iterators!
 ### Why sort iterator needs to be move-constructible and move-assignable?
