@@ -15,17 +15,8 @@ in sort()
 ### Why two forms for `sort()`?
 Comparator versus ...
 `template <class RandomAccessIterator>
-  void partial_sort (RandomAccessIterator first, RandomAccessIterator middle,
-                     RandomAccessIterator last);`
-custom (2)
-`template <class RandomAccessIterator, class Compare>
-  void partial_sort (RandomAccessIterator first, RandomAccessIterator middle,
-                     RandomAccessIterator last, Compare comp);`
-
-
-`template <class RandomAccessIterator>
   void sort (RandomAccessIterator first, RandomAccessIterator last);`
-custom (2)
+vs
 `template <class RandomAccessIterator, class Compare>
   void sort (RandomAccessIterator first, RandomAccessIterator last, Compare comp);`
 
@@ -35,11 +26,12 @@ Iterators!
 
 
 ## Rando questions
-Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
+* Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
 
 ## Minor
-
+Out of curiosity
 * Why is `stable_sort()` necessary?  `stable_sort()` versus `sort()`. 
 * What algorithm does `sort()` use?
 * Is `sort()` done inplace? How is it different to Python's?
+* What sort algorithm is
 
