@@ -9,6 +9,16 @@
 
 ### Use an example of `less<T>`
 
+## Conceptual
+### Why `class Compare`
+in sort()
+### Why two forms for `sort()`?
+Comparator versus ...
+### move-constructible and move-assignable are properties of what?
+Iterators!
+### Why sort iterator needs to be move-constructible and move-assignable?
+
+
 ## Rando questions
 Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
 
