@@ -30,7 +30,7 @@ Iterators!
 
 ## to code
 C++-specific problem to solve/code.
-* Write comparator in three ways. Make use of `set`, `sort`, `priority_queue` (question incomplete). Priority: LOW.
+* Write comparator in three ways. Make use of `set`, `sort`, `priority_queue` (question incomplete). Priority: LOW.  [ref](fusharblog.com/3-ways-to-define-comparison-functions-in-cpp/)
 
 ## Minor
 Out of curiosity
