@@ -1,20 +1,24 @@
 # C++ glossary
-Over the years, a precise vocabulary is built around C++ by the C++ community e.g. Bjarne Stroustrup. A glossary of C++ terms. A glossary of C++ terms. A mor rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html) [G]. The current document is orthogonal to the aforementioned glossary. These are the terms that are used almost in the identical form.
+Over the years, a precise vocabulary is built around C++ by the C++ community e.g. Bjarne Stroustrup. A glossary of C++ terms. A glossary of C++ terms.
+A more rigorous version of Stroustrup's [glossary](http://www.stroustrup.com/glossary.html) [G].
+The current document is orthogonal to the aforementioned glossary.
+These are the terms that are used almost in the identical form.
 
 # Terms
 
-###Uniform
+### Uniform
 Uniform and universal are the 4th alternative of initialisation.
-###Universal
+### Universal
 Uniform and universal are the 4th alternative of initialisation.
 
-###Resource acquisition is initialization
-(RAII)
+### Resource acquisition is initialization
+(see RAII)
+
+
+### RAII
+See Resource acquisition is initialization
 
 ### copy construction
-
-###RAII
-See Resource acquisition is initialization
 
 ### initializer list
 See initializer_list
