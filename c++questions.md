@@ -1,4 +1,4 @@
-
+## Questions
 ### What is the best for Kruskal's algorithm?
 (priority queue? heap? anyu sorted/max retrieval?) no. Or perhaps needs to get sorted first.
 
@@ -8,3 +8,9 @@
 ### Why `()` is done when a *functor* is used.
 
 ### Use an example of `less<T>`
+
+## Minor
+
+* Why is `stable_sort()` necessary?  `stable_sort()` versus `sort()`. 
+* What algorithm does `sort()` use?
+* Is `sort()` done inplace? How is it different to Python's?
