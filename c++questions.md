@@ -25,8 +25,12 @@ Iterators!
 ### Why sort iterator needs to be move-constructible and move-assignable?
 
 
-## Rando questions
+## Random questions
 * Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
+
+## to code
+C++-specific problem to solve/code.
+* Write comparator in three ways. Make use of `set`, `sort`, `priority_queue` (question incomplete). Priority: LOW.
 
 ## Minor
 Out of curiosity
