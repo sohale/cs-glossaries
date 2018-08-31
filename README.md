@@ -79,6 +79,10 @@ Example phrases
 ## Quotations
 * there are far more resource acquisitions than kinds of resources
 
-## References
+## Minor
+* stable_sort()
+
+# References
 {{sfn|Stroustrup|1994|p=389|ps=. I called this technique "resource acquisition is initialization."}} RAII is generally pronounced as an [[initialism]], sometimes pronounced as "R, A, double I".<ref>"[https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?]", ''StackOverflow''</ref>
 [G] Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
+
