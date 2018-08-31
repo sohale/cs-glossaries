@@ -9,6 +9,9 @@
 
 ### Use an example of `less<T>`
 
+### `template <typename T>` versus `template <class T>`
+TODO
+  
 ## Conceptual
 ### Why `class Compare`
 in sort()
@@ -27,6 +30,7 @@ Iterators!
 
 ## Random questions
 * Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
+* Why class is necessary here? `template class Foo<int>;`  [ref](https://stackoverflow.com/questions/2023977/difference-of-keywords-typename-and-class-in-templates)
 
 ## to code
 C++-specific problem to solve/code.
