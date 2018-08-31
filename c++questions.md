@@ -5,13 +5,15 @@
 ### Three ways of defining order.
 [here](fusharblog.com/3-ways-to-define-comparison-functions-in-cpp/). Comparator. operator<()
 
-### Why `()` is done when a *functor* is used.
+### Why `()` is done when a *functor* is used?
 
 ### Use an example of `less<T>`
 
 ### `template <typename T>` versus `template <class T>`
 TODO
-  
+
+### When to use `emplace_hint()`?
+
 ## Conceptual
 ### Why `class Compare`
 in sort()
@@ -35,6 +37,8 @@ Iterators!
 ## to code
 C++-specific problem to solve/code.
 * Write comparator in three ways. Make use of `set`, `sort`, `priority_queue` (question incomplete). Priority: LOW.  [ref](fusharblog.com/3-ways-to-define-comparison-functions-in-cpp/)
+
+* how to use `find()` for set. What if it does not exist.
 
 ## Minor
 Out of curiosity
