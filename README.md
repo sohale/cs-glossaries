@@ -6,8 +6,11 @@ These are the terms that are used almost in the identical form.
 
 # Terms
 
-### emplace
+### `emplace()`
 Construct and insert element. Reason: to avoid a copy constructor? (Since C++11 ?)
+
+### `emplace_hint()`
+For sets.
 
 ### functor
 A functor, or a function "object", is an object that can behave like a function. Note that lambdas are objects (runtime; I have not double checked this).
