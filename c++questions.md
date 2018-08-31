@@ -9,8 +9,12 @@
 
 ### Use an example of `less<T>`
 
+## Rando questions
+Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
+
 ## Minor
 
 * Why is `stable_sort()` necessary?  `stable_sort()` versus `sort()`. 
 * What algorithm does `sort()` use?
 * Is `sort()` done inplace? How is it different to Python's?
+
