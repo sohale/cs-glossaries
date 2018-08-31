@@ -34,6 +34,12 @@ See initializer_list
 ### C++'s semantics
 ### undefined
 
+### Runtime type information
+In C++ not all information is available in runtime. By its nature.
+
+Solutions: the compiler can provide them using `dynamic_cast`, `typeid()`, and `type_info`. 
+
+
 ### strict weak ordering
 The strict weak ordering criterion
 
