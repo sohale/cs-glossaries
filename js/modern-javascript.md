@@ -1,19 +1,25 @@
 ### Why browserify?
-Browserify is a development tool that allows us to write node.js-style modules that compile for use in the browser.
+Answer: Browserify is a development tool that allows us to write node.js-style modules that compile for use in the browser.
+IMO it should be called `node-ify`!
 
 Just like node, we write our modules in separate files, exporting external methods and properties using the `module.exports` and exports variables. Use `require`: uses `node_modules` or the given path.
 Example: `var _ = require('underscore');`
 
+* Main source (more clear) : https://blakeembrey.com/articles/2013/09/introduction-to-browserify/
 * Todo: read this: http://www.jeromesteunou.net/browserify-why-and-how.html
-* More clear: https://blakeembrey.com/articles/2013/09/introduction-to-browserify/
 
 #### `browserify` provides:
 1. Node-like core modules: `url`, `path`, `stream`, `events`, `http`.
-2. Transforms
+2. Transforms i.e. "source transforms"
 
 Others: `process`, `Buffer`, `__dirname`, `__filename` and `global`.
 
 `process.nextTick(func)` (calls on the next event loop)
+
+
+#### On "source transforms"
+* A source transform is a stream injected between the resolved module and the content that is returned.
+
 
 ### CommonJS
 #### What is `CommonJS` practice of string IDs?
@@ -41,6 +47,9 @@ JavaScript modules
 });`
 
 
+### on pakages.json
+The "browser" field (for Browserify).
+(The "browser" field in `package.json`.)
 
 
 ### Various
@@ -56,6 +65,12 @@ Solutions: module pattern
 ### transform
 `--transform`
 On browserify: With the --transform or -t option and some great plugins you can load not only JavaScript CommonJS module but anything that have a transform plugin
+
+### polyfills
+
+### shim.
+* Browserify Shim. A polyfill like: `module.exports = window.$`. Why?
+
 
 
 ## Solutions/techniques/patterns in JS:
