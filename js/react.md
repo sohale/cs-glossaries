@@ -72,6 +72,12 @@ Why?
 
 When xyz is `synchronous`, it means it is bad (too tightly close?).
 
+##### Redux state principle
+* All state of the whole app is in one single state variable.
+* (Is immutable?)
+* It is a JS dicitonary and is called `this`?.`state`.
+
+
 #### On Observers:
 * One way only (direcitonality). [1way](http://nicholasjohnson.com/react/course/exercises/flux/)
 * Leading (initiating) is the "observed". It calls functions of observers.
