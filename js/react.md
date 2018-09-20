@@ -66,6 +66,8 @@ The order of chain is important and critical; taken seriously. (And MVC is proba
 
 * Read from `this.state` in the `render()` function.
 
+[Full circle](https://blog.andrewray.me/flux-for-stupid-people/)
+
 Side note:
 > When the store updates, the data is re-copied in its entirety.
 Why?
@@ -76,6 +78,11 @@ When xyz is `synchronous`, it means it is bad (too tightly close?).
 * All state of the whole app is in one single state variable.
 * (Is immutable?)
 * It is a JS dicitonary and is called `this`?.`state`.
+
+##### State:
+State is redonly. immutable - readonly.
+All state in one variable (mp5).
+I was using the same principle!!
 
 
 #### On Observers:
