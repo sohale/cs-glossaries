@@ -47,11 +47,30 @@ Flux is not MVC.
 * Flux is an "Observer" pattern.
 * Flux can be considered a variant of the "observer pattern".
 
+
+* There are many "Flux"es.
+* "Flux"'s creator's [tutorial](https://egghead.io/courses/getting-started-with-redux)
+
 #### Flux+React
 change propagation: vai: component properties
 
 #### How Flux + React work?
 * A React component under the "Flux architecture" should not directly modify any props passed to it.
+
+#### Flux data flow graph
+`view(<input>)` -----(`dispatch`)----> `action` ---> `data store` ---> `event` ---> `view(output)`
+
+The update (data flow) goes "throw" data store. i.e. guarantees model update before view update.
+
+The order of chain is important and critical; taken seriously. (And MVC is probably not this).
+
+* Read from `this.state` in the `render()` function.
+
+Side note:
+> When the store updates, the data is re-copied in its entirety.
+Why?
+
+When xyz is `synchronous`, it means it is bad (too tightly close?).
 
 #### On Observers:
 * One way only (direcitonality). [1way](http://nicholasjohnson.com/react/course/exercises/flux/)
@@ -78,7 +97,7 @@ two-way sis the source of much confusion often. (cf. data moving)
 * watching, listening, notifying, triggered, etc.
 * The Model is watching the View (which is the watcher?)
 
-Whi watches whom?
+#### Who watches whom?
 * View watches forms
 * Model watches view
 * View2 watches model
@@ -96,6 +115,7 @@ One way data flow does not preclude cycles. (Great. AngularJS is awful).
 [nice](http://nicholasjohnson.com/react/course/exercises/flux/)
 
 https://blog.andrewray.me/reactjs-for-stupid-people/
+
 
 
 ### React is MAINLY THE VIEW LAYER.
