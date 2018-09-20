@@ -53,6 +53,12 @@ change propagation: vai: component properties
 #### How Flux + React work?
 * A React component under the "Flux architecture" should not directly modify any props passed to it.
 
+#### On Observers:
+* One way only (direcitonality). [1way](http://nicholasjohnson.com/react/course/exercises/flux/)
+* Leading (initiating) is the "observed". It calls functions of observers.
+
+Observers = substribers.
+The methods of observes are called (by observant?).
 
 ### API data fetch:
 In React
