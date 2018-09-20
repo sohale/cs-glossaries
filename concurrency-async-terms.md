@@ -1,4 +1,5 @@
 # async & concurrency terms
+## async
 fibers
 
 coroutines
@@ -189,18 +190,34 @@ cancellation support for Futures and coroutines
 synchronization primitives
 synchronization primitives between coroutines
 
+Cancellation
+Cancellation of tasks is not common in classic programming
 
+The `wait_for()` function. (Has timeout)
+
+Timeout: which ones have it?
+
+... "cancels the waited task" (context: timeout)
+Note: Apart from timeout, there are many other cases where a task can be cancelled indirectly.
 ## ...
 * A Future. A future class.
 
+"Blocking functions should not be called directly."
 
-## More obscure
+An executor.
+
+not block the thread of the event loop.
+
+A result is not passed to async()
+"When a coroutine function is called and its result is not passed to async()"
+
+### More obscure
 * Microthreads
 * fibers (fibers-switch)
 * tasklets
 * stackless
 
-## Sentences to make sense of them:
+### Sentences to make sense of them:
 * Concurrent Programming with Stackless Python
 * fibjs uses fibers-switch, sync style, and non-blocking I/O model to build scalable systems.
 * “classic” coroutine switch
@@ -210,9 +227,18 @@ synchronization primitives between coroutines
 * Channel inputs/outputs and blocking operations yield coroutines and a scheduler unblocks them on completion events. 
 * coroutines and tasks based on yield from ...
 * to write concurrent code in a sequential fashion (?!)
+* ... if the future is cancelled
+
+
+
+## concurrency
+
+threadpool
+
+passing work off to a threadpool
 
 # References
 [Coroutine] https://en.wikipedia.org/wiki/Coroutine#Implementations_in_JavaScript
 [asyncio] https://docs.python.org/3.4/library/asyncio.html
-
+[asyncio-use] https://docs.python.org/3.4/library/asyncio-dev.html#asyncio-dev
 
