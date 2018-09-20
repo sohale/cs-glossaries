@@ -163,6 +163,37 @@ fibers vs threads
 
 POSIX
 
+reactor (in C++)
+
+coroutines
+fibers
+asynchronous
+rpc
+paxos=?
+reactor=?
+
+asynchronous-framework
+
+coroutines and tasks (Why compared?)  (Python)
+
+`yield from` (Python)
+
+
+Futures and coroutines (comparable)
+
+
+cancellation
+cancellation support
+cancellation support for Futures and coroutines
+
+synchronization primitives
+synchronization primitives between coroutines
+
+
+## ...
+* A Future. A future class.
+
+
 ## More obscure
 * Microthreads
 * fibers (fibers-switch)
@@ -177,7 +208,11 @@ POSIX
 * the stack pointer, program counter, callee-saved registers, and any other internal state as required by the ABI, such that returning to a coroutine after having yielded restores all the state that would be restored upon returning from a function call. 
 * in CSP: each sub-process is a coroutine
 * Channel inputs/outputs and blocking operations yield coroutines and a scheduler unblocks them on completion events. 
+* coroutines and tasks based on yield from ...
+* to write concurrent code in a sequential fashion (?!)
 
 # References
 [Coroutine] https://en.wikipedia.org/wiki/Coroutine#Implementations_in_JavaScript
+[asyncio] https://docs.python.org/3.4/library/asyncio.html
+
 
