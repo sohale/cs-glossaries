@@ -44,12 +44,15 @@ Flux is not MVC.
 * actions -> dispatch -> store ---(propagate)--> view.
 * Changes to the store are propagated back to the view
 * "observer pattern"  [observer pattern](http://nicholasjohnson.com/react/course/exercises/flux/)
+* Flux is an "Observer" pattern.
 * Flux can be considered a variant of the "observer pattern".
-
-
 
 #### Flux+React
 change propagation: vai: component properties
+
+#### How Flux + React work?
+* A React component under the "Flux architecture" should not directly modify any props passed to it.
+
 
 ### API data fetch:
 In React
