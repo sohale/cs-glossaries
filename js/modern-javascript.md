@@ -39,4 +39,9 @@ Similar to the one used by Angular for dependency injection. (i.e. AMD style?)
 ### anonymous functions
 ### anonymous functions with arguments
 used for DI
+### Some patterns:
+* Cross-File Private State (uses clusure to hide access as member. May use `delete`)
 
+## Cute solutions
+* `f(MODULE || {})`
+* `for (key in old) if (old.hasOwnProperty(key)) {}`
