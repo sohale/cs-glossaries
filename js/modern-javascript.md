@@ -1,3 +1,15 @@
+# Moden JavaScript sheet
+and glossary
+
+### Questions:
+
+* Why browserify? What does it provide?
+* Why `react-dom` is seaparet from `react`? What different role does it have?
+* Why `browserify` must be installed using `-g`?
+* Why `watchify` must be installed using `-g`? Why `watchify` and not just simply a package called `watch`?
+
+
+
 ### Why browserify?
 Answer: Browserify is a development tool that allows us to write node.js-style modules that compile for use in the browser.
 IMO it should be called `node-ify`!
