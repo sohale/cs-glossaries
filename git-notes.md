@@ -6,7 +6,7 @@
 
 ### Diagram:
 ![diagram of 4](https://i.stack.imgur.com/RPeKg.png)
-[source](https://stackoverflow.com/questions/3639342/whats-the-difference-between-git-reset-and-git-checkout)
+[source](https://stackoverflow.com/questions/3639342/whats-the-difference-between-git-reset-and-git-checkout) [Mark Lodato](http://marklodato.github.io/visual-git-guide/index-en.html)
 
 ## `git` notes
 
@@ -29,3 +29,8 @@ git pull
 ```
 
 Why?
+
+## Diagrams (more)
+![](https://images.slideplayer.com/47/11721554/slides/slide_10.jpg)
+[source: Pavel Weber](https://slideplayer.com/slide/11721554/)
+
