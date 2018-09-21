@@ -14,14 +14,19 @@
 
 ## Pool of things to "todo" know
 
-* Files modified. You want to pull everything. first pull was an old version. [from](https://stackoverflow.com/questions/4157189/git-pull-while-ignoring-local-changes)
+* Files modified. You want to pull everything. first pull was an old version. [from](https://stackoverflow.com/questions/4157189/git-pull-while-ignoring-local-changes).
+Why?
 ```
 git fetch --all
 git reset --hard origin/master
 git pull
 ```
 
-Why?
+
+* How to pull all submodules.
+```
+git submodule -q foreach git pull -q origin master
+```
 
 ## Diagrams (more)
 ![](https://images.slideplayer.com/47/11721554/slides/slide_10.jpg)
