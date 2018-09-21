@@ -14,9 +14,11 @@
 ## Pool of things to "todo" know
 
 * Files modified. You want to pull everything. first pull was an old version.
+
   git fetch --all
   git reset --hard origin/master
   git pull
+  
 * B
 
 ```git fetch --all
