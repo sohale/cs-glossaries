@@ -6,6 +6,7 @@
 
 ### Diagram:
 ![diagram of 4](https://i.stack.imgur.com/RPeKg.png)
+[source](https://stackoverflow.com/questions/3639342/whats-the-difference-between-git-reset-and-git-checkout)
 
 ## `git` notes
 
