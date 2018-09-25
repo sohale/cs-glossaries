@@ -24,6 +24,8 @@ TODO
 
 ### What is `ref` and when to use it?
 
+### Why `()` is used when defining ... 
+
 ## Conceptual
 ### Why `class Compare`
 in sort()
