@@ -15,6 +15,7 @@ TODO
 ### When to use `emplace_hint()`?
 
 ### What is `forward` and when to use it?
+[reading](https://en.cppreference.com/w/cpp/utility/forward)
 
 ### How to use var args in templates and in functions?
 
@@ -25,6 +26,23 @@ TODO
 ### What is `ref` and when to use it?
 
 ### Why `()` is used when defining ... 
+
+### What is `mutable`?
+
+### Why some lambdas are defined as `mutable`?
+
+### Why `[=]` and when?
+Also `[&]` and why.
+
+### Capture versus pass veruss share versus ... ?
+
+### In what case do we use `shared_ptr`?
+
+### Name a few smart pointers?
+unique shared but more.
+
+### How do you share data between in threads?
+Does lambda capture work between threads?
 
 ## Conceptual
 ### Why `class Compare`
@@ -40,7 +58,6 @@ vs
 ### move-constructible and move-assignable are properties of what?
 Iterators!
 ### Why sort iterator needs to be move-constructible and move-assignable?
-
 
 ## Random questions
 * Why `*` in code? `set<int, bool (*)(int, int)> s(cmp);`
