@@ -6,5 +6,5 @@ GIL definition in my term:
 `__exit__()` takes 4 parameters. Why?
 ## Some Python-specific design patterns
 
-## Numpy sumbleties
+## Numpy sumbtleties
 ### indexing types in numpy
