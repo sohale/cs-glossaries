@@ -14,3 +14,5 @@ Then How does it solve the availability problem when listening to threads/http r
 #### stack length: what are the limitations on Python
 #### green threads
 #### pthread
+
+#### Also see [this](python-interview-notes.md)
