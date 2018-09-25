@@ -14,6 +14,16 @@ TODO
 
 ### When to use `emplace_hint()`?
 
+### What is `forward` and when to use it?
+
+### How to use var args in templates and in functions?
+
+### what is `future` and when to use it?
+
+### How to return a value form a `thread`?
+
+### What is `ref` and when to use it?
+
 ## Conceptual
 ### Why `class Compare`
 in sort()
