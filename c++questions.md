@@ -44,6 +44,14 @@ unique shared but more.
 ### How do you share data between in threads?
 Does lambda capture work between threads?
 
+### How to use generators/`yield` in C++?
+Coroutines2 [see](https://stackoverflow.com/questions/9059187/equivalent-c-to-python-generator-pattern)
+
+## Refreshing about my own previous work.
+### `array` verus `multi_array` versus `valarray` versus arrays versus ... .
+### emplace
+### usage of maps.
+
 ## Conceptual
 ### Why `class Compare`
 in sort()
