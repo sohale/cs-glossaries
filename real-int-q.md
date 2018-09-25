@@ -15,4 +15,6 @@ Then How does it solve the availability problem when listening to threads/http r
 #### green threads
 #### pthread
 
-#### Also see [this](python-interview-notes.md)
+#### Also see
+* [python-interview-notes](python-interview-notes.md)
+* .
