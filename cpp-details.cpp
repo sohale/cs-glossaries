@@ -23,7 +23,11 @@ struct cmp
     {
         return frequency[a] < frequency[b];
     }
+    // interesting idea.
+    // nice idea aboub this type of comparator:
+    // This way, no function pointer will be necessary. Everything will be done strictly compiletime. Also no C()() (i.e. operator() ).
 };
+
 set<int, cmp> s;
 priority_queue<int, vector<int>, cmp> pq;
 // See questions: Why is () used in the following?
