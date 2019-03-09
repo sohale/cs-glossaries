@@ -80,6 +80,8 @@ const p1 = new Promise((resolve, reject)=>{
 .finally((f0)=>{
     console.log('finally', 'f0=', f0);
     // f0=undefined. why?
+
+    console.log('promise p1 in the finally():', p1);
     return 'fin.'
 });
 
@@ -89,7 +91,6 @@ console.log('p1', p1);
 
 setTimeout(()=>{
     console.log('promise p1 after finishing the last of the then() chain:', p1);
-    console.log(p1.toString());
 }, 500);
 
 
@@ -100,9 +101,12 @@ setTimeout(()=>{
 // What is p1.domain?
 
 
+// So a promise represents a control flow. IT has an end. (resolved value) . astate: <pending>.
+// A finally (after end annd after resolution. Maybe we can access the resolved value there)
+// Note: The state is shown as <pending> inside the finally().
 
-/* output
 
+/* . output
 
 global::this {}
 global::this { q: 'global::this.q' }
@@ -115,6 +119,7 @@ promise p1 after finishing body but before finishing the last of then() chain: P
 promise p1 Promise { <pending> }
 promise p1==g1? true
 finally f0= undefined
+promise p1 in the finally(): Promise { <pending> }
 promise p1 after finishing the last of the then() chain: Promise { 'G2' }
 
 */
