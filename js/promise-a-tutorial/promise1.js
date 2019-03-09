@@ -6,6 +6,7 @@ const p1 = new Promise((resolve, reject)=>{
     console.log('promise 1 execution');
 
     const A2='A2', B3='B3', C4='C4', D5='D5';
+    // return D5; // If returns before (without) resolve, the '.then' clause is neveer executed.
     resolve(A2)
     reject(B3);
 
@@ -21,10 +22,10 @@ const p1 = new Promise((resolve, reject)=>{
     console.log('U7', U7);
     console.log('V8', V8);
 
-    //return resolve(a);
+    //return resolve(a); // no point. returns 'undefined'
     //throw reject(b);
 
-    return D5;
+    return D5; // no trace of returned value is left
 })
 .then((t1)=>{
     console.log('then', 't1=', t1);
@@ -36,7 +37,9 @@ const p1 = new Promise((resolve, reject)=>{
 
 });
 
+// p1 is already executed if the queue is empty.
 console.log('p1', p1);
+// p1 is still unresolved
 
 /*
 output:
