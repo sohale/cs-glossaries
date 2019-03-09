@@ -28,12 +28,12 @@ var p1 = new Promise((resolve, reject)=>{
 })
 ```
 
-What happens to C4, D5?
+What happens to `C4`, `D5`?
 What if we return after resolve?
 what is we resolve twice?
 or resolve, then reject?
 
-When if p's body is executed and then we attach a `.then()`?
+When if `p`'s body is executed and then we attach a `.then()`?
 What if we `.then()` a `p` and then `.then()` the same `p`?
 
 * If the `p` is executed already, and then we `.then()` it, when will the `then()`ed clause be executed? For example:
@@ -52,7 +52,7 @@ p.then((x)=>{console.log('then 2', x);})
     resolve(x);
 })
 ```
-, is it only a resolve of an outer promise?
+then, is it necessarily a resolve of an outer promise?
 
 * In what case we return the resolved?
 ```javascript
