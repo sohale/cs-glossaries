@@ -1,3 +1,7 @@
+console.log('::this', this);
+this.q='this-q';
+console.log('::this', this);
+
 const p1 = new Promise((resolve, reject)=>{
     console.log('promise 1 execution');
 
@@ -6,7 +10,7 @@ const p1 = new Promise((resolve, reject)=>{
     reject(B3);
 
     W6 = this;
-    console.log('W6', W6);
+    console.log('this: W6', W6);
 
     //throw C4;
     //return D5;
@@ -21,16 +25,15 @@ const p1 = new Promise((resolve, reject)=>{
     //throw reject(b);
 
     return D5;
+})
+.then((t1)=>{
+    console.log('then', 't1=', t1);
+    const G1 = 'G1', H2='H2';
+    const I3 = this;
+    console.log('then: this: I3', I3);
+    return G1;
+    //throw H2
+
 });
 
 console.log('p1', p1);
-
-/* Output:
-
-promise 1 execution
-W6 {}
-U7 undefined
-V8 undefined
-p1 Promise { 'A2' }
-
-*/
