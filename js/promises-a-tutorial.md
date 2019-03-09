@@ -8,7 +8,7 @@ bonus:
 
 Allinputs and outputs of Promise:
 
-```
+```javascript
 var p1 = new Promise((resolve, reject)=>{
     BODY
 
