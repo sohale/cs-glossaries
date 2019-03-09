@@ -1,6 +1,6 @@
-console.log('::this', this);
-this.q='this-q';
-console.log('::this', this);
+console.log('global::this', this);
+this.q = 'global::this.q';
+console.log('global::this', this);
 
 const p1 = new Promise((resolve, reject)=>{
     console.log('promise 1 execution');
