@@ -60,3 +60,9 @@ new Promise((res, rej)=>{
     return res(9);
 });
 ```
+
+
+### Answers
+
+`return` is useless and pointless in the promise body. It is just about leaving the code block.
+the return vaue from `resolve` is simpluy `undefined`.
