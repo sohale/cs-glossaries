@@ -66,3 +66,9 @@ new Promise((res, rej)=>{
 
 `return` is useless and pointless in the promise body. It is just about leaving the code block.
 the return vaue from `resolve` is simpluy `undefined`.
+
+
+(When we don't resolve)
+If in promise body, we `throw`, it goes inot the catch. But if we `return`, it doesn't enter the `then()`.
+
+If no `resolve()` or `reject()` yet, `throw` -> `catch`, but `return` -(NOT)-> `then()`.
