@@ -17,8 +17,12 @@ const p1 = new Promise((resolve, reject)=>{
     const A2='A2', B3='B3', C4='C4', D5='D5';
     const A2_promise = new Promise((accept2, reject2)=>{
         console.log('promise2::body()')
-        const AA2='AA2';
-        accept2(AA2);
+        console.log(';;');
+        const AA2 = A2 + '.AA2';
+        setTimeout(()=>{
+            accept2(AA2);
+        }, 500);
+
     })
     .then((d)=>{
         console.log('promise2::then(): received: '+d);
@@ -63,6 +67,7 @@ const p1 = new Promise((resolve, reject)=>{
 // p1 is already executed if the queue is empty.
 console.log('p1', p1);
 // p1 is still unresolved
+console.log('.');
 
 /* Output:
 
