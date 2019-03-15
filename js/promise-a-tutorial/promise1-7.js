@@ -3,8 +3,10 @@
 // Promises can be chained by returning (actually, resolving) a Promise object. i.e. A value wrapped in a promise.
 // It kind of flattens the Promises.
 //
-// Incorrect: A promise is out-resolved (a resolved promise turning into a value) even between  a promise body and its then.
-//
+// ? A promise is out-resolved (a resolved promise turning into a value) even between  a promise body and its then.
+//  Even if the "then() return"s a promise object, it is like a promise resolving another promise object.
+//  A then() that returns a Promise also extracts (not resolves) the resolved value of that promise (and waits for it, but in the upper one. The wait is not done there in the then())."
+
 console.log('global::this', this);
 this.q = 'global::this.q';
 console.log('global::this', this);
@@ -19,33 +21,34 @@ const p1 = new Promise((resolve, reject)=>{
         accept2(AA2);
     })
     .then((d)=>{
-        // Incorrect: A promise is out-resolved (a resolved promise turning into a value) even between  a promise body and its then.
         console.log('promise2::then(): received: '+d);
-        return d+'->then';
+        console.log('triggering a wait fork. waiting... ');
+
+        // return d+'->then';
+        const p = new Promise((accept3, reject3)=>{
+            setTimeout(()=>{
+
+                // ? A promise is out-resolved (a resolved promise turning into a value) even between  a promise body and its then.
+                accept3(d+'->then(delayed 500)');
+            }, 500);
+        });
+        console.log('                note: the then() itself does not wait at the end of it. Is it  the resolve that waits? no! ');
+        return p;
     });
 
     // return D5; // If returns before (without) resolve, the '.then' clause is neveer executed.
-    resolve(A2_promise)
+    resolve(A2_promise);
+    console.log('resolve() does not wait.');
     reject(B3);
 
     W6 = this;
-    console.log('this: W6', W6);
-
-    //throw C4;
-    //return D5;
-
-    U7 = resolve(A2);
-    V8 = reject(B3);
-
-    console.log('U7', U7);
-    console.log('V8', V8);
-
-    //return resolve(a); // no point. returns 'undefined'
-    //throw reject(b);
+    console.log('this = W6', W6);
 
     return D5; // no trace of returned value is left
 })
 .then((t1)=>{
+    console.log('... end of waiting. The waiting happens here: between the higher promise (which resolved a promise that resolved another) and its then');
+
     // Receives a string, not a promise.
     // This is a second type of chaining.
     console.log('then', 't1=', t1, typeof t1);
