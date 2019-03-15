@@ -2,21 +2,26 @@ console.log('global::this', this);
 this.q = 'global::this.q';
 console.log('global::this', this);
 
+
 const p1 = new Promise((resolve, reject)=>{
     console.log('promise 1 execution');
 
     const A2='A2', B3='B3', C4='C4', D5='D5';
     // return D5; // If returns before (without) resolve, the '.then' clause is neveer executed.
-    resolve(A2)
+
+    // A throw before resolve/reject leads to the .cacth().
+    // But a return before resolve/reject does not lead to .then().
+    throw C4;
+
+    U7 = resolve(A2)
     reject(B3);
 
     W6 = this;
     console.log('this: W6', W6);
 
-    //throw C4;
     //return D5;
 
-    U7 = resolve(A2);
+    //U7 = resolve(A2);
     V8 = reject(B3);
 
     console.log('U7', U7);
@@ -32,10 +37,22 @@ const p1 = new Promise((resolve, reject)=>{
     const G1 = 'G1', H2='H2';
     const I3 = this;
     console.log('then: this: I3', I3);
+
+    return G1;
+    //throw H2
+
+})
+.catch((t1)=>{
+    console.log('catch', 't1=', t1);
+    const G1 = 'G1', H2='H2';
+    const I3 = this;
+    console.log('then: this: I3', I3);
+
     return G1;
     //throw H2
 
 });
+
 
 // p1 is already executed if the queue is empty.
 console.log('p1', p1);
@@ -54,3 +71,7 @@ then t1= A2
 then: this: I3 { q: 'global::this.q' }
 */
 
+// Final state of the promise
+setTimeout(()=>{
+  console.log('p1', p1);
+}, 500);
