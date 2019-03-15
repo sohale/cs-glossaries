@@ -1,6 +1,10 @@
 //  promise1-7.js: what happens when promises return (resolve) "Promise" objects into their then()s.
+// The outer promise, receives a string, not a promise. This is a second type of chaining.
 // Promises can be chained by returning (actually, resolving) a Promise object. i.e. A value wrapped in a promise.
 // It kind of flattens the Promises.
+//
+// Incorrect: A promise is out-resolved (a resolved promise turning into a value) even between  a promise body and its then.
+//
 console.log('global::this', this);
 this.q = 'global::this.q';
 console.log('global::this', this);
@@ -13,6 +17,11 @@ const p1 = new Promise((resolve, reject)=>{
         console.log('promise2::body()')
         const AA2='AA2';
         accept2(AA2);
+    })
+    .then((d)=>{
+        // Incorrect: A promise is out-resolved (a resolved promise turning into a value) even between  a promise body and its then.
+        console.log('promise2::then(): received: '+d);
+        return d+'->then';
     });
 
     // return D5; // If returns before (without) resolve, the '.then' clause is neveer executed.
