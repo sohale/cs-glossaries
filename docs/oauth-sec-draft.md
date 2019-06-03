@@ -15,6 +15,9 @@ pre (provisional)
 and next iterations.
 conception:
 
+
+Question: what is flowed, replaced by what, concverted to by the other agent.
+
 First pass:
 Issuer: CLIENT
 Triggerer: User.
@@ -49,3 +52,11 @@ But at a higher level they refer to the same object. (closure, but at a higher l
 OAuth assumes there ais one physicaql user (identity). BVut in reality it may be not. For example: It works for the user.
 Or does not have access to all that user has. (cool! like SUDO. No further granularity possible).
 But I could not say it well. But it's OPK.
+
+
+
+Clients asks:
+here is what I will have in the end.
+A daft picture of the final ACCESS CODE: i.e. (provisional scopes list + provisional user identity)   (even the user identity will change.)
+
+client in fact asks for the final object: has it in mind a rough picture. imagination. ideal.
