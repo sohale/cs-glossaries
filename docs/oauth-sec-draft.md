@@ -60,3 +60,26 @@ here is what I will have in the end.
 A daft picture of the final ACCESS CODE: i.e. (provisional scopes list + provisional user identity)   (even the user identity will change.)
 
 client in fact asks for the final object: has it in mind a rough picture. imagination. ideal.
+
+
+
+
+asking the user: another way to see it
+======
+(Instead of seeing it as a thread going through the user, a needle/ring around the thread of the flow of info, ...: )
+The auth server RA'SAN (individually) asks the user.
+aha.
+indenpendently.
+First doesnt trust it.
+(says wait, let me ask him iof he realy asked for it. Now the client is only a BROKER. A vessel to bring user's request to him. A holder. But auth-sever does not trust that carrier. Becuase Carriers/Vessels can fake. The concent is fully in their control)
+But has a direction.
+not the con...
+
+
+aha that information is not an extra bit
+or representation
+or even state (implicit, stage, etc)
+it is in CHANNEL identity (channel label).
+
+ACCESS ROD: is a channel.
+new channel added.
