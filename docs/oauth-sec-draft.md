@@ -53,14 +53,30 @@ OAuth assumes there ais one physicaql user (identity). BVut in reality it may be
 Or does not have access to all that user has. (cool! like SUDO. No further granularity possible).
 But I could not say it well. But it's OPK.
 
-
+The draft of ask
+================
+ideal/draft/ask/imagination
+ideal/request/want/imagination/provisional/pull/intention. Non-accumulated, but the direction.
 
 Clients asks:
 here is what I will have in the end.
 A daft picture of the final ACCESS CODE: i.e. (provisional scopes list + provisional user identity)   (even the user identity will change.)
 
-client in fact asks for the final object: has it in mind a rough picture. imagination. ideal.
+client in fact asks for the final object: has it in mind a rough picture. imagination (one that will be tuned into reality: subj-obj coordination/vonvergence/match/conforming (like prediction/expectaiton with reality: REAL) ). ideal.
+intention.
 
+From beginnig, we are asking for an authoreicaiotn code.
+
+transforms/iterations:
+======================
+So here are three codes.
+Even if two codes, only, but the fist one is profile, configuration, etc.
+
+The contents are repleced.
+but: in fact it is accumulation (only unnecessary stuff is removed. The MI core part is keps and evolved and only completed. Only accumulated. Compatible with the initial direction)
+
+The contents are not the same.
+BNut the lat one has what it required in beginning. Thgrows away unnecessary stuff. But can kleep other things implicitly.
 
 
 
@@ -83,3 +99,7 @@ it is in CHANNEL identity (channel label).
 
 ACCESS ROD: is a channel.
 new channel added.
+
+
+
+
