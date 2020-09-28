@@ -11,9 +11,19 @@ Meta: Scaffolding the principles: Let's create a scaffold on these concerete lea
 
 ## C++ concrete acronyms
 (initialism)
+### SFINAE
 * Substitution failure is not an error (SFINAE)
+### RAII
 * RAII (resource acquisition is initialization)
-"[https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?]"
+[https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?](pronounce)
+
+Also known as Constructor Acquires, Destructor Releases (CADRe) [https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization](see)
+
+A sub-type of RAII is SBRM (Scope-based Resource Management). [https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization](link)
+
+### CADRe
+Constructor Acquires, Destructor Releases. Another name for RAII. See [RAII]
+
 
 ### C++ concepts
 * Constructor Acquires, Destructor Releases'' (CADRe) see RAII
