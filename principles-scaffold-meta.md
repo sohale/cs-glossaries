@@ -49,4 +49,7 @@ These are not technical.
 * Flags Over Objects [see](https://deviq.com/encapsulation/)
 
 ### Candidates for GIL-level
+( #GIL )
 * DRY
+* A written principle much be used by more than one person. Hence, if you search FOO, if the website is down, you will findd the meaning (like robustness by "clone"s).
+* Mutiple eyeballs (Multiple IDs) => Code, not connectionist. Also it means (need for) explainability.
