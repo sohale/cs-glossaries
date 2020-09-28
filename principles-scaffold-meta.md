@@ -10,8 +10,10 @@ Meta: Scaffolding the principles: Let's create a scaffold on these concerete lea
    * Start with C++ principles. But they are almost univdersal (aat least across C++ and Java, until next paradigm disruption. Some not? In that case, find their roots in GIL).
 
 ## C++ concrete acronyms
+(initialism)
 * Substitution failure is not an error (SFINAE)
-* RAII
+* RAII (resource acquisition is initialization)
+"[https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?]"
 
 ### C++ concepts
 * Constructor Acquires, Destructor Releases'' (CADRe) see RAII
