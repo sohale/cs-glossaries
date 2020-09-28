@@ -57,4 +57,5 @@ These are not technical.
 * DRY
 * A written principle much be used by more than one person. Hence, if you search FOO, if the website is down, you will findd the meaning (like robustness by "clone"s).
 * Mutiple eyeballs (Multiple IDs) => Code, not connectionist. Also it means (need for) explainability.
+Aalso teachability. you must be able to teach everything: you must be able to write about it clearly in stackoverflow, talk about it in aislees of Acadedmy in Athens. A good professor teaches also.
 * Bad memory => more robustness. (also Netflix's stress test: deflectiopn test, perturbation (perturbation test), knock-it-off, ebrace-change in Agile, etc.
