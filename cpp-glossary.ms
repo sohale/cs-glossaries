@@ -84,6 +84,8 @@ Example phrases
 * to manage all heap objects
 * C-style cast is a dangerous form of explicit type conversion; prefer new-style cast [G]
 
+See: "Meta: Scaffolding the principles" [./principles-scaffold-meta.md]
+
 ## Quotations
 * there are far more resource acquisitions than kinds of resources
 
