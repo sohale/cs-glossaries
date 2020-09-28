@@ -16,7 +16,7 @@ Meta: Scaffolding the principles: Let's create a scaffold on these concerete lea
 * Substitution failure is not an error (SFINAE)
 ### RAII
 * RAII (resource acquisition is initialization)
-[(pronounciation)](https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?)
+[pronunciation](https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?)
 
 Also known as Constructor Acquires, Destructor Releases (CADRe) [see](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 
