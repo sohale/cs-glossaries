@@ -3,7 +3,7 @@ Meta:
 
 Meta: Scaffolding the principles: Let's create a scaffold on these concerete learnings.
 
-* (Also see [./cpp-glossary.md])
+* (Also see (./cpp-glossary.md##phrases))
 * These are not design patterns. More than that.
 * Abstractions to organise LTM lernings, Implicit knowledge.
    * To: consolidate them, make them explicit, make them tangible (almost like concrete).
