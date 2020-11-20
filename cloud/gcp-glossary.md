@@ -18,6 +18,8 @@ Mixed notes:
 
 * Data Studio: Pub/Sub
 
+Not to get confused:
+* BigQuery (with: bigTable)
 
 I did:
 BigQuery
