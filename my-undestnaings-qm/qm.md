@@ -15,6 +15,10 @@ Or recur.
 * L.A: Unitary, Real, etc Matrices.
 
 ### (uncategorised)
+Highlights:
+* Hermician matrices associate with observables.
+
+
 #### Hermician matrices
-Hermician matrices associate with observables.
+Each observable is a [Hermitian] matrix. Since most times Hermitian matrices don't [commute], obervables don't commute. Then uncertinty in derived* from this. (I say derived, that is, I try to avoid to sya that objevctiveerly-results from it).
 
