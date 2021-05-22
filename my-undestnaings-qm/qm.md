@@ -1,8 +1,9 @@
 # Quantum Mechanics
-My QM book
+My QM book.
 
-## (My) intro to Quantum Mechanics:
+(My) intro to Quantum Mechanics:
 
+How I charaacterise (intention/telos/reason-for-existeence/apriori-essense) this book:
 * The way I see it.
 * With my own confusions.
 
