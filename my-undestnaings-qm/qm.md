@@ -28,7 +28,7 @@ Each observable is a [Hermitian] matrix. Since most times Hermitian matrices don
 
 ![A=A^H](https://wikimedia.org/api/rest_v1/media/math/render/svg/8aa270391d183478251283d2c4b2c72ac4563352)
 
-Properties:
+Properties: [x][1]
 * Equality with the adjoint (conjugate transpose)
 * unitarily diagonalizable
 * real eigenvalues
@@ -42,3 +42,5 @@ A bit confusing:
 * `A` `A^H`=`A` `A`=`A^H`
 * can be diagonalized by a [unitary matrix]
 (based on finite-dimensional [spectral theorem](https://en.wikipedia.org/wiki/Spectral_theorem#Hermitian_maps_and_Hermitian_matrices))
+
+[1]https://en.wikipedia.org/wiki/Hermitian_matrix#Properties
