@@ -33,6 +33,6 @@ Properties:
 * unitarily diagonalizable
 * real eigenvalues
 
-And of course is:
+And of course:
 * is square
-
+* diagonal elements must be real, 
