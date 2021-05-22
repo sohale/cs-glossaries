@@ -6,6 +6,7 @@ My QM book.
 How I charaacterise (intention/telos/reason-for-existeence/apriori-essense) this book:
 * The way I see it.
 * With my own confusions.
+* This is my substitute long-term-memory (extended mind, a mind helper).
 
 ### I usually confuse:
 Or recur.
