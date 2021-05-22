@@ -35,4 +35,7 @@ Properties:
 
 And of course:
 * is square
-* diagonal elements must be real, 
+* diagonal elements must be real
+A bit comfusing:
+* Every Hermitian matrix is a [normal matrix].
+* `A` `A^H`=`A` `A`=`A^H`
