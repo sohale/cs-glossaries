@@ -41,4 +41,4 @@ A bit confusing:
 * Every Hermitian matrix is a [normal matrix].
 * `A` `A^H`=`A` `A`=`A^H`
 * can be diagonalized by a [unitary matrix]
-(based on finite-dimensional spectral theorem)
+(based on finite-dimensional [spectral theorem](https://en.wikipedia.org/wiki/Spectral_theorem#Hermitian_maps_and_Hermitian_matrices))
