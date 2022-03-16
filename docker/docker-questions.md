@@ -31,12 +31,22 @@ Keyword: `exec`
 * docker downloaded item = `imc`
 
 #### Algebra: building blocks: generators.
-* `p` = process
+* `p` = process. (aka runtime)
+*    process: 1. memory (meaningful onyl for process) 2. CPU now running or not. 3. bindings? actually bindings are ouside the proocess.
 * image instance (exact copy)
 * image + instnaantiation HDD modificaations
 * image + instnaantiation HDD modificaations + Volumme HDD modifications
 * image skeleton ( = Dockerfile? )
-* 
+* bindings: ports, networking, volume. Can be changes in runtime (ie process)
+* hsot-bindings: map fo processes, map of users, etc.
+
+#### -time s:
+(Lifecycle atom/blocks)
+* run-time
+* image time
+* build time
+* compose-time
+* host time? no. (can be here or in an outside server)
 
 ### Describe the (conceptual layers) in most succint way.
 (Same as building blocks?)
