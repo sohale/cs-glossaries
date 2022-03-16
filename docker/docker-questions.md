@@ -30,6 +30,13 @@ Keyword: `exec`
 * `docker image ls` item
 * docker downloaded item = `imc`
 
+#### Algebra: building blocks: generators.
+* `p` = process
+* image instance (exact copy)
+* image + instnaantiation HDD modificaations
+* image + instnaantiation HDD modificaations + Volumme HDD modifications
+* image skeleton ( = Dockerfile? )
+* 
 
 ### Describe the (conceptual layers) in most succint way.
 (Same as building blocks?)
