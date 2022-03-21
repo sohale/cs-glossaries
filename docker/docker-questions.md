@@ -17,7 +17,8 @@ Keyword: `exec`
 
 The `docker compose` will not neeed a sepret `pull`. Becaue, if will also `pull`, ( as part of `run`). 
 Formally: If neccessary: `pull`, everytime: "instantiate", everytime: `exec`ute)
-(LC language: only a tag)
+(LC language: only a tag. For tags part only. see personal notes.)
+
 Recursive DSL:
 `compose`: includes: `run` (recursion)
 `run`: includes 'instantiate' (everytime)
