@@ -15,6 +15,16 @@ Keyword: `exec`
 * ...
 * docker run + 
 
+The `docker compose` will not neeed a sepret `pull`. Becaue, if will also `pull`, ( as part of `run`). 
+Formally: If neccessary: `pull`, everytime: "instantiate", everytime: `exec`ute)
+(LC language: only a tag)
+Recursive DSL:
+`compose`: includes: `run` (recursion)
+`run`: includes 'instantiate' (everytime)
+`run`: includes 'exec' (everytime)
+
+
+
 ### How to remove the container's process and instance after `run`:
 * Use `--rm` in `docker run`
 
