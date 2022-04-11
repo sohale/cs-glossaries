@@ -1,0 +1,3 @@
+[submodule "cpp-practice/Clang-in-Docker"]
+	path = cpp-practice/Clang-in-Docker
+	url = git@github.com:sol-prog/Clang-in-Docker.git
