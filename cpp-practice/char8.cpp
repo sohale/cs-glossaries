@@ -3,11 +3,12 @@
 
 #include <iostream>
 
-wchar_t frog = '🐸';
-// warning: multi-character character constant [-Wmultichar]
 
 int main() {
+    wchar_t frog = '🐸';
+    // warning: multi-character character constant [-Wmultichar]
     std::cout << frog;
-
     // output: -257978184%
+
+
 }
