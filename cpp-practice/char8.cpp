@@ -1,10 +1,13 @@
+//  detect the problem is pre-C++20
+// sizeof(frog)
 
 #include <iostream>
-chat_t frog = '🐸'
+
+wchar_t frog = '🐸';
+// warning: multi-character character constant [-Wmultichar]
 
 int main() {
     std::cout << frog;
 
-    //  detect the problem is pre-C++20
-    // sizeof(frog)
+    // output: -257978184%
 }
