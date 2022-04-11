@@ -11,7 +11,7 @@ However, it is alswo useful for refreshing mmind about the concepts and syntax.
 
 Keep these siolated from the rest of the repo.
 
-The focus (mental investment/attention/priority) will be on C++20.
+The focus (mental investment/attention/priority) will be on [C++20](https://en.cppreference.com/w/cpp/20).
 
 
 ### Sepcific questions:
