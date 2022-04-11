@@ -6,6 +6,6 @@
 # inside the container:
 set -ex
 cd /sosi
-g++ ./char8.cpp
+g++  -std=c++20 ./char8.cpp
 ls -alt
 ./a.out
