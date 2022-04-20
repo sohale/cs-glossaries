@@ -1,0 +1,3 @@
+What each of the following does:
+
+* `npm prune --production` (used in Jenkinsfile) remove packages from node_modules that are not in package.json/dependencies
