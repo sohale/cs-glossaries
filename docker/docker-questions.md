@@ -63,3 +63,14 @@ Recursive DSL:
 (Same as building blocks?)
 
 ### Describe the layers in a less succint way.
+
+### Simple: tiers
+| tier | `docker run` | `docker exec` | `dockker pull` |
+| --- | ---| --- | --- |
+| physical files: remote |
+| physical files:local |
+| layers: local (state: only index: aayer id) immutble|
+| runing kernel: no |
+|  files for running process (a new layer)  (disk state)|
+| running process (memory) + env +etc  (state) |
+| other processes   |
