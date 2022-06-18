@@ -2,13 +2,13 @@
 Describe KNN:
 
 ### Context
-A classifier:
+It's a classifier:
 
-Given: DataSet = set of $(X_,y_i) \in R^d\times C$, where $C=\\{1,2\\}$ is the set of labels/colours .
+Given: `DataSet` = set of $(X_,y_i) \in R^d\times C$, where $C=\\{1,2\\}$ is the set of labels/colours .
 
 Find $f(X)$ for $f: R^d\rightarrow C$ for any ∀ $X\in R^d$
 
-$X$ can be points not in the DataSet.
+$X$ can be points not in the `DataSet` (interpoltion and extrapolation).
 
 ### The main algorithm
 
