@@ -8,7 +8,7 @@ Various names:
 
 About 17 Jul 2015 I attempted reading [1].
 
-
+## Reading material:
 * [1] 2003. Paul Viola. Michale J. Jones. Robust Real-Time Face Detection.
 International Journal of Computer Vision 57(2), 137–154, 2004.
 [dl1](https://www.face-rec.org/algorithms/boosting-ensemble/16981346.pdf)
