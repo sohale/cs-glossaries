@@ -13,6 +13,9 @@ $X$ can be points not in the `DataSet` (interpoltion and extrapolation).
 ### The main algorithm
 [⋯]
 
+
+The main technical technic in proof is this: "as the amount of data approaches infinity" (keeps the distribution the same, distances decrease).
+
 ## Related:
 
 ###  Bayes error rate
