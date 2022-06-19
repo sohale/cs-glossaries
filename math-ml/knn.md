@@ -4,13 +4,14 @@ Describe the KNN
 ### Context
 It's a classifier:
 
-Given: `DataSet` = set of $(X_, y_i) \in R^d\times C$, where $C=\\{1,2\\}$ is the set of labels/colours . 🔑
+Given: `DataSet` = set of $(X_, y_i) \in R^d\times C$,
+where $C=\\{1,2\\}$ is the set of labels/colours . 🔑
 
 for query point $x$;
 
-Find $f(x)$ for $f: R^d\rightarrow C$ for any ∀ $x\in R^d$
+Find $f(x)$ for $f: R^d\rightarrow C$, for any ∀ $x\in R^d$
 
-$X$ can be points not in the `DataSet` (interpoltion and extrapolation).
+$x$ can be points not in the `DataSet` (interpoltion and extrapolation). $∀ i: x\neq X_i$
 
 #### Minor:
 
