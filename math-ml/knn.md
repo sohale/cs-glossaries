@@ -37,6 +37,7 @@ The main technical trick in proof is this: "as the amount of data approaches inf
 #### Also see:
 * Neighbourhood Components Analysis 🕳
 * Large Margin Nearest Neighbor 🕳
+*  leave-one-out error
 
 ### k-d trees
 https://en.wikipedia.org/wiki/K-d_tree
