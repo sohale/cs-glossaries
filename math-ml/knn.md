@@ -13,7 +13,7 @@ find $f(x)$ for $f: R^d\rightarrow C$, for any ∀ $x\in R^d$
 
 $x$ can be points not in the `DataSet` (interpoltion and extrapolation). $∀ i: x\neq X_i$
 
-#### Minor:
+<!-- #### Minor: -->
 
 
 #### The main algorithm
