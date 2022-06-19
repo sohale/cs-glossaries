@@ -17,10 +17,10 @@ $x$ can be points not in the `DataSet` (interpoltion and extrapolation). $∀ i:
 
 
 #### The main algorithm
-* Assign the label which is **most frequent** among `NN`$(x)$`[:k]`
+* Assign the label which is **most frequent** among `NN`$(x)$`[:k]`,
+* for query point $x$,
    * `NN`$(x)$`[:k]` first k elements of: <!--is the k training samples nearest to that query point.-->
-   * `NN`$(x)$ := DataSet in descending order of distance from $x$. <!--: dist(X_`NN[1]`,x) $\le$ dist(X_`NN[2]`, x) $\le$ ...-->
-   * for query point $x$
+      * `NN`$(x)$ is DataSet in descending order of distance from $x$. <!--: dist(X_`NN[1]`,x) $\le$ dist(X_`NN[2]`, x) $\le$ ...-->
 
 [⋯]
 
