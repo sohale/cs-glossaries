@@ -25,7 +25,7 @@ $x$ can be points not in the `DataSet` (interpoltion and extrapolation). $∀ i:
 [⋯]
 
 
-The main technical technic in proof is this: "as the amount of data approaches infinity" (keeps the distribution the same, distances decrease).
+The main technical trick in proof is this: "as the amount of data approaches infinity" (keeps the distribution the same, distances decrease).
 
 Also see:
 * Neighbourhood Components Analysis 🕳
