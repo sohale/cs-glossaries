@@ -6,15 +6,27 @@ It's a classifier:
 
 Given: `DataSet` = set of $(X_,y_i) \in R^d\times C$, where $C=\\{1,2\\}$ is the set of labels/colours . 🔑
 
-Find $f(X)$ for $f: R^d\rightarrow C$ for any ∀ $X\in R^d$
+Find $f(x)$ for $f: R^d\rightarrow C$ for any ∀ $x\in R^d$
 
 $X$ can be points not in the `DataSet` (interpoltion and extrapolation).
 
-### The main algorithm
+#### Minor:
+
+
+#### The main algorithm
+* Assign the label which is most frequent among `NN[:k]`
+   * `NN[:k]` first k elements of <!--is the k training samples nearest to that query point.-->
+   * NN$(x)$ := samples nearest to $x$ in descending order of distance <!--: dist(X_`NN[1]`,x) $\le$ dist(X_`NN[2]`, x) $\le$ ...-->
+   * query point := $x$
+
 [⋯]
 
 
 The main technical technic in proof is this: "as the amount of data approaches infinity" (keeps the distribution the same, distances decrease).
+
+Also see:
+* Neighbourhood Components Analysis 🕳
+* Large Margin Nearest Neighbor 🕳
 
 ## Related:
 
