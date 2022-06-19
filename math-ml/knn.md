@@ -4,7 +4,7 @@ Describe the KNN
 ### Context
 It's a classifier:
 
-Given: `DataSet` = set of $(X_,y_i) \in R^d\times C$, where $C=\\{1,2\\}$ is the set of labels/colours . 🔑
+Given: `DataSet` = set of $(X_, y_i) \in R^d\times C$, where $C=\\{1,2\\}$ is the set of labels/colours . 🔑
 
 Find $f(x)$ for $f: R^d\rightarrow C$ for any ∀ $x\in R^d$
 
