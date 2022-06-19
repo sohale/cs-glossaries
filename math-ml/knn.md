@@ -27,14 +27,16 @@ $x$ can be points not in the `DataSet` (interpoltion and extrapolation). $∀ i:
 
 The main technical trick in proof is this: "as the amount of data approaches infinity" (keeps the distribution the same, distances decrease).
 
-Also see:
-* Neighbourhood Components Analysis 🕳
-* Large Margin Nearest Neighbor 🕳
+
 
 ## Related:
 
 ###  Bayes error rate
 [Bayes error rate](https://en.wikipedia.org/wiki/Bayes_error_rate) := the minimum achievable error rate given the distribution of the data. 🌪🕳
+
+#### Also see:
+* Neighbourhood Components Analysis 🕳
+* Large Margin Nearest Neighbor 🕳
 
 ### k-d trees
 https://en.wikipedia.org/wiki/K-d_tree
