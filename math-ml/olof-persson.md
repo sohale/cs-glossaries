@@ -15,22 +15,25 @@ Hopes/applicaitons:
 Terms: Implicit Geometries
 
 ## Formalism
+### Equations
 * $f(l,l_0)=-\operatorname{ReLU} \left(  k(l - l_0) \right)$
 * $\frac{dx}{dt}=F(x)$
 * $F(x)=F_{int}(x) + F_{ext}(x)$
+* $x = x - \operatorname{ReLU}(d) \nabla g(x)$, $d=g(x)$
 
-* $x = x - \operatorname{ReLU}(d) \nabla f(x)$, $d=g(x)$
-Notes:
+
+### Notes:
 * "bar"s ($F_{int}$) and "boundary"s ($F_{ext}$)
 * "The points can move along the boundary, but not go outside"
 * [mesh]Points are on "Delaunay triangulation of the meshpoints"
 * Delaunay triangulation is updated (change of toplogy) at each Euler step
    * centroids
-   * Matlab `delaunayn` [](https://www.mathworks.com/help/matlab/ref/delaunayn.html) does N-dim Delaunay
+   * Matlab `delaunayn` [delaunayn](https://www.mathworks.com/help/matlab/ref/delaunayn.html) does N-dim Delaunay
    * gives triplets of indices that form a Delaunay (n+1 points for N-dim).
 * Equilibrium is $F(p) = 0$
 * Force $F$ has disconuity.
 * $F_{ext}(x)$ : points that go outside are moved back to the closest boundary point
+* A procedure for calculating SDF from implicit.
 
 ## Resources
 ### DistMesh page
