@@ -4,3 +4,9 @@ from [this post](https://blog.jessriedel.com/2017/06/28/legendre-transform/)
 
 ### Maybe:
 * Quora [difference between Lagr & Ham](https://www.quora.com/What-is-the-difference-between-Lagrangian-and-Hamiltonian-mechanics)
+
+### Also see
+* [Eigenvalues](eigenvalues.md) (this)
+* [Lagrange multipliers](./lagrange-multipliers.md)
+* [Nonlinear Optimisation methods with constraints](./nlo.md)
+* [sspanal](https://github.com/sohale/sspanel/blob/master/m1/links-panel.md)
