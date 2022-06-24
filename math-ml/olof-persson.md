@@ -15,7 +15,7 @@ Hopes/applicaitons:
 Terms: Implicit Geometries
 
 ## Formalism
-$f(l,l_0)=-\operatorname{ReLU}\left\{  k(l - l_0) \right\}$
+$f(l,l_0)=-\operatorname{ReLU} \left(  k(l - l_0) \right)$
 ## Resources
 ### DistMesh page
 * [DistMesh](http://persson.berkeley.edu/distmesh/) page
