@@ -5,6 +5,7 @@ various aspects and insights
 
 Hopes/applicaitons:
 * Implicit surfaces
+   * adaptive "add salt & pepper"
 * Equi-frequency discreitisation
 * Whitening ideas
 
