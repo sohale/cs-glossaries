@@ -22,6 +22,8 @@ Terms: Implicit Geometries
 Notes:
 * "bar"s ($F_{int}$) and "boundary"s ($F_{ext}$)
 * "The points can move along the boundary, but not go outside"
+* [mesh]Points are on "Delaunay triangulation of the meshpoints"
+* Delaunay triangulation is updated at each Euler step
 
 ## Resources
 ### DistMesh page
