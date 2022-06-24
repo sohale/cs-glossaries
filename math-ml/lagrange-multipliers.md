@@ -1,6 +1,9 @@
 # Lagrange Multipliers
 
-External links to read
+### Lagrange dual
+
+### External links to read:
+
 * [history-of-lagrange-multipliers](https://math.stackexchange.com/questions/769437/history-of-lagrange-multipliers)
 * Maybe:
    * [search on quora](https://www.quora.com/search?q=lagrange%20multipliers)
