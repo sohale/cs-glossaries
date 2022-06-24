@@ -14,12 +14,19 @@ Hopes/applicaitons:
 
 Terms: Implicit Geometries
 
-
-## DistMesh page
+## Formalism
+$f(l,l_0)=-\operatorname{ReLU}( k(l - l_0) )$
+## Resources
+### DistMesh page
 * [DistMesh](http://persson.berkeley.edu/distmesh/) page
 * [thesis](http://persson.berkeley.edu/thesis/persson-thesis-color.pdf), [slides](http://persson.berkeley.edu/thesis/persson-thesis-presentation.pdf)
 * SIAM Review [paper](http://persson.berkeley.edu/distmesh/persson04mesh.pdf) 2004
 
-
+## Coincidences etc
+### Coincidences
+* Similarities with neural networks:
+   * ReLU.
+* 
+### Questions
 * What are "Level set methods"?
 * What is his intuition in evolving surfaces?
