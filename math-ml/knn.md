@@ -49,8 +49,9 @@ https://en.wikipedia.org/wiki/K-d_tree
 * 🌪: missing concept in my kowledge (hole 🕳). A Lack.
 * [⋯] to be filled in (but not really missing in mind. not a Lack)
 
-### Also see table
+### Also see (table of)
 * [Eigenvalues](eigenvalues.md) (this)
 * [Lagrange multipliers](./lagrange-multipliers.md)
 * [Nonlinear Optimisation methods with constraints](./nlo.md)
+* [KNN](./knn.md)
 * [sspanal](https://github.com/sohale/sspanel/blob/master/m1/links-panel.md)
