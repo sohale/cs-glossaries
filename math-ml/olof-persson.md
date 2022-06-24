@@ -17,10 +17,10 @@ Terms: Implicit Geometries
 ## Formalism
 * $f(l,l_0)=-\operatorname{ReLU} \left(  k(l - l_0) \right)$
 * $\frac{dx}{dt}=F(x)$
-* $F(x)=F_{int}(x) + F_{int}(x)$
+* $F(x)=F_{int}(x) + F_{ext}(x)$
 
 Notes:
-* "bar"s and "boundary"s
+* "bar"s ($F_{int}$) and "boundary"s ($F_{ext}$)
 * "The points can move along the boundary, but not go outside"
 
 ## Resources
