@@ -24,6 +24,8 @@ Notes:
 * "The points can move along the boundary, but not go outside"
 * [mesh]Points are on "Delaunay triangulation of the meshpoints"
 * Delaunay triangulation is updated (change of toplogy) at each Euler step
+   * centroids
+   * Matlab `delaunayn` [](https://www.mathworks.com/help/matlab/ref/delaunayn.html) does N-dim Delaunay
 * Equilibrium is $F(p) = 0$
 * Force $F$ has disconuity.
 * $F_{ext}(x)$ : points that go outside are moved back to the closest boundary point
