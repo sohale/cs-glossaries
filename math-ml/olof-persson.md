@@ -23,7 +23,8 @@ Notes:
 * "bar"s ($F_{int}$) and "boundary"s ($F_{ext}$)
 * "The points can move along the boundary, but not go outside"
 * [mesh]Points are on "Delaunay triangulation of the meshpoints"
-* Delaunay triangulation is updated at each Euler step
+* Delaunay triangulation is updated (change of toplogy) at each Euler step
+* Equilibrium is $F(p) = 0$
 
 ## Resources
 ### DistMesh page
