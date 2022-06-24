@@ -26,6 +26,7 @@ Notes:
 * Delaunay triangulation is updated (change of toplogy) at each Euler step
    * centroids
    * Matlab `delaunayn` [](https://www.mathworks.com/help/matlab/ref/delaunayn.html) does N-dim Delaunay
+   * gives triplets of indices that form a Delaunay (n+1 points for N-dim).
 * Equilibrium is $F(p) = 0$
 * Force $F$ has disconuity.
 * $F_{ext}(x)$ : points that go outside are moved back to the closest boundary point
