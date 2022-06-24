@@ -10,8 +10,10 @@ Hopes/applicaitons:
    * adaptive sampling using `l(x)`
 * Equi-frequency discreitisation
 * Whitening ideas
+* What is the "eigenvalue" in that graph?
 
 Terms: Implicit Geometries
+
 
 ## DistMesh page
 * [DistMesh](http://persson.berkeley.edu/distmesh/) page
