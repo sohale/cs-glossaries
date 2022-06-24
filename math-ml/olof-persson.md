@@ -25,6 +25,7 @@ Notes:
 * [mesh]Points are on "Delaunay triangulation of the meshpoints"
 * Delaunay triangulation is updated (change of toplogy) at each Euler step
 * Equilibrium is $F(p) = 0$
+* Force $F$ has disconuity.
 
 ## Resources
 ### DistMesh page
