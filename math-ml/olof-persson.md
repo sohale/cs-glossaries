@@ -19,6 +19,7 @@ Terms: Implicit Geometries
 * $\frac{dx}{dt}=F(x)$
 * $F(x)=F_{int}(x) + F_{ext}(x)$
 
+* $x = x - \operatorname{ReLU}(d) \nabla f(x)$, $d=g(x)$
 Notes:
 * "bar"s ($F_{int}$) and "boundary"s ($F_{ext}$)
 * "The points can move along the boundary, but not go outside"
