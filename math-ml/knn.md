@@ -48,3 +48,9 @@ https://en.wikipedia.org/wiki/K-d_tree
 * 🔑: key point, was missing. An insight. unblock.
 * 🌪: missing concept in my kowledge (hole 🕳). A Lack.
 * [⋯] to be filled in (but not really missing in mind. not a Lack)
+
+### Also see table
+* [Eigenvalues](eigenvalues.md) (this)
+* [Lagrange multipliers](./lagrange-multipliers.md)
+* [Nonlinear Optimisation methods with constraints](./nlo.md)
+* [sspanal](https://github.com/sohale/sspanel/blob/master/m1/links-panel.md)
