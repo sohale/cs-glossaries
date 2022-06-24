@@ -6,6 +6,8 @@ various aspects and insights
 Hopes/applicaitons:
 * Implicit surfaces
    * adaptive "add salt & pepper"
+   * higher >3 dimensions
+   * adaptive sampling using `l(x)`
 * Equi-frequency discreitisation
 * Whitening ideas
 
