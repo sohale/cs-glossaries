@@ -14,6 +14,6 @@ Not sure what is missing
 * Why sth is multiplied on two sides?
 
 ### Also see
+* [eigenvalues](eigenvalues.md) (this)
 * [Lagrange multipliers](./lagrange-multipliers.md)
 * [Nonlinear Optimisation methods with constraints](./nlo.md)
-
