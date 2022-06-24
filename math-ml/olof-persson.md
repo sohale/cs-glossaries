@@ -19,7 +19,7 @@ Terms: Implicit Geometries
 * $f(l,l_0)=-\operatorname{ReLU} \left(  k(l - l_0) \right)$
 * $\frac{dx}{dt}=F(x)$
 * $F(x)=F_{int}(x) + F_{ext}(x)$
-* $x = x - d \nabla g(x)$, $d=\operatorname{ReLU}(g(x))$
+* $x = x - d \nabla g(x)$, $d=\operatorname{ReLU}(g(x))$ (more details in the paper)
 
 
 ### Notes:
