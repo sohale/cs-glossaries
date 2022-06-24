@@ -7,6 +7,9 @@ Discusses:
 * Hierarchy of MM-EM etc
 * Relation to dual (convexity: FE, Lagrange Dual)
 
+### Reading material
+primary for me
+* [Hunter & Lange](http://yaroslavvb.com/papers/hunter-tutorial.pdf)'s "A tutorial on MM algorithms"
 
 ### Maybe useful
 From here and there
