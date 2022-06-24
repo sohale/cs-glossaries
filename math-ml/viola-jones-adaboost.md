@@ -17,3 +17,10 @@ Perhaps it's better to read the following first:
 * [2] Rapid object detection using a boosted cascade of simple features
 * [3] Viola, Jones: Robust Real-time Object Detection, IJCV 2001 See pages 1,3.
 * [4] Wikipedia: [Viola–Jones object detection framework](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework#cite_note-1)
+
+### Also see (table of)
+* [Eigenvalues](eigenvalues.md) (this)
+* [Lagrange multipliers](./lagrange-multipliers.md)
+* [Nonlinear Optimisation methods with constraints](./nlo.md)
+* [knn](./knn.md), [svm](./svm.md), [viola-jones](./viola-jones-adaboost.md)
+* [sspanal](https://github.com/sohale/sspanel/blob/master/m1/links-panel.md)
