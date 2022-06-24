@@ -26,6 +26,7 @@ Notes:
 * Delaunay triangulation is updated (change of toplogy) at each Euler step
 * Equilibrium is $F(p) = 0$
 * Force $F$ has disconuity.
+* $F_{ext}(x)$ : points that go outside are moved back to the closest boundary point
 
 ## Resources
 ### DistMesh page
