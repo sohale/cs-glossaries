@@ -18,6 +18,7 @@ Terms: Implicit Geometries
 * $f(l,l_0)=-\operatorname{ReLU} \left(  k(l - l_0) \right)$
 * $\frac{dx}{dt}=F(x)$
 * $F(x)=F_{int}(x) + F_{int}(x)$
+
 Notes:
 * "bar"s and "boundary"s
 * "The points can move along the boundary, but not go outside"
