@@ -8,4 +8,4 @@ Terms: Implicit Geometries
 ## DistMesh page
 * [DistMesh](http://persson.berkeley.edu/distmesh/) page
 * [thesis](http://persson.berkeley.edu/thesis/persson-thesis-color.pdf)
-* 
+* SIAM Review [paper](http://persson.berkeley.edu/distmesh/persson04mesh.pdf) 2004
