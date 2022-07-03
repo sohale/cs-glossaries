@@ -55,6 +55,12 @@ Solutions: the compiler can provide them using `dynamic_cast`, `typeid()`, and `
 ### strict weak ordering
 The strict weak ordering criterion
 
+### header guards
+Three soltuions:
+* `#ifndef MMM #define MMM #endif`
+* `#pragma once`
+* `export module mmm;` (for C++20 )
+
 ## General or broad
 * the initialization syntax
 * exception safety
@@ -95,4 +101,5 @@ See: "Meta: Scaffolding the principles" [./principles-scaffold-meta.md]
 # References
 {{sfn|Stroustrup|1994|p=389|ps=. I called this technique "resource acquisition is initialization."}} RAII is generally pronounced as an [[initialism]], sometimes pronounced as "R, A, double I".<ref>"[https://stackoverflow.com/questions/99979/how-do-you-pronounce-raii How do you pronounce RAII?]", ''StackOverflow''</ref>
 [G] Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
+
 
