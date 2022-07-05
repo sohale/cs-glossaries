@@ -23,6 +23,9 @@ The focus (mental investment/attention/priority) will be on [C++20](https://en.c
 * C++20 concepts: types of name `X auto`. That's it.
    * (Code to be written)
 
+### Checklist
+Things to have/do.
+* allocator [1](https://medium.com/@terselich/1-a-guide-to-implement-a-simple-c-stl-allocator-705ede6b60e4)
 
 ### Some specific references
 * For modules, see [this usage](https://github.com/sosi-org/scientific-code/blob/041e8615dcc1609e03a416d4dd8684edc04b84ba/polysampler/experimentation/sampler1/point_t.hpp)
