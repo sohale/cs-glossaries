@@ -1,7 +1,7 @@
 ## C++20 code practice
 
 C++20 feature exploration
-and C++20 practice
+and C++20 practبice
 
 Since it's C++20, this folder is for C++20. In case of future C++ releases, the related code will be added here.
 
@@ -14,7 +14,7 @@ Keep these siolated from the rest of the repo.
 The focus (mental investment/attention/priority) will be on [C++20](https://en.cppreference.com/w/cpp/20).
 
 
-### Sepcific questions:
+### Specific questions:
 
 * `template` parameters that are `typedef` versus value or non-`typedef`.
    *  i.e. "type parameter" and "nno-type parameter" vs "template-parameter"s.
