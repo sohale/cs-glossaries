@@ -27,3 +27,4 @@ The focus (mental investment/attention/priority) will be on [C++20](https://en.c
 ### Some specific references
 * For modules, see [this usage](https://github.com/sosi-org/scientific-code/blob/041e8615dcc1609e03a416d4dd8684edc04b84ba/polysampler/experimentation/sampler1/point_t.hpp)
 and how it [worked](https://github.com/sosi-org/scientific-code/commit/041e8615dcc1609e03a416d4dd8684edc04b84ba)
+using `clang++`
