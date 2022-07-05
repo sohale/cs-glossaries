@@ -24,7 +24,7 @@ The focus (mental investment/attention/priority) will be on [C++20](https://en.c
    * (Code to be written)
 
 ### Checklist
-Things to have/do.
+Things to do (have tried):
 * allocator [1](https://medium.com/@terselich/1-a-guide-to-implement-a-simple-c-stl-allocator-705ede6b60e4)
 
 ### Some specific references
