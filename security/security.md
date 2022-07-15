@@ -8,12 +8,12 @@ You can generate sha of a file using `openss` command.
 See [1](https://itigloo.com/security/generate-an-openssl-certificate-request-with-sha-256-signature/), more.
 
 What does these mean? (see [source](https://itigloo.com/security/generate-an-openssl-certificate-request-with-sha-256-signature/))
-```
-* Generate a SSL Key File.
-* Create a Certificate Signing Request (CSR)
-* Install the Certificate (CRT)
-* Test your installed Certificate.
-```
+
+    * Generate a SSL Key File.
+    * Create a Certificate Signing Request (CSR)
+    * Install the Certificate (CRT)
+    * Test your installed Certificate.
+
 
 ### Misc
 * SSL certificate
