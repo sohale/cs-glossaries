@@ -11,6 +11,8 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 <!-- You only learn (accept input) when Teaching, or writing (immediately). This will be a Tutorial rather than a text to read. Tutorials are usually made for "immediate" doing.-->
 
 ## Diagrams
+* Open Systems Interconnection (OSI) mode: 7 layers [ref](https://stackoverflow.com/a/45877078/4374258)
+* "The TCP/IP model is only 4 layers" [ref](https://stackoverflow.com/a/45877078/4374258)
 
 | OSI          |    Internet    | OS            | https.      |
 | :---         |     :---:      |          ---: |        ---: |
