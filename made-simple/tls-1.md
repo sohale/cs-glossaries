@@ -32,6 +32,7 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 
 [o](https://www.imperva.com/learn/application-security/osi-model/)
 
+* DNS is at the same layer with http:  http, dns, smtp, snmp, telnet, ftp. [(ref)](https://www.imperva.com/learn/application-security/osi-model/)
 
 Unverified:
 | OSI                |
