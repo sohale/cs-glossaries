@@ -105,6 +105,10 @@ Interview questions:
 ### Session etc and extra conceptual/logical layers
 * session-based authentication
 * "Does session-based authentication break the stateless architecture constraint of a REST web API?" [(see)](https://stackoverflow.com/questions/26604908/does-session-based-authentication-break-the-stateless-architecture-constraint-of?rq=1)
+* "token-based authentication" (session-based versus "token-based") (ref: above item). See Authentication.
+
+### Authentication
+See [oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
 
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
@@ -133,3 +137,4 @@ Some quotes:
 * The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
 * Waka [pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
 * For [TLS notes, see this link](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
+* For OAuth see [draft1:oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
