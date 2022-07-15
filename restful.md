@@ -34,13 +34,15 @@ The protocol is the staateless part.
 
 * Protocol is a pipe.. (reversible? becauase it is stateless).
 
+* sepaaration of filesystem (from?) in unix
+
 ### Stateless-ness
 * statelessness as "staatelessness of client". (likke bash)
 * statelessness as being like bash (unix shell)
 * statelessness as deliniatioon between resouorceness and protocol-ness (not seeing networkk as latered: it aay go beyonf layers, and include part of applicaiton layer as well. it may even go inside (part of)  the resource)
 * statelessness as cache-able. (but needs more technical info. e.g. "GET" only? (not POST)
 * statelessness as `GET`? it is only for GET? not for POST? defo not for delete/post/put
-
+* statelessness of filesystem
 
 ## Concepts
 * `head`: Even error body output is not sent
@@ -53,6 +55,9 @@ The protocol is the staateless part.
 Scenarios:
 * Main scenario: cross-oigin: to prevent injecting script to client broswer?
 * Other scenarios?
+
+### Interesting visions and ways to see it
+* really, a file system. 9but not fues. no `ls`). (See shell)
 
 ## Readings
 
