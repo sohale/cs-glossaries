@@ -43,6 +43,7 @@ Unverified:
 | aka?|
 | REST (downstream)|
 | REST + gateway |
+| utf? |
 | http |
 | TLS? |
 | TCP/socket |
