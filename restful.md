@@ -44,6 +44,7 @@ The protocol is the staateless part.
 * statelessness as cache-able. (but needs more technical info. e.g. "GET" only? (not POST)
 * statelessness as `GET`? it is only for GET? not for POST? defo not for delete/post/put
 * statelessness of filesystem
+* "server does not store the state of the client" ([ref](https://stackoverflow.com/a/29265566/4374258))
 
 ### A-rchitecture
 * ROA
