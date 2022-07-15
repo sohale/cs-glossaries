@@ -110,6 +110,10 @@ Interview questions:
 ### Authentication
 See [oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
 
+### Some headaches
+* nginx
+* WSGI (See my [REST-practice](https://github.com/sosi-org/REST-practice))
+
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
 * being round-trip.
