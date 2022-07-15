@@ -66,6 +66,7 @@ Historical notes:
 Some quotes:
 * "Representational State Transfer (REST) as a key architectural principle of the World Wide Web"
 * "Fielding co-founded the Apache HTTP Server project"
+* "Waka" [see](https://en-academic.com/dic.nsf/enwiki/3674008)
 ## Readings
 
 The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
