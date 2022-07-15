@@ -65,7 +65,7 @@ Scenarios (CORS):
 
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
-* being round-trip
+* being round-trip. Also: "Pipelining depends on pairing requests to responses"
 * nature of it waitings/blockings? ("Head-of-line blocking"?)
 
 ### Historical notes:
