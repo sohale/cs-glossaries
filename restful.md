@@ -36,7 +36,7 @@ The protocol is the staateless part.
 * statelessness as being like bash (unix shell)
 * statelessness as deliniatioon between resouorceness and protocol-ness (not seeing networkk as latered: it aay go beyonf layers, and include part of applicaiton layer as well. it may even go inside (part of)  the resource)
 * statelessness as cache-able. (but needs more technical info. e.g. "GET" only? (not POST)
-* statelessness: it is only for GET? not for POST? defo not for delete/post/put
+* statelessness as `GET`? it is only for GET? not for POST? defo not for delete/post/put
 
 
 ## Concepts
@@ -47,3 +47,6 @@ The protocol is the staateless part.
 * CORS is for client-side: Is a check at is located in browser-side.
 * `origin` original definition: origin versus agent?
 
+Scenarios:
+* Main scenario: cross-oigin: to prevent injecting script to client broswer?
+* Other scenarios?
