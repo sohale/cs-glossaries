@@ -102,6 +102,10 @@ Not critical, or missing: not new. not informative:
 Interview questions:
 * "classify the REST API paradigm between OSI Layers" [(ref)](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm)
 
+### Session etc and extra conceptual/logical layers
+* session-based authentication
+* "Does session-based authentication break the stateless architecture constraint of a REST web API?" [(see)](https://stackoverflow.com/questions/26604908/does-session-based-authentication-break-the-stateless-architecture-constraint-of?rq=1)
+
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
 * being round-trip.
