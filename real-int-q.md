@@ -19,3 +19,7 @@ Then How does it solve the availability problem when listening to threads/http r
 #### Also see
 * [python-interview-notes](python-interview-notes.md)
 * [design patterns in python](design-patterns.md)
+
+# C++
+#### Have you done ulti-threaded programming?
+#### Do you use modern C++?
