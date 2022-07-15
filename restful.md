@@ -53,3 +53,7 @@ The protocol is the staateless part.
 Scenarios:
 * Main scenario: cross-oigin: to prevent injecting script to client broswer?
 * Other scenarios?
+
+## Readings
+
+The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
