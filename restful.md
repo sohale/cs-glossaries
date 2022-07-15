@@ -60,9 +60,11 @@ Scenarios:
 ### Interesting visions and ways to see it
 * really, a file system. 9but not fues. no `ls`). (See shell)
 
-Historicala notes:
+Historical notes:
 * Roy Fielding's theses (see below)
 * Roy Fielding is the author of http? What did Tim do?
+Some quotes:
+* "Representational State Transfer (REST) as a key architectural principle of the World Wide Web"
 ## Readings
 
 The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
