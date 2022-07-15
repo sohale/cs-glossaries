@@ -36,8 +36,11 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 Unverified:
 | OSI                |
 | :---               |
-| message-signing |
-| message-signing |
+| session? |
+| authentication? (standalone jwt token) |
+| (encryptioned) payload |
+| message-signing (signed)|
+| aka?|
 | REST |
 | http |
 | TLS? |
@@ -45,7 +48,7 @@ Unverified:
 | IP |
 | Network Access Layer |
 
-Commpare to: 
+Compare to: 
 *
 *
 
