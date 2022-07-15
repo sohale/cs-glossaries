@@ -64,7 +64,7 @@ Scenarios (CORS):
 
 ### Odd exotic bits
 * exotic result/OK codes 
-* Vary [see](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
+* The `Vary` [see](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
 
 ### For REST yoou need to know
 * `http`
@@ -74,7 +74,8 @@ Scenarios (CORS):
 
 Not to miss list: other than normala usage, what you will find after professional experience?
 * Cache-tag
-* CORS
+* CORS (the concept of origin)
+* head
 
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
