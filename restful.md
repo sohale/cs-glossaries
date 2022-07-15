@@ -52,6 +52,8 @@ The protocol is the staateless part.
 * It is mostly atop HTTP, the application layer.
    * "HTTP is in the Application layer of the Internet protocol suite model" "and in the Session Layer of the OSI Model". [ref](https://stackoverflow.com/a/45877078/4374258)
    * (?) "REST is an API, not a protocol. The only protocol here is HTTP." (may be incorrect. [ref](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm#comment95974646_44172240) )
+   * "REST is just an architectural style" (same ref)
+      * "and an API which strictly follows the REST principles is called RESTful API."
 
 ## Concepts
 * `head`: Even error body output is not sent
