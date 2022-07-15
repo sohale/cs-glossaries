@@ -25,7 +25,8 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 | 2. Data Link Layer         | .              | .             |         |        |
 | 1. Physical Layer          | .              | .             |         |        |
 
-[t](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+[t1](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+[t2](https://github.com/jeffreytse/jekyll-spaceship)
 
 ## Readings
 * For [REST, see these notes](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
