@@ -57,6 +57,10 @@ Scenarios (CORS):
 * Main scenario: cross-oigin: to prevent injecting script to client broswer?
 * Other scenarios?
 
+### Performance
+* See "being round-trip" below
+* How does `yarn` improve it?
+
 ### For REST yoou need to know
 * `http`
 * resource-oriented-aarchitecture
@@ -65,7 +69,9 @@ Scenarios (CORS):
 
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
-* being round-trip. Also: "Pipelining depends on pairing requests to responses"
+* being round-trip.
+   * Also: "Pipelining depends on pairing requests to responses"
+   * slow if chaining serial calls (hence GraphQL, Waka?)
 * nature of it waitings/blockings? ("Head-of-line blocking"?)
 
 ### Historical notes:
@@ -75,6 +81,13 @@ Some quotes:
 * "Representational State Transfer (REST) as a key architectural principle of the World Wide Web"
 * "Fielding co-founded the Apache HTTP Server project"
 * "Waka" [see](https://en-academic.com/dic.nsf/enwiki/3674008) aalso [this pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
+
+#### Alternatives
+* Waka
+* GraphQL
+* new `http` versions ?
+* grpc (so grpc does not include it?)
+
 ## Readings
 
 The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
