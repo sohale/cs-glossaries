@@ -53,14 +53,18 @@ The protocol is the staateless part.
 * CORS is for client-side: Is a check at is located in browser-side.
 * `origin` original definition: origin versus agent?
 
-Scenarios:
+Scenarios (CORS):
 * Main scenario: cross-oigin: to prevent injecting script to client broswer?
 * Other scenarios?
 
+### For REST yoou need to know
+* http
+* resource-oriented-aarchitecture
+* is about distributed-computing (is a distributed-computing specifications)
 ### Interesting visions and ways to see it
 * really, a file system. 9but not fues. no `ls`). (See shell)
 
-Historical notes:
+### Historical notes:
 * Roy Fielding's theses (see below)
 * Roy Fielding is the author of http? What did Tim do?
 Some quotes:
