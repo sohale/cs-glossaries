@@ -58,19 +58,21 @@ Scenarios (CORS):
 * Other scenarios?
 
 ### For REST yoou need to know
-* http
+* `http`
 * resource-oriented-aarchitecture
 * is about distributed-computing (is a distributed-computing specifications)
+* OSI layers: TCP/IP: which layer does REST reside? (not `http`)
+
 ### Interesting visions and ways to see it
 * really, a file system. 9but not fues. no `ls`). (See shell)
 
 ### Historical notes:
 * Roy Fielding's theses (see below)
-* Roy Fielding is the author of http? What did Tim do?
+* Roy Fielding is the author of http? What did Tim do? (apparently http 0.9. See the pdf slides below)
 Some quotes:
 * "Representational State Transfer (REST) as a key architectural principle of the World Wide Web"
 * "Fielding co-founded the Apache HTTP Server project"
-* "Waka" [see](https://en-academic.com/dic.nsf/enwiki/3674008) aalso [this pdf](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
+* "Waka" [see](https://en-academic.com/dic.nsf/enwiki/3674008) aalso [this pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
 ## Readings
 
 The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
