@@ -75,6 +75,7 @@ Scenarios (CORS):
 * The `Vary` [see](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
 
 ### For REST you need to know
+(also see the "interview-worthy" section)
 * `http`
 * resource-oriented-aarchitecture
 * is about distributed-computing (is a distributed-computing specifications)
@@ -92,10 +93,12 @@ Not critical, or missing: not new. not informative:
 * TLS [(see TLS notes)](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
 * Layers [(see the "diagrams" section of TLS notes)](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
 * is ROA
+* Load balancing? ( L4 vs L7? [(see)](https://www.nginx.com/resources/glossary/layer-7-load-balancing/) )
 
 ### Interview-worth material
 Interview questions:
 * "classify the REST API paradigm between OSI Layers" [(ref)](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm)
+
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
 * being round-trip.
