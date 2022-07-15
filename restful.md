@@ -45,6 +45,11 @@ The protocol is the staateless part.
 * statelessness as `GET`? it is only for GET? not for POST? defo not for delete/post/put
 * statelessness of filesystem
 
+### A-rchitecture
+* ROA
+* "REST is not a protocol for two systems to communicate. REST is an architecture style."
+* It is mostly atop HTTP, the application layer.
+
 ## Concepts
 * `head`: Even error body output is not sent
 * `origin`: see CORS
@@ -66,7 +71,7 @@ Scenarios (CORS):
 * exotic result/OK codes 
 * The `Vary` [see](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
 
-### For REST yoou need to know
+### For REST you need to know
 * `http`
 * resource-oriented-aarchitecture
 * is about distributed-computing (is a distributed-computing specifications)
@@ -83,6 +88,7 @@ Not critical, or missing: not new. not informative:
 * "idempotent" operation
 * TLS
 * Layers
+* is ROA
 
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
