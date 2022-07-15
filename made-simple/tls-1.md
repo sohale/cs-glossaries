@@ -12,7 +12,7 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 
 ## Diagrams
 
-| Left-aligned | Center-aligned | Right-aligned |
+| OSI          |    Internet    | OS |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
