@@ -21,9 +21,9 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 | 6. Presentation Layer      | .              | .             |         |        |
 | 5. Session Layer           | .              | .             |         |        |
 | 4. Transport Layer         | .              | .             |         |        |
-| 3. Network Layer           | .              | .             |         |        |
-| 2. Data Link Layer         | .              | .             |         |        |
-| 1. Physical Layer          | .              | .             |         |        |
+| 3. Network Layer           | Network Access Layer      | .             |         |        |
+| 2. Data Link Layer         | ^^              | .             |         |        |
+| 1. Physical Layer          | ^^              | .             |         |        |
 
 [t1](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 [t2](https://github.com/jeffreytse/jekyll-spaceship)
