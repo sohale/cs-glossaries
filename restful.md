@@ -18,7 +18,7 @@ Most important response codes:
 #### Exotic, never seen in use
 (just theoretical knowledge)
 
-
+Whata aare the names? "OK" versus codes.
 
 ## Concepts
 ### The concept of "Resource"
@@ -61,6 +61,10 @@ Scenarios (CORS):
 * See "being round-trip" below
 * How does `yarn` improve it?
 * See waka slides pdf in readings ( [link](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf) )
+
+### Odd exotic bits
+* exotic result/OK codes 
+* Vary [see](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
 
 ### For REST yoou need to know
 * `http`
