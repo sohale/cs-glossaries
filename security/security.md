@@ -9,10 +9,10 @@ See [1](https://itigloo.com/security/generate-an-openssl-certificate-request-wit
 
 What does these mean? (see [source](https://itigloo.com/security/generate-an-openssl-certificate-request-with-sha-256-signature/))
 
-    * Generate a SSL Key File.
-    * Create a Certificate Signing Request (CSR)
-    * Install the Certificate (CRT)
-    * Test your installed Certificate.
+>    * Generate a SSL Key File.
+>    * Create a Certificate Signing Request (CSR)
+>    * Install the Certificate (CRT)
+>    * Test your installed Certificate.
 
 
 ### Misc
