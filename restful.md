@@ -60,6 +60,7 @@ Scenarios (CORS):
 ### Performance
 * See "being round-trip" below
 * How does `yarn` improve it?
+* See waka slides pdf in readings ( [link](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf) )
 
 ### For REST yoou need to know
 * `http`
@@ -80,7 +81,7 @@ Scenarios (CORS):
 Some quotes:
 * "Representational State Transfer (REST) as a key architectural principle of the World Wide Web"
 * "Fielding co-founded the Apache HTTP Server project"
-* "Waka" [see](https://en-academic.com/dic.nsf/enwiki/3674008) aalso [this pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
+* "Waka" [see](https://en-academic.com/dic.nsf/enwiki/3674008) also [this pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf) (also mentioned in reaadings)
 
 #### Alternatives
 * Waka
@@ -91,3 +92,4 @@ Some quotes:
 ## Readings
 
 The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
+* Waka [pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
