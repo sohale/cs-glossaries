@@ -13,6 +13,9 @@ Most important response codes:
 * `4xx` errors
 * `2xx` 
 * `3xx`
+#### Less commmon
+#### Exotic, never seen in use
+(just theoretical knowledge)
 
 
 
