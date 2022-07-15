@@ -15,15 +15,15 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 * "The TCP/IP model is only 4 layers" [ref](https://stackoverflow.com/a/45877078/4374258)
 * ""Internet protocol suite model"
 
-| OSI          |    Internet    | OS            | http+TLS | TCP.IP |
-| :---         |     :---:      |          ---: |    ---: |  ---:  |
-| 1            | .              | .             |         |        |
-| 2            | .              | .             |         |        |
-| 3            | .              | .             |         |        |
-| 4            | .              | .             |         |        |
-| 5            | .              | .             |         |        |
-| 6            | .              | .             |         |        |
-| 7            | .              | .             |         |        |
+| OSI                        |    Internet    | OS            | http+TLS | TCP.IP |
+| :---                       |     :---:      |          ---: |    ---: |  ---:  |
+| 7. Application Layer       | .              | .             |         |        |
+| 6. Presentation Layer      | .              | .             |         |        |
+| 5. Session Layer           | .              | .             |         |        |
+| 4. Transport Layer         | .              | .             |         |        |
+| 3. Network Layer           | .              | .             |         |        |
+| 2. Data Link Layer         | .              | .             |         |        |
+| 1. Physical Layer          | .              | .             |         |        |
 
 [t](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
