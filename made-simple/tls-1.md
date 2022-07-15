@@ -41,7 +41,8 @@ Unverified:
 | (encryptioned) payload |
 | message-signing (signed)|
 | aka?|
-| REST |
+| REST (downstream)|
+| REST + gateway |
 | http |
 | TLS? |
 | TCP/socket |
