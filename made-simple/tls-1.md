@@ -17,9 +17,9 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 
 | OSI                        |    Internet    | OS            | http+TLS | TCP.IP |
 | :---                       |     :---:      |          ---: |    ---: |  ---:  |
-| 7. Application Layer       | .              | .             |         |        |
-| 6. Presentation Layer      | .              | .             |         |        |
-| 5. Session Layer           | .              | .             |         |        |
+| 7. Application Layer       | Application Layer             | .             |         |        |
+| 6. Presentation Layer      | ^^              | .             |         |        |
+| 5. Session Layer           | ^^              | .             |         |        |
 | 4. Transport Layer         | .              | .             |         |        |
 | 3. Network Layer           | Network Access Layer      | .             |         |        |
 | 2. Data Link Layer         | ^^              | .             |         |        |
