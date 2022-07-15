@@ -72,6 +72,10 @@ Scenarios (CORS):
 * is about distributed-computing (is a distributed-computing specifications)
 * OSI layers: TCP/IP: which layer does REST reside? (not `http`)
 
+Not to miss list: other than normala usage, what you will find after professional experience?
+* Cache-tag
+* CORS
+
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
 * being round-trip.
