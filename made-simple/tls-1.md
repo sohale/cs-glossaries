@@ -15,10 +15,10 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 * "The TCP/IP model is only 4 layers" [ref](https://stackoverflow.com/a/45877078/4374258)
 * ""Internet protocol suite model"
 
-| OSI          |    Internet    | OS            | http+TLS | TCP.IP |      |
+| OSI          |    Internet    | OS            | http+TLS | TCP.IP |
 | :---         |     :---:      |          ---: |    ---: |  ---:  |
-| 1            | .              | .             |         |  |
-| 2            | .              | .             |         |  |
+| 1            | .              | .             |         |        |
+| 2            | .              | .             |         |        |
 
 [t](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
