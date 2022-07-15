@@ -98,7 +98,7 @@ Not critical, or missing: not new. not informative:
 * is ROA
 * Load balancing? ( L4 vs L7? [(see)](https://www.nginx.com/resources/glossary/layer-7-load-balancing/) )
 
-### Interview-worth material
+### Interview-worthy material
 Interview questions:
 * "classify the REST API paradigm between OSI Layers" [(ref)](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm)
 
@@ -131,7 +131,7 @@ Some quotes:
 * new `http` versions ?
 * grpc (so grpc does not include it?)
 
-My good practive in REST:
+### My good exercises in REST
 * [image-farms](https://github.com/sosi-org/image-farms)
 
 ## Readings
