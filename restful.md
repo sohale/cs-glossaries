@@ -87,8 +87,8 @@ Not to miss list: other than normala usage, what you will find after professiona
 Just for sake of being complete.
 Not critical, or missing: not new. not informative:
 * "idempotent" operation
-* TLS
-* Layers
+* TLS [(see TLS notes)](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
+* Layers [(see the "diagrams" section of TLS notes)](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
 * is ROA
 
 ### Interesting visions and ways to see it
@@ -116,4 +116,4 @@ Some quotes:
 
 * The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
 * Waka [pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
-* For [TLS notes, see this linkk](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
+* For [TLS notes, see this link](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
