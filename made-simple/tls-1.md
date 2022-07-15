@@ -12,10 +12,10 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 
 ## Diagrams
 
-| OSI          |    Internet    | OS |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| OSI          |    Internet    | OS            | https.      |
+| :---         |     :---:      |          ---: |        ---: |
+| git status   | git status     | git status    |             |
+| git diff     | git diff       | git diff      |             |
 
 [t](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
