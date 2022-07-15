@@ -19,6 +19,11 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 | :---         |     :---:      |          ---: |    ---: |  ---:  |
 | 1            | .              | .             |         |        |
 | 2            | .              | .             |         |        |
+| 3            | .              | .             |         |        |
+| 4            | .              | .             |         |        |
+| 5            | .              | .             |         |        |
+| 6            | .              | .             |         |        |
+| 7            | .              | .             |         |        |
 
 [t](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
