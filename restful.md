@@ -77,6 +77,11 @@ Not to miss list: other than normala usage, what you will find after professiona
 * CORS (the concept of origin)
 * head
 
+### Just for being complete
+Just for sake of being complete.
+Not critical, or missing: not new. not informative:
+* "idempotent" operation
+
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
 * being round-trip.
