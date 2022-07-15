@@ -1,4 +1,5 @@
-# Restful reference
+# Learning REST
+**"Restful", the reference**
 (cheetsheet)
 
 ## Response codes
