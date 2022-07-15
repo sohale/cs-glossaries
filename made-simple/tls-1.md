@@ -47,6 +47,7 @@ Unverified:
 | utf? |
 | http |
 | TLS? |
+| socket round (one way each round) |
 | TCP/socket |
 | IP |
 | Network Access Layer |
