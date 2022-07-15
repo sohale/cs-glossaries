@@ -136,5 +136,9 @@ Some quotes:
 
 * The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
 * Waka [pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
-* For [TLS notes, see this link](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
+### See also
+* For tls + network layers: [TLS notes, see this link](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
 * For OAuth see [draft1:oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
+* this page itself](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
+* [security](https://github.com/sohale/cs-glossaries/blob/master/security/security.md)
+
