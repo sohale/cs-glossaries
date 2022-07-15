@@ -110,6 +110,12 @@ Interview questions:
 ### Authentication
 See [oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
 
+### API design notes
+* design or URLs: Best pratives for URLs
+* Extra slash
+* versioning (best practices?)
+* See [this note in old work](https://github.com/sosi-org/REST-practice/blob/master/api_design_notes.txt)
+
 ### Some headaches
 * nginx
 * WSGI (See my [REST-practice](https://github.com/sosi-org/REST-practice))
