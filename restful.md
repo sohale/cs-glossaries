@@ -64,7 +64,9 @@ Scenarios (CORS):
 * OSI layers: TCP/IP: which layer does REST reside? (not `http`)
 
 ### Interesting visions and ways to see it
-* really, a file system. 9but not fues. no `ls`). (See shell)
+* really, a file system. (but not fues. no `ls`). (See shell)
+* being round-trip
+* nature of it waitings/blockings? ("Head-of-line blocking"?)
 
 ### Historical notes:
 * Roy Fielding's theses (see below)
