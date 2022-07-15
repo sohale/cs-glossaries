@@ -116,3 +116,4 @@ Some quotes:
 
 * The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
 * Waka [pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
+* For [TLS notes, see this linkk](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
