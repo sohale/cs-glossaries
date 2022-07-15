@@ -93,6 +93,9 @@ Not critical, or missing: not new. not informative:
 * Layers [(see the "diagrams" section of TLS notes)](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
 * is ROA
 
+### Interview-worth material
+Interview questions:
+* "classify the REST API paradigm between OSI Layers" [(ref)](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm)
 ### Interesting visions and ways to see it
 * really, a file system. (but not fues. no `ls`). (See shell)
 * being round-trip.
@@ -113,6 +116,7 @@ Some quotes:
 * GraphQL
 * new `http` versions ?
 * grpc (so grpc does not include it?)
+
 
 ## Readings
 
