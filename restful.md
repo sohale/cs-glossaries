@@ -1,4 +1,4 @@
-# Learning REST
+# Learning REST: Study workbook
 **"Restful", the reference**
 (cheetsheet)
 
