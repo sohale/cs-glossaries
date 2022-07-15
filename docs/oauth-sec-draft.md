@@ -169,3 +169,8 @@ that secret key needs to remain there.
 
 
 
+### See
+* [securoty](https://github.com/sohale/cs-glossaries/blob/master/security/security.md)
+* [this document](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md)
+* [rest: study workbook](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
+* tls (includes layers): [tls-1](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
