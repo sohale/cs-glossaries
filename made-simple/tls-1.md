@@ -15,8 +15,8 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 * "The TCP/IP model is only 4 layers" [ref](https://stackoverflow.com/a/45877078/4374258)
 * ""Internet protocol suite model"
 
-| OSI                        |    Internet    | OS             | http+TLS | fammiliar   |
-| :---                       |     :---:      |           ---: |    ---: |    |
+| OSI                        |    Internet    | OS             | http+TLS | familiar   |
+| :---                       |     :---:      |           ---: |    ---: |  ---:  |
 | 7. Application Layer       | Application Layer | .           |         |.   |
 | 6. Presentation Layer      | ^^              | .             |         |.   |
 | 5. Session Layer           | ^^              | .             |         |.   |
