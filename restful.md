@@ -91,5 +91,5 @@ Some quotes:
 
 ## Readings
 
-The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
+* The thesis by. [html version](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) for browser
 * Waka [pdf slides](https://www.ietf.org/proceedings/83/slides/slides-83-httpbis-5.pdf)
