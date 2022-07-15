@@ -32,5 +32,22 @@ Click on your https connection. Try to find out if it is TLS or SSL, etc.
 
 [o](https://www.imperva.com/learn/application-security/osi-model/)
 
+
+Unverified:
+| OSI                |
+| :---               |
+| message-signing |
+| message-signing |
+| REST |
+| http |
+| TLS? |
+| TCP/socket |
+| IP |
+| Network Access Layer |
+
+Commpare to: 
+*
+*
+
 ## Readings
 * For [REST, see these notes](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
