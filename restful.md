@@ -133,6 +133,7 @@ Some quotes:
 
 ### My good exercises in REST
 * [image-farms](https://github.com/sosi-org/image-farms)
+* [REST-practice](https://github.com/sosi-org/REST-practice) Features: multiple-scale protocols (droplets)
 
 ## Readings
 
