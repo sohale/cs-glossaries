@@ -49,7 +49,7 @@ The protocol is the staateless part.
 * ROA
 * "REST is not a protocol for two systems to communicate. REST is an architecture style."
 * It is mostly atop HTTP, the application layer.
-   * "HTTP is in the Application layer of the Internet protocol suite model" "and in the Session Layer of the OSI Model".
+   * "HTTP is in the Application layer of the Internet protocol suite model" "and in the Session Layer of the OSI Model". [ref](https://stackoverflow.com/a/45877078/4374258)
 
 ## Concepts
 * `head`: Even error body output is not sent
