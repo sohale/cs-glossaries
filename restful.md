@@ -54,6 +54,7 @@ The protocol is the staateless part.
    * (?) "REST is an API, not a protocol. The only protocol here is HTTP." (may be incorrect. [ref](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm#comment95974646_44172240) )
    * "REST is just an architectural style" (same ref)
       * "and an API which strictly follows the REST principles is called RESTful API."
+* "osi is defunct and irrelevant" [(said)](https://stackoverflow.com/questions/29264855/in-which-osi-layer-is-the-rest-api-paradigm#comment95974612_29264855). cool. yes, it was even invented after TCP/IP.
 
 ## Concepts
 * `head`: Even error body output is not sent
