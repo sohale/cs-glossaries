@@ -59,6 +59,8 @@ The protocol is the staateless part.
 ## Concepts
 * `head`: Even error body output is not sent
 * `origin`: see CORS
+* `OPTIONS`
+* Also see "headaches"
 
 ### CORS and related concepts
 * CORS is for client-side: Is a check at is located in browser-side.
@@ -88,6 +90,8 @@ Not to miss list: other than normala usage, what you will find after professiona
 * Cache-tag
 * CORS (the concept of origin)
 * head
+* `OPTIONS`
+* Also see "headaches"
 
 ### Just for being complete
 Just for sake of being complete.
