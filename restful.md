@@ -132,8 +132,8 @@ Some quotes:
 * grpc (so grpc does not include it?)
 
 ### My good exercises in REST
-* [image-farms](https://github.com/sosi-org/image-farms)
-* [REST-practice](https://github.com/sosi-org/REST-practice) Features: multiple-scale protocols (droplets)
+* [image-farms](https://github.com/sosi-org/image-farms). Features:
+* [REST-practice](https://github.com/sosi-org/REST-practice). Features: multiple-scale protocols (droplets). Features: WSGI, WebSockets.
 
 ## Readings
 
