@@ -9,3 +9,6 @@ TLS is the new SSL (deprecates, made obsolete).
 Click on your https connection. Try to find out if it is TLS or SSL, etc.
 
 <!-- You only learn (accept input) when Teaching, or writing (immediately). This will be a Tutorial rather than a text to read. Tutorials are usually made for "immediate" doing.-->
+
+## Redings
+* For [REST, see these notes](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
