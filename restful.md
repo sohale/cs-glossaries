@@ -93,6 +93,19 @@ Not to miss list: other than normala usage, what you will find after professiona
 * `OPTIONS`
 * Also see "headaches"
 
+### Concurrency
+Last request wins policy
+Caching requirements:
+* E-tag
+* last modified
+* etc
+
+Names:
+querystring, path, etc
+(Locus)
+
+PATCH method
+
 ### Just for being complete
 Just for sake of being complete.
 Not critical, or missing: not new. not informative:
