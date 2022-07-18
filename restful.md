@@ -93,12 +93,17 @@ Not to miss list: other than normala usage, what you will find after professiona
 * `OPTIONS`
 * Also see "headaches"
 
+#### Surprise
+* Only GET has HEAD.
+    * it is optiinal
+
 ### Concurrency
 Last request wins policy
 Caching requirements:
 * E-tag
 * last modified
 * etc
+...(more on concurrency)
 
 Names:
 querystring, path, etc
