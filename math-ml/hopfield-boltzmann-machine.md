@@ -17,9 +17,8 @@ What is the difference between this and RBM? What this has that that doesn't?
 |          |    |     |            |           | Mesh (Friston/Clark)   |
 |          |    |     |            |           | Bayesian Network  |
 |          |    |     |            |           | ReLU |
+|     ✔    |    |     |            |     ✔     | sync/clocked |
 
 legend: ✔✘  ✗✓
 
-also: ☑   ✓   ✔   ✅   √
-☒   ☐   ✕   ❎   💯
-✗   ✘   ✖   ❌
+also: ☑   ✓   ✔      √.   ☒   ☐   ✕      💯.   ✗   ✘   ✖   ❌
