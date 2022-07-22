@@ -6,3 +6,6 @@ For constrainsts versus penalty functions, see lagrange-multipliers.md
 * trust region
 * BFGS
 * DFP
+
+[Broyden's_method](https://en.wikipedia.org/wiki/Broyden%27s_method)
+
