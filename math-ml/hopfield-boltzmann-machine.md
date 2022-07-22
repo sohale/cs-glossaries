@@ -6,19 +6,22 @@ What is the difference between this and RBM? What this has that that doesn't?
 (Also Hopfield)
 
 
-| Hopfield | BM | RBM | Helmhotlz M |TrellisNet| Feature |
-|:---------|:---|:----|:-----------|-----------|:--------|
-|          | ✔  |  "  |     ?      |     ✘     | binary  |
-|          | ✔  |  ✔  |     ✘?     |     ✔     | all-to-all (not layered) |
-|    ✔     |  ? |     |            |     ✔     | energy/cost fucntion  |
-|          |    |     |            |           | Bayesian calculations        |
-|          |    |     |            |           | Samping        |
-|     ?    |  ✘ |     |            |           | hidden units     |
-|          |    |     |            |           | Mesh (Friston/Clark)   |
-|          |    |     |            |           | Bayesian Network  |
-|          |    |     |            |           | ReLU |
-|     ✔    |    |     |            |     ✔     | sync/clocked |
+| Hopfield | BM | RBM | Helmhotlz M |DBN|TrellisNet| Feature |
+|:---------|:---|:----|:-----------|---|--------|:--------|
+|          | ✔  |  "  |     ?      |   |  ✘     | binary  |
+|          | ✔  |  ✔  |     ✘?     |   |  ✔     | all-to-all (not layered) |
+|    ✔     |  ? |     |            |   |  ✔     | energy/cost fucntion  |
+|          |    |     |            |   |        | Bayesian calculations        |
+|          |    |     |            |   |        | Samping        |
+|     ?    |  ✘ |     |            |   |        | hidden units     |
+|          |    |     |            |   |        | Mesh (Friston/Clark)   |
+|          |    |     |            |   |        | Bayesian Network  |
+|          |    |     |            |   |        | DBN  |
+|          |    |     |            |   |        | ReLU |
+|     ✔    |    |     |            |   |  ✔     | sync/clocked |
 
 legend: ✔✘  ✗✓
 
 also: ☑   ✓   ✔      √.   ☒   ☐   ✕      💯.   ✗   ✘   ✖
+
+DBN: DeepBeliefNets
