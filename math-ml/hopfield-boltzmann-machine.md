@@ -21,4 +21,4 @@ What is the difference between this and RBM? What this has that that doesn't?
 
 legend: ✔✘  ✗✓
 
-also: ☑   ✓   ✔      √.   ☒   ☐   ✕      💯.   ✗   ✘   ✖   ❌
+also: ☑   ✓   ✔      √.   ☒   ☐   ✕      💯.   ✗   ✘   ✖
