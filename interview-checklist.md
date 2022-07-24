@@ -26,10 +26,10 @@ Checklists
 ### Legacy of past
 * API
    * API/rest status codes, my codes, [TLS](./made-simple/tls-1.md)
-      * REST projects: [drops](https://github.com/sosi-org/REST-practice), [image-farms ](https://github.com/sosi-org/image-farms), [mouse-api](), 
+      * REST projects: [drops](https://github.com/sosi-org/REST-practice), [image-farms ](https://github.com/sosi-org/image-farms), [flask: mouse-api](https://github.com/sohale/mousepad-app/blob/master/pserver/pythonservice.py), 
    * CUDA
    * VHDL
-   * ML: EM, KF, Survival(PP), [IG1](https://github.com/sohale/luca-essexbcilab-ppjournalpaper), [IG2](https://en.wikipedia.org/wiki/Inverse_Gaussian_distribution), [IG3](https://github.com/sohale/point-process-notes/blob/main/ifig/imi_cif.py), [IG4](). Wavelet denoising (maybe: [ppss](https://bitbucket.org/sohailsiadat/smithbrown2003-ppss/src/master/)). 
+   * ML: EM, KF, Survival(PP), [IG1](https://github.com/sohale/luca-essexbcilab-ppjournalpaper), [IG2](https://en.wikipedia.org/wiki/Inverse_Gaussian_distribution), [IG3](https://github.com/sohale/point-process-notes/blob/main/ifig/imi_cif.py), [IG4](). Wavelet denoising (maybe: [ppss](https://bitbucket.org/sohailsiadat/smithbrown2003-ppss/src/master/)). another [pp-ig](https://github.com/sohale/my_pp_ig/blob/master/visualise_pdf.py)
    * QC
    * C protocol for microcontroller  [huffman-bitstream-c](https://github.com/sohale/huffman-bitstream-c) [on bitbucket](https://bitbucket.org/sohailsiadat/huffman-bitstream-c/src/master/): concepts: 
    * Tests I written:
@@ -40,7 +40,7 @@ Checklists
    * WideIO: ns, fuse, jailing, [cython](https://github.com/sosi-org/practice-lookup/tree/master/cython) , IPC, distributed file system, [udp](https://github.com/sosi-org/practice-lookup/tree/master/udp), [zMQ, execve, fork](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py), syscalls.
    * React practice
    * Websockets: [socketio](), [meteor1:mawesome](meteor is awesome), [metero2](https://github.com/sosi-org/birdie), [meteor3:birdie](https://github.com/sosi-org/birdie), websockets, STOMP for spring
-   * Spring
+   * Spring [cdwg](https://github.com/sohale/cdwg)
    * [grpc](https://github.com/sosi-org/grpc-arch-practice/tree/master/example) and `.proto`buff [client](https://github.com/sosi-org/grpc-arch-practice/blob/master/example/prot-client.js)-[server](https://github.com/sosi-org/grpc-arch-practice/blob/master/example/prot-server.js) 
    * OpenQL/WebGL [webgldemo](https://github.com/sosi-org/webgl-exercise) (also ThreeJS)
    * Tensorflow:
