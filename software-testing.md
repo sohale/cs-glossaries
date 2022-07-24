@@ -14,6 +14,7 @@ See [Software testing: wikipedia box](https://en.wikipedia.org/wiki/Template:Sof
 * Integration test
 * Component tests
 * Unit test
+* Contract testing (Pact) [1](https://docs.pact.io/)
 
 ### Other terms and types:
 * hermetic tests
