@@ -6,7 +6,7 @@ Without getting into details for each typr (Python, c++)
 
 * [Question topics](#question-topics)
 * tech-specific
-    * C++: See: [1:principles-meta](principles-scaffold-meta.md), 2: [cpp-details folder](cpp-details), 3: [cpp-practice folder](cpp-practice). Also see below sections: [multi-threading]
+    * C++: See: [1:principles-meta](principles-scaffold-meta.md), 2: [cpp-details folder](cpp-details), 3: [cpp-practice folder](cpp-practice), 4: [for templates](bulk.cpp). Also see below sections: [multi-threading]
     * Python: [See 1:p](python-interview-notes.md), [See 2:principles-meta](principles-scaffold-meta.md)
 
 
