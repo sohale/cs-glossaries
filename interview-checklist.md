@@ -6,8 +6,8 @@ Without getting into details for each typr (Python, c++)
 
 * [Question topics](#question-topics)
 * tech-specific
-    * C++
-    * Python: [See 1](python-interview-notes.md), [See 2](principles-scaffold-meta.md)
+    * C++: See: [1:principles-meta](principles-scaffold-meta.md). Also see below sections: [multi-threading]
+    * Python: [See 1:p](python-interview-notes.md), [See 2:principles-meta](principles-scaffold-meta.md)
 
 
 ### Question topics
@@ -19,6 +19,6 @@ Checklists
 * General
    * Test types: [see software-testing.md](./software-testing.md)
    * Design Patterns (See [design-patterns.md](./design-patterns.md))
-   * Multi threading ([1: ](./concurrency-async-terms.md), [2: telegram](?): based on Tour of C++, ... )
+   * Multi-threading ([1: ](./concurrency-async-terms.md), [2: telegram](?): based on Tour of C++, ... )
    * Various concepts (GIL, etc): [See 1](principles-scaffold-meta.md)
 
