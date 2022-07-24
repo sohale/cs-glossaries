@@ -7,7 +7,7 @@ Without getting into details for each typr (Python, c++)
 * [Question topics](#question-topics)
 * tech-specific
     * C++
-    * Python
+    * Python: [See 1](python-interview-notes.md), [See 2](principles-scaffold-meta.md)
 
 
 ### Question topics
