@@ -3,6 +3,8 @@ Without getting into details for each typr (Python, c++)
 * Programming test services
    * codility, hackerrank, 
 * design questions
+   * The book (cracking)
+
 * tech-specific
     * C++
     * Python
