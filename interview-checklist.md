@@ -25,10 +25,10 @@ Checklists
 
 ### Legacy of past
 * API
-   * API rest codes
+   * API/rest status codes, my codes, [TLS](./made-simple/tls-1.md) 
    * CUDA
    * VHDL
    * ML: EM, KF, Survival(PP), [IG1](https://github.com/sohale/luca-essexbcilab-ppjournalpaper), [IG2](https://en.wikipedia.org/wiki/Inverse_Gaussian_distribution), [IG3](https://github.com/sohale/point-process-notes/blob/main/ifig/imi_cif.py), [IG4](). Wavelet denoising (maybe: [ppss](https://bitbucket.org/sohailsiadat/smithbrown2003-ppss/src/master/)). 
    * QC
-   * C protocol for microcontroller [huffman-bitstream-c](https://bitbucket.org/sohailsiadat/huffman-bitstream-c/src/master/): concepts: 
+   * C protocol for microcontroller  [huffman-bitstream-c](https://github.com/sohale/huffman-bitstream-c) [on bitbucket](https://bitbucket.org/sohailsiadat/huffman-bitstream-c/src/master/): concepts: 
    * Unimportant:
