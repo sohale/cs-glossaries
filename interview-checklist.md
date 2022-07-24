@@ -33,7 +33,7 @@ Checklists
    * QC
    * C protocol for microcontroller  [huffman-bitstream-c](https://github.com/sohale/huffman-bitstream-c) [on bitbucket](https://bitbucket.org/sohailsiadat/huffman-bitstream-c/src/master/): concepts: 
    * Tests I written: [Google Test for C++](), [test foc C: huffman-bitstream-c](https://github.com/sohale/huffman-bitstream-c)
-   * WideIO: ns, fuse, jailing, [cython](https://github.com/sosi-org/practice-lookup/tree/master/cython) , IPC, distributed file system, [udp](https://github.com/sosi-org/practice-lookup/tree/master/udp), [zMQ](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py), syscalls, [fork](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py).
+   * WideIO: ns, fuse, jailing, [cython](https://github.com/sosi-org/practice-lookup/tree/master/cython) , IPC, distributed file system, [udp](https://github.com/sosi-org/practice-lookup/tree/master/udp), [zMQ, execve, fork](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py), syscalls.
    * React practice
    * Websockets: [socketio](), [meteor1:mawesome](meteor is awesome), [metero2](https://github.com/sosi-org/birdie), [meteor3:birdie](https://github.com/sosi-org/birdie), websockets, STOMP for spring
    * Spring
