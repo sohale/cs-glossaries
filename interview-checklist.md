@@ -45,5 +45,7 @@ Checklists
       * [model serving 1](https://github.com/sosi-org/grpc-arch-practice/tree/master/tf-serving-18-sept-2020), [model serving 2](https://github.com/sosi-org/grpc-arch-practice/tree/master/tfserving-example)
    * terraform [1](https://github.com/sosi-org/grpc-arch-practice/tree/master/tf-example1)
    * NLTK
-   * JS: Mocha, Selenium, etc
+   * JS:
+      * Mocha, Selenium, etc
+      * [streams](https://github.com/sohale/jrep/blob/main/src/jrep.js)
    * Unimportant: tcl etc
