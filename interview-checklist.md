@@ -8,6 +8,6 @@ Without getting into details for each typr (Python, c++)
     * Python
 
 * General
-   * Test types
-   * Design Patterns
+   * Test types: [see software-testing.md](./software-testing.md)
+   * Design Patterns (See [design-patterns.md](./design-patterns.md))
 
