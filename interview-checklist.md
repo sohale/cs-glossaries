@@ -38,8 +38,9 @@ Checklists
          * [tests](https://github.com/sohale/huffman-bitstream-c/tree/master/tests)
          * [ADC mock](https://github.com/sohale/huffman-bitstream-c/tree/master/csem)
    * WideIO: ns, fuse, jailing, [cython](https://github.com/sosi-org/practice-lookup/tree/master/cython) , IPC, distributed file system, [udp](https://github.com/sosi-org/practice-lookup/tree/master/udp), [zMQ, execve, fork](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py), syscalls.
+   * Angular: [cdwg minor angular](https://github.com/sohale/cdwg/blob/master/public/app/userstate_angjs1_module.js)
    * React practice
-   * Websockets: [socketio](), [meteor1:mawesome](meteor is awesome), [metero2](https://github.com/sosi-org/birdie), [meteor3:birdie](https://github.com/sosi-org/birdie), websockets, STOMP for spring
+   * Websockets: [socketio](), [meteor1:mawesome](meteor is awesome), [metero2](https://github.com/sosi-org/birdie), [meteor3:birdie](https://github.com/sosi-org/birdie), websockets, STOMP for spring: [main stomp](https://github.com/sohale/cdwg/blob/master/src/main/java/sboot/websocket/BcwWebsockEndpoint.java), [stomp2](https://github.com/sohale/cdwg/blob/master/public/app/apppg2.html)
    * Spring [cdwg](https://github.com/sohale/cdwg)
    * [grpc](https://github.com/sosi-org/grpc-arch-practice/tree/master/example) and `.proto`buff [client](https://github.com/sosi-org/grpc-arch-practice/blob/master/example/prot-client.js)-[server](https://github.com/sosi-org/grpc-arch-practice/blob/master/example/prot-server.js) 
    * OpenQL/WebGL [webgldemo](https://github.com/sosi-org/webgl-exercise) (also ThreeJS)
