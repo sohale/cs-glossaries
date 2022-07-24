@@ -15,6 +15,7 @@ See [Software testing: wikipedia box](https://en.wikipedia.org/wiki/Template:Sof
 * Component tests
 * Unit test
 * Contract testing (Pact [1](https://docs.pact.io/) [2](https://github.com/pact-foundation/pact-js) )
+* Penetration Testing
 
 ### Other terms and types:
 * hermetic tests
