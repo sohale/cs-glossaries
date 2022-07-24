@@ -40,6 +40,7 @@ Checklists
    * [grpc](https://github.com/sosi-org/grpc-arch-practice/tree/master/example) and `.proto`buff [client](https://github.com/sosi-org/grpc-arch-practice/blob/master/example/prot-client.js)-[server](https://github.com/sosi-org/grpc-arch-practice/blob/master/example/prot-server.js) 
    * OpenQL/WebGL [webgldemo](https://github.com/sosi-org/webgl-exercise) (also ThreeJS)
    * Tensorflow:
+      * [glyphnet](https://github.com/sosi-org/neural-networks-sandbox/tree/master/glyphnet)
       * [practice-tf](https://github.com/sosi-org/neural-networks-sandbox)
       * [model serving 1](https://github.com/sosi-org/grpc-arch-practice/tree/master/tf-serving-18-sept-2020), [model serving 2](https://github.com/sosi-org/grpc-arch-practice/tree/master/tfserving-example)
    * terraform [1](https://github.com/sosi-org/grpc-arch-practice/tree/master/tf-example1)
