@@ -1,5 +1,6 @@
 Without getting into details for each typr (Python, c++)
 
+### Main checklist
 * Programming test services
    * codility, hackerrank, 
 
@@ -10,6 +11,8 @@ Without getting into details for each typr (Python, c++)
 
 
 ### Question topics
+Checklists
+
 * Design questions
    * The book (cracking)
 
