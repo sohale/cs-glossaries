@@ -20,4 +20,5 @@ Checklists
    * Test types: [see software-testing.md](./software-testing.md)
    * Design Patterns (See [design-patterns.md](./design-patterns.md))
    * Multi threading ([1: ](./concurrency-async-terms.md), [2: telegram](?): based on Tour of C++, ... )
+   * Various concepts (GIL, etc): [See 1](principles-scaffold-meta.md)
 
