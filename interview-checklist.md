@@ -38,7 +38,7 @@ Checklists
          * [tests](https://github.com/sohale/huffman-bitstream-c/tree/master/tests)
          * [ADC mock](https://github.com/sohale/huffman-bitstream-c/tree/master/csem)
    * WideIO: ns, fuse, jailing, [cython](https://github.com/sosi-org/practice-lookup/tree/master/cython) , IPC, distributed file system, [udp](https://github.com/sosi-org/practice-lookup/tree/master/udp), [zMQ, execve, fork](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py), syscalls.
-   * Angular: [cdwg minor angular](https://github.com/sohale/cdwg/blob/master/public/app/userstate_angjs1_module.js)
+   * Angular: [cdwg minor angular](https://github.com/sohale/cdwg/blob/master/public/app/userstate_angjs1_module.js), [mp5-private](https://github.com/sohale/mp5-private), angular2: yrain, angular2:dilm.
    * React practice
    * Websockets:
       * [socketio](),
