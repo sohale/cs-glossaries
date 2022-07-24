@@ -25,11 +25,21 @@ Checklists
 
 ### Legacy of past
 * API
-   * API/rest status codes, my codes, [TLS](./made-simple/tls-1.md) 
+   * API/rest status codes, my codes, [TLS](./made-simple/tls-1.md)
+      * REST projects: [drops](https://github.com/sosi-org/REST-practice), [image-farms ](https://github.com/sosi-org/image-farms), [mouse-api](), 
    * CUDA
    * VHDL
    * ML: EM, KF, Survival(PP), [IG1](https://github.com/sohale/luca-essexbcilab-ppjournalpaper), [IG2](https://en.wikipedia.org/wiki/Inverse_Gaussian_distribution), [IG3](https://github.com/sohale/point-process-notes/blob/main/ifig/imi_cif.py), [IG4](). Wavelet denoising (maybe: [ppss](https://bitbucket.org/sohailsiadat/smithbrown2003-ppss/src/master/)). 
    * QC
    * C protocol for microcontroller  [huffman-bitstream-c](https://github.com/sohale/huffman-bitstream-c) [on bitbucket](https://bitbucket.org/sohailsiadat/huffman-bitstream-c/src/master/): concepts: 
    * Tests I written: [Google Test for C++](), [test foc C: huffman-bitstream-c](https://github.com/sohale/huffman-bitstream-c)
+   * WideIO: ns, fuse, jailing, [cython](https://github.com/sosi-org/practice-lookup/tree/master/cython) , IPC, distributed file system, [udp](https://github.com/sosi-org/practice-lookup/tree/master/udp), [zMQ](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py), syscalls, [fork](https://github.com/sosi-org/practice-lookup/blob/master/pylinuxsys/pylinuxsys.py).
+   * React practice
+   * Websockets: [socketio](), [meteor1:mawesome](meteor is awesome), [metero2](https://github.com/sosi-org/birdie), [meteor3:birdie](https://github.com/sosi-org/birdie), websockets, STOMP for spring
+   * Spring
+   * 
+   * OpenQL/WebGL [webgldemo](https://github.com/sosi-org/webgl-exercise) (also ThreeJS)
+   * Tensorflow
+   * NLTK
+   * JS: Mocha, Selenium, etc
    * Unimportant: tcl etc
