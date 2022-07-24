@@ -8,6 +8,7 @@ Without getting into details for each typr (Python, c++)
 * tech-specific
     * C++: See: [1:principles-meta](principles-scaffold-meta.md), 2: [cpp-details folder](cpp-details), 3: [cpp-practice folder](cpp-practice), 4: [for templates](bulk.cpp). Also see below sections: [multi-threading]
     * Python: [See 1:p](python-interview-notes.md), [See 2:principles-meta](principles-scaffold-meta.md)
+* [Legacy of past](#legacy-of-past)
 
 
 ### Question topics
@@ -22,3 +23,8 @@ Checklists
    * Multi-threading ([1: ](./concurrency-async-terms.md), [2: telegram](?): based on Tour of C++, ... )
    * Various concepts (GIL, etc): [See 1](principles-scaffold-meta.md)
 
+### Legacy of past
+* API
+   * API rest codes
+   * CUDA
+   * VHDL
