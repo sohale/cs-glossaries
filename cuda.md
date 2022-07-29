@@ -1,6 +1,8 @@
 
 Some of my old code and writings copywritten in [patent](https://patents.google.com/patent/US10210518B2/en)
 
+is a form of "massively parallel computation"
+
 ### Some terms and concepts
 * A kernel: a piece of code executed by each GPU instace.
 * A kernel instance: each execution with its own input (variables) and parameters
@@ -14,11 +16,14 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
    * processes within a "warp" =?
    * vs (all)  kernels
 
+* Warp, block, kernel, process, gpu core.
+
 * GPU global memory
 
 * You cannot:
    * no recursive programming ( no stack)
    * recursion is removed from CUDA
+
 
 * Stages/modes:
    * fully parallel
