@@ -46,5 +46,5 @@ __device__	double	executeTransformation(...);
    * Mitigation: (cont.) Using somehow local memory. Also check vectorised: Somehow local access.
    * Mitigation: (vague): Somehow using Cache
    * Mitigation: (vague): Somehow using registers of each kernel? Can we preload them? Does L fit in them?
-   *  Mitigation: (cont.): The input (w) vector elements may not be contiguous, but strided.
+   * Mitigation: (cont.): The input (w) vector elements may not be contiguous, but strided.
    * No racing condition, but it may not be fast. 
