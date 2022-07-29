@@ -31,6 +31,19 @@ Other memories:
 
 Term: host
 
+Basic operations:
+* transferring data from the GPU to the CPU
+   * by kernel
+   * or by CPU?
+* transferring data from the CPU to the GPU
+   * to memory?
+   * not to kernel?
+   * by CPU only?
+* Loading of GPU kernels
+* (waiting for last one)
+* warp execusion
+* Assigning of indices (?)
+  
 * You cannot:
    * no recursive programming ( no stack)
    * recursion is removed from CUDA
