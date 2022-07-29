@@ -148,7 +148,7 @@ There are multiple ways to do synchronisation. It may be not straightforward.
    * the waiting time for this synchronization can be near zero
    * Used in random number generators (RNG)
    * A warp normally consists of 32 threads
-* Coordinaiton between grid, block, etc?
+* Coordination between grid, block, etc?
 
 #### Synch techniques
 Two main techniques: barrier, mem-copy, Warp:
