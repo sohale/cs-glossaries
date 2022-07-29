@@ -55,3 +55,7 @@ __device__	double	executeTransformation(...);
    * Mitigation: (vague): Somehow using registers of each kernel? Can we preload them? Does L fit in them?
    * Mitigation: (cont.): The input (w) vector elements may not be contiguous, but strided.
    * No racing condition, but it may not be fast. 
+
+
+## Appendix
+* Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C
