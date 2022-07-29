@@ -70,6 +70,7 @@ Coordination:
 Synch techniques:
 * "Barrier Synchronization"
    * Serial sequence: kernel-1 end, offload, kernel2-load, kernel2-start, kernel-2 execution, kernel2-end, ...
+   * Serial sequence: kernel-1 end, offload, WAIT-FOR CPU, kernel2-load (FROM CPU), kernel2-start, kernel-2 execution, kernel2-end, ...
 
 ### CUDA
 #### Typical CUDA functions:
