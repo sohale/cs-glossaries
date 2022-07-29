@@ -20,7 +20,7 @@ Ways parameters and variables are given:
 * passed on (specific element: indexed) memory locations (on GPU global memory): predesignated indices
    * Specific (and unique) to each kernel instance
    * Global and shared by (all) instances (matrix L) (is this a bottleneck?). (It is read directly from the global memory in each access. Can we put it in registers somehow?)
-   * Write access to specific global-gpu mempry location
+   * Write access to specific global-gpu mempry location (no racing condition)
 * Pointers: Locations on GPU global memory
 * the address of some array that all values are there but need to be indexed. (not the actual location that is accessed, but the beginning)
 * Unique values to each kernel (not in memory): index, etc
@@ -47,3 +47,4 @@ __device__	double	executeTransformation(...);
    * Mitigation: (vague): Somehow using Cache
    * Mitigation: (vague): Somehow using registers of each kernel? Can we preload them? Does L fit in them?
    *  Mitigation: (cont.): The input (w) vector elements may not be contiguous, but strided.
+   * No racing condition, but it may not be fast. 
