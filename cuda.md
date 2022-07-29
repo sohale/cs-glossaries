@@ -24,6 +24,12 @@ Physical (core) versus logical (thread?).
 
 * GPU global memory
 
+Other memories:
+* host memory
+* GPU global memory
+
+Term: host
+
 * You cannot:
    * no recursive programming ( no stack)
    * recursion is removed from CUDA
@@ -72,7 +78,7 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 * Comparison of processes vs means time
 
 #### Synch techniques
-Two main techniques: barrier and mem-copy:
+Two main techniques: barrier, mem-copy, Warp:
 * "Barrier Synchronization"
    * Serial sequence: kernel-1 end, offload, kernel2-load, kernel2-start, kernel-2 execution, kernel2-end, ...
    * Serial sequence: kernel-1 end, offload, **WAIT-FOR CPU**, kernel2-**load FROM CPU**, kernel2-start, kernel-2 execution, kernel2-end, ...
@@ -81,6 +87,10 @@ Two main techniques: barrier and mem-copy:
    * CPU is notified by the barrier mechanism immediately "after" the last parallel kernel instance (last thread)
    * From outside (CPU), and is not done explicitly launched by kernels
 * Synchronization Using the `cudaMemcpy` Function
+   * Also implicit synchronization
+   * transfers data from the GPU to the CPU
+   * "A `cudaMemcopy` function waits until the kernel is completed before it begins its copy operation on memory." (?)
+* Warp synchronization
 
 ### CUDA
 #### Typical CUDA functions:
