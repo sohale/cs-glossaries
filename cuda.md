@@ -97,7 +97,9 @@ Amdahl's law:
 * Cache: L2= 1'572'864. (1 MB)
 * SMP
 * Thread per SMP
-
+* Some strange terms:
+   * SP (SP Cores)
+   * SMP
 
 ### I (on input)
 * Stages/modes:
