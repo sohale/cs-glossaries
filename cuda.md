@@ -70,6 +70,7 @@ You cannot:
 
 Amdahl's law:
 * $p * T + (1-p) * T/s$
+
 * Stages/modes:
    * fully parallel
    * combining
@@ -78,6 +79,7 @@ Amdahl's law:
       * copy
       * count? (derived from indices?)
 
+(const? recursive across G? (not L). chain. See skip-ahead)
 
 ### IO
 Types of input (IO) values
@@ -94,8 +96,12 @@ Ways parameters and variables are given:
    * Global and shared by (all) instances (matrix L) (is this a bottleneck?). (It is read directly from the global memory in each access. Can we put it in registers somehow?)
    * Write access to specific global-gpu mempry location (no racing condition)
 * Pointers: Locations on GPU global memory
-* the address of some array that all values are there but need to be indexed. (not the actual location that is accessed, but the beginning)
+* the address of (head of) some array that all values are there but need to be indexed. (not the actual location that is accessed, but the beginning)
 * Unique values to each kernel (not in memory): index, etc
+
+* Explicit input (from CPU), explicit input (left on GPU memory), const, chain (sequential formula: induction/recursion in G direction. G=across kernels instances. (logical. not number of gpu-cores))
+* The Skip-ahead formula calculations. Used for "Chain" calculations. (See bove section "Stages/modes")
+
 
 ### Ways of GPU-GPU communications
 * By memory (coordinated,, i.e. no data race)
