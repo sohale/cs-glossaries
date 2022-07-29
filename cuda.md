@@ -67,6 +67,9 @@ Coordination:
 * Slowest process (before a sync) (determins the overall speed) (idle time)
 * Comparison of processes vs means time
 
+Synch techniques:
+   * "Barrier Synchronization"
+
 ### CUDA
 #### Typical CUDA functions:
 ```cpp
