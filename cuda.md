@@ -7,6 +7,13 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 
 * GPU global memory
 
+* Stages/modes:
+   * fully parallel
+   * combining
+   * seeding or populating:
+      * RNG
+      * copy
+      * count? (derived from indices?)
 ### IO
 Types of input (IO) values
 Parameters, variables (input), variables (output), kernel/execution indices (input)
