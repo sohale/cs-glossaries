@@ -63,6 +63,7 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 Coordination:
 * Minimize time lost
 * balance the workload (between the GPU cores)
+* Slowest process (before a sync)
 
 
 ### CUDA
