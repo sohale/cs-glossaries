@@ -4,6 +4,7 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 * A kernel: a piece of code executed by each GPU instace.
 * A kernel instance: each execution with its own input (variables) and parameters
 * Number of Kernel instances
+* Their execusion is async
 
 * GPU global memory
 
