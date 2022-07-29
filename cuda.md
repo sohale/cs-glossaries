@@ -1,6 +1,7 @@
 
 Some of my old code and writings copywritten in [patent](https://patents.google.com/patent/US10210518B2/en)
 
+### Some terms and concepts
 * A kernel: a piece of code executed by each GPU instace.
 * A kernel instance: each execution with its own input (variables) and parameters
 * Number of Kernel instances
@@ -8,10 +9,10 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 
 * GPU cores
 
-Warp, block, kernel, process.
-* "processes" within a "block" =?
-* processes within a "warp" =?
-* vs (all)  kernels
+* Warp, block, kernel, process.
+   * "processes" within a "block" =?
+   * processes within a "warp" =?
+   * vs (all)  kernels
 
 * GPU global memory
 
