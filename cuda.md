@@ -68,7 +68,8 @@ Coordination:
 * Comparison of processes vs means time
 
 Synch techniques:
-   * "Barrier Synchronization"
+* "Barrier Synchronization"
+   * Serial sequence: kernel-1 end, offload, kernel2-load, kernel2-start, kernel-2 execution, kernel2-end, ...
 
 ### CUDA
 #### Typical CUDA functions:
