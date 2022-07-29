@@ -54,8 +54,9 @@ Agents: Things are done by?
    * to GPU global memory
    * to others?
 
-Bottlenecks:
+Usual bottlenecks:
 * GPU-CPU data trasnfers (and message passing)
+   * transfer is slow
 * Use of shared memory
 ...
 
