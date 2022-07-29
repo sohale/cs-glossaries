@@ -64,14 +64,15 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 * sync between all the parallel kernels
 * process: (Sync between processes(?) within a "block")
 
-Coordination:
+#### Coordination:
 * Minimize time lost
    * the idle time
 * balance the workload (between the GPU cores)
 * Slowest process (before a sync) (determins the overall speed) (idle time)
 * Comparison of processes vs means time
 
-Synch techniques:
+#### Synch techniques
+Two main techniques: barrier and mem-copy:
 * "Barrier Synchronization"
    * Serial sequence: kernel-1 end, offload, kernel2-load, kernel2-start, kernel-2 execution, kernel2-end, ...
    * Serial sequence: kernel-1 end, offload, **WAIT-FOR CPU**, kernel2-**load FROM CPU**, kernel2-start, kernel-2 execution, kernel2-end, ...
