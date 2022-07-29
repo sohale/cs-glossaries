@@ -40,5 +40,6 @@ __device__	double	executeTransformation(...);
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
    * Mitigation: (cont.) Using shared memory for them?
+   * Mitigation: (cont.) Using somehow local memory. Also check vectorised: Somehow local access.
    * Mitigation: (vague): Somehow using Cache
    * Mitigation: (vague): Somehow using registers of each kernel? Can we preload them? Does L fit in them?
