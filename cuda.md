@@ -16,8 +16,11 @@ is a form of "massively parallel computation"
    * processes within a "warp" =?
    * vs (all)  kernels
    * kernel instance = thread (?)
+   * task (finished its task)
 
-* Warp, block, kernel, a process, gpu core, thread.
+Physical (core) versus logical (thread?).
+
+* Warp, block, kernel, a process, gpu core, thread, task.
 
 * GPU global memory
 
