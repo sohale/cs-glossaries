@@ -96,6 +96,11 @@ Ways parameters and variables are given:
 * the address of some array that all values are there but need to be indexed. (not the actual location that is accessed, but the beginning)
 * Unique values to each kernel (not in memory): index, etc
 
+### Ways of GPU-GPU communications
+* By memory (coordinated,, i.e. no data race)
+* by sychronisation (simple events)
+* (is other event paaing possible?)
+
 ### Synchronisation
 Synchronisation means waiting for previous ones to finish.
 
