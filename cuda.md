@@ -7,6 +7,10 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 
 * GPU global memory
 
+* You cannot:
+   * no recursive programming ( no stack)
+   * recursion is removed from CUDA
+
 * Stages/modes:
    * fully parallel
    * combining
@@ -31,6 +35,9 @@ Ways parameters and variables are given:
 * Pointers: Locations on GPU global memory
 * the address of some array that all values are there but need to be indexed. (not the actual location that is accessed, but the beginning)
 * Unique values to each kernel (not in memory): index, etc
+
+### Synchronisation
+Synchronisation means waiting for previous ones to finish.
 
 ### CUDA
 #### Typical CUDA functions:
@@ -58,4 +65,4 @@ __device__	double	executeTransformation(...);
 
 
 ## Appendix
-* Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C
+* Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C (is nested. Also recursive?)
