@@ -3,12 +3,22 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 
 * A kernel: a piece of code executed by each GPU instace.
 * A kernel instance: each execution with its own input (variables) and parameters
-* Number of Kernel instances:
+* Number of Kernel instances
 
+* GPU global memory
 
-### Parameters:
+### IO
+Types of input (IO) values
+Parameters, variables (input), variables (output), kernel/execution indices (input)
+
+#### Parameters:
 * Parameters that have similar value across all kernel instances
 * Inputs specific to each kernel instance
+
+
+Ways parameters and variables are given:
+* passed on memory locations (on GPU global memory): predesignated indices
+* Pointers: Locations on GPU global memory
 
 ### CUDA
 #### Typical CUDA functions:
