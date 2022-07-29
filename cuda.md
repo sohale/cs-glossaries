@@ -78,6 +78,7 @@ Synch techniques:
    * Is an "implicit synchronization"
    * implicit = no separate function is called only for sake of synchronization
    * CPU is notified by the barrier mechanism immediately "after" the last parallel kernel instance (last thread)
+   * From outside (CPU), and is not done explicitly launched by kernels
 
 ### CUDA
 #### Typical CUDA functions:
