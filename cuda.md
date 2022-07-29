@@ -57,6 +57,10 @@ Agents: Things are done by?
 Usual bottlenecks:
 * GPU-CPU data trasnfers (and message passing)
    * transfer is slow
+   * Is serial (sequential)
+   * Bandwidth is small
+   * Compared to GPU-cores with memory or eachother
+   * Compares to data transfer within GPU (between which part of the architecture?)
 * Use of shared memory
 ...
 
