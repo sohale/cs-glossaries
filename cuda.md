@@ -17,10 +17,11 @@ Parameters, variables (input), variables (output), kernel/execution indices (inp
 
 
 Ways parameters and variables are given:
-* passed on memory locations (on GPU global memory): predesignated indices
+* passed on (specific element: indexed) memory locations (on GPU global memory): predesignated indices
    * Specific to each kernel instance
    * Global and shared by (all) instances (matrix L) (is this a bottleneck?). (It is read directly from the global memory in each access. Can we put it in registers somehow?)
 * Pointers: Locations on GPU global memory
+* the address of some array that all values are there but need to be indexed. (not the actual location that is accessed, but the beginning)
 
 ### CUDA
 #### Typical CUDA functions:
