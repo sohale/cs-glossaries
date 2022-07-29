@@ -5,6 +5,7 @@ is a form of "massively parallel computation"
 
 ### Some terms and concepts
 * A kernel: a piece of code executed by each GPU instace.
+   * A kernel is in fact shared between many (single)
 * A kernel instance: each execution with its own input (variables) and parameters
 * Number of Kernel instances
 * Their execusion is async
@@ -76,6 +77,11 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 * balance the workload (between the GPU cores)
 * Slowest process (before a sync) (determins the overall speed) (idle time)
 * Comparison of processes vs means time
+* warp execution
+   * individual instructions are synchronized
+   * (all) GPU cores participate in a warp
+   * the waiting time is not obvious. It is divided between individual instructions
+   * the waiting time for this synchronization can be near zero
 
 #### Synch techniques
 Two main techniques: barrier, mem-copy, Warp:
@@ -92,6 +98,8 @@ Two main techniques: barrier, mem-copy, Warp:
    * "A `cudaMemcopy` function waits until the kernel is completed before it begins its copy operation on memory." (?)
    * Somehow from data (control flow follows data flow)
 * Warp synchronization
+   * term: "warp execution"
+   
 
 
 ### CUDA
