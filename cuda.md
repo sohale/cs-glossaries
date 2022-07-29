@@ -42,8 +42,15 @@ Basic operations:
 * Loading of GPU kernels
 * (waiting for last one)
 * warp execusion
-* Assigning of indices (?)
-  
+* Assigning of indices (?) (Is this a separate step? or as part of kernel loading? or automatically and implicitly done by hardware (scheduler) and massive execusion/launch of kernels: launch. Are they started together? or after loadin gof each?)
+
+Agents: Things are done by?
+* GPU (kernels)
+* GPU Scheduler
+* CPU (progamming)
+* CPU (transferring)
+   * to GPU global memory
+   * to others?
 * You cannot:
    * no recursive programming ( no stack)
    * recursion is removed from CUDA
