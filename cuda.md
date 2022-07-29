@@ -71,6 +71,15 @@ You cannot:
 Amdahl's law:
 * $p * T + (1-p) * T/s$
 
+### Typical dimensions
+* 32 threads in a warp
+* ... cores in K40
+* block, grid, etc.
+* shared memory size
+* global memory size (K40)
+* cache sizes of K40
+
+### I (on input)
 * Stages/modes:
    * fully parallel
    * combining
