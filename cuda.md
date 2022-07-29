@@ -90,7 +90,9 @@ Two main techniques: barrier, mem-copy, Warp:
    * Also implicit synchronization
    * transfers data from the GPU to the CPU
    * "A `cudaMemcopy` function waits until the kernel is completed before it begins its copy operation on memory." (?)
+   * Somehow from data (control flow follows data flow)
 * Warp synchronization
+
 
 ### CUDA
 #### Typical CUDA functions:
