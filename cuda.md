@@ -11,12 +11,12 @@ is a form of "massively parallel computation"
 
 * GPU cores
 
-* Warp, block, kernel, process.
+* Warp, block, kernel, a process.
    * "processes" within a "block" =?
    * processes within a "warp" =?
    * vs (all)  kernels
 
-* Warp, block, kernel, process, gpu core.
+* Warp, block, kernel, a process, gpu core.
 
 * GPU global memory
 
@@ -62,8 +62,9 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 
 Coordination:
 * Minimize time lost
+   * the idle time
 * balance the workload (between the GPU cores)
-* Slowest process (before a sync) (determins the overall speed)
+* Slowest process (before a sync) (determins the overall speed) (idle time)
 * Comparison of processes vs means time
 
 ### CUDA
