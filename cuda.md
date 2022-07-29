@@ -98,8 +98,8 @@ Ways parameters and variables are given:
 
 ### Ways of GPU-GPU communications
 * By memory (coordinated,, i.e. no data race)
-* by sychronisation (simple events)
-* (is other event paaing possible?)
+* by sychronisation (simple events): See synchrization section. All of them apply.
+* (is other event passing possible?)
 
 ### Synchronisation
 Synchronisation means waiting for previous ones to finish.
