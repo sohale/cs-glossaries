@@ -6,6 +6,8 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 * Number of Kernel instances
 * Their execusion is async
 
+* GPU cores
+
 Warp, block, kernel, process.
 * "processes" within a "block" =?
 * processes within a "warp" =?
@@ -54,6 +56,8 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 
 Coordination:
 * Minimize time lost
+* balance the workload (between the GPU cores)
+
 
 ### CUDA
 #### Typical CUDA functions:
