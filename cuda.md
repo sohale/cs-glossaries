@@ -52,6 +52,9 @@ There are multiple ways to do synchronisation. It may be not straightforward.
 * sync between all the parallel kernels
 * process: (Sync between processes(?) within a "block")
 
+Coordination:
+* Minimize time lost
+
 ### CUDA
 #### Typical CUDA functions:
 ```cpp
