@@ -78,13 +78,25 @@ Amdahl's law:
 * shared memory size
 * global memory size (K40)
 * cache sizes of K40
+
 ### The architecture
+
 #### The architecture of K40c
 * Multiprocessor = ? (15)
 * 12 Gb
 * Constant Memory (64k)
 * Shared Memory per Block (49k = $1024 * 16 * 3$ = 48 * 1024)
-* 
+* Registers per block 64k
+* Threads per block: 1024
+* Block dims: 1024, 1024, 64
+* Grid dims: 2'147'483'647 x 65'535 x 65'535
+* Memory pitch = ? (2 G B)
+* Memory has clock: 3 GHz
+* Memory bus: 384
+
+* Cache: L2= 1'572'864. (1 MB)
+* SMP
+* Thread per SMP
 
 
 ### I (on input)
