@@ -6,6 +6,11 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 * Number of Kernel instances
 * Their execusion is async
 
+Warp, block, kernel, process.
+* "processes" within a "block" =?
+* processes within a "warp" =?
+* vs (all)  kernels
+
 * GPU global memory
 
 * You cannot:
@@ -39,6 +44,13 @@ Ways parameters and variables are given:
 
 ### Synchronisation
 Synchronisation means waiting for previous ones to finish.
+
+There are multiple ways to do synchronisation. It may be not straightforward.
+
+* sync within a "block"
+* sync within a "warp"
+* sync between all the parallel kernels
+* process: (Sync between processes(?) within a "block")
 
 ### CUDA
 #### Typical CUDA functions:
