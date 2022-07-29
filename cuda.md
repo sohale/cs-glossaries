@@ -18,6 +18,8 @@ Parameters, variables (input), variables (output), kernel/execution indices (inp
 
 Ways parameters and variables are given:
 * passed on memory locations (on GPU global memory): predesignated indices
+   * Specific to each kernel instance
+   * Global and shared by (all) instances (matrix L) (is this a bottleneck?)
 * Pointers: Locations on GPU global memory
 
 ### CUDA
@@ -33,3 +35,9 @@ __device__	double	executeTransformation(...);
 * `__global__	void	processMonteCarloSample(...);` parameters and variables fetched from GPU global memory
 * `__device__	double	executeTransformation(...);` execute each transformation, in parallel with others
 
+
+## Potential bottlenecks:
+* Matrix `L` is accessed by all kernels.
+   * Mitigation: copy for all kernels. Copy for every few of them. etc.
+   * Mitigation: (cont.) Using shared memory for them?
+   * Mitigation: (vague): Somehow using Cache
