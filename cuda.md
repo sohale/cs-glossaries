@@ -15,8 +15,9 @@ is a form of "massively parallel computation"
    * "processes" within a "block" =?
    * processes within a "warp" =?
    * vs (all)  kernels
+   * kernel instance = thread (?)
 
-* Warp, block, kernel, a process, gpu core.
+* Warp, block, kernel, a process, gpu core, thread.
 
 * GPU global memory
 
@@ -73,6 +74,7 @@ Synch techniques:
    * Serial sequence: kernel-1 end, offload, **WAIT-FOR CPU**, kernel2-**load FROM CPU**, kernel2-start, kernel-2 execution, kernel2-end, ...
    * Is an "implicit synchronization"
    * implicit = no separate function is called only for sake of synchronization
+   * CPU is notified by the barrier mechanism immediately "after" the last parallel kernel instance (last thread)
 
 ### CUDA
 #### Typical CUDA functions:
