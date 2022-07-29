@@ -5,6 +5,11 @@ Some of my old code and writings copywritten in [patent](https://patents.google.
 * A kernel instance: each execution with its own input (variables) and parameters
 * Number of Kernel instances:
 
+
+Parameters:
+* Parameters that have similar value across all kernel instances
+* Inputs specific to each kernel instance
+
 * Typical CUDA functions
 ```cpp
 __device__	size_t	calculateGlobalIndex( );
@@ -17,8 +22,3 @@ Explanations:
 * `__global__	void	processMonteCarloSample(...);` parameters and variables fetched from GPU global memory
 * `__device__	double	executeTransformation(...);` execute each transformation, in parallel with others
 
-
-
-Parameters:
-* Parameters that have similar value across all kernel instances
-* Inputs specific to each kernel instance
