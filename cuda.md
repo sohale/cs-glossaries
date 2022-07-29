@@ -73,11 +73,19 @@ Amdahl's law:
 
 ### Typical dimensions
 * 32 threads in a warp
-* ... cores in K40
+* 2880 cores in K40c
 * block, grid, etc.
 * shared memory size
 * global memory size (K40)
 * cache sizes of K40
+### The architecture
+#### The architecture of K40c
+* Multiprocessor = ? (15)
+* 12 Gb
+* Constant Memory (64k)
+* Shared Memory per Block (49k = $1024 * 16 * 3$ = 48 * 1024)
+* 
+
 
 ### I (on input)
 * Stages/modes:
