@@ -82,6 +82,7 @@ There are multiple ways to do synchronisation. It may be not straightforward.
    * (all) GPU cores participate in a warp
    * the waiting time is not obvious. It is divided between individual instructions
    * the waiting time for this synchronization can be near zero
+   * Used in random number generators (RNG)
 
 #### Synch techniques
 Two main techniques: barrier, mem-copy, Warp:
