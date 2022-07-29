@@ -68,7 +68,8 @@ You cannot:
    * no recursive programming ( no stack)
    * recursion is removed from CUDA
 
-
+Amdahl's law:
+* $p * T + (1-p) * T/s$
 * Stages/modes:
    * fully parallel
    * combining
