@@ -64,7 +64,7 @@ Coordination:
 * Minimize time lost
 * balance the workload (between the GPU cores)
 * Slowest process (before a sync) (determins the overall speed)
-
+* Comparison of processes vs means time
 
 ### CUDA
 #### Typical CUDA functions:
