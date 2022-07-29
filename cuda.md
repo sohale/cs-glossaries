@@ -19,7 +19,7 @@ Parameters, variables (input), variables (output), kernel/execution indices (inp
 Ways parameters and variables are given:
 * passed on memory locations (on GPU global memory): predesignated indices
    * Specific to each kernel instance
-   * Global and shared by (all) instances (matrix L) (is this a bottleneck?)
+   * Global and shared by (all) instances (matrix L) (is this a bottleneck?). (It is read directly from the global memory in each access. Can we put it in registers somehow?)
 * Pointers: Locations on GPU global memory
 
 ### CUDA
@@ -41,3 +41,4 @@ __device__	double	executeTransformation(...);
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
    * Mitigation: (cont.) Using shared memory for them?
    * Mitigation: (vague): Somehow using Cache
+   * Mitigation: (vague): Somehow using registers of each kernel? Can we preload them? Does L fit in them?
