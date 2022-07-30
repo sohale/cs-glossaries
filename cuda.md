@@ -230,8 +230,12 @@ First args are gpu pointers.
 
 Transfer: Using `cudaMemcpy()`:
 
-* `cudaMemcpy(dst, src, count, cudaMemcpyKind kind)`
+* `cudaMemcpy(dst, src, count, kind)`
 where `cudaMemcpyKind kind`, and `void *dst`, `void *src`.
+
+The kind arg is of type `cudaMemcpyKind`:
+* `cudaMemcpyHostToDevice` : Host `->` Device
+* `cudaMemcpyDeviceToHost` : Device `->` Host
 
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
