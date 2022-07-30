@@ -204,6 +204,14 @@ The `(m,k)` is parameters of "kernel execution configuration".
 
 * "Threads" are grouped into "thread block". Multiple thread blocks, organized into a "grid" structure. [T2](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial02/)
 
+thread block -> threads
+
+* `threadIdx.x` = the index of the thread within the block
+* `blockDim.x` = the size of thread block (number of threads in the thread block).
+
+* $0 <$ `threadIdx.x` $<$ `blockDim.x`
+
+
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
