@@ -28,11 +28,15 @@ Physical (core) versus logical (thread?).
 
 * GPU global memory
 
-Other memories:
+Term: host
+
+Other memories: "host memory" versus "device memory"
 * host memory
 * GPU global memory
 
-Term: host
+
+
+
 
 Basic operations:
 * transferring data from the GPU to the CPU
