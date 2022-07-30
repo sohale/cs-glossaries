@@ -211,6 +211,7 @@ thread block -> threads
 
 * $0 <$ `threadIdx.x` $<$ `blockDim.x`
 
+* An "iteration" ~ a block = one round of parallel execusion of kernels.
 
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
