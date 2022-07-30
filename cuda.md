@@ -197,7 +197,12 @@ __device__	double	executeTransformation(...);
 * `__global__	void	processMonteCarloSample(...);` parameters and variables fetched from GPU global memory
 * `__device__	double	executeTransformation(...);` execute each transformation, in parallel with others
 
-The `__global__` specifier indicates a function that runs on "device" (GPU). aka "kernels". [ref](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
+The `__global__` specifier indicates a function that runs on "device" (GPU). aka "kernels". [1ref](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
+
+When a kernel is "called", its "execution configuration" is specified using `<<...>>`. For example: `cuda_hello<<<1,1>>>();`. aka "kernel launch".
+The `(m,k)` is parameters of "kernel execution configuration".
+
+* "Threads" are grouped into "thread block". Multiple thread blocks, organized into a "grid" structure. [T2](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial02/)
 
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
@@ -214,7 +219,7 @@ The `__global__` specifier indicates a function that runs on "device" (GPU). aka
 * `.cu` CUDA source file, containing host code and device functions
 
 ## Read
-* A [tutorial](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
+* [T1]: A [tutorial](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
 
 ## Appendix
 * Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C (is nested. Also recursive?)
