@@ -197,6 +197,7 @@ __device__	double	executeTransformation(...);
 * `__global__	void	processMonteCarloSample(...);` parameters and variables fetched from GPU global memory
 * `__device__	double	executeTransformation(...);` execute each transformation, in parallel with others
 
+The `__global__` specifier indicates a function that runs on device (GPU). [ref](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
 
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
