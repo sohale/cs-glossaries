@@ -34,6 +34,7 @@ Other memories: "host memory" versus "device memory"
 * host memory
 * GPU global memory
 
+See pointers.
 
 
 
@@ -216,6 +217,21 @@ thread block -> threads
 * $0 <$ `threadIdx.x` $<$ `blockDim.x`
 
 * An "iteration" ~ a block = one round of parallel execusion of kernels.
+
+
+Pointers: host pointer and device pointer.
+
+Workflow: allocate, load, compue, gather.
+
+allocation "device pointer":
+* `cudaMalloc(void **, size_t);`
+* `cudaFree(void *);`
+First args are gpu pointers.
+
+Transfer: Using `cudaMemcpy()`:
+
+* `cudaMemcpy(dst, src, count, cudaMemcpyKind kind)`
+where `cudaMemcpyKind kind`, and `void *dst`, `void *src`.
 
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
