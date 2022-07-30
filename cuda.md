@@ -237,6 +237,11 @@ The kind arg is of type `cudaMemcpyKind`:
 * `cudaMemcpyHostToDevice` : Host `->` Device
 * `cudaMemcpyDeviceToHost` : Device `->` Host
 
+So far, we have this: [source](https://github.com/sohale/GPU-CUDA-mnc/blob/4bbaa2a84a38e54387d90e73a6c063396852a8d9/practice/host.cu)
+for simple gpu usage wwith transfer but without actuall parallelization (one thread on gpu).
+
+However, the `<<<1,1>>>` is not yet parallel.
+
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
