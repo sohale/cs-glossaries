@@ -212,5 +212,8 @@ __device__	double	executeTransformation(...);
 * `.ptx` is PTX intermediate assembly file
 * `.cu` CUDA source file, containing host code and device functions
 
+## Read
+* A [tutorial](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
+
 ## Appendix
 * Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C (is nested. Also recursive?)
