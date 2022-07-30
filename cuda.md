@@ -1,5 +1,6 @@
 
-Some of my old code and writings copywritten in [patent](https://patents.google.com/patent/US10210518B2/en)
+* https://github.com/sohale/GPU-CUDA-mnc
+* Some of my old code and writings copywritten in [patent](https://patents.google.com/patent/US10210518B2/en)
 
 is a form of "massively parallel computation"
 
@@ -207,6 +208,9 @@ __device__	double	executeTransformation(...);
    * Mitigation: (cont.): The input (w) vector elements may not be contiguous, but strided.
    * No racing condition, but it may not be fast. 
 
+## NVCC guide
+* `.ptx` is PTX intermediate assembly file
+* `.cu` CUDA source file, containing host code and device functions
 
 ## Appendix
 * Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C (is nested. Also recursive?)
