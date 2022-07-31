@@ -337,6 +337,7 @@ Three classes of arguments:
 
 ## Read
 * [T1]: A [tutorial](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
+* [2]: [Ref used in T1](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
 
 ## Appendix
 * Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C (is nested. Also recursive?)
