@@ -12,6 +12,7 @@
    * `dynamic_cast`
    * `const_cast`
    * `static_cast`
+   * `reinterpret_cast`
 * exceptions
    * ...
 * What is:
@@ -22,6 +23,10 @@
    * "move constructible"
    * "move assignable"
 * See Stroustrup's [glossary](https://www.stroustrup.com/glossary.html)
+
+* Something about `T[]` versus `*T`
+* Circular definition
+
 
 * constructors using `{}`.
 * Ways of constructing:
