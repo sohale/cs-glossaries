@@ -265,6 +265,20 @@ However, the `<<<1,1>>>` is not yet parallel.
     int index = threadIdx.x;
     int stride = blockDim.x; // 256
 ```
+
+Generalisaiton:
+```cpp
+// …,0,0,(xi, yi),0,0,…    ∈    𝕝 ^ [… 1 × 1 × nx × ny × 1 × 1 …]
+const int tid =  ( ( ( (0 + 0) * nextDim.x + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x) * 1
+```
+
+```
+// threadDim.x := 1 //always
+const int nx = blockDim.x; // 256
+const int ny = gridDim.x;  // 4
+const int nz = nextDim.x;  // 1
+// For:  4 × 256 = … × 1 × 1 × 4 × 256 × 1
+```
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
