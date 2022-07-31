@@ -242,6 +242,29 @@ for simple gpu usage wwith transfer but without actuall parallelization (one thr
 
 However, the `<<<1,1>>>` is not yet parallel.
 
+### ...
+```cpp
+    // (xi, yi)  ∈  nx × ny
+    const xi = threadIdx.x;
+    const yi = blockIdx.x;
+    const nx = blockDim.x;  // 256
+    const ny = gridDim.x;   // 4?
+
+    // threadIdx.x < blockDim.x = 256
+    // blockIdx.x < gridDim.x = 4 (?)
+    // xi < nx
+    // yi < ny
+    // (xi, yi)  ∈  256 × 4
+
+    // const int tid = blockIdx.x * blockDim.x + threadIdx.x;
+    const int tid = yi * nx + xi;
+    ...
+```
+
+```cpp
+    int index = threadIdx.x;
+    int stride = blockDim.x; // 256
+```
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
