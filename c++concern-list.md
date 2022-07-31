@@ -15,6 +15,9 @@
 * What is:
    * RAII
    * RTTI
+   * "move constructible"
+   * "move assignable"
+* See Stroustrup's [glossary](https://www.stroustrup.com/glossary.html)
 
 * constructors using `{}`.
 * Ways of constructing:
@@ -34,11 +37,17 @@
 * Patterns:
    * comparator
       * struct with `()` See [1](https://github.com/sohale/cs-glossaries/blob/master/cpp-details.cpp)
+   * sort usage
+   * copy usage (e.g. set)
 * Functions:
    * Funciton objects
    * Lambdas
    * Template argument
 * `priority_queue`
+* `#define` with args
+* "RAII (stack-based) object" = ?
+* sort types: `stable_sort`
+
 
 Also see:
 * [C++ questions](https://github.com/sohale/cs-glossaries/blob/master/c%2B%2Bquestions.md)
