@@ -391,9 +391,21 @@ Then show the `stride` (residue).
    * Mitigation: (cont.): The input (w) vector elements may not be contiguous, but strided.
    * No racing condition, but it may not be fast. 
 
-## NVCC guide
+## Commands
+### NVCC guide
 * `.ptx` is PTX intermediate assembly file
 * `.cu` CUDA source file, containing host code and device functions
+### nvcc
+Usage:
+`nvcc mysourcefile.cu -o outputfile`
+
+```bash
+docker run --rm -it -v $(pwd):$(pwd) -w $(pwd)   nvidia/cuda:11.7.0-devel-ubuntu20.04    nvcc     mysource.cu    -o x.out
+```
+### nvprof
+
+### nvidia-smi
+NVIDIA-SMI
 
 ## Read
 * [T1]: A [tutorial](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
