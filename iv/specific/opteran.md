@@ -29,6 +29,7 @@ Ticks:
 * GPU development experience  [host.cu](https://github.com/sohale/GPU-CUDA-mnc/blob/working-2022/practice/host.cu) ✔︎
 * FGPA development experience  ✔︎ Sharif FDC (lost the files)
 
+* 5+ years of industry experience specifically in C/C++ (non-industry: years) + (industry: 12 months (C++) + 3 (C))
 
 * Why Opteran
 * 
