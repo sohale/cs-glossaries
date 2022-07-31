@@ -245,7 +245,7 @@ for simple gpu usage wwith transfer but without actuall parallelization (one thr
 
 However, the `<<<1,1>>>` is not yet parallel.
 
-### ...
+### Three (four) classes of arguments
 Class I: `(gpu_ptr,n)`:
 
 Class II:
@@ -268,6 +268,7 @@ class III: The `<<<,>>>` args:
 ```
 ^ These (I,II,III) are not the hardware strucutres, but the "call" (execusion/orchestration) structure ie <<,>>
 
+#### Index coordination: Invariants, meanings, dimentions, blocs, tensors, `tid`
 Invariants:
 ```
         threadIdx.x < blockDim.x = 256
