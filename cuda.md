@@ -245,7 +245,33 @@ for simple gpu usage wwith transfer but without actuall parallelization (one thr
 
 However, the `<<<1,1>>>` is not yet parallel.
 
-### Three (four) classes of arguments
+
+### Three classes of arguments:
+
+[See this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
+
+1. Class **I**. Explicit arguments (common values across all kernels: pointers, count): input args to all kernel executions -- (gpu_ptr, n)
+2. Class **II**. Implicit instance-specific  (explicit variables inside)  -- (`threadIdx.`, `blockIdx.`)
+3. Class **III**. Implicit `<<<,>>>` args (explicit in call, implicit inside the function) -- (`blockDim.`, `gridDim.`)
+
+4. `strcutural`: All above are different to `strcutural`. Use to fine-tune hardware (to select and fine-tune class III)
+
+
+#### From comments:
+
+`stride`: One level beyond the call <<,>> args : The shortcomings have to be compensated by single kernel-threads using `stride`:
+
+... These are not the hardware strucutres, but the "call" (execusion/orchestration) structure ie <<,>>
+
+Coordinate executions: Find your share of execution (your scope)
+
+The scope of this (current) kernel / gpu core thread: (also region of interest or gpu memory)
+```
+const int tid = yi * nx + xi;
+...
+```
+
+### (re) Three (four) classes of arguments
 Class I: `(gpu_ptr,n)`:
 
 Class II:
@@ -355,30 +381,6 @@ in fact, a `1 × nx × ny` tensor.
 
 Then show the `stride` (residue).
 
-#### Three classes of arguments:
-
-[See this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
-
-1. Class **I**. Explicit arguments (common values across all kernels: pointers, count): input args to all kernel executions -- (gpu_ptr, n)
-2. Class **II**. Implicit instance-specific  (explicit variables inside)  -- (`threadIdx.`, `blockIdx.`)
-3. Class **III**. Implicit `<<<,>>>` args (explicit in call, implicit inside the function) -- (`blockDim.`, `gridDim.`)
-
-4. `strcutural`: All above are different to `strcutural`. Use to fine-tune hardware (to select and fine-tune class III)
-
-
-##### From comments:
-
-`stride`: One level beyond the call <<,>> args : The shortcomings have to be compensated by single kernel-threads using `stride`:
-
-... These are not the hardware strucutres, but the "call" (execusion/orchestration) structure ie <<,>>
-
-Coordinate executions: Find your share of execution (your scope)
-
-The scope of this (current) kernel / gpu core thread: (also region of interest or gpu memory)
-```
-const int tid = yi * nx + xi;
-...
-```
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
