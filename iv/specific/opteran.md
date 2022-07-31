@@ -10,6 +10,7 @@
 Ticks:
 * Use version control ✔︎
 * 5 years of industry experience in product software development  ✔︎
+   * 7/12 (Wide.io) + (5+12)/12 (iMakr) + 3.0 (lb) = 5.0
 * industry best-practice environments
    * version control ✔︎
    * CI ✔︎
