@@ -1,3 +1,4 @@
+✔︎✗
 
 * collision avoidance algorithms
 * navigation algorithms
@@ -14,6 +15,7 @@ Ticks:
 * industry best-practice environments
    * version control: ✔︎ (git)
    * CI ✔︎ : Jenkins, Groovy, (circle)
+   * CI in C++: ✗
    * agile ✔︎: (100%)
 * experience developing in C/C++: C, TC++, Modern C++, C++14, C++20.
 * Communication  skills:
@@ -36,4 +38,4 @@ Ticks:
 * Why me:
 A dev who has a good domain view.
 
-✗
+
