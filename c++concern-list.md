@@ -1,6 +1,6 @@
 
 * The ref `&&`
-* How knows move semantics
+* How knows move semantics, move tag, `std::move()`
 * `template<typename ...>` versus `template<...>`
 * `weak_ptr`
 * `virtual` destructor
