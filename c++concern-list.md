@@ -13,7 +13,7 @@
 * `unordered_map` versus `map` versus `ordered_map`
 * When is `template<>` needed?
 * `array` verus `multi_array` versus `valarray`
-
+* `range` vs `span` vs ...
 
 Also see:
 * [C++ questions](https://github.com/sohale/cs-glossaries/blob/master/c%2B%2Bquestions.md)
