@@ -7,11 +7,21 @@
 * `shared_ptr`
 * promise, future, etc usage
 * thread, mutex, join, ... usage
-
+* `const_cast`
+* Various casts:
+   * `dynamic_cast`
+   * `const_cast`
+   * `static_cast`
 * What is:
    * RAII
+   * RTTI
 
-
+* constructors using `{}`.
+* Ways of constructing:
+   * `T x(1)`
+   * `T x = new T(1)`
+   * `T x = T(1)`
+   * `T x = 1`
 * `emplace`
 * `emplace_hint`
 * `unordered_map` versus `map` versus `ordered_map` (Also `set`)
