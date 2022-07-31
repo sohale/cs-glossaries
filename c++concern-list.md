@@ -8,6 +8,10 @@
 * promise, future, etc usage
 * thread, mutex, join, ... usage
 
+* What is:
+   * RAII
+
+
 * `emplace`
 * `emplace_hint`
 * `unordered_map` versus `map` versus `ordered_map` (Also `set`)
@@ -20,7 +24,10 @@
 * Patterns:
    * comparator
       * struct with `()` See [1](https://github.com/sohale/cs-glossaries/blob/master/cpp-details.cpp)
-      * 
+* Functions:
+   * Funciton objects
+   * Lambdas
+   * Template argument
 * `priority_queue`
 
 Also see:
