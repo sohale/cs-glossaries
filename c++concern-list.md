@@ -12,6 +12,8 @@
    * `dynamic_cast`
    * `const_cast`
    * `static_cast`
+* exceptions
+   * ...
 * What is:
    * RAII
    * RTTI
@@ -48,7 +50,7 @@
 * `priority_queue`
 * `#define` with args
 * "RAII (stack-based) object" = ?
-* sort types: `stable_sort`
+* sort types: `stable_sort` , `sort()`, `search()`, and `copy_unique()`
 
 
 Also see:
