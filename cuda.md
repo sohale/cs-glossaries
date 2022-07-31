@@ -285,6 +285,34 @@ const int ny = gridDim.x;  // 4
 const int nz = nextDim.x;  // 1
 // For:  4 × 256 = … × 1 × 1 × 4 × 256 × 1
 ```
+
+```cpp
+    const int xi = threadIdx.x;
+    const int yi = blockIdx.x;
+    // const int zi = gridIdx.x = 0;
+    // threadDim.x = 1
+    const int nx = blockDim.x; // 256
+    const int ny = gridDim.x;  // 4?
+    // ^ This is not the hardware strucutre, but the "call" (execusion/orchestration) structure ie <<,>>
+
+    // const int tid =  ( (0) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x;
+    // const int tid = yi * nx + xi;
+    const int tid = yi * nx + xi;
+
+    //old: only if single-block: // if (ny==1):
+    //int stride = nx;
+    //int begin = xi;
+
+    // level beyond the call <<,>> args :
+    int stride = nx * ny;
+    int begin = tid;
+
+    if (begin < n)
+    for (int i = begin; i < n; i += stride)
+    {
+        gpu_ptr[i] *= 1.5f;
+    }
+```
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
