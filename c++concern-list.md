@@ -15,6 +15,8 @@
 * What is:
    * RAII
    * RTTI
+   * CADRe (Constructor Acquires, Destructor Releases)
+   * SBRM (Scope-based Resource Management)
    * "move constructible"
    * "move assignable"
 * See Stroustrup's [glossary](https://www.stroustrup.com/glossary.html)
