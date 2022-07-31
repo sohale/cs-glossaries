@@ -259,8 +259,7 @@ Class II:
 
 class III: The `<<<,>>>` args:
 ```
-    // 
-    // threadDim.x = 1
+    // threadDim.x = 1         // always
     const int nx = blockDim.x; // 256
     const int ny = gridDim.x;  // 4
     // const int nz = nextDim.x;  // 1  // undefined
@@ -288,6 +287,8 @@ Generalization:
                                   1 × 256 × 4 × 1 × …
     or:
        `…,0,0,(xi, yi),0,0,…    ∈    𝕝 ^ [… 1 × 1 × nx × ny × 1 × 1 …]`
+       
+    For:  4 × 256 = … × 1 × 1 × 4 × 256 × 1
 ```
 
 Coordinate executions: Find your share of execution (your scope)
@@ -304,7 +305,10 @@ const int tid = yi * nx + xi;
                                ( (0) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x;
                   ( ( 0 + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x;
     ( ( (0) * nextDim.x + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x * 1
-    1 * (threadIdx.x +  blockDim.x * (  blockIdx.x + gridDim.x * ( gridIdx.x +  nextDim.x * (0) ) ));
+    1 * (threadIdx.x +  blockDim.x * (  blockIdx.x + gridDim.x * ( gridIdx.x +  nextDim.x * (0) ) 
+    
+((( (0 + 0) * nextDim.x + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x) * 1
+                                         ( ( ( (0 + iw=0) * nz + iz) * ny + iy) * nx + ix) * 1
 ```
 
 Only if single-block (ny==1): `int begin = xi, stride = nx;`
@@ -315,55 +319,32 @@ int stride = nx * ny;
 int begin = tid;
 ```
 
-???
-
-Generalisaiton:
-```cpp
-
-// …,0,0,(xi, yi),0,0,…    ∈    𝕝 ^ [… 1 × 1 × nx × ny × 1 × 1 …]
-
-const int tid =  ( ( ( (0 + 0) * nextDim.x + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x) * 1
-
-const int tid =  ( ( ( (0 + iw=0) * nz + iz) * ny + iy) * nx + ix) * 1
-
-
-```
-???
-```cpp
-// threadDim.x := 1 //always
-const int nx = blockDim.x; // 256
-const int ny = gridDim.x;  // 4
-const int nz = nextDim.x;  // 1
-// For:  4 × 256 = … × 1 × 1 × 4 × 256 × 1
-```
 
 ```cpp
-    const int xi = threadIdx.x;
-    const int yi = blockIdx.x;
-    // const int zi = gridIdx.x = 0;
-    // threadDim.x = 1
-    const int nx = blockDim.x; // 256
-    const int ny = gridDim.x;  // 4?
-    // ^ This is not the hardware strucutre, but the "call" (execusion/orchestration) structure ie <<,>>
-
-    // const int tid =  ( (0) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x;
-    // const int tid = yi * nx + xi;
-    const int tid = yi * nx + xi;
-
-    //old: only if single-block: // if (ny==1):
-    //int stride = nx;
-    //int begin = xi;
-
-    // level beyond the call <<,>> args :
-    int stride = nx * ny;
-    int begin = tid;
-
     if (begin < n)
     for (int i = begin; i < n; i += stride)
     {
+        // Execute a single logical thread's process
         gpu_ptr[i] *= 1.5f;
+
+
+        // process1<float, int>(gpu_ptr, i);
+        // A unit of work, most fine-grained parallelisable unit of execusion:
     }
 ```
+
+Problem:
+    identifier "process1<float, int> " is undefined in device code
+    
+A unit of work, most fine-grained parallelisable unit of execusion:
+```cpp
+template <typename ElemType, typename SizeT>
+void process1(ElemType *gpu_ptr, SizeT i)
+{
+    gpu_ptr[i] *= 1.5f;  // inplace
+}
+```
+
 #### Diagram
 (ix, iy) in [nx × ny] matrix
 
