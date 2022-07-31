@@ -5,14 +5,14 @@
 * `weak_ptr`
 * `virtual` destructor
 * `shared_ptr`
+* promise, future, etc usage
+* thread, mutex, join, ... usage
 
 * `emplace`
 * `emplace_hint`
 * `unordered_map` versus `map` versus `ordered_map`
 * When is `template<>` needed?
-* promise, future, etc usage
-* thread, mutex, join, ... usage
-
+* `array` verus `multi_array` versus `valarray`
 
 
 Also see:
