@@ -1,8 +1,11 @@
+is a form of "massively parallel computation"
 
+See work:
 * https://github.com/sohale/GPU-CUDA-mnc
 * Some of my old code and writings copywritten in [patent](https://patents.google.com/patent/US10210518B2/en)
+* strides, etc: [See this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
 
-is a form of "massively parallel computation"
+
 
 ### Some terms and concepts
 * A kernel: a piece of code executed by each GPU instace.
