@@ -346,9 +346,11 @@ void process1(ElemType *gpu_ptr, SizeT i)
 ```
 
 #### Diagram
-(ix, iy) in [nx × ny] matrix
+For confusions regarding `tid`:
 
-in fact, a 1 × nx × ny tensor.
+`(ix, iy)` in `[nx × ny]` matrix
+
+in fact, a `1 × nx × ny` tensor.
 
 Then show the `stride` (residue).
 
