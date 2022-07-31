@@ -315,19 +315,11 @@ const int nz = nextDim.x;  // 1
 ```
 #### Three classes of arguments:
 
-Three classes of arguments:
-1. explicit arguments (common values across all kernels: pointers, count)
-2. implicit instance-specific (explicit variables inside) `threadIdx.` `blockIdx.`
-3. implicit  <<,>> args. (explicit in call, implicit inside the function): `blockDim.` , `gridDim.`
+[See this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
 
-4. all are different to `strcutural`
-
-In other words: [see this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
-
-Three classes of arguments:
-1. class I. explicit arguments (common value): input args to all kernel executions -- (gpu_ptr, n)
-2. class II. implicit instance-specific -- (threadIdx blockIdx)
-3. class III. implicit (explicit in call) <<,>> args -- (blockDim. gridDim)
+1. Class **I**. Explicit arguments (common values across all kernels: pointers, count): input args to all kernel executions -- (gpu_ptr, n)
+2. Class **II**. Implicit instance-specific  (explicit variables inside)  -- (`threadIdx.`, `blockIdx.`)
+3. Class **III**. Implicit `<<<,>>>` args (explicit in call, implicit inside the function) -- (`blockDim.`, `gridDim.`)
 
 4. `strcutural`: All above are different to `strcutural`. Use to fine-tune hardware (to select and fine-tune class III)
 
