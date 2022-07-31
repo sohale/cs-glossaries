@@ -313,6 +313,14 @@ const int nz = nextDim.x;  // 1
         gpu_ptr[i] *= 1.5f;
     }
 ```
+
+Three classes of arguments:
+1. explicit arguments (common values across all kernels: pointers, count)
+2. implicit instance-specific (explicit variables inside) `threadIdx.` `blockIdx.`
+3. implicit  <<,>> args. (explicit in call, implicit inside the function): `blockDim.` , `gridDim.`
+
+4. all are different to `strcutural`
+
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
