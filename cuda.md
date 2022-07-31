@@ -313,6 +313,7 @@ const int nz = nextDim.x;  // 1
         gpu_ptr[i] *= 1.5f;
     }
 ```
+#### Three classes of arguments:
 
 Three classes of arguments:
 1. explicit arguments (common values across all kernels: pointers, count)
@@ -321,6 +322,29 @@ Three classes of arguments:
 
 4. all are different to `strcutural`
 
+In other words: [see this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
+
+Three classes of arguments:
+1. class I. explicit arguments (common value): input args to all kernel executions -- (gpu_ptr, n)
+2. class II. implicit instance-specific -- (threadIdx blockIdx)
+3. class III. implicit (explicit in call) <<,>> args -- (blockDim. gridDim)
+
+4. `strcutural`: All above are different to `strcutural`. Use to fine-tune hardware (to select and fine-tune class III)
+
+
+##### From comments:
+
+`stride`: One level beyond the call <<,>> args : The shortcomings have to be compensated by single kernel-threads using `stride`:
+
+... These are not the hardware strucutres, but the "call" (execusion/orchestration) structure ie <<,>>
+
+Coordinate executions: Find your share of execution (your scope)
+
+The scope of this (current) kernel / gpu core thread: (also region of interest or gpu memory)
+```
+const int tid = yi * nx + xi;
+...
+```
 ## Potential bottlenecks:
 * Matrix `L` is accessed by all kernels.
    * Mitigation: copy for all kernels. Copy for every few of them. etc.
