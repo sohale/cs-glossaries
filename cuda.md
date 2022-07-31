@@ -243,28 +243,76 @@ for simple gpu usage wwith transfer but without actuall parallelization (one thr
 However, the `<<<1,1>>>` is not yet parallel.
 
 ### ...
+Class I: `(gpu_ptr,n)`:
+
+Class II:
 ```cpp
-    // (xi, yi)  ∈  nx × ny
-    const xi = threadIdx.x;
-    const yi = blockIdx.x;
-    const nx = blockDim.x;  // 256
-    const ny = gridDim.x;   // 4?
+    const int xi   = threadIdx.x;
+    const int yi   = blockIdx.x;
+    // const int zi = gridIdx.x = 0;  // undefined
+    // 0
+    // 0
+```
 
-    // threadIdx.x < blockDim.x = 256
-    // blockIdx.x < gridDim.x = 4 (?)
-    // xi < nx
-    // yi < ny
-    // (xi, yi)  ∈  256 × 4
+class III: The `<<<,>>>` args:
+```
+    // 
+    // threadDim.x = 1
+    const int nx = blockDim.x; // 256
+    const int ny = gridDim.x;  // 4
+    // const int nz = nextDim.x;  // 1  // undefined
+    // 1
+    // 1
+```
+^ These (I,II,III) are not the hardware strucutres, but the "call" (execusion/orchestration) structure ie <<,>>
 
-    // const int tid = blockIdx.x * blockDim.x + threadIdx.x;
-    const int tid = yi * nx + xi;
-    ...
+Invariants:
+```
+        threadIdx.x < blockDim.x = 256
+        xi < nx
+        blockIdx.x < gridDim.x = 4
+        yi < ny
+```
+Meaning:
+```
+       (xi, yi)  ∈  256 × 4
+
+       (xi, yi)  ∈  nx × ny
+```
+Generalization:
+```
+       0,(xi, yi),0,0, …  ∈  ℝ^[  1 × nx × ny × 1 × … ]
+                                  1 × 256 × 4 × 1 × …
+    or:
+       `…,0,0,(xi, yi),0,0,…    ∈    𝕝 ^ [… 1 × 1 × nx × ny × 1 × 1 …]`
+```
+
+Coordinate executions: Find your share of execution (your scope)
+
+The scope of this (current) kernel / gpu core thread: (also region of interest or gpu memory)
+```cpp
+const int tid = yi * nx + xi;
 ```
 
 ```cpp
-    int index = threadIdx.x;
-    int stride = blockDim.x; // 256
+    const int tid =
+                                                                             yi * nx + xi;
+                                                    blockIdx.x * blockDim.x + threadIdx.x;
+                               ( (0) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x;
+                  ( ( 0 + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x;
+    ( ( (0) * nextDim.x + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x * 1
+    1 * (threadIdx.x +  blockDim.x * (  blockIdx.x + gridDim.x * ( gridIdx.x +  nextDim.x * (0) ) ));
 ```
+
+Only if single-block (ny==1): `int begin = xi, stride = nx;`
+
+`stride`: One level beyond the call <<,>> args : The shortcomings have to be compensated by single kernel-threads using `stride`:
+```cpp
+int stride = nx * ny;
+int begin = tid;
+```
+
+???
 
 Generalisaiton:
 ```cpp
@@ -277,8 +325,8 @@ const int tid =  ( ( ( (0 + iw=0) * nz + iz) * ny + iy) * nx + ix) * 1
 
 
 ```
-
-```
+???
+```cpp
 // threadDim.x := 1 //always
 const int nx = blockDim.x; // 256
 const int ny = gridDim.x;  // 4
