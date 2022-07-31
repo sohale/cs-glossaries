@@ -1,4 +1,4 @@
-is a form of "massively parallel computation"
+GPU/CUDA is a form of "massively parallel computation"
 
 See work:
 * https://github.com/sohale/GPU-CUDA-mnc
