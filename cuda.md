@@ -313,6 +313,13 @@ const int nz = nextDim.x;  // 1
         gpu_ptr[i] *= 1.5f;
     }
 ```
+#### Diagram
+(ix, iy) in [nx × ny] matrix
+
+in fact, a 1 × nx × ny tensor.
+
+Then show the `stride` (residue).
+
 #### Three classes of arguments:
 
 [See this nicely documented version](https://github.com/sohale/GPU-CUDA-mnc/blob/28b74d86d7bc644136f6975bf388c9fc6fa80fa5/practice/host.cu#L81)
