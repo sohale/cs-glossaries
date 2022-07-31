@@ -360,9 +360,7 @@ int begin = tid;
     }
 ```
 
-Problem:
-    identifier "process1<float, int> " is undefined in device code
-    
+
 A unit of work, most fine-grained parallelisable unit of execusion:
 ```cpp
 template <typename ElemType, typename SizeT>
@@ -371,7 +369,9 @@ void process1(ElemType *gpu_ptr, SizeT i)
     gpu_ptr[i] *= 1.5f;  // inplace
 }
 ```
-
+Howerver, causes a problem:
+>    identifier "process1<float, int> " is undefined in device code
+    
 #### Diagram
 For confusions regarding `tid`:
 
