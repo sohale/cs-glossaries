@@ -268,8 +268,14 @@ However, the `<<<1,1>>>` is not yet parallel.
 
 Generalisaiton:
 ```cpp
+
 // …,0,0,(xi, yi),0,0,…    ∈    𝕝 ^ [… 1 × 1 × nx × ny × 1 × 1 …]
+
 const int tid =  ( ( ( (0 + 0) * nextDim.x + gridIdx.x) * gridDim.x + blockIdx.x) * blockDim.x + threadIdx.x) * 1
+
+const int tid =  ( ( ( (0 + iw=0) * nz + iz) * ny + iy) * nx + ix) * 1
+
+
 ```
 
 ```
