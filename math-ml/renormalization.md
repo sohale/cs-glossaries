@@ -30,10 +30,11 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 * Infrared divergences
 * Ultraviolet divergences
 * Gauge theory [video](https://www.youtube.com/watch?v=paQLJKtiAEE)
+* Renormalization Group trick
 
 ### Readings
 To actually read.
 * Wikipedia: [Renormalization](https://en.wikipedia.org/wiki/Renormalization) method
 * Video: [Renormalization: The Art of Erasing Infinity](https://www.youtube.com/watch?v=0OQ7BhlfAJY) by ZAP
 * My MO quetion: [What is a simplified intuitive explanation of conformal invariance?](https://mathoverflow.net/questions/394335/what-is-a-simplified-intuitive-explanation-of-conformal-invariance/394341#394341) has two interesting answers
-* The [Renormalization group trick](https://mathoverflow.net/a/363383/111389) on mathoverflow
+* The [Renormalization Group trick](https://mathoverflow.net/a/363383/111389) on mathoverflow
