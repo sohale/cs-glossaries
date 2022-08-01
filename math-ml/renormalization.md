@@ -14,8 +14,8 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 ### The $Z(RG^\infty)$ trick
 Suppose $Z: X \rightarrow \mathbb{R}$ and  $RG: X \rightarrow X$.
 Suppose we find an $RG$ where $Z(RG(x))=Z(x)$.
-Sometimes $Z(x^{\ast})$ is easy to calculate: $x^{\ast} := \lim_{n\rightarrow \infty} RG^n(x))$.
-So, we find a smart choice of $RG$.
+Sometimes $Z(x^{\ast})$ is easy to calculate: $x^{\ast} := \lim_{n\rightarrow \infty} RG^n(x)$.
+So, the idea is to find a smart choice of $RG$.
 ([From here](https://mathoverflow.net/a/363383/111389)).
 
 ### Index
