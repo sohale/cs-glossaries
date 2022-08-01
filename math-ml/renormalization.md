@@ -21,4 +21,4 @@ Feynman mathematically develop Bethe's idea (along with [Julian Schwinger](https
 * Schwinger
 * renormalization *group* [1](https://en.wikipedia.org/wiki/Fine-structure_constant#Variation_with_energy_scale)
 * Energy scale [1](https://en.wikipedia.org/wiki/Fine-structure_constant#Variation_with_energy_scale)
-
+* fine-structure constant [1](https://en.wikipedia.org/wiki/Fine-structure_constant#Physical_interpretations)
