@@ -31,4 +31,4 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 
 ### Refs
 * Wikipedia: [Renormalization](https://en.wikipedia.org/wiki/Renormalization) method
-* 
+* Video: [Renormalization: The Art of Erasing Infinity](https://www.youtube.com/watch?v=0OQ7BhlfAJY) by ZAP
