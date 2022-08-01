@@ -27,6 +27,7 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 * renormalization method
 * loop
 * loop diagrams [1](https://en.wikipedia.org/wiki/One-loop_Feynman_diagram)
+* Infrared divergences
 
 ### Refs
 * Wikipedia: [Renormalization](https://en.wikipedia.org/wiki/Renormalization) method
