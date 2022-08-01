@@ -25,6 +25,8 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 * Energy scale [1](https://en.wikipedia.org/wiki/Fine-structure_constant#Variation_with_energy_scale)
 * fine-structure constant [1](https://en.wikipedia.org/wiki/Fine-structure_constant#Physical_interpretations)
 * renormalization method
+* loop
+* loop diagrams
 
 ### Refs
 * Wikipedia: [Renormalization](https://en.wikipedia.org/wiki/Renormalization) method
