@@ -11,7 +11,7 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 * differential and integral forms of Lagrangian or action formulations.
 * Schwinger believed in the formalism of local fields, while Feynman had faith in the particle paths.
  
-### Z(RG^n)
+### The $Z(RG^\infty)$ trick
 ([From here](https://mathoverflow.net/a/363383/111389)).
 Suppose $Z: X \rightarrow \mathbb{R}$ and  $RG: X \rightarrow X$.
 Suppose $Z(RG(x))=Z(x)$.
