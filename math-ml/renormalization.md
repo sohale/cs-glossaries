@@ -31,6 +31,7 @@ Nobel prize was for the discovery of the renormalization method [*](https://en.w
 * Ultraviolet divergences
 * Gauge theory [video](https://www.youtube.com/watch?v=paQLJKtiAEE)
 * Renormalization Group trick
+* Conformal Symmetry [1](https://mathoverflow.net/questions/266921/how-is-the-conformal-prediction-conformal)
 
 ### Readings
 To actually read.
