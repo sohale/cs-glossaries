@@ -44,5 +44,6 @@ timeout(time: 2, unit: 'MINUTES') {
 
 * Groovy closures
 
+Are the `{...}` blocks. Represent nesting or grouping of your code.
 
 todo: maybe: separate groovy
