@@ -24,6 +24,13 @@ Jenkins [source code](https://github.com/jenkinsci/jenkins).
 ### Declarative Pipeline
 Declarative Pipeline
 
+Has some constraints: ([see](https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline))
+* top level has `pipeline { }`
+* no semicolon
+* Sections, Directives, Steps, assignment statements.
+* A property reference statement is treated as a no-argument method invocation. So, for example, input is treated as input().
+
+
 ### DSL (not necessarily Declarative pipeline?)
 * `DSLBuilder` facility based on Closures ([see](https://stackoverflow.com/questions/62454164/is-a-jenkinsfile-in-pure-groovy-what-groovy-language-construct-is-used-in-step))
 ```groovy
