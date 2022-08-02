@@ -36,13 +36,13 @@ Has some constraints: ([see](https://www.jenkins.io/doc/book/pipeline/syntax/#de
 ```groovy
 stage('Stage 1') {
     steps {
-}   }
+}}
 ```
 is translated to:
 ```groovy
 jenkinsContext.stage('Stage 1') {
     jenkinsContext.steps {    
-}   }
+}}
 ```
 
 * Relation between Jenkins and Gradle?
