@@ -23,6 +23,17 @@ Jenkins [source code](https://github.com/jenkinsci/jenkins).
 
 
 * `DSLBuilder` facility based on Closures ([see](https://stackoverflow.com/questions/62454164/is-a-jenkinsfile-in-pure-groovy-what-groovy-language-construct-is-used-in-step))
+```groovy
+stage('Stage 1') {
+    steps {
+}   }
+```
+is translated to:
+```groovy
+jenkinsContext.stage('Stage 1') {
+    jenkinsContext.steps {    
+}   }
+```
 * Relation between Jenkins and Gradle?
 
 ### timeout and input 
