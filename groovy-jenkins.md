@@ -21,7 +21,10 @@ My Jenkins questions:
 
 Jenkins [source code](https://github.com/jenkinsci/jenkins).
 
+### Declarative Pipeline
+Declarative Pipeline
 
+### DSL (not necessarily Declarative pipeline?)
 * `DSLBuilder` facility based on Closures ([see](https://stackoverflow.com/questions/62454164/is-a-jenkinsfile-in-pure-groovy-what-groovy-language-construct-is-used-in-step))
 ```groovy
 stage('Stage 1') {
