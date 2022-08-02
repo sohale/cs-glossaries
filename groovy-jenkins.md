@@ -26,9 +26,10 @@ Declarative Pipeline
 
 Has some constraints: ([see](https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline))
 * top level has `pipeline { }`
+* What goes inside the `pipeline` is DSL.
 * no semicolon
 * Sections, Directives, Steps, assignment statements.
-* A property reference statement is treated as a no-argument method invocation. So, for example, input is treated as input().
+* A property reference statement `abcdefg` is treated as a "no-argument method invocation" `abcdefg()`. So, for example, `input` is treated as `input()`.
 
 
 ### DSL (not necessarily Declarative pipeline?)
