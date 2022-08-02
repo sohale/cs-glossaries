@@ -19,7 +19,9 @@ My Jenkins questions:
 * https://stackoverflow.com/questions/69677607/where-to-find-the-source-code-for-jenkins-input-method
 * https://stackoverflow.com/questions/68653979/how-is-this-nested-groovy-statement-interpreted-in-terms-of-the-arguments-of-ti
 
-Rource code for `input()`: https://github.com/jenkinsci/pipeline-input-step-plugin
+### timeout and input 
+Source code for `input()`: https://github.com/jenkinsci/pipeline-input-step-plugin
+* [Jenkins reference for input](https://www.jenkins.io/doc/pipeline/steps/pipeline-input-step/)
 
 ```groovy
 
