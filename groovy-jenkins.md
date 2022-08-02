@@ -20,7 +20,7 @@ My Jenkins questions:
 * https://stackoverflow.com/questions/68653979/how-is-this-nested-groovy-statement-interpreted-in-terms-of-the-arguments-of-ti
 
 Rource code for `input()`: https://github.com/jenkinsci/pipeline-input-step-plugin
-```
+
 ```groovy
 
 timeout(time: 2, unit: 'MINUTES') {
@@ -28,7 +28,6 @@ timeout(time: 2, unit: 'MINUTES') {
      println('Responded by: ' + r.toString())
   }
 
-```
 ```
 ## Groovy
 
