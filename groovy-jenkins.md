@@ -21,6 +21,9 @@ My Jenkins questions:
 
 Jenkins [source code](https://github.com/jenkinsci/jenkins).
 
+
+* `DSLBuilder` facility based on Closures ([see](https://stackoverflow.com/questions/69677607/where-to-find-the-source-code-for-jenkins-input-method))
+
 ### timeout and input 
 Source code for `input()` can be found here: https://github.com/jenkinsci/pipeline-input-step-plugin
 
@@ -33,9 +36,12 @@ timeout(time: 2, unit: 'MINUTES') {
      r = input(message: 'message', submitter: "id1", submitterParameter: 'who', parameter: 'a,b')
      println('Responded by: ' + r.toString())
   }
-
 ```
+
+
 ## Groovy
+
+* Groovy closures
 
 
 todo: maybe: separate groovy
