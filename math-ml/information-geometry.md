@@ -13,6 +13,10 @@
 * 2014 course [course](http://image.diku.dk/MLLab/IG1.php) -- Information Geometry in Learning and Optimization -- with Amari.
 * Again another ycombinator [post](https://news.ycombinator.com/item?id=24657225) -- A gentle introduction to information geometry links to [... ox.ac.uk ...](http://www.robots.ox.ac.uk/~lsgs/posts/2019-09-27-info-geom.html)
 * Lewis Smith  [post / tutorial](https://www.robots.ox.ac.uk/~lsgs/posts/2019-09-27-info-geom.html) from September 27, 2019 - from Oxford
+* Simple [youtube](https://www.youtube.com/watch?v=CdPRIGeHuEk)
+* [youtube](https://www.youtube.com/watch?v=FlyJJIQo-g4) by Melvin Leok
+* That lecture [c](https://www.youtube.com/watch?v=zmUMBLEHhZg) - Information Geometry - [PPT slides](http://videolectures.net/site/normal_dl/tag=10976/geometry.ppt)
+
 
 Some successful searches:
 * `information geometry course`
