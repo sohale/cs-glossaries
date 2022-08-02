@@ -22,7 +22,7 @@ My Jenkins questions:
 Jenkins [source code](https://github.com/jenkinsci/jenkins).
 
 
-* `DSLBuilder` facility based on Closures ([see](https://stackoverflow.com/questions/69677607/where-to-find-the-source-code-for-jenkins-input-method))
+* `DSLBuilder` facility based on Closures ([see](https://stackoverflow.com/questions/62454164/is-a-jenkinsfile-in-pure-groovy-what-groovy-language-construct-is-used-in-step))
 
 ### timeout and input 
 Source code for `input()` can be found here: https://github.com/jenkinsci/pipeline-input-step-plugin
