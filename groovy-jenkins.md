@@ -34,7 +34,10 @@ jenkinsContext.stage('Stage 1') {
     jenkinsContext.steps {    
 }   }
 ```
+
 * Relation between Jenkins and Gradle?
+
+* Use? `<!-- language: lang-groovy -->`
 
 ### timeout and input 
 Source code for `input()` can be found here: https://github.com/jenkinsci/pipeline-input-step-plugin
