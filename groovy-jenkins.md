@@ -22,8 +22,10 @@ My Jenkins questions:
 Jenkins [source code](https://github.com/jenkinsci/jenkins).
 
 ### timeout and input 
-Source code for `input()`: https://github.com/jenkinsci/pipeline-input-step-plugin (Answer to my [question](https://stackoverflow.com/questions/69677607/where-to-find-the-source-code-for-jenkins-input-method))
-* [Jenkins reference for input](https://www.jenkins.io/doc/pipeline/steps/pipeline-input-step/)
+Source code for `input()` can be found here: https://github.com/jenkinsci/pipeline-input-step-plugin
+
+* (Answer to my [question](https://stackoverflow.com/questions/69677607/where-to-find-the-source-code-for-jenkins-input-method))
+* Jenkins [reference for input()](https://www.jenkins.io/doc/pipeline/steps/pipeline-input-step/): "Wait for interactive input"
 
 ```groovy
 
