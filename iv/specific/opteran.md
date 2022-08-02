@@ -38,4 +38,5 @@ Ticks:
 * Why me:
 A dev who has a good domain view.
 
+* [Talk](https://www.youtube.com/watch?v=XzoRKap9sxs) by Matthew T Watson
 
