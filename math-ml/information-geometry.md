@@ -11,7 +11,7 @@
 * Nielsen
 * 2014 course [course](http://image.diku.dk/MLLab/IG1.php) -- Information Geometry in Learning and Optimization -- with Amari.
 * Again another ycombinator [post](https://news.ycombinator.com/item?id=24657225) -- A gentle introduction to information geometry links to [... ox.ac.uk ...](http://www.robots.ox.ac.uk/~lsgs/posts/2019-09-27-info-geom.html)
-
+* Lewis Smith  [post / tutorial](https://www.robots.ox.ac.uk/~lsgs/posts/2019-09-27-info-geom.html) from September 27, 2019 - from Oxford
 
 Some successful searches:
 * `information geometry course`
