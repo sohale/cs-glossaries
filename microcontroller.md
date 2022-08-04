@@ -8,7 +8,7 @@ Compiler command:
 
 The command `arm-none-eabi-gcc` is a `gcc` for ...
 
-See [https://manned.org/arm-none-eabi-gcc/34fd6095](https://manned.org/arm-none-eabi-gcc/34fd6095)
+See man page at [https://manned.org/arm-none-eabi-gcc/34fd6095](https://manned.org/arm-none-eabi-gcc/34fd6095)
 
 
 Commandline options:
