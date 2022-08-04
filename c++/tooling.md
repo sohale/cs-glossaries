@@ -5,6 +5,12 @@
 
 * CMake
 
+#### Stacks of Specific places
+* Barclays
+   * GTest
+   * TeamCity
+* Chrome
+   * ...
 
 ### Areas:
 #### Package managers
