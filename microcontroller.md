@@ -28,6 +28,8 @@ C-language standards
 * C99    `-std=c99` 
 * GNU11  `-std=gnu11`
 
+See [https://manned.org/arm-none-eabi-gcc/34fd6095](https://manned.org/arm-none-eabi-gcc/34fd6095)
+
 Build commands: [from](https://github.com/sohale/huffman-bitstream-c/blob/master/rebuild.sh)
 
 ```bash
