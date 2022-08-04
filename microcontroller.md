@@ -24,6 +24,10 @@ Assembly code generation:
 * `-S`
 * `-o ./build_arm/xyz.s`
 
+C-language standards
+* C99    `-std=c99` 
+* GNU11  `-std=gnu11`
+
 Build commands: [from](https://github.com/sohale/huffman-bitstream-c/blob/master/rebuild.sh)
 
 ```bash
