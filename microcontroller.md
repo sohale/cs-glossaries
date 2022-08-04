@@ -1,4 +1,4 @@
-# My experience with micro-controllers
+# My experience with micro-controller programming
 
 ## CPUs:
 * ARM Cortex4
@@ -64,3 +64,16 @@ arm-none-eabi-gcc -fverbose-asm -Wa,-adhln -g -S -mthumb -O3 -Os -mcpu=cortex-m4
 ```
 
 `exit, read, lseek, getpid, kill, sbrk, write, isatty`
+
+Options:
+* `-mthumb`
+* `-marm`
+From the man page:
+```
+       -mthumb
+       -marm
+           Select between generating code that executes in ARM and Thumb states.
+           The default for most configurations is to generate code that executes
+           in ARM state, but the default can be changed by configuring GCC with
+           the --with-mode=state configure option.
+```
