@@ -1,23 +1,23 @@
-My experience with micro-controllers
+# My experience with micro-controllers
 
-CPUs:
+## CPUs:
 * ARM Cortex4
 * ARM Cortex0
 
-Compiler command:
+## Compiler command:
 
 The command `arm-none-eabi-gcc` is a `gcc` for ...
 
 See man page at [https://manned.org/arm-none-eabi-gcc/34fd6095](https://manned.org/arm-none-eabi-gcc/34fd6095)
 
 
-Commandline options:
+### Commandline options:
 * `-mthumb`
 * `-adhln`
 * `-mcpu=cortex-m0`
 * `-mcpu=cortex-m4`
 
-Other options:
+### Other options:
 * `-g`
 * `-Wa`
 * `-Wa,-adhln`
@@ -37,6 +37,7 @@ C-language standards
 * GNU11  `-std=gnu11`
 
 
+### Usage of build command
 Build commands: [from](https://github.com/sohale/huffman-bitstream-c/blob/master/rebuild.sh)
 
 ```bash
@@ -56,7 +57,7 @@ arm-none-eabi-gcc -fverbose-asm -Wa,-adhln -g -S -mthumb -O3 -Os -mcpu=cortex-m4
 arm-none-eabi-gcc -fverbose-asm -Wa,-adhln -g -S -mthumb -O3 -Os -mcpu=cortex-m4 -DNDEBUG  -DRELEASE=1  decoder_main.c    -o ./build_arm/decoder_main_verbose.s
 ```
 
-What is a thumb state?
+#### What is a thumb state?
 ```
 # Uses Thumb state
 #arm-none-eabi-gcc -S -mthumb -mcpu=cortex-m0 encoder_main.c      -o ./build_arm/encoder1_O3.s
