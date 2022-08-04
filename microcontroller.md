@@ -65,9 +65,10 @@ arm-none-eabi-gcc -fverbose-asm -Wa,-adhln -g -S -mthumb -O3 -Os -mcpu=cortex-m4
 
 `exit, read, lseek, getpid, kill, sbrk, write, isatty`
 
-Options:
+Options: The Arm verus Thumb state:
 * `-mthumb`
 * `-marm`
+
 From the man page:
 ```
        -mthumb
