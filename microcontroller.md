@@ -23,6 +23,7 @@ Other options:
 * `-Wa,-adhln`
 * `-Wextra`
 * `-Wall`
+* `-Wpedantic`
 Assembly code generation:
 * `-S`
 * `-o ./build_arm/xyz.s`
