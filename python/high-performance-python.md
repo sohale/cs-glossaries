@@ -31,6 +31,7 @@ High performance computing solutions in Python:
    * Commandline: `pyjion`
 
 ## Technology
+Copied content.
 * **Pyjion**: [link](https://pyjion.readthedocs.io/en/latest/)
    * Pyjion drop-in JIT compiler for CPython 3.10.
    * "Pyjion can make your Python code execute faster without any code changes." "Pyjion is a JIT compiler. It compiles native CPython bytecode into machine code. Without Pyjion, CPython uses a master evaluation loop (called the frame evaluation loop) to iterate over opcodes The Pyjion compiler has 3 main stages:" [source](https://www.trypyjion.com)
