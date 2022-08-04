@@ -65,6 +65,15 @@ arm-none-eabi-gcc -fverbose-asm -Wa,-adhln -g -S -mthumb -O3 -Os -mcpu=cortex-m4
 
 `exit, read, lseek, getpid, kill, sbrk, write, isatty`
 
+"ARM and Thumb are two different instruction sets supported by ARM cores with a “T” in their name"
+
+
+* What is the ARM Thumb Instruction set? https://stackoverflow.com/questions/10638130/what-is-the-arm-thumb-instruction-set
+* About ARM and Thumb Mode: http://www.icetech.com/appnotes/arm-thumb.pdf
+
+*  traditional ARM set: the instructions are all 32-bit long,
+*  the more condensed Thumb set, where most common instructions are 16-bit long (and some are 32-bit long).
+
 Options: The Arm verus Thumb state:
 * `-mthumb`
 * `-marm`
