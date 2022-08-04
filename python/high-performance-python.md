@@ -45,6 +45,7 @@ Search term "python opencl"
    * [link](https://documen.tician.de/pyopencl/) with links to lots of interesting libraries
    * https://developer.nvidia.com/pyopencl
    * run-time code generation (RTCG)
-   * [page? nvidia faq](https://wiki.tiker.net/PyOpenCL/FrequentlyAskedQuestions/)
+   * [page? nvidia faq pyopencl comparison](https://wiki.tiker.net/PyOpenCL/FrequentlyAskedQuestions/) Andreas Klöckner's Former Wiki
+
 * PyCUDA
 
