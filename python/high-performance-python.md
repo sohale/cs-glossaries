@@ -39,4 +39,12 @@ Copied content.
       * "Compile CPython opcodes into IL (ECMA335 CIL) instructions"
       * "Emit the CIL opcodes into the .NET EE compiler to convert to native machine code/assembly"
 
+### Libraries leveraging OpenCL/CUDA
+Search term "python opencl"
+* PyOpenCL
+   * [link](https://documen.tician.de/pyopencl/) with links to lots of interesting libraries
+   * https://developer.nvidia.com/pyopencl
+   * run-time code generation (RTCG)
+   * [page? nvidia faq](https://wiki.tiker.net/PyOpenCL/FrequentlyAskedQuestions/)
+* PyCUDA
 
