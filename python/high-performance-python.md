@@ -1,21 +1,21 @@
 High performance computing solutions in Python:
 
 
+List:
 * JAX
-
 * Numexpr
-
 * Numba
-
 * Pyjion
-
-
-* Numpy
-* Cython
+* Classic:
+   * Numpy
+   * Cython
 
 * Nympy binding
    * CUDA
    * openMP
 
-Some software that use them
+List of some software that use them
 * https://annarchy.github.io/
+
+Explanation:
+* **Numba**:  [link](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code.
