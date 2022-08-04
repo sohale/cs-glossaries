@@ -26,6 +26,10 @@ Other options:
 * `-Wpedantic`
 Assembly code generation:
 * `-S`
+   * Stages are: preprocessing -> compilation -> assembly -> linking
+   * `-c` : do not link
+   * `-S` : do not assemble
+   * `-E` : do not compile (only preprocessing). output will be the preprocessed source code.
 * `-o ./build_arm/xyz.s`
 
 C-language standards
