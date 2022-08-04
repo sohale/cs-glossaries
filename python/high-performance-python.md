@@ -48,4 +48,5 @@ Search term "python opencl"
    * [page? nvidia faq pyopencl comparison](https://wiki.tiker.net/PyOpenCL/FrequentlyAskedQuestions/) Andreas Klöckner's Former Wiki
 
 * PyCUDA
+* Massimo Di Pierro's "OpenCL programming using Python syntax" [pdf](https://airccj.org/CSCP/vol3/csit3506.pdf)
 
