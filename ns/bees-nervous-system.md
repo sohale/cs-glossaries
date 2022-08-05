@@ -48,6 +48,9 @@ Correspond to:
 * calyx
 * fiber tracts
 * LH
+* multiglomerular neuron
+* cortex region: cortex region of (almost all) glomeruli of AL
+* mechanosensory neurons
 
 
 ### The big breakdown
@@ -61,12 +64,15 @@ Correspond to:
       * olfactory interneurons
    * mushroom body output neuron
    * mushroom body extrinsic neuron (the Pe1?)
+   * mushroom body extrinsic neurons (Pe1) 
    * pedunculus (where?)
 * protocerebral lobe (PL)
    * (lateral, median and posterior protocerebral lobe)
    * posterior protocerebral lobe (PPL)
    * median
    * lateral
+   * a
+      * (protocerebral interneurones)
 * protocerebral tract
 * subesophageal ganglion (SEG)
 
@@ -97,7 +103,7 @@ Correspond to:
          * T3
          * T4
          * T5, T6
-            * Mechanosensory neurons
+            * Mechanosensory neurons (only here?)
 * optic lobes (OLs)
 * Multiglomerular projection neurons (mPNs) (where?)
 
@@ -124,12 +130,15 @@ Correspond to:
 * DL-Int-1
 * Pe1
 
-* A1: MB extrinsic neurons
+* A1: (a type of?) MB extrinsic neurons
 * A4
 * Kl (K1?): KI Kenyon cell type 1 of the collar region of the MB calyces
 * PL4: protocerebral interneuron 4
 * DL-Int-1: DL-Int-1 mechanosensory dorsal lobe interneuron 1
-* Pe1
+* Pe1 (mushroom body extrinsic neurons)
+* AL-col1 (A multiglomerular neuron)
+* Al-col1
+* mechanosensory interneuron PPL-D-1
 
 
 #### Method terms
