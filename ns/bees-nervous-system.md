@@ -61,7 +61,10 @@ Correspond to:
    * mushroom body extrinsic neuron (the Pe1?)
    * pedunculus (where?)
 * protocerebral lobe
+   * (lateral, median and posterior protocerebral lobe)
    * posterior protocerebral lobe (PPL)
+   * median
+   * lateral
 * protocerebral tract
 * subesophageal ganglion (SEG)
 
@@ -77,6 +80,7 @@ Correspond to:
 * APT
    * median APT
       * ml-APT neuron (where?)
+         * mediolateral antennal lobe-protocerebral tracts (ml-APT 1–3)
       * m-APT
       * l-APT
       * m-APT-desz
@@ -92,6 +96,12 @@ Correspond to:
          * T5, T6
             * Mechanosensory neurons
 * optic lobes (OLs)
+* Multiglomerular projection neurons (mPNs) (where?)
+
+
+
+
+
 #### Central brain regions:
 * Mushrrom bodies
 * central body (CB)
