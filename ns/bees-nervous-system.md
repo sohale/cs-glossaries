@@ -36,11 +36,16 @@ Correspond to:
 * M5 neuron
 * olfactory interneurons
 * lateral horn (LH)
+* HSB: Honey bee Standard Brain
+   * HSB repository = ?
+* neuropils (bee brain neuropils)
+
+3.1.5
 
 ### The big breakdown
-* mushroom body
+* mushroom body (MB)
    * mushroom body calyces (MCA, LCA)
-      * MCA
+      * MCA: median calyx of the mushroom bodies
       * LCA
       * olfactory interneurons
    * mushroom body output neuron
@@ -65,6 +70,9 @@ Correspond to:
 * lateral horn (LH) (where?)
 
 
+Method terms
+* statistical shape model (SSM)
+
 Central brain regions:
 * Mushrrom bodies
 * central body (CB)
@@ -72,6 +80,7 @@ Central brain regions:
 
 ### Projections:
 * olfactory interneurons -> mushroom body 's calyces 's subregions
+* GABAergic synaptic contacts on the dendrites of the Pe1
 
 ### Some various figures
 [11](https://d3i71xaburhd42.cloudfront.net/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/4-Figure1.1-1.png) from [thesis](https://www.semanticscholar.org/paper/Introduction-1.1%3A-Thesis-Outline-1.2.1%3A-Honeybee-in/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/figure/0)
