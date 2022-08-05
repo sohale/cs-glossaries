@@ -4,6 +4,11 @@
    * fast part
 
 * `docker run` starts with clean (unless withh `-v`)
+   * regardless of used with `--rm`
+   * with `--rm`
+   * without `--rm`
+   * 
+
 
 * `docker ps -a`
 You cannot exec or attach to them
