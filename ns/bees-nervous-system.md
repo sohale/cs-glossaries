@@ -39,7 +39,13 @@ Correspond to:
 * HSB: Honey bee Standard Brain
    * HSB repository = ?
 * neuropils (bee brain neuropils)
+* Major neuropils:
+   * protocerebral lobe
+   * pedunculus-lobe of the MB
+   * calyx of the mushroom body
+   * antenno mechanosensory motor center (AMMC)
 
+up to:
 3.1.5
 
 ### The big breakdown
@@ -74,9 +80,21 @@ Correspond to:
 * central body (CB)
 * protocerebral lobe (PL)
 
-#### Special Neurons
-*
-*
+#### Special Neurons (or neuron types?)
+* A1
+* A4
+* Kl (K1?)
+* PL4
+* DL-Int-1
+* Pe1
+
+* A1: MB extrinsic neurons
+* A4
+* Kl (K1?): KI Kenyon cell type 1 of the collar region of the MB calyces
+* PL4: protocerebral interneuron 4
+* DL-Int-1: DL-Int-1 mechanosensory dorsal lobe interneuron 1
+* Pe1
+
 
 #### Method terms
 * statistical shape model (SSM)
