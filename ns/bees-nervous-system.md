@@ -27,6 +27,7 @@ Correspond to:
 * L3 neuron
 * ring neuropil
 * superior intermediate protocerebrum
+* APT: antennal lobe-protocerebral tracts
 * median APT
 * ml-APT neuron
 * m-APT
@@ -44,6 +45,7 @@ Correspond to:
    * pedunculus-lobe of the MB
    * calyx of the mushroom body
    * antenno mechanosensory motor center (AMMC)
+* calyx
 
 up to:
 3.1.5
@@ -52,6 +54,8 @@ up to:
 * mushroom body (MB)
    * mushroom body calyces (MCA, LCA)
       * MCA: median calyx of the mushroom bodies
+         * right
+         * left
       * LCA
       * olfactory interneurons
    * mushroom body output neuron
@@ -67,11 +71,12 @@ up to:
 * superior intermediate protocerebrum (where?)
 * antennal mechanosensory and motor center
 * central body
-* median APT
-   * ml-APT neuron (where?)
-   * m-APT
-   * l-APT
-   * m-APT-desz
+* APT
+   * median APT
+      * ml-APT neuron (where?)
+      * m-APT
+      * l-APT
+      * m-APT-desz
 * M5 neuron (where?)
 * lateral horn (LH) (where?)
 
