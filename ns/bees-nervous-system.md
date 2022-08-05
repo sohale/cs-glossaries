@@ -34,12 +34,14 @@ Correspond to:
 * neuropils, somata, and fascicles
 * HSB
 * M5 neuron
+* olfactory interneurons
 
 ### The big breakdown
 * mushroom body
    * mushroom body calyces (MCA, LCA)
       * MCA
       * LCA
+      * olfactory interneurons
    * mushroom body output neuron
    * pedunculus (where?)
 * protocerebral lobe
@@ -64,6 +66,9 @@ Central brain regions:
 * Mushrrom bodies
 * central body (CB)
 * protocerebral lobe (PL)
+
+### Projections:
+* olfactory interneurons -> mushroom body 's calyces 's subregions
 
 ### Some various figures
 [11](https://d3i71xaburhd42.cloudfront.net/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/4-Figure1.1-1.png) from [thesis](https://www.semanticscholar.org/paper/Introduction-1.1%3A-Thesis-Outline-1.2.1%3A-Honeybee-in/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/figure/0)
