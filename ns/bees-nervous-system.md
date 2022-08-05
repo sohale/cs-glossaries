@@ -35,6 +35,7 @@ Correspond to:
 * HSB
 * M5 neuron
 * olfactory interneurons
+* lateral horn (LH)
 
 ### The big breakdown
 * mushroom body
@@ -43,6 +44,7 @@ Correspond to:
       * LCA
       * olfactory interneurons
    * mushroom body output neuron
+   * mushroom body extrinsic neuron (the Pe1?)
    * pedunculus (where?)
 * protocerebral lobe
    * posterior protocerebral lobe
@@ -60,6 +62,7 @@ Correspond to:
    * l-APT
    * m-APT-desz
 * M5 neuron (where?)
+* lateral horn (LH) (where?)
 
 
 Central brain regions:
