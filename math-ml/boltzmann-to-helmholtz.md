@@ -4,5 +4,7 @@ From Boltzmann machines to hHelmholtz machines
 
 ### Helmholtz
 
+### Boltzmann-Helmholtz machines
+
 ## Free Energy Principle
 Free Energy too?
