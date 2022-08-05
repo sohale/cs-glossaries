@@ -51,11 +51,25 @@ Correspond to:
 * multiglomerular neuron
 * cortex region: cortex region of (almost all) glomeruli of AL
 * mechanosensory neurons
+* intrinsic Kenyon cells (KCs)
+   * social learning
+* social hymenoptera
+* Calyces:
+   * The pedunculi and lobes (alpha and beta or vertical and medial lobe) receive inputs and provide outputs via extrinsic neurons
+   * The calyces are divided into the lip, col- lar and basal ring [31, 43, 46] .
+   * certain calyx (CA) region (lip, collar, or basal ring)
+* calycal dendritic arborizations of the KCs from type I
+* peduncle
+   * the alpha
+   * the beta-lobe
+* horizontal layer of the alpha-lobe (of ?)
+* medial layer of the beta-lobe (of ?)
 
+Down to 3.1.5.2
 
 ### The big breakdown
 * mushroom body (MB)
-   * mushroom body calyces (MCA, LCA)
+   * mushroom body calyces (MCA, LCA) (double calyces)
       * MCA: median calyx of the mushroom bodies
          * right
          * left
@@ -66,6 +80,9 @@ Correspond to:
    * mushroom body extrinsic neuron (the Pe1?)
    * mushroom body extrinsic neurons (Pe1) 
    * pedunculus (where?)
+   * pedunculus (PED)
+   * (The honey bee MBs consist of double calyces and a parallel system of axons forming the pedunculus (PED) and lobes)
+   * intrinsic Kenyon cells (KCs) (where?)
 * protocerebral lobe (PL)
    * (lateral, median and posterior protocerebral lobe)
    * posterior protocerebral lobe (PPL)
@@ -111,7 +128,7 @@ Correspond to:
 
 
 
-#### Some lists:
+#### Some lists (of regions)
 * Central brain regions:
    * Mushrrom bodies
    * central body (CB)
@@ -121,6 +138,11 @@ Correspond to:
    * the AL
    * the OLs
    * mushroom body
+
+### NTs
+* octopamin (OA)
+* serotonin
+* dopamine (DA) 
 
 #### Special Neurons (or neuron types?)
 * A1
