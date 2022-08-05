@@ -105,10 +105,16 @@ Correspond to:
 
 
 
-#### Central brain regions:
-* Mushrrom bodies
-* central body (CB)
-* protocerebral lobe (PL)
+#### Some lists:
+* Central brain regions:
+   * Mushrrom bodies
+   * central body (CB)
+   * protocerebral lobe (PL)
+
+* output neurons from extrinsic neurons of
+   * the AL
+   * the OLs
+   * mushroom body
 
 #### Special Neurons (or neuron types?)
 * A1
