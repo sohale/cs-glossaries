@@ -64,6 +64,10 @@ Correspond to:
    * the beta-lobe
 * horizontal layer of the alpha-lobe (of ?)
 * medial layer of the beta-lobe (of ?)
+* microcircuit domains
+* boutons
+* large diameter boutons
+* profiles: postsynaptic profiles
 
 Down to 3.1.5.2
 
@@ -143,6 +147,8 @@ Down to 3.1.5.2
 * octopamin (OA)
 * serotonin
 * dopamine (DA) 
+
+#### microcircuit domains
 
 #### Special Neurons (or neuron types?)
 * A1
