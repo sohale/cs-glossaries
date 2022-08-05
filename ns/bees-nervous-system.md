@@ -69,14 +69,18 @@ Correspond to:
 * M5 neuron (where?)
 * lateral horn (LH) (where?)
 
-
-Method terms
-* statistical shape model (SSM)
-
-Central brain regions:
+#### Central brain regions:
 * Mushrrom bodies
 * central body (CB)
 * protocerebral lobe (PL)
+
+#### Special Neurons
+*
+*
+
+#### Method terms
+* statistical shape model (SSM)
+
 
 ### Projections:
 * olfactory interneurons -> mushroom body 's calyces 's subregions
