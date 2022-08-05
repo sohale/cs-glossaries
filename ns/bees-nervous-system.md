@@ -23,7 +23,14 @@ Correspond to:
 
 ### The big Glossary
 * lateral horn
-
+* glomerular arborization
+* L3 neuron
+* ring neuropil
+* superior intermediate protocerebrum
+* median APT
+* ml-APT neuron
+* m-APT
+* l-APT
 
 ### The big breakdown
 * mushroom body
@@ -33,10 +40,20 @@ Correspond to:
    * mushroom body output neuron
    * pedunculus (where?)
 * protocerebral lobe
+   * posterior protocerebral lobe
 * protocerebral tract
 * subesophageal ganglion
 * antennal lobe
 * L3 neuron (where?)
+* vertical lobe
+* superior intermediate protocerebrum (where?)
+* antennal mechanosensory and motor center
+* median APT
+   * ml-APT neuron (where?)
+   * m-APT
+   * l-APT
+   * m-APT-desz
+
 
 ### Some various figures
 [11](https://d3i71xaburhd42.cloudfront.net/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/4-Figure1.1-1.png) from [thesis](https://www.semanticscholar.org/paper/Introduction-1.1%3A-Thesis-Outline-1.2.1%3A-Honeybee-in/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/figure/0)
