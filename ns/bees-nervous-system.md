@@ -31,6 +31,9 @@ Correspond to:
 * ml-APT neuron
 * m-APT
 * l-APT
+* neuropils, somata, and fascicles
+* HSB
+* M5 neuron
 
 ### The big breakdown
 * mushroom body
@@ -54,6 +57,7 @@ Correspond to:
    * m-APT
    * l-APT
    * m-APT-desz
+* M5 neuron (where?)
 
 
 Central brain regions:
