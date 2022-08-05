@@ -7,7 +7,9 @@
    * regardless of used with `--rm`
    * with `--rm`
    * without `--rm`
-   * 
+   * .
+   * never downloads the slow.
+   * easily resettable to the slow (fresh clean-slate state: hard state: as made with `docker build`)
 
 
 * `docker ps -a`
