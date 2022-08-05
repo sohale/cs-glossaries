@@ -46,9 +46,8 @@ Correspond to:
    * calyx of the mushroom body
    * antenno mechanosensory motor center (AMMC)
 * calyx
+* fiber tracts
 
-up to:
-3.1.5
 
 ### The big breakdown
 * mushroom body (MB)
@@ -62,10 +61,14 @@ up to:
    * mushroom body extrinsic neuron (the Pe1?)
    * pedunculus (where?)
 * protocerebral lobe
-   * posterior protocerebral lobe
+   * posterior protocerebral lobe (PPL)
 * protocerebral tract
-* subesophageal ganglion
-* antennal lobe
+* subesophageal ganglion (SEG)
+
+* antennal lobe (AL)
+   * 160 glomeruli in AL
+   * local interneurons
+   * (local) projection neurons (PN) 
 * L3 neuron (where?)
 * vertical lobe
 * superior intermediate protocerebrum (where?)
@@ -79,7 +82,16 @@ up to:
       * m-APT-desz
 * M5 neuron (where?)
 * lateral horn (LH) (where?)
-
+* antennal olfactory
+   * antennal olfactory receptors
+      * four tracts (T1 to T4)
+         * T1
+         * T2
+         * T3
+         * T4
+         * T5, T6
+            * Mechanosensory neurons
+* optic lobes (OLs)
 #### Central brain regions:
 * Mushrrom bodies
 * central body (CB)
