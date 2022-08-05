@@ -68,6 +68,7 @@ Correspond to:
 * boutons
 * large diameter boutons
 * profiles: postsynaptic profiles
+* LM and EM level (?)
 
 Down to 3.1.5.2
 
