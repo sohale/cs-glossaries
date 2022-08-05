@@ -47,6 +47,7 @@ Correspond to:
    * antenno mechanosensory motor center (AMMC)
 * calyx
 * fiber tracts
+* LH
 
 
 ### The big breakdown
@@ -56,11 +57,12 @@ Correspond to:
          * right
          * left
       * LCA
+         * (subregions of MB calyces (CAs))
       * olfactory interneurons
    * mushroom body output neuron
    * mushroom body extrinsic neuron (the Pe1?)
    * pedunculus (where?)
-* protocerebral lobe
+* protocerebral lobe (PL)
    * (lateral, median and posterior protocerebral lobe)
    * posterior protocerebral lobe (PPL)
    * median
@@ -72,6 +74,7 @@ Correspond to:
    * 160 glomeruli in AL
    * local interneurons
    * (local) projection neurons (PN) 
+   * uniglomerular projection neurons (uPN)
 * L3 neuron (where?)
 * vertical lobe
 * superior intermediate protocerebrum (where?)
