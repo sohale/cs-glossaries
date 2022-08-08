@@ -11,6 +11,10 @@
    * never downloads the slow.
    * easily resettable to the slow (fresh clean-slate state: hard state: as made with `docker build`)
 
+* A running docker has two parts:
+* soft
+* hard
+soft + reset -> reset to hard.
 
 * `docker ps -a`
 You cannot exec or attach to them
