@@ -29,7 +29,7 @@ bias reduction techniques and solutions:
 | Strong et al             |       |           |          |         |         |        |         |
 | BuB                      |       |           |          |         |         |        |         |
 | NSB                      |       |           |          |         |         |        |         |
-| Montemurro       |       |           |          |         |         |        |         |
+| Montemurro               |       |           |          |         |         |        |         |
 | Senatore                 |       |           |          |         |         |        |         |
 | Sonia?                   |       |           |          |         |         |        |         |
 | Tsodyk                   |       |           |          |         |         |        |         |
@@ -46,6 +46,7 @@ Other techniques:
 * I.Geom (Oizumi)
 <!-- * Receptive field (apperture) with hierarchy -->
 * ?
-<!-- invariants: 1. analytical 2. sample augmenting -->
-
-
+<!-- * invariants: 1. analytical 2. sample augmenting -->
+<!-- * Generative? Does it help? By ounterfactual expriences -->
+<!-- * Copula (Almost the same as Gaussian) -->
+<!-- * Copula (cancel-out-marginal: whiten the marginal) -->
