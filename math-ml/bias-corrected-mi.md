@@ -19,7 +19,9 @@ bias reduction techniques and solutions:
 | Best Universal Bound     |           |      |     |          |
 | Nemenman-Shafee-Bialek   |           |      |     |          |
 | shuffling procedure(s)   |           |      |     |          |
-| Strong et al             |           |      |     |   ✔︎      |
+| Strong et al (binning)   |           |      |     |   ✔︎      |
+
+Strong et al: two techniques: QE and binning. (QE. See above)
 
 
 
