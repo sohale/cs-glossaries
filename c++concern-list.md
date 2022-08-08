@@ -6,6 +6,9 @@
    * Pures: Lvalue, Xvalue, pRvalue.
    * Mixed: gLvalue=Lvalue ∨ xValue. rValue=pRValue ∨  Xvalue.
    * value = rValue (xor) lValue.
+   * Strouptrup: [ref](https://stackoverflow.com/a/38169963/4374258)
+      * `has identity`
+      * `can be moved from`
 * `template<typename ...>` versus `template<...>`
 * `weak_ptr`
 * `virtual` destructor [1](https://www.stroustrup.com/glossary.html#Gvirtual-destructor) [video](https://youtube.com/watch?v=jELbKhGkEi0)
