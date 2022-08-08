@@ -21,6 +21,8 @@ Why "rule"?
 
 * A Generalisation of BCM: by Clopath: "A triplet spike-timing-dependent plasticity model generalizes the Bienenstock-Cooper-Munro rule to higher-order spatiotemporal correlations"
 
+* A review on STDP: [Yang Dan & Poo](https://journals.physiology.org/doi/full/10.1152/physrev.00030.2005) -- Dan Y, Poo MM (2006) Spike timing-dependent plasticity: from synapse to perception. Physiol Rev 86:1033–1048.
+
 ### Ways to put it:
 * Learning  (seeing it as learning)
 * Plasticity (plasticity: on van Russom's page)
