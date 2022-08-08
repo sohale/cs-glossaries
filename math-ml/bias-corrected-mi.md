@@ -46,7 +46,20 @@ Other techniques:
 * I.Geom (Oizumi)
 <!-- * Receptive field (apperture) with hierarchy -->
 * ?
+<!-- * Kalman, sort of ... (but that also involves guessing a state signal. A history-based also probably does this. -->
 <!-- * invariants: 1. analytical 2. sample augmenting -->
 <!-- * Generative? Does it help? By ounterfactual expriences -->
 <!-- * Copula (Almost the same as Gaussian) -->
 <!-- * Copula (cancel-out-marginal: whiten the marginal) -->
+
+* Explain away: For example, PT95 (Treves-Panzero) formula cancels away some.
+
+### PT95 technique
+$1/N $
+
+Also:
+$1/N^2 $
+
+### Nemenman-Shafee-Bialek technique(s)
+Beta function
+
