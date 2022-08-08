@@ -9,8 +9,9 @@ Coincidence-detection and correlation finding. (Hinton's stack as correlations).
 Gerstner's approach to STDP using extentions on SRMs
 * This review: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2799003/
 
-* The Schilarpedia [page](http://www.scholarpedia.org/article/Spike-timing_dependent_plasticity) on STDP
-
+* The Scholarpedia [page](http://www.scholarpedia.org/article/Spike-timing_dependent_plasticity) on STDP
+                          http://www.scholarpedia.org/article/Spike-timing_dependent_plasticity#STDP_and_Bienenstock-Cooper-Munro_.28BCM.29_rule
 
 ## Standard Hebbian
 Bienenstock-Cooper-Munro (BCM) rule
+* again, [scholarpedia: BCM](http://www.scholarpedia.org/article/Spike-timing_dependent_plasticity#STDP_and_Bienenstock-Cooper-Munro_.28BCM.29_rule)
