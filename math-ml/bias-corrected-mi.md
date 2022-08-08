@@ -34,6 +34,7 @@ Strong et al: two techniques: QE and binning. (QE. See above)
 | NSB                      |     |       |           |          |         |         |        |         |
 | Montemurro               |     |       |           |          |         |         |        |         |
 | Senatore                 |     |       |           |          |         |         |        |         |
+| lfp                      | ✗ ✘ |       |           |          |         |         |        |         |
 | Sonia?                   |     |       |           |          |         |         |        |         |
 | Tsodyk                   |     |       |           |          |         |         |        |         |
 | PyThropy                 |     |       |           |          |         |         |        |         |
