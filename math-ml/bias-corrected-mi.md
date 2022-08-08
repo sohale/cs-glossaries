@@ -80,7 +80,8 @@ $1/N^2 $
 * “Best Universal Bounds” (BUBs) on both bias and variance. 
 * $k_{max}$ “degrees of freedom” 
 * [Matlab code](http://www.stat.columbia.edu/~liam/research/info_est.html)
-
+* Theoretically: very competitive when both N and R̄ are very large
+* Practically: "BUB gave a rather similar performance to PT and QE methods even using the optimal $k_{max}$"
 
 ### Nemenman-Shafee-Bialek technique(s)
 Beta function
