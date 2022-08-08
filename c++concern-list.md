@@ -1,11 +1,14 @@
 
 * The ref `&&`
+* forward...
 * How knows move semantics, move tag, `std::move()`
+* rvalue, xvalue, lvalue, glvalue, prvalue.
 * `template<typename ...>` versus `template<...>`
 * `weak_ptr`
 * `virtual` destructor [1](https://www.stroustrup.com/glossary.html#Gvirtual-destructor)
 * order of destruction [1](https://www.stroustrup.com/glossary.html#Gorder-of-destruction)
 * `shared_ptr`
+* shared_ptr calling both destructors
 * promise, future, etc usage
 * thread, mutex, join, ... usage
 * `const_cast`
