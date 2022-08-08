@@ -26,6 +26,7 @@ bias reduction techniques and solutions:
 * Nemenman-Shafee-Bialek →
 
 
+
 |                          |     |       | shuffling |          |         |          |         |        |
 | solution↓      technique→| bin | KL ΔI | surrogate | cumulant | Oizumi  | Gaussian | Copula  | binning |
 |-------------------------:|-----|-------|-----------|----------|---------|---------|--------|---------|
@@ -66,6 +67,8 @@ Other techniques:
 * Explain away: For example, PT95 (Treves-Pan eri) formula cancels away some.
 
 ### PT95 technique
+[PT95](https://doi.org/10.1162/neco.1995.7.2.399)
+
 $1/N $
 
 Also:
@@ -73,4 +76,7 @@ $1/N^2 $
 
 ### Nemenman-Shafee-Bialek technique(s)
 Beta function
+
+## Refs:
+* [PT95](https://doi.org/10.1162/neco.1995.7.2.399)
 
