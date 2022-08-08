@@ -42,7 +42,7 @@ Strategy π. Abstract Factory π.
 MVP π, MVC π, MVVP π, MVPP π, etc.
 
 #### Design patterns:
-
+Personal type (may be not literally correct):
 * Proxy π: before and after (like Gateway?)
 * Brdige π: two hierarchies: hierarchy of abstracts. hierarchy of implementations. (unsure)
 * Chain of Responsibility π: "passes requests via a chain of handlers" 
