@@ -22,8 +22,11 @@ Why "rule"?
 * A Generalisation of BCM: by Clopath: "A triplet spike-timing-dependent plasticity model generalizes the Bienenstock-Cooper-Munro rule to higher-order spatiotemporal correlations"
 
 ### Ways to put it:
-* Learning
-* Plasticity
+* Learning  (seeing it as learning)
+* Plasticity (plasticity: on van Russom's page)
 * Correlation and Coincidence detction
 * Functional connectivity (?)
 * Matrix (non-positive)
+* LTP/LTD
+* Memory (seeing it as "memory". or LTM. vs ITM.)
+
