@@ -74,9 +74,18 @@ $1/N $
 Also:
 $1/N^2 $
 
+### BUB
+[BUB](https://ieeexplore.ieee.org/abstract/document/6790247)
+* “histogram order statistics”
+* “Best Universal Bounds” (BUBs) on both bias and variance. 
+* $k_{max}$ “degrees of freedom” 
+* [Matlab code](http://www.stat.columbia.edu/~liam/research/info_est.html)
+
+
 ### Nemenman-Shafee-Bialek technique(s)
 Beta function
 
+
 ## Refs:
 * [PT95](https://doi.org/10.1162/neco.1995.7.2.399)
-
+* [BUB](https://ieeexplore.ieee.org/abstract/document/6790247) Paninski 2003 Paninski L. Estimation of entropy and mutual information. Neural Comput 5: 1191–1253, 2003.
