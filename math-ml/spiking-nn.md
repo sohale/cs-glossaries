@@ -5,7 +5,7 @@ SNN: Spiking Neural Networks
 * Dan Goodman: Cosyne 2022 Tutorial on Spiking Neural Networks [youtube](https://www.youtube.com/watch?v=GTXTQ_sOxak) - Part 1/2
 * Neuromatch Workshop
 * Recurrent-SNN: Jiangrong Shen, Xu, Liu. Univ Leicester.
-* That Sheffield talk: ... ([sheffield ML](https://www.world-wide.org/Neuro/Sheffield-ML/))
+* That Sheffield talk: Dr Shirin Dora  talk [youtube video](https://www.youtube.com/watch?v=oKkZhoZl6TA) (from [sheffield ML](https://www.world-wide.org/Neuro/Sheffield-ML/))
 * That girl on Clubhouse: "Mina A Khoei"?
 
 
@@ -23,3 +23,5 @@ SNN: Spiking Neural Networks
 * Place cells (for SLAM)
 * STDP-based spiking deep convolutional neural networks for object recognition. Saeed Reza Kheradpisheh. [youtube](https://www.youtube.com/watch?v=u32Xnz2hDkE)
 * Spiking Neural Networks for Image Classification. Ahmadhossein Yazdani & Osaze Shears. (2020). [youtube](https://www.youtube.com/watch?v=yVP_vmSdnkg)
+* [sheffield ML](https://www.world-wide.org/Neuro/Sheffield-ML/))
+* 
