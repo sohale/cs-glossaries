@@ -19,24 +19,25 @@ bias reduction techniques and solutions:
 | Best Universal Bound     |           |      |     |          |
 | Nemenman-Shafee-Bialek   |           |      |     |          |
 | shuffling procedure(s)   |           |      |     |          |
-| Strong et al (binning)   |           |      |     |   ✔︎      |
+| Strong et al (binning)   |           |      | ✔︎   |   ✔︎      |
 
 Strong et al: two techniques: QE and binning. (QE. See above)
 
 
 
-|                          |       | shuffling |          |         |          |         |        |
-| solution↓      technique→| KL ΔI | surrogate | cumulant | Oizumi  | Gaussian | Copula  | binning |
-|-------------------------:|-------|-----------|----------|---------|---------|--------|---------|
-| Strong et al             |       |           |          |         |         |        |         |
-| BuB                      |       |           |          |         |         |        |         |
-| NSB                      |       |           |          |         |         |        |         |
-| Montemurro               |       |           |          |         |         |        |         |
-| Senatore                 |       |           |          |         |         |        |         |
-| Sonia?                   |       |           |          |         |         |        |         |
-| Tsodyk                   |       |           |          |         |         |        |         |
-| PyThropy                 |       |           |          |         |         |        |         |
-| GCMI                     |       |           |          |         |         |        |         |
+|                          |     |       | shuffling |          |         |          |         |        |
+| solution↓      technique→| bin | KL ΔI | surrogate | cumulant | Oizumi  | Gaussian | Copula  | binning |
+|-------------------------:|-----|-------|-----------|----------|---------|---------|--------|---------|
+| Pan eri-Treves           |     |      |           |          |         |         |        |         |
+| Strong et al             |     |       |           |          |         |         |        |         |
+| BuB                      |     |       |           |          |         |         |        |         |
+| NSB                      |     |       |           |          |         |         |        |         |
+| Montemurro               |     |       |           |          |         |         |        |         |
+| Senatore                 |     |       |           |          |         |         |        |         |
+| Sonia?                   |     |       |           |          |         |         |        |         |
+| Tsodyk                   |     |       |           |          |         |         |        |         |
+| PyThropy                 |     |       |           |          |         |         |        |         |
+| GCMI                     |     |       |           |          |         |         |        |         |
 
 TDB = Montemurro 2007 (TDB)
 
