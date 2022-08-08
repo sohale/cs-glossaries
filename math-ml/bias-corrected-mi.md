@@ -23,7 +23,7 @@ bias reduction techniques and solutions:
 
 
 
-| solution↓      technique→| KL ΔI | Oizumi   | Gaussian | Copula | binning |
+| solution↓      technique→| KL ΔI | shuffling/ | Oizumi   | Gaussian | Copula | binning |
 |-------------------------:|-------|----------|----------|--------|---------|
 | Strong et al             |       |          |          |        |         |
 | BuB                      |       |          |          |        |         |
