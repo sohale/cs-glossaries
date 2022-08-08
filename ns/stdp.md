@@ -26,9 +26,13 @@ Why "rule"?
 ### Ways to put it:
 * Learning  (seeing it as learning)
 * Plasticity (plasticity: on van Russom's page)
-* Correlation and Coincidence detction
+* Correlation (autocorrelation) and Coincidence detection
+   * Auto-correlation: lateral (Spatial). Covriance matrix?
 * Functional connectivity (?)
 * Matrix (non-positive)
-* LTP/LTD
-* Memory (seeing it as "memory". or LTM. vs ITM.)
+* LTP/LTD: Physiological
+* Memory (seeing it as "memory")
+    * LTM (Cortex). vs ITM (CA3).)
+    * Kandel's view
+* Back-propagation as learning: How is it (and is not) Hebbian learning
 
