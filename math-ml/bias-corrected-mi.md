@@ -23,18 +23,21 @@ bias reduction techniques and solutions:
 
 
 
-| solution↓      technique→| KL ΔI | shuffling/ | Oizumi   | Gaussian | Copula | binning |
-|-------------------------:|-------|----------|----------|--------|---------|
-| Strong et al             |       |          |          |        |         |
-| BuB                      |       |          |          |        |         |
-| NSB                      |       |          |          |        |         |
-| Montemurro 2007 (TDB)    |       |          |          |        |         |
-| Senatore                 |       |          |          |        |         |
-| Sonia?                   |       |          |          |        |         |
-| Tsodyk                   |       |          |          |        |         |
-| PyThropy                 |       |          |          |        |         |
-| GCMI                     |       |          |          |        |         |
+| solution↓      technique→| KL ΔI | shuffling/surrogate | cumulant | Oizumi   | Gaussian | Copula | binning |
+|-------------------------:|-------|---------------------|----------|----------|----------|--------|---------|
+| Strong et al             |       |                     |          |          |          |        |         |
+| BuB                      |       |                     |          |          |          |        |         |
+| NSB                      |       |                     |          |          |          |        |         |
+| Montemurro 2007 (TDB)    |       |                     |          |          |          |        |         |
+| Senatore                 |       |                     |          |          |          |        |         |
+| Sonia?                   |       |                     |          |          |          |        |         |
+| Tsodyk                   |       |                     |          |          |          |        |         |
+| PyThropy                 |       |                     |          |          |          |        |         |
+| GCMI                     |       |                     |          |          |          |        |         |
 
-Other techniques
+Other techniques:
 * Smoothing
 <!-- * Dithering: a kind of smoothing similar to shuffling -->
+* Metric (Victor)
+* Cumulant
+* I.Geom (Oizumi)
