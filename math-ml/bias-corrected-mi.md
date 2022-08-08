@@ -75,7 +75,7 @@ Also:
 $1/N^2 $
 
 ### BUB
-[BUB](https://ieeexplore.ieee.org/abstract/document/6790247)
+[BUB2003](https://ieeexplore.ieee.org/abstract/document/6790247)
 * “histogram order statistics”
 * “Best Universal Bounds” (BUBs) on both bias and variance. 
 * $k_{max}$ “degrees of freedom” 
