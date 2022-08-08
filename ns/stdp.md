@@ -16,3 +16,4 @@ Gerstner's approach to STDP using extentions on SRMs
 Bienenstock-Cooper-Munro (BCM) "rule"
 * again, [scholarpedia: BCM](http://www.scholarpedia.org/article/Spike-timing_dependent_plasticity#STDP_and_Bienenstock-Cooper-Munro_.28BCM.29_rule)
 * [BCM theory](http://www.scholarpedia.org/article/BCM_theory) (separate article) on Scholarpedia
+* Bienenstock, Cooper, and Munro 1982
