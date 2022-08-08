@@ -32,3 +32,7 @@ git submodule -q foreach git pull -q origin master
 ![](https://images.slideplayer.com/47/11721554/slides/slide_10.jpg)
 [source: Pavel Weber](https://slideplayer.com/slide/11721554/)
 
+## git-flow and the like
+git flow versus trunk flow
+* git flow
+* trunk flow
