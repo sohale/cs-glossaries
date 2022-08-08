@@ -4,7 +4,7 @@ Bias correciton methods:
 3. Bialek
 
 Based on:
-* Pan eri, Senatore, Montemurro, Petersen. Correcting for the sampling bias problem in spike train information measures. 2007. [doi](https://journals.physiology.org/doi/full/10.1152/jn.00559.2007) [pubmed](https://pubmed.ncbi.nlm.nih.gov/17615128/)
+* Pan eri, Senatore, Montemurro, Petersen. Correcting for the sampling bias problem in spike train information measures. 2007. [doi](https://journals.physiology.org/doi/full/10.1152/jn.00559.2007), [pubmed](https://pubmed.ncbi.nlm.nih.gov/17615128/)
 * Related: Tight [pubmed](https://pubmed.ncbi.nlm.nih.gov/17883346/)
 
 
@@ -14,15 +14,16 @@ bias reduction techniques and solutions:
 
 | Technique↓     Solution →|  BUB      | NSB  | TDB | Senatore |
 |-------------------------:|-----------|------|-----|----------|
-| Pan eri-Treves           |           |      |     |          |
+| Pan eri-Treves           |           |      |     |  -       |
 | Quadratic Extrapolation  |           |      |     |   ✔︎      |
 | Best Universal Bound     |           |      |     |          |
 | Nemenman-Shafee-Bialek   |           |      |     |          |
-| shuffling procedure(s)   |           |      |     |          |
+| shuffling procedure(s)   |           |      |     |   ✔︎      |
 | Strong et al (binning)   |           |      | ✔︎   |   ✔︎      |
 
-Strong et al: two techniques: QE and binning. (QE. See above)
-
+* Strong et al: → two techniques: (1) QE and (2) binning. (QE. See above)
+* Best Universal Bound →
+* Nemenman-Shafee-Bialek →
 
 
 |                          |     |       | shuffling |          |         |          |         |        |
