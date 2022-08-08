@@ -15,16 +15,21 @@ bias reduction techniques and solutions:
 | Technique↓     Solution →|  BUB      | NSB  | TDB | Senatore |
 |-------------------------:|-----------|------|-----|----------|
 | Panzeri-Treves           |           |      |     |          |
-| Quadratic Extrapolation  |           |      |     |          |
+| Quadratic Extrapolation  |           |      |     |   ✔︎      |
 | Best Universal Bound     |           |      |     |          |
 | Nemenman-Shafee-Bialek   |           |      |     |          |
 | shuffling procedure(s)   |           |      |     |          |
-| Strong et al             |           |      |     |          |
+| Strong et al             |           |      |     |   ✔︎      |
 
+TDB:
 
-|                          | Oizumi   | Gaussian | Copula |
-|:-------------------------|----------|----------|--------|
-| GCMI                     |          |          |        |
-| PyThropy                 |          |          |        |
-| Tsodyk                   |          |          |        |
-
+| solution↓      technique→| Oizumi   | Gaussian | Copula | binning |
+|-------------------------:|----------|----------|--------|---------|
+| GCMI                     |          |          |        |         |
+| PyThropy                 |          |          |        |         |
+| Tsodyk                   |          |          |        |         |
+| Strong et al             |          |          |        |         |
+| BuB                      |          |          |        |         |
+| NSB                      |          |          |        |         |
+| Senatore                 |          |          |        |         |
+| Montemurro 2007 (TDB)    |          |          |        |         |
