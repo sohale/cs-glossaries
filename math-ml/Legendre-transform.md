@@ -5,6 +5,8 @@ from [this post](https://blog.jessriedel.com/2017/06/28/legendre-transform/)
 ### Maybe:
 * Quora [difference between Lagr & Ham](https://www.quora.com/What-is-the-difference-between-Lagrangian-and-Hamiltonian-mechanics)
 
+* Recently: Some tweets about comparison between this and Laplace transform.
+   * [this tweet](https://twitter.com/johncarlosbaez/status/1552162088075677696?s=20&t=5BJioXX_p-Rq-Z6aJmDfvA) by John Baes
 
 ### Also see (table of)
 * [Eigenvalues](eigenvalues.md) (this)
