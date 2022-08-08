@@ -1,10 +1,10 @@
 Bias correciton methods:
-1. Panzeri Montemurro
+1. Pan eri Montemurro
 2. Paninski (UB)
 3. Bialek
 
 Based on:
-* Panzeri, Senatore, Montemurro, Petersen. Correcting for the sampling bias problem in spike train information measures. 2007. https://pubmed.ncbi.nlm.nih.gov/17615128/
+* Pan eri, Senatore, Montemurro, Petersen. Correcting for the sampling bias problem in spike train information measures. 2007. https://pubmed.ncbi.nlm.nih.gov/17615128/
 * Related: Tight https://pubmed.ncbi.nlm.nih.gov/17883346/
 
 
@@ -14,7 +14,7 @@ bias reduction techniques and solutions:
 
 | Technique↓     Solution →|  BUB      | NSB  | TDB | Senatore |
 |-------------------------:|-----------|------|-----|----------|
-| Panzeri-Treves           |           |      |     |          |
+| Pan eri-Treves           |           |      |     |          |
 | Quadratic Extrapolation  |           |      |     |   ✔︎      |
 | Best Universal Bound     |           |      |     |          |
 | Nemenman-Shafee-Bialek   |           |      |     |          |
@@ -48,6 +48,7 @@ Other techniques:
 <!-- * Receptive field (apperture) with hierarchy -->
 * ?
 <!-- * Kalman, sort of ... (but that also involves guessing a state signal. A history-based also probably does this. -->
+<!-- Somehow bring in the PP? -->
 <!-- * invariants: 1. analytical 2. sample augmenting -->
 <!-- * Generative? Does it help? By ounterfactual expriences -->
 <!-- * Copula (Almost the same as Gaussian) -->
@@ -56,7 +57,7 @@ Other techniques:
 <!-- * Whitening as a geometry -->
 
 <!-- techniques bawed on simp=IND. Also: based on other decompositions: based on variaous state variables? Can we have RBM? -->
-* Explain away: For example, PT95 (Treves-Panzero) formula cancels away some.
+* Explain away: For example, PT95 (Treves-Pan eri) formula cancels away some.
 
 ### PT95 technique
 $1/N $
