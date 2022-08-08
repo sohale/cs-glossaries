@@ -44,5 +44,8 @@ Other techniques:
 * Metric (Victor)
 * Cumulant
 * I.Geom (Oizumi)
-<!-- * Receptive fieeld (apperture) with hierarchy -->
+<!-- * Receptive field (apperture) with hierarchy -->
 * ?
+<!-- invariants: 1. analytical 2. sample augmenting -->
+
+
