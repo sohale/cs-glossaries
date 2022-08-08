@@ -4,6 +4,10 @@ SNN: Spiking Neural Networks
 
 * Dan Goodman: Cosyne 2022 Tutorial on Spiking Neural Networks [youtube](https://www.youtube.com/watch?v=GTXTQ_sOxak) - Part 1/2
 * Neuromatch Workshop
+* Recurrent-SNN: Jiangrong Shen, Xu, Liu. Univ Leicester.
+* That Sheffield talk: ... ([sheffield ML](https://www.world-wide.org/Neuro/Sheffield-ML/))
+* That girl on Clubhouse: "Mina A Khoei"?
+
 
 ### Good searches:
 * youtube: `stdp wulfram gertner`  (intresting stuff)
