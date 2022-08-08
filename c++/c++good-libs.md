@@ -13,4 +13,11 @@ API
 
 ## I found
 
+### http/websockets
 * `Beast` on boost: [boost.beast](https://www.boost.org/doc/libs/master/libs/beast/doc/html/index.html) - Portable HTTP, WebSocket, and network operations using only C++11 and Boost.Asio, from Vinnie Falco
+
+### Numpy-like
+* valarray
+* Eigen
+* multi_array (boost)
+
