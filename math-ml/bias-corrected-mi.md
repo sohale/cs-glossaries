@@ -95,4 +95,4 @@ Beta function
 
 ## Refs:
 * [PT95](https://doi.org/10.1162/neco.1995.7.2.399)
-* [BUB](https://ieeexplore.ieee.org/abstract/document/6790247) Paninski 2003 Paninski L. Estimation of entropy and mutual information. Neural Comput 5: 1191–1253, 2003. [doi doi:10.1162/089976603321780272](https://doi.org/10.1162/089976603321780272) [~liam pdf](http://www.stat.columbia.edu/~liam/research/pubs/info_est-nc.pdf)
+* [BUB](https://ieeexplore.ieee.org/abstract/document/6790247) Paninski 2003 Paninski L. Estimation of entropy and mutual information. Neural Comput 5: 1191–1253, 2003. [doi](https://doi.org/10.1162/089976603321780272), [~liam pdf](http://www.stat.columbia.edu/~liam/research/pubs/info_est-nc.pdf)
