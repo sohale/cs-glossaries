@@ -12,7 +12,7 @@ Increase the vairance but reduce the bias.
 
 bias reduction techniques and solutions:
 
-| Technique               |  BUB      | NSB  | TDB | Senatore |
+| Technique↓     Solution →|  BUB      | NSB  | TDB | Senatore |
 |:-------------------------|-----------|------|-----|----------|
 | Panzeri-Treves           |           |      |     |          |
 | Quadratic Extrapolation  |
