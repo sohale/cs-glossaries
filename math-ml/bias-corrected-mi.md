@@ -21,15 +21,15 @@ bias reduction techniques and solutions:
 | shuffling procedure(s)   |           |      |     |          |
 | Strong et al             |           |      |     |   ✔︎      |
 
-TDB:
 
-| solution↓      technique→| Oizumi   | Gaussian | Copula | binning |
-|-------------------------:|----------|----------|--------|---------|
-| GCMI                     |          |          |        |         |
-| PyThropy                 |          |          |        |         |
-| Tsodyk                   |          |          |        |         |
-| Strong et al             |          |          |        |         |
-| BuB                      |          |          |        |         |
-| NSB                      |          |          |        |         |
-| Senatore                 |          |          |        |         |
-| Montemurro 2007 (TDB)    |          |          |        |         |
+
+| solution↓      technique→| KL ΔI | Oizumi   | Gaussian | Copula | binning |
+|-------------------------:|-------|----------|----------|--------|---------|
+| Strong et al             |       |          |          |        |         |
+| BuB                      |       |          |          |        |         |
+| NSB                      |       |          |          |        |         |
+| Montemurro 2007 (TDB)    |       |          |          |        |         |
+| Senatore                 |       |          |          |        |         |
+| Tsodyk                   |       |          |          |        |         |
+| PyThropy                 |       |          |          |        |         |
+| GCMI                     |       |          |          |        |         |
