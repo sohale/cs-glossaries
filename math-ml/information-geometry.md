@@ -2,6 +2,7 @@
 ### Historically
 * Historically, originated by Rao
    * Rao's initial ideas?
+   * Is this the same Rao? Prakasa Rao, B. (2001). Cramer-Rao type integral inequalities for general loss functions. TEST, 10, 105–120. mentioned in: [doi](https://doi.org/10.1162/089976603321780272)
 * Then Amari
 
 ### Various readings
