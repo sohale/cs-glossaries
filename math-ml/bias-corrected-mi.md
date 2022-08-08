@@ -30,6 +30,11 @@ bias reduction techniques and solutions:
 | NSB                      |       |          |          |        |         |
 | Montemurro 2007 (TDB)    |       |          |          |        |         |
 | Senatore                 |       |          |          |        |         |
+| Sonia?                   |       |          |          |        |         |
 | Tsodyk                   |       |          |          |        |         |
 | PyThropy                 |       |          |          |        |         |
 | GCMI                     |       |          |          |        |         |
+
+Other techniques
+* Smoothing
+<!-- * Dithering: a kind of smoothing similar to shuffling -->
