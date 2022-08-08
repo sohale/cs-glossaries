@@ -2,7 +2,7 @@
 * The ref `&&`
 * forward...
 * How knows move semantics, move tag, `std::move()`
-* rvalue, xvalue, lvalue, glvalue, prvalue. (expiring, pure, generalised) [value categories](https://en.cppreference.com/w/cpp/language/value_category) [question](https://stackoverflow.com/questions/3601602/what-are-rvalues-lvalues-xvalues-glvalues-and-prvalues)
+* rvalue, xvalue, lvalue, glvalue, prvalue. (expiring, pure, generalised) [value categories](https://en.cppreference.com/w/cpp/language/value_category) [question](https://stackoverflow.com/questions/3601602/what-are-rvalues-lvalues-xvalues-glvalues-and-prvalues). pures = Lvalue, Xvalue, pRvalue. Mixed: gLvalue=Lvalue ∧ xValue. rValue=pRValue ∧  Xvalue.
 * `template<typename ...>` versus `template<...>`
 * `weak_ptr`
 * `virtual` destructor [1](https://www.stroustrup.com/glossary.html#Gvirtual-destructor) [video](https://youtube.com/watch?v=jELbKhGkEi0)
