@@ -50,6 +50,10 @@ Personal type (may be not literally correct):
 * MVC π: Controller is the logic. Also is the separateor (between M & V).
 * "Composite Entity" π. 
 * Prototype π. (Is it Archetype?)
+Two more:
+* Strategy π ([link](https://www.digitalocean.com/community/tutorials/strategy-design-pattern-in-java-example-tutorial)):
+a.k.a. "Policy" π. An "argument" selects the algorithm (by clinet, runtime). Unlike the State π where the state (implicit argument). When we have multiple algorithms for specific task.
+* State π. (?)
 
 ## Main list
 See [this](https://en.wikipedia.org/wiki/Design_Patterns)
