@@ -74,6 +74,8 @@ $1/N $
 Also:
 $1/N^2 $
 
+* Based on Miller-Madow bias correction (Miller 1955).
+
 ### BUB
 [BUB2003](https://ieeexplore.ieee.org/abstract/document/6790247)
 * “histogram order statistics”
