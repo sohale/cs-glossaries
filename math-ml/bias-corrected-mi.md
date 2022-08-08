@@ -43,7 +43,8 @@ bias reduction techniques and solutions:
 | PyThropy                 |     |       |           |          |         |         |        |         |
 | GCMI                     |     |       |           |          |         |         |        |         |
 
-TDB = Montemurro 2007 (TDB)
+* TDB = Montemurro 2007 (TDB)
+* [GCMI](https://www.biorxiv.org/content/10.1101/043745v2)
 
 Other techniques:
 * Smoothing
