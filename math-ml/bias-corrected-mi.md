@@ -44,6 +44,7 @@ Other techniques:
 * Metric (Victor)
 * Cumulant
 * I.Geom (Oizumi)
+<!-- * Max-entropy or Exponential Models: IG? Generalisation of "simpl" --> 
 <!-- * Receptive field (apperture) with hierarchy -->
 * ?
 <!-- * Kalman, sort of ... (but that also involves guessing a state signal. A history-based also probably does this. -->
@@ -51,7 +52,10 @@ Other techniques:
 <!-- * Generative? Does it help? By ounterfactual expriences -->
 <!-- * Copula (Almost the same as Gaussian) -->
 <!-- * Copula (cancel-out-marginal: whiten the marginal) -->
+<!-- * Whitening the whole distribution -->
+<!-- * Whitening as a geometry -->
 
+<!-- techniques bawed on simp=IND. Also: based on other decompositions: based on variaous state variables? Can we have RBM? -->
 * Explain away: For example, PT95 (Treves-Panzero) formula cancels away some.
 
 ### PT95 technique
