@@ -7,6 +7,8 @@ from [this post](https://blog.jessriedel.com/2017/06/28/legendre-transform/)
 
 * Recently: Some tweets about comparison between this and Laplace transform.
    * [this tweet](https://twitter.com/johncarlosbaez/status/1552162088075677696?s=20&t=5BJioXX_p-Rq-Z6aJmDfvA) by John Baes
+   * Thsi [tweet](https://twitter.com/gabrielpeyre/status/1552156833460105216?cn=ZmxleGlibGVfcmVjcw%3D%3D&refsrc=email) by Gabriel Peyré.
+
 
 ### Also see (table of)
 * [Eigenvalues](eigenvalues.md) (this)
