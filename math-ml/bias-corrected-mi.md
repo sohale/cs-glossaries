@@ -29,12 +29,14 @@ bias reduction techniques and solutions:
 | Strong et al             |       |           |          |         |         |        |         |
 | BuB                      |       |           |          |         |         |        |         |
 | NSB                      |       |           |          |         |         |        |         |
-| Montemurro 2007 (TDB)    |       |           |          |         |         |        |         |
+| Montemurro       |       |           |          |         |         |        |         |
 | Senatore                 |       |           |          |         |         |        |         |
 | Sonia?                   |       |           |          |         |         |        |         |
 | Tsodyk                   |       |           |          |         |         |        |         |
 | PyThropy                 |       |           |          |         |         |        |         |
 | GCMI                     |       |           |          |         |         |        |         |
+
+TDB = Montemurro 2007 (TDB)
 
 Other techniques:
 * Smoothing
@@ -43,4 +45,4 @@ Other techniques:
 * Cumulant
 * I.Geom (Oizumi)
 <!-- * Receptive fieeld (apperture) with hierarchy -->
-
+* ?
