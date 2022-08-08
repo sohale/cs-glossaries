@@ -23,17 +23,18 @@ bias reduction techniques and solutions:
 
 
 
-| solution↓      technique→| KL ΔI | shuffling/surrogate | cumulant | Oizumi   | Gaussian | Copula | binning |
-|-------------------------:|-------|---------------------|----------|----------|----------|--------|---------|
-| Strong et al             |       |                     |          |          |          |        |         |
-| BuB                      |       |                     |          |          |          |        |         |
-| NSB                      |       |                     |          |          |          |        |         |
-| Montemurro 2007 (TDB)    |       |                     |          |          |          |        |         |
-| Senatore                 |       |                     |          |          |          |        |         |
-| Sonia?                   |       |                     |          |          |          |        |         |
-| Tsodyk                   |       |                     |          |          |          |        |         |
-| PyThropy                 |       |                     |          |          |          |        |         |
-| GCMI                     |       |                     |          |          |          |        |         |
+|                          |       | shuffling |          |         |          |         |        |
+| solution↓      technique→| KL ΔI | surrogate | cumulant | Oizumi  | Gaussian | Copula  | binning |
+|-------------------------:|-------|-----------|----------|---------|---------|--------|---------|
+| Strong et al             |       |           |          |         |         |        |         |
+| BuB                      |       |           |          |         |         |        |         |
+| NSB                      |       |           |          |         |         |        |         |
+| Montemurro 2007 (TDB)    |       |           |          |         |         |        |         |
+| Senatore                 |       |           |          |         |         |        |         |
+| Sonia?                   |       |           |          |         |         |        |         |
+| Tsodyk                   |       |           |          |         |         |        |         |
+| PyThropy                 |       |           |          |         |         |        |         |
+| GCMI                     |       |           |          |         |         |        |         |
 
 Other techniques:
 * Smoothing
@@ -41,3 +42,5 @@ Other techniques:
 * Metric (Victor)
 * Cumulant
 * I.Geom (Oizumi)
+<!-- * Receptive fieeld (apperture) with hierarchy -->
+
