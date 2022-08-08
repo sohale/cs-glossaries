@@ -5,7 +5,7 @@ Bias correciton methods:
 
 Based on:
 * Pan eri, Senatore, Montemurro, Petersen. Correcting for the sampling bias problem in spike train information measures. 2007. [doi](https://journals.physiology.org/doi/full/10.1152/jn.00559.2007) [pubmed](https://pubmed.ncbi.nlm.nih.gov/17615128/)
-* Related: Tight https://pubmed.ncbi.nlm.nih.gov/17883346/
+* Related: Tight [pubmed](https://pubmed.ncbi.nlm.nih.gov/17883346/)
 
 
 Increase the vairance but reduce the bias.
