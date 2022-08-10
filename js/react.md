@@ -11,6 +11,7 @@ Things that make react magic happen:
 * `shouldComponentUpdate()`
 
 ### Explanation:
+[Diagram ](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 #### `props`
 `props`, part of `state`, are sent from parent to child `Component`.
 * All attributes (as in HTML attributes) will be received by the component as props.
