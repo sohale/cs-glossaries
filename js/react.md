@@ -172,3 +172,27 @@ How do you contact the server? Read [this](https://blog.andrewray.me/reactjs-for
 
 ### API data fetch:
 In React
+
+## 2022
+See [sosi-org/REST-practice](https://github.com/sosi-org/REST-practice)
+
+### Property versus state:
+* **Property** is set from outside (eg by (DOM) parent). It is given to the component. Set "for" the component (from outside). It can be a javascript object. Is const per instance of component. (Hence, if props is changed also conesquently, `render()` is called again. is Slow. You can have a function (lambda) as a property. also onClick, onInvalide, etc. (Similar to html attributes.)
+
+* **State** is variable (time-varying). is fast. Render is called when state is changed.
+
+Can bubble up.
+
+|  property               |       state     |
+|:------------------------|----------------:|
+| is slow                 | is fast         |
+| is hard                 | is soft         |
+| set from outside        | set from inside |
+| can be function         | -               |
+| effect during instantiation             | triggers `render()`     |
+| changable only at constructor time      | changable               |
+| component doesn't have control over it  | has control over it     |
+| one way change                          | changed from inside too |
+| similar to process' envs                | program state           |
+| similar to function args                | similar to function local variables |
+
