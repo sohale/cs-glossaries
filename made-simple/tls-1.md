@@ -57,7 +57,7 @@ Compare to:
 *
 
 ## Readings
-* For [REST, see these notes](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
+* For [REST, see these notes](https://github.com/sohale/cs-glossaries/blob/master/api-rest-http/restful.md)
 * For OAuth see [draft1:oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
 * [security](https://github.com/sohale/cs-glossaries/blob/master/security/security.md)
 * [this page itself](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)

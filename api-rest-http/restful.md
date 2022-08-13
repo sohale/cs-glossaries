@@ -175,6 +175,6 @@ Some quotes:
 ### See also
 * For tls + network layers: [TLS notes, see this link](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
 * For OAuth see [draft1:oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
-* this page itself](https://github.com/sohale/cs-glossaries/blob/master/restful.md)
+* this page itself](https://github.com/sohale/cs-glossaries/blob/master/api-rest-http/restful.md)
 * [security](https://github.com/sohale/cs-glossaries/blob/master/security/security.md)
 
