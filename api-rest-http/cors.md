@@ -16,11 +16,16 @@ Also [see](https://github.com/sohale/cs-glossaries/blob/master/api-rest-http/res
 * `OPTIONS`
 
 #### Fine grained concepts:
+Gathering some concepts. todo: reorder, etc.
 * the `same-origin policy` [(from)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). As opposed to?
 * the "origin the application was loaded from"
 * "main request" defines the `origin`. Main "page".
 * There are: multiple requests.
-* Hence, there are: multiple origins (i.e. origins of responses?)
+   * Hence, there are: multiple origins (i.e. origins of responses?)
+* "The CORS mechanism"
+* "The risks of cross-origin HTTP requests"
+* "cross-origin cookie"
+* modes: of the request: e.g, `cors`, `no-cors`, or `same-origin`. ([see 'mode' in here](https://developer.mozilla.org/en-US/docs/Web/API/fetch#parameters))
 
 ### is a Client-side check
 * "from which a *browser* should **permit** loading resources" [(from)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
@@ -43,6 +48,19 @@ Quote: "a web application using those APIs can only request resources from the s
    `!=` (java)script's origin
 2. `browser != javascript`
 
+### Other concepts
+* Fetch APIs:
+   * `XMLHttpRequest`
+   * The Fetch API [(link)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
+      * Is newer than `XMLHttpRequest`
+      * is implemented in multiple interfaces.
+      * `init`? [(see)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) in fact, [here](https://developer.mozilla.org/en-US/docs/Web/API/Request/Request) (to see).
+         * "init option"
+      * `referrer`? [(see)](https://developer.mozilla.org/en-US/docs/Web/API/Request)
+   * The Fetch APIs? (why plural?)
+
+   * Abort API ([see](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API#aborting_a_fetch))
+   * operations like Fetch and XHR ([see](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API#aborting_a_fetch))
 ## Promising references
 * Book:
 "*CORS in Action: Creating and consuming cross-origin APIs*"
