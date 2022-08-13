@@ -28,6 +28,8 @@ Gathering some concepts. todo: reorder, etc.
 * modes: of the request: e.g, `cors`, `no-cors`, or `same-origin`. ([see 'mode' in here](https://developer.mozilla.org/en-US/docs/Web/API/fetch#parameters))
 
 ### is a Client-side check
+Quotes saying this:
+
 * "from which a *browser* should **permit** loading resources" [(from)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * "browsers restrict cross-origin HTTP requests" [(from)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * "a web application ... *can only* **request** resources from the same origin the application was loaded from" (from same)
@@ -36,6 +38,11 @@ Quote: "a web application using those APIs can only request resources from the s
 [(from)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS):
    * the "origin the application was loaded from"
    * "the response from other origins"
+
+* CORS is a "system"
+   * "consisting of transmitting HTTP headers"
+   * that determines whether *browsers* **block** frontend JavaScript code from *accessing* **responses** for "cross-origin requests". (why requests?! but it says responses)
+   * From: Mozilla glossary: [CORS](https://developer.mozilla.org/en-US/docs/Glossary/CORS)
 
 
 ### Scenarios (CORS):
@@ -71,3 +78,5 @@ October 2014.
 [t-link](https://t.me/c/1103324787/2042)
 )
 * Mozilla: [link](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+* Mozilla glossary: [CORS](https://developer.mozilla.org/en-US/docs/Glossary/CORS)
+* Wikipedia: [Cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing). (Why called like this?). (refered to in [mozilla/glossary/cors](https://developer.mozilla.org/en-US/docs/Glossary/CORS) )
