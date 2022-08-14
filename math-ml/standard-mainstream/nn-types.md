@@ -3,7 +3,7 @@ nn-types:
 good ideas (not good banchmark performances)
 
 
-|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | generative | PP's δ | PP's weights | recoder | is generative |prob/Bayes |
+|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | prob/Bayes| |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |
 | ResNet              |    |     |     |    |    |    |    |    |    |    |
