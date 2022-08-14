@@ -78,6 +78,7 @@ Network name:
 * `HelmH sleep`: HelmHoltz: sleep/wake cycle (Hinton)
 * Backpropg + ReLU
 * SIREN: Implicit Neural Representations with Periodic Activation Functions [link](https://www.vincentsitzmann.com/siren/) / sinusoidal representation networks.
+* Thosand Brains? (not really a fully fucntional? HTM?)
 * Metropolis
 * Other networks that don't fit here
     * RL
@@ -93,6 +94,13 @@ Other features:
 * Spiking
 * Nonlinearity type (of course)
     * GT, ReLU, tanh, "ReLU PE", RBF, SIREN
+* Locaiton?
+   * Coordinates
+   * Positional Encoding? (See SIREN)
+   * Grid cell (or some form of periodic)
+   * Place cell
+   * Thosand Brains?
+* Implicit geometry ( implicit 3d, Hinton's other work for body, etc )
 
 Probability technique/assumption:
 * Maximum Likelihood
