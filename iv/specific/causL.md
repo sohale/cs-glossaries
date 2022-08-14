@@ -1,3 +1,6 @@
+## Checklists:
+(so not to forget)
+
 1. Practice to remember:
    * react from scratch (new style)
    * FastAPI
@@ -10,6 +13,7 @@
 
 3. Own-CV-preparation
    * Causality
+   * Authentication: OAuth 2 and flows
 
 4. Company research:
     * video: decisionApps → From Models to Decisions
