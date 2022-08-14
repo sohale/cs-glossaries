@@ -39,3 +39,13 @@ Why "rule"?
 Mutualy exclusive:
 * STDP versus BCM
 * 
+
+Some new additions: find the following's place above:
+* Hopfield? (how does hopfield learn?)
+* Does Boltsmann Machine learn?
+* https://en.wikipedia.org/wiki/Generalized_Hebbian_algorithm
+* See: https://en.wikipedia.org/wiki/Category:Artificial_neural_networks
+* RL as learning? (increase/decrease value)
+
+* (Also check: Hierarchical temporal memory )
+* (How is learning : slow change of variables: in Infomax?)
