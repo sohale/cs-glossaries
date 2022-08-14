@@ -36,7 +36,7 @@ is control
    * [Infomax](https://en.wikipedia.org/wiki/Infomax)
 * `A`: Attention-All-You-Need: (A specific way of attention)
 * Sparsity penalty term
-* Some gating: (LTSTM, attention, etc): 0-1 or graded.
+* Some gating: (LTSTM, attention, etc): 0-1 or graded. (various types og gating?)
 * Some normalisation: Oja's rule, etc
 * Weight update:
    * back prop
