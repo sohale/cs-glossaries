@@ -21,6 +21,9 @@ good ideas (not good banchmark performances)
 | LTSTM               |    |     |     |    |    |    |    |    |    |    |    |
 | WaveNet             |    |     |     |    |    |    |    |    |    |    |    |
 | Transformer         |    |     |     |    |    |    |    |    |    |    |    |
-| GPT-3.              |    |     |     |    |    |    |    |    |    |    |    |
+| GPT-3               |    |     |     |    |    |    |    |    |    |    |    |
 
 ✓✔︎✗✘↓→
+
+Other features:
+* 
