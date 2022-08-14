@@ -3,8 +3,8 @@ nn-types:
 good ideas (not good banchmark performances)
 
 
-| `v`type feature `>` | is control | is cost-function | Uses factorizing| reduces error | generative | PP's δ | PP's weights | recoder | is generative |
-|---------------------|----|-----|-----|----|----|----|----|----|----|
+|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | generative | PP's δ | PP's weights | recoder | is generative |
+|:---------------------|----|-----|-----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |
 | Resnet              |    |     |     |    |    |    |    |    |    |
 | Auto Encoder        |    |     |     |    |    |    |    |    |    |
@@ -16,3 +16,5 @@ good ideas (not good banchmark performances)
 | (BayNet)            |    |     |     |    |    |    |    |    |    |
 | (Free Energy P)     |    |     |     |    |    |    |    |    |    |
 |                     |    |     |     |    |    |    |    |    |    |
+
+✓✔︎✗✘↓→
