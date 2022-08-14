@@ -34,6 +34,7 @@ is control
    * Comparison
    * HBGS? (that NN)
 * `A`: Attention-All-You-Need: (A specific way of attention)
+* Sparsity penalty term
 * Geometric
    * Also see Group theory?
    * Also see: Invariance
@@ -80,6 +81,9 @@ Network name:
     * RL
         * Temporal Diffference
         * ...
+    * actor-critic systems
+    * Hopfield networks
+    * PCA
 
 Other features:
 * Nash between parts (check difference between two modules): GAN
