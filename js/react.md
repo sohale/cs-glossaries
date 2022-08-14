@@ -201,7 +201,19 @@ Can bubble up.
 ## Modern React
 * Based on:
     * [oreilly.com/videos/react-zero-to](https://learning.oreilly.com/videos/react-zero-to/9780137611676/9780137611676-LRMW_01_01_02/)
-    * 
+    * ...
 
 Command:
-* `npx create-react-app` appname
+* `npx create-react-app` appname ` --use-npm`
+* You can have a `{}` in JSX
+    * and it can return(?) a JSX.
+    * As a result, it is alternating JSX versus JS.
+* In new React, use a function (even `=>` lambda syntax) instead of a class with a `.render()` member function.
+* If your property/attribute is a function, don't cal it unlike HTML. give the JS funtion.
+* In JSX, only "" literals exist.
+   * Otherwise, wrap it in `{}`. For example integer: `{5}`. 
+* One component per `render()`.
+   * You should use a `<ReactFragment>` pair.
+   * or short form: `<>` and `</>`.
+* You can return an array (javascript) by render. But you need to wrap it in 
+* 
