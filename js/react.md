@@ -207,7 +207,8 @@ Command:
 * `npx create-react-app` appname ` --use-npm`
 * You can have a `{}` in JSX
     * and it can return(?) a JSX.
-    * As a result, it is alternating JSX versus JS.
+    * Alternating `{}`s: As a result, it is alternating JSX versus JS.
+* There are three `{`s in reactJS: 1. `{}` for JS-in-JSX. 2. Normal JS: object and code-fragment.
 * In new React, use a function (even `=>` lambda syntax) instead of a class with a `.render()` member function.
 * If your property/attribute is a function, don't cal it unlike HTML. give the JS funtion.
 * In JSX, only "" literals exist.
@@ -216,4 +217,15 @@ Command:
    * You should use a `<ReactFragment>` pair.
    * or short form: `<>` and `</>`.
 * You can return an array (javascript) by render. But you need to wrap it in 
+* First learn react with properties, without states.
+    * properties is one object for the render function.
+* Discrepancies between HTML and JSX:
+   * instead of `class`, use `cassName` (renamed).
+   * Use camelCase for attributes always (renamed).
+   * For style: ... (?)
+   * For style, you can use js-objects: `style={{cssKey:cssVal, cssKey2:cssVal2, `...`}}`.
+* CSS:
+    * You can import `.css` files in JS (in react only): `import styles from './mystyle.module.css';`
+* Common confusion: `{{name:x,key2:val2}}`. The first`{` is different.
+* See three `{` categories. Also alternating `{`s.
 * 
