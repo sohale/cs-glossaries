@@ -198,3 +198,7 @@ Can bubble up.
 | similar to process' envs                | program state           |
 | similar to function args                | similar to function local variables |
 
+## Modern React
+* Based on:
+    * [oreilly.com/videos/react-zero-to](https://learning.oreilly.com/videos/react-zero-to/9780137611676/9780137611676-LRMW_01_01_02/)
+    * 
