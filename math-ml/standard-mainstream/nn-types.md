@@ -33,6 +33,7 @@ is control
    * Information geometric?
    * Comparison
    * HBGS? (that NN)
+   * [Infomax](https://en.wikipedia.org/wiki/Infomax)
 * `A`: Attention-All-You-Need: (A specific way of attention)
 * Sparsity penalty term
 * Some gating: (LTSTM, attention, etc): 0-1 or graded.
@@ -100,6 +101,7 @@ is control
     * Liquid state machine
 * (other networks:)
 * ART (1, 2, 3)
+* Lense (category)
 
 
 ### Other features:
