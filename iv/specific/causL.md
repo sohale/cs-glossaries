@@ -13,7 +13,9 @@
 
 3. Own-CV-preparation
    * Causality
-   * Authentication: OAuth 2 and flows
+       * Pearl, Ay, do calculus, BN
+   * Authentication: **OAuth 2** and flows
+   * tensorflow
 
 4. Company research:
     * video: decisionApps → From Models to Decisions
