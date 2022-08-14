@@ -65,6 +65,10 @@ Network name:
 * `HelmH sleep`: HelmHoltz: sleep/wake cycle (Hinton)
 * Backpropg + ReLU
 * Metropolis
+* Other networks that don't fit here
+    * RL
+        * Temporal Diffference
+        * ...
 
 Other features:
 * Nash between parts (check difference between two modules): GAN
