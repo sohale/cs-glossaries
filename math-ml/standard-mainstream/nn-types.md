@@ -8,7 +8,7 @@ is control
 * is cost-function (Also: variations? tranjectory? EulLagr?)
 * `×`: Uses factorizing. e.g.: IND, so-called VAE.
 * reduces error
-* is generative
+* `gen`: is generative
 * PP's δ
 * PP's weights
 * recoder (e.g. autoencoder)
@@ -39,7 +39,7 @@ is control
    * CNN
 
 
-|`↓`type feature`→`| is control | is cost-function | `×` | reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
+|`↓`type feature`→`| is control | is cost-function | `×` | reduces error | `gen` | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |    |
 | ResNet              |    |     |     |    |    |    |    |    |    |    |    |
@@ -70,6 +70,20 @@ Other features:
 * Nash between parts (check difference between two modules): GAN
 * Adding special module: reward
 * Spiking
+
+Probability technique/assumption:
+* Maximum Likelihood
+* Max Entropy
+* Log likelihood
+* Cross-Entropy penalty (Wordnet)
+* EM (always?)
+* MM (Majorization Minimization)
+* Gaussian
+* Other parametric assumptions
+* Exponential Distribution (prametric)
+* Bayesian
+* Particle Filter (as opposed to Bayesian)
+
 
 ✓✔︎✗✘↓→
 
