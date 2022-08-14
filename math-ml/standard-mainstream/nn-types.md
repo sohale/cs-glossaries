@@ -3,7 +3,7 @@ nn-types:
 good ideas (not good banchmark performances)
 
 
-Features:
+### Features:
 is control
 * is cost-function (Also: variations? tranjectory? EulLagr?)
 * `×`: Uses factorizing. e.g.: IND, so-called VAE.
@@ -36,6 +36,13 @@ is control
 * `A`: Attention-All-You-Need: (A specific way of attention)
 * Sparsity penalty term
 * Some gating: (LTSTM, attention, etc): 0-1 or graded.
+* Some normalisation: Oja's rule, etc
+* Weight update:
+   * back prop
+   * Hebbian
+   * BCN (Bienenstock)
+   * STDP
+   * ?
 * Geometric
    * Also see Group theory?
    * Also see: Invariance
@@ -51,7 +58,7 @@ is control
    * Injected noise? (somehow. But not random Batch)
    * CNN (Also see Geometric)
 
-
+### The table
 |`↓`type feature`→`| is control | is cost-function | `×` | reduces error | `gen` | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |    |
@@ -64,6 +71,7 @@ is control
 | Backpropg+<br/>ReLU |    |     |     |    |    |    |    |    |    |    |    |
 | (BayNet)            |    |     |     |    |    |    |    |    |    |    |    |
 | (Free Energy P)     |    |     |     |    |    |    |    |    |    |    |    |
+| RBM.                |    |     |     |    |    |    |    |    |    |    |    |
 | GAN                 |    |     |     |    |    |    |    |    |    |    |    |
 | RBM stack           |    |     |     |    |    |    |    |    |    |    |    |
 | HelmH sleep         |    |     |     |    |    |    |    |    |    |    |    |
@@ -74,7 +82,8 @@ is control
 | That probabilistic  |    |     |     |    |    |    |    |    |    |    |    |
 | Implicit            |    |     |     |    |    |    |    |    |    |    |    |
 
-Network name:
+### Network name:
+([see](https://en.wikipedia.org/wiki/Category:Artificial_neural_networks) for more)
 * `HelmH sleep`: HelmHoltz: sleep/wake cycle (Hinton)
 * Backpropg + ReLU
 * SIREN: Implicit Neural Representations with Periodic Activation Functions [link](https://www.vincentsitzmann.com/siren/) / sinusoidal representation networks.
@@ -87,8 +96,13 @@ Network name:
     * actor-critic systems
     * Hopfield networks
     * PCA
+    * various (See https://en.wikipedia.org/wiki/Category:Artificial_neural_networks )
+    * Liquid state machine
+* (other networks:)
+* ART (1, 2, 3)
 
-Other features:
+
+### Other features:
 * Nash between parts (check difference between two modules): GAN
 * Adding special module: reward
 * Spiking
@@ -102,7 +116,7 @@ Other features:
    * Thosand Brains?
 * Implicit geometry ( implicit 3d, Hinton's other work for body, etc )
 
-Probability technique/assumption:
+### Probability technique/assumption:
 * Maximum Likelihood
 * Max Entropy
 * Log likelihood
@@ -118,7 +132,7 @@ Probability technique/assumption:
 
 ✓✔︎✗✘↓→
 
-Notes:
+### Notes:
 * Boltzman: Binary + Sampling + explicit probability
 * Metropolis:  explicit probability
 * Monte-Carlo Hamiltonian
