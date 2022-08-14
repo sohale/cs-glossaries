@@ -6,7 +6,7 @@ good ideas (not good banchmark performances)
 |`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | generative | PP's δ | PP's weights | recoder | is generative |prob/Bayes |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |
-| Resnet              |    |     |     |    |    |    |    |    |    |    |
+| ResNet              |    |     |     |    |    |    |    |    |    |    |
 | Auto Encoder        |    |     |     |    |    |    |    |    |    |    |
 | Vicarious           |    |     |     |    |    |    |    |    |    |    |
 | (Capsules)          |    |     |     |    |    |    |    |    |    |    |
@@ -15,6 +15,11 @@ good ideas (not good banchmark performances)
 | Backprops+<br/>ReLU      |    |     |     |    |    |    |    |    |    |    |
 | (BayNet)            |    |     |     |    |    |    |    |    |    |    |
 | (Free Energy P)     |    |     |     |    |    |    |    |    |    |    |
+| GAN                 |    |     |     |    |    |    |    |    |    |    |
+| RBM stack           |    |     |     |    |    |    |    |    |    |    |
+| HelmH sleep (hinton)      |    |     |     |    |    |    |    |    |    |    |
+|                     |    |     |     |    |    |    |    |    |    |    |
+|                     |    |     |     |    |    |    |    |    |    |    |
 |                     |    |     |     |    |    |    |    |    |    |    |
 
 ✓✔︎✗✘↓→
