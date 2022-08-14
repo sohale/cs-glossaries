@@ -10,3 +10,6 @@
 
 3. Own-CV-preparation
    * Causality
+
+4. Company research:
+    * video: decisionApps → From Models to Decisions
