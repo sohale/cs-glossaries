@@ -99,10 +99,17 @@ is control
     * PCA
     * various (See https://en.wikipedia.org/wiki/Category:Artificial_neural_networks )
     * Liquid state machine
+    * echo state?
+    * ICA
+       * fastICA
+    * HTM: Hierarchical temporal memory
 * (other networks:)
 * ART (1, 2, 3)
 * Lense (category)
-
+* U-net: [U-net](https://en.wikipedia.org/wiki/U-Net)
+* Specific:
+    * VGG11
+    * TernausNet
 
 ### Other features:
 * Nash between parts (check difference between two modules): GAN
