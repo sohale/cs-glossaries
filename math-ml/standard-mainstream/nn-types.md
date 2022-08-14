@@ -11,15 +11,19 @@ is control
 * is generative
 * PP's δ
 * PP's weights
-* recoder
+* recoder (e.g. autoencoder)
 * $\Pr$: prob/Bayes
-* $\partial/\partial$ derivative or difference
-* ff/fb
+* $\partial/\partial$: derivative or difference (PP)
+* ff/fb: directions: e.g. sleep/wake cycle
 * unified train/activit (eg Impicit)
 * reward
+* Mesh (undirected, generative)
+* lateral
+* **Recurrent** (RNN, TdNN, local layer loops)
+* episodic history: e.g. Atari
 
 
-|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|derivative or difference| ff/fb |
+|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |    |
 | ResNet              |    |     |     |    |    |    |    |    |    |    |    |
