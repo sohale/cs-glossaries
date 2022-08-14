@@ -5,7 +5,7 @@
 
 2. Practice for priming
    * Code challenge
-   * react
+   * react doing and [reading](https://github.com/sohale/cs-glossaries/blob/master/js/react.md#modern-react)
    * interview (Soft)
 
 3. Own-CV-preparation
