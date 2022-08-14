@@ -30,13 +30,24 @@ is control
 * Momentum
 * Amari's G term
 * Information theoretic
+   * Information geometric?
+   * Comparison
+   * HBGS? (that NN)
+* `A`: Attention-All-You-Need: (A specific way of attention)
+* Geometric
+   * Also see Group theory?
+   * Also see: Invariance
+* Invariance-imposing
+    * method 1
+    * method 2
+    * etc
 * Pluggable techniques: (Generic for all)
    * Batch size
    * Dropout (also: which method of Dropout)
    * Stochastic (SGD, Adam)
    * Optimisation method (BFGS, DFP, ...)
    * Injected noise? (somehow. But not random Batch)
-   * CNN
+   * CNN (Also see Geometric)
 
 
 |`↓`type feature`→`| is control | is cost-function | `×` | reduces error | `gen` | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
