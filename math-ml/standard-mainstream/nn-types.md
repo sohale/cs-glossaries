@@ -12,7 +12,7 @@ good ideas (not good banchmark performances)
 | (Capsules)          |    |     |     |    |    |    |    |    |    |    |
 | (Machens)           |    |     |     |    |    |    |    |    |    |    |
 | (FlowNets)          |    |     |     |    |    |    |    |    |    |    |
-| Backprops+ReLU      |    |     |     |    |    |    |    |    |    |    |
+| Backprops+<br/>ReLU      |    |     |     |    |    |    |    |    |    |    |
 | (BayNet)            |    |     |     |    |    |    |    |    |    |    |
 | (Free Energy P)     |    |     |     |    |    |    |    |    |    |    |
 |                     |    |     |     |    |    |    |    |    |    |    |
