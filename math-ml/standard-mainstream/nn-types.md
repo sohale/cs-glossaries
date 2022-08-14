@@ -12,14 +12,14 @@ is control
 * PP's δ
 * PP's weights
 * recoder
-* prob/Bayes
+* $\Pr$: prob/Bayes
 * $\partial/\partial$ derivative or difference
 * ff/fb
 * unified train/activit (eg Impicit)
 * reward
 
 
-|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | prob/Bayes|derivative or difference| ff/fb |
+|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|derivative or difference| ff/fb |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |    |
 | ResNet              |    |     |     |    |    |    |    |    |    |    |    |
