@@ -77,6 +77,7 @@ is control
 Network name:
 * `HelmH sleep`: HelmHoltz: sleep/wake cycle (Hinton)
 * Backpropg + ReLU
+* SIREN: Implicit Neural Representations with Periodic Activation Functions [link](https://www.vincentsitzmann.com/siren/) / sinusoidal representation networks.
 * Metropolis
 * Other networks that don't fit here
     * RL
@@ -91,6 +92,7 @@ Other features:
 * Adding special module: reward
 * Spiking
 * Nonlinearity type (of course)
+    * GT, ReLU, tanh, "ReLU PE", RBF, SIREN
 
 Probability technique/assumption:
 * Maximum Likelihood
