@@ -18,8 +18,9 @@ good ideas (not good banchmark performances)
 | GAN                 |    |     |     |    |    |    |    |    |    |    |    |
 | RBM stack           |    |     |     |    |    |    |    |    |    |    |    |
 | HelmH sleep (hinton)      |    |     |     |    |    |    |    |    |    |    |    |
-|                     |    |     |     |    |    |    |    |    |    |    |    |
-|                     |    |     |     |    |    |    |    |    |    |    |    |
-|                     |    |     |     |    |    |    |    |    |    |    |    |
+| LTSTM               |    |     |     |    |    |    |    |    |    |    |    |
+| WaveNet             |    |     |     |    |    |    |    |    |    |    |    |
+| Transformer         |    |     |     |    |    |    |    |    |    |    |    |
+| GPT-3.              |    |     |     |    |    |    |    |    |    |    |    |
 
 ✓✔︎✗✘↓→
