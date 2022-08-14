@@ -21,6 +21,21 @@ is control
 * lateral
 * **Recurrent** (RNN, TdNN, local layer loops)
 * episodic history: e.g. Atari
+* Value (expected reward)
+   * discount factor
+   * accumulation
+* Sampling hypothesis (MC?)
+* Binary
+* Hamiltonian (e.g. Monte-Carlo Hamiltonian)
+* Momentum
+* Amari's G term
+* Information theoretic
+* Pluggable techniques: (Generic for all)
+   * Batch size
+   * Dropout (also: which method of Dropout)
+   * Stochastic (SGD, Adam)
+   * Optimisation method (BFGS, DFP, ...)
+   * Injected noise? (somehow. But not random Batch)
 
 
 |`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
@@ -48,9 +63,16 @@ is control
 Network name:
 * `HelmH sleep`: HelmHoltz: sleep/wake cycle (Hinton)
 * Backpropg + ReLU
+* Metropolis
 
 Other features:
 * Nash between parts (check difference between two modules): GAN
 * Adding special module: reward
+* Spiking
 
 ✓✔︎✗✘↓→
+
+Notes:
+* Boltzman: Binary + Sampling + explicit probability
+* Metropolis:  explicit probability
+* Monte-Carlo Hamiltonian
