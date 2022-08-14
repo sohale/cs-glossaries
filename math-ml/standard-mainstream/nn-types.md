@@ -103,6 +103,7 @@ is control
     * ICA
        * fastICA
     * HTM: Hierarchical temporal memory
+    * Kohonen (SoM)
 * (other networks:)
 * ART (1, 2, 3)
 * Lense (category)
@@ -124,6 +125,13 @@ is control
    * Place cell
    * Thosand Brains?
 * Implicit geometry ( implicit 3d, Hinton's other work for body, etc )
+* Memory type:
+   * RNN (recurrent)
+   * LTM (weights)
+   * value (RL)? gating? etc.
+   * Why called 
+   * todo: STM/LTM/ITM/WM multiple
+   * todo: multipleNT (Kandel versus Hopfield versus Kohonen)
 
 ### Probability technique/assumption:
 * Maximum Likelihood
