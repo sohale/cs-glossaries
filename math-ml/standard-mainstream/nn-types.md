@@ -35,6 +35,7 @@ is control
    * HBGS? (that NN)
 * `A`: Attention-All-You-Need: (A specific way of attention)
 * Sparsity penalty term
+* Some gating: (LTSTM, attention, etc): 0-1 or graded.
 * Geometric
    * Also see Group theory?
    * Also see: Invariance
@@ -89,6 +90,7 @@ Other features:
 * Nash between parts (check difference between two modules): GAN
 * Adding special module: reward
 * Spiking
+* Nonlinearity type (of course)
 
 Probability technique/assumption:
 * Maximum Likelihood
