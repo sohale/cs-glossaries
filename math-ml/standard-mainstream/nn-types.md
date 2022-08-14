@@ -6,7 +6,7 @@ good ideas (not good banchmark performances)
 Features:
 is control
 * is cost-function (Also: variations? tranjectory? EulLagr?)
-* Uses factorizing
+* `×`: Uses factorizing. e.g.: IND, so-called VAE.
 * reduces error
 * is generative
 * PP's δ
@@ -36,9 +36,10 @@ is control
    * Stochastic (SGD, Adam)
    * Optimisation method (BFGS, DFP, ...)
    * Injected noise? (somehow. But not random Batch)
+   * CNN
 
 
-|`↓`type feature`→`| is control | is cost-function | Uses factorizing| reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
+|`↓`type feature`→`| is control | is cost-function | `×` | reduces error | is generative | PP's δ | PP's weights | recoder | $\Pr$|$\partial/\partial$ | ff/fb |
 |:--------------------|----|-----|-----|----|----|----|----|----|----|----|----|
 |                     |    |     |     |    |    |    |    |    |    |    |    |
 | ResNet              |    |     |     |    |    |    |    |    |    |    |    |
