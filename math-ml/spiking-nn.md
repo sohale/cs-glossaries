@@ -25,4 +25,5 @@ SNN: Spiking Neural Networks
 * Spiking Neural Networks for Image Classification. Ahmadhossein Yazdani & Osaze Shears. (2020). [youtube](https://www.youtube.com/watch?v=yVP_vmSdnkg)
 * [sheffield ML](https://www.world-wide.org/Neuro/Sheffield-ML/))
 * Sander Bohte https://youtu.be/5SrEycIbfRE
-*
+* https://youtu.be/rk9AJ0w1mrw
+
