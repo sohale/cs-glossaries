@@ -26,4 +26,4 @@ SNN: Spiking Neural Networks
 * [sheffield ML](https://www.world-wide.org/Neuro/Sheffield-ML/))
 * Sander Bohte https://youtu.be/5SrEycIbfRE
 * https://youtu.be/rk9AJ0w1mrw
-
+* https://youtu.be/PjI4fpcTGFY Markus Thill : time-series
