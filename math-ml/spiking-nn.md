@@ -27,3 +27,6 @@ SNN: Spiking Neural Networks
 * Sander Bohte https://youtu.be/5SrEycIbfRE
 * https://youtu.be/rk9AJ0w1mrw Lulia M Comsa (Temporal code with Alpha synaptic function)
 * https://youtu.be/PjI4fpcTGFY Markus Thill : time-series
+* https://youtu.be/F1EF7RYeOQw Gradient Descent in SNN 
+*
+*
