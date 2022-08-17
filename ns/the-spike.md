@@ -9,8 +9,9 @@ Na, K, current flows and their directions, electrical field (physically accurate
 * electrical currents are generally classified into passive and active currents
    * passive currents
    * active currrents (probably won't conribute to LFP; see LFP)
-* Current sink (not charge?)
-* Current source
+* Electrical Current sink & source (net charge)
+   * Electrical Current sink
+   * Electrical Current source
 
 ### LFP
 LFP multiple definitions:
