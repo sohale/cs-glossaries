@@ -17,5 +17,6 @@ Some characterisation (formula: for understanding)
 Relation to muscle ... ([Bizzi](https://www.nature.com/articles/nature03014))
 
 Muscle fatigue versus adaptation?
+* Unsure: [Generalization in motor adaptation: A computational perspective on recent developments](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-5884.2010.00430.x)
 
 Bialek's old paper?
