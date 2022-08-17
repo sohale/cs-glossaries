@@ -25,7 +25,7 @@ LFP multiple definitions:
 * LFP in terms of CSD:
    * CSD
 
-Neural activity contributing to LFP:
+Neural activity contributing to LFP: (different types of events of neuronal activity)
 * Spikes
 * Bursts
 * Synaptic activity
