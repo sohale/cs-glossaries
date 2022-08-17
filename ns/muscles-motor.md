@@ -2,7 +2,7 @@ Table of concepts:
 * Actin
 * Recruitment
 * Force
-* Iso... (See [this note](https://github.com/sohale/point-process-notes/blob/main/emg-project/a-presentation.md) also [this](https://github.com/sohale/point-process-notes/blob/main/emg-project/a-presentation.md))
+* Iso... (See [this note](https://github.com/sohale/point-process-notes/blob/main/emg-project/a-presentation.md) also [this](https://github.com/sohale/point-process-notes/blob/main/emg-project/emg-project.md))
 
    * Resistance: Iso-tonic
    * Moves: Iso-metric
