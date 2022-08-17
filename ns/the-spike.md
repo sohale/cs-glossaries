@@ -4,12 +4,15 @@ The spike: Action potential, ions, channels, terms, currents.
 
 Na, K, current flows and their directions, electrical field (physically accurate), LFP, etc.
 
-*  net transmembrane current (at each point) (compare to net voltage, net electrical field, etc)
+* Net transmembrane current (at each point) (compare to net voltage, net electrical field, etc)
 * flows of several different ion types through the membranes
 * electrical currents are generally classified into passive and active currents
    * passive currents
-   * active currrents (probably wont conribute to LFP)
+   * active currrents (probably won't conribute to LFP; see LFP)
+* Current sink (not charge?)
+* Current source
 
+### LFP
 LFP multiple definitions:
 * Operational definition of LFP:
     * decomposition: LFP + MUA (under-determined)
@@ -27,5 +30,7 @@ Neural activity contributing to LFP:
 * Synaptic activity
 * Calcium Spikes
 * (unsure) AHP
+* also:
+   * Passive currents verys activ currents
 
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
