@@ -4,6 +4,7 @@ The spike: Action potential, ions, channels, terms, currents.
 
 Na, K, current flows and their directions, electrical field (physically accurate), LFP, etc.
 
+*  net transmembrane current (at each point) (compare to net voltage, net electrical field, etc)
 * flows of several different ion types through the membranes
 * electrical currents are generally classified into passive and active currents
    * passive currents
