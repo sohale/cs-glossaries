@@ -20,4 +20,11 @@ LFP multiple definitions:
 * LFP in terms of CSD:
    * CSD
 
+Neural activity contributing to LFP:
+* Spikes
+* Bursts
+* Synaptic activity
+* Calcium Spikes
+* (unsure) AHP
+
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
