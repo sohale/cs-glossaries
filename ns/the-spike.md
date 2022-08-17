@@ -12,6 +12,9 @@ Na, K, current flows and their directions, electrical field (physically accurate
 * Electrical Current sink & source (net charge)
    * Electrical Current sink
    * Electrical Current source
+   * sink–source pairs of current (net is zero, often paired)
+* has spatial pattern, has net charge (patches of electrical currents)
+    * point-wise current sources or current sinks (for modelling)
 
 ### LFP
 LFP multiple definitions:
@@ -24,14 +27,42 @@ LFP multiple definitions:
 * Physical definition
 * LFP in terms of CSD:
    * CSD
+* Input-output: MUA vs LFP
+
+* CSD better localise sink-sources
 
 Neural activity contributing to LFP: (different types of events of neuronal activity)
 * Spikes
 * Bursts
 * Synaptic activity
+   * (synaptic and axonal events are opposite)
+   * arrival and the generation of the spikes
+   * synapses receive spike while no spike is created
+   * The influence of the synaptic events is often stronger (dominant) than the effect of action potentials on LFP. (Integration?) (Leak: slow envelope?)
+   * depends on
+       * position of the synaptic input on the dendrite,
+       * morphology of the neurons
+       * 
 * Calcium Spikes
 * (unsure) AHP
 * also:
    * Passive currents verys activ currents
 
+* local neuronal processes (in fact: flows? )
+
+* Entanlged: correlation in the synaptic activity
+   * coordinated circuit activity
+   * shared inputs
+   * ... (circuit)
+
+(spatial selectivity)
+
+(correlations of the LFP signals.)
+
+Time code: [3]
+* relative timing
+* temporal patterns
+
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
+
+[3] F. Theunissen and J. P. Miller. Temporal encoding in nervous systems: a rigorous definition. J Comput Neurosci, 2(2):149–162, june 1995. ISSN 0929-5313.
