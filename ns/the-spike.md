@@ -65,6 +65,8 @@ Time code: [3]
 * temporal patterns
 
 ## Continuous signals
+
+### List of internal sygnals (used, or potentially used) in experiments: Observables
 * EEG, (ERP, QEEG), ECoG, EMG, MEG, (f)MRI (BOLD), Other imagine: SPECT, PET, NMR (MRI?).
 * LFP, LFP filtered, LFP phase (Hilbert)
 * CSD (measurable, or real?). real: electrical field
@@ -92,7 +94,7 @@ Time code: [3]
 | PET |  | | | | | | | | |   |
 | SPECT |  | | | | | | | | |   |
 
-Internal phenomena: (realities that we access indirectly)
+### Internal phenomena: (realities that we access indirectly)
 * Electric field (Extracellular)
 * Electric field (Intracellular)
 * Current (flow) source/sink
@@ -111,6 +113,7 @@ Internal phenomena: (realities that we access indirectly)
       * (RNA)
       * Peptide (see peptide)
    * cAMP
+   * G-protein-related and the rest of the cascade
    * Microdyalysis:
       * ...
 * Dendrites:
@@ -124,7 +127,25 @@ Internal phenomena: (realities that we access indirectly)
     * Reuptake
     * enzymes (or their metabolites)
     * Electrical / ionic (same as membrane?)
-* Soma, axon, axon-hilock, spine, button, dendrite (distal, proximal), felt/process/arbor/etc, extracellular, intracellular, inside-shwan (myelin), re... nodes, etc.
+* Soma, axon, axon-hilock, spine, button, dendrite (distal, proximal, basal), felt/process/arbor/etc, extracellular, intracellular, inside-shwan (myelin), re... nodes, etc.
+
+* Other misc signals that are detected inside (receptors, etc) (just for sake of completion)
+   * Calcium-activated
+   * Voltage-dependent
+   * ATP-gated
+   * G protein-coupled (State of g-protein)
+   * intracellular signal transduction cascades (Second messenger system)
+   * PH
+
+
+### Internal sensing organs:
+* Metabotropic receptors
+* Ionotropic receptors
+* signal transduction cascades & messenger systems (1,2)
+* Pumps
+* All items in above: (Calcium-activated, Voltage-dependent, ATP-gated, PH, etc)
+* Photon detectors! (opsins)
+
 
 ## References
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
