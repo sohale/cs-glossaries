@@ -69,8 +69,10 @@ Time code: [3]
 ### List of internal sygnals (used, or potentially used) in experiments: Observables
 * EEG, (ERP, QEEG), ECoG, EMG, MEG, (f)MRI (BOLD), Other imagine: SPECT, PET, NMR (MRI?).
 * LFP, LFP filtered, LFP phase (Hilbert)
-   * LFP lacking very low band (zero mean): highpass at $f ~ 0.1 Hz$
+   * LFP lacking very low band (zero mean): highpass at $f ~ 1 Hz, or 0.1 Hz$
    * Bandpass LFP: Gamma, high gamma, low gamma, beta, high beta, low beta, 20Hz (s-m), theta (place cell, etc), alpha (Verious ranges), logarithmic bands (See Buzsaki's reviews; See Wavelet).
+       * Link these (ranges) to functionally relevant ones (gamma, beta, etc)
+       * "Low-frequency local field potentials" 1-8 Hz (Belitski)
    * HT Hilbert
    * HT after above filters
    * HHT (IMF, EMD)
@@ -80,6 +82,7 @@ Time code: [3]
    * phase-spikes codes
       * Locked to another (FEF, WM, binding, spike-spike, etc)
       * Phase-of-Firing
+      * (Schemes and effects: (not signals) Phase resetting, Phase shifitng: Phase-response-curve, Phase precession, Radar, Accumulator/Integrators)
    * ...
    * Burst-phase
    * Phasic response
