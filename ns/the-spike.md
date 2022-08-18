@@ -65,8 +65,9 @@ Time code: [3]
 * temporal patterns
 
 ## Continuous signals
-* EEG, (ERP, QEEG), ECoG, EMG, MEG, (f)MRI (BOLD), Other imagine: SPECT, PET.
+* EEG, (ERP, QEEG), ECoG, EMG, MEG, (f)MRI (BOLD), Other imagine: SPECT, PET, NMR (MRI?).
 * LFP, LFP filtered, LFP phase (Hilbert)
+* CSD (measurable, or real?). real: electrical field
 * MUA, SUA
 * Intracellular (patch clamp)
     * see: Fancy-clamps (Dynamic clamp, etc)
@@ -90,6 +91,31 @@ Time code: [3]
 | EEG |  | | | | | | | | |   |
 | PET |  | | | | | | | | |   |
 | SPECT |  | | | | | | | | |   |
+
+Internal phenomena:
+* Electric field (Extracellular)
+* Electric field (Intracellular)
+* Current (flow) source/sink
+   * CSD: density of net of such flows
+* Voltage: (Cross-)membrane
+* (Golgi) Calcuim (Organelles)
+* Various ions conentrations inside (not their flow)
+* Various Neurotrwansmitters conentrations
+   * inside
+   * outside
+   * 
+   * Ions
+   * Neurotransmitters
+   * Peptides
+   * Gene-expresions
+      * (RNA)
+      * Peptide (see peptide)
+   * cAMP
+   * Microdyalysis:
+      * ...
+* Densrites:
+   * ...
+* Glial-specific?
 
 ## References
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
