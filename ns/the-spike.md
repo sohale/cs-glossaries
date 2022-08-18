@@ -16,6 +16,7 @@ Na, K, current flows and their directions, electrical field (physically accurate
 * has spatial pattern, has net charge (patches of electrical currents)
     * point-wise current sources or current sinks (for modelling)
 
+## Continuous
 ### LFP
 LFP multiple definitions:
 * Operational definition of LFP:
@@ -63,6 +64,33 @@ Time code: [3]
 * relative timing
 * temporal patterns
 
+## Continuous signals
+* EEG, (ERP, QEEG), ECoG, EMG, MEG, (f)MRI (BOLD), Other imagine: SPECT, PET.
+* LFP, LFP filtered, LFP phase (Hilbert)
+* MUA, SUA
+* Intracellular (patch clamp)
+    * see: Fancy-clamps (Dynamic clamp, etc)
+* Calcium spike
+* Clacium: Voltage-Sensitive Dyes ([VSD](http://www.scholarpedia.org/article/Voltage-sensitive_dye))
+* Optogenic
+* Non-response: Confocal microscope, double-photon ([activity](https://www.ncbi.nlm.nih.gov/books/NBK20230/)), Two-photon excitation microscopy ([wikipedia](https://en.wikipedia.org/wiki/Two-photon_excitation_microscopy)) / two-photon imaging.
+* [Microdialysis](https://en.wikipedia.org/wiki/Microdialysis)
+* Electrophysiology: Electrode, tetrode, electrode array, etc
+
+|   is:| Electrode | pipette | light | Colour/dye | fluroscence | genetic | radioactive | photon/particle | Magn | stim |
+|---|--|--|---|---|----|---|----|----|----|---|
+|MUA|  | | | | | | | | |   |
+|LFP |  | | | | | | | | |   | 
+| BOLD |  | | | | | | | | |   |
+| VSD |  | | | | | | | | |   |
+| optGen |  | | | | | | | | |   |
+| MEG |  | | | | | | | | |   |
+| EMG |  | | | | | | | | |   |
+| EEG |  | | | | | | | | |   |
+| PET |  | | | | | | | | |   |
+| SPECT |  | | | | | | | | |   |
+
+## References
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
 
 [3] F. Theunissen and J. P. Miller. Temporal encoding in nervous systems: a rigorous definition. J Comput Neurosci, 2(2):149–162, june 1995. ISSN 0929-5313.
