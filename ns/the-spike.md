@@ -92,7 +92,7 @@ Time code: [3]
 | PET |  | | | | | | | | |   |
 | SPECT |  | | | | | | | | |   |
 
-Internal phenomena:
+Internal phenomena: (realities that we access indirectly)
 * Electric field (Extracellular)
 * Electric field (Intracellular)
 * Current (flow) source/sink
@@ -113,9 +113,18 @@ Internal phenomena:
    * cAMP
    * Microdyalysis:
       * ...
-* Densrites:
+* Dendrites:
    * ...
+   * ... (chck cable theory)
+   * ... (check active dendrites)
 * Glial-specific?
+* Check: 
+* Synapse-related:
+    * Vesicles
+    * Reuptake
+    * enzymes (or their metabolites)
+    * Electrical / ionic (same as membrane?)
+* Soma, axon, axon-hilock, spine, button, dendrite (distal, proximal), felt/process/arbor/etc, extracellular, intracellular, inside-shwan (myelin), re... nodes, etc.
 
 ## References
 [1] Bijan Pesaran, John S. Pezaris, Maneesh Sahani, Partha P. Mitra, and Richard A. An- dersen. Temporal structure in neuronal activity during working memory in macaque parietal cortex. Nat Neurosci, 5(8):805–811, Aug 2002
