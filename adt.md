@@ -23,6 +23,9 @@ Trivial ones:
 * binary Tree
 * 
 
+#### Level 2: main operations
+(not full operations). Known operations, for user. These usually define the ADT.
+
 ### Main table
 | ADT     |  PQ      |
 |---------:|----------|
@@ -42,9 +45,9 @@ Trivial ones:
 |        O |          |
 |          |          |
 | Layer 2: |          |
-|oper. 2.1 |          |
+|oper. 2.1 | Enqueue  |
 |        O |          |
-|oper. 2.2 |          |
+|oper. 2.2 | Dequeue  |
 |        O |          |
 |oper. 2.3 |          |
 |        O |          |
