@@ -1,13 +1,26 @@
 # ADTs:
 Data Structures
 
-Major important ADTs not to miss:
+### Main lists
+#### Major important ADTs not to miss:
 * Priority Queue (PQ) ADT
 
+#### Level 1 operations:
+* PQ:
+   * operation 1
+   * operation 2:
+* ...
 
+#### Level 1: cut-concepts (factorised)
+* Heap-ness
+Trivial ones:
+* binary Tree
+* 
+
+### Main table
 | ADT     |  PQ      |
 |---------:|----------|
-|alt. name|          |
+|alt. name| Binary Heap |
 |Layer 1: |          |
 |oper. 1. |          |
 |        O|          |
