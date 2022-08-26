@@ -8,6 +8,7 @@ Each ones:
 * Main invariant (homeostasis): What, diverging from it has limited operations. But if not too far (radius of tolerance). Specify, e.g. `dequeue()` takes log time. Hence, we will remain in this time-complexity. (Maybe all operations are in the same?) (Or the operations that are high priority). (This is not amortali
 * Main operations (not smallest concepts): `dequeue`, `enqueue`
 * Graphs (for level1, and level2): From which concept or assumption or operation or desire (invariant) others are based.
+    * Some are consequences. e.g. ...
 
 #### Major important ADTs not to miss:
 * Priority Queue (PQ) ADT
