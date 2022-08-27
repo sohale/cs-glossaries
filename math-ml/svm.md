@@ -4,6 +4,12 @@
 ## The key (missing idea)
 
 ## Misc
+### R functions and meaning of "slack"
+
+srihari
+
+https://cedar.buffalo.edu/~srihari/CSE574/Chap7/7.2-SVM-Overlap.pdf
+
 ### Outside reference
 
 Supporting hyperplanes [2]
