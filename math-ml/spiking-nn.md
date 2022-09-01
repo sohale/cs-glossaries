@@ -30,3 +30,7 @@ SNN: Spiking Neural Networks
 * https://youtu.be/F1EF7RYeOQw Gradient Descent in SNN 
 * https://youtu.be/h2qqKJcULng ... Simon institute ...
 *
+*
+* 
+* a few
+* eprop https://youtu.be/8ivYxlLQvcU
