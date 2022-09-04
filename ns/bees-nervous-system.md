@@ -10,7 +10,9 @@ antennal lobe
 stateDiagram-v2
     [*] --> Antennal_Lobe
     Antennal_Lobe --> MB_KC
-    MB_KC --> Lateral_Horn
+    MB_KC --> MBON
+    <!-- (MBON = proj neur) -->
+    MBON --> Lateral_Horn
     Lateral_Horn --> [*]
 ```
 ## Comparative
@@ -22,8 +24,8 @@ Correspond to:
 |--------------|---|-----------------|
 | ORN | |                |
 | PN: Antenna Lobe | | Thalamus/LGN               |
-| Mushroom body: KC (Kenyon Cells) |  |                |
-| Mushroom body: MBON | |                |
+| Mushroom body: KC (Kenyon Cells) |  |  Cortex/IT              |
+| Mushroom body: MBON | |   decision              |
 | Lateral Horn: LH | |                |
 | DAN: Dopamin ... | |                |
 |               |  |               |
