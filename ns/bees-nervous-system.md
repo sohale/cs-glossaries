@@ -27,13 +27,14 @@ Correspond to:
 | PN: Antenna Lobe | | Thalamus/LGN               |
 | Mushroom body: KC (Kenyon Cells) |  |  Cortex/IT              |
 | Mushroom body: MBON | |   decision              |
-| Lateral Horn: LH | |                |
+| Lateral Horn: LH? | |                |
 | DAN: Dopamin ... | |                |
 |               |  |               |
 | Octopamin     |  | Dopamin      |
 |^^    | |^^ Norepinephrin      |
 
 * Preserved list: Gaba
+
 
 ### The big Glossary
 * lateral horn
@@ -191,6 +192,11 @@ Down to 3.1.5.2
 ### Projections:
 * olfactory interneurons -> mushroom body 's calyces 's subregions
 * GABAergic synaptic contacts on the dendrites of the Pe1
+
+
+### Olfactory circuit
+* ORN: Olfactory Receptor Neurons: (in Antennal Lobe). project to Glumeriai. 1000 cells. 50 types. 30 dims. Input layer.
+* PN: Projection Neurons: LGN: (for each glumeria). 200 cells. 50 types. 35 dims.
 
 ### Some various figures
 [11](https://d3i71xaburhd42.cloudfront.net/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/4-Figure1.1-1.png) from [thesis](https://www.semanticscholar.org/paper/Introduction-1.1%3A-Thesis-Outline-1.2.1%3A-Honeybee-in/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/figure/0)
