@@ -195,4 +195,11 @@ Down to 3.1.5.2
 * Google Image search: `mushroom body bees`
 
 ### References
+Major influences / re-read
 * [Larry Abbott - Mind in the Fly Brain](https://www.youtube.com/watch?v=RTmoWFZQ-WE) (OCW)
+
+
+#### Misc references
+* Suenami et al. Kenyon Cell Subtypes/Populations in the Honeybee Mushroom Bodies: Possible Function Based on Their Gene Expression Profiles, Differentiation, Possible Evolution, and Application of Genome Editing.
+Front Psychol. 2018; 9: 1717
+[PMC6176018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6176018/)
