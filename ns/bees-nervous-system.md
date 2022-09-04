@@ -25,6 +25,7 @@ Correspond to:
 | Mushroom body: KC (Kenyon Cells) |  |                |
 | Mushroom body: MBON | |                |
 | Lateral Horn: LH | |                |
+| DAN: Dopamin ... | |                |
 |               |  |               |
 | Octopamin     |  | Dopamin      |
 |^^    | |^^ Norepinephrin      |
