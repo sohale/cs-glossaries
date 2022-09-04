@@ -11,10 +11,11 @@ stateDiagram-v2
     [*] --> Antennal_Lobe
     Antennal_Lobe --> MB_KC
     MB_KC --> MBON
-    <!-- (MBON = proj neur) -->
     MBON --> Lateral_Horn
     Lateral_Horn --> [*]
 ```
+<!-- (MBON = proj neur) -->
+    
 ## Comparative
 Correspond to:
 * Mushrrom body
