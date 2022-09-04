@@ -14,7 +14,7 @@ stateDiagram-v2
     MBON --> Lateral_Horn
     Lateral_Horn --> [*]
 ```
-<!-- (MBON = proj neur) -->
+<!-- (Antennal_Lobe = proj neur) -->
     
 ## Comparative
 Correspond to:
@@ -24,7 +24,7 @@ Correspond to:
 | 🐝 Honeybee     |  |  🧠 human/macaque   |
 |--------------|---|-----------------|
 | ORN | |                |
-| PN: Antenna Lobe | | Thalamus/LGN               |
+| PN: Antenna Lobe (projection)| | Thalamus/LGN               |
 | Mushroom body: KC (Kenyon Cells) |  |  Cortex/IT              |
 | Mushroom body: MBON | |   decision              |
 | Lateral Horn: LH? | |                |
@@ -195,8 +195,9 @@ Down to 3.1.5.2
 
 
 ### Olfactory circuit
-* ORN: Olfactory Receptor Neurons: (in Antennal Lobe). project to Glumeriai. 1000 cells. 50 types. 30 dims. Input layer.
-* PN: Projection Neurons: LGN: (for each glumeria). 200 cells. 50 types. 35 dims.
+* ORN: Olfactory Receptor Neurons: (in Antennal Lobe?). project to glomeruli. 1000 cells. 50 types. 30 dims. Input layer.
+* PN: Projection Neurons: LGN: (for each glumeriai). 200 cells. 50 types. 35 dims.
+(Antennal_Lobe = proj neur) (glomeruli in the antennal)
 
 ### Some various figures
 [11](https://d3i71xaburhd42.cloudfront.net/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/4-Figure1.1-1.png) from [thesis](https://www.semanticscholar.org/paper/Introduction-1.1%3A-Thesis-Outline-1.2.1%3A-Honeybee-in/d71ecc734616c52ea9d9fc259a17ac2e085d01ee/figure/0)
