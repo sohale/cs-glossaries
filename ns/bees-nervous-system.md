@@ -12,12 +12,15 @@ Correspond to:
 * Mushrrom body
 * ?
 ### The big table
-| 🐝 Honeybee      |  🧠 human/macaque   |
-|---------------|-----------------|
-| Mushrrom body |                 |
-|               |                 |
-| Octopamin     |  Dopamin      |
-|^^     |^^ Norepinephrin      |
+| 🐝 Honeybee     |  |  🧠 human/macaque   |
+|--------------|---|-----------------|
+| ORN | |                |
+| PN: Antenna Lobe | |                |
+| Mushroom body: KC | |                |
+| Mushroom body: MBON | |                |
+|               |  |               |
+| Octopamin     |  | Dopamin      |
+|^^    | |^^ Norepinephrin      |
 
 * Preserved list: Gaba
 
