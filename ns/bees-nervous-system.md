@@ -15,9 +15,10 @@ Correspond to:
 | 🐝 Honeybee     |  |  🧠 human/macaque   |
 |--------------|---|-----------------|
 | ORN | |                |
-| PN: Antenna Lobe | |                |
-| Mushroom body: KC | |                |
+| PN: Antenna Lobe | | Thalamus/LGN               |
+| Mushroom body: KC (Kenyon Cells) |  |                |
 | Mushroom body: MBON | |                |
+| Lateral Horn | |                |
 |               |  |               |
 | Octopamin     |  | Dopamin      |
 |^^    | |^^ Norepinephrin      |
