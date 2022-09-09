@@ -6,6 +6,10 @@ subtitle:
 I may split this file
 
 ### Hipothalamic peptides and neurotransmittters
+mentioning of vagus nerve-related
+
+#### NEB: Neuroscience of Energy in Brain
+telg link: https://t.me/c/1211910682/2761
 
 ### Hunger hormones
 
