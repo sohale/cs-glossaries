@@ -6,6 +6,7 @@ High performance computing solutions in Python:
 * Numexpr
 * Numba
 * Pyjion
+* tf tensors
 * https://github.com/deepmind/s6 (todo)
 * Classic:
    * Numpy
