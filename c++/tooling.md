@@ -28,6 +28,9 @@
    * ...
 * (Somewhere with Web API)
    * ...
+* YouView
+   * `Gstreamer`
+   * See https://www.youview.com/open-source/
 
 ### Areas:
 #### Package managers
