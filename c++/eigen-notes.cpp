@@ -40,3 +40,18 @@ Constants:
 ```c++
   Eigen::Matrix4d::Constant(4.5);
 ```
+
+More sample code:
+```c++
+ TEST(localiser, eigen_style1) {
+
+  Eigen::Matrix<float, 3, 1> v;
+  v << 0.0f, 0.0f, 0.0f;
+
+  ASSERT_EQ(1, 1);
+
+  std::cout << "      Eigen version is "
+            << EIGEN_MAJOR_VERSION << "." << EIGEN_MINOR_VERSION << std::endl;
+}
+```
+ 
