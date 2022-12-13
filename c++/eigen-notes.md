@@ -69,3 +69,38 @@ TEST(localiser, rotate_minus45) {
   EXPECT_NEAR(r[2], 0., ε);
 }
 ```
+
+
+CMakeLists.txt
+```cmake
+find_package(Eigen3 REQUIRED)
+...
+target_link_libraries(mymy_lib
+  PUBLIC ${stdmsgsxyzxyzxyz_TARGETS}
+
+  PRIVATE Eigen3::Eigen
+)
+
+...
+if(BUILD_TESTING)
+  ...
+  ament_add_gtest(core_localisation_tests
+    ${test_files}
+    TIMEOUT 6 # (seconds)
+    WORKING_DIRECTORY .
+    # SKIP_TEST
+  )
+    # cannot use PUBLIC, PRIVATE. etc
+  # todo: Why does it affect the `#include`s?
+  target_link_libraries(core_localisation_tests
+    mymy_lib # includes Eigen? no. Eigen is PRIVATE.
+  
+    #PUBLIC mymy_lib
+    #PRIVATE Eigen3::Eigen
+
+    Eigen3::Eigen
+  )
+  ## ?? for #include "../include/opteran_mymy/localiser.hpp" ?
+
+endif()
+```
