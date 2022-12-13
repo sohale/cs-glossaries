@@ -11,7 +11,7 @@ template<typename R>
 using vec3_tt = typename Eigen::Matrix<R, 3, 1>;
 ```
 
-Instead of this (in fact this file just does this: `#include "Dense" #include "Sparse"`),
+Don't do this: (in fact this file just does this: `#include "Dense" #include "Sparse"`),
 ```c++
 #include <Eigen/Eigen>
 using Eigen::Matrix;
