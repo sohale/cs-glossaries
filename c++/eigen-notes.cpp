@@ -11,7 +11,7 @@ internal definition:
 typedef Matrix<float, 3, 1> Vector3f;
 ```
 
-Does not work:
+This will not work:
 ```c++
 template<typename R>
 typedef Eigen::Matrix<R, 3, 1> vec3_tt;
@@ -38,7 +38,8 @@ instead, do this:
 
 Constants:
 ```c++
-  Eigen::Matrix4d::Constant(4.5);
+  Eigen::Matrix4d::Constant(4.5)
+  Eigen::Matrix3f :: Zero()
 ```
 
 More sample code:
@@ -54,4 +55,3 @@ More sample code:
             << EIGEN_MAJOR_VERSION << "." << EIGEN_MINOR_VERSION << std::endl;
 }
 ```
- 
