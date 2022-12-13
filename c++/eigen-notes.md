@@ -73,8 +73,11 @@ TEST(localiser, rotate_minus45) {
 
 CMakeLists.txt
 ```cmake
+
 find_package(Eigen3 REQUIRED)
+# find_package (Eigen3 3.3 REQUIRED NO_MODULE) #?
 ...
+
 target_link_libraries(mymy_lib
   PUBLIC ${stdmsgsxyzxyzxyz_TARGETS}
 
