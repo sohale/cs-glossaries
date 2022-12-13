@@ -1,16 +1,5 @@
 
 
- #include <Eigen/Eigen>
-+// using Eigen::Matrix;
-
-  
-This is 
-
-internal definition:
-```C++
-typedef Matrix<float, 3, 1> Vector3f;
-```
-
 This will not work:
 ```c++
 template<typename R>
@@ -27,7 +16,7 @@ Instead of this (in fact this file just does this: `#include "Dense" #include "S
 #include <Eigen/Eigen>
 using Eigen::Matrix;
 ```
-instead, do this:
+, instead, do this:
 ```C++
 #include <Eigen/Dense>
 ```
@@ -46,12 +35,36 @@ More sample code:
 ```c++
  TEST(localiser, eigen_style1) {
 
-  Eigen::Matrix<float, 3, 1> v;
-  v << 0.0f, 0.0f, 0.0f;
+  Eigen::Matrix<float, 3, 1> v = Eigen::Matrix<float, 3, 1>::Zero();
+  v[0] = 1;
 
+// You can cout:
+  std::cout << "v:" << v << std::endl;
+
+  Eigen::Matrix<float, 3, 1> w;
+  w << 0.0f, 0.0f, 0.0f;
+  
+  
   ASSERT_EQ(1, 1);
 
   std::cout << "      Eigen version is "
             << EIGEN_MAJOR_VERSION << "." << EIGEN_MINOR_VERSION << std::endl;
+}
+```
+
+
+```c++
+typedef Eigen::Vector3f vec3f_t;
+typedef Matrix<float, 3, 1> Vector3f;  // internally
+```
+
+```c++
+TEST(localiser, rotate_minus45) {
+  vec3f_t v{1, 0, 0};
+  vec3f_t r = rotate_minus45_1(v);
+  const float ε = 0.0001;
+  EXPECT_NEAR(r[0], 0.707107, ε);
+  EXPECT_NEAR(r[1], -0.707107, ε);
+  EXPECT_NEAR(r[2], 0., ε);
 }
 ```
