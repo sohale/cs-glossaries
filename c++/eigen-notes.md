@@ -1,4 +1,13 @@
-
+Don't do this:
+```c++
+#include <Eigen/Eigen>
+using Eigen::Matrix;
+```
+(in fact the file `<Eigen/Eigen>` just does this: `#include "Dense" #include "Sparse"`),
+instead, do this:
+```C++
+#include <Eigen/Dense>
+```
 
 This will not work:
 ```c++
@@ -11,16 +20,8 @@ template<typename R>
 using vec3_tt = typename Eigen::Matrix<R, 3, 1>;
 ```
 
-Don't do this: (in fact this file just does this: `#include "Dense" #include "Sparse"`),
-```c++
-#include <Eigen/Eigen>
-using Eigen::Matrix;
-```
-, instead, do this:
-```C++
-#include <Eigen/Dense>
-```
 
+A nice usage:
 ```c++
   Eigen::Matrix<float, 3, 1> v = Eigen::Matrix<float, 3, 1>::Zero();
 ```
