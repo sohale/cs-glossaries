@@ -87,23 +87,24 @@ target_link_libraries(mymy_lib
 ...
 if(BUILD_TESTING)
   ...
-  ament_add_gtest(core_localisation_tests
+  ament_add_gtest(mytests123
     ${test_files}
     TIMEOUT 6 # (seconds)
     WORKING_DIRECTORY .
     # SKIP_TEST
   )
-    # cannot use PUBLIC, PRIVATE. etc
-  # todo: Why does it affect the `#include`s?
-  target_link_libraries(core_localisation_tests
+
+  target_link_libraries(mytests123
     mymy_lib # includes Eigen? no. Eigen is PRIVATE.
   
+    # cannot use PUBLIC, PRIVATE. etc
     #PUBLIC mymy_lib
     #PRIVATE Eigen3::Eigen
 
     Eigen3::Eigen
   )
-  ## ?? for #include "../include/opteran_mymy/localiser.hpp" ?
+  # todo: Why does it affect the `#include`s?
+  # ?? for #include "../include/.../core_logic.hpp" ?
 
 endif()
 ```
