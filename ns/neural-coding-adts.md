@@ -2,6 +2,8 @@ A cute (toy-like) document about various ways Neural Coding helps compuation:
 
 Genius ideas designed by nature/evolution that makes our hard problems easier and tractable. In the sense of ADTs.
 
+Things that moved me.
+
 ### Insect circuits Spatial Integration of location (Webb)
 ### LMC encoding for c e (Hadi)
 ### Time of first-spike coding (Thorpe)
@@ -16,9 +18,15 @@ Machens clash of threshold: mask away
 ### Adrian and Integrate and Fire
 ### (classic ANN:) simple thresholds
 #### (classic ANN:) tanh
+#### (classic ANN:) tanh as probability
 #### (classic ANN:) ReLU
+
 ### Future
 * Limbic-PFC interactions (mask logic)
 * Disinhibition in BG
 * VTA encodes prediction error of value (acuumulating reward)
 * RNN, replay: episodic
+*
+* Using 0,0,0,1,0,0,0 response (a kind of sparse) in ANN, classifiers, etc
+* Samples: Framing sampling hypothesis as a coding?
+* PP: (coding of, representing, exchanging) errors (deltas)
