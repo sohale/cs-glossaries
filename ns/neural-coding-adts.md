@@ -55,3 +55,4 @@ Machens clash of threshold: mask away
 * (Force in muscles: and sensing it)
 * All sensory (and sensory feedback)
 * Fast adapting and slow adapting in touch
+* Citi: on-going multiple spikes + censored-Inverse-Gausssian-distributin (very low delay)
