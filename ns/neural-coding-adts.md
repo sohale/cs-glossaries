@@ -11,7 +11,8 @@ Things that moved me.
 They are usualley good for:
 * Generalisations (low-sample: pverty)
 * How NS teaches AI
-* Response speed
+* Response speed (latency)
+* (sometimes) versatile cross/uni-model (cognitive map, index/concept neurons in Hippocampus)
 
 ### Insect circuits Spatial Integration of location (Webb)
 ### LMC encoding for c e (Hadi)
@@ -94,4 +95,8 @@ As multiple outputs geerates simlulataneously, and informing eachother, and the 
 (don't like the word represenation? "providing". My concept of representation is more general. We don't want to represent everything. However, on the other hand, in joint probeblilityy, we consider "virtual" whole values: but at population level! but each part is separated: for distributed representations ...)
 * (Idea of economical reperesenations. The meaning of it. By Clark)
 * (Idea of representing cost function as errors: multiple errors: by Clark)
-
+* Random walk of Alan Turing. A ceratin way of encoding the problem. Very classical way that encoding can help.
+* "Accumulating evidence" as part of decision making
+(Why only decision making?!)
+* (see Webb):Naval Navigation literature (bearing, etc)
+* (representing cognitive map: general purpose)
