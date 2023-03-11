@@ -107,6 +107,7 @@ As multiple outputs geerates simlulataneously, and informing eachother, and the 
 that needs to be corrected (in PP & Control, but also: error correction ... see t)
 * WordNet: Geometrical word representation
 * (can motifs be considered code?)
+* hierarchical (PP, HTA, etc .. What are they?)
 
 
 ## Undiscovered codes being investigated
