@@ -87,3 +87,11 @@ Machens clash of threshold: mask away
 * AI: Transformer: encoding attention as code
 * Idea of representing Prediction (PP view, "trying" to predict) but also error-deltas. (see delay)
 * (Efference copy?)
+* Reflexes: Whole E2E parallel ciruits for faster responses (also see multiple timescales)
+As multiple outputs geerates simlulataneously, and informing eachother, and the later ones masking the earlier ones (masking). (However, masking from Limbic usually dominates). 
+* Multiple timescales (See Hugh Wilson)
+* Cerebellar separate metric represenation (?)
+(don't like the word represenation? "providing". My concept of representation is more general. We don't want to represent everything. However, on the other hand, in joint probeblilityy, we consider "virtual" whole values: but at population level! but each part is separated: for distributed representations ...)
+* (Idea of economical reperesenations. The meaning of it. By Clark)
+* (Idea of representing cost function as errors: multiple errors: by Clark)
+
