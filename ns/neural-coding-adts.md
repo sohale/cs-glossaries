@@ -4,6 +4,9 @@ Genius ideas designed by nature/evolution that makes our hard problems easier an
 
 Things that moved me.
 
+They are usualley good for:
+* Generalisations (low-sample)
+ 
 ### Insect circuits Spatial Integration of location (Webb)
 ### LMC encoding for c e (Hadi)
 ### Time of first-spike coding (Thorpe)
@@ -56,3 +59,20 @@ Machens clash of threshold: mask away
 * All sensory (and sensory feedback)
 * Fast adapting and slow adapting in touch
 * Citi: on-going multiple spikes + censored-Inverse-Gausssian-distributin (very low delay)
+* Any encoding of Markov shadow (simplified: for generalisation)
+* Auto-encoder
+* Variational (a way to model probability: bu tin fact a ways of modelling: by separating things)
+* Bagging/boosting? (and see distribution)
+* Distributed: for various places of space of states
+* Distributed: Population (various ways Clark describes)
+* (Distributed: In teh sense of early ANN papers)
+* (Sparsity: anything: Sparsity in learning. Sparsity in activity) (also see energy-efficient)
+* Energy-efficiency consequences (and constraitns: how it helps and how it causes problem)
+*
+* (bottleneck method)
+* Specialised areas that integrate (Amygdala, )
+* Spatial frequency
+* Fourier refpresentation in vision (Gabor, Phase, Hadi's phase, Spatial frequency)
+* Audio? We will see.
+* 5-dimentional trick of V1 (both location and other features)
+* Location as a mere feature
