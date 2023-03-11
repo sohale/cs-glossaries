@@ -20,4 +20,5 @@ Machens clash of threshold: mask away
 ### Future
 * Limbic-PFC interactions (mask logic)
 * Disinhibition in BG
+* VTA encodes prediction error of 
 
