@@ -45,3 +45,13 @@ Machens clash of threshold: mask away
 * The ...
 * (grandmother cell?)
 * (concept cell?) (aslso see: Index cell)
+* Probabilities in OFC versus some kind of probability in mVLPFC
+* Probability in Amygdala and Insular cortex
+* (forgot)
+* (amygdalae for (two) takes)
+* RL: representing value by cacheing it. (version 1: sum_ future reward, as mediating-virtual value that is attempted by RL system) 
+* Motor recruitment: (dunamic run-time (!) involvement)
+* (Spikes in Muscle)
+* (Force in muscles: and sensing it)
+* All sensory (and sensory feedback)
+* Fast adapting and slow adapting in touch
