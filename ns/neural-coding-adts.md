@@ -9,12 +9,14 @@ Genius ideas designed by nature/evolution that makes our hard problems easier an
 Things that moved me.
 
 They are usualley good for:
-* Generalisations (low-sample)
- 
+* Generalisations (low-sample: pverty)
+* How NS teaches AI
+
 ### Insect circuits Spatial Integration of location (Webb)
 ### LMC encoding for c e (Hadi)
 ### Time of first-spike coding (Thorpe)
 ### (Event-based) y-discritisation coding (Panzeri's collaborator: chiara bartolozzi)
+doi: 10.1162/NECO_a_00703
 ### Phase coding of location? (How does it help?)
 ### Phase coding for bursts (Montemurro)
 ### Clasical Pouget Population coding
@@ -80,3 +82,4 @@ Machens clash of threshold: mask away
 * Audio? We will see.
 * 5-dimentional trick of V1 (both location and other features)
 * Location as a mere feature
+* AI: Transformer: encoding attention as code
