@@ -20,6 +20,7 @@ Machens clash of threshold: mask away
 #### (classic ANN:) tanh
 #### (classic ANN:) tanh as probability
 #### (classic ANN:) ReLU
+### Coding Index in Hippocampus (Temporal Hippocampal Formation) (Davachi)
 
 ### Future
 * Limbic-PFC interactions (mask logic)
@@ -38,5 +39,9 @@ Machens clash of threshold: mask away
 * Representations of uncertainty (and confidence, etc: using smaple, using population coding, etc)
 * Can read-outs be coding? vector average, averaging / pooling, winner-take-call
 * Hopfield: encoding state in attern of (1,0)^N (Also Botlzmann)
-
-
+* Tuning curve, reponse profile. (Also: in general: distributions)
+* (unsure: PRC: Phase resetting curve?)
+* Generating: encoding the un-unfolded (folded) and unfold it when necessary (in low-level)
+* The ...
+* (grandmother cell?)
+* (concept cell?) (aslso see: Index cell)
