@@ -26,7 +26,13 @@ Machens clash of threshold: mask away
 * Disinhibition in BG
 * VTA encodes prediction error of value (acuumulating reward)
 * RNN, replay: episodic
-*
+* LFP as population activityy
+* LFP phase?
 * Using 0,0,0,1,0,0,0 response (a kind of sparse) in ANN, classifiers, etc
 * Samples: Framing sampling hypothesis as a coding?
 * PP: (coding of, representing, exchanging) errors (deltas)
+* ( Weights as parameters of ANN: Simple Gradient)
+* (humans trick of surrpogate ... for SSNs: approximating with simplified models!)
+* Dopmaine-ACh (gating Dopamine using ACh)
+* SNc initiating action and constaining its ttart to a DA drive. 
+
