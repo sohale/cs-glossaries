@@ -11,6 +11,7 @@ Things that moved me.
 They are usualley good for:
 * Generalisations (low-sample: pverty)
 * How NS teaches AI
+* Response speed
 
 ### Insect circuits Spatial Integration of location (Webb)
 ### LMC encoding for c e (Hadi)
@@ -58,6 +59,7 @@ Machens clash of threshold: mask away
 * Probability in Amygdala and Insular cortex
 * (forgot)
 * (amygdalae for (two) takes)
+* Risk i Amygdala (alarm, vigilance, etc)
 * RL: representing value by cacheing it. (version 1: sum_ future reward, as mediating-virtual value that is attempted by RL system) 
 * Motor recruitment: (dunamic run-time (!) involvement)
 * (Spikes in Muscle)
@@ -83,3 +85,5 @@ Machens clash of threshold: mask away
 * 5-dimentional trick of V1 (both location and other features)
 * Location as a mere feature
 * AI: Transformer: encoding attention as code
+* Idea of representing Prediction (PP view, "trying" to predict) but also error-deltas. (see delay)
+* (Efference copy?)
