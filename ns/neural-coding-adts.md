@@ -1,3 +1,7 @@
+# A tour of Neural codes
+
+Paradigm used here: Neural coding + Learning
+
 A cute (toy-like) document about various ways Neural Coding helps compuation:
 
 Genius ideas designed by nature/evolution that makes our hard problems easier and tractable. In the sense of ADTs.
