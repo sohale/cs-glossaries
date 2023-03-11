@@ -10,7 +10,7 @@ They are usualley good for:
 ### Insect circuits Spatial Integration of location (Webb)
 ### LMC encoding for c e (Hadi)
 ### Time of first-spike coding (Thorpe)
-### (Event-based) y-discritisation coding (Panzeri's collaborator)
+### (Event-based) y-discritisation coding (Panzeri's collaborator: chiara bartolozzi)
 ### Phase coding of location? (How does it help?)
 ### Phase coding for bursts (Montemurro)
 ### Clasical Pouget Population coding
