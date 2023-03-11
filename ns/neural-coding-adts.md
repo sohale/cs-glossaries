@@ -29,10 +29,14 @@ Machens clash of threshold: mask away
 * LFP as population activityy
 * LFP phase?
 * Using 0,0,0,1,0,0,0 response (a kind of sparse) in ANN, classifiers, etc
-* Samples: Framing sampling hypothesis as a coding?
+* Samples: Framing sampling hypothesis as a coding? (Also Boltzmann Machine, Also Boltzmann's encoding of energy as index of probablity, similar to Quantum)
 * PP: (coding of, representing, exchanging) errors (deltas)
 * ( Weights as parameters of ANN: Simple Gradient)
 * (humans trick of surrpogate ... for SSNs: approximating with simplified models!)
 * Dopmaine-ACh (gating Dopamine using ACh)
-* SNc initiating action and constaining its ttart to a DA drive. 
+* SNc initiating action and constaining its ttart to a DA drive.
+* Representations of uncertainty (and confidence, etc: using smaple, using population coding, etc)
+* Can read-outs be coding? vector average, averaging / pooling, winner-take-call
+* Hopfield: encoding state in attern of (1,0)^N (Also Botlzmann)
+
 
