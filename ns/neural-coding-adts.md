@@ -100,3 +100,13 @@ As multiple outputs geerates simlulataneously, and informing eachother, and the 
 (Why only decision making?!)
 * (see Webb):Naval Navigation literature (bearing, etc)
 * (representing cognitive map: general purpose)
+
+* (intermediate meso-level modelling): Salience (especially in Itti's attention model).
+(Also see Uncertainty representation. + Reward literature)
+* Uncertainty (cont.): noise as adversarial action (crossing)
+that needs to be corrected (in PP & Control, but also: error correction ... see t)
+* WordNet: Geometrical word representation
+* 
+## Undiscovered codes being investigated
+* Visual field shift at spike time
+* Pitch represenation
