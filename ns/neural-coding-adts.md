@@ -106,7 +106,9 @@ As multiple outputs geerates simlulataneously, and informing eachother, and the 
 * Uncertainty (cont.): noise as adversarial action (crossing)
 that needs to be corrected (in PP & Control, but also: error correction ... see t)
 * WordNet: Geometrical word representation
-* 
+* (can motifs be considered code?)
+
+
 ## Undiscovered codes being investigated
 * Visual field shift at spike time
 * Pitch represenation
