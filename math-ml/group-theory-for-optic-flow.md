@@ -10,4 +10,8 @@ Def: Algebra: means Group Theory and its extentions.
 
 Definition: If is Manifold + is Group => is Lie Algebra.
 
-**Refresentaiton theory** comes to picture. Now, just simply matrices.
+(These "Definitions" are not litral definnitions in Maths:
+in my weak mind. Don't try to be correct objectively. I just reflec thwat I know. Now it's an object here, that I can gradually shape it here. But it is LTM. I can change it slowly, so that my LTM changes slowly. LTM-ness = Objec(ive)-ness).
+
+**Representation theory** comes to picture. Now, just simply matrices.
+
