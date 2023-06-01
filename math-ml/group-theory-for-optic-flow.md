@@ -15,3 +15,8 @@ in my weak mind. Don't try to be correct objectively. I just reflec thwat I know
 
 **Representation theory** comes to picture. Now, just simply matrices.
 
+* $Sp(2n,R)$ is Symplectic Group
+* $Sp(6,R)$ is the 3D one. I just need this, not more.
+* I need the matrix form only.
+* TFs need velocity too.
+
