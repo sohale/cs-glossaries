@@ -23,7 +23,9 @@ Motivation (properties that are motivations): (brief list)
 * Entropy in terms of PF
 
 ## Related definitions
-* "Thermodynamic state"
+* "Thermodynamic state" "variables"
+    * e.g. temperature, volume
+
 
 ## Properties
 
