@@ -1,5 +1,7 @@
 4e
 
+(wow, 10 months ago I had this file about robotics, and now I am in it. It was my dream. 1 June 2023 now.)
+
 implicaitons in robotics from literature
 
 * Friston paper 1
