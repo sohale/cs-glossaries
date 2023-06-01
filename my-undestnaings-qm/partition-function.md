@@ -1,4 +1,5 @@
-Why is **partition function** caonsidered so special?
+# Partition Functions
+Why is **partition function** (PF) considered so special?
 I remember many things were derived from it.
 (Even Entropy?)
 
@@ -14,3 +15,16 @@ or
     Z(;θ) = ∫ f(x;θ) dx
 
 where `f(x)` is any positive function!
+
+## Motivation
+Motivation (properties that are motivations): (brief list)
+* Renormalisation is when the derivatives of PF w.r.t ?? variables are infinity.
+* Probability in terms of PF
+* Entropy in terms of PF
+
+## Related definitions
+* "Thermodynamic state"
+
+## Properties
+
+
