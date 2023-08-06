@@ -7,6 +7,14 @@
 \usetheme{Desert}
 % Default, Rays, Basic, Simple, Envelope, Wave, Board, Autumn, and Desert.
 
+%\usepackage{eucal}
+%\usepackage[mathcal]{eucal}
+\usepackage[mathscr]{eucal}
+
+% Not sure what it is about:
+%\usepackage{mathtools}
+%\usepackage[math-style=ISO]{unicode-math}
+
 \begin{document}
 
 \maketitle
@@ -16,7 +24,11 @@
   \column{0.4}
 
   \block{Formula}{
-    sdfsdf
+    \scalebox{2}{
+      \begin{Large}
+        Pr(x)
+      \end{Large}
+    }
   }
 
   \column{0.6}
@@ -36,7 +48,6 @@
   }
 \end{columns}
 
-
 \block{Block}{
 }
 
@@ -47,6 +58,12 @@
 
 \end{document}
 
-
 % tikzposter docs: https://texdoc.org/serve/tikzposter/0
 % columns: https://tex.stackexchange.com/questions/183833/is-there-any-way-to-create-columns-inside-a-tikzposter-block
+
+% sizes:
+% \documentclass[25pt, a0paper, portrait, scale=2]
+% \usepackage{relsize}  %  \larger[2]
+% \scalebox{1.5}{ text } % works
+
+% https://tex.stackexchange.com/questions/58098/what-are-all-the-font-styles-i-can-use-in-math-mode
