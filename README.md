@@ -11,6 +11,8 @@ and more (Python, JavaScript, async, etc)
 * Sometimes can be seen also as narrow context tutorials (instead of an article in medium)
 * kode-killing: Code that I am killing that (code-sink). (aka dev-notes, etc)
 
+* Things that I keep need to rediscover. Gtest patterns that I liked, kind of worked, etc. (Also overlap with https://github.com/sohale/hemi-glossaries-public )
+
 * A know-how that I inherit for my future self: future in the sense of the gap between me and myself in terms of time-corrotion.
 * It also may have a potential for socially expressing it. People may end up here and read something. (This adds a miniscule motivation to tidy up and organise).
   
