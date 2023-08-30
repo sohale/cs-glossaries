@@ -4,6 +4,13 @@
 
 ### The standard way: `EXPECT_NEAR`
 
+For vectos, it isstill verbose
+```c++
+  double eps = 0.001;
+  ASSERT_NEAR(v.x(), v1.x(), eps);
+  ASSERT_NEAR(v.y(), v1.y(), eps);
+```
+
 ### Use of `ASSERT_PRED2`:
 
 ```c++
