@@ -13,6 +13,10 @@ and more (Python, JavaScript, async, etc)
 
 * Things that I keep need to rediscover. Gtest patterns that I liked, kind of worked, etc. (Also overlap with https://github.com/sohale/hemi-glossaries-public )
 
+* Helps me channel the personal comments from my learning.
+
+* Note: The contents put here have not IP issues. Reveals no information about the context of what I am working on.
+  
 * A know-how that I inherit for my future self: future in the sense of the gap between me and myself in terms of time-corrotion.
 * It also may have a potential for socially expressing it. People may end up here and read something. (This adds a miniscule motivation to tidy up and organise).
   
