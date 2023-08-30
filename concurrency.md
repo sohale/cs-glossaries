@@ -1,5 +1,10 @@
 My concurrency experience, also the way to conceptualise it
 
+In various languages. Includes:
+* Python
+* C++
+* refers to: CUDA, OpenCL, Java thread, WebWorkers, etc
+
 ### My concurrency experience
 MultiThread: C++(MultiThread: thread, mutex). Concurrent (Multi Process in Python and nodeJS). IPC (python). JS: (events, streams, async, generators, async). Async (JS, Python, c++promises). Coroutines (Python). C++ . GPU (CUDA). Some OpenCL.
 
