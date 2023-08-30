@@ -32,4 +32,7 @@ Three types of articles:
 
 * Trying  to remember many things I have done in the past and have not connected them, or their memory-distance is so far apart that are not integrated (zMQ in python, versus some concurrent  or distributed code)
 
+* Discovery: Har-earned discoveries. THings that you come-by once-a-lifetime that can improve things. (See the `ref` style)
 
+* This repo kind of reflects (and consolidates) the expertise that I am gaining. (If I put everything down, which currently happens at 0.001% ).
+* But it is a "subset" of that. Of that Type (Category). "Subset" in that sense.
