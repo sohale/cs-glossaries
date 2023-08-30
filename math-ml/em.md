@@ -17,4 +17,4 @@ From here and there
 * [Generalized Majorization-Minimization](https://proceedings.mlr.press/v97/parizi19a/parizi19a.pdf) by Sobhan Naderi, Kun He, Reza Aghajani, Stan Sclaroff, Pedro Felzenszwalb.
 
 ### Scattered points
-* EM is an MM. Is a spin-off of MM, really.
+* EM is an MM. Is a spin-off of MM, really. (Leaned this from ChG. Not from within (causation-like), but rather, in correlation-way / correlation-like. E2E rather than Trickle! See (in mind)  discussion about fine-tuning hypothesis)
