@@ -4,7 +4,7 @@
 
 ### The standard way: `EXPECT_NEAR`
 
-## Use of `ASSERT_PRED2`:
+### Use of `ASSERT_PRED2`:
 
 ```c++
   auto MatrixEqualityPred = [eps](const Eigen::MatrixXf & lhs, const Eigen::MatrixXf & rhs) {
@@ -13,3 +13,21 @@
   ASSERT_PRED2(MatrixEqualityPred, v, Eigen::Vector2f(.0,.0));
 ```
 
+### `EXPECT_FLOAT_EQ`
+
+* EXPECT_FLOAT_EQ
+* EXPECT_DOUBLE_EQ
+
+Why EXPECT_NEAR as opposed to EXPECT_FLOAT_EQ? Just explicit and predetermined `eps`?
+
+See http://google.github.io/googletest/reference/assertions.html#EXPECT_DOUBLE_EQ
+
+to within 4 ULPs from each other.
+Why 4?
+
+So there are 3 levels:
+* Exact equality:
+* Practically Exact equality (it should represent that number really, Not an approximation in calculation. Approximation misrepresentation only)
+* Tolerance or error or ... (`eps`, `tol`)
+
+I need a file to consolidate my understanding about floating point errors (the ULP )
