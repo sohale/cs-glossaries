@@ -2,6 +2,8 @@
 
 (Also let's keep these small files, almost small tutorials)
 
+### The standard way: `EXPECT_NEAR`
+
 ## Use of `ASSERT_PRED2`:
 
 ```c++
@@ -10,3 +12,4 @@
   };
   ASSERT_PRED2(MatrixEqualityPred, v, Eigen::Vector2f(.0,.0));
 ```
+
