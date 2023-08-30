@@ -15,3 +15,6 @@ primary for me
 From here and there
 * [relationship between mm & em](https://stats.stackexchange.com/questions/44513/the-relationship-between-expectation-maximization-and-majorization-minimization)
 * [Generalized Majorization-Minimization](https://proceedings.mlr.press/v97/parizi19a/parizi19a.pdf) by Sobhan Naderi, Kun He, Reza Aghajani, Stan Sclaroff, Pedro Felzenszwalb.
+
+### Scattered points
+* EM is an MM. Is a spin-off of MM, really.
