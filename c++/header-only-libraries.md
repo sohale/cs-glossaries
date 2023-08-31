@@ -10,6 +10,7 @@ Why didn't work. (important! error signals)
 
 Some CMake patterns. (and comments)
 
+`gaussian_drift.hpp`:
 ```cpp
 /*
 Note: GaussianDrift definitions are header-only, that is, no linker is produced.
