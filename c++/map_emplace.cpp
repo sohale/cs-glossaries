@@ -1,3 +1,4 @@
+// old file name: cpp-details/map_emplace.cpp
 /*
 checks correctness of strings like the following:
 (()()(()))
