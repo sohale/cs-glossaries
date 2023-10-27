@@ -100,6 +100,13 @@ Specific table?
 target, include (not to include), directory
 
 ## Unrelated take-away:
-Emerged terms & concepts:
+Emerged (meta) or GIL-related terms & concepts:
 * "too specific"
-* 
+* "confusion point" / confusion edge (Signal Detection Theory)
+* -time: multiple times before the compile-time: cmake-"config-time" (and "Don't even mention the "run-time"!")
+* Dimensions (to be mindful about. Not necessarily location/place cells: but dimensions!)
+* Other: lingo, unhelpful/helpful, mindful, 
+* copied from? or copied to? (direction).  "pulished by" targets you are creating, or "used by" them. Always being mindful and aware about "where to take them from" versus "where to put them".
+* the "tiers/locations?",  
+* Match, touch-point, inter-operatbility,  (target-touch-points). "touching point"s.
+* (lack of) concrete name: "include directory"es.
