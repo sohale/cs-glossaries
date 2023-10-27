@@ -16,6 +16,14 @@ Main items:
 ### Situation: include-out vs include-in
 I want to add/correct the include files that are published
 
+### Terrible name
+CMAKE_CURRENT_LIST_DIR
+but why `LIST`?
+
+the `CMakeLists.txt`
+why `Lists`? why `.txt`?!
+
+why this and why that and why this name and why that name.
 
 ### misinterpretable names
 
