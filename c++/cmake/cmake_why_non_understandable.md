@@ -52,7 +52,11 @@ What? What about the project name? also: package.xml name? Also install forlder 
 
 be mindful about some specific name techniaues: (grdually populate. It may end up being useful)
 * variable: packagename_TARGETS
-* variable packagename_TARGETS
+* property packagename::targetname (suddently this?)
+* directory ...
+* cmake filename: targetConfig.cmake targetTarget.cmake etc (is it target? or package? or export name? or what?)
+
+Why for Cmake, we create a cmake folder? and why .cmake is used there only?
 
 ## Ba mindful about:
 The compact-list of things to be always mindful about: dimensions.
@@ -124,5 +128,5 @@ Emerged (meta) or GIL-related terms & concepts:
 * the "tiers/locations?",  
 * Match, touch-point, inter-operatbility,  (target-touch-points). "touching point"s.
 * (lack of) concrete name: "include directory"es.
-
 * side
+* names: same/matching? "pluggable": at touch-point. What do we call this pluggableness, matchin-ness? (synapse-ness?! grip?n not grip. match of impedance. no. match of washer/bolts, etc)
