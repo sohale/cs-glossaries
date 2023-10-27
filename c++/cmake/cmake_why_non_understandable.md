@@ -48,6 +48,12 @@ It says "The package name will be derived from the folder name (i.e. my_package)
 
 What? What about the project name? also: package.xml name? Also install forlder name? also: source (repo) name? target name? etc etc.
 
+## Ba mindful about:
+The compact-list of things to be always mindful about: dimensions.
+* is it config-time?
+* copied from? or copied to? (direction)
+* the tiers of: "source", "build", "install" (locations?)
+
 ## Not knowing
 #### Not knowing what is the difference between `conan` and CMake
 #### Not knowing what is the4 difference between CMake and `make`
@@ -63,7 +69,7 @@ Knowing they may not help you find your way when you are lost. But good to know 
 ### Has a history:
 #### `target_` arrived late
 ### make compatibility
-In what way thi sis unhelpful?
+In what way this is unhelpful?
 ### Multi-pass: Config time separate from make time, etc
 This is actually helpful:
 ### Terminology: too C++-specific
@@ -74,7 +80,7 @@ This is actually helpful:
 
 ### The "Global hack" technique
 * `*_TARGET`
-* Using prefix and suffixes for global variables defined. (and: why?!)
+* Using prefixes and suffixes for global variables defined. (and: why?!)
 * Using prefix-ing the commands: `target_`
 
 ### Terminology: ...
@@ -92,3 +98,8 @@ Don't even mention the "run-time"!
 * names versus verbs
 Specific table?
 target, include (not to include), directory
+
+## Unrelated take-away:
+Emerged terms & concepts:
+* "too specific"
+* 
