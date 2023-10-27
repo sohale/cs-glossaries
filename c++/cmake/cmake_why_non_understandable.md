@@ -59,6 +59,8 @@ be mindful about some specific name techniaues: (grdually populate. It may end u
 Also: the many uses of pkg_TARGETS ( `foreach(tgt IN LISTS pname_TARGETS)` or `target_link_libraries(pname_lib  PUBLIC ${std_msgs_TARGETS}` ).
 And why.
 
+Use of x_FOUND : set() ing it in Config.cmake, and setting it ins user-side's cmake when skipping. and `if(NOT ..._FOUND)`)
+
 Why for Cmake, we create a cmake folder? and why .cmake is used there only?
 
 ## Ba mindful about:
