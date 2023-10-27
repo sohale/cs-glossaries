@@ -25,6 +25,13 @@ why `Lists`? why `.txt`?!
 
 why this and why that and why this name and why that name.
 
+### Confusion Situation
+
+target_link_libraries() takes CMake target names
+ament_target_dependencies() takes package names
+
+can we say ament_target_dependencies is for the output? (what is published) and target_link_libraries is about input (what is used, sources, to build) ?
+
 ### misinterpretable names
 
 Specific names:
@@ -44,6 +51,19 @@ Always being mindful and aware about "where to take them from" versus "where to 
 Which commands does it apply?
 
 side, sidedness, from which side, etc.
+
+Direction (again):
+
+More on directionality: can we say ament_target_dependencies is for the output? (what is published) and target_link_libraries is about input (what is used, sources, to build) ?
+
+is target_include_directories about incoming or outgoing?
+
+more terms:
+Inward/Outward
+
+example: 
+* ... the inward dependencies of a target ...
+* ... export those dependencies outward ...
 
 ### The many things at "EXPORT"
 ### The *Config.cmake
@@ -241,7 +261,7 @@ Emerged (meta) or GIL-related terms & concepts:
 * -time: multiple times before the compile-time: cmake-"config-time" (and "Don't even mention the "run-time"!")
 * Dimensions (to be mindful about. Not necessarily location/place cells: but dimensions!)
 * Other: lingo, unhelpful/helpful, mindful, 
-* copied from? or copied to? (direction).  "pulished by" targets you are creating, or "used by" them. Always being mindful and aware about "where to take them from" versus "where to put them".
+* copied from? or copied to? (direction).  "pulished by" targets you are creating, or "used by" them. Always being mindful and aware about "where to take them from" versus "where to put them". More on directionality: can we say ament_target_dependencies is for the output? (what is published) and target_link_libraries is about input (what is used, sources, to build) ?
 * the "tiers/locations?",  
 * Match, touch-point, inter-operatbility,  (target-touch-points). "touching point"s.
 * (lack of) concrete name: "include directory"es.
