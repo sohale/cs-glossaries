@@ -109,6 +109,9 @@ LIBRARY_TARGET  (as in HAS_LIBRARY_TARGET)
 
 IMPORTED import, find, include, link
 
+also these terms:
+dependencies
+
 #### Key question: Is it really not organised? or it is, and need to strive in learning them? (Key question helping in CMake world)
 
 In CMake-world and CMake-land,  certain things discourses exist... (and assumptions, and ta'assob, and bikhiali: tasamoh )
