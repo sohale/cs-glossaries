@@ -98,17 +98,16 @@ grammar?!
 be mindful of this
 
 #### The case of `CMAKE_CURRENT_LIST_DIR`
-CMake is the most f** hacky language I have every seen:
+CMake is the most ... hacky language I have ever seen:
 
 background:
 there are three folder hierarchies: 1. source-code (git repo) 2. build folder, 3. install folder
 
 I randomly asked this: 
-Q: What is CMAKE_CURRENT_LIST_DIR? where does it refer to? in build or install?
 
-Answer:
+Q: "What is CMAKE_CURRENT_LIST_DIR? where does it refer to? in build or install?"
 
-The CMAKE_CURRENT_LIST_DIR variable refers to the directory containing the CMakeLists.txt file that is currently being processed.
+Answer: "The `CMAKE_CURRENT_LIST_DIR` variable refers to the directory containing the CMakeLists.txt file that is currently being processed."
 
 What a bad... name?! why "lists"?
 
