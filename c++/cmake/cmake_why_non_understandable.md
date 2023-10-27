@@ -31,6 +31,16 @@ Direction: confusion about it: it is not clear you mean about includes that are 
 The `target_include_directories` is for output.
 When you are looking for output, how do you know this is the right command? (See "Situation: include-out vs include-in")
 
+Always being mindful and aware about "where to take them from" versus "where to put them", especially for "include directory"es.
+
+Which commands does it apply?
+
+### The many things at "EXPORT"
+### The *Config.cmake
+The *Config.cmake and *Target.cmake.
+What name should match?
+
+
 ### Names
 Where the names are taken? Which should be the same/matching? "pluggable"
 
@@ -62,7 +72,11 @@ This is actually helpful:
 * "include" as a noun referring to something too specific.
 * "directory"
 
-  
+### The "Global hack" technique
+* `*_TARGET`
+* Using prefix and suffixes for global variables defined. (and: why?!)
+* Using prefix-ing the commands: `target_`
+
 ### Terminology: ...
 Specific concepts:
 an export, an install, an archieve, etc.
