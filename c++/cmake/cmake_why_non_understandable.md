@@ -94,6 +94,43 @@ grammar?!
 
 "FindDependency" and "find_dependency" versus find_package()
 
+### Same name refering to different directoryes.
+be mindful of this
+
+#### The case of `CMAKE_CURRENT_LIST_DIR`
+CMake is the most f** hacky language I have every seen:
+
+background:
+there are three folder hierarchies: 1. source-code (git repo) 2. build folder, 3. install folder
+
+I randomly asked this: 
+Q: What is CMAKE_CURRENT_LIST_DIR? where does it refer to? in build or install?
+
+Answer:
+
+The CMAKE_CURRENT_LIST_DIR variable refers to the directory containing the CMakeLists.txt file that is currently being processed.
+
+What a bad... name?! why "lists"?
+
+During the build, it refers to the source dir for that CMakeLists.txt
+During install, it refers to the install prefix
+what?!
+
+```cmake
+CMakeLists.txt
+message("Build: ${CMAKE_CURRENT_LIST_DIR}")
+# Prints the source directory
+```
+
+```cmake
+# my_packageConfig.cmake
+message("Install: ${CMAKE_CURRENT_LIST_DIR}")
+# Prints the install prefix
+```
+
+it changes in runtime
+
+
 ## Ba mindful about:
 The compact-list of things to be always mindful about: dimensions.
 * is it config-time?
