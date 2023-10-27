@@ -31,6 +31,13 @@ Direction: confusion about it: it is not clear you mean about includes that are 
 The `target_include_directories` is for output.
 When you are looking for output, how do you know this is the right command? (See "Situation: include-out vs include-in")
 
+### Names
+Where the names are taken? Which should be the same/matching? "pluggable"
+
+It says "The package name will be derived from the folder name (i.e. my_package)"
+
+What? What about the project name? also: package.xml name? Also install forlder name? also: source (repo) name? target name? etc etc.
+
 ## Not knowing
 #### Not knowing what is the difference between `conan` and CMake
 #### Not knowing what is the4 difference between CMake and `make`
