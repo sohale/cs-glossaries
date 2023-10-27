@@ -44,10 +44,21 @@ This is actually helpful:
 "confusion point" (edge):
 * "library" is cmake library? C++ library? 
 * "include" as a noun referring to something too specific.
+* "directory"
 
+  
 ### Terminology: ...
+Specific concepts:
+an export, an install, an archieve, etc.
+a directory.
+
 ### Terminology: ...
 
 Multi-pass: Config time separate from make time and from compile time
 
 Don't even mention the "run-time"!
+
+## Factors: helping
+* names versus verbs
+Specific table?
+target, include (not to include), directory
