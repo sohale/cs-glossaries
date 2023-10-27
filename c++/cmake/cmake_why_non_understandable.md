@@ -71,6 +71,29 @@ Use of x_FOUND : set() ing it in Config.cmake, and setting it ins user-side's cm
 
 Why for Cmake, we create a cmake folder? and why .cmake is used there only?
 
+
+(move)
+These terms apparent  have specific meanings:
+* downstream packages
+* imported library target:
+   * imported library
+   * library target
+   * imported target
+   * imported library target
+* downstream (versus upstream?)
+* "Library target"
+* library vs package vs ... (dependency, etc
+* imported
+* exported versu imported?
+* export
+* "downstream packages"
+
+"export" being a verb for "target"
+
+grammar?!
+
+"FindDependency" and "find_dependency" versus find_package()
+
 ## Ba mindful about:
 The compact-list of things to be always mindful about: dimensions.
 * is it config-time?
