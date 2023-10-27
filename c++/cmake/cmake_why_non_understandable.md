@@ -50,6 +50,10 @@ It says "The package name will be derived from the folder name (i.e. my_package)
 
 What? What about the project name? also: package.xml name? Also install forlder name? also: source (repo) name? target name? etc etc.
 
+be mindful about some specific name techniaues: (grdually populate. It may end up being useful)
+* variable: packagename_TARGETS
+* variable packagename_TARGETS
+
 ## Ba mindful about:
 The compact-list of things to be always mindful about: dimensions.
 * is it config-time?
@@ -89,6 +93,14 @@ This is actually helpful:
 Specific concepts:
 an export, an install, an archieve, etc.
 a directory.
+
+### Terminology: names that may be different:
+* Package
+* dependency
+* include
+* link (may include the includes too)
+    * Note cmake poetry
+
 
 ### Terminology: ...
 
