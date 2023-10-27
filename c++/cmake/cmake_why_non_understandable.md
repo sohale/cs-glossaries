@@ -56,6 +56,9 @@ be mindful about some specific name techniaues: (grdually populate. It may end u
 * directory ...
 * cmake filename: targetConfig.cmake targetTarget.cmake etc (is it target? or package? or export name? or what?)
 
+Also: the many uses of pkg_TARGETS ( `foreach(tgt IN LISTS pname_TARGETS)` or `target_link_libraries(pname_lib  PUBLIC ${std_msgs_TARGETS}` ).
+And why.
+
 Why for Cmake, we create a cmake folder? and why .cmake is used there only?
 
 ## Ba mindful about:
@@ -111,6 +114,10 @@ IMPORTED import, find, include, link
 
 also these terms:
 dependencies
+
+Is tt, a package name? a dependency? a ..
+
+Find some minimal terms. (re-term)
 
 #### Key question: Is it really not organised? or it is, and need to strive in learning them? (Key question helping in CMake world)
 
