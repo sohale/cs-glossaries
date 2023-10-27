@@ -13,7 +13,7 @@ Knowing these will help you out of labyrynth
 
 Main items:
 
-### Situation:
+### Situation: include-out vs include-in
 I want to add/correct the include files that are published
 
 
@@ -27,6 +27,9 @@ Specific names:
 Good point: touching points
 
 Direction: confusion about it: it is not clear you mean about includes that are "pulished by" targets you are creating, or "used by" them.
+
+The `target_include_directories` is for output.
+When you are looking for output, how do you know this is the right command? (See "Situation: include-out vs include-in")
 
 ## Factors
 Knowing htese may not work
