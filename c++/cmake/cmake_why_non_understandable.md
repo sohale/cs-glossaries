@@ -105,6 +105,11 @@ a directory.
 * link (may include the includes too)
     * Note cmake poetry
 
+LIBRARY_TARGET  (as in HAS_LIBRARY_TARGET)
+
+IMPORTED import, find, include, link
+
+#### Key question: Is it really not organised? or it is, and need to strive in learning them? (Key question helping in CMake world)
 
 ### Terminology: ...
 
