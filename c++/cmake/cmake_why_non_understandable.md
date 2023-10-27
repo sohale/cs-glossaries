@@ -65,6 +65,29 @@ example:
 * ... the inward dependencies of a target ...
 * ... export those dependencies outward ...
 
+### Table
+| Command | Inward/Outward | Link Files | Include Files | Other Notes |
+|---|---|---|---|---|
+| target_include_directories | Inward | No | Yes | Makes includes available for target usage |
+| target_link_libraries | Inward | Yes | No | Links libraries for target build |  
+| ament_target_dependencies | Outward | Yes | No | Declares dependencies for downstream packages |
+| ament_export_targets | Outward | Yes | No | Exports targets for downstream packages |
+| ament_export_include_directories | Outward | No | Yes | Exports include directories for downstream packages |
+| ament_export_libraries | Outward | Yes | No | Exports libraries for downstream packages |
+| ament_export_dependencies | Outward | No | No | Declares dependency packages for downstream use |
+
+To summarize:
+
+- Inward commands affect a target's build requirements
+- Outward commands affect what gets exported
+- **Link** vs **include** vs (other dependency types) handled differently
+
+This categorization helps decide whether a command handles inward dependencies for building a target vs outward dependencies for exporting from a package.
+
+### impossible cases
+target_link_directories
+target_include_libraries
+
 ### The many things at "EXPORT"
 ### The *Config.cmake
 The *Config.cmake and *Target.cmake.
