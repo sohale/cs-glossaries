@@ -184,6 +184,20 @@ Don't even mention the "run-time"!
 Specific table?
 target, include (not to include), directory
 
+### Some standardised full names that give clarity
+Use X instead of Y,Z, K
+
+* "top-level CMakeLists.txt". instead of ....
+* 
+But try not to be fooled by:
+...
+
+### Make bold cetrain verbal patterns
+Make it strong (reinforcement learning: increase V) that there have higher "operator precedence"
+* "Include directory"
+
+
+
 ## Unrelated take-away:
 Emerged (meta) or GIL-related terms & concepts:
 * "too specific"
@@ -198,3 +212,6 @@ Emerged (meta) or GIL-related terms & concepts:
 * side
 * names: same/matching? "pluggable": at touch-point. What do we call this pluggableness, matchin-ness? (synapse-ness?! grip?n not grip. match of impedance. no. match of washer/bolts, etc)
 * coming from (part of) names. "Inferring from names"
+* "verbal patterns". My systems of mocving from verbal-space to concepts etc. (inspired by Org-Lang, and Dilmaj: navigating in world-of-pool-of concepts using verbal-sequences)
+* operator precedence. reinforcing ceain atomic but compound phrases (Make it strong). PArenthesing. Also see: Grammar.
+* Grammar: "export" being a verb for "target"
