@@ -35,6 +35,8 @@ Always being mindful and aware about "where to take them from" versus "where to 
 
 Which commands does it apply?
 
+side, sidedness, from which side, etc.
+
 ### The many things at "EXPORT"
 ### The *Config.cmake
 The *Config.cmake and *Target.cmake.
@@ -110,3 +112,5 @@ Emerged (meta) or GIL-related terms & concepts:
 * the "tiers/locations?",  
 * Match, touch-point, inter-operatbility,  (target-touch-points). "touching point"s.
 * (lack of) concrete name: "include directory"es.
+
+* side
