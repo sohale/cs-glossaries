@@ -31,6 +31,15 @@ Direction: confusion about it: it is not clear you mean about includes that are 
 The `target_include_directories` is for output.
 When you are looking for output, how do you know this is the right command? (See "Situation: include-out vs include-in")
 
+## Not knowing
+#### Not knowing what is the difference between `conan` and CMake
+#### Not knowing what is the4 difference between CMake and `make`
+
+Why do they insist on using `make`?
+What does the `make` bring?
+How does the `make` determine the CMake lingo?
+
+
 ## Factors
 Knowing they may not help you find your way when you are lost. But good to know when you are learning and to keep the spirit.
 
