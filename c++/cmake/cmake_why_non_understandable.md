@@ -121,10 +121,27 @@ Is tt, a package name? a dependency? a ..
 
 Find some minimal terms. (re-term)
 
+pname_VERSION
+
+#### coming from name suffixes
+When you see `whatwhatwhat_FOUND`, should you expect whatwhatwhat to be a what? Inferring from names.
+Each item:
+* The `whatwhatwhat_FOUND`
+* The `whatwhatwhat_PACKAGE`
+* The `whatwhatwhat_TARGET`
+Less important ones:
+* The `WHAT_DEPENDENCIES`
+* The `WHAT_LIBRARIES`
+* The `WHAT_INCLUDE_DIRS`
+Also see "'coming from' names: main named directory names"
+
 #### Key question: Is it really not organised? or it is, and need to strive in learning them? (Key question helping in CMake world)
 
 In CMake-world and CMake-land,  certain things discourses exist... (and assumptions, and ta'assob, and bikhiali: tasamoh )
 
+### 'coming from' names: main named directory names
+* `CMAKE_CURRENT_LIST_FILE`
+* 
 ### Terminology: ...
 
 Multi-pass: Config time separate from make time and from compile time
@@ -149,3 +166,4 @@ Emerged (meta) or GIL-related terms & concepts:
 * (lack of) concrete name: "include directory"es.
 * side
 * names: same/matching? "pluggable": at touch-point. What do we call this pluggableness, matchin-ness? (synapse-ness?! grip?n not grip. match of impedance. no. match of washer/bolts, etc)
+* coming from (part of) names. "Inferring from names"
