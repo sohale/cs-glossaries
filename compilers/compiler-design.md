@@ -7,12 +7,12 @@ Undergraduate
 Course Topics:
 * Lexical Analysis
 * Finite automata
- Top-down Parsing
- Bottom-up Parsing
- Semantic Analysis
- Code Generation
- Local Optimization
- Global Optimization
+* Top-down Parsing
+* Bottom-up Parsing
+* Semantic Analysis
+* Code Generation
+* Local Optimization
+* Global Optimization
 
 
 
