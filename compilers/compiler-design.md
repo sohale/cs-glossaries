@@ -6,16 +6,19 @@ Undergraduate
 
 * Undergraduate course topics: [c1]
    * Lexical Analysis  [c1]
-   * Finite automata  [c1]
+   * Finite automata
    * Top-down Parsing  [c1]
       * LR(1): including SLR(1), LALR(1), CLR(1)   [c2]
    * Bottom-up Parsing  [c1]
-   * Semantic Analysis  [c1]
+   * Semantic Analysis
       * .
    * Symbol table [c2]
-   * Code Generation  [c1]
-   * Local Optimization  [c1]
-   * Global Optimization  [c1]
+   * Code Generation
+   * Optimisation
+      * Local Optimization  [c1]
+      * Global Optimization  [c1]
+   * Run-time memory allocation [c2]
+   * Compiler generation (Automated) [c2]
 
 ### Advanced Compiler Design (MSc-level)
 
