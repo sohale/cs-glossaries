@@ -35,6 +35,7 @@ Techniques, and Tools, 2nd Edition, Pearson, 2007.
 * [r2]  Douglas Thain, Introduction to Compilers and Language Design,
 2nd Edition, 2020, downloadable from http://compilerbook.org.
  [r3] Keith D. Cooper, and Linda Torczon, Engineering a Compiler, 2nd Edition, Elsevier, 2012.
+* [r4] D. Grune, H. Bal, C. Jacobs, K.Langendoen, Modern Compiler Design. John Wiley & Sons, 2000.
 
 
 
@@ -43,4 +44,4 @@ Techniques, and Tools, 2nd Edition, Pearson, 2007.
 Readings: [r1] [r2] [r3].
 
 [2] [c2] UI :: CE :: Syllabus :: [Compilers](https://www.ui.ac.ir/Dorsapax/userfiles/Sub16/Syasatgozari%20Dorous/Engineer/Computer/BS_Computer.pdf).
-
+Readings: [r1] [r4]
