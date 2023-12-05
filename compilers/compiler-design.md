@@ -4,16 +4,17 @@
 ### Compiler Design (BSc-level)
 Undergraduate
 
-Course Topics:
-* Lexical Analysis
-* Finite automata
-* Top-down Parsing
-* Bottom-up Parsing
-* Semantic Analysis
-* Code Generation
-* Local Optimization
-* Global Optimization
+* Undergraduate course topics: [c1]
+   * Lexical Analysis
+   * Finite automata
+   * Top-down Parsing
+   * Bottom-up Parsing
+   * Semantic Analysis
+   * Code Generation
+   * Local Optimization
+   * Global Optimization
 
+### Advanced Compiler Design (MSc-level)
 
 
 
@@ -32,5 +33,5 @@ Techniques, and Tools, 2nd Edition, Pearson, 2007.
 
 
 ## meta-sources: courses
-[1]  [s1] AUT/AKU :: Computer Science (Math. dept) :: Compiler I   [from](https://math.aut.ac.ir/files/math/files/Bsc/ComputerSciences/Program_in_English/Compiler.pdf).
+[1]  [c1] AUT/AKU :: Computer Science (Math. dept) :: Compiler I   [from](https://math.aut.ac.ir/files/math/files/Bsc/ComputerSciences/Program_in_English/Compiler.pdf).
 Readings: [r1] [r2] [r3].
