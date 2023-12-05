@@ -30,16 +30,15 @@ Undergraduate
 (from courses)
 
 Reading Resources:
-* [r1]  Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman, Compilers: Principles,
-Techniques, and Tools, 2nd Edition, Pearson, 2007.
-* [r2]  Douglas Thain, Introduction to Compilers and Language Design,
-2nd Edition, 2020, downloadable from http://compilerbook.org.
- [r3] Keith D. Cooper, and Linda Torczon, Engineering a Compiler, 2nd Edition, Elsevier, 2012.
+* [r1]  Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman, Compilers: Principles, Techniques, and Tools, 2nd Edition, Pearson, 2007.
+* [r2] Douglas Thain, Introduction to Compilers and Language Design, 2nd Edition, 2020, downloadable from http://compilerbook.org.
+* [r3] Keith D. Cooper, and Linda Torczon, Engineering a Compiler, 2nd Edition, Elsevier, 2012.
 * [r4] D. Grune, H. Bal, C. Jacobs, K.Langendoen, Modern Compiler Design. John Wiley & Sons, 2000.
 
 
 
-## meta-sources: courses
+## Courses and Lecture notes
+Meta-sources for this: Lecture notes, syllabuses
 [1]  [c1] AUT/AKU :: Computer Science (Math. dept) :: Compiler I   [from](https://math.aut.ac.ir/files/math/files/Bsc/ComputerSciences/Program_in_English/Compiler.pdf).
 Readings: [r1] [r2] [r3].
 
