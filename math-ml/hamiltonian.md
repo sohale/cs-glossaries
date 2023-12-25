@@ -38,6 +38,17 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
             * "antiderivatives" expressed using an analytical formula?
             *  and evaluating constants of integration from initial data
         * Lack of symmetries, invariants
+            * Symmetries of Dynamical Systems:
+                * "Transformations under which the form of the differential equations is unchanged"
+                * Each implies the existence of conserved quantities
+                    * (Each invariant, derives one quantity(?). not sure)
+                * Using Noether's theorem we can derive them(?)
+                * Each invariant is a "scalar" quantity
+                    * preserved along the trajectory (e.g. (?) defined per time point f(t) rather than as a function of the trajectory (as a function of the "functional"s?)
+                    * Both Hamiltonian functions and Lyapunov functions are such?
+                    * Each symmetry or invariant can point to deeper mathematical structures
+                    * Invariants may derive from symmetries
+                    * Invariants may also not derive from symmetries, and be "verifiable relations between state variables"
 
     * The so-called "complex forces": related to chaotic, non-integrable equations (still can be solved numerically) and are deterministic
 * How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
