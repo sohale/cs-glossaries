@@ -163,6 +163,8 @@ Is one invariant enough?
               * transforms the energy representation: *L(,)* → *H(,)*
               * variables: *(q̇,q)* → *(p,q)*
 
+#### Legendre Transform: The user manual
+
 ### Level 8: Something volume of which
 * is preserved
 * is entropy
