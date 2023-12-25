@@ -147,6 +147,7 @@ Is one invariant enough?
        * `Q:` Aren't *p_i* those momenta in Hamiltonian notation already? if so, why do we need Legendre transform?
            * `A:` Yes. In Lagrangian, "p_i = ∂L/∂q̇_i appear implicitly"
            * But in Hamiltonian, they are the main (Church-Lambda-like) variables *H(p,q)*. (?check)
+           * The Legendre Transform, constructs the `H` function itself: *H(p,q)*.
 
 ### Level 8: Something volume of which
 * is preserved
