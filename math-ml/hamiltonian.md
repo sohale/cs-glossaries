@@ -33,6 +33,12 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
         * constraints
             * constraints reduce dimensions to lower
             * "coordinate-independent kinetic energy" + "potential energy"
+            
+        * Mathematical "integrability" =
+            * "antiderivatives" expressed using an analytical formula?
+            *  and evaluating constants of integration from initial data
+        * Lack of symmetries, invariants
+
     * The so-called "complex forces": related to chaotic, non-integrable equations (still can be solved numerically) and are deterministic
 * How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
 * What turns `-` to `+`?
