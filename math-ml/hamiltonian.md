@@ -28,6 +28,11 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
     * "Stored" in position/configuration, not stored in (as?) motion
     * There is the possibility of "transfer" between them
     * Holonomic forces and "integrability conditions"
+    * On "integrability conditions":
+        * Existence of antiderivatives (and constants of integration)
+        * constraints
+            * constraints reduce dimensions to lower
+            * "coordinate-independent kinetic energy" + "potential energy"
 * How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
 * What turns `-` to `+`?
 
