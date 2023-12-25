@@ -144,6 +144,9 @@ Is one invariant enough?
    * "Knowing all *p_i*'s and *q_i*'s" fully specifies the state of the system"
    * Also knowing *(q̇_i, q_i)*'s?
    * "Hamilton's equations use *(q, p)* pairs to represent evolution"
+       * `Q:` Aren't *p_i* those momenta in Hamiltonian notation already? if so, why do we need Legendre transform?
+           * `A:` Yes. In Lagrangian, "p_i = ∂L/∂q̇_i appear implicitly"
+           * But in Hamiltonian, they are the main (Church-Lambda-like) variables *H(p,q)*. (?check)
 
 ### Level 8: Something volume of which
 * is preserved
