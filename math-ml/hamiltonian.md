@@ -243,6 +243,9 @@ o
     * Why *F(f'(x))* ?
         * in: *F(f'(x))=xf'(x)−f(x)*
     * Exchanges variables *x* and *f'(x)* 💡
+        * Using integration-like steps (??)
+    * "leverages" the following, to "flip representations"
+        * "the innate duality between differentiation"
 
 ### Level 8: Something volume of which
 * is preserved
