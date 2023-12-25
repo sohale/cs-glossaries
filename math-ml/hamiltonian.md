@@ -103,6 +103,21 @@ How Hamiltonian Quantum formalism is
 
 Did Schrödinger inspire to poularise use of Hamiltonian?
 
+
+### Level 15: Bag of energy-like quantities
+Bag of energy-like quantities:
+* Free Energy
+* Total Energy
+* Hamiltonian (classical)
+* Hamiltonian (Quantum)
+* Lagrangian
+* Lyapunov! (engineering)
+* Devising a Hamiltonian: continuous in statistical model (state-space) for sampling etc
+* Devising a Hamiltonian as HJ in control
+* Devising a Hamiltonian for discrete (discrete protein folding on grid points)
+* Potential functions ("thermodynamic potentials")
+* Field equations / Field theories (not sure)
+
 ## Many routes
 * Symplectic
 * Lagrangian story (also the "Action" story)
