@@ -177,6 +177,7 @@ o
    * to construct an alternative "explicit formulation" *F(p)*
    * The `p`, "those derivative quantities",
    * We want to make those p, as variables themselves
+   * The new function F should be in terms of those variables explicitly, (and what else?)
 
 ### Level 8: Something volume of which
 * is preserved
