@@ -95,6 +95,8 @@ How Hamiltonian Quantum formalism is
 * Inspired classical mechanics (classical Hamiltonian)
 * Is inspired by classical mechanics (classical Hamiltonian)
 
+Did Schrödinger inspire to poularise use of Hamiltonian?
+
 ## Many routes
 * Symplectic
 * Lagrangian story (also the "Action" story)
