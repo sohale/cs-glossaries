@@ -164,6 +164,10 @@ Is one invariant enough?
               * variables: *(q̇,q)* → *(p,q)*
 
 #### Legendre Transform: The user manual
+LT is:
+* A bijection that fundamentally exchanges variables for the other variables
+* Those quantities (variables) their conjugate dual quantities (variables)
+* from one formulation of a problem to a dual "formulation" ("representation of problem")
 
 ### Level 8: Something volume of which
 * is preserved
