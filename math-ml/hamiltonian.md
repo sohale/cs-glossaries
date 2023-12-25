@@ -114,7 +114,7 @@ Is one invariant enough?
 * A key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
      * Then, "we can transform to reduced coordinates"
      * That, then, will not be a "true Degrees of Freedom" (We have a set of "true DoF"s)
-     * It provides a set of "reduces dimensions",
+     * It provides a set of "reduced dimensions",
      * It provides "reduced coordinate frames" ("remaining degrees of freedom") -- which *may* "have closed form equations"
 
 generalized velocities are not momenta generalized momenta
