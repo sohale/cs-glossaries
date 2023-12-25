@@ -247,6 +247,55 @@ o
     * "leverages" the following, to "flip representations"
         * "the innate duality between differentiation"
 
+Note:
+* Taking the derivative df/dx "generates" some new piece of information
+* new information = arg = input = new explicit variable = Churchian-Lambda
+
+Ancillary ( in general context):
+
+* "ancillary" ( = supplementary) = opposite of "central"
+* ancillary variable = supplementary variable
+* ancillary variable = not central (to the primary formulation)
+    * central-ness: (in the primary formulation)
+* "Ancillary", in general
+    * refers to something that provides
+         * supplementary support
+         * information,
+         * or service
+    * to aid with
+        * understanding
+        * or analyzing a problem
+    * but is not part of the
+        * main ideas,
+        * main objects,
+        * or main computations
+* Ancillary objects
+        * are additional structures
+        * enrich analysis
+        * (but) are not central formulations
+        * are not "variables in their own right"
+
+Example Ancillary objects: that help motivate arguments:
+        * utility functions,
+        * test metrics,
+        * intermediate lemmas
+
+* Ancillary objects: help motivate arguments
+* Ancillary objects: Useful but secondary in nature
+* Ancillary objects: Contrasts with principal objects
+* Ancillary objects: Contrasts with primary objects
+      * Example principal/primary objects:
+          * core variables
+          * main equations
+          * central theorems, being communicated or proven
+
+* Ancillary
+    * = Supplementary, secondary in focus or use
+    * Plays a supporting role to core mathematical constructs
+    * Non-vital
+    * but provides assets in analysis and comprehension
+
+
 ### Level 8: Something volume of which
 * is preserved
 * is entropy
