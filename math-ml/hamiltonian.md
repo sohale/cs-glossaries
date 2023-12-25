@@ -169,6 +169,12 @@ LT is:
 * Those quantities (variables) their conjugate dual quantities (variables)
 * from one formulation of a problem to a dual "formulation" ("representation of problem")
 
+o
+   * We have an "implicit function formulation *f(x)*"
+   * taking derivatives df/dx "reveals extra information" (!) (*df/dx*)
+   * "You want to construct"
+   * to construct an alternative "explicit formulation" *F(p)*
+
 ### Level 8: Something volume of which
 * is preserved
 * is entropy
