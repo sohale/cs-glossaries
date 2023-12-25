@@ -148,6 +148,9 @@ Is one invariant enough?
            * `A:` Yes. In Lagrangian, "p_i = ∂L/∂q̇_i appear implicitly"
            * But in Hamiltonian, they are the main (Church-Lambda-like) variables *H(p,q)*. (?check)
            * The Legendre Transform, constructs the `H` function itself: *H(p,q)*.
+           * That is, energies in terms of
+           * So, it is about "the variables" (the explicit variables) (the choice of variables that are considered as explicit input: literally "variable" (versus function)).
+           * It is about "representation" (that is, "explicit": It matters what is explicit. Both in terms of H or L, and its chosen Church-Lambda s!).
 
 ### Level 8: Something volume of which
 * is preserved
