@@ -115,6 +115,7 @@ Which can be categorised into these disciplines/paradigms:
     * Statistical modelling: (Amari)
     * MCMC
         * "State-space" methods
+* Thermodynamics! (note: Conjugate variables in thermodynamics)
 * Physical problem solving (applied): Physics engine and Universal problem-solving in Engineering approaches to Physics
 * Group theory (Algebra)
 * Control theory
