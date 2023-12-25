@@ -117,7 +117,8 @@ Is one invariant enough?
      * It provides a set of "reduced dimensions",
      * It provides "reduced coordinate frames" ("remaining degrees of freedom") -- which *may* "have closed form equations"
 
-generalized velocities are not momenta generalized momenta
+* generalized velocities are not momenta generalized momenta
+    * generalized velocities `:=` time-derivatives of the coordinates.
 
 ### Level 8: Something volume of which
 * is preserved
