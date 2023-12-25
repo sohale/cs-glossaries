@@ -27,6 +27,7 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
     * Work done by "conservative forces", versus Work done by "kinetic forces".
     * "Stored" in position/configuration, not stored in (as?) motion
     * There is the possibility of "transfer" between them
+    * Holonomic forces and "integrability conditions"
 * How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
 * What turns `-` to `+`?
 
