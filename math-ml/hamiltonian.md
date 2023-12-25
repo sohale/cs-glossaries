@@ -155,6 +155,9 @@ Is one invariant enough?
            * Explicitness is also about both.
            * But the solution of them that is numerically implemented in a system may not be? even if Hamiltonian is used to derive it, it may not be Hamiltonian? not sure. (In terms of programming types, variables, args, functions, function calls)
            * Nice term: "expressed explicitly"
+           * A "point of view": a Lagrangian point of view versus a Hamiltonian view
+           * "direct", "direct use": Using q's and p's "directly", etc.
+           * Transforming the point of view (e.g. "Legendre" here(?))
 
 ### Level 8: Something volume of which
 * is preserved
