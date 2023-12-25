@@ -170,6 +170,8 @@ The Legendre procedure
 * new ones become "primary variables"
 * now we have a new domain: we call it a co-domain ("the transformed co-domain")
 
+More vocabulary:
+
 Terms:
 * "derivable ancillary information" = ?
 * "produces" H
@@ -180,6 +182,22 @@ Terms:
 * "central variables"
 * being "variables in their own right"
 * "derivative quantities" --->  now promoted to --> "central variables in their own right"
+
+#### On Transfomrations
+On term "co-domain":
+In general, when we do a Transform, we change the "domain". Hence, we have a co-domain.
+
+More vocabulary:
+
+"Swapping" the variable x with y. Or swapping the "role" of variables x (as a domain?) and its derivative p. (role here, means being explicitly a Churchiuan-Lambda ness?)
+
+"recovered" (when in dual, we recover the original one from the transformed one; after all, it is a "bijection"
+
+A "bijection" implies a "duality"?
+
+The term "bidual":
+
+
 
 #### Legendre Transform: The user manual
 LT is:
