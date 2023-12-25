@@ -32,6 +32,9 @@ Relation between Hamiltonian and Energy (Also note the historical precedence)
 
 ### Level 5: Sampling: as an extension to MCMC
 
+* Q: But isn't Hamiltonian about a continuous-time (at least connected-path) trajectories and ODEs? But MCMC should give points apart.
+* A:
+
 ### Level 6: Simple 1st-order ODEs (Extention to Lagrangian)
 
 ### Level 7: Natural momentum (Extention to Lagrangian)
