@@ -151,6 +151,7 @@ Is one invariant enough?
            * That is, energies in terms of
            * So, it is about "the variables" (the explicit variables) (the choice of variables that are considered as explicit input: literally "variable" (versus function)).
            * It is about "representation" (that is, "explicit": It matters what is explicit. Both in terms of H or L, and its chosen Church-Lambda s!).
+           * Representation is about the energy-like function (H or L) as well as the variables (in the sense of Churchian-Lambda)
 
 ### Level 8: Something volume of which
 * is preserved
