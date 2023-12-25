@@ -154,6 +154,7 @@ Is one invariant enough?
            * "Representation" is about the energy-like function (H or L) as well as the variables (in the sense of Churchian-Lambda)
            * Explicitness is also about both.
            * But the solution of them that is numerically implemented in a system may not be? even if Hamiltonian is used to derive it, it may not be Hamiltonian? not sure. (In terms of programming types, variables, args, functions, function calls)
+           * Nice term: "expressed explicitly"
 
 ### Level 8: Something volume of which
 * is preserved
