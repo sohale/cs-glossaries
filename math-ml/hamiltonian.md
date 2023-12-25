@@ -33,6 +33,7 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
         * constraints
             * constraints reduce dimensions to lower
             * "coordinate-independent kinetic energy" + "potential energy"
+    * The so-called "complex forces": related to chaos, 
 * How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
 * What turns `-` to `+`?
 
