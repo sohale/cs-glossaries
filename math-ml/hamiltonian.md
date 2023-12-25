@@ -172,8 +172,11 @@ LT is:
 o
    * We have an "implicit function formulation *f(x)*"
    * taking derivatives df/dx "reveals extra information" (!) (*df/dx*)
+   * Are quantities (information), call them `p`
    * "You want to construct"
    * to construct an alternative "explicit formulation" *F(p)*
+   * The `p`, "those derivative quantities",
+   * We want to make those p, as variables themselves
 
 ### Level 8: Something volume of which
 * is preserved
