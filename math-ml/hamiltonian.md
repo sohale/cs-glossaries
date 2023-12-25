@@ -158,6 +158,10 @@ Is one invariant enough?
            * A "point of view": a Lagrangian point of view versus a Hamiltonian view
            * "direct", "direct use": Using q's and p's "directly", etc.
            * Transforming the point of view (e.g. "Legendre" here(?))
+           * So Legendre transform ( *L(q̇,q)* → *H(p,q)* ) does three things:
+              * makes the momenta explicit: *p:=*, i.e. *p* from q̇,q
+              * transforms the energy representation: *L(,)* → *H(,)*
+              * variables: *(q̇,q)* → *(p,q)*
 
 ### Level 8: Something volume of which
 * is preserved
