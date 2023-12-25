@@ -93,7 +93,8 @@ HJ in control theory.
 * Amari's route (see Legendre): "Statistical modelling"
 * MCMC ("Statistical modelling")
 
-## Questions never-ending
+## Questions never-ending, every flowing
+every flowing, like Vivaldi's winter, and like Heraclitus's man and the river (The logos as invariants)
 
 Questions that every time asked, bring a breath of freshness, don't cease to bring about new insights.
 
