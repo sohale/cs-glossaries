@@ -18,6 +18,14 @@ As commonly used in high school physics
 
 Relation between Hamiltonian and Energy (Also note the historical precedence)
 
+Hamiltonian in timeline of concepts of Energy
+
+#### Energy ...
+* What makes an energy potential? What makes it kinetic? (In a more abstract way than specifically Newtonian formulas)
+* How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
+* What turns `-` to `+`?
+
+Is Hamiltonian preserved in case of friction? also dissipative systems? (adiabatic)
 
 ### Level 2: As used in Schrodinger Equation
 
