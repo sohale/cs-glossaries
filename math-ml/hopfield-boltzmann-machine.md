@@ -25,3 +25,6 @@ legend: ✔✘  ✗✓
 also: ☑   ✓   ✔      √.   ☒   ☐   ✕      💯.   ✗   ✘   ✖
 
 DBN: DeepBeliefNets
+
+### Also see
+* See Lyapunov function
