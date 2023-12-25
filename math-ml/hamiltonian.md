@@ -48,6 +48,9 @@ Liouville's theorem (Hamiltonian): (Quote: )
 
 * "the density of system points in the vicinity of a given system point travelling through phase-space", "is constant with time".
 
+### Level 10: Is Action Integral more natural, or Hamiltonian?
+or both are the same?
+
 ## Questions never-ending
 
 Questions that every time asked, bring a breath of freshness, don't cease to bring about new insights.
@@ -57,3 +60,5 @@ Questions that every time asked, bring a breath of freshness, don't cease to bri
 * Is it scalar or vector? (Classical versus Quantum)
 * Why phase-space preserves volume?
 * Relation with Entropy
+* Is Liouville's theorem necessary toi bring about Hamiltonian from Lagrangian?
+* 
