@@ -23,7 +23,9 @@ Relation between Hamiltonian and Energy (Also note the historical precedence)
 ### Level 4: Legendre transform on Lagrangian (Extention to Lagrangian)
 
 * Why preferred over Lagrangian? Certainly not just convenience. It is also more natural.
-* Why adding `uv`  (px or vx) does that?
+* Why does adding `uv`  (px or vx) do that?
+
+* Hamiltonian versus Lagrangian: are they duals? What else could be there is that tier?
 
 ### Level 5: Sampling: as an extension to MCMC
 
@@ -85,10 +87,11 @@ HJ in control theory.
 * Symplectic
 * Lagrangian story (also the "Action" story)
 * E+-V versus E+V story (action integral story)
-* THe universal problem solver story (Lagrangian or Hamiltonian?)
+* The universal problem solver story (Lagrangian or Hamiltonian? what else?)
 * Hamiltonian as invariant
 * Hamiltonian emerging from Noether's theorem
-
+* Amari's route (see Legendre): "Statistical modelling"
+* MCMC ("Statistical modelling")
 
 ## Questions never-ending
 
