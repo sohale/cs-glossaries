@@ -110,17 +110,22 @@ Is one invariant enough?
 * Lagriangian is about  generalized coordinates, and
 * Hamiltonian is about ...
 
-#### " ignorable coordinates"
+#### "Ignorable coordinates"
 * A key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
      * Then, "we can transform to reduced coordinates"
      * That, then, will not be a "true Degrees of Freedom" (We have a set of "true DoF"s)
      * It provides a set of "reduced dimensions",
      * It provides "reduced coordinate frames" ("remaining degrees of freedom") -- which *may* "have closed form equations"
 
+#### Generalised Momenta
 * generalized velocities are not momenta generalized momenta
     * generalized velocities `:=` time-derivatives of the coordinates = q̇
         * (note the dot `q̇` )
     * conjugate momenta:= ∂L/∂q̇_i
+
+
+
+
 
 ### Level 8: Something volume of which
 * is preserved
