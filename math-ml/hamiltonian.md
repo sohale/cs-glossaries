@@ -78,7 +78,11 @@ Is Hamiltonian preserved in case of friction? also dissipative systems? (adiabat
 * Q: But isn't Hamiltonian about continuous-time (at least connected-path) trajectories and ODEs? But MCMC should give points apart.
 * A:
 
-### Level 6: Simple 1st-order ODEs (Extention to Lagrangian)
+
+### Level 6.2: Simple 1st-order ODEs (Extention to Lagrangian)
+
+
+(See below: 7.2: Nature of Hamiltonian versus Lagrangian)
 
 ### Level 7: Natural momentum (Extention to Lagrangian)
 Emergence of Momentum.
@@ -100,6 +104,10 @@ What are other invariants?
 Is one invariant enough?
 
 #### Relation between Hamiltonian and Free Energy (see "Liouville" below)
+
+### Level 7.2: Nature of Hamiltonian versus Lagrangian
+* Lagriangian is about  generalized coordinates, and
+* Hamiltonian is about ...
 
 ### Level 8: Something volume of which
 * is preserved
