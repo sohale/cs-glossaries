@@ -1,6 +1,6 @@
 # What is Hamiltonian
 
-My levels and layers of understanding Hamiltonian
+My levels and layers of understanding of Hamiltonian,
 in historical order
 
 #### Also see
