@@ -104,6 +104,10 @@ What are other invariants?
 
 Is one invariant enough?
 
+
+
+
+
 #### Relation between Hamiltonian and Free Energy (see "Liouville" below)
 
 ### Level 7.2: Nature of Hamiltonian versus Lagrangian
@@ -127,6 +131,7 @@ Is one invariant enough?
     * = ∂L/∂q̇_i
     * generalized momentum is the partial derivative of the Lagrangian with respect to the corresponding generalized velocity q̇i
 
+* Correspondence between: q_i ↔ q̇_i ↔ p_i
 
 
 
