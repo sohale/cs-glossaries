@@ -11,7 +11,8 @@ https://github.com/sohale/cs-glossaries/blob/0035683d5cdd2bafa0e325222f29c5b17e1
 ### Level 1: Energy: E+V
 Simply, kinetic plus potential energy.
 
-(Lagrangian, is not "total energy"(?))
+* (Lagrangian, is not "total energy"(?))
+* If Lagriangian is there to leverage( literally and metaphorically) the "Lagrange multipliers", can we still utilise them in Hamiltonian formulations?
 
 As commonly used in high school physics
 
