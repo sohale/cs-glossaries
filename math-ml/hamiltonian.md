@@ -118,11 +118,14 @@ Is one invariant enough?
      * It provides "reduced coordinate frames" ("remaining degrees of freedom") -- which *may* "have closed form equations"
 
 #### Generalised Momenta
-* generalized velocities are not momenta generalized momenta
+* generalized velocities are not momenta "generalized momenta"
     * generalized velocities `:=` time-derivatives of the coordinates = q̇
         * (note the dot `q̇` )
     * conjugate momenta:= ∂L/∂q̇_i
 
+* "generalized momentum" = pi
+    * = ∂L/∂q̇_i
+    * generalized momentum is the partial derivative of the Lagrangian with respect to the corresponding generalized velocity q̇i
 
 
 
