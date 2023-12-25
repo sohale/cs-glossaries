@@ -28,7 +28,7 @@ Emergence of Momentum.
 
 Lagrangian assumes x-dot to be the momentum.
 
-A natural extension of `F=ma` where right hand side is d/dt of momentum.
+A natural extension of `F=ma` where right-hand side is d/dt of momentum.
 
 How the "Natural momentum" view (paradigm) is related to the Noether theorem
 
