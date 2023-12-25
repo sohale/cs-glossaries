@@ -93,6 +93,12 @@ HJ in control theory.
 * Amari's route (see Legendre): "Statistical modelling"
 * MCMC ("Statistical modelling")
 
+Which can be categories in disciplines/paradisms:
+* Probability (Stat. Mech) (Stat modelling)
+* Physical problem solving (applied)
+* Group theory (Algebra)
+* Control theory
+
 ## Questions never-ending, every flowing
 every flowing, like Vivaldi's winter, and like Heraclitus's man and the river (The logos as invariants)
 
