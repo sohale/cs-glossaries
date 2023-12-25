@@ -28,4 +28,11 @@ Emergence of Momentum.
 
 Lagrangian assumes x-dot to be the momentum.
 
-A natural exnention of `F=ma` where right hand side is d/dt of momentum.
+A natural extension of `F=ma` where right hand side is d/dt of momentum.
+
+## Questions never-ending
+
+Questions that every time asked, bring a breath of freshness, don't cease to bring about new insights.
+
+* How Hamiltonian is related to Legendre transform? (in both ways) (See math-ml/Legendre-transform.md)
+* 
