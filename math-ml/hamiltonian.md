@@ -170,6 +170,17 @@ The Legendre procedure
 * new ones become "primary variables"
 * now we have a new domain: we call it a co-domain ("the transformed co-domain")
 
+Terms:
+* "derivable ancillary information" = ?
+* "produces" H
+* "coins a new representation"
+* "formulation", "expressed explicitly"
+* around-ness(!): "expressed explicitly around the momentum quantities directly"
+* "leverages intrinsic mathematical duality" = (?)
+* "central variables"
+* being "variables in their own right"
+* "derivative quantities" --->  now promoted to --> "central variables in their own right"
+
 #### Legendre Transform: The user manual
 LT is:
 * A bijection that fundamentally exchanges variables for the other variables
