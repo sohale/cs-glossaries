@@ -86,7 +86,7 @@ where the phase space of certain classical systems takes on the structure of a "
 
 ### Level 12: (reserved)
 
-### HJ formulation (beyond "mechanics")
+### Level 13: HJ formulation (beyond "mechanics")
 HJ in control theory.
 
 ### Level 14: Hamiltonian Quantum formalism
