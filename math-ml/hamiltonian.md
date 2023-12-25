@@ -11,6 +11,8 @@ https://github.com/sohale/cs-glossaries/blob/0035683d5cdd2bafa0e325222f29c5b17e1
 ### Level 1: Energy: E+V
 Simply, kinetic plus potential energy.
 
+(Lagrangian, is not "total energy"(?))
+
 As commonly used in high school physics
 
 Relation between Hamiltonian and Energy (Also note the historical precedence)
