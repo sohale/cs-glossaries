@@ -67,7 +67,7 @@ Is Hamiltonian preserved in case of friction? also dissipative systems? (adiabat
 * Why preferred over Lagrangian? Certainly not just convenience. It is also more natural.
 * Why does adding `uv`  (px or vx) do that?
 
-* Hamiltonian versus Lagrangian: are they duals? What else could be there is that tier?
+* Hamiltonian versus Lagrangian: are they duals? What else could be there in that tier?
 
 * See Conjugate variables in thermodynamics (related to Legendre transform)
 
