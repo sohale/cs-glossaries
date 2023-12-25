@@ -50,7 +50,7 @@ How the "Natural momentum" view (paradigm) is related to the Noether theorem
 ( Quote: "The Noether theorem connecting symmetries and conservation laws can be applied directly in a Hamiltonian framework without using any intermediate Lagrangian formulation")
 
 #### As invariant
-Following Noether: "As invariant"
+Following Emmy Noether: "As invariant"
 
 What are other invariants? 
 
@@ -72,6 +72,8 @@ Liouville's theorem (Hamiltonian): (Quote: )
 
 * "the density of system points in the vicinity of a given system point travelling through phase-space", "is constant with time".
 
+What do we still have without "Liouville's theorem"? Do we have Hamiltonian without the property of "Liouville's theorem"? e.g. indiscrete. or: Isn't Legendre enough?
+Would it otherwise have been natural? useful? etc
 
 #### Relation between Hamiltonian and Free Energ"ies"
 
