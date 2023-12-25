@@ -49,6 +49,7 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
                     * Each symmetry or invariant can point to deeper mathematical structures
                     * Invariants may derive from symmetries
                     * Invariants may also not derive from symmetries, and be "verifiable relations between state variables"
+            * For more, see "Level 7.2: Nature of Hamiltonian versus Lagrangian"
 
     * The so-called "complex forces": related to chaotic, non-integrable equations (still can be solved numerically) and are deterministic
 * How do we know which one to subtract when we calculate Lagrangian? (in terms of what forces. Also the third case)
