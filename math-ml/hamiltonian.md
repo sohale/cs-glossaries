@@ -195,6 +195,8 @@ More vocabulary:
 
 A "bijection" implies a "duality"?
 
+Usually we use astrix `*` in duality: f ⟶ f* → f** = f
+
 The term "bidual":
 
 
