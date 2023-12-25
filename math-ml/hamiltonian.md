@@ -41,6 +41,12 @@ Its relation to natural-ness of phase-space.
 
 A natural way of parametrising phase space (also see: "natural momentum")
 
+# Level 9: Liouville's theorem's route
+
+Liouville's theorem (Hamiltonian): (Quote: )
+* "The phase-space distribution function is constant along the trajectories of the system", "is constant with time".
+
+* "the density of system points in the vicinity of a given system point travelling through phase-space", "is constant with time".
 
 ## Questions never-ending
 
