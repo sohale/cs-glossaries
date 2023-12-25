@@ -19,6 +19,9 @@ As commonly used in high school physics
 
 ### Level 4: Legendre transform on Lagrangian (Extention to Lagrangian)
 
+* Why preferred over Lagrangian? Certainly not just convenience. It is also more natural.
+* Why adding `uv`  (px or vx) does that?
+
 ### Level 5: Sampling: as an extension to MCMC
 
 ### Level 6: Simple 1st-order ODEs (Extention to Lagrangian)
@@ -57,11 +60,17 @@ Symplectic geometry (and Symplectic Group) "has its origins in the Hamiltonian f
 where the phase space of certain classical systems takes on the structure of a "symplectic manifold".
 
 
+### Level 12: (reserved)
+
+### HJ formulation (beyond "mechanics")
+
 ## Many routes
 * Symplectic
-* Lagrangian story
+* Lagrangian story (also the "Action" story)
 * E+-V versus E+V story (action integral story)
+* THe universal problem solver story (Lagrangian or Hamiltonian?)
 * Hamiltonian as invariant
+* Hamiltonian emerging from Noether's theorem
 
 
 ## Questions never-ending
