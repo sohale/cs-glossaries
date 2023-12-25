@@ -115,6 +115,9 @@ Is one invariant enough?
 * Lagriangian is about  generalized coordinates, and
 * Hamiltonian is about ...
 
+##### Some Lagrangian concepts
+* configuration-ness: *q_i*
+
 #### "Ignorable coordinates"
 * A key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
      * Then, "we can transform to reduced coordinates"
@@ -135,6 +138,7 @@ Is one invariant enough?
 * Correspondence between: q_i ↔ q̇_i ↔ p_i
     * Hence, are called "conjugates" (q_i ↔ p_i) 
 
+* Are not *p_i* those momenta in Hamiltonian notation already? if so, why do we need Legendre transform?
 
 
 ### Level 8: Something volume of which
