@@ -94,10 +94,11 @@ HJ in control theory.
 * MCMC ("Statistical modelling")
 
 Which can be categories in disciplines/paradisms:
-* Probability (Stat. Mech) (Stat modelling)
+* Probability (Stat. Mech) (Stat modelling) (beyond physics): MCMC + Partition
 * Physical problem solving (applied)
 * Group theory (Algebra)
 * Control theory
+* Dynamical systems (beyond physics though)
 
 ## Questions never-ending, every flowing
 every flowing, like Vivaldi's winter, and like Heraclitus's man and the river (The logos as invariants)
