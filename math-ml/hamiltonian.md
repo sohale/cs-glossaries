@@ -13,6 +13,9 @@ Simply, kinetic plus potential energy.
 
 As commonly used in high school physics
 
+Relation between Hamiltonian and Energy (Also note the historical precedence)
+
+
 ### Level 2: As used in Schrodinger Equation
 
 ### Level 3: Hamiltonian Everywhere: in Quantum Mechanics
@@ -33,9 +36,19 @@ Lagrangian assumes x-dot to be the momentum.
 
 A natural extension of `F=ma` where right-hand side is d/dt of momentum.
 
+#### Noether's
 How the "Natural momentum" view (paradigm) is related to the Noether theorem
 
 ( Quote: "The Noether theorem connecting symmetries and conservation laws can be applied directly in a Hamiltonian framework without using any intermediate Lagrangian formulation")
+
+#### As invariant
+Following Noether: "As invariant"
+
+What are other invariants? 
+
+Is one invariant enough?
+
+#### Relation between Hamiltonian and Free Energy (see "Liouville" below)
 
 ### Level 8: Something volume of which
 * is preserved
@@ -51,6 +64,9 @@ Liouville's theorem (Hamiltonian): (Quote: )
 
 * "the density of system points in the vicinity of a given system point travelling through phase-space", "is constant with time".
 
+
+#### Relation between Hamiltonian and Free Energ"ies"
+
 ### Level 10: Is Action Integral more natural, or Hamiltonian?
 or both are the same?
 
@@ -63,6 +79,7 @@ where the phase space of certain classical systems takes on the structure of a "
 ### Level 12: (reserved)
 
 ### HJ formulation (beyond "mechanics")
+HJ in control theory.
 
 ## Many routes
 * Symplectic
