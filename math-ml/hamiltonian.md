@@ -109,8 +109,8 @@ Is one invariant enough?
 * Lagriangian is about  generalized coordinates, and
 * Hamiltonian is about ...
 
-* Key find/property in a system: Lagrangian being independent of certain generalized coordinates ...
-
+* Key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
+     * Then, "we can transform to reduced coordinates"
 
 ### Level 8: Something volume of which
 * is preserved
