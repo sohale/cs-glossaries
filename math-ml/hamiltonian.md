@@ -94,7 +94,10 @@ HJ in control theory.
 * MCMC ("Statistical modelling")
 
 Which can be categories in disciplines/paradisms:
-* Probability (Stat. Mech) (Stat modelling) (beyond physics): MCMC + Partition
+* Stat. Mech: (beyond physics)
+    * Probability (Stat. Mech) + Partition
+    * Stat modelling: (Amari)
+    * MCMC
 * Physical problem solving (applied)
 * Group theory (Algebra)
 * Control theory
