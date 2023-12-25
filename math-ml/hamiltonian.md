@@ -109,7 +109,8 @@ Is one invariant enough?
 * Lagriangian is about  generalized coordinates, and
 * Hamiltonian is about ...
 
-* Key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
+#### " ignorable coordinates"
+* A key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
      * Then, "we can transform to reduced coordinates"
      * That, then, will not be a "true Degrees of Freedom" (We have a set of "true DoF"s)
 
