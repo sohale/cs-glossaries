@@ -163,6 +163,13 @@ Is one invariant enough?
               * transforms the energy representation: *L(,)* → *H(,)*
               * variables: *(q̇,q)* → *(p,q)*
 
+The Legendre procedure
+* "flips representations"
+* exchanging variables
+* exchanges for their derivatives
+* new ones become "primary variables"
+* now we have a new domain: we call it a co-domain ("the transformed co-domain")
+
 #### Legendre Transform: The user manual
 LT is:
 * A bijection that fundamentally exchanges variables for the other variables
