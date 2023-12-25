@@ -140,6 +140,8 @@ Is one invariant enough?
 
 * Are not *p_i* those momenta in Hamiltonian notation already? if so, why do we need Legendre transform?
 
+* "Knowing all *p_i*'s and *q_i*'s" fully specifies the state of the system"
+* Also knowing *(q̇_i, q_i)*'s?
 
 ### Level 8: Something volume of which
 * is preserved
