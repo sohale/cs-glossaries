@@ -119,6 +119,7 @@ Which can be categorised into these disciplines/paradigms:
 * Group theory (Algebra)
 * Control theory
 * Dynamical systems (beyond physics though)
+* Invariances (for physical laws, for dynamical systems, for intelligent systems, for general complex systems)
 
 ## Questions never-ending, ever-flowing
 every flowing, like Vivaldi's winter, and like Heraclitus's man and the river (The logos as invariants)
