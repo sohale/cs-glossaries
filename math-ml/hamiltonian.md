@@ -153,7 +153,7 @@ Is one invariant enough?
            * It is about "representation" (that is, "explicit": It matters what is explicit. Both in terms of H or L, and its chosen Church-Lambda s!).
            * "Representation" is about the energy-like function (H or L) as well as the variables (in the sense of Churchian-Lambda)
            * Explicitness is also about both.
-           * But the solution of them that is numerically implemented in a system may not be? even if Hamiltonian is used to derive it, it may not be Hamiltonian? not sure. (In terms of programming types, variables, args, functions, function calls)
+           * But the (engineering/implementation) solution of them, that is numerically implemented in a system may not be? even if Hamiltonian is used to derive it, it may not be Hamiltonian? not sure. (In terms of programming types, variables, args, functions, function calls)
            * Nice term: "expressed explicitly"
            * A "point of view": a Lagrangian point of view versus a Hamiltonian view
            * "direct", "direct use": Using q's and p's "directly", etc.
