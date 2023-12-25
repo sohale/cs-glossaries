@@ -54,6 +54,8 @@ Is Hamiltonian preserved in case of friction? also dissipative systems? (adiabat
 
 * What is the historical context of the Legendre Transform itself?
 
+* Relation with the Euler-Lagrange equation
+
 ### Level 5: Sampling: as an extension to MCMC
 
 * Q: But isn't Hamiltonian about continuous-time (at least connected-path) trajectories and ODEs? But MCMC should give points apart.
