@@ -111,7 +111,7 @@ Which can be categorised into these disciplines/paradigms:
     * Statistical modelling: (Amari)
     * MCMC
         * "State-space" methods
-* Physical problem solving (applied): Physics engine and Universal problem-solving in Engineering approachs to Physics
+* Physical problem solving (applied): Physics engine and Universal problem-solving in Engineering approaches to Physics
 * Group theory (Algebra)
 * Control theory
 * Dynamical systems (beyond physics though)
