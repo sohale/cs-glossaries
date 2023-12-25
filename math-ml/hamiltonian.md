@@ -32,7 +32,7 @@ Relation between Hamiltonian and Energy (Also note the historical precedence)
 
 ### Level 5: Sampling: as an extension to MCMC
 
-* Q: But isn't Hamiltonian about a continuous-time (at least connected-path) trajectories and ODEs? But MCMC should give points apart.
+* Q: But isn't Hamiltonian about continuous-time (at least connected-path) trajectories and ODEs? But MCMC should give points apart.
 * A:
 
 ### Level 6: Simple 1st-order ODEs (Extention to Lagrangian)
@@ -42,7 +42,7 @@ Emergence of Momentum.
 
 Lagrangian assumes x-dot to be the momentum.
 
-A natural extension of `F=ma` where right-hand side is d/dt of momentum.
+A natural extension of `F=ma` where the right-hand side is d/dt of momentum.
 
 #### Noether's
 How the "Natural momentum" view (paradigm) is related to the Noether theorem
@@ -108,10 +108,10 @@ How Hamiltonian Quantum formalism is
 Which can be categorised into these disciplines/paradigms:
 * Stat. Mech: (beyond physics)
     * Probability (Stat. Mech) + Partition
-    * Stat modelling: (Amari)
+    * Statistical modelling: (Amari)
     * MCMC
         * "State-space" methods
-* Physical problem solving (applied): Physics engine and Universal problem solving in Engineering approch to Physics
+* Physical problem solving (applied): Physics engine and Universal problem-solving in Engineering approachs to Physics
 * Group theory (Algebra)
 * Control theory
 * Dynamical systems (beyond physics though)
@@ -124,7 +124,7 @@ Questions that every time asked, bring a breath of freshness, don't cease to bri
 * How Hamiltonian is related to Legendre transform? (in both ways) (See math-ml/Legendre-transform.md)
 * Relation to Partition function
 * Is it scalar or vector? (Classical versus Quantum)
-* Why does it preserve the volume in phase-space?
+* Why does it preserve the volume in phase space?
 * Relation with Entropy
 * Is Liouville's theorem necessary to bring about Hamiltonian from Lagrangian?
 * Many paths: Symplectic
