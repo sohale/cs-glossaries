@@ -111,6 +111,7 @@ Is one invariant enough?
 
 * Key find/property in a system: "Lagrangian being independent of certain generalized coordinates" ...
      * Then, "we can transform to reduced coordinates"
+     * That, then, will not be a "true Degrees of Freedom" (We have a set of "true DoF"s)
 
 ### Level 8: Something volume of which
 * is preserved
