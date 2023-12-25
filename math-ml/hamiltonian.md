@@ -30,6 +30,10 @@ Lagrangian assumes x-dot to be the momentum.
 
 A natural extension of `F=ma` where right hand side is d/dt of momentum.
 
+How the "Natural momentum" view (paradigm) is related to the Noether theorem
+
+( Quote: "The Noether theorem connecting symmetries and conservation laws can be applied directly in a Hamiltonian framework without using any intermediate Lagrangian formulation")
+
 ### Level 8: Something volume of which
 * is preserved
 * is entropy
