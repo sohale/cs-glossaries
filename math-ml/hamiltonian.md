@@ -89,6 +89,12 @@ where the phase space of certain classical systems takes on the structure of a "
 ### HJ formulation (beyond "mechanics")
 HJ in control theory.
 
+### Level 14: Hamiltonian Quantum formalism
+How Hamiltonian Quantum formalism is
+* Different to classical
+* Inspired classical mechanics (classical Hamiltonian)
+* Is inspired by classical mechanics (classical Hamiltonian)
+
 ## Many routes
 * Symplectic
 * Lagrangian story (also the "Action" story)
@@ -122,3 +128,5 @@ Questions that every time asked, bring a breath of freshness, don't cease to bri
 * Relation with Entropy
 * Is Liouville's theorem necessary to bring about Hamiltonian from Lagrangian?
 * Many paths: Symplectic
+* Non-continuous (when not d/dt x = d(x) ) such as in discrete spaces
+* Quantum (is it radically different?)
