@@ -132,6 +132,7 @@ Is one invariant enough?
     * generalized momentum is the partial derivative of the Lagrangian with respect to the corresponding generalized velocity q̇i
 
 * Correspondence between: q_i ↔ q̇_i ↔ p_i
+    * Hence, are called "conjugates" (q_i ↔ p_i) 
 
 
 
