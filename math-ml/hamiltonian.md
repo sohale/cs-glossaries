@@ -87,13 +87,13 @@ HJ in control theory.
 * Symplectic
 * Lagrangian story (also the "Action" story)
 * E+-V versus E+V story (action integral story)
-* The universal problem solver story (Lagrangian or Hamiltonian? what else?)
+* The universal problem solver story (Lagrangian or Hamiltonian? What else?)
 * Hamiltonian as invariant
 * Hamiltonian emerging from Noether's theorem
 * Amari's route (see Legendre): "Statistical modelling"
 * MCMC ("Statistical modelling")
 
-Which can be categories in disciplines/paradisms:
+Which can be categorised into these disciplines/paradigms:
 * Stat. Mech: (beyond physics)
     * Probability (Stat. Mech) + Partition
     * Stat modelling: (Amari)
@@ -111,7 +111,7 @@ Questions that every time asked, bring a breath of freshness, don't cease to bri
 * How Hamiltonian is related to Legendre transform? (in both ways) (See math-ml/Legendre-transform.md)
 * Relation to Partition function
 * Is it scalar or vector? (Classical versus Quantum)
-* Why it preserve the volume in phase-space?
+* Why does it preserve the volume in phase-space?
 * Relation with Entropy
 * Is Liouville's theorem necessary to bring about Hamiltonian from Lagrangian?
 * Many paths: Symplectic
