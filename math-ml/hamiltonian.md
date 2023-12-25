@@ -51,6 +51,19 @@ Liouville's theorem (Hamiltonian): (Quote: )
 ### Level 10: Is Action Integral more natural, or Hamiltonian?
 or both are the same?
 
+### Level 11: Hamiltonian emerges naturally in Symplectic Group
+
+Symplectic geometry (and Symplectic Group) "has its origins in the Hamiltonian formulation of classical mechanics"
+where the phase space of certain classical systems takes on the structure of a "symplectic manifold".
+
+
+## Many routes
+* Symplectic
+* Lagrangian story
+* E+-V versus E+V story (action integral story)
+* Hamiltonian as invariant
+
+
 ## Questions never-ending
 
 Questions that every time asked, bring a breath of freshness, don't cease to bring about new insights.
@@ -61,4 +74,4 @@ Questions that every time asked, bring a breath of freshness, don't cease to bri
 * Why phase-space preserves volume?
 * Relation with Entropy
 * Is Liouville's theorem necessary toi bring about Hamiltonian from Lagrangian?
-* 
+* Many paths: Symplectic
