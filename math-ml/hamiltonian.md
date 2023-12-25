@@ -207,7 +207,7 @@ Usually we use astrix `*` in duality: f ⟶ f* → f** = f
 
 Legendre is "a general mathematical duality technique"
 
-The term "bidual":
+The term "bidual": (?)
 
 * Applications (of Legendre?): Turning a convex into a concave function (optimization, economics game theory, geometry, and statistics)
 
@@ -294,6 +294,76 @@ Example Ancillary objects: that help motivate arguments:
     * Plays a supporting role to core mathematical constructs
     * Non-vital
     * but provides assets in analysis and comprehension
+
+#### Duality:
+Duality refers to two related mathematical
+* d:
+     * objects,
+     * formulations,
+     * or theories
+that shed light on each other by providing reciprocally-connected "perspectives".
+
+perspectives that shed light on each other.
+
+
+* "Dual structures"
+* "mirrored roles"
+* between quantities
+* between spaces (switching with)
+     * spaces: example: points ⟷ lines in projective geometry
+     * wavefunctions ⟷ momentum operators
+     * optimization constraints ⟷ "gradient inclusion" conditions
+
+* Transformations:
+
+Often easier to study one formulation,
+then translate insights via the duality:
+* operations  switch forms
+* properties switch places
+* operations  switch places
+* properties switch forms
+
+"flipping vantage points" = ?
+
+* 交換
+* prizes
+* 新
+* information
+* information or understanding
+
+Like a "parallax"
+
+discovery or "proof generation" flows bidrectionally
+
+Illuminating blindspots
+
+* Two opposing formal viewpoints.
+* But grounded in the same relational structure
+
+"Convex analysis" = study of convex functions
+
+* convexity properties
+* convexity inequalities
+* convexity relationships
+* convexity on vector spaces
+* convexity on topological spaces
+
+* "hyperplane theorems"
+* classifying convex sets
+* classifying convex sets geometrically
+* Convex/concave duality
+* conjugacy transforms (like the Legendre transform)
+* Fenchel inequality (for convex functions)
+* Properties of relative interiors
+* Properties of closures and convex envelopes
+* Properties of convex envelopes
+* Subdifferential calculus (derivative for convex functions)
+
+Convex analysis applicaitons: optimization, economics, engineering
+
+"function theory" (real analysis, or complex analysis)
+
+
 
 
 ### Level 8: Something volume of which
