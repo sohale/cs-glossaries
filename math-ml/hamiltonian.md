@@ -193,12 +193,26 @@ More vocabulary:
 
 "recovered" (when in dual, we recover the original one from the transformed one; after all, it is a "bijection"
 
+* "to toggle perspective between"
+
+"primal and dual formulations"
+
+Legendre is: an "algebraic mechanism".
+
+(always also transforms?)
+
 A "bijection" implies a "duality"?
 
 Usually we use astrix `*` in duality: f ⟶ f* → f** = f
 
+Legendre is "a general mathematical duality technique"
+
 The term "bidual":
 
+* Applications (of Legendre?): Turning a convex into a concave function (optimization, economics game theory, geometry, and statistics)
+
+* The new f'(x) "represents new useful information"
+* A transform, "constructs"
 
 
 #### Legendre Transform: The user manual
@@ -216,6 +230,19 @@ o
    * The `p`, "those derivative quantities",
    * We want to make those p, as variables themselves
    * The new function F should be in terms of those variables explicitly, (and what else?)
+
+* Legendre uses "calculus duality":
+    * "Calculus duality" refers to the intrinsic connection in calculus between differentiation and integration
+    * Differentiation <-> Integration
+    * (Hence, is a form of "calculus duality")
+
+
+    * The new f'(x) "represents new useful information" (from f(x) ). (???)
+    * Constructs
+    * *xf'(x)−f(x)*
+    * Why *F(f'(x))* ?
+        * in: *F(f'(x))=xf'(x)−f(x)*
+    * Exchanges variables *x* and *f'(x)* 💡
 
 ### Level 8: Something volume of which
 * is preserved
