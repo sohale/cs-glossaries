@@ -31,6 +31,9 @@ Relation between Hamiltonian and Energy (Also note the historical precedence)
 * Hamiltonian versus Lagrangian: are they duals? What else could be there is that tier?
 
 * See Conjugate variables in thermodynamics (related to Legendre transform)
+
+* What is the historical context of the Legendre Transform itself?
+
 ### Level 5: Sampling: as an extension to MCMC
 
 * Q: But isn't Hamiltonian about continuous-time (at least connected-path) trajectories and ODEs? But MCMC should give points apart.
