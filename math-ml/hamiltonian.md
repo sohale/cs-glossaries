@@ -118,7 +118,7 @@ Which can be categorised into these disciplines/paradigms:
 * Control theory
 * Dynamical systems (beyond physics though)
 
-## Questions never-ending, every flowing
+## Questions never-ending, ever-flowing
 every flowing, like Vivaldi's winter, and like Heraclitus's man and the river (The logos as invariants)
 
 Questions that every time asked, bring a breath of freshness, don't cease to bring about new insights.
