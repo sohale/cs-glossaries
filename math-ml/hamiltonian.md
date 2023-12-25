@@ -98,7 +98,8 @@ Which can be categorised into these disciplines/paradigms:
     * Probability (Stat. Mech) + Partition
     * Stat modelling: (Amari)
     * MCMC
-* Physical problem solving (applied)
+        * "State-space" methods
+* Physical problem solving (applied): Physics engine and Universal problem solving in Engineering approch to Physics
 * Group theory (Algebra)
 * Control theory
 * Dynamical systems (beyond physics though)
