@@ -18,3 +18,12 @@ Lyapunov Stability versus L. Function:
    * Doesn't imply converge!
    * only that they don't diverge!
 
+Lyapunov Function: V(x)
+* If V(x) is decreasing, => Lyapunov stable
+     * If decreasing along trajectories (all?)
+* analyze stability properties (at that equilibrium)
+* without explicitly solving differential equations (how?)
+
+
+Key: "without explicitly solving differential equations"
+
