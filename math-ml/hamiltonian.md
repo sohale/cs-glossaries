@@ -58,6 +58,12 @@ Does Hamiltonian appear when we talk about say Energy-based learning?
 
 Is Hamiltonian preserved in case of friction? also dissipative systems? (adiabatic)
 
+#### ?
+* canonical coordinates (q,p)
+* H(q,p) is a Scalar function
+* Is constant along a trajectory of the system (conserved quantity)
+* Is conserved quantity (repeat)
+
 ### Level 2: As used in Schrodinger Equation
 
 ### Level 3: Hamiltonian Everywhere: in Quantum Mechanics
