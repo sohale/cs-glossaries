@@ -408,6 +408,14 @@ or both are the same?
 Symplectic geometry (and Symplectic Group) "has its origins in the Hamiltonian formulation of classical mechanics"
 where the phase space of certain classical systems takes on the structure of a "symplectic manifold".
 
+First, in your mind, separate Symplectic Group, Symplectic Geometry, Symplectic Manifold, etc.
+
+* A symplectic manifold: (M, ω)
+* symplectic form ω
+* ω guides the coordinates
+
+* M is also referred to as a "phase space"
+
 
 ### Level 12: (reserved)
 
