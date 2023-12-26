@@ -416,6 +416,7 @@ First, in your mind, separate Symplectic Group, Symplectic Geometry, Symplectic 
 
 * M is also referred to as a "phase space"
 
+ω "guides" coordinates means: ...
 
 ### Level 12: (reserved)
 
