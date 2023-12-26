@@ -63,6 +63,9 @@ Is Hamiltonian preserved in case of friction? also dissipative systems? (adiabat
 * H(q,p) is a Scalar function
 * Is constant along a trajectory of the system (conserved quantity)
 * Is conserved quantity (repeat)
+* "Determines if closed orbits/cycles exist in the system"
+* For implementing simulations: to calculate evolution of (q,p) over time
+
 
 ### Level 2: As used in Schrodinger Equation
 
