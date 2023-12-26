@@ -12,13 +12,15 @@
 * It is a scalar function
 * We have an equilibrium point. We know its existence, but also know it (know the x (vector/ point)'s value (coordinates) )
 
-Lyapunov Stability versus L. Function:
+#### Lyapunov Stability versus L. Function:
 * Lyapunov Stability:
    * starting close => stay close
    * Doesn't imply converge!
    * only that they don't diverge!
 
-Lyapunov Function: V(x)
+#### Lyapunov Function: V(x)
+
+#### Lyapunov Function to Stability:
 * If V(x) is decreasing, => Lyapunov stable
      * If decreasing along trajectories (all?)
 * analyze stability properties (at that equilibrium)
@@ -26,4 +28,6 @@ Lyapunov Function: V(x)
 
 
 Key: "without explicitly solving differential equations"
+
+#### Asymptotic stability:
 
