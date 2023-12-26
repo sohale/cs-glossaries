@@ -31,3 +31,9 @@ Key: "without explicitly solving differential equations"
 
 #### Asymptotic stability:
 
+
+* If V(x) strictly decreases
+* concludes asymptotic stability 
+* trajectories converge to equilibrium
+    * (But didn't we say it is not about convergence??)
+* except at the equilibrium point ( V(x) strictly decreases but not at equilibrium point, kind of obvious )
