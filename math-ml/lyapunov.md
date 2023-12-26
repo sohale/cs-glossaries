@@ -5,6 +5,8 @@
 
 ## Scope: (What is Lyapunov not)
 * We have a dynamical system
+    * (It does not give you this function. If you somehow magically find it, it gives you good properties)
+    * i.e. is not constructive. It is about existence ∃ .
 * The Lyapunov function is not known
 * Is an engineering solution: You devise it: you find it. If it exists, then...
 * It is a scalar function
