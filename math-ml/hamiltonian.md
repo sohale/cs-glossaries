@@ -364,7 +364,7 @@ Convex analysis applicaitons: optimization, economics, engineering
 "function theory" (real analysis, or complex analysis)
 
 
-(Some more on Duality, Legendre, and Optimisation)
+(todo: Some more on Duality, Legendre, and Optimisation)
 
 
 
