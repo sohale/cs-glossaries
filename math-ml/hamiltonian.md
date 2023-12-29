@@ -378,7 +378,12 @@ Convex analysis applicaitons: optimization, economics, engineering
 (todo: Some more on Duality, Legendre, and Optimisation)
 
 
+### Level ?: What? Rotating 90°: Contours
 
+Also see the section: "Generalised Momenta"
+
+By Legendre, we rescale (here, I see it as rescale/distort) the velocity axis (now "momentum"), and as a result,
+the contours (in the sense of iso-potentials) are perpendicular to the vector space, and hence parallel to "the trajectory".
 
 ### Level 8: Something volume of which
 * is preserved
