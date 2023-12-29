@@ -87,7 +87,8 @@ Name:
 * Some Code-Scheduling Constraints
 * Some Global Scheduling Algorithms
 
-
+Why (thought)
+* Why do you separate lexical and syntax analysers?
 
 
 Funny search terms:
