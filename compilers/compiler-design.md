@@ -54,6 +54,7 @@ Like many concepts, it's also a vocabulary:
 * to postdominate
 * to dominate
 * code motion
+* linear analysis
 
 Some techniques:
 * "Loop Unrolling" is a technique for what?
@@ -78,6 +79,8 @@ Some questions:
 * What is Downward Code Motion
 * In what context (and why) is Updating Data Dependences a concern?
 
+* What is linear analysis?
+* 
  
 Name:
 * Some Locality Optimizations techniques
