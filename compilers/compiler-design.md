@@ -53,8 +53,14 @@ Like many concepts, it's also a vocabulary:
 * Binary Decision Diagrams
 * to postdominate
 * to dominate
+* code motion
 
+Some techniques:
+* "Loop Unrolling" is a technique for what?
 
+* "Region-Based Scheduling" is a technique for what?
+
+Some questions:
 * Why Interprocedural Analysis?
 * Successive Over-Relaxation (SOR)
 * Time-Partition Constraints
@@ -72,10 +78,12 @@ Like many concepts, it's also a vocabulary:
 * What is Downward Code Motion
 * In what context (and why) is Updating Data Dependences a concern?
 
+ 
 Name:
 * Some Locality Optimizations techniques
 * Some Code-Scheduling Constraints
-* 
+* Some Global Scheduling Algorithms
+
 
 
 
