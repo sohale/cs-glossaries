@@ -49,5 +49,35 @@ Readings: [r1] [r4]
 # compiler-concepts-review.md
 Compiler concepts revision in the style of Q/A
 
+Like many concepts, it's also a vocabulary:
+* Binary Decision Diagrams
+* to postdominate
+* to dominate
+
+
+* Why Interprocedural Analysis?
+* Successive Over-Relaxation (SOR)
+* Time-Partition Constraints
+* Array Contraction
+* Uses of Affine Transforms
+* Why Instruction-Level Parallelism
+* What is Basic-Block Scheduling
+* What is Topological Orders
+* What is List Scheduling of Basic Blocks
+* What is Prioritized Topological Orders
+* What does it mean "List scheduling does not backtrack"
+* What are the issues of Global Code Scheduling
+* What is Primitive Code Motion
+* What is Upward Code Motion
+* What is Downward Code Motion
+* In what context (and why) is Updating Data Dependences a concern?
+
+Name:
+* Some Locality Optimizations techniques
+* Some Code-Scheduling Constraints
+* 
+
+
+
 Funny search terms:
 * `Compiler concepts revision`
