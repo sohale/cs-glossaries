@@ -44,3 +44,10 @@ Readings: [r1] [r2] [r3].
 
 [2] [c2] UI :: CE :: Syllabus :: [Compilers](https://www.ui.ac.ir/Dorsapax/userfiles/Sub16/Syasatgozari%20Dorous/Engineer/Computer/BS_Computer.pdf).
 Readings: [r1] [r4]
+
+
+# compiler-concepts-review.md
+Compiler concepts revision in the style of Q/A
+
+Funny search terms:
+* `Compiler concepts revision`
