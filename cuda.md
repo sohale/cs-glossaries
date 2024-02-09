@@ -155,8 +155,11 @@ Terms:
 * in-network reductions
 * InfiniBand Networking
 
-* unit-ness:
-    * Cluster vs GPU versus Core versus ...
+* unit-ness: (Cluster vs GPU versus Core versus ...)
+    * Cluster
+    * GPU
+    * Core
+    * Server
 
 sources:
 [1: HGX](https://www.cirrascale.com/solutions-nvidia-hgx-h100.php)
