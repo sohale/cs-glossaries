@@ -143,13 +143,25 @@ Ways parameters and variables are given:
 * The Skip-ahead formula calculations. Used for "Chain" calculations. (See bove section "Stages/modes")
 
 ### NVidia architecture parameters
+
+
+
 Terms:
 * NVSwitch
 * NVLink Switch
 * NVLink  ([NVLink: see](https://www.nvidia.com/en-us/data-center/nvlink/))
 * NVLink ports
 
+( derived measure )
 * all-to-all bandwidth
+
+* NVLink bandwidth per GPU (see [table](https://www.nvidia.com/en-us/data-center/nvlink/) )
+* Maximum Number of Links per GPU
+* Supported NVIDIA Architectures
+* Number of GPUs with direct connection / node
+* NVSwitch GPU-to-GPU bandwidth
+* Total aggregate bandwidth
+* Supported NVIDIA architectures: Volta, Ampere, Hopper
 
 * multicast
 * NVIDIA SHARP
