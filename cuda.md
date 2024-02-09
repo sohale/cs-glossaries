@@ -145,12 +145,18 @@ Ways parameters and variables are given:
 ### NVidia architecture parameters
 Terms:
 * NVSwitch
-* NVLink
+* NVLink  ([NVLink: see](https://www.nvidia.com/en-us/data-center/nvlink/))
 * NVLink ports
 
-multicast
-NVIDIA SHARP
-in-network reductions
+
+
+* multicast
+* NVIDIA SHARP
+* in-network reductions
+* InfiniBand Networking
+
+* unit-ness:
+    * Cluster vs GPU versus Core versus ...
 
 sources:
 [1: HGX](https://www.cirrascale.com/solutions-nvidia-hgx-h100.php)
