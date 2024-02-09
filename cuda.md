@@ -142,7 +142,38 @@ Ways parameters and variables are given:
 * Explicit input (from CPU), explicit input (left on GPU memory), const, chain (sequential formula: induction/recursion in G direction. G=across kernels instances. (logical. not number of gpu-cores))
 * The Skip-ahead formula calculations. Used for "Chain" calculations. (See bove section "Stages/modes")
 
+### NVidia architecture parameters
+Terms:
+* NVSwitch
+* NVLink
+* NVLink ports
 
+multicast
+NVIDIA SHARP
+in-network reductions
+
+sources:
+[1: HGX](https://www.cirrascale.com/solutions-nvidia-hgx-h100.php)
+
+#### Some parameter values
+* NVLink: 900 (GB/s) bidirectional
+* PCIe Gen4 x16 bus
+
+* Performance: 32 petaFLOPS of FP8 (H100)
+
+Note:
+* GB/s = gigabytes per second
+
+### NVidia models
+* A100
+* H100
+* 
+#### NVidia Series
+* RTX
+* Tesla
+
+Tensor Core GPU  = ?
+ 
 ### Ways of GPU-GPU communications
 * By memory (coordinated,, i.e. no data race)
 * by sychronisation (simple events): See synchrization section. All of them apply.
@@ -413,3 +444,5 @@ NVIDIA-SMI
 
 ## Appendix
 * Implementation of the Gamma Incomplete Inverse function in Cephes Mathematical Library (version 2.7) in C (is nested. Also recursive?)
+
+
