@@ -190,7 +190,11 @@ Note:
 ### NVidia models
 * A100
 * H100
-* 
+
+Tesla V100, P4, and T4
+
+* K40c
+
 #### NVidia Series
 * RTX
 * Tesla
