@@ -19,6 +19,10 @@ Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phas
 
 Let's start elementary.
 
+𒎓
+Let's aim at Mathematically representing the *state* of an *Electron*'s spin.
+An electron is a spin-1/2 particle.
+
 Assume spin is a magical state, un-this-world-ly.
 Free yourself from any conception of, or intuition you have about "spin".
 
@@ -34,7 +38,7 @@ Dynamical intuition
 #### Let's complex
 x ∈ ℂ² can be imagined as 4 numbers.
 It can represent the state of an electron's spin.
-
+a spin-1/2 particle.
 
 
 #### What the fuss?
