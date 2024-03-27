@@ -25,6 +25,7 @@ An electron is a spin-1/2 particle.
 
 Assume spin is a magical state, un-this-world-ly.
 Free yourself from any conception of, or intuition you have about "spin".
+Also forget up or down states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
 
