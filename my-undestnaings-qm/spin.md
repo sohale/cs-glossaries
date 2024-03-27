@@ -15,8 +15,14 @@ Optional:
 Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phase-covariant
 
 Mojicons: 💫𒎓🌐🌈
-⚛️⚡🌍†
+⚛️⚡🌍🌪️🌀
+†✯☸🛞𐃏🧬🍥🎯📌📍🌪 💈
+📡💽💿📀 🎡🎥📽🚲︎🎛߷𐬿 🗞🧻
+𓎛𓐍𓋹𓍶💍🕤📿
 
+
+
+ 
 ## Let's spin 💫
 
 Let's start elementary.
