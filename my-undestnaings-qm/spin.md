@@ -14,7 +14,8 @@ Optional:
 ### Keywords to cover:
 Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phase-covariant
 
-Mojicons: 💫𒎓🌍🌐🌈
+Mojicons: 💫𒎓🌐🌈
+⚛️⚡🌍
 
 ## Let's spin 💫
 
@@ -25,7 +26,7 @@ Let's aim at Mathematically representing the *state* of an *Electron*'s spin.
 An electron is a spin-1/2 particle.
 
 Assume spin is a magical state, un-this-world-ly.
-Free yourself from any conception of, or intuition you have about "spin". Mechanical spin, or Quantum spin. 
+Free yourself from any conception of, or intuition you have about "spin". Mechanical spin, or Quantum spin. Or electricity ⚡, or atoms ⚛️, orbitals.
 Also forget "up" or "down" states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
@@ -59,7 +60,7 @@ Geography of Bloch sphere 🌍🌐:
 
 Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
 
-Multiple, apparently not compatible: ℂ² (4 numbers), ℝ² (2 numbers), sphere (Bloch), Pauli matrices (3 numbers), mixed state, ket (tensor), ket-bra (mixed) state (matrix), "Qubit".
+Multiple, apparently not compatible: ℂ² (4 numbers), ℝ² (2 numbers), sphere (Bloch), Pauli matrices (3 numbers), mixed state, ket (tensor), ket-bra (mixed) state (matrix), "Qubit". Orbitals (atom/chemistry and light spectrum).
 Operators (difficult to reconcile with Euclidean 🌐).
 
 #### Dynamical intuition
