@@ -49,6 +49,10 @@ We have the surface of a sphere.
 Phase is "abstracted away".
 (later: where is the phase)
 
+Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one?
+
+Multiple, apparently not compatible: ℂ² (4 numbers), ℝ² (2 numbers), sphere (Bloch), Pauli matrices (3 numbers), mixed state, ket (tensor), ket-bra (mixed) state (matrix)
+
 #### Dynamical intuition
 
 #### Group intuition
