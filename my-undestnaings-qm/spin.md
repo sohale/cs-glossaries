@@ -29,7 +29,7 @@ Also forget up or down states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
 
-Geography of Bloch sphere 🌍🌐:
+
 
 ### Pure spin
 Pure versus non-pure spin.
@@ -50,6 +50,9 @@ In other words: `S = { (θ,ϕ) ∣ ℝ²:  0 ≤θ≤ π , 0 ≤ϕ< 2π  }`
 We have the surface of a sphere.
 Phase is "abstracted away".
 (later: where is the phase)
+
+Geography of Bloch sphere 🌍🌐:
+...
 
 Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
 
