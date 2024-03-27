@@ -1,5 +1,5 @@
 # Spin
-Mathmatics of Spin
+Mathematics of Spin
 
 Let's understand "spin" as a Mathematical concept.
 
