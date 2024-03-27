@@ -1,5 +1,5 @@
 # Spin
-MAthmatics of Spin
+Mathmatics of Spin
 
 Let's understand "spin" as a Mathematical concept.
 
@@ -18,3 +18,10 @@ Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phas
 ## Let's spin
 #### What the phase?
 #### What the fuss?
+Pauli's belt.
+
+
+## Readings
+* Where to understand
+* Marginally related:
+   * https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
