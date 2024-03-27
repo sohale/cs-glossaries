@@ -24,16 +24,16 @@ Let's aim at Mathematically representing the *state* of an *Electron*'s spin.
 An electron is a spin-1/2 particle.
 
 Assume spin is a magical state, un-this-world-ly.
-Free yourself from any conception of, or intuition you have about "spin".
+Free yourself from any conception of, or intuition you have about (mechanical or quantum) "spin".
 Also forget up or down states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
 
-Real/Euclidean intuition
+#### Real/Euclidean intuition
 
 For now, we do it using real numbers (in other words, we parametrise, or characterise in Eucleadean geometry: this helps to have a geometrical intuition too).
 
-Dynamical intuition
+#### Dynamical intuition
 
 
 #### Let's complex
