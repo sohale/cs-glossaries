@@ -29,4 +29,10 @@ Motivation (properties that are motivations): (brief list)
 
 ## Properties
 
+## The Replica Trick
+* Origins
+* Name
+* History
+* Concept (probability vs population vs ensemble)
+* Formula (log)
 
