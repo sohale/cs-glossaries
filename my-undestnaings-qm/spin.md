@@ -19,6 +19,10 @@ Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phas
 
 Let's start elementary.
 
+Assume spin is a magical state, un-this-world-ly.
+Free yourself from any conception of, or intuition you have about "spin".
+
+
 #### Let's complex
 x ∈ ℂ² can be imagined as 4 numbers.
 It can represent the state of an electron's spin.
