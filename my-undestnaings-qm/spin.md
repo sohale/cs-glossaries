@@ -18,7 +18,7 @@ Mojicons: 💫𒎓🌐🌈
 ⚛️⚡🌍🌪️🌀꩜
 †✯☸🛞𐃏߷🧬🍥🎯📌📍🐚🌪🪩 💈
 📡💽💿📀 🎡🎥📽🚲︎🎛𐬿🐌☤🔩🗞🧻
-𓎛𓐍𓋹𓍶𓇖💍🕤⚙️⚚📿◯➰➿♲♺♻♼♽
+𓎛𓐍⊚𓋹𓍶𓇖💍🕤⚙️⚚📿◯➰➿♲♺♻♼♽
 
 
 
@@ -92,7 +92,17 @@ a spin-1/2 particle.
 Pauli's belt. ɬ
 
 #### What the phase?
+Phase in the context of spin
 🌈
+
+#### Higher-order spins
+other than 1/2, higher dimensions, etc.
+Also Quaternions, etc.
+
+#### Useful side info
+On formulations of mechanical spinning.
+Angular mechanics.
+Peculiarities of angular position and operator (Euler angles, Lie, Quaternions)
 
 ## Readings
 * Where to understand
