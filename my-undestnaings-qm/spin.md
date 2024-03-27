@@ -53,12 +53,12 @@ In other words: `S = { (θ,ϕ) ∣ ℝ²:  0 ≤θ≤ π , 0 ≤ϕ< 2π  }`
 
 We have the surface of a sphere.
 Phase is "abstracted away".
-(later: where is the phase)
+(later: where is the phase 🌈)
 
 Geography of Bloch sphere 🌍🌐:
 * The "Equatorial States" on 🌐: `θ = π/2`
 
-Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
+Confusions: Where is the phase🌈? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase🌈? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
 
 Multiple, apparently not compatible: ℂ² (4 numbers), ℝ² (2 numbers), sphere (Bloch), Pauli matrices (3 numbers), mixed state, ket ∣·⟩ (tensor), ∣·⟩⟨·∣ ket-bra (mixed) state (matrix), "Qubit". Orbitals (atom/chemistry and light spectrum).
 Operators (difficult to reconcile with Euclidean 🌐).
@@ -75,10 +75,10 @@ a spin-1/2 particle.
 
 
 #### What the fuss?
-Pauli's belt.
+Pauli's belt. ɬ
 
 #### What the phase?
-
+🌈
 
 ## Readings
 * Where to understand
