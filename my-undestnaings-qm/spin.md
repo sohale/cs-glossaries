@@ -40,9 +40,12 @@ We can define spin as a set, which can be parametrised in different ways.
 
 
 ### Pure spin
-Pure versus non-pure spin.
-
 Pure spin, or isolated spin.
+
+Pure versus non-pure spin.
+(In the sense of a pure, separable, isolated closed quantum state)
+
+
 #### Real/Euclidean intuition
 
 For now, we do it using real numbers (in other words, we parametrise, or characterise in Euclidean geometry: this helps to have a geometrical intuition too).
