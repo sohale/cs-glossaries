@@ -24,8 +24,8 @@ Let's aim at Mathematically representing the *state* of an *Electron*'s spin.
 An electron is a spin-1/2 particle.
 
 Assume spin is a magical state, un-this-world-ly.
-Free yourself from any conception of, or intuition you have about (mechanical or quantum) "spin".
-Also forget up or down states, superposition, etc.
+Free yourself from any conception of, or intuition you have about "spin". Mechanical spin, or Quantum spin. 
+Also forget "up" or "down" states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
 
