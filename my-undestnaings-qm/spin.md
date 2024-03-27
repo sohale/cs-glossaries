@@ -41,6 +41,8 @@ For now, we do it using real numbers (in other words, we parametrise, or charact
 
 #### Dynamical intuition
 
+#### Group intuition
+SU(2)
 
 #### Let's complex
 x ∈ ℂ² can be imagined as 4 numbers.
