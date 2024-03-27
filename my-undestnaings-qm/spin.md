@@ -59,7 +59,7 @@ Geography of Bloch sphere 🌍🌐:
 
 Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
 
-Multiple, apparently not compatible: ℂ² (4 numbers), ℝ² (2 numbers), sphere (Bloch), Pauli matrices (3 numbers), mixed state, ket (tensor), ket-bra (mixed) state (matrix)
+Multiple, apparently not compatible: ℂ² (4 numbers), ℝ² (2 numbers), sphere (Bloch), Pauli matrices (3 numbers), mixed state, ket (tensor), ket-bra (mixed) state (matrix), "Qubit".
 Operators (difficult to reconcile with Euclidean 🌐).
 
 #### Dynamical intuition
