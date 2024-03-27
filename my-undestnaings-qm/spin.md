@@ -49,10 +49,10 @@ but
 
 In other words: `S = { (θ,ϕ) ∣ ℝ²:  0 ≤θ≤ π , 0 ≤ϕ< 2π  }`
 
-θ: `｜`مدار ,
-ϕ: `⎯`نصف النهار.
+θ: `⎯`مدار ,
+ϕ: `｜`نصف النهار.
 
-`｜θ｜ ⎯ϕ⎯`
+`⎯θ⎯ ｜ϕ｜`
 
 We have the surface of a sphere.
 Phase is "abstracted away".
