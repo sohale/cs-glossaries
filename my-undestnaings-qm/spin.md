@@ -43,7 +43,7 @@ but
 `θ ∈ [ 0, π ]`
 `ϕ ∈ [ 0, 2π )`
 
-In other words: `s`∈`{ (θ,ϕ) ∣  0 ≤θ≤ π , 0 ≤ϕ< 2π }`
+In other words: `S = { (θ,ϕ) ∣ ℝ²: 0 ≤θ≤ π , 0 ≤ϕ< 2π ,  }`
 
 We have the surface of a sphere.
 Phase is "abstracted away".
