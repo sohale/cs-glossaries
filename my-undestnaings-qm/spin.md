@@ -15,7 +15,7 @@ Optional:
 Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phase-covariant
 
 
-## Let's spin
+## Let's spin 💫
 
 Let's start elementary.
 
@@ -28,6 +28,8 @@ Free yourself from any conception of, or intuition you have about (mechanical or
 Also forget up or down states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
+
+Geography of Block sphere 🌍🌐:
 
 ### Pure spin
 Pure versus non-pure spin.
