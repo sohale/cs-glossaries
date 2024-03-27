@@ -98,6 +98,8 @@ Phase in the context of spin
 #### Higher-order spins
 other than 1/2, higher dimensions, etc.
 Also Quaternions, etc.
+Group-theoretic generalizations: SU(2), SU(n), etc
+Related Groups (Galileo group, Symplectic geometry, Hamiltonian)
 
 #### Useful side info
 On formulations of mechanical spinning.
