@@ -17,6 +17,13 @@ Spin, Qubit, Bloch Sphere, Pauli Matrices, Mixed States, Equatorial States, Phas
 
 ## Let's spin
 
+Let's start elementary.
+
+x ∈ ℂ² can be imagined as 4 numbers.
+It can represent the state of an electron's spin.
+
+
+
 #### What the fuss?
 Pauli's belt.
 
