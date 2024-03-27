@@ -47,12 +47,14 @@ but
 
 In other words: `S = { (θ,ϕ) ∣ ℝ²:  0 ≤θ≤ π , 0 ≤ϕ< 2π  }`
 
+θ: مدار, ϕ: نصف النهار.
+
 We have the surface of a sphere.
 Phase is "abstracted away".
 (later: where is the phase)
 
 Geography of Bloch sphere 🌍🌐:
-* The "Equatorial States" on 🌐:
+* The "Equatorial States" on 🌐: `θ = π/2`
 
 Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
 
