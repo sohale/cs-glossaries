@@ -22,6 +22,14 @@ Let's start elementary.
 Assume spin is a magical state, un-this-world-ly.
 Free yourself from any conception of, or intuition you have about "spin".
 
+We can define spin as a set, which can be parametrised in different ways.
+
+Real/Euclidean intuition
+
+For now, we do it using real numbers (in other words, we parametrise, or characterise in Eucleadean geometry: this helps to have a geometrical intuition too).
+
+Dynamical intuition
+
 
 #### Let's complex
 x ∈ ℂ² can be imagined as 4 numbers.
