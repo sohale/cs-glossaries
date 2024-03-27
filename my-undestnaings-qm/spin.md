@@ -52,7 +52,7 @@ Phase is "abstracted away".
 (later: where is the phase)
 
 Geography of Bloch sphere 🌍🌐:
-...
+* The "Equatorial States" on 🌐:
 
 Confusions: Where is the phase? Sphere vs Spin, any related? Block sphere? Why ℂ² vs ℝ²? Why are they obsessed with complex numbers and phase? Is it a "mixed state"? Where is the entanglement if there are more than one? Why the half (½)?
 
