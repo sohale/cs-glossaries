@@ -37,7 +37,14 @@ Pure spin, or isolated spin
 
 For now, we do it using real numbers (in other words, we parametrise, or characterise in Eucleadean geometry: this helps to have a geometrical intuition too).
 
+Two numbers:
 (θ,ϕ)
+but
+`θ ∈ [ 0, π ]`
+`ϕ ∈ [ 0, 2π )`
+
+In other words: `s`∈`{ (θ,ϕ) ∣  0 ≤θ≤ π , 0 ≤ϕ< 2π }`
+
 We have the surface of a sphere.
 Phase is "abstracted away".
 (later: where is the phase)
