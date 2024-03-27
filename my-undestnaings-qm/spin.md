@@ -106,6 +106,8 @@ On formulations of mechanical spinning.
 Angular mechanics.
 Peculiarities of angular position and operator (Euler angles, Lie, Quaternions)
 
+Pauli matrices how do they naturally generalise in themselves?
+
 ## Readings
 * Where to understand
 * Marginally related:
