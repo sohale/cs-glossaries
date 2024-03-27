@@ -29,15 +29,15 @@ Also forget up or down states, superposition, etc.
 
 We can define spin as a set, which can be parametrised in different ways.
 
-Geography of Block sphere 🌍🌐:
+Geography of Bloch sphere 🌍🌐:
 
 ### Pure spin
 Pure versus non-pure spin.
 
-Pure spin, or isolated spin
+Pure spin, or isolated spin.
 #### Real/Euclidean intuition
 
-For now, we do it using real numbers (in other words, we parametrise, or characterise in Eucleadean geometry: this helps to have a geometrical intuition too).
+For now, we do it using real numbers (in other words, we parametrise, or characterise in Euclidean geometry: this helps to have a geometrical intuition too).
 
 Two numbers:
 (θ,ϕ)
