@@ -11,3 +11,5 @@ I recommend you know the following concepts:
    * `λx.x(λy.yx)` is represented as `λ.0(λ.0 1)`
 
 * **Alpha-conversion**: renaming variables to avoid name clashes
+
+* Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
