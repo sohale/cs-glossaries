@@ -20,7 +20,7 @@ Glossary / Reference:
 Learn `expr`, the internal representation Lean4 uses for symbolic formulas:
 * [src/kernel/expr.h](https://github.com/leanprover/lean4/blob/master/src/kernel/expr.h) in Lean4
 ```cpp
-expr_kind {
+enum class expr_kind {
    BVar,
    FVar,
    MVar,
