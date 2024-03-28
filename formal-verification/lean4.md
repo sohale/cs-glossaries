@@ -48,7 +48,7 @@ object
 environment
 ```
 
-`list` (see [in list.h](https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/util/list.h#L20))
+* `list` (see [in list.h](https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/util/list.h#L20)) and `list::cell`
 
 
 ```txt
