@@ -37,12 +37,15 @@ enum class expr_kind {
 ```
 ```cpp
 static   expr_kind    expr::kind(object * o);
+
 expr.raw();
 ```
 
+Related types:
 ```
 object_ref
 object
+environment
 ```
 
 ```txt
