@@ -45,6 +45,27 @@ object_ref
 object
 ```
 
+```txt
+=======================================
+   Expressions
+
+inductive Expr
+| bvar    : Nat → Expr                                -- bound variables
+| fvar    : Name → Expr                               -- free variables
+| mvar    : Name → Expr                               -- meta variables
+| sort    : Level → Expr                              -- Sort
+| const   : Name → List Level → Expr                  -- constants
+| app     : Expr → Expr → Expr                        -- application
+| lam     : Name → BinderInfo → Expr → Expr → Expr    -- lambda abstraction
+| forallE : Name → BinderInfo → Expr → Expr → Expr    -- (dependent) arrow
+| letE    : Name → Expr → Expr → Expr → Expr          -- let expressions
+| lit     : Literal → Expr                            -- literals
+| mdata   : MData → Expr → Expr                       -- metadata
+| proj    : Name → Nat → Expr → Expr                  -- projection
+*/
+```
+
+"inductive Expr": means:
 
 * **De Bruijn indices**:
    * `λx.λy.x` -> `λ.λ.2`: "The variable `x` is now two lambdas away from its binding site". Me: parent.
