@@ -1,4 +1,4 @@
-# Lean4
+# Lean4: Learn Lean4 from inside out
 
 C?: lake, elan, toml
 
@@ -7,11 +7,7 @@ The package manager is lake, elan, toml, etc
 
 Learn internal representaiton: `expr`.
 
-Learn `expr`, the internal representation Lean4 uses for symbolic formulas:
-* [src/kernel/expr.h](https://github.com/leanprover/lean4/blob/master/src/kernel/expr.h) in Lean4
-```cpp
-expr_kind { BVar, FVar, MVar, Sort, Const, App, Lambda, Pi, Let, Lit, MData, Proj };
-```
+
 
 I recommend you know the following concepts:
 * The "De Bruijn indices" notation
@@ -19,6 +15,13 @@ I recommend you know the following concepts:
 
 
 Glossary / Reference:
+
+* The `expr`
+Learn `expr`, the internal representation Lean4 uses for symbolic formulas:
+* [src/kernel/expr.h](https://github.com/leanprover/lean4/blob/master/src/kernel/expr.h) in Lean4
+```cpp
+expr_kind { BVar, FVar, MVar, Sort, Const, App, Lambda, Pi, Let, Lit, MData, Proj };
+```
 
 * **De Bruijn indices**:
    * `λx.λy.x` -> `λ.λ.2`: "The variable `x` is now two lambdas away from its binding site". Me: parent.
