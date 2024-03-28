@@ -51,6 +51,9 @@ environment
 * `list` type (see [in list.h](https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/util/list.h#L20)) and type `list::cell`
    * method `cell::raw()` returns "internal representation"
 
+* `raw`:  A method in (?) that returns internal representation.  Use `raw()` prevents us from updating the "reference counters". (?) . "Use it with care. The main risk of storing references to `cell` is that the `list` may be deleted."
+   * `cell * list::raw() const { return m_ptr; }`
+    
 
 ```txt
 =======================================
