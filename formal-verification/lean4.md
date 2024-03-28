@@ -35,6 +35,16 @@ enum class expr_kind {
    Proj
 };
 ```
+```cpp
+static   expr_kind    expr::kind(object * o);
+expr.raw();
+```
+
+```
+object_ref
+object
+```
+
 
 * **De Bruijn indices**:
    * `λx.λy.x` -> `λ.λ.2`: "The variable `x` is now two lambdas away from its binding site". Me: parent.
