@@ -15,8 +15,9 @@ I recommend you know the following concepts: (see reference/glossary)
 * The "De Bruijn indices" notation
 * Alpha-conversion
 
+`------------------------------------------------------------------------------`
 
-### Glossary / Reference:
+## Glossary / Reference:
 
 * The `expr`
 Learn `expr`, the internal representation Lean4 uses for symbolic formulas:
