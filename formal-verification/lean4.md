@@ -17,6 +17,8 @@ I recommend you know the following concepts: (see reference/glossary)
 
 `------------------------------------------------------------------------------`
 
+---
+
 ## Glossary / Reference:
 
 * The `expr`
