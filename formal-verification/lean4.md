@@ -89,4 +89,8 @@ inductive Expr
 
 * **Alpha-conversion**: renaming variables to avoid name clashes
 
+Lean4's specific concepts: (low-level, internal, almost VM)
+
+* `environment` https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/kernel/environment.h#L81
+
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
