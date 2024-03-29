@@ -1,20 +1,22 @@
 # Lean4: Learn Lean4 from inside out
 
+First gist: first encounter: first impression: What will you see first:
+
 C?: lake, elan, toml
 
 The package manager is lake, elan, toml, etc
 
 
+### The structure of the flow of the path of the journey of the curve of the learning of the ...
+
 Learn internal representaiton: `expr`.
 
-
-
-I recommend you know the following concepts:
+I recommend you know the following concepts: (see reference/glossary)
 * The "De Bruijn indices" notation
 * Alpha-conversion
 
 
-Glossary / Reference:
+### Glossary / Reference:
 
 * The `expr`
 Learn `expr`, the internal representation Lean4 uses for symbolic formulas:
@@ -45,7 +47,7 @@ environment
 * `raw`:  A method in (?) that returns internal representation.  Use `raw()` prevents us from updating the "reference counters". (?) . "Use it with care. The main risk of storing references to `cell` is that the `list` may be deleted."
    * `cell * list::raw() const { return m_ptr; }`
 
-On "Kind"s:
+### On "Kind"s:
 
 First,
 disentangle in your mind these (terms, concepts, ...): type, kind, "Sort".
@@ -73,7 +75,7 @@ inductive Expr
 */
 ```
 
-A brief top-down touch:
+##### A brief top-down touch:
 * `BVar`:  A variable bound ("bind"ed). The bounded can be a lambda argument(?) or a Pi argument. (Lambda vs Pi are function body vs function signature: value vs type) 
 * `FVar`
 * `MVar`
@@ -89,6 +91,8 @@ A brief top-down touch:
 
 
 "inductive Expr": means:
+
+### Odd way to start bottom-up:
 
 * **De Bruijn indices**:
    * `λx.λy.x` -> `λ.λ.2`: "The variable `x` is now two lambdas away from its binding site". Me: parent.
@@ -108,7 +112,8 @@ Lean4's specific concepts: (low-level, internal, almost VM)
 
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
 
-Levels of description:
+### Levels of description:
+(Contained self-consistent self-complete (closure) layers)
 1. Implementation
    1. `list`, `cell`, gc
    2. `object`, `object_ref`
@@ -123,5 +128,5 @@ Levels of description:
    4. Ways to think about Mathematics in Lean4: proof, assistance, program, native types, (no: compilation model?)
 
 
-Lean4 lingo: proper concepts:
+### Lean4 lingo: proper concepts:
 * "universally quantified type"
