@@ -109,5 +109,5 @@ Lean4's specific concepts: (low-level, internal, almost VM)
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
 
 
-Lean4 lino: proper concepts:
+Lean4 lingo: proper concepts:
 * "universally quantified type"
