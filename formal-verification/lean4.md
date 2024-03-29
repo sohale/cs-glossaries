@@ -149,8 +149,9 @@ See Section ` On "Kind"s` (kind subflow)
 
 * Let's (think in this way) set our mind's frame (refresh our minds) about Lambda expressions:
     * Lambdas define the body of functions in Lean4, not their signature
-        * What property of Lambda calculus this relates to? 
+        * What property of Lambda calculus this relates to?
     *  "abstracts over x", when we say `λx`.
+    * How does nesting enriches Lambda calculus?
 * **Alpha-conversion**: renaming variables to avoid name clashes
 
 Lean4's specific concepts: (low-level, internal, almost VM)
