@@ -152,6 +152,7 @@ See Section ` On "Kind"s` (kind subflow)
         * What property of Lambda calculus this relates to?
     *  "abstracts over x", when we say `λx`.
     * How does nesting enriches Lambda calculus?
+    * `λx.(λy.x(yx))` means: `(x) => ( (y) => (y*x) )` in Javascript, or `f = [](float x) { return  [x](float y) { return y*x; } ; }` in C++
 * **Alpha-conversion**: renaming variables to avoid name clashes
 
 Lean4's specific concepts: (low-level, internal, almost VM)
