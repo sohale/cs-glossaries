@@ -35,6 +35,8 @@ enum class expr_kind {
    Proj
 };
 ```
+See below for these kinds.
+
 ```cpp
 static   expr_kind    expr::kind(object * o);
 
@@ -53,7 +55,14 @@ environment
 
 * `raw`:  A method in (?) that returns internal representation.  Use `raw()` prevents us from updating the "reference counters". (?) . "Use it with care. The main risk of storing references to `cell` is that the `list` may be deleted."
    * `cell * list::raw() const { return m_ptr; }`
-    
+
+On "Kind"s:
+
+First,
+disentangle in your mind these (terms, concepts, ...): type, kind, "Sort".
+
+Now let's go thought them:
+First, "don't" look at this table (!) :
 
 ```txt
 =======================================
@@ -74,6 +83,20 @@ inductive Expr
 | proj    : Name → Nat → Expr → Expr                  -- projection
 */
 ```
+
+A brielf top-down touch:
+* `BVar`
+* `FVar`
+* `MVar`
+* `Sort`
+* `Const`
+* `App`
+* `Lambda`
+* `Pi`
+* `Let`
+* `Lit`
+* `MData`
+* `Proj`
 
 "inductive Expr": means:
 
