@@ -108,6 +108,20 @@ Lean4's specific concepts: (low-level, internal, almost VM)
 
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
 
+Levels of description:
+1. Implementation
+   1. `list`, `cell`, gc
+   2. `object`, `object_ref`
+   3. composition of `kind`s: `expr` (expressions)
+   4. The `environment`
+   5. Meanings of the elements / primitive used for expr/kind.
+2. User view:
+   1. User-side primitive concepts
+       * ? lambda versus Pi (function body vs signature)
+   2. User-side concepts to think about: Lean4 lingo: "universally quantified type"
+   3. User-side programming model & machine model: compilation model
+   4. Ways to think about Mathematics in Lean4: proof, assistance, program, native types, (no: compilation model?)
+
 
 Lean4 lingo: proper concepts:
 * "universally quantified type"
