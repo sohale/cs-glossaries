@@ -85,7 +85,7 @@ inductive Expr
 ```
 
 A brielf top-down touch:
-* `BVar`
+* `BVar` 
 * `FVar`
 * `MVar`
 * `Sort`
@@ -97,6 +97,7 @@ A brielf top-down touch:
 * `Lit`
 * `MData`
 * `Proj`
+
 
 "inductive Expr": means:
 
@@ -117,3 +118,7 @@ Lean4's specific concepts: (low-level, internal, almost VM)
 * `environment` https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/kernel/environment.h#L81
 
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
+
+
+Lean4 lino: proper concepts:
+* "universally quantified type"
