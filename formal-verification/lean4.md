@@ -1,5 +1,32 @@
 # Lean4: Learn Lean4 from inside out
 
+Lean 4 is two things: a theorem prover and a programming language.
+
+Compared to other similar tools:
+Lean4 is superior for proving higher / abstract mathematics: In fact, most of Mathematics is written already in Lean 4! (People such as Terrance Tao use it).
+With this powerful base, now its standard library is being completed and matured for Computer Science too.
+
+This made Lean4 an obvious choice for me to invest in it, finally "choose" one (a difficult thing). (Previously I thought Coq is the gold standard).
+Probably, Lean4 can now be considered the "gold standard" in proof/logic-oriented programming languages.
+Any opinions otherwise?
+
+Lean 4 is written by Leo (Leonardo de Moura) (Do you see the similarity? or is it just me with my verbal pare·idolia / apo·phenia?)
+
+```
+L  e  a  n  4
+L  e  o  n  ardo
+```
+[See: sosiname's law]
+
+It seems a lot of vision has been put into Lean4's design.
+
+Leo wrote Lean after Z3, which he had written. Even Lean4 itself is a result of maturation of an intereting experiemntal approach: HE first wrote Lean 1, Lean 2 as experimental, and then Lean 3 was released as a stable product. And then Lean4 by improvements and rewritings, including removing things from Lean3. A nice approach in software.
+
+Leo had written not only Z3, but also Yices 1.0 and SAL (he was the main architect).
+
+Lean4 has been successful technically and in the community.
+
+### Close Encounter of Lean 4 Kind
 First gist: first encounter: first impression: What will you see first:
 
 C?: lake, elan, toml
