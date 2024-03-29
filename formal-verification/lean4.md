@@ -15,7 +15,6 @@ I recommend you know the following concepts: (see reference/glossary)
 * The "De Bruijn indices" notation
 * Alpha-conversion
 
-`------------------------------------------------------------------------------`
 
 ---
 
