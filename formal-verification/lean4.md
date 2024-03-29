@@ -8,18 +8,26 @@ The package manager is lake, elan, toml, etc
 
 
 ### The structure of the flow of the path of the journey of the curve of the learning of the ...
+(Outline)
 
 Learn internal representaiton: `expr`.
 
 I recommend you know the following concepts: (see reference/glossary)
-* "Odd way to start bottom-up":
+
+* "Odd way to start bottom-up": (chapter)
    * The "De Bruijn indices" notation
    * Alpha-conversion
 
-* The "kind" subflow
+* Explanation part (chapter)
+    * The "kind" subflow
+    * Then, see "Levels of description"
+
+* This document follows with details, glossary, references, etc, that fill in above.
+
+Now that we have the outline, let's delve into it.
 
 ---
-
+Chapter
 
 ### On "Kind"s:
 (kind subflow)
@@ -65,7 +73,30 @@ inductive Expr
 * `MData`
 * `Proj`
 
+
+
+### Levels of description:
+(Contained self-consistent self-complete (closure) layers)
+1. Implementation
+   1. `list`, `cell`, gc
+   2. `object`, `object_ref`
+   3. composition of `kind`s: `expr` (expressions)
+   4. The `environment`
+   5. Meanings of the elements / primitive used for expr/kind.
+2. User view:
+   1. User-side primitive concepts
+       * ? lambda versus Pi (function body vs signature)
+   2. User-side concepts to think about: Lean4 lingo: "universally quantified type"
+   3. User-side programming model & machine model: compilation model
+   4. Ways to think about Mathematics in Lean4: proof, assistance, program, native types, (no: compilation model?)
+
+
+### Lean4 lingo: proper concepts:
+* "universally quantified type"
+
+
 ---
+Chapter
 
 ## Glossary / Reference:
 
@@ -119,26 +150,8 @@ See Section ` On "Kind"s` (kind subflow)
 * **Alpha-conversion**: renaming variables to avoid name clashes
 
 Lean4's specific concepts: (low-level, internal, almost VM)
-
+(sub-part of glossary?)
+ 
 * `environment` https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/kernel/environment.h#L81
 
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
-
-### Levels of description:
-(Contained self-consistent self-complete (closure) layers)
-1. Implementation
-   1. `list`, `cell`, gc
-   2. `object`, `object_ref`
-   3. composition of `kind`s: `expr` (expressions)
-   4. The `environment`
-   5. Meanings of the elements / primitive used for expr/kind.
-2. User view:
-   1. User-side primitive concepts
-       * ? lambda versus Pi (function body vs signature)
-   2. User-side concepts to think about: Lean4 lingo: "universally quantified type"
-   3. User-side programming model & machine model: compilation model
-   4. Ways to think about Mathematics in Lean4: proof, assistance, program, native types, (no: compilation model?)
-
-
-### Lean4 lingo: proper concepts:
-* "universally quantified type"
