@@ -147,6 +147,10 @@ See Section ` On "Kind"s` (kind subflow)
    * `λx. λy. x` ->  `λ λ 2`
    * ` λx. λy. λz. x z (y z)` ->  `λ λ λ 3 1 (2 1)`
 
+* Let's (think in this way) set our mind's frame (refresh our minds) about Lambda expressions:
+    * Lambdas define the body of functions in Lean4, not their signature
+        * What property of Lambda calculus this relates to? 
+    *  "abstracts over x", when we say `λx`.
 * **Alpha-conversion**: renaming variables to avoid name clashes
 
 Lean4's specific concepts: (low-level, internal, almost VM)
