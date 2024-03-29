@@ -15,6 +15,54 @@ I recommend you know the following concepts: (see reference/glossary)
 * The "De Bruijn indices" notation
 * Alpha-conversion
 
+* kind subflow
+
+---
+
+
+### On "Kind"s:
+(kind subflow)
+
+First,
+disentangle in your mind these (terms, concepts, ...): type, kind, "Sort".
+
+Now let's go through them:
+First, "don't" look at this table (!) :
+
+Table:
+```txt
+=======================================
+   Expressions
+
+inductive Expr
+| bvar    : Nat → Expr                                -- bound variables
+| fvar    : Name → Expr                               -- free variables
+| mvar    : Name → Expr                               -- meta variables
+| sort    : Level → Expr                              -- Sort
+| const   : Name → List Level → Expr                  -- constants
+| app     : Expr → Expr → Expr                        -- application
+| lam     : Name → BinderInfo → Expr → Expr → Expr    -- lambda abstraction
+| forallE : Name → BinderInfo → Expr → Expr → Expr    -- (dependent) arrow
+| letE    : Name → Expr → Expr → Expr → Expr          -- let expressions
+| lit     : Literal → Expr                            -- literals
+| mdata   : MData → Expr → Expr                       -- metadata
+| proj    : Name → Nat → Expr → Expr                  -- projection
+*/
+```
+
+##### A brief top-down touch: of "kind":
+* `BVar`:  A variable bound ("bind"ed). The bounded can be a lambda argument(?) or a Pi argument. (Lambda vs Pi are function body vs function signature: value vs type) 
+* `FVar`
+* `MVar`
+* `Sort`
+* `Const`
+* `App`
+* `Lambda`
+* `Pi`
+* `Let`
+* `Lit`
+* `MData`
+* `Proj`
 
 ---
 
@@ -49,48 +97,9 @@ environment
 * `raw`:  A method in (?) that returns internal representation.  Use `raw()` prevents us from updating the "reference counters". (?) . "Use it with care. The main risk of storing references to `cell` is that the `list` may be deleted."
    * `cell * list::raw() const { return m_ptr; }`
 
-### On "Kind"s:
+See Section ` On "Kind"s` (kind subflow)
 
-First,
-disentangle in your mind these (terms, concepts, ...): type, kind, "Sort".
-
-Now let's go thought them:
-First, "don't" look at this table (!) :
-
-```txt
-=======================================
-   Expressions
-
-inductive Expr
-| bvar    : Nat → Expr                                -- bound variables
-| fvar    : Name → Expr                               -- free variables
-| mvar    : Name → Expr                               -- meta variables
-| sort    : Level → Expr                              -- Sort
-| const   : Name → List Level → Expr                  -- constants
-| app     : Expr → Expr → Expr                        -- application
-| lam     : Name → BinderInfo → Expr → Expr → Expr    -- lambda abstraction
-| forallE : Name → BinderInfo → Expr → Expr → Expr    -- (dependent) arrow
-| letE    : Name → Expr → Expr → Expr → Expr          -- let expressions
-| lit     : Literal → Expr                            -- literals
-| mdata   : MData → Expr → Expr                       -- metadata
-| proj    : Name → Nat → Expr → Expr                  -- projection
-*/
-```
-
-##### A brief top-down touch:
-* `BVar`:  A variable bound ("bind"ed). The bounded can be a lambda argument(?) or a Pi argument. (Lambda vs Pi are function body vs function signature: value vs type) 
-* `FVar`
-* `MVar`
-* `Sort`
-* `Const`
-* `App`
-* `Lambda`
-* `Pi`
-* `Let`
-* `Lit`
-* `MData`
-* `Proj`
-
+#### ...
 
 "inductive Expr": means:
 
