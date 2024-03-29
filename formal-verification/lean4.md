@@ -152,7 +152,8 @@ See Section ` On "Kind"s` (kind subflow)
         * What property of Lambda calculus this relates to?
     *  "abstracts over x", when we say `λx`.
     * How does nesting enriches Lambda calculus?
-    * `λx.(λy.x(yx))` means: `(x) => ( (y) => (y*x) )` in Javascript, or `f = [](float x) { return  [x](float y) { return y*x; } ; }` in C++
+    * I used to (incorrectly) think `λx.(λy.x(yx))` means: `(x) => ( (y) => (y*x) )` in Javascript, or `f = [](float x) { return  [x](float y) { return y*x; } ; }` in C++
+    * But it means: `f=λx.(λy.x(yx))` means: `const f = (x) => ( (y) => (y(x)) )`, which means s itself is a function (three functions involved !) in Javascript, or `template Func f = [](float x) { return  [x](Func y) { return y(x); } ; }` in C++ (sorry without template it would have been prohibitively complicated & confusing), and when we apply them: In JS: `f( ((a)=>a*a) )(1.0)`, i.e. apply given `h=((a)=>a*a)` to `x=1.0`, `f(h)(1.0)`
 * **Alpha-conversion**: renaming variables to avoid name clashes
 
 Lean4's specific concepts: (low-level, internal, almost VM)
