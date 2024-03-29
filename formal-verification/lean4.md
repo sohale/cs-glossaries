@@ -12,10 +12,11 @@ The package manager is lake, elan, toml, etc
 Learn internal representaiton: `expr`.
 
 I recommend you know the following concepts: (see reference/glossary)
-* The "De Bruijn indices" notation
-* Alpha-conversion
+* "Odd way to start bottom-up":
+   * The "De Bruijn indices" notation
+   * Alpha-conversion
 
-* kind subflow
+* The "kind" subflow
 
 ---
 
