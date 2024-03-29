@@ -85,7 +85,7 @@ inductive Expr
 ```
 
 A brielf top-down touch:
-* `BVar` 
+* `BVar`  A variable bound ("bind"ed). The bounded can be a lambda argument(?) or a Pi argument. (Lambda vs Pi are function body vs function signatre: value vs type) 
 * `FVar`
 * `MVar`
 * `Sort`
