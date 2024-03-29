@@ -61,8 +61,11 @@ Chapter
 ### On "Kind"s:
 (kind subflow)
 
+(On why understanding expr is important.)
+
 First,
 disentangle in your mind these (terms, concepts, ...): type, kind, "Sort".
+
 
 Now let's go through them:
 First, "don't" look at this table (!) :
