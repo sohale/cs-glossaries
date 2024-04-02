@@ -119,7 +119,7 @@ hopf map
 
 spinor (1/2)
 
-( mobius, clifford alg, etc )
+( mobius, Lie, clifford alg, etc )
 
 spin group
 
