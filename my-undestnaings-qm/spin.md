@@ -102,6 +102,19 @@ Pauli's belt. ɬ
 Phase in the context of spin
 🌈
 
+### Hidden concepts
+Hidden concepts creepimg in cracks
+
+hopf map
+
+(3-sphere, bundle, etc etc )
+
+spinor (1/2)
+
+( mobius, clifford alg, etc )
+
+### Extentiins of 1/2-Spin
+
 #### Higher-order spins
 other than 1/2, higher dimensions, etc.
 Also Quaternions, etc.
