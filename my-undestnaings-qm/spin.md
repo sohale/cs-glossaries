@@ -121,6 +121,8 @@ spinor (1/2)
 
 ( mobius, clifford alg, etc )
 
+spin group
+
 ### Extentiins of 1/2-Spin
 
 #### Higher-order spins
