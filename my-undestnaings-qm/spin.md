@@ -102,6 +102,14 @@ Pauli's belt. ɬ
 Phase in the context of spin
 🌈
 
+### Quantum Interpretations (?)
+
+Hierarchy:
+* base states
+* pure states
+* mixes states
+* entangles states
+
 ### Hidden concepts
 Hidden concepts creepimg in cracks
 
