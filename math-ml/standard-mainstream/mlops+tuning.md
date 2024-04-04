@@ -22,7 +22,7 @@ Worked. See [raw1](https://github.com/sohale/gpu-experimentations/tree/8b273f26d
 
 #### Tuning Glossary
 Some terminology used by Ivy, quantisation, (dynamic offloading?), XLA tuning, etc.
-* Model router. Routing (Expert Routing, Custom Routing; see Ivy). "the model router"
+* Model router. Routing (Expert Routing, Custom Routing; see Ivy). "the model router" ([see](https://route.withmartian.com/))
 
 #### pointers
 Things/references to look at.
