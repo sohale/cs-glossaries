@@ -20,7 +20,11 @@ Worked. See [raw1](https://github.com/sohale/gpu-experimentations/tree/8b273f26d
 ### Tuning Techniques for Inference
 ( Not MLOps )
 
-dynamic routing 
+* dynamic routing (Ivy)
+* optimisation:
+   * dynamic routing  (Ivy)
+   * removing graph breaks  (Ivy)
+* model compression
 
 #### Tuning Glossary
 Some terminology used by Ivy, quantisation, (dynamic offloading?), XLA tuning, etc.
@@ -29,10 +33,16 @@ Some terminology used by Ivy, quantisation, (dynamic offloading?), XLA tuning, e
 * dynamic routing
 * model routing
 * dynamic batching
-* graph breaks
+* graph breaks →
 * removing graph breaks
 * compression
 * fast model deployment
+
+* chopped terms
+    * compression → ? "model" compression? or ...?
+    * routing → "model routing" or "dynamic routing"
+    * batching →
+    * break → graph breaks
 
 #### pointers
 Things/references to look at.
