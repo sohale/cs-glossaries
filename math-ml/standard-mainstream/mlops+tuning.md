@@ -20,7 +20,7 @@ Worked. See [raw1](https://github.com/sohale/gpu-experimentations/tree/8b273f26d
 ### Tuning Techniques for Inference
 ( Not MLOps )
 
-#### Glossary
+#### Tuning Glossary
 Some terminology used by Ivy, quantisation, (dynamic offloading?), XLA tuning, etc.
 
 
