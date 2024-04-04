@@ -16,4 +16,14 @@ Worked. See [https://github.com/sohale/gpu-experimentations/tree/8b273f26d6065ad
 `nv*` Did not work
 
 ## Tuning
+
+### Tuning Techniques for Inference
 ( Not MLOps )
+
+Some terminology used by Ivy, quantisation, (dynamic offloading?), XLA tuning, etc.
+
+
+
+Things/references to look at.
+* Unify ( [Daniel Lenton](https://www.linkedin.com/in/daniellenton/)'s Ivy / Unify ([tw/x](https://twitter.com/letsunifyai)) 
+* Some other startups in this area: () () ()
