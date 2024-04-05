@@ -9,8 +9,8 @@ Languages, DSLs and libraries?
 * Pyro  ( πρ ) (uses PyTorch)
 * Dice
 * Edward
-   * Edward2
-   * (see Tensorflow Probability )
+   * Edward2: https://edwardlib.org/ by Tran ([slides](https://docs.google.com/presentation/d/1bTvqHh2kjF0UjxIxM-OWJcATeGrcF1IrVksBzVE7Ss0/edit?resourcekey=0-Hdh487_jFj1eBIGDhktSfA#slide=id.g13dca569543_0_0))
+   * (see Tensorflow Probability ) Edward is built on TensorFlow
 * PSI solver
 * ΣΠPL
 
