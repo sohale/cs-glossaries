@@ -6,6 +6,7 @@ Teaching my past self VHDL. The LTM time-travel loop.
 
 * Meta:
    * Also see: https://github.com/sohale/cs-glossaries/blob/master/refs/vhdl-resources.md
+   * Also an entry in the private repo
 
 entity, configuration, architecture, port, generic, module, package, 
 
