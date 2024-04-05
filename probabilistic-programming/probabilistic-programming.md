@@ -6,9 +6,9 @@ Languages, DSLs and libraries?
 
 * Pomegranate
 * pgmpy
-* Pyro  ( πρ )
+* Pyro  ( πρ ) (uses PyTorch)
 * Dice
-* Edward
+* Edward (see Tensorflow Probability )
 * PSI solver
 * ΣΠPL
 
