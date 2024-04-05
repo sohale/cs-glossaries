@@ -3,10 +3,12 @@ Hello Norepinephrine
 
 ### Gathering:
 Existing Ways to see at it: (non-reconciled)
-1. Fight or fligh
-2. Lack of Condidence
-3. Increase of confidence
-4. Locus Coeruleus functions
+1. Fight or flight
+2. Lowering Condidence
+   * In meta cognition
+   * In limbic/amygdala activity ( adrenal / blood stream)
+5. Increase of confidence
+6. Locus Coeruleus functions
 
 ### Speculations
 1. Oil to burn for some code-movement
