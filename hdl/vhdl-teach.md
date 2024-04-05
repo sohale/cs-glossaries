@@ -17,3 +17,12 @@ entity, configuration, architecture, port, generic, module, package,
 
 * Minefield: Discrepancies between simulation and synthesizable
 (A solution could have been: `strict` mode. have two modes. Never trust the software-only (test) mode for hardware: error: cannot synthesise a non-`strict`)
+
+* Be careful (not necessarily bad)
+   * Pre-clock vs end-of-clock values
+
+* Conceptual map (1: simplified)
+   * body
+   * interface
+   * instantiation: pairing
+   * ...
