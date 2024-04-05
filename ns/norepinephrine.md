@@ -6,6 +6,7 @@ Existing Ways to see at it: (non-reconciled)
 1. Fight or fligh
 2. Lack of Condidence
 3. Increase of confidence
+4. Locus Coeruleus functions
 
 ### Speculations
 1. Oil to burn for some code-movement
