@@ -6,6 +6,7 @@ Languages, DSLs and libraries?
 
 * Pomegranate
 * pgmpy
+   * "Probabilistic Graphical Models" (?)
 * Pyro  ( πρ ) (uses PyTorch)
 * Dice
 * Edward
@@ -13,6 +14,10 @@ Languages, DSLs and libraries?
    * (now part of TensorFlow Probability (?) ) Edward is built on TensorFlow
 * PSI solver
 * ΣΠPL
+* Bambi
+   * (Bayesian Analysis of Mixed Models in Python)
+   * -- Good for fitting complex statistical models
+
 
 * Tensorflow distribution
 
@@ -40,6 +45,10 @@ Various / minor
 * Tom Nielson's: BaySIG, his newer Haskel-based
 * blackjax: https://github.com/blackjax-devs/blackjax
 * ( Bayesian Flow Networks )
+
+Side tools:
+* ArviZ ( A Python package for exploratory analysis of Bayesian models: visualization and diagnostic tools )
+
 Discrete-distribution:
 ?
 
