@@ -14,13 +14,15 @@ Languages, DSLs and libraries?
 
 * Tensorflow distribution
 
-* Stan, and where is stands ( Stan -> R )
-* BRMS -> Stan -> R stack
+
 
 * JUGS
 * WinBUGS/OpenBUGS
 * JAGS (Just Another Gibbs Sampler)
 
+* Stan stack: Stan, and where is stands
+   * Stan ( Stan -> R ) (written in C++)
+   * BRMS -> Stan -> R stack
 
 * PyMC3 (now PyMC ) [ [see](https://en.wikipedia.org/wiki/PyMC) ]
    * PyMC3 used Theano ( Theano-> Aesara, added JAX, Numba -> PyTensor), and now TF, and now PyTensor
