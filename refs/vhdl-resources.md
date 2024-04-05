@@ -1,3 +1,4 @@
+This is just for "reference"s. The main VHDL entry: https://github.com/sohale/cs-glossaries/blob/master/hdl/vhdl-teach.md
 
 * VHDL <-> Verilog
    * https://www.syncad.com/vhdl_verilog_translator.htm
