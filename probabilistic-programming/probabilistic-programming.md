@@ -22,7 +22,7 @@ Languages, DSLs and libraries?
 * JAGS (Just Another Gibbs Sampler)
 
 
-* PyMC3 (now PyMC )
+* PyMC3 (now PyMC ) [ [see](https://en.wikipedia.org/wiki/PyMC) ]
    * PyMC3 used Theano ( Theano-> Aesara, added JAX, Numba -> PyTensor), and now TF, and now PyTensor
    * PyMC2
    * PyMC1 (formerly PyMC)
