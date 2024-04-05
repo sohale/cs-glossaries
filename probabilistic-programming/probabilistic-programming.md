@@ -61,8 +61,14 @@ FEp:
 *
 
 ### Functions
-Functions of focus
-PyMC: Markov chain Monte Carlo (MCMC) and variational inference (VI)
+
+Major ones:
+* Gibbs sampling
+* MCMC
+* Variational Inference (VI)
+
+Functions of focus (of each)
+* PyMC: Markov chain Monte Carlo (MCMC) and variational inference (VI)
 
 What is wanted from these:
 * Modelling
@@ -75,6 +81,10 @@ Sampling:
 * Langevin
 
 
+
 Types of MCMC they support: (See mcmc.md here )
 * No U Turn
 * 
+
+Extended:
+* Active Inference
