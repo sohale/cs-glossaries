@@ -2,7 +2,11 @@
 
 Raw list:
 
-Languages, DSLs and libraries?
+### Functions
+Languages, DSLs and libraries
+
+
+Languages, DSLs, libraries, Packages, toolkits, DSL, frameworks
 
 * Pomegranate
 * pgmpy
@@ -55,6 +59,10 @@ Discrete-distribution:
 
 FEp:
 *
+
+### Functions
+Functions of focus
+PyMC: Markov chain Monte Carlo (MCMC) and variational inference (VI)
 
 What is wanted from these:
 * Modelling
