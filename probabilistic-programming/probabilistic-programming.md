@@ -37,6 +37,7 @@ Languages, DSLs and libraries?
       * rstan ( R <-> Stan, another? )
 
 * PyMC3 (now PyMC ) [ [w](https://en.wikipedia.org/wiki/PyMC) ]
+   * PyMC4
    * PyMC3 used Theano ( Theano-> Aesara, added JAX, Numba -> PyTensor), and now TF, and now PyTensor
    * PyMC2
    * PyMC1 (formerly PyMC)
