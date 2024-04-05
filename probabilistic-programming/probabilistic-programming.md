@@ -23,9 +23,9 @@ Languages, DSLs and libraries?
 
 
 * PyMC3 (now PyMC )
-   * PyMC3 used Theano, and now TF
-   * PyMC
-   * PyMC2 ( uses PyTensor )
+   * PyMC3 used Theano ( Theano-> Aesara, added JAX, Numba -> PyTensor), and now TF, and now PyTensor
+   * PyMC2
+   * PyMC1 (formerly PyMC)
 
 Various
 * Tom Nielson's: BaySIG, his newer Haskel-based
