@@ -8,7 +8,10 @@ Teaching my past self VHDL. The LTM time-travel loop.
 
 entity, configuration, architecture, port, generaic, module, package, 
 
-Nice distinctions in VHDL
+* Nice distinctions in VHDL
+   * an entity from architecture
+      * instances as pairs of entitry-architecture
+   * library from package
 
 * Minefield: Discrepancies between simulation and synthesizable
 (A solution could have been: `strict` mode. have two modes. Never trust the software-only (test) mode for hardware: error: cannot synthesis a non-`strict`)
