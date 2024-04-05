@@ -31,13 +31,13 @@ entity, configuration, architecture, port, generic, module, package,
       * ...
 
 
-* Explanation:
-   * body:
-       * code-blocks as first-class citizens
-   * interface
-      * architecture as interface
-      * ports & generics
-      * architecture & (?)
-   * instantiation: pairing
-   * package
-   * ...
+   * Explanation:
+      * body:
+         * code-blocks as first-class citizens
+      * interface
+         * architecture as interface
+         * ports & generics
+         * architecture & (?)
+      * instantiation: pairing
+      * package
+      * ...
