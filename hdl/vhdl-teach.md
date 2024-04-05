@@ -1,4 +1,4 @@
-# Teach myself VHDL
+# Teach Myself VHDL
 * aka *Teach Yourself VHDL* -- by reading this
 * aka *Teach ~Yourself~ Myself VHDL*
 
