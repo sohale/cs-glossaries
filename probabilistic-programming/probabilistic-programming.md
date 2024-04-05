@@ -1,9 +1,10 @@
 # Probabilistic Programming Languages
 
-Pomegranate
-pgmpy
-Pyro  ( πρ )
-Dice
-Edward
-PSI solver
-ΣΠPL
+Raw list:
+* Pomegranate
+* pgmpy
+* Pyro  ( πρ )
+* Dice
+* Edward
+* PSI solver
+* ΣΠPL
