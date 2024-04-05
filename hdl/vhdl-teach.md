@@ -1,6 +1,6 @@
 # Teach myself VHDL
-aka *Teach yourself VHDL* -- by reading this
-aka *Teach ~yourself~ myself VHDL*
+* aka *Teach yourself VHDL* -- by reading this
+* aka *Teach ~yourself~ myself VHDL*
 
 Teaching my past self VHDL. The LTM time-travel loop.
 
