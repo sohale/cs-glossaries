@@ -58,7 +58,14 @@ Discrete-distribution:
 ?
 
 FEp:
-*
+* SPM (Statistical Parametric Mapping)
+* Nengo
+* FEPy
+* pymdp (Frison. See: https://arxiv.org/abs/2201.03904)
+* cpp-AIF ( https://www.sciencedirect.com/science/article/pii/S0925231223011888 )
+* [etc: gh/topic](https://github.com/topics/active-inference)
+
+* Not, but possible: BrainPy, PyMC4
 
 ### Functions
 
