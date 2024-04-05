@@ -32,8 +32,11 @@ Languages, DSLs and libraries?
    * PyMC2
    * PyMC1 (formerly PyMC)
 
-Various
+Various / minor
 * Tom Nielson's: BaySIG, his newer Haskel-based
-
+* blackjax: https://github.com/blackjax-devs/blackjax
+* ( Bayesian Flow Networks )
 Discrete-distribution:
 ?
+
+
