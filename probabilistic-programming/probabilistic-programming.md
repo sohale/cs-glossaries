@@ -24,8 +24,12 @@ Languages, DSLs and libraries?
    * JAGS (Just Another Gibbs Sampler)
 
 * Stan stack: Stan, and where is stands [ [w](https://en.wikipedia.org/wiki/Stan_(software)) ]
-   * Stan ( Stan -> R ) (written in C++)
-   * BRMS -> Stan -> R stack
+   * Stan (written in C++)
+      * not:  ~( Stan -> R )~
+   * Bindings:
+      * BRMS ( R <-> Stan )
+      * PyStan (Python <-> Stan)
+      * rstan ( R <-> Stan, another? )
 
 * PyMC3 (now PyMC ) [ [w](https://en.wikipedia.org/wiki/PyMC) ]
    * PyMC3 used Theano ( Theano-> Aesara, added JAX, Numba -> PyTensor), and now TF, and now PyTensor
