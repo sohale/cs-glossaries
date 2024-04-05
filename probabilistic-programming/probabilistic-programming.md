@@ -15,10 +15,11 @@ Languages, DSLs and libraries?
 * Tensorflow distribution
 
 
-
-* JUGS
-* WinBUGS/OpenBUGS
-* JAGS (Just Another Gibbs Sampler)
+* BUGS
+   * JUGS
+   * OpenBUGS
+   * WinBUGS
+   * JAGS (Just Another Gibbs Sampler)
 
 * Stan stack: Stan, and where is stands [ [w](https://en.wikipedia.org/wiki/Stan_(software)) ]
    * Stan ( Stan -> R ) (written in C++)
