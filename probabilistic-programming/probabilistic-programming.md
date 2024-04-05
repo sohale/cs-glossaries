@@ -8,3 +8,7 @@ Raw list:
 * Edward
 * PSI solver
 * ΣΠPL
+
+Various
+* Tom Nielson's: BaySIG, his newer Haskel-based
+* Stan, and where is stands
