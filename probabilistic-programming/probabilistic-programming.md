@@ -63,6 +63,7 @@ FEp:
 * FEPy
 * pymdp (Frison. See: https://arxiv.org/abs/2201.03904)
 * cpp-AIF ( https://www.sciencedirect.com/science/article/pii/S0925231223011888 )
+* deepAI: Deep Active Inference by Kai Ueltzhöffer https://github.com/kaiu85/deepAI_paper https://arxiv.org/pdf/1709.02341.pdf
 * [etc: gh/topic](https://github.com/topics/active-inference)
 
 * Not, but possible: BrainPy, PyMC4
