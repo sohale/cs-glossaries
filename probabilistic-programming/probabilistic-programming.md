@@ -8,7 +8,9 @@ Languages, DSLs and libraries?
 * pgmpy
 * Pyro  ( πρ ) (uses PyTorch)
 * Dice
-* Edward (see Tensorflow Probability )
+* Edward
+   * Edward2
+   * (see Tensorflow Probability )
 * PSI solver
 * ΣΠPL
 
