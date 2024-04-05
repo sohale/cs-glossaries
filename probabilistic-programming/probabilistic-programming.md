@@ -17,6 +17,16 @@ Languages, DSLs and libraries?
 * Stan, and where is stands ( Stan -> R )
 * BRMS -> Stan -> R stack
 
+* JUGS
+* WinBUGS/OpenBUGS
+* JAGS (Just Another Gibbs Sampler)
+
+
+* PyMC3 (now PyMC )
+   * PyMC3 used Theano, and now TF
+   * PyMC
+   * PyMC2 ( uses PyTensor )
+
 Various
 * Tom Nielson's: BaySIG, his newer Haskel-based
 
