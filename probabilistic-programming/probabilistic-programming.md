@@ -52,4 +52,11 @@ Side tools:
 Discrete-distribution:
 ?
 
+FEp:
+*
+
+What is wanted from these:
+* Gibbs sampling
+* MCMC
+* Langevin
 
