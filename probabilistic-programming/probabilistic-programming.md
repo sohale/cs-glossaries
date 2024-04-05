@@ -61,3 +61,7 @@ What is wanted from these:
 * MCMC
 * Langevin
 
+
+Types of MCMC they support: (See mcmc.md here )
+* No U Turn
+* 
