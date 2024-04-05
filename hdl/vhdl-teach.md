@@ -23,7 +23,21 @@ entity, configuration, architecture, port, generic, module, package,
    * Pre-clock vs end-of-clock values
 
 * Conceptual map (1: simplified)
-   * body
+   * map:
+      * body
+      * interface
+      * instantiation: pairing
+      * package
+      * ...
+
+
+* Explanation:
+   * body:
+       * code-blocks as first-class citizens
    * interface
+      * architecture as interface
+      * ports & generics
+      * architecture & (?)
    * instantiation: pairing
+   * package
    * ...
