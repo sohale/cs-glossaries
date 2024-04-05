@@ -12,6 +12,7 @@ entity, configuration, architecture, port, generaic, module, package,
    * an entity from architecture
       * instances as pairs of entitry-architecture
    * library from package
+   * Separating the name of its "type" from its "implementation", with differnt names.
 
 * Minefield: Discrepancies between simulation and synthesizable
 (A solution could have been: `strict` mode. have two modes. Never trust the software-only (test) mode for hardware: error: cannot synthesis a non-`strict`)
