@@ -14,11 +14,11 @@ Languages, DSLs and libraries?
 
 * Tensorflow distribution
 
+* Stan, and where is stands ( Stan -> R )
+* BRMS -> Stan -> R stack
 
 Various
 * Tom Nielson's: BaySIG, his newer Haskel-based
-* Stan, and where is stands
-* R
 
 Discrete-distribution:
 ?
