@@ -10,7 +10,7 @@ Languages, DSLs and libraries?
 * Pyro  ( πρ ) (uses PyTorch)
 * Dice
 * Edward
-   * Edward2: https://edwardlib.org/ by Tran ([slides](https://docs.google.com/presentation/d/1bTvqHh2kjF0UjxIxM-OWJcATeGrcF1IrVksBzVE7Ss0/edit?resourcekey=0-Hdh487_jFj1eBIGDhktSfA#slide=id.g13dca569543_0_0))
+   * Edward2: https://edwardlib.org/ by Dustin Tran ([slides](https://docs.google.com/presentation/d/1bTvqHh2kjF0UjxIxM-OWJcATeGrcF1IrVksBzVE7Ss0/edit?resourcekey=0-Hdh487_jFj1eBIGDhktSfA#slide=id.g13dca569543_0_0))
    * (now part of TensorFlow Probability (?) ) Edward is built on TensorFlow
 * PSI solver
 * ΣΠPL
@@ -57,6 +57,11 @@ FEp:
 *
 
 What is wanted from these:
+* Modelling
+* Sampling ( & inference )
+* criticism
+
+Sampling:
 * Gibbs sampling
 * MCMC
 * Langevin
