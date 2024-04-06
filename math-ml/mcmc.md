@@ -138,6 +138,8 @@ Of course, it
 * most "simulations" are MCMC
 
 
+Stationarity & Equilibrium properties:
+
 Stationarity:
 * Depends on "initial distribution" too. 💫
    * "transition pdf stationary" is not enough (necessary, but not sufficient)
@@ -155,3 +157,11 @@ Interesting property:
 * if `initd` is Dirac delta, MCMC is usually not stationary (??)
 
 (What?)
+
+Related:
+* Stationarity
+* Invariant
+* Equilibrium
+* preserves
+...
+
