@@ -224,6 +224,11 @@ Some key terms
 * Radon-Nikodym derivative
 
 * sampler
+* to "reverse out of this cul-de-sac"
+* to "back out of this blind alley"
+* "block Gibbs"
+* "automaticity" (of Gibbs samples)
+* to "scan"
 * weak correctness property
 * MCSE
 * padding parameter-vectors
