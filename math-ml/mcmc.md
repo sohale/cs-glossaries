@@ -91,6 +91,7 @@ def MCMC(initd, f ; rngseed) :
    x := ~ initd
    loop:
       x' ~ f( x ; rng )
+      rng.++
       x = x'
 ```
 
