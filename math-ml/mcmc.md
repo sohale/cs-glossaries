@@ -141,7 +141,7 @@ Of course, it
 * most "simulations" are MCMC
 
 
-Stationarity & Equilibrium properties:
+### Stationarity & Equilibrium properties:
 
 Stationarity:
 * Depends on "initial distribution" too. 💫
@@ -163,19 +163,28 @@ Interesting property:
 (Doesn't this contradict the above one?)
 
 
-Related:
+So, these, are related:
 * Stationarity
 * Invariant
 * Equilibrium
 * preserves
 ...
 
-The 🔑 **equilibrium** property
+#### The 🔑 **equilibrium** property
 
 Having an equilibrium distribution is a key 🔑 and desired property of MCMC.
 
 ...
 
+#### Other related properties
+* Reversibility
+
+"Reversible with respect to initial distribution"
+
+Reversibility ⟹⇒ Stationatity
+Reversibility => Stationatity
+
+Reversible jump
 
 
 ### The MHG algorithm
