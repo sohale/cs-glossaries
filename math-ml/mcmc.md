@@ -13,7 +13,7 @@ Methods
 * "Monte Carlo"
 * "Metropolis" algorithm
 * "Metropolis--Hastings" algorithm
-* "Metropolis--Hastings--Green" algorithm (MHG)
+* "Metropolis--Hastings--Green" algorithm (MHG) [[book:1.17](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/63)]
 
 Timeline:
 * "Monte Carlo"
@@ -216,6 +216,7 @@ Some key terms
 * Variable-at-a-time (p 25)
 * Reversible jump
 * kernel
+* Mixing (state-dependent mixing)
 
 * Radon-Nikodym derivative
 
@@ -224,3 +225,9 @@ Some key terms
 * US
 * Measure-Theoretic MHG
 * Augmented State Space
+* Concentrated on (a set)
+* a sigma-finite positive measure
+* absolutely continuous
+* Lebesque decomposition
+* mutually singular
+* sub-Markov
