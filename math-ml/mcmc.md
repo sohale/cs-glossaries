@@ -69,13 +69,11 @@ Definition: MCMC is characterised by:
  * "Initial distribution" (unconditional)
  * transition pdf (conditional) (Markov)
 ```python
-def MCMC(initd, f ; rngseed) :
-
-   rng = rngseed   // initialise
-   x := ~ initd
-      x' ~ f( x ; rng )
-      x = x'
-      loop
+rng = initialise
+x := ~ initd
+   x' ~ f( x ; rng )
+   x = x'
+   loop
 ```
 
 in other words:
@@ -84,6 +82,16 @@ in other words:
 loop:
    x' ~ f( - ; rng | x )
    x = x'
+```
+
+```python
+def MCMC(initd, f ; rngseed) :
+
+   rng = rngseed   // initialise
+   x := ~ initd
+      x' ~ f( x ; rng )
+      x = x'
+      loop
 ```
 
 Of course, it
