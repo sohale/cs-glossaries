@@ -59,6 +59,7 @@ MCMC:
 Properties:
 * (is) Markov Chain
    * Except for pseudorandom seed
+   * "*x* must be the entire state of the program"
 * (is) Stationary
    * Adaptive MCMC: nonstationary (but almost-Stationary)
 * Continuous State Space (uncountable)
