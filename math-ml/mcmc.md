@@ -212,6 +212,16 @@ Theorems:
 * MHG Theorem [[book page 42](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/68) 1.17.3.2]
 * MHGJ Theorem [[book page 46](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/72) 1.17.4.1]
 
+
+Algorithms:
+* MCMC (generic)
+* MH
+* MHG
+* MHGJ
+* Others:
+   * independence MH algorithm [[p29]](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/55)
+   * random-walk MH algorithm
+
 Note:
 Gibbs sampler is a (historical) "cul-de-sac" to "reverse out of".
 
