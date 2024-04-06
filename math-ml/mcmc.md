@@ -66,11 +66,11 @@ Properties:
 * That's all (MCMC).
 
 Definition: MCMC is characterised by:
- * "initial distribution" (unconditional)
+ * "Initial distribution" (unconditional)
  * transition pdf (conditional) (Markov)
 ```
-init rng
-x := ~ init
+initialise rng
+x := ~ initd
    x' ~ f( x ; rng )
    x = x'
    loop
@@ -78,6 +78,7 @@ x := ~ init
 
 in other words:
 ```
+...
 loop:
    x' ~ f( - ; rng | x )
    x = x'
@@ -96,3 +97,8 @@ Stationarity:
 * Stationary, Invariant, Equilibrium
 * It *preserves* the initial distribution! 💫
    * As a result of stationarity
+
+Interesting property:
+
+* Theorem:
+if `initd` is diract delta, MCMC is always constant.
