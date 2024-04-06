@@ -149,4 +149,6 @@ Stationarity:
 Interesting property:
 
 * Theorem:
-if `initd` is diract delta, MCMC is always constant. (*iff*)
+* if `initd` is diract delta, MCMC is always constant. (*iff*)
+
+* if `initd` is Dirac delta, MCMC is usually not stationary (??)
