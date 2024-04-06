@@ -67,3 +67,6 @@ Properties:
 Definition: MCMC is characterised by:
  * "initial distribution" (unconditional)
  * transition pdf (conditional) (Markov)
+
+Of course, it
+* is a Stochastic Process
