@@ -216,6 +216,7 @@ Some key terms
 * Variable-at-a-time (p 25)
 * Reversible jump
 * kernel
+* restart property
 * Mixing (state-dependent mixing)
 
 * Radon-Nikodym derivative
@@ -231,3 +232,5 @@ Some key terms
 * Lebesque decomposition
 * mutually singular
 * sub-Markov
+* black-box MCMC
+* black-box testing
