@@ -194,6 +194,8 @@ Reversible jump
 CLT: Markov Chain Central Limit Theorem [2]
 
 ### The MHG algorithm
+
+todo:
 * 1.12.2 (page 23) -- The MH Theorem
 * 1.17.3.2 (page 42: 69)
 * 1.17.4.1
@@ -214,11 +216,14 @@ Theorems:
 
 
 Algorithms:
+
+todo: read, especially page 29. Expand this, and make this [one] main list of algorithms. Not major ones, but variations/variants (also may be as "samplers" and "algorithms")
 * MCMC (generic)
 * MH
 * MHG
 * MHGJ
 * Others:
+   * ...
    * independence MH algorithm [[p29]](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/55)
    * random-walk MH algorithm
 
