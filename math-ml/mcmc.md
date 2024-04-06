@@ -92,6 +92,7 @@ Of course, it
 Stationarity:
 * Depends on "initial distribution" too. 💫
    * "transition pdf stationary" is not enough (necessary, but not sufficient)
+   * "transition pdf stationary" `<=` "stationary", but not vice versa
 * Stationary, Invariant, Equilibrium
 * It *preserves* the initial distribution! 💫
    * As a result of stationarity
