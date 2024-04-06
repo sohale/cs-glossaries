@@ -117,6 +117,21 @@ def MCMC(initd : distribution, f : function ; rng : process) :
       x = x'
 ```
 
+Even better 4:
+```python
+def MCMC(initd, cpdf : distribution ; rng : process) :
+   assert: cpdf : conditional distribution
+   // assert initd : distribution
+   r_ = rng.advance()    // not the rng
+   x := initd. ~draw(r_)   // initd is already Curry-ed
+   loop:
+      x' = cpdf(x).~draw( r_ )
+      yield x'
+
+      r_ = rng.advance()
+      x = x'
+```
+
 Of course, it
 * is a Stochastic Process
 * That's it! MCMC. Not much structure
