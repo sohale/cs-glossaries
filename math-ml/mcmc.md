@@ -59,8 +59,7 @@ MCMC:
 Properties:
 * (is) Markov Chain
 * (is) Stationary
-
-* Adaptive MCMC: nonstationary (but almost-Stationary)
+   * Adaptive MCMC: nonstationary (but almost-Stationary)
 
 Definition: MCMC is characterised by:
  * "initial distribution"
