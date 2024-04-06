@@ -63,10 +63,25 @@ Properties:
 * (is) Stationary
    * Adaptive MCMC: nonstationary (but almost-Stationary)
 * Continuous State Space (uncountable)
+* That's all (MCMC).
 
 Definition: MCMC is characterised by:
  * "initial distribution" (unconditional)
  * transition pdf (conditional) (Markov)
+```
+init rng
+x := ~ init
+   x' ~ f( x ; rng )
+   x = x'
+   loop
+```
+
+in other words:
+```
+   x' ~ f( - ; rng | x )
+   x = x'
+```
 
 Of course, it
 * is a Stochastic Process
+* most simulations are MCMC
