@@ -167,3 +167,4 @@ Related:
 * preserves
 ...
 
+Having an equilibrium distribution is a key 🔑 and desired property of MCMC.
