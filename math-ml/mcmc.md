@@ -69,7 +69,9 @@ Definition: MCMC is characterised by:
  * "Initial distribution" (unconditional)
  * transition pdf (conditional) (Markov)
 ```
-initialise rng
+def MCMC(initd, f ; rngseed) :
+
+rng = rngseed   // initialise
 x := ~ initd
    x' ~ f( x ; rng )
    x = x'
