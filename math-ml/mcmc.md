@@ -1,5 +1,13 @@
 # MCMC
 
+MCMC = Markov Chain Monte Carlo
+
+Evolution:
+
+Timeline:
+* Metropolis et al (1953)
+* Hastings
+* Geman & Geman (1984)
 
 ### Also
 * https://github.com/sohale/cs-glossaries/blob/master/math-ml/hamiltonian.md?plain=1#L90
