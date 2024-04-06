@@ -56,10 +56,12 @@ MCMC:
 [1] (Book) **Handbook of Markov Chain Monte Carlo.** Steve Brooks, Gelman, Jones, Meng (2011) https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/29
 
 ## Mathematics
-Definition
-
 Properties:
 * (is) Markov Chain
 * (is) Stationary
 
-* Adaptive MCMC: Not Stationary (but almost-Stationary)
+* Adaptive MCMC: nonstationary (but almost-Stationary)
+
+Definition: MCMC is characterised by:
+ * initial distribution
+ * 
