@@ -181,8 +181,10 @@ Having an equilibrium distribution is a key 🔑 and desired property of MCMC.
 
 "Reversible with respect to initial distribution"
 
-Reversibility ⟹⇒ Stationatity
-Reversibility => Stationatity
+* Reversibility ⇒ Stationarity
+* Reversibility ⇏ Stationarity
+
+⇒⟹⇏⇏
 
 Reversible jump
 
