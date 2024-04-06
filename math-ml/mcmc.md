@@ -2,7 +2,6 @@
 
 ⛓️‍💥⛓️⛓
 .Ⓜ️
-
 See also: [hamiltonian.md](https://github.com/sohale/cs-glossaries/blob/master/math-ml/hamiltonian.md)
 
 ## Introduction
