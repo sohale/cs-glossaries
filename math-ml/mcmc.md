@@ -63,5 +63,5 @@ Properties:
 * Adaptive MCMC: nonstationary (but almost-Stationary)
 
 Definition: MCMC is characterised by:
- * initial distribution
- * 
+ * "initial distribution"
+ * transition pdf
