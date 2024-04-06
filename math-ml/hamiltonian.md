@@ -4,7 +4,7 @@ My levels and layers of understanding of Hamiltonian,
 in historical order
 
 * Also see:
-For Legendre-transform: [math-ml/Legendre-transform.md]( https://github.com/sohale/cs-glossaries/blob/master/math-ml/Legendre-transform.md?plain=1#L6 ) ,
+For Legendre-transform: [math-ml/Legendre-transform.md]( https://github.com/sohale/cs-glossaries/blob/master/math-ml/Legendre-transform.md) ,
 for MCMC: [math-ml/mcmc.m](https://github.com/sohale/cs-glossaries/blob/master/math-ml/mcmc.md)
 
 ## In the historical order of my journey in understanding it
