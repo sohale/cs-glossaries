@@ -101,4 +101,4 @@ Stationarity:
 Interesting property:
 
 * Theorem:
-if `initd` is diract delta, MCMC is always constant.
+if `initd` is diract delta, MCMC is always constant. (*iff*)
