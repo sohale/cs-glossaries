@@ -57,6 +57,7 @@ MCMC:
 
 ### References
 [1] (Book) **Handbook of Markov Chain Monte Carlo.** Steve Brooks, Gelman, Jones, Meng (2011) https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/29
+[2] CLT: (Kipnis and Varadhan, 1986; Roberts and Rosenthal, 1997) -- See for CLT: Markov Chain Central Limit Theorem 
 
 ## Mathematics
 Properties:
@@ -189,7 +190,12 @@ Having an equilibrium distribution is a key 🔑 and desired property of MCMC.
 Reversible jump
 
 
+####
+CLT: Markov Chain Central Limit Theorem [2]
+
 ### The MHG algorithm
 1.12.2
 1.17.3.2
 1.17.4.1
+
+
