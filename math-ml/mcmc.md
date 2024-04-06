@@ -217,12 +217,13 @@ Some key terms
 * Reversible jump
 * kernel
 * Checkpointing
-* restart property
+* restart property (of a sampler)
 * Mixing (state-dependent mixing)
 
 
 * Radon-Nikodym derivative
 
+* sampler
 * padding parameter-vectors
 * ST
 * US
