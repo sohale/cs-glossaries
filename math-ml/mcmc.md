@@ -222,10 +222,15 @@ Algorithms:
    * independence MH algorithm [[p29]](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/55)
    * random-walk MH algorithm
 
+Samplers:
+* Metropolis-within-Gibbs sampler [[28]](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/54)
+
+
 Note:
 Gibbs sampler is a (historical) "cul-de-sac" to "reverse out of".
 
-Some key terms
+Some key terms (proper terminology)
+* "elementary updates" 
 * Variable-at-a-time (p 25)
 * Reversible jump
 * kernel
