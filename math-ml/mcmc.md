@@ -198,4 +198,8 @@ CLT: Markov Chain Central Limit Theorem [2]
 * 1.17.3.2
 * 1.17.4.1
 
-
+The "Update" variants:
+* Metropolis Update
+* Metropolis-Hastings Update
+* Gibbs Update
+* Combined updates
