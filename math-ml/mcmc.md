@@ -195,7 +195,7 @@ CLT: Markov Chain Central Limit Theorem [2]
 
 ### The MHG algorithm
 * 1.12.2 (page 23) -- The MH Theorem
-* 1.17.3.2
+* 1.17.3.2 (page 42: 69)
 * 1.17.4.1
 
 The "Update" variants:
@@ -206,7 +206,8 @@ The "Update" variants:
 
 Theorems:
 
-* Metropolis-Hastings Theorem
+* Metropolis-Hastings Theorem [[book page](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/50)?]
+* MHG Theorem [[book page](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/68)]
 
 Some key terms
 * Variable-at-a-time (p 25)
