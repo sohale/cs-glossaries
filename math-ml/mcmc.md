@@ -94,6 +94,17 @@ def MCMC(initd, f ; rngseed) :
       rng.++
       x = x'
 ```
+Even better:
+```python
+def MCMC(initd : distribution, f : function ; rngseed : process) :
+
+   rng = rngseed   // draw
+   x := ~ initd(rng)
+   loop:
+      x' ~ f( x ; rng )
+      rng.++
+      x = x'
+```
 
 Of course, it
 * is a Stochastic Process
