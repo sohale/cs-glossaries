@@ -224,11 +224,14 @@ Some key terms
 * Radon-Nikodym derivative
 
 * sampler
+* weak correctness property
+* MCSE
 * padding parameter-vectors
 * ST
 * US
 * Measure-Theoretic MHG
 * Augmented State Space
+* Per-sample (?) Augmented State Space
 * Concentrated on (a set)
 * a sigma-finite positive measure
 * absolutely continuous
