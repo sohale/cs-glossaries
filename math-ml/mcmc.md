@@ -83,15 +83,15 @@ loop:
    x' ~ f( - ; rng | x )
    x = x'
 ```
-
+Better:
 ```python
 def MCMC(initd, f ; rngseed) :
 
    rng = rngseed   // initialise
    x := ~ initd
+   loop:
       x' ~ f( x ; rng )
       x = x'
-      loop
 ```
 
 Of course, it
