@@ -203,3 +203,10 @@ The "Update" variants:
 * Metropolis-Hastings Update
 * Gibbs Update
 * Combined updates
+
+Theorems:
+
+* Metropolis-Hastings Theorem
+
+Some key terms
+* Variable-at-a-time (p 25)
