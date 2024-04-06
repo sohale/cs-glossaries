@@ -232,7 +232,8 @@ Some key terms
 * "block Gibbs"
 * unwarranted update
 * the mystique of statisticians
-* "automaticity" (of Gibbs samples)
+* "automaticity" (of Gibbs samples) (Gibbs samplers seem automatic)
+* "more automatic"
 * to "scan"
 * weak correctness property
 * MCSE
