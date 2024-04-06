@@ -15,7 +15,7 @@ Timeline:
 * "Monte Carlo"
 * Metropolis et al (1953)
 * Hastings (1970)
-   * Various (Geman & Geman, 1984, etc etc)
+   * Various (including Geman & Geman 1984, etc)
 * Green (1995)
 
 Timeline: (with details)
