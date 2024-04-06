@@ -194,8 +194,8 @@ Reversible jump
 CLT: Markov Chain Central Limit Theorem [2]
 
 ### The MHG algorithm
-1.12.2
-1.17.3.2
-1.17.4.1
+* 1.12.2 (page 23) -- The MH Theorem
+* 1.17.3.2
+* 1.17.4.1
 
 
