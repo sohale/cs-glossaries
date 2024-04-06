@@ -216,8 +216,10 @@ Some key terms
 * Variable-at-a-time (p 25)
 * Reversible jump
 * kernel
+* Checkpointing
 * restart property
 * Mixing (state-dependent mixing)
+
 
 * Radon-Nikodym derivative
 
