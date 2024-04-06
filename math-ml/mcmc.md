@@ -92,5 +92,5 @@ Of course, it
 Stationarity:
 * Depends on "initial distribution" too.
 * Stationary, Invariant, Equilibrium
-* It preserves the initial distribution!
+* It preserves the initial distribution! 💫
    * As a result of stationarity
