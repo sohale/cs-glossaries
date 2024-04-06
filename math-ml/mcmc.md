@@ -230,7 +230,9 @@ Note:
 Gibbs sampler is a (historical) "cul-de-sac" to "reverse out of".
 
 Some key terms (proper terminology)
-* "elementary updates" 
+* "elementary updates"
+* "mixture"
+* "sub-sampling"
 * Variable-at-a-time (p 25)
 * Reversible jump
 * kernel
