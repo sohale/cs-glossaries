@@ -203,6 +203,8 @@ The "Update" variants:
 * Metropolis-Hastings Update
 * Gibbs Update
 * Combined updates
+* MHG Elementary Update
+
 
 Theorems:
 
@@ -212,3 +214,13 @@ Theorems:
 
 Some key terms
 * Variable-at-a-time (p 25)
+* Reversible jump
+* kernel
+
+* Radon-Nikodym derivative
+
+* padding parameter-vectors
+* ST
+* US
+* Measure-Theoretic MHG
+* Augmented State Space
