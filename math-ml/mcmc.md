@@ -68,18 +68,18 @@ Properties:
 Definition: MCMC is characterised by:
  * "Initial distribution" (unconditional)
  * transition pdf (conditional) (Markov)
-```
+```python
 def MCMC(initd, f ; rngseed) :
 
-rng = rngseed   // initialise
-x := ~ initd
-   x' ~ f( x ; rng )
-   x = x'
-   loop
+   rng = rngseed   // initialise
+   x := ~ initd
+      x' ~ f( x ; rng )
+      x = x'
+      loop
 ```
 
 in other words:
-```
+```python
 ...
 loop:
    x' ~ f( - ; rng | x )
