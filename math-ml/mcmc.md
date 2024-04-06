@@ -59,9 +59,9 @@ MCMC:
 Properties:
 * (is) Markov Chain
    * Except for pseudorandom seed
-   * "*x* **must** be the entire state of the program"
+   * "*x* **must** be the entire state of the program" 💫
 * (is) Stationary
-   * Adaptive MCMC: nonstationary (but almost-Stationary)
+   * Adaptive MCMC: nonstationary (but almost-Stationary) 💫
 * Continuous State Space (uncountable)
 * That's all (MCMC).
 
@@ -90,7 +90,7 @@ Of course, it
 
 
 Stationarity:
-* Depends on "initial distribution" too.
+* Depends on "initial distribution" too. 💫
 * Stationary, Invariant, Equilibrium
-* It preserves the initial distribution! 💫
+* It *preserves* the initial distribution! 💫
    * As a result of stationarity
