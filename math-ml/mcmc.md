@@ -250,6 +250,7 @@ Some key terms (proper terminology)
 * Radon-Nikodym derivative
 
 * sampler
+* avoid set (a subset that you want to avoid) (not a standard term, but an important concept)
 * to "reverse out of this (historical) cul-de-sac"
 * to "back out of this blind alley"
 * "block Gibbs"
