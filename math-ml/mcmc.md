@@ -1,12 +1,13 @@
 # MCMC
 
 ⛓️‍💥⛓️⛓
+.Ⓜ️
 
 ## Introduction
 MCMC = Markov Chain Monte Carlo
 
 Evolution:
-Metropolis et al (1953) → Hastings (1970) → Green (1995)
+Ⓜ️ Metropolis et al (1953) → Hastings (1970) → Green (1995)
 
 Methods
 * "Monte Carlo"
