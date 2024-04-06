@@ -121,9 +121,9 @@ Even better 4:
 ```python
 def MCMC(initd, cpdf : distribution ; rng : process) :
    assert: cpdf : conditional distribution
-   // assert initd : distribution
-   r_ = rng.advance()    // not the rng
-   x := initd. ~draw(r_)   // initd is already Curry-ed
+   /# assert initd : distribution
+   r_ = rng.advance()    # not the rng
+   x := initd. ~draw(r_)   # initd is already Curry-ed
    loop:
       x' = cpdf(x).~draw( r_ )
       yield x'
