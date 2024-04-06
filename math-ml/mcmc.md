@@ -13,7 +13,7 @@ Methods
 * "Monte Carlo"
 * "Metropolis" algorithm
 * "Metropolis--Hastings" algorithm
-* "Metropolis--Hastings--Green" algorithm
+* "Metropolis--Hastings--Green" algorithm (MHG)
 
 Timeline:
 * "Monte Carlo"
@@ -171,3 +171,12 @@ Related:
 ...
 
 Having an equilibrium distribution is a key 🔑 and desired property of MCMC.
+
+...
+
+
+
+### The MHG algorithm
+1.12.2
+1.17.3.2
+1.17.4.1
