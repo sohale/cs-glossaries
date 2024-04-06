@@ -78,6 +78,7 @@ x := ~ init
 
 in other words:
 ```
+loop:
    x' ~ f( - ; rng | x )
    x = x'
 ```
