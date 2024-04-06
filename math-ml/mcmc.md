@@ -5,6 +5,7 @@ MCMC = Markov Chain Monte Carlo
 Evolution:
 Metropolis et al (1953) → Green (1995)
 
+Methods
 * "Monte Carlo"
 * "Metropolis" algorithm
 * "Metropolis--Hastings" algorithm
@@ -14,14 +15,14 @@ Timeline:
 * "Monte Carlo"
 * Metropolis et al (1953)
 * Hastings (1970)
-* Geman & Geman (1984)
+   * Various (Geman & Geman, 1984, etc etc)
 * Green (1995)
 
 Timeline: (with details)
 * "Monte Carlo" -- simulations
 * Metropolis et al (1953) -- Los Alamos (physics): simulating liquid-gas equilibrium. Chemists & Phsicits for simlulation
 * Hastings (1970) -- generalised
-* Various (slow catch up, despite Hastings)
+* Various (slow catch-up, despite Hastings)
    * Geman & Geman (1984) --  ( as "Gibbs sampler") (a special case of "Hastings" ! ) (focus on optimisation: finding the posteriors's "mode")
    * (various): "Gibbs sampler simulated the posterior distribution" -> enables "full Bayesian inference of all kinds"
    * called "data augmentation" (Tanner, Wong 1987)
@@ -29,6 +30,19 @@ Timeline: (with details)
    * "Bayesian Inference" can be done by "MCMC"
    * Took a while to fully understand MCMC's theory.
 * Green (1995) -- "Metropolis--Hastings--Green" algorithm: Generalised it as much as it can be generalised!
+
+For more info: [Brook, page 29](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/29)
+
+MCMC:
+Aims:
+* Bayesian Inference
+* Likelihood Inference, (when likelihood cannot be explicitly calculated)
+
+MCMC:
+* Bayesian Inference (explicit likelihood?)
+   * Simulation
+   * Gibbs sampling
+* Likelihood inference (implicit likelihood)
 
 
 ### Also
