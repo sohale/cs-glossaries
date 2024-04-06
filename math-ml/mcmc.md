@@ -105,6 +105,17 @@ def MCMC(initd : distribution, f : function ; rng : process) :
       rng.++
       x = x'
 ```
+Even better 3:
+```python
+def MCMC(initd : distribution, f : function ; rng : process) :
+
+   rng.++   // .~draw() ? , or it could be .init()
+   x := rng. ~draw(rng)
+   loop:
+      x' = f_draw ( x ; rng)
+      rng.++  // or rng.~draw()? also: .advance()
+      x = x'
+```
 
 Of course, it
 * is a Stochastic Process
