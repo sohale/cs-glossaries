@@ -63,5 +63,5 @@ Properties:
 * Continuous State Space (uncountable)
 
 Definition: MCMC is characterised by:
- * "initial distribution"
- * transition pdf
+ * "initial distribution" (unconditional)
+ * transition pdf (conditional) (Markov)
