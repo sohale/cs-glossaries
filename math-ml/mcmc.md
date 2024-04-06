@@ -57,4 +57,7 @@ MCMC:
 
 ## Mathematics
 Definition
-Features
+
+Properties:
+* (is) Markov Chain
+* (is) Stationary
