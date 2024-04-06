@@ -58,6 +58,7 @@ MCMC:
 ## Mathematics
 Properties:
 * (is) Markov Chain
+   * Except for pseudorandom seed
 * (is) Stationary
    * Adaptive MCMC: nonstationary (but almost-Stationary)
 * Continuous State Space (uncountable)
