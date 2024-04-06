@@ -87,3 +87,8 @@ Of course, it
 * is a Stochastic Process
 * That's it! MCMC. Not much structure
 * most "simulations" are MCMC
+
+
+Stationarity:
+* Depends on "initial distribution" too.
+* Stationary, Invariant, Equilibrium
