@@ -61,3 +61,5 @@ Definition
 Properties:
 * (is) Markov Chain
 * (is) Stationary
+
+* Adaptive MCMC: Not Stationary (but almost-Stationary)
