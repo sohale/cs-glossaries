@@ -96,12 +96,12 @@ def MCMC(initd, f ; rngseed) :
 ```
 Even better:
 ```python
-def MCMC(initd : distribution, f : function ; rngseed : process) :
+def MCMC(initd : distribution, f : function ; rng : process) :
 
-   rng = rngseed   // draw
-   x := ~ initd(rng)
+   rng.++   // draw
+   x := ~ initd [;rng] ()
    loop:
-      x' ~ f( x ; rng )
+      x' ~ f [; rng] ( x  )
       rng.++
       x = x'
 ```
