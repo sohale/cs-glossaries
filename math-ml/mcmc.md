@@ -157,6 +157,8 @@ Interesting property:
 * if `initd` is Dirac delta, MCMC is usually not stationary (??)
 
 (What?)
+(Doesn't this contradict the above one?)
+
 
 Related:
 * Stationarity
