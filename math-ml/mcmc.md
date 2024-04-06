@@ -1,5 +1,6 @@
 # MCMC
 
+## Introduction
 MCMC = Markov Chain Monte Carlo
 
 Evolution:
@@ -55,3 +56,6 @@ MCMC:
 ## References
 [1] (Book) **Handbook of Markov Chain Monte Carlo.** Steve Brooks, Gelman, Jones, Meng (2011) https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/29
 
+## Mathematics
+Definition
+Features
