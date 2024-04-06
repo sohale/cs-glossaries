@@ -53,5 +53,5 @@ MCMC:
 
 
 ## References
-[1] Book: Handbook of Markov Chain Monte Carlo. Steve Brook shttps://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/29
+[1] Book: Handbook of Markov Chain Monte Carlo. Steve Brooks, Gelman, Jones, Meng (2011) https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/29
 
