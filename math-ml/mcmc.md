@@ -206,8 +206,8 @@ The "Update" variants:
 
 Theorems:
 
-* Metropolis-Hastings Theorem [[book page](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/50)?]
-* MHG Theorem [[book page](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/68)]
+* Metropolis-Hastings Theorem [[book page 23](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/49) 1.12.2]
+* MHG Theorem [[book page 42](https://bookshelf.vitalsource.com/reader/books/9781420079425/pageid/68) 1.17.3.2]
 
 Some key terms
 * Variable-at-a-time (p 25)
