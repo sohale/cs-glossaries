@@ -2,22 +2,18 @@
 # Teach Yourself PTX
 Hard-core GPU / CUDA programming
 
-Let's start with simple
+Let's start with simple:
 ```ptx
 .version 7.0
 .target sm_30
 .address_size 64
 
-// Kernel function to add two integers
 .global .entry add_numbers(
     .param .u64 ptrA,
     .param .u64 ptrB,
     .param .u64 ptrResult
 )
 {
-    // takes pointers to two input values and a pointer to the result location ^
-    // result = a + b
-
     .reg .u64 a;
     .reg .u64 b;
     .reg .u64 result;
@@ -33,6 +29,11 @@ Let's start with simple
 
 }
 ```
+
+`add_numbers`: Kernel function to add two integers.
+
+Takes pointers to two input values and a pointer to the `result` location.
+
 
 `.target sm_30`
 
