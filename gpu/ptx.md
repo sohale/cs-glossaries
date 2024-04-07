@@ -77,7 +77,6 @@ In above example, we could write either:
 What difference does it make?
 What is the difference / impact?
 
-`.address_size 64`
 
 #### Memory spaces
 * `local` -- off-chip memory, accessible only by the thread
@@ -111,3 +110,6 @@ The size limit table:
 * `global`
 * `const`
 * `tex`
+
+#### address size
+`.address_size 64`
