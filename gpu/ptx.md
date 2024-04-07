@@ -79,14 +79,18 @@ What is the difference / impact?
 
 `.address_size 64`
 
-####
+#### Memory spaces
 * `local` -- off-chip memory, accessible only by the thread
 * `reg`
 * `shared` -- On-chip memory shared among threads in the "same block". limited size.
-* `global`
+* `global` -- Largest and slowest memory, (all threads across all blocks)
 * `const`
 * `tex`
 
+Q:
+* `grid`-shared?
+* is `local` slower than `shared`?
+* sizes?
 
 * spill-over: `local` is used for spill-over storage when registers are full.
 
