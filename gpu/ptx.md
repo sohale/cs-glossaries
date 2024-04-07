@@ -87,6 +87,7 @@ What is the difference / impact?
 * `tex` -- (read-only, cached and optimized for texture fetching)
 
 Notes:
+* Sorted by speed. `local` memory is slower than `shared` memory.
 * spill-over: `local` is used for spill-over storage when registers are full.
 
 Q:
