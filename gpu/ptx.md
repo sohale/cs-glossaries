@@ -36,9 +36,7 @@ Let's start with simple trivial example:
 Takes pointers to two input values and a pointer to the `result` location.
 
 #### The `.target`
-The `.target` directive,
-
-specifies the "virtual architecture" = "compute capability".
+The `.target` directive, specifies the "**virtual architecture**" = "**compute capability**".
 
 `.target sm_30`
 
