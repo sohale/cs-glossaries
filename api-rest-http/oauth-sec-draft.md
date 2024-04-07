@@ -174,3 +174,5 @@ that secret key needs to remain there.
 * [this document](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md)
 * [rest: study workbook](https://github.com/sohale/cs-glossaries/blob/master/api-rest-http/restful.md)
 * tls (includes layers): [tls-1](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
+
+This file was moved from `docs/oauth-sec-draft.md` → `api-rest-http/oauth-sec-draft.md`
