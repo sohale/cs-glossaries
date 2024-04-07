@@ -82,7 +82,7 @@ What is the difference / impact?
 ####
 * `local` -- off-chip memory, accessible only by the thread
 * `reg`
-* `shared` -- On-chip memory shared among threads in the "same block"
+* `shared` -- On-chip memory shared among threads in the "same block". limited size.
 * `global`
 * `const`
 * `tex`
@@ -97,4 +97,11 @@ The "same"-ness table:
 * `global`
 * `const`
 * `tex`
-* 
+
+The size limit table:
+* `local` -- ?
+* `reg` -- very few
+* `shared` -- limited size
+* `global`
+* `const`
+* `tex`
