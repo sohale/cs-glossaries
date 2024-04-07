@@ -35,8 +35,19 @@ Let's start with simple trivial example:
 
 Takes pointers to two input values and a pointer to the `result` location.
 
+The `.target` directive,
+
+specifies the "virtual architecture" = "compute capability".
 
 `.target sm_30`
+
+"compute capability":
+defines the feature set and capabilities of the GPU architecture, including aspects like 
+* the number of threads per block,
+* warp size,
+* memory architecture,
+* available instructions,
+* etc
 
 #### The `ld`
 In the `ld.param.u64 a, [ptrA];`: the *param*, could be:
