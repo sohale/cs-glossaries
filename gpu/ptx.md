@@ -91,6 +91,10 @@ Notes:
 * Sorted by speed. `local` memory is slower than `shared` memory.
 * spill-over: `local` is used for spill-over storage when registers are full.
 
+Speed:
+
+* reg > shared > const > tex > global > local*
+
 Q:
 * `grid`-shared?
 * is `local` slower than `shared`?
