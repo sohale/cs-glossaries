@@ -82,11 +82,19 @@ What is the difference / impact?
 ####
 * `local` -- off-chip memory, accessible only by the thread
 * `reg`
-* `shared`
+* `shared` -- On-chip memory shared among threads in the "same block"
 * `global`
 * `const`
 * `tex`
 
 
-
 * spill-over: `local` is used for spill-over storage when registers are full.
+
+The "same"-ness table:
+* `local` -- same thread
+* `reg`
+* `shared` -- same block
+* `global`
+* `const`
+* `tex`
+* 
