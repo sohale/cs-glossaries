@@ -84,7 +84,7 @@ What is the difference / impact?
 * `shared` -- On-chip memory shared among threads in the "same block". limited size.
 * `global` -- Largest and slowest memory, (all threads across all blocks)
 * `const` -- On-chip read-only memory, suitable for data that does not change over the course of a kernel execution and is shared across threads
-* `tex`
+* `tex` -- (read-only, cached and optimized for texture fetching)
 
 Notes:
 * spill-over: `local` is used for spill-over storage when registers are full.
