@@ -63,6 +63,8 @@ In the `ld.param.u64 a, [ptrA];`: the *param*, could be:
 * `const`
 * `tex`
 
+Note: `ld.reg.*` & `st.reg.*` will be meaningless (registers).
+
 It can be
 * `ld.*.*`
 * `st.*.*`
