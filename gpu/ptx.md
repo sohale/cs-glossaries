@@ -78,3 +78,12 @@ What difference does it make?
 What is the difference / impact?
 
 `.address_size 64`
+
+####
+* `local` -- off-chip memory, accessible only by the thread
+* `reg`
+* `shared`
+* `global`
+* `const`
+* `tex`
+* 
