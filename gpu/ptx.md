@@ -86,4 +86,7 @@ What is the difference / impact?
 * `global`
 * `const`
 * `tex`
-* 
+
+
+
+* spill-over: `local` is used for spill-over storage when registers are full.
