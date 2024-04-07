@@ -86,14 +86,15 @@ What is the difference / impact?
 * `const` -- On-chip read-only memory, suitable for data that does not change over the course of a kernel execution and is shared across threads
 * `tex`
 
+Notes:
+* spill-over: `local` is used for spill-over storage when registers are full.
+
 Q:
 * `grid`-shared?
 * is `local` slower than `shared`?
 * sizes?
 * on-chip: which chip?
 * const is "shared across threads"? all blocks? all grid? all SM?
-
-* spill-over: `local` is used for spill-over storage when registers are full.
 
 The "same"-ness table:
 * `local` -- same thread
