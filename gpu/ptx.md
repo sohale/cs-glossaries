@@ -41,11 +41,12 @@ The `.target` directive, specifies the "**virtual architecture**" = "**compute c
 `.target sm_30`
 
 "compute capability":
-defines the feature set and capabilities of the GPU architecture, including aspects like 
+defines/impacts the feature set and capabilities of the GPU architecture, including aspects like 
 * the number of threads per block,
 * warp size,
 * memory architecture,
 * available instructions,
+* available optimizations,
 * etc
 
 Possible targets:
