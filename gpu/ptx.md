@@ -3,7 +3,7 @@
 Hard-core GPU / CUDA programming
 
 ### Dive into the first simple example: The `add_numbers` kernel
-Let's start with simple:
+Let's start with simple trivial example:
 ```ptx
 .version 7.0
 .target sm_30
