@@ -84,13 +84,15 @@ What is the difference / impact?
 * `reg`
 * `shared` -- On-chip memory shared among threads in the "same block". limited size.
 * `global` -- Largest and slowest memory, (all threads across all blocks)
-* `const`
+* `const` -- On-chip read-only memory, suitable for data that does not change over the course of a kernel execution and is shared across threads
 * `tex`
 
 Q:
 * `grid`-shared?
 * is `local` slower than `shared`?
 * sizes?
+* on-chip: which chip?
+* const is "shared across threads"? all blocks? all grid? all SM?
 
 * spill-over: `local` is used for spill-over storage when registers are full.
 
