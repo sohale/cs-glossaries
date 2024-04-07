@@ -38,8 +38,25 @@ Takes pointers to two input values and a pointer to the `result` location.
 
 `.target sm_30`
 
-* `st.global.u64 [ptrResult], result;`
+#### The `ld`
+In the `ld.param.u64 a, [ptrA];`: the *param*, could be:
+* `local`
+* `reg`
+* `shared`
+* `global`
+* `const`
+* `tex`
 
+It can be
+* `ld.*.*`
+* `st.*.*`
+
+#### The `st`
+In above example, we could write either:
+* `st.global.u64 [ptrResult], result;`
 * `st.param.u64 [ptrResult], result;`
+
+What difference does it make?
+What is the difference / impact?
 
 `.address_size 64`
