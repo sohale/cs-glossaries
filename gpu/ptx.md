@@ -62,6 +62,7 @@ In the `ld.param.u64 a, [ptrA];`: the *param*, could be:
 * `global`
 * `const`
 * `tex`
+(See below for explanation of each)
 
 Note: `ld.reg.*` & `st.reg.*` will be meaningless (registers).
 
