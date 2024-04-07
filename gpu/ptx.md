@@ -17,16 +17,15 @@ Let's start with simple
 {
     // takes pointers to two input values and a pointer to the result location ^
 
-    // a,b, result
-    // C = A + B
-    .reg .u64 A;
-    .reg .u64 B;
+    // result = C = a + b
+    .reg .u64 a;
+    .reg .u64 b;
     .reg .u64 C;
 
-    ld.param.u64 A, [ptrA];
-    ld.param.u64 B, [ptrB];
+    ld.param.u64 a, [ptrA];
+    ld.param.u64 b, [ptrB];
     
-    add.u64 C, A, B;
+    add.u64 C, a, b;
 
     st.global.u64 [ptrResult], C;
     // or:
