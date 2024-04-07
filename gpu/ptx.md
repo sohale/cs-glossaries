@@ -25,7 +25,7 @@ Let's start with simple:
 
     st.global.u64 [ptrResult], result;
     // or:
-    // st.param.u64 [_result], result;
+    // st.param.u64 [ptrResult], result;
 
 }
 ```
