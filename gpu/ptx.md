@@ -62,7 +62,7 @@ In the `ld.param.u64 a, [ptrA];`: the *param*, could be:
 * `global`
 * `const`
 * `tex`
-(See below for explanation of each)
+(See below for explanations of each)
 
 Note: `ld.reg.*` & `st.reg.*` will be meaningless (registers).
 
@@ -80,9 +80,9 @@ What is the difference / impact?
 
 
 #### Memory spaces
-* `local` -- off-chip memory, accessible only by the thread
 * `reg`
 * `shared` -- On-chip memory shared among threads in the "same block". limited size.
+* `local` -- off-chip memory, accessible only by the thread
 * `global` -- Largest and slowest memory, (all threads across all blocks)
 * `const` -- On-chip read-only memory, suitable for data that does not change over the course of a kernel execution and is shared across threads
 * `tex` -- (read-only, cached and optimized for texture fetching)
