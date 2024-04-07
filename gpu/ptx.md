@@ -38,6 +38,6 @@ Let's start with simple
 
 * `st.global.u64 [ptrResult], result;`
 
-* `st.param.u64 [_result], result;`
+* `st.param.u64 [ptrResult], result;`
 
 `.address_size 64`
