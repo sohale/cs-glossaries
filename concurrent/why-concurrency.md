@@ -78,7 +78,47 @@ also: switchable-ness (invludin non blocking): the OS multi-tasking view ( inten
 3. responsibility: who does it: offloading, virtual memory, big data, even sharding and partitioning, (and as a result, quor), etc
 4. ?
 
+disentanglish control flow ( blocked, etc)
+
+disentanglish cogetion if semantic ( locality )
+
+disentangling into cohesive/local data
+
+compute power ( also later: power?) ( how about memory?)
+
+smooth simultaneous ( non blocking), or nor waiting ( webworkers, animations, while busy calcukating?)
+
+ordance. ( both: time coordination: orchestration: coreographt)
+...
+
+( how about microonstruction?)
+
+oppsite: powsing fir less power!
+
+
+...
 
 or, also disentangling by coroutines, generators , etc
 
 for separation of concerns! ( code of the same nature / responsibility)
+
+
+...
+
+pool:
+
+
+instructiin-level parallelism
+(fit it somewhere above)
+
+categorise based on insttuction-level
+
+also pther possibilities people havent found
+
+also SIMD ( serial and parallel)
+
+tiling for cache smoothness
+...
+
+low-latency: (cacheing may worsen latency).
+with concern of time ( not write strategies in cassandra etc)
