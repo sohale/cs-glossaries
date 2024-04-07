@@ -16,18 +16,18 @@ Let's start with simple
 )
 {
     // takes pointers to two input values and a pointer to the result location ^
+    // result = a + b
 
-    // result = C = a + b
     .reg .u64 a;
     .reg .u64 b;
-    .reg .u64 C;
+    .reg .u64 result;
 
     ld.param.u64 a, [ptrA];
     ld.param.u64 b, [ptrB];
     
-    add.u64 C, a, b;
+    add.u64 result, a, b;
 
-    st.global.u64 [ptrResult], C;
+    st.global.u64 [ptrResult], result;
     // or:
     // st.param.u64 [_result], result;
 
@@ -36,7 +36,7 @@ Let's start with simple
 
 `.target sm_30`
 
-* `st.global.u64 [ptrResult], C;`
+* `st.global.u64 [ptrResult], result;`
 
 * `st.param.u64 [_result], result;`
 
