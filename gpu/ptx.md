@@ -48,6 +48,9 @@ defines the feature set and capabilities of the GPU architecture, including aspe
 * available instructions,
 * etc
 
+Possible targets:
+`sm_30`, `sm_35`, `sm_37`; `sm_50`, `sm_52`, `sm_53`; `sm_60`, `sm_61`, `sm_62`; `sm_70`, `sm_72`; `sm_75`; `sm_80`, `sm_86`; `sm_90`
+
 #### The `ld`
 In the `ld.param.u64 a, [ptrA];`: the *param*, could be:
 * `local`
