@@ -61,3 +61,8 @@ Compare to:
 * For OAuth see [draft1:oauth-draft](https://github.com/sohale/cs-glossaries/blob/master/docs/oauth-sec-draft.md). (todo: move to "/securiy"?)
 * [security](https://github.com/sohale/cs-glossaries/blob/master/security/security.md)
 * [this page itself](https://github.com/sohale/cs-glossaries/blob/master/made-simple/tls-1.md)
+
+
+
+moved from
+made-simple/tls-1.md → api-rest-http/made-simple-tls-1.md
