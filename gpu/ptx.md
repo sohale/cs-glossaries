@@ -120,3 +120,36 @@ The size limit table:
 
 #### address size
 `.address_size 64`
+
+
+### kernel arguments
+
+```ptx
+
+.global .entry add_numbers( ... )
+{
+    // Thread index (in x,y,z) (Thread Index in a Block)
+    mov.u32 %r1, %tid.x;
+    
+    // Block index (in x,y,z) (Block Index in a Grid)
+    mov.u32 %r4, %ctaid.x;
+    
+    // Number of threads in block (x,y,z) (Block Dimension (Size))
+    mov.u32 %r7, %ntid.x;
+    
+    
+    // Number of blocks in grid (x,y,z) (Grid Dimension (Size))
+    mov.u32 %r10, %nctaid.x;
+    
+    // Kernel-time parameter, aka kernel parameter(s)
+    // Load 64-bit value from first kernel parameter
+    .param .u64 param0;
+    ld.param.u64 %rd1, [param0];
+    
+    // // Define floating-point registers
+    .reg .f32 %f1, %f2, %f3;
+    
+    add.f32 %f3, %f1, %f2;
+
+}
+```
