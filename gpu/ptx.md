@@ -155,3 +155,13 @@ The size limit table:
 ```
 
 ## DPX Instrucitons
+
+
+```ptx
+arch = sm_90a
+```
+
+#### Some links for DPX Instructions
+* https://forums.developer.nvidia.com/t/dpx-instruction-in-ptx/278809
+* https://docs.nvidia.com/cuda/cuda-c-programming-guide/
+* 
