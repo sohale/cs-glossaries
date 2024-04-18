@@ -146,6 +146,14 @@ The pool:
    * `_OBJC_EHTYPE_$_`
    * `_OBJC_IVAR_$_`
 
+* The `is*()` methods of TextAPI Symbol:
+   * `isWeakDefined()`
+   * `isWeakReferenced()`
+   * `isThreadLocalValue()`
+   * `isUndefined()`
+   * `isReexported()`
+   * `isData()`
+   * `isText()`
 
 
 .
