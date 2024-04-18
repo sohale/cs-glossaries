@@ -56,6 +56,8 @@ The pool:
 * "MangledNames"
 
 * `EXPENSIVE_CHECKS`: a brand of assertions
+* FromTU
+* `HandleNamedDecl()`
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
