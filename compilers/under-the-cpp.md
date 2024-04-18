@@ -50,10 +50,12 @@ The pool:
 * decl
 * stub
 * ND: `NamedDecl`
+   * As a bool, it means
 * `NamedDecl`
 * `ASTNameGenerator`
 * "MangledNames"
 
+* `EXPENSIVE_CHECKS`: a brand of assertions
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
