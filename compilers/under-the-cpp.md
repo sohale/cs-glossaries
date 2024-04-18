@@ -81,6 +81,17 @@ The pool:
 * StorageClass: of a `VarDecl`: `StorageClass::SC_Extern`, `StorageClass::SC_Static`, etc.
 * "Method" vs "Function": (it seems they are separated, hence a name, `getParentFunctionOrMethod()`)
 
+* instance (usually a `CompilerInstance`)
+* `CompilerInstance`
+* Parsed Templates: ... (usually a `set<string>`. can be provided from a `CompilerInstance`. [see]( https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/InterfaceStubFunctionsConsumer.cpp#L21 ))
+
+  CompilerInstance &Instance;
+  StringRef InFile;
+  StringRef Format;
+  std::set<std::string> ParsedTemplates;
+
+
+
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
    * examples: "MangledNames", "CXX"
