@@ -62,6 +62,7 @@ The pool:
 * `Decl::Kind::Namespace` a value (enum).
 * "Kind": ... (related to "Decl" and "Namespace". See `Decl::Kind::Namespace`)
 * "Decl": ... (see: `Decl::Kind`, `FunctionDecl`, `HandleNamedDecl()`, "NamedDecl", etc etc)
+* `getKind()` ... (has many instances)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
