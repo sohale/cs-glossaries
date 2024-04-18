@@ -39,6 +39,8 @@ Lessons I learned about how to make the path and the journey of transition to co
    * Tensorflow or XLA (or TF ecosystem)
    * individual MLIR dialects
    * PyTorch ecosystem
+* Used
+   * NPUs (a project with TPUs)
 
 #### Get to do these specific things:
 * Write a compiler that gets a code and generates some LLVM ("Did you ...?")
@@ -109,7 +111,19 @@ Turned out to be not a good thing to do. Or not a good path / strategy, or waste
 * Organise an event:
    * meetup
    * FEP
-* .
+* Present / public speaking:
+   * ImpliSolid
+   * A project / language (a talk to present after I finished)
+* Create
+   * A language (multiple ideas)
+   * A NDL
+   * Some more projects:
+      * A compiler for PTX
+      * ...
+
+* Simulate a GPU?
+* Write CUDA applications and do speed tuning?
+* Speed tuning and actually training using real GPUs? (pre-existing network architecture, or mine)
 
 Legend:
 * 🔥 turned out to be good. Pushed me up.
