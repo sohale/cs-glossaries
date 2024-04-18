@@ -119,6 +119,9 @@ Turned out to be not a good thing to do. Or not a good path / strategy, or waste
    * A NDL
    * Some more projects:
       * A compiler for PTX
+      * A Spiking Neural-Networks for GPU (showcase speed)
+      * MCMC integrator
+      * nd-hist & shuffling (MM2007) 
       * ...
 
 * Simulate a GPU?
