@@ -46,7 +46,16 @@ Means:
 * Attending (conferences)
 * Meeting / conversation with people
 
+
+Key positive feedbacks:
 * Learn C++
+* MLIR is important
+
+Key observations / experiences:
+
+* Try directly coding in LLVM
+
+* Try directly coding in PTX
 
 * Read Clang source code
    * Also helps with itself
