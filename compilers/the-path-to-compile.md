@@ -40,6 +40,10 @@ Lessons I learned about how to make the path and the journey of transition to co
    * individual MLIR dialects
    * PyTorch ecosystem
 
+#### Get to do these specific things:
+* Write a compiler that gets a code and generates some LLVM ("Did you ...?")
+* Parse something with ANTLR4
+
 #### Means:
 * Project
 * Open-source contribution
