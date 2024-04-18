@@ -49,6 +49,8 @@ The pool:
 > `DefaultVisibility` is set on a decl when `-fvisibility` is not specified on the command line (or specified as default) and the decl does not have `__attribute__((visibility("hidden")))` set or when the command line argument is set to hidden but the decl explicitly has `__attribute__((visibility ("default")))` set. We do this so that the user can have fine-grain control of what they want to expose in the stub. ([from InterfaceStubFunctionsConsumer.cpp](https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/InterfaceStubFunctionsConsumer.cpp#L41))    <!-- a66c09a96dec633c1172a02818859f71fbff4f45  -->
 * decl
 * stub
+* ND: `NamedDecl`
+* `NamedDecl`
 
 
 Graph that includes the less interesting ones
