@@ -106,3 +106,8 @@ Turned out to be not a good thing to do. Or not a good path / strategy, or waste
 
 #### Shall I?
 * Modular Mojo
+
+
+Legend:
+* 🔥 turned out to be good. Pushed me up.
+* ? will be "compelling" (noteworthy)
