@@ -60,9 +60,9 @@ The pool:
 * `HandleNamedDecl()`
 * "Symbols": a Symbols is usually a variable ... (see `HandleNamedDecl()`)
 * `Decl::Kind::Namespace` a value (enum).
-* "Kind": ... (related to "Decl" and "Namespace". See `Decl::Kind::Namespace`)
+* "Kind": ...  is `string`!, ... (related to "Decl" and "Namespace". See `Decl::Kind::Namespace`)
 * "Decl": ... (see: `Decl::Kind`, `FunctionDecl`, `HandleNamedDecl()`, "NamedDecl", etc etc)
-* `getKind()` ... (has many instances)
+* `getKind()` ... (has many instances. returns a `string`. See "Kind")
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
