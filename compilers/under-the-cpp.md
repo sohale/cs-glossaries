@@ -3,7 +3,7 @@ The Iceberg
 
 Under the hood of C++
 The mechanics of C++ in Clang paradigm
-The abatomy and physiology of C++
+The anatomy and physiology of C++
 The subconscious of C++: The Iceberg
 Tomography of C++
 
