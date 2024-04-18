@@ -67,6 +67,9 @@ The pool:
 * `RecursiveASTVisitor` ... ( a filename: `clang/AST/RecursiveASTVisitor.h`)
 * A "BinaryFormat" ... (in name of file `llvm/BinaryFormat/ELF.h`)
 * "ELF" ... (in name of file `llvm/BinaryFormat/ELF.h`)
+* TopLevel
+* FromTU
+* IsLate
 
 
 
