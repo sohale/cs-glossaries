@@ -65,6 +65,12 @@ The pool:
 * `getKind()` ... (has many instances. returns a `string`. See "Kind")
 
 * `RecursiveASTVisitor` ... ( a filename: `clang/AST/RecursiveASTVisitor.h`)
+* A "BinaryFormat" ... (in name of file `llvm/BinaryFormat/ELF.h`)
+* "ELF" ... (in name of file `llvm/BinaryFormat/ELF.h`)
+
+
+
+
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
