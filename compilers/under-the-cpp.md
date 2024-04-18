@@ -94,7 +94,12 @@ The pool:
 * symbol kind -> LLVMSymbol Kind
 * `ObjCIFSymbolKind`: .... (to break down) ( -> LLVMSymbol Kind)
 * ObjCIFSymbolKind
-* "CIF"
+* "CIF" false! See "ObjCIF"
+* "ObjC": ?
+* "ObjCIF" -> ObjC Interface
+* "ObjC Interface symbol": ...
+* "ObjC Interface symbol" mappings: ...
+
 * TextAPI: ?
 
 #### Notation:
