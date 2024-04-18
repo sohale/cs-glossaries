@@ -71,7 +71,11 @@ The pool:
 * FromTU
 * IsLate
 
-
+*  struct MangledSymbol {
+*  ParentName of a `MangledSymbol`  ( field `.ParentName`)
+*  `Type` of a MangledSymbol (is `uint8_t`)    ( field `.Type`)
+*  `Binding` of a MangledSymbol (is `uint8_t`)   ( field `.Binding`)
+  
 
 
 
