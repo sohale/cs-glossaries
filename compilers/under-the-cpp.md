@@ -58,9 +58,10 @@ The pool:
 * `EXPENSIVE_CHECKS`: a brand of assertions
 * FromTU
 * `HandleNamedDecl()`
-* "Symbols": a Symbols is a variable ... (see `HandleNamedDecl()`)
+* "Symbols": a Symbols is usually a variable ... (see `HandleNamedDecl()`)
 * `Decl::Kind::Namespace` a value (enum).
 * "Kind": ... (related to "Decl" and "Namespace". See `Decl::Kind::Namespace`)
+* "Decl": ... (see: `Decl::Kind`, `FunctionDecl`, `HandleNamedDecl()`, "NamedDecl", etc etc)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
