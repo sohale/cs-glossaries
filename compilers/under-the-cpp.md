@@ -111,6 +111,10 @@ The pool:
 * `SmallVector`: ... wow
    * ([see](https://llvm.org/doxygen/classllvm_1_1SmallVector.html)) in context of llvm/ADT (defined via `llvm/ADT/SmallVector.h`) The class name is `llvm::SmallVector` (i.e. it is part of LLVM)
    *  "This optimization comes from not performing heap allocations for a limited number of elements."
+
+* `StringLiteral`: ... ( only for `constexpr`?)
+
+
 * TextAPI: ?
    * (importance: ⦻⦻⦻⦻: I often see it. These meany learn-beans (learn-coins) are necessary)
    * Is part of LLVM (specific to this context)
@@ -134,6 +138,12 @@ The pool:
   * `ObjectiveCClassEHType`
   * `ObjectiveCInstanceVariable`
 * "EHType" ? (See `ObjCIFSymbolKind`)
+
+constexpr StringLiteral ObjC1ClassNamePrefix = ".objc_class_name_";
+constexpr StringLiteral ObjC2ClassNamePrefix = "_OBJC_CLASS_$_";
+constexpr StringLiteral ObjC2MetaClassNamePrefix = "_OBJC_METACLASS_$_";
+constexpr StringLiteral ObjC2EHTypePrefix = "_OBJC_EHTYPE_$_";
+constexpr StringLiteral ObjC2IVarPrefix = "_OBJC_IVAR_$_";
 
 
 
