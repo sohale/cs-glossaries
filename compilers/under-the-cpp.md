@@ -155,6 +155,13 @@ The pool:
    * `isData()`
    * `isText()`
 
+* LTO
+* `irsymtab::Symbol`
+* irsymtab
+
+
+
+
 
 .
 
