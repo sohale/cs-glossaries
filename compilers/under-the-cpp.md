@@ -22,8 +22,10 @@ Sub-titles:
 ### Glossary
 The (pool of) keywords.
 
-Only well-defined concepts: because they are types & definitions in the C++ source-code.
+Only well-defined concepts, polished:
+because they are types & definitions in the C++ source-code.
 
+* CXX
 * `VarDecl`
 * `NamedDecl`
 * RDO
@@ -39,6 +41,9 @@ The pool:
 * `isa<FieldDecl>`
 * FD ( see `FunctionDecl`)
 * `FunctionDecl`
+* is dyn_cast
+* `CXXMethodDecl`
+* CXX
 
 
 Graph that includes the less interesting ones
