@@ -51,6 +51,15 @@ The pool:
 * stub
 * ND: `NamedDecl`
 * `NamedDecl`
+* `ASTNameGenerator`
+* "MangledNames"
+
+
+#### Notation:
+* "XYZ" part of a name (variable, but also type)
+   * examples: "MangledNames", "CXX"
+* `NamedDecl` A specific definition (usually a type or class, templated, etd )
+   * examples:  `NamedDecl` 
 
 
 Graph that includes the less interesting ones
