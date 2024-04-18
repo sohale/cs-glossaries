@@ -100,7 +100,10 @@ The pool:
 * "ObjC Interface symbol": ...
 * "ObjC Interface symbol" mappings: ...
 
+* `SmallVector`: ... wow ([see](https://llvm.org/doxygen/classllvm_1_1SmallVector.html)) in context of llvm/ADT (defined via `llvm/ADT/SmallVector.h`)
 * TextAPI: ?
+* llvm/ADT
+* ADT
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
