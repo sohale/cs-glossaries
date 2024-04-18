@@ -58,7 +58,7 @@ The pool:
 * `EXPENSIVE_CHECKS`: a brand of assertions
 * FromTU
 * `HandleNamedDecl()`
-* "Symbols": a Symbols is usually a variable ... (see `HandleNamedDecl()`)
+* Mangles "Symbols": ... (not to be confused with symbol table) a Mangles "Symbols" is usually a variable of type `MangledSymbols` ... (see `HandleNamedDecl()`)
 * `Decl::Kind::Namespace` a value (enum).
 * "Kind": ...  is `string`!, ... (related to "Decl" and "Namespace". See `Decl::Kind::Namespace`)
 * "Decl": ... (see: `Decl::Kind`, `FunctionDecl`, `HandleNamedDecl()`, "NamedDecl", etc etc)
