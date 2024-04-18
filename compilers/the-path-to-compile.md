@@ -74,6 +74,9 @@ Times where I experienced acceleration
    * Also helps with itself
    * "Symbol table"
 
+* Read papers that use GPU hardware simulation
+   * Such as GPGPU-sim, PasTiS, etc
+
 * Attended ACM CGO 🔥
 
 * Unverified:
