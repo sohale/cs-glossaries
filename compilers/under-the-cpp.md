@@ -44,6 +44,7 @@ The pool:
 * is dyn_cast
 * `CXXMethodDecl`
 * CXX
+* `MangledSymbol` (struct)
 
 
 Graph that includes the less interesting ones
