@@ -106,7 +106,7 @@ Turned out to be not a good thing to do. Or not a good path / strategy, or waste
 
 #### Shall I?
 * Modular Mojo
-
+* Run an event: meetup
 
 Legend:
 * 🔥 turned out to be good. Pushed me up.
