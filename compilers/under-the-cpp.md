@@ -13,7 +13,11 @@ Sub-titles:
 * In Clang approach.
 * A clang approach
 
-### The architecture: layers
+### The architecture: 
+#### layers
+#### Clang code & repo organisation
+* Frontend
+
 
 ### Glossary
 The (pool of) keywords.
