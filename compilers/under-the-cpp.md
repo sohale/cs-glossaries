@@ -64,7 +64,7 @@ The pool:
 * "Decl": ... (see: `Decl::Kind`, `FunctionDecl`, `HandleNamedDecl()`, "NamedDecl", etc etc)
 * `getKind()` ... (has many instances. returns a `string`. See "Kind")
 
-* `RecursiveASTVisitor` ... ( a filename)
+* `RecursiveASTVisitor` ... ( a filename: `clang/AST/RecursiveASTVisitor.h`)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
