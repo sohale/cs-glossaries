@@ -107,7 +107,7 @@ The pool:
 * llvm/ADT
 * ADT
 * "MachO" : ... (e.g. `clang::driver::toolchains::MachO`)
-* "SymbolFlags": ... ([see](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h#L24C12-L24C23))
+* "SymbolFlags": ... ([see](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h#L24C12-L24C23)) -- (in MachO, in turn, in LLVM)
    * Thread-local value
    * Weak defined
    * Weak referenced
@@ -115,7 +115,12 @@ The pool:
    * Rexported
    * Data Segment  
    * Text Segment
-
+* "TextStubs" = ?
+* `EncodeKind` (enum, for ...)
+  * `GlobalSymbol`
+  * `ObjectiveCClass`
+  * `ObjectiveCClassEHType`
+  * `ObjectiveCInstanceVariable`
 
 
 #### Notation:
