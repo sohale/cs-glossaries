@@ -104,6 +104,7 @@ The pool:
 * TextAPI: ?
 * llvm/ADT
 * ADT
+* "MachO" : ... (e.g. `clang::driver::toolchains::MachO`)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
