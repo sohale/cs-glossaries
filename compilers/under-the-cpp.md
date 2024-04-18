@@ -67,9 +67,10 @@ The pool:
 * `RecursiveASTVisitor` ... ( a filename: `clang/AST/RecursiveASTVisitor.h`)
 * A "BinaryFormat" ... (in name of file `llvm/BinaryFormat/ELF.h`)
 * "ELF" ... (in name of file `llvm/BinaryFormat/ELF.h`)
-* TopLevel
-* FromTU
-* IsLate
+* TopLevel: ( ... a type of `RootDeclOrigin`)
+* FromTU: ( ... a type of `RootDeclOrigin`)
+* IsLate: ( ... a type of `RootDeclOrigin`)
+* `RootDeclOrigin`: ... (can be `TopLevel`, `FromTU`, `IsLate`)
 
 *  struct MangledSymbol {
 *  ParentName of a `MangledSymbol`  ( field `.ParentName`)
