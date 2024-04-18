@@ -108,8 +108,13 @@ The pool:
 * ADT
 * "MachO" : ... (e.g. `clang::driver::toolchains::MachO`)
 * "SymbolFlags": ... ([see](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h#L24C12-L24C23))
-
-
+   * Thread-local value
+   * Weak defined
+   * Weak referenced
+   * Undefined
+   * Rexported
+   * Data Segment  
+   * Text Segment
 
 
 
