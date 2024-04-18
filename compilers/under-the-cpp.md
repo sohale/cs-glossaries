@@ -86,13 +86,21 @@ The pool:
 * `CompilerInstance`
 * Parsed Templates: ... (usually a `set<string>`. can be provided from a `CompilerInstance`. [see]( https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/InterfaceStubFunctionsConsumer.cpp#L21 ))
 
-* LLVM Symbol: ... (to distinguish from what I consider "Symbol", C++ symbol (probably symbol table). Also, we have Mangled Symbol s. and Symbol in flang. [LLVM Symbol is defined here](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h).
 * Symbol (disamb.): C++ Symbol, LLVM Symbol, Mangled Symbol
 
+* LLVM Symbol: ... (to distinguish from what I consider "Symbol", C++ symbol (probably symbol table). Also, we have Mangled Symbol s. and Symbol in flang. [LLVM Symbol is defined here](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h). Also see: `ObjCIFSymbolKind`
+   * LLVMSymbol Kind
+
+* symbol kind -> LLVMSymbol Kind
+* `ObjCIFSymbolKind`: .... (to break down) ( -> LLVMSymbol Kind)
+* ObjCIFSymbolKind
+* "CIF"
+* TextAPI: ?
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
    * examples: "MangledNames", "CXX"
+   * Also file names
 * `NamedDecl` A specific definition (usually a type or class, templated, etd )
    * examples:  `NamedDecl` 
 
