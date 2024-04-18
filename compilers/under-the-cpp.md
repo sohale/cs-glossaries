@@ -159,6 +159,8 @@ The pool:
 * `irsymtab::Symbol`
 * irsymtab
 
+* "Archive": ... (its connection to "Object", and "Object/Archive.h")
+
 
 
 
