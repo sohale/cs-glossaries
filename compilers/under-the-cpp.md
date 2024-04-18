@@ -37,7 +37,8 @@ The pool:
 * `NamedDecl`
 * RDO
 * `isa<FieldDecl>`
-
+* FD ( see `FunctionDecl`)
+* `FunctionDecl`
 
 
 Graph that includes the less interesting ones
