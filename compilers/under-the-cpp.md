@@ -59,6 +59,8 @@ The pool:
 * FromTU
 * `HandleNamedDecl()`
 * "Symbols": a Symbols is a variable ... (see `HandleNamedDecl()`)
+* `Decl::Kind::Namespace` a value (enum).
+* "Kind": ... (related to "Decl" and "Namespace". See `Decl::Kind::Namespace`)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
