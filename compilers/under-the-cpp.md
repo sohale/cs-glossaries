@@ -86,11 +86,8 @@ The pool:
 * `CompilerInstance`
 * Parsed Templates: ... (usually a `set<string>`. can be provided from a `CompilerInstance`. [see]( https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/InterfaceStubFunctionsConsumer.cpp#L21 ))
 
-  CompilerInstance &Instance;
-  StringRef InFile;
-  StringRef Format;
-  std::set<std::string> ParsedTemplates;
-
+* LLVM Symbol: ... (to distinguish from what I consider "Symbol", C++ symbol (probably symbol table). Also, we have Mangled Symbol s. and Symbol in flang.
+* Symbol (disamb): C++ Symbol, LLVM Symbol, Mangled Symbol
 
 
 #### Notation:
