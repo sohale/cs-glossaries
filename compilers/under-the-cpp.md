@@ -64,6 +64,8 @@ The pool:
 * "Decl": ... (see: `Decl::Kind`, `FunctionDecl`, `HandleNamedDecl()`, "NamedDecl", etc etc)
 * `getKind()` ... (has many instances. returns a `string`. See "Kind")
 
+* `RecursiveASTVisitor` ... ( a filename)
+
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
    * examples: "MangledNames", "CXX"
