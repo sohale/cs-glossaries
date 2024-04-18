@@ -124,7 +124,8 @@ Turned out to be not a good thing to do. Or not a good path / strategy, or waste
       * A compiler for PTX
       * A Spiking Neural-Networks for GPU (showcase speed)
       * MCMC integrator
-      * nd-hist & shuffling (MM2007) 
+      * nd-hist & shuffling (MM2007)
+      * Design a (new) ISA, a CPU, and simulator, and on FPGA + compiler(s) for it (see MS E2/EDGE)
       * ...
 
 * Simulate a GPU?
