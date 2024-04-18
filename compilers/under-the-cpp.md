@@ -17,4 +17,15 @@ Sub-titles:
 
 ### Glossary
 The (pool of) keywords.
-* Only well-defined concepts: because they are types & definitions in the C++ source-code.
+
+Only well-defined concepts: because they are types & definitions in the C++ source-code.
+
+* `VarDecl`
+* `NamedDecl`
+* RDO
+
+### In-stream
+* `VarDecl`
+* `NamedDecl`
+* RDO
+* `isa<FieldDecl>`
