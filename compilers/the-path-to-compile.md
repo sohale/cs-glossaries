@@ -75,7 +75,8 @@ Times where I experienced acceleration
    * "Symbol table"
 
 * Read papers that use GPU hardware simulation
-   * Such as GPGPU-sim, PasTiS, etc
+   * Such as: GPGPU-sim , PasTiS, etc
+   * GPGPU-sim: 🔥🔥. Tutorial course (ECE695), run it (it's in C++), TBC.
 
 * Attended ACM CGO 🔥
 
