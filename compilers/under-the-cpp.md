@@ -95,6 +95,7 @@ The pool:
 * `ObjCIFSymbolKind`: .... (to break down) ( -> LLVMSymbol Kind)
 * ObjCIFSymbolKind (meaning)
    * kinds (enum): `Class`, `MetaClass`, `EHType`
+   * [see](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h#L70)
 * "CIF" false! See "ObjCIF"
 * "ObjC": ?
 * "ObjCIF" -> ObjC Interface
