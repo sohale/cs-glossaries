@@ -58,6 +58,7 @@ The pool:
 * `EXPENSIVE_CHECKS`: a brand of assertions
 * FromTU
 * `HandleNamedDecl()`
+* "Symbols": a Symbols is a variable ... (see `HandleNamedDecl()`)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
