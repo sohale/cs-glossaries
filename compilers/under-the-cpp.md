@@ -76,8 +76,10 @@ The pool:
 *  `Type` of a MangledSymbol (is `uint8_t`)    ( field `.Type`)
 *  `Binding` of a MangledSymbol (is `uint8_t`)   ( field `.Binding`)
   
-
-
+* VD
+* `VarDecl` ... (has a parent function or method)
+* StorageClass: of a `VarDecl`: `StorageClass::SC_Extern`, `StorageClass::SC_Static`, etc.
+* "Method" vs "Function": (it seems they are separated, hence a name, `getParentFunctionOrMethod()`)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
