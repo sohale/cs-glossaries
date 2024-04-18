@@ -14,3 +14,7 @@ Sub-titles:
 * A clang approach
 
 ### The architecture: layers
+
+### Glossary
+The (pool of) keywords.
+* Only well-defined concepts: because they are types & definitions in the C++ source-code.
