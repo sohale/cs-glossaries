@@ -25,6 +25,10 @@ Only well-defined concepts: because they are types & definitions in the C++ sour
 * RDO
 
 ### In-stream
+Methodology:
+Sources: [github/ clang/ Frontend](https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/InterfaceStubFunctionsConsumer.cpp)
+
+The pool:
 * `VarDecl`
 * `NamedDecl`
 * RDO
