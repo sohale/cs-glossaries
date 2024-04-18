@@ -139,11 +139,12 @@ The pool:
   * `ObjectiveCInstanceVariable`
 * "EHType" ? (See `ObjCIFSymbolKind`)
 
-constexpr StringLiteral ObjC1ClassNamePrefix = ".objc_class_name_";
-constexpr StringLiteral ObjC2ClassNamePrefix = "_OBJC_CLASS_$_";
-constexpr StringLiteral ObjC2MetaClassNamePrefix = "_OBJC_METACLASS_$_";
-constexpr StringLiteral ObjC2EHTypePrefix = "_OBJC_EHTYPE_$_";
-constexpr StringLiteral ObjC2IVarPrefix = "_OBJC_IVAR_$_";
+* Prefixes of?
+   * `.objc_class_name_`
+   * `_OBJC_CLASS_$_`
+   * `_OBJC_METACLASS_$_`
+   * `_OBJC_EHTYPE_$_`
+   * `_OBJC_IVAR_$_`
 
 
 
