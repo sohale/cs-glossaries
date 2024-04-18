@@ -93,7 +93,8 @@ The pool:
 
 * symbol kind -> LLVMSymbol Kind
 * `ObjCIFSymbolKind`: .... (to break down) ( -> LLVMSymbol Kind)
-* ObjCIFSymbolKind
+* ObjCIFSymbolKind (meaning)
+   * kinds (enum): `Class`, `MetaClass`, `EHType`
 * "CIF" false! See "ObjCIF"
 * "ObjC": ?
 * "ObjCIF" -> ObjC Interface
@@ -121,7 +122,7 @@ The pool:
   * `ObjectiveCClass`
   * `ObjectiveCClassEHType`
   * `ObjectiveCInstanceVariable`
-
+* "EHType" ? (See `ObjCIFSymbolKind`)
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
