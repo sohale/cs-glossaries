@@ -107,6 +107,11 @@ The pool:
 * llvm/ADT
 * ADT
 * "MachO" : ... (e.g. `clang::driver::toolchains::MachO`)
+* "SymbolFlags": ... ([see](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h#L24C12-L24C23))
+
+
+
+
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
