@@ -45,17 +45,19 @@ Lessons I learned about how to make the path and the journey of transition to co
 * Parse something with ANTLR4
 
 #### Means:
-* Project
+* Write a Project
 * Open-source contribution
 * Reading (source code, book, videos, courses, papers)
 * Attending (conferences)
 * Meeting / conversation with people
+* Do a Post Doc.
+* Use these in a paper (circular stats, etc)
 
 ## The How
 
 * Key positive feedbacks:
-   * Learn C++
-   * MLIR is important
+   * Learn C++ (already ok)
+   * MLIR is important, yes
 
 #### Learned lessons: experiences
 Key observations / experiences.
@@ -64,28 +66,43 @@ Times where I experienced acceleration
 * Try directly coding in LLVM
 
 * Try directly coding in PTX
+   * Exposed me directly to many things
 
-* Read Clang source code
+* Read Clang source code 🔥🔥🔥🔥
    * Also helps with itself
+   * "Symbol table"
 
+* Attended ACM CGO 🔥
+
+* Unverified:
+   * Open-source contribution to
+      * XLA
+      * MLIR dialect: xyz
+      * TVM (no)
+      * Triton (not sure)
 
 #### Sources that accelerate
 * NVidia's PDF on H100 (link here)
     * Also the CUDA (C++) manual
     * But the other one (that contained PTX) was much better
 
-* Clang source code
+* Clang source code (verified)
 
 * Lean4 source code
 
-* The dragon book
+* (The Dragon book) (not verified)
 
 * Particular videos
    * That video about CE career
    * That video for implementing Serene using LLVM
 
-#### Useless
+#### Useless / wasted time
 Turned out to be not a good thing to do. Or not a good path / strategy, or wasted time
 
 * Recruiters
 * Some books
+* TVM
+* (not sure) Triton
+
+#### Shall I?
+* Modular Mojo
