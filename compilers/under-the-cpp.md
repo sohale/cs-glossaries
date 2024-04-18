@@ -86,10 +86,14 @@ The pool:
 * `CompilerInstance`
 * Parsed Templates: ... (usually a `set<string>`. can be provided from a `CompilerInstance`. [see]( https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/InterfaceStubFunctionsConsumer.cpp#L21 ))
 
-* Symbol (disamb.): C++ Symbol, LLVM Symbol, Mangled Symbol
+* Symbol (disamb.):
+   * types: C++ Symbol, LLVM Symbol, Mangled Symbol, SimpleSymbol
 
-* LLVM Symbol: ... (to distinguish from what I consider "Symbol", C++ symbol (probably symbol table). Also, we have Mangled Symbol s. and Symbol in flang. [LLVM Symbol is defined here](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h). Also see: `ObjCIFSymbolKind`
+* LLVM Symbol: ...
+   * (to distinguish from what I consider "Symbol", C++ symbol (probably symbol table). Also, we have Mangled Symbol s. and Symbol in flang. [LLVM Symbol is defined here](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/TextAPI/Symbol.h). Also see: `ObjCIFSymbolKind`
    * LLVMSymbol Kind
+   * rename: TextAPI Symbol??
+   * Also see: SimpleSymbol
 
 * symbol kind -> LLVMSymbol Kind
 * `ObjCIFSymbolKind`: .... (to break down) ( -> LLVMSymbol Kind)
@@ -102,11 +106,16 @@ The pool:
 * "ObjC Interface symbol": ...
 * "ObjC Interface symbol" mappings: ...
 
+* `SimpleSymbol` a proper type. (part of TextAPI, or, shall we say LLVM?)
+
 * `SmallVector`: ... wow
    * ([see](https://llvm.org/doxygen/classllvm_1_1SmallVector.html)) in context of llvm/ADT (defined via `llvm/ADT/SmallVector.h`) The class name is `llvm::SmallVector` (i.e. it is part of LLVM)
    *  "This optimization comes from not performing heap allocations for a limited number of elements."
-* TextAPI: ? (importance: ⦻⦻⦻⦻: I often see it. These meany learn-beans (learn-coins) are necessary)
+* TextAPI: ?
+   * (importance: ⦻⦻⦻⦻: I often see it. These meany learn-beans (learn-coins) are necessary)
+   * Is part of LLVM (specific to this context)
    * See also: "TextAPIReader"
+   * See also: TextAPI Symbol
 * llvm/ADT
 * ADT
 * "MachO" : ... (e.g. `clang::driver::toolchains::MachO`)
@@ -125,6 +134,11 @@ The pool:
   * `ObjectiveCClassEHType`
   * `ObjectiveCInstanceVariable`
 * "EHType" ? (See `ObjCIFSymbolKind`)
+
+
+
+.
+
 
 #### Notation:
 * "XYZ" part of a name (variable, but also type)
