@@ -51,7 +51,7 @@ The pool:
 * stub
 * ND: `NamedDecl`
    * As a bool, it means
-* `NamedDecl`
+* `NamedDecl`  ... (this implied we have two types of Decl: named and non-named)
 * `ASTNameGenerator`
 * "MangledNames"
 
