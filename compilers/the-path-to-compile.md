@@ -3,18 +3,19 @@
 
 Lessons I learned about how to make the path and the journey of transition to compiler engineer.
 
-Three paths/streams:
+### Characterising Targets
+#### Three paths/streams:
 * C++ compilers ( gcc, clang )
 * GPU compilation ( MLIR, etc )
 * DL frameworks: XLA, TF, etc
 
-... focus:
+#### ... focus:
 * clang + LLVM -- Developer of 
 * MLIR + LLVM -- ...
 * CUDA + GPU tuning (PTX, CUDA, etc) -- Writer of kernels
 * CGO + LLVM
 
-Target teams:
+#### Target teams:
 * gcc/LLVM teams
    * (open-source contribution) ( MS, intel, google, etc)
    * proprietary products (MS, etc)
@@ -27,7 +28,7 @@ Target teams:
 * Graphics (Vulkan drivers, 3D, Neural Radiance Fields)
 * Lame GPU: (compute shaders, OpenGL for compute, OpenCL, etc) -- backwards facing
 
-Skills (SME):
+#### Skills (SME):
 * Writing compiler optimisations
 * Knowing clang / gcc well
 * Dialects (Knowing MLIR / LLVM architecture well)
@@ -39,19 +40,22 @@ Skills (SME):
    * individual MLIR dialects
    * PyTorch ecosystem
 
-Means:
+#### Means:
 * Project
 * Open-source contribution
 * Reading (source code, book, videos, courses, papers)
 * Attending (conferences)
 * Meeting / conversation with people
 
+## The How
 
-Key positive feedbacks:
-* Learn C++
-* MLIR is important
+* Key positive feedbacks:
+   * Learn C++
+   * MLIR is important
 
-Key observations / experiences:
+#### Learned lessons: experiences
+Key observations / experiences.
+Times where I experienced acceleration
 
 * Try directly coding in LLVM
 
@@ -60,3 +64,24 @@ Key observations / experiences:
 * Read Clang source code
    * Also helps with itself
 
+
+#### Sources that accelerate
+* NVidia's PDF on H100 (link here)
+    * Also the CUDA (C++) manual
+    * But the other one (that contained PTX) was much better
+
+* Clang source code
+
+* Lean4 source code
+
+* The dragon book
+
+* Particular videos
+   * That video about CE career
+   * That video for implementing Serene using LLVM
+
+#### Useless
+Turned out to be not a good thing to do. Or not a good path / strategy, or wasted time
+
+* Recruiters
+* Some books
