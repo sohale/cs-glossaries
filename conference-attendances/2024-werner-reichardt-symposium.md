@@ -20,3 +20,5 @@ $$
 \frac{\partial P(\psi,t)}{\partial t} = -\frac{\partial}{\partial \psi} \left[ \frac{1}{K} N(\psi) P(\psi,t) \right] + \frac{\sigma^2}{2(Kn)^2} \frac{\partial^2}{\partial \psi^2} P(\psi,t)
 $$
 
+### Alex. Borst: model for direction selectivity
+A new linear-like model that responds to only one direction
