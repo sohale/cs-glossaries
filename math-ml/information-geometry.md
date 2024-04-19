@@ -19,11 +19,17 @@ $$
 E_{\theta_0}[u(\theta)] = 0
 $$
 
+Or more explicit:
+
+$$
+E_{X|\theta_0}[u(\theta)] = 0
+$$
+
 Vaguely, at the maximum likelihood "point", the score function is zero.
 
 Away from the maximum likelihood estimate, the score function is generally not zero.
 
-#### Two Expectaions
+#### Two Expectations
 Note that these are two expectations in Mathematical formalism (not semantics), that can have (lead to) two different semantics:
 * `E[]` over data (X) ( over Data, or over asymptotically(-sampled) distribution (with i.i.d., stationary, ergodicity, etc) or the asymptotic distribution;  or simply the distribution)
 * `E[]` over parameters (θ)
