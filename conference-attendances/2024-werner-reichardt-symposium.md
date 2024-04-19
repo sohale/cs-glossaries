@@ -12,7 +12,7 @@ $$
 \Theta \psi' + K \psi = N(t) - D(\psi(t)) - Z(\psi) \psi(t) + S(t)
 $$
 
-If \( N \) is a "white noise" process the corresponding Homogoff eq. is
+If \( N \) is a "white noise" process the corresponding Kolmogorov forward equation is
 
 $$
 \frac{\partial P(\psi,t)}{\partial t} = -\frac{\partial}{\partial \psi} \left[ \frac{1}{K} N(\psi) P(\psi,t) \right] + \frac{\sigma^2}{2(Kn)^2} \frac{\partial^2}{\partial \psi^2} P(\psi,t)
