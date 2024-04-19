@@ -1,5 +1,7 @@
 
-That fundamental zeroness
+
+### That fundamental zeroness
+(Is still incorrect)
 
 Does this, kind of, say why the second derivative is important in Fisher Information?
 
