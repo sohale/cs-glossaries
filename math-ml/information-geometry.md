@@ -1,4 +1,94 @@
 
+That fundamental zeroness
+
+Does this, kind of, say why the second derivative is important in Fisher Information?
+
+(needs rewriting, and polishing, and factorising).
+
+The first derivative of the log-likelihood with respect to the parameter:
+
+$$
+u(\theta) = \frac{\partial}{\partial \theta} \log p(X; \theta)
+$$
+
+If we use the Maximum Likelihood Estimate (MLE), the mean (expectation) of above first derivative is zero:
+
+$$
+E_{\theta_0}[u(\theta)] = 0
+$$
+
+Vaguely, at the maximum likelihood "point", the score function is zero.
+
+Away from the maximum likelihood estimate, the score function is generally not zero.
+
+#### Two Expectaions
+Note that these are two expectations in Mathematical formalism (not semantics), that can have (lead to) two different semantics:
+* `E[]` over data (X) ( over Data, or over asymptotically(-sampled) distribution (with i.i.d., stationary, ergodicity, etc) or the asymptotic distribution;  or simply the distribution)
+* `E[]` over parameters (θ)
+
+#### Score
+`u(θ)` is called the "Score function" or "informant" (deprecated name: "linear score")
+Note that is does not have the `E[]`.
+
+`u(θ;x)`
+
+> In statistics, the score (or informant) is the gradient of the log-likelihood function with respect to the parameter vector.  *-- Wikipedia*
+
+#### Two ML points:
+( NEEDS CORRECTION )
+
+The expectation of the score function under θ_0 is zero.
+
+"the true parameter" value? Nope.
+
+If data is infinite, and in an ideal situation, the empirical dataset will be the ergodic stationary i.i.d "asymptotic" dataset (as a condition or consequence?) (We don't need Markov property, "iid" is stronger).
+In that case, θ_0 .
+
+If (an) empirical data (set) is used, we hope that this is close to an optimal parameter estimation (in MLE paradigm).
+
+It has its own error. Also, the peak will have some error from the true good one. We can consider some type of uncertainty here, about the parameters (can be considered as parameter variance, but it s more than that, not just about "variance" as parameter, but in seeing it flas as variation too (even with entropy).
+
+The true parameter may not exist: note that any more lies ( this is not the variance of the parameter, more the bias).
+
+Two settings (setups):
+In empirical setting, versus ideal (iid, ergodic, stationary, etc).
+
+In empirical setting,
+At the maximum likelihood estimate (of empirical data), the score function (the empirical-expected value) is zero:
+
+$$
+u(\hat{\theta}) = 0
+$$
+
+In the ideal setting,
+$$
+u(\theta_0) = 0
+$$
+
+maximum likelihood "point".
+maximum likelihood estimate.
+
+Repeat:
+Away from the maximum likelihood estimate, the score function is generally not zero.
+
+
+todo: link the two expectaitons to the story.
+
+#### Visualisation
+Imagine these, each gives different insights:
+* log(Pr)
+* grad(log(Pr))
+* E[grad(log(Pr))]
+etc
+* Peaks of log(Pr)
+* Zeros of grad(log(Pr))
+* Zeros of E[grad(log(Pr))]
+etc
+
+Higher order?
+
+---------
+
 ### Historically
 * Historically, originated by Rao
    * Rao's initial ideas?
