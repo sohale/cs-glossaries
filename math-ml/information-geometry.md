@@ -38,9 +38,12 @@ Note that these are two expectations in Mathematical formalism (not semantics), 
 `u(θ)` is called the "Score function" or "informant" (deprecated name: "linear score")
 Note that is does not have the `E[]`.
 
-`u(θ;x)`
+$$
+u(θ;x) := \mathcal{L}(\theta \mid x) := \lambda\theta\cdot \log(\Pr(x \mid \theta))
+$$
 
 > In statistics, the score (or informant) is the gradient of the log-likelihood function with respect to the parameter vector.  *-- Wikipedia*
+
 
 #### Two ML points:
 ( NEEDS CORRECTION )
@@ -69,6 +72,7 @@ u(\hat{\theta}) = 0
 $$
 
 In the ideal setting,
+
 $$
 u(\theta_0) = 0
 $$
