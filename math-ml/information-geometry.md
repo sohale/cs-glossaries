@@ -13,13 +13,13 @@ $$
 u(\theta) = \frac{\partial}{\partial \theta} \log p(X; \theta)
 $$
 
-If we use the Maximum Likelihood Estimate (MLE), the mean (expectation) of above first derivative is zero:
+If we use the Maximum Likelihood Estimate (MLE), the mean (expectation) of the above first derivative is zero:
 
 $$
 E_{\theta_0}[u(\theta)] = 0
 $$
 
-Or more explicit:
+Or more explicitly:
 
 $$
 E_{X|\theta_0}[u(\theta)] = 0
@@ -34,12 +34,16 @@ Note that these are two expectations in Mathematical formalism (not semantics), 
 * `E[]` over data (X) ( over Data, or over asymptotically(-sampled) distribution (with i.i.d., stationary, ergodicity, etc) or the asymptotic distribution;  or simply the distribution)
 * `E[]` over parameters (θ)
 
+* `E[s|θ]` or  `E_{X|θ}[s]` or  `E_{X|θ}[s(θ;X)]` etc
+
 #### Score
 `u(θ)` is called the "Score function" or "informant" (deprecated name: "linear score")
-Note that is does not have the `E[]`.
+Note that it does not have the `E[]`.
+
+s() or u()?
 
 $$
-u(θ;x) := \mathcal{L}(\theta \mid x) := \lambda\theta\cdot \log(\Pr(x \mid \theta))
+s(θ;x) := \mathcal{L}(\theta \mid x) := \lambda\theta\cdot \log(\Pr(x \mid \theta))
 $$
 
 > In statistics, the score (or informant) is the gradient of the log-likelihood function with respect to the parameter vector.  *-- Wikipedia*
@@ -62,9 +66,10 @@ It has its own error. Also, the peak will have some error from the true good one
 The true parameter may not exist: note that any more lies ( this is not the variance of the parameter, more the bias).
 
 Two settings (setups):
-In empirical setting, versus ideal (iid, ergodic, stationary, etc).
+* the empirical setting, versus
+* ideal (iid, ergodic, stationary, etc).
 
-In empirical setting,
+In the empirical setting,
 At the maximum likelihood estimate (of empirical data), the score function (the empirical-expected value) is zero:
 
 $$
@@ -84,7 +89,7 @@ Repeat:
 Away from the maximum likelihood estimate, the score function is generally not zero.
 
 
-todo: link the two expectaitons to the story.
+todo: link the two expectations to the story.
 
 #### Visualisation
 Imagine these, each gives different insights:
