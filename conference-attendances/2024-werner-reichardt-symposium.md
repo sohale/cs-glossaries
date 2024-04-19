@@ -5,7 +5,7 @@
    * at MPI for Intelligent Systems
 
 
-### Poggio's phenomenological model (similar to today probabilistic theories for humans)
+### Reichardt / Poggio's phenomenological model (similar to today probabilistic theories for humans)
 
 
 Stochastic equation:
