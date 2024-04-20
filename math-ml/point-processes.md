@@ -23,6 +23,7 @@ Terms for ISI with Slightly different meanings:
    * Rescaled ... ISI (!)
    * Not from an event: ("time until ...")
       * Censored Time
+      * (right censoring: `Cox`)
       * Time-to-Event
       * Failure Time (`Surv`)
       * Event Time (or: a "Not from an event" from `0` in a global clock)  (does this belong in this category?)
@@ -43,6 +44,7 @@ Terms for ISI with Slightly different meanings:
    * Latencies:
       * Time-to-Detection
       * Latency Period (`Med`)
+      * Fault Latency (`Fault`)
    * Misc: (not ISI at all)
       * Waiting Time -- (`QT`)
       * Sojourn Time (`QT`)
@@ -53,6 +55,7 @@ Terms for ISI with Slightly different meanings:
       * Residence Time (the period that a substance remains in a particular part of a system)
    * Intervention: (non-blind, subjective, choices in experiment design, etc)
       * Follow-up Time
+      * Follow-up Duration (`Cox`
    * Times that are "parameter"s, but almost ISI (Mean ISI)
       * MFFT
       * MTTR
@@ -67,6 +70,7 @@ In contexts (Mathematical):
 * `Surv`: Survival Analysis (formerly "Sa")
 * reliability theory
 * `QT`: Queue Theory
+* Longitudinal studies (see Follow-up Duration + Cox)
 * Specific application domain contexts
    * `Cox`: Cox model: "Hazard", Cox Proportional Hazards Model, (Risk models?)
    * particle interactions
@@ -76,7 +80,7 @@ In contexts (Mathematical):
    * materials science
    * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
    * `Avail`: Availability: SA, System Availability in Cloud Platforms
-   * `Med`: Medical: time of observing consequences: "the time between exposure to a cause (like a virus or carcinogen) and the manifestation of a disease or condition"
+   * `Med`: Medical: such as: time of observing consequences: activation, "the time between exposure to a cause (like a virus or carcinogen) and the manifestation of a disease or condition" activation
 
 
 #### The ISI to CIF
