@@ -1,6 +1,7 @@
 # Point Processes
 
-Also see: ./inverse-gaussian-pp.md
+See Also:
+https://github.com/sohale/cs-glossaries/blob/master/math-ml/inverse-gaussian-pp.md
 
 
 #### ISI names (exactly the same meaning)
