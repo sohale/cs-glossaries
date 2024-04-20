@@ -105,6 +105,12 @@ etc
 Higher order?
 
 ### Likelihood
+
+```math
+\mathcal L
+```
+
+
 Wierd common notation
 ```math
 \mathcal L(\theta;X) := Pr(X|\theta)
@@ -114,6 +120,7 @@ Connotations and hidden assumptions:
 * Often, implies a sense in which not all probabilities are called Likelihood:
     * .
     * See side /frame of the bigger picture
+* Is a function of θ (in what sense it is "not" a function of `X` ( or `x`)? It is not, but then it is? (in a larger circuit) )
 * Its "mean" is usually over `X`, i.e. using `E_{X|θ}[ . ]`
 * Side /frame of the bigger picture:
    * Lingo 1:
