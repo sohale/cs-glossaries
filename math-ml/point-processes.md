@@ -43,6 +43,7 @@ Terms for ISI with Slightly different meanings:
    * Misc: (not ISI at all)
       * Waiting Time -- (`QT`)
       * Sojourn Time (`QT`)
+      * Time-to-Hazard (`Cox`)
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
 
@@ -52,7 +53,7 @@ In contexts (Mathematical):
 * reliability theory
 * `QT`: Queue Theory
 * Specific application domain contexts
-   * Cox Proportional Hazards Model
+   * `Cox`: Cox model: "Hazard", Cox Proportional Hazards Model, (Risk models?)
    * particle interactions
    * molecular dynamics
    * climate studies
