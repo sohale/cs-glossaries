@@ -107,7 +107,7 @@ Higher order?
 ### Likelihood
 Wierd common notation
 ```math
-\mathcal L(\theta;X) = Pr(X|\theta)
+\mathcal L(\theta;X) := Pr(X|\theta)
 ```
 
 ---------
