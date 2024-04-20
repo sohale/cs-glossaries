@@ -23,8 +23,9 @@ Terms for ISI with Slightly different meanings:
    * Rescaled ... ISI (!)
    * Shelf Life
    * (Expiration ?)
-   * Persistence Time (`Env`, sustainability?)
+   * Persistence Time (`Env`, sustainability?) of pollutants: decomposing, turning innert
    * (how about "persistency")
+   * (sustain quantifications?)
    * Not from an event: ("time until ...")
       * Censored Time
       * (right censoring: `Cox`)
