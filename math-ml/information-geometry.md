@@ -134,6 +134,11 @@ Connotations and hidden assumptions:
 * Different according to current Bayesian "market" geography:
     * "relative likelihood of models"
 
+Infinite questions
+* Aren't all probabilities marginal? "Marginal likelihood"
+   * https://en.wikipedia.org/wiki/Marginal_likelihood and https://en.wikipedia.org/wiki/Likelihood_function#Marginal_likelihood
+* etc etc
+
 See:
 * https://en.wikipedia.org/wiki/Informant_(statistics)
 * https://en.wikipedia.org/wiki/Likelihood_function#Log-likelihood
