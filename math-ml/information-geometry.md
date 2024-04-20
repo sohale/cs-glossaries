@@ -151,7 +151,9 @@ See:
 * https://en.wikipedia.org/wiki/Law_of_likelihood
 * Should see: "Historical remarks": https://en.wikipedia.org/wiki/Likelihood_function#Historical_remarks
 * Nice title: "Interpretations under different foundations" [Likelihood_function/Interpretations under different foundations](https://en.wikipedia.org/wiki/Likelihood_function#Interpretations_under_different_foundations)
-
+* Empirical likelihood : https://en.wikipedia.org/wiki/Empirical_likelihood
+* Likelihood principle : https://en.wikipedia.org/wiki/Likelihood_principle
+* Likelihoodist statistics : https://en.wikipedia.org/wiki/Likelihoodist_statistics
 ---------
 
 ### Historically
