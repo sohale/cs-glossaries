@@ -92,6 +92,12 @@ In contexts (Mathematical):
 
 
 #### The ISI to CIF
+The CIF in terms of just the PDF of the ISI: `f(t−t_0)` is the PDF of the inter-event times, and the last event occurred at `t_0`:
+
+For a renewal process, the Conditional Intensity Function (CIF) given that the last event occurred at `t_0` is given by:
+```math
+\lambda(t | \mathcal{H}_t) = \frac{f(t - t_0)}{1 - \int_{t_0}^{t} f(s) ds}
+```
 
 #### The CIF to ISI
 
