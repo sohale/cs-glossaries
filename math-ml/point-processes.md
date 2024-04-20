@@ -42,6 +42,7 @@ Terms for ISI with Slightly different meanings:
       * Lifetime (once? -> see "First-Passage Time" )
    * Latencies:
       * Time-to-Detection
+      * Latency Period (`Med`)
    * Misc: (not ISI at all)
       * Waiting Time -- (`QT`)
       * Sojourn Time (`QT`)
@@ -72,6 +73,7 @@ In contexts (Mathematical):
    * materials science
    * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
    * `Avail`: Availability: SA, System Availability in Cloud Platforms
+   * `Med`: Medical: time of observing consequences: "the time between exposure to a cause (like a virus or carcinogen) and the manifestation of a disease or condition"
 
 
 #### The ISI to CIF
