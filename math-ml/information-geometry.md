@@ -111,8 +111,15 @@ Wierd common notation
 ```
 
 Connotations and hidden assumptions:
-* ...
+* Often, implies a sense in which not all probabilities are called Likelihood:
+    * .
+    * See side /frame of the bigger picture
 * Its "mean" is usually over `X`, i.e. using `E_{X|θ}[ . ]`
+* Side /frame of the bigger picture:
+   * Lingo 1:
+      * There are objservations
+   * Lingo 2:
+      * ...
 
 ---------
 
