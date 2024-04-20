@@ -149,6 +149,8 @@ See:
    * Relative likelihood: https://en.wikipedia.org/wiki/Relative_likelihood and https://en.wikipedia.org/wiki/Likelihood_function#Relative_likelihood_function
 * likelihoodist statistics: https://en.wikipedia.org/wiki/Likelihoodist_statistics
 * https://en.wikipedia.org/wiki/Law_of_likelihood
+* Should see: "Historical remarks": https://en.wikipedia.org/wiki/Likelihood_function#Historical_remarks
+
 
 ---------
 
