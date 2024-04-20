@@ -3,7 +3,7 @@
 Also see: ./inverse-gaussian-pp.md
 
 
-#### ISI names
+#### ISI names (exactly the same meaning)
 * Interarrival Time
 * Inter-Occurrence Time
 * Inter-Event Time
@@ -16,6 +16,8 @@ Also see: ./inverse-gaussian-pp.md
 * Gap Time
 * Dwell Time
 * Interarrival Time
+
+Terms for ISI with Slightly different meanings:
 * Subtypes: ("time until ...")
    * first-passage time
    * Event Time
@@ -41,7 +43,8 @@ Also see: ./inverse-gaussian-pp.md
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
 
-In contexts:
+In contexts (Mathematical):
+* Renewal Theory
 * survival analysis (`Sa`)
 * reliability theory
 * Specific application domain contexts
