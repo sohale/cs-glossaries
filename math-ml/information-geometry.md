@@ -110,6 +110,10 @@ Wierd common notation
 \mathcal L(\theta;X) := Pr(X|\theta)
 ```
 
+Connotations and hidden assumptions:
+* ...
+* Its mean is usually over `X`
+
 ---------
 
 ### Historically
