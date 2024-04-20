@@ -25,7 +25,7 @@ Terms for ISI with Slightly different meanings:
    * Not from an event:
       * Censored Time
       * Time-to-Event
-      * Failure Time (`Sa`)
+      * Failure Time (`Surv`)
    * Alternating:
       * Uptime & Downtime
       * Time-to-Failure (`MTTF`)
@@ -37,7 +37,7 @@ Terms for ISI with Slightly different meanings:
       * Elapsed Time
       * Failure Time
       * Service Time (`QT`)
-      * System Availability: SA (`SA`)
+      * System Availability: SA (`Avail`)
       * Recovery Time (`Avail`, )
    * Latencies:
       * Time-to-Detection
@@ -54,7 +54,7 @@ Terms for ISI with Slightly different meanings:
       * Mean Time Between Failures (MTBF)
 In contexts (Mathematical):
 * Renewal Theory
-* survival analysis (`Sa`)
+* `Surv`: Survival Analysis (formerly "Sa")
 * reliability theory
 * `QT`: Queue Theory
 * Specific application domain contexts
@@ -64,7 +64,7 @@ In contexts (Mathematical):
    * climate studies
    * geophysical processes
    * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
-   * `SA`: Availability: System Availability in Cloud Platforms
+   * `Avail`: Availability: SA, System Availability in Cloud Platforms
 
 #### The ISI to CIF
 #### The CIF to ISI
