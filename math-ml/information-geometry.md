@@ -137,6 +137,7 @@ Connotations and hidden assumptions:
 Infinite questions
 * Aren't all probabilities marginal? "Marginal likelihood"
    * https://en.wikipedia.org/wiki/Marginal_likelihood and https://en.wikipedia.org/wiki/Likelihood_function#Marginal_likelihood
+* Partial likelihood (readings that can help) https://en.wikipedia.org/wiki/Likelihood_function#Partial_likelihood
 * etc etc
 
 See:
