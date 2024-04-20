@@ -38,6 +38,7 @@ Terms for ISI with Slightly different meanings:
       * Failure Time
       * Service Time (`QT`)
       * System Availability: SA (`SA`)
+      * Recovery Time (`Avail`, )
    * Latencies:
       * Time-to-Detection
    * Misc: (not ISI at all)
@@ -62,7 +63,7 @@ In contexts (Mathematical):
    * molecular dynamics
    * climate studies
    * geophysical processes
-   * `MFFT`: Fault Tolerance, Defect, "Repain", MFFT, MTTR
+   * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
    * `SA`: Availability: System Availability in Cloud Platforms
 
 #### The ISI to CIF
