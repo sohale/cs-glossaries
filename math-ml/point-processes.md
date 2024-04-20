@@ -19,14 +19,15 @@ Also see: ./inverse-gaussian-pp.md
 * Subtypes: ("time until ...")
    * first-passage time
    * Event Time
-   * Failure Time
    * Waiting Time -- (Queue Theory)
    * From not an event:
       * Censored Time
       * Time-to-Event
+      * Failure Time (`Sa`)
    * Alternating:
       * Uptime & Downtime
-      * Repair Time (Fault Tolerance)
+      * Time-to-Failure (`MTTF`)
+      * Repair Time (`MFFT`)
       * Episode Duration
       * Latency Period
       * Idle Time
@@ -34,17 +35,21 @@ Also see: ./inverse-gaussian-pp.md
       * Elapsed Time
       * Failure Time
       * Service Time
+   * Latencies:
+      * Time-to-Detection
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
 
 In contexts:
-* survival analysis
+* survival analysis (`Sa`)
 * reliability theory
 * Specific application domain contexts
+   * Cox Proportional Hazards Model
    * particle interactions
    * molecular dynamics
    * climate studies
    * geophysical processes
+   * `MFFT`: Fault Tolerance, Defect, "Repain", MFFT
 
 #### The ISI to CIF
 #### The CIF to ISI
