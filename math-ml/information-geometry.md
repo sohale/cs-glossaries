@@ -150,7 +150,7 @@ See:
 * likelihoodist statistics: https://en.wikipedia.org/wiki/Likelihoodist_statistics
 * https://en.wikipedia.org/wiki/Law_of_likelihood
 * Should see: "Historical remarks": https://en.wikipedia.org/wiki/Likelihood_function#Historical_remarks
-* Nice title: "Interpretations under different foundations" https://en.wikipedia.org/wiki/Likelihood_functio#Interpretations_under different_foundations
+* Nice title: "Interpretations under different foundations" [Likelihood_function/Interpretations under different foundations](https://en.wikipedia.org/wiki/Likelihood_function#Interpretations_under different_foundations)
 
 ---------
 
