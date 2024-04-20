@@ -6,8 +6,8 @@ Also see: ./inverse-gaussian-pp.md
 #### ISI names (exactly the same meaning)
 * Interarrival Time
 * Inter-Occurrence Time
-* Inter-Event Time
-* Inter-Spike Interval
+* Inter-Event Time: IET
+* Inter-Spike Interval: ISI
 * Waiting Time
 * Recurrence Time
 * Renewal Interval
@@ -21,6 +21,7 @@ Terms for ISI with Slightly different meanings:
 * Subtypes: ("time until ...")
    * first-passage time
    * Event Time (or: a "Not from an event" from `0` in a global clock)
+   * Rescaled ... ISI (!)
    * Not from an event:
       * Censored Time
       * Time-to-Event
