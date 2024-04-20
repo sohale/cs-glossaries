@@ -50,6 +50,8 @@ Terms for ISI with Slightly different meanings:
       * Degradation Time (a different "concept")
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
+   * Intervention: (non-blind, subjective, etc)
+      * Follow-up Time
    * Times that are "parameter"s, but almost ISI (Mean ISI)
       * MFFT
       * MTTR
