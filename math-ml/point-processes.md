@@ -46,11 +46,12 @@ Terms for ISI with Slightly different meanings:
    * Misc: (not ISI at all)
       * Waiting Time -- (`QT`)
       * Sojourn Time (`QT`)
+      * Cycle Length (`QT`)
       * Time-to-Hazard (`Cox`)
       * Degradation Time (a different "concept")
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
-   * Intervention: (non-blind, subjective, etc)
+   * Intervention: (non-blind, subjective, choices in experiment design, etc)
       * Follow-up Time
    * Times that are "parameter"s, but almost ISI (Mean ISI)
       * MFFT
