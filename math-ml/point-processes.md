@@ -58,7 +58,7 @@ In contexts (Mathematical):
    * molecular dynamics
    * climate studies
    * geophysical processes
-   * `MFFT`: Fault Tolerance, Defect, "Repain", MFFT
+   * `MFFT`: Fault Tolerance, Defect, "Repain", MFFT, MTTR
    * `SA`: System Availability in Cloud Platforms
 
 #### The ISI to CIF
