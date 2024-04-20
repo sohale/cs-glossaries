@@ -18,14 +18,14 @@ Also see: ./inverse-gaussian-pp.md
 
 Terms for ISI with Slightly different meanings:
 
-* Subtypes: ("time until ...")
-   * first-passage time
-   * Event Time (or: a "Not from an event" from `0` in a global clock)
+* Subtypes:
+   * First-Passage Time
    * Rescaled ... ISI (!)
-   * Not from an event:
+   * Not from an event: ("time until ...")
       * Censored Time
       * Time-to-Event
       * Failure Time (`Surv`)
+      * Event Time (or: a "Not from an event" from `0` in a global clock)  (does this belong in this category?)
    * Alternating:
       * Uptime & Downtime
       * Time-to-Failure (`MTTF`)
@@ -39,12 +39,14 @@ Terms for ISI with Slightly different meanings:
       * Service Time (`QT`)
       * System Availability: SA (`Avail`)
       * Recovery Time (`Avail`, )
+      * Lifetime (once? -> see "First-Passage Time" )
    * Latencies:
       * Time-to-Detection
    * Misc: (not ISI at all)
       * Waiting Time -- (`QT`)
       * Sojourn Time (`QT`)
       * Time-to-Hazard (`Cox`)
+      * Degradation Time (a different "concept")
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
    * Times that are "parameter"s, but almost ISI (Mean ISI)
@@ -52,6 +54,10 @@ Terms for ISI with Slightly different meanings:
       * MTTR
       * Half-life
       * Mean Time Between Failures (MTBF)
+
+
+##### Contexts
+
 In contexts (Mathematical):
 * Renewal Theory
 * `Surv`: Survival Analysis (formerly "Sa")
@@ -63,6 +69,7 @@ In contexts (Mathematical):
    * molecular dynamics
    * climate studies
    * geophysical processes
+   * materials science
    * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
    * `Avail`: Availability: SA, System Availability in Cloud Platforms
 
