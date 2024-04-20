@@ -46,7 +46,11 @@ Terms for ISI with Slightly different meanings:
       * Time-to-Hazard (`Cox`)
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
-
+   * Times that are "parameter"s, but almost ISI (Mean ISI)
+      * MFFT
+      * MTTR
+      * Half-life
+      * Mean Time Between Failures (MTBF)
 In contexts (Mathematical):
 * Renewal Theory
 * survival analysis (`Sa`)
@@ -59,7 +63,7 @@ In contexts (Mathematical):
    * climate studies
    * geophysical processes
    * `MFFT`: Fault Tolerance, Defect, "Repain", MFFT, MTTR
-   * `SA`: System Availability in Cloud Platforms
+   * `SA`: Availability: System Availability in Cloud Platforms
 
 #### The ISI to CIF
 #### The CIF to ISI
