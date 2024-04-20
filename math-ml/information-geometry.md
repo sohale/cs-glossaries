@@ -128,3 +128,6 @@ Higher order?
 
 Some successful searches:
 * `information geometry course`
+
+See Also:
+* https://github.com/sohale/cs-glossaries/blob/master/math-ml/fisher-info.md
