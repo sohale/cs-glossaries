@@ -122,6 +122,7 @@ Connotations and hidden assumptions:
     * See side /frame of the bigger picture
 * Is a function of θ (in what sense it is "not" a function of `X` ( or `x`)? It is not, but then it is? (in a larger circuit) )
 * Its "mean" is usually over `X`, i.e. using `E_{X|θ}[ . ]`
+* Has a heavy history (change of meaning and change of words/terms, and a "modern"/"contemporary" meaning of the word)
 * Side /frame of the bigger picture:
    * Lingo 1:
       * There are objservations
