@@ -35,6 +35,7 @@ Also see: ./inverse-gaussian-pp.md
       * Elapsed Time
       * Failure Time
       * Service Time
+      * System Availability: SA (`SA`)
    * Latencies:
       * Time-to-Detection
    * Further
@@ -50,6 +51,7 @@ In contexts:
    * climate studies
    * geophysical processes
    * `MFFT`: Fault Tolerance, Defect, "Repain", MFFT
+   * `SA`: System Availability in Cloud Platforms
 
 #### The ISI to CIF
 #### The CIF to ISI
