@@ -73,6 +73,18 @@ In contexts (Mathematical):
    * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
    * `Avail`: Availability: SA, System Availability in Cloud Platforms
 
+
 #### The ISI to CIF
+
 #### The CIF to ISI
+
+#### Appendices
+##### Totally different and incompatible approaches to CIF
+Totally different and incompatible approaches, unless heavily loaded with assumptions (such as Brownian)
+* CIF
+* First-Passage Time ( integrate & fire, etc)
+
+
+
+
 
