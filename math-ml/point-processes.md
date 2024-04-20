@@ -18,11 +18,12 @@ Also see: ./inverse-gaussian-pp.md
 * Interarrival Time
 
 Terms for ISI with Slightly different meanings:
+
 * Subtypes: ("time until ...")
    * first-passage time
-   * Event Time
+   * Event Time (or: a "Not from an event" from `0` in a global clock)
    * Waiting Time -- (Queue Theory)
-   * From not an event:
+   * Not from an event:
       * Censored Time
       * Time-to-Event
       * Failure Time (`Sa`)
