@@ -1,4 +1,4 @@
-# Point Processes
+# Point Processes
 
 See Also:
 https://github.com/sohale/cs-glossaries/blob/master/math-ml/inverse-gaussian-pp.md
