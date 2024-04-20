@@ -112,7 +112,7 @@ Wierd common notation
 
 Connotations and hidden assumptions:
 * ...
-* Its "mean" is usually over `X`, i.e. `E_{X|θ}[ . ]`
+* Its "mean" is usually over `X`, i.e. using `E_{X|θ}[ . ]`
 
 ---------
 
