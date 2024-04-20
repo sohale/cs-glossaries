@@ -8,7 +8,6 @@ Also see: ./inverse-gaussian-pp.md
 * Inter-Occurrence Time
 * Inter-Event Time
 * Inter-Spike Interval
-* Sojourn Time
 * Waiting Time
 * Recurrence Time
 * Renewal Interval
@@ -22,7 +21,6 @@ Terms for ISI with Slightly different meanings:
 * Subtypes: ("time until ...")
    * first-passage time
    * Event Time (or: a "Not from an event" from `0` in a global clock)
-   * Waiting Time -- (Queue Theory)
    * Not from an event:
       * Censored Time
       * Time-to-Event
@@ -37,10 +35,13 @@ Terms for ISI with Slightly different meanings:
       * Cycle Time
       * Elapsed Time
       * Failure Time
-      * Service Time
+      * Service Time (`QT`)
       * System Availability: SA (`SA`)
    * Latencies:
       * Time-to-Detection
+   * Misc: (not ISI at all)
+      * Waiting Time -- (`QT`)
+      * Sojourn Time (`QT`)
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
 
@@ -48,6 +49,7 @@ In contexts (Mathematical):
 * Renewal Theory
 * survival analysis (`Sa`)
 * reliability theory
+* `QT`: Queue Theory
 * Specific application domain contexts
    * Cox Proportional Hazards Model
    * particle interactions
