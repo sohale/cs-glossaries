@@ -21,6 +21,10 @@ Terms for ISI with Slightly different meanings:
 * Subtypes:
    * First-Passage Time
    * Rescaled ... ISI (!)
+   * Shelf Life
+   * (Expiration ?)
+   * Persistence Time (`Env`, sustainability?)
+   * (how about "persistency")
    * Not from an event: ("time until ...")
       * Censored Time
       * (right censoring: `Cox`)
@@ -51,11 +55,12 @@ Terms for ISI with Slightly different meanings:
       * Cycle Length (`QT`)
       * Time-to-Hazard (`Cox`)
       * Degradation Time (a different "concept")
+      * Service Continuity Time (`Avail`)
    * Further
       * Residence Time (the period that a substance remains in a particular part of a system)
    * Intervention: (non-blind, subjective, choices in experiment design, etc)
       * Follow-up Time
-      * Follow-up Duration (`Cox`
+      * Follow-up Duration (`Cox`)
    * Times that are "parameter"s, but almost ISI (Mean ISI)
       * MFFT
       * MTTR
@@ -81,6 +86,8 @@ In contexts (Mathematical):
    * `MTTF`: Fault Tolerance (`Fault`), Defect, "Repair", MFFT (especially MFFT), MTTR
    * `Avail`: Availability: SA, System Availability in Cloud Platforms
    * `Med`: Medical: such as: time of observing consequences: activation, "the time between exposure to a cause (like a virus or carcinogen) and the manifestation of a disease or condition" activation
+   * `Env`, environmental science, also sustainability?
+   * Sustainability
 
 
 #### The ISI to CIF
