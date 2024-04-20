@@ -131,13 +131,16 @@ Connotations and hidden assumptions:
    * Lingo 2:
       * ...
 
+* Different according to current Bayesian "market" geography:
+    * "relative likelihood of models"
+
 See:
 * https://en.wikipedia.org/wiki/Informant_(statistics)
 * https://en.wikipedia.org/wiki/Likelihood_function#Log-likelihood
 * https://en.wikipedia.org/wiki/Likelihood_function
 * Log-probability : https://en.wikipedia.org/wiki/Log_probability
 * Slightly moving away
-   * Relative likelihood
+   * Relative likelihood: https://en.wikipedia.org/wiki/Relative_likelihood and https://en.wikipedia.org/wiki/Likelihood_function#Relative_likelihood_function
 * likelihoodist statistics: https://en.wikipedia.org/wiki/Likelihoodist_statistics
 * https://en.wikipedia.org/wiki/Law_of_likelihood
 
