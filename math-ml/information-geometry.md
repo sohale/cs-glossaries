@@ -123,11 +123,23 @@ Connotations and hidden assumptions:
 * Is a function of θ (in what sense it is "not" a function of `X` ( or `x`)? It is not, but then it is? (in a larger circuit) )
 * Its "mean" is usually over `X`, i.e. using `E_{X|θ}[ . ]`
 * Has a heavy history (change of meaning and change of words/terms, and a "modern"/"contemporary" meaning of the word)
+* Other terms with nuance differences:
+   * "Log-likelihood function"
 * Side /frame of the bigger picture:
    * Lingo 1:
       * There are objservations
    * Lingo 2:
       * ...
+
+See:
+* https://en.wikipedia.org/wiki/Informant_(statistics)
+* https://en.wikipedia.org/wiki/Likelihood_function#Log-likelihood
+* https://en.wikipedia.org/wiki/Likelihood_function
+* Log-probability : https://en.wikipedia.org/wiki/Log_probability
+* Slightly moving away
+   * Relative likelihood
+* likelihoodist statistics: https://en.wikipedia.org/wiki/Likelihoodist_statistics
+* https://en.wikipedia.org/wiki/Law_of_likelihood
 
 ---------
 
