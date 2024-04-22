@@ -22,9 +22,10 @@ Main ones used in industry or literature.
       * Each is an MLP (m:N, N:1)
       * Nonlinearities: LeakyReLU, etc
       * binary cross-entropy (for the discriminator)
+      * Jensen-Shannon divergence (JSD)
    * Training: Backpropagation
-   * Regularosaotpn: a
-   * Cons: Can be unstable (unstable, or may "oscillate", or may fail Nash equilibrium), slow, mode collapse
+   * Regularisation:
+   * Cons [a](https://arxiv.org/pdf/2005.00065.pdf): Can be unstable (unstable, or may "oscillate", or may fail Nash equilibrium), slow, mode collapse
 3. ResNet
 
 4. VAE
