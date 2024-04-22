@@ -12,8 +12,9 @@ Main ones used in industry or literature.
    * Operators/primitives: Layers: weighted-sum, nonlinearity
    * Training: Backpropagation, momentum
       * Gradient Descent: batched (or stochastic), momentum
-   * Regularisation: ..., drop-out, L2 Regularization on weights (penalty funciton), L1 regularisation on weights (sparse, feature selection), Early Stopping (avoiding learning too much), Batch Normalization, cross-entropy term in loss function
-   * * Cons: Zero Gradient, Memorizing input data, Internal covariate shift
+   * Regularisation: ..., drop-out, L2 Regularization on weights (penalty function), L1 regularisation on weights (sparse, feature selection), Early Stopping (avoiding learning too much), Batch Normalization, cross-entropy term in loss function
+   * more: CNN, pooling, normalisation, etc
+   * Cons: Vanishing Gradient, Memorizing input data, Internal Covariate Shift
 2. GAN
    * Generative Adversarial Networks
    * Principles and roots: P.C..., Nash equilibrium, ()
@@ -23,7 +24,7 @@ Main ones used in industry or literature.
       * cross-entropy
    * Training: Backpropagation
    * Regularosaotpn: a
-   * Cons: Can be unstable, slow, mode collapse
+   * Cons: Can be unstable (unstable, or may "oscillates", or may fail Nash equilibrium), slow, mode collapse
 3. ResNet
 
 4. VAE
