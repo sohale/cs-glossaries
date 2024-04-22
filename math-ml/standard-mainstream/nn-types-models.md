@@ -21,7 +21,7 @@ Main ones used in industry or literature.
    * Operators/primitives: Distriminator (N:1) & Generator (m:N)
       * Each is an MLP (m:N, N:1)
       * Nonlinearities: LeakyReLU, etc
-      * cross-entropy
+      * binary cross-entropy (for the discriminator)
    * Training: Backpropagation
    * Regularosaotpn: a
    * Cons: Can be unstable (unstable, or may "oscillates", or may fail Nash equilibrium), slow, mode collapse
