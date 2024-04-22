@@ -24,7 +24,7 @@ Main ones used in industry or literature.
       * binary cross-entropy (for the discriminator)
    * Training: Backpropagation
    * Regularosaotpn: a
-   * Cons: Can be unstable (unstable, or may "oscillates", or may fail Nash equilibrium), slow, mode collapse
+   * Cons: Can be unstable (unstable, or may "oscillate", or may fail Nash equilibrium), slow, mode collapse
 3. ResNet
 
 4. VAE
@@ -33,6 +33,15 @@ Main ones used in industry or literature.
 
 6. U-Net
 
+7. Word2vec
+   * Principles and roots: Cross-Entropy, Saussure
+   * Operators/Primitives: Cross-Entropy
+   * Loss function: cosine similarity
+
+8. Transformers
+   * Principles and roots: Attention, Word2vec, RNN/TDNN (token prediction), Place phase
+   * Operators/Primitives: Word2vec, Place phase
+   * Loss function:
 Queue: ELM, CLIP
 
 Queue: algorithms: Adam
