@@ -18,14 +18,16 @@ Main ones used in industry or literature.
 2. GAN
    * Generative Adversarial Networks
    * Principles and roots: P.C..., Nash equilibrium, ()
-   * Operators/primitives: Distriminator (N:1) & Generator (m:N)
+   * Operators/primitives: Distriminator(critic) (N:1) & Generator (m:N)
       * Each is an MLP (m:N, N:1)
       * Nonlinearities: LeakyReLU, etc
       * binary cross-entropy (for the discriminator)
-      * Jensen-Shannon divergence (JSD)
+      * More: Jensen-Shannon divergence (JSD), kernel maximum mean discrepancy ([MMD], (https://arxiv.org/abs/1705.08584)), Kernel Stein Discrepancy (KSD) (Stein operator, Stein witness function), constrained covariance (COCO)
    * Training: Backpropagation
    * Regularisation:
-   * Cons [a](https://arxiv.org/pdf/2005.00065.pdf): Can be unstable (unstable, or may "oscillate", or may fail Nash equilibrium), slow, mode collapse
+   * Cons [a](https://arxiv.org/pdf/2005.00065.pdf): Can be unstable (unstable, or may "oscillate", or may fail Nash equilibrium), slow, Mode Collapse
+   * Some variations: CGAN, DCGAN, etc
+      * Minor: Wasserstein GAN, WGAN-GP, Coulomb GAN, GMMN, [MMD GAN](https://arxiv.org/abs/1705.08584), Dirac-GAN, Sobolev GAN, kernel inception distance (KID)(FID), BGAN, SNGAN,
 3. ResNet
 
 4. VAE
@@ -43,7 +45,7 @@ Main ones used in industry or literature.
    * Principles and roots: Attention, Word2vec, RNN/TDNN (token prediction), Place phase
    * Operators/Primitives: Word2vec, Place phase
    * Loss function:
-Queue: ELM, CLIP
+Queue: ELM, CLIP, "Inception architecture"
 
 Queue: algorithms: Adam
 
