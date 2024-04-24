@@ -72,6 +72,36 @@ initially unknown
 but will "eventually"
 be computed by concurrent processes.
 
+
+#### Eras
+* 60s
+* Amdahl era
+* Lamport
+* 1970s
+   * Haore 78: CSP (Communicating Sequential Processes): (Limbo, RaftLib, Erlang, Go, Crystal, Clojure's `core.async`).
+   * Continuation
+* 80s
+   * Liskov (1977?) "Promise"
+   * Erlang
+* 90s
+   * Niv
+* Golang
+* 2000s & 2010s
+   * (That timing prediction algebra)
+   * (GPGPU mindset, Nvidia?)
+* 2020s
+   * ?
+
+* When? (pool)
+   * temporal logic
+   * Amdahl
+   * Simor Cray and his mindset
+   * "Grid"
+   * Shannon Master thesis: synchronous logic (edges of shared clock, flip-flip: sequential logic (synchronised) with centralised clock)
+   * Async in networking (random, arrival time, etc) -- between
+   * Even-triggered logic? (event cameras?)
+   * Other "asynchronous logic design" paradigms?
+
 ## Key key concepts
 Unrefutably essential, can be units of thought in understanding or concepts
 * "eventually" (serves: "future", ...)
@@ -100,8 +130,14 @@ of parameterization <!-- of each concept -->
 (probably academic papers, mathematical formalism, etc) (including disciplines: logic (lambda: function as data / math object), category theory (flow as object?), (code as object/data? who? other than von Neumann) etc)
 * ?
 
+### Formal systems
+
 ### Incomplete attempts
-* Concurrency is not parallelism
+* "Concurrency is not Parallelism" by Rob Pike (talk) (also this following [page on Medium](https://kwahome.medium.com/concurrency-is-not-parallelism-a5451d1cde8d))
+
+### Good frameworks
+* `stdexec` (v1, v2)
+* Golang's `channel` -> root: ...
 
 ## Unorganised
 ### First-order solutions, second-order culprits:
