@@ -1,12 +1,14 @@
 # Roots & depths of Concurrency
 
+### Methodology
+Titles:
 
 Disentangling the root of ideas, from academia, history, etc.
 The story of ideas.
 "factorising" the axioms.
 Various types, and disambiguating related concepts & terms.
 
-### Methodology (of this document)
+Methodology (of this document):
 * Clarify: slash ambiguity
 * Purity (factor out into "essence"es )
 * Explicit
@@ -14,6 +16,14 @@ Various types, and disambiguating related concepts & terms.
    * Wrong abstractions
 * Make concrete (multi-core in intel)
 * Provide historical approach for terms when necessary (including what is the story of this term): "historiousness" / "historiousity"
+
+### Major terms
+* Concurrent
+* Parallel
+* Multi-threaded
+* Minors:
+   * Multi-process
+   * Multi-tasking (cooperative vs preemptive Multitasking, or scheduling)
 
 ### Term: "Concurrency"
 Concurrency
