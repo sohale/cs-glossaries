@@ -107,11 +107,13 @@ Draft:
        * (related to Control Flow & Control flow diagram?)
        * (See Control Flow in compiler Engineering)
    * Control Flow in compiler Engineering?
+   * Quality-Centric Systems Development <!-- Mind Your Outcomes: The ΔQSD Paradigm -->
 
 ## Key key concepts
 Unrefutably essential, can be units of thought in understanding or concepts
 * "eventually" (serves: "future", ...)
 * "Readiness"
+<!-- * time prediciion. related to: timeliness -->
 
 #### More candidates
 to be moved to "Key key concepts"
@@ -128,7 +130,9 @@ of parameterization <!-- of each concept -->
 * strata/band/scale
 * scale/quantity (size)
 * level of deliberate vagueness (some kind of abstraction: the "extent", and leaving more, deliberately unspecified): e.g. "recovery" can be fine as a term.
-
+* frame (external view)
+* concern (internal view)
+* (other views)
 
 ## Attempts
 
@@ -151,6 +155,7 @@ And why I deem each so.
 * "concurrency" 
 * "process"
 * "workloads"
+* quality of service
 
 
 ### Pool of vague terms
@@ -185,6 +190,7 @@ To slash.
 * async
 * blocking, non-blocking: Blocking itself can be concrete, but usually terms like "non-blocking" are is just thrown vaguely.
 * "workloads" is a progress, but up to a point
+* Timeliness
 
 #### Vague, but their okness can be OK?
 * "recovery" ?
