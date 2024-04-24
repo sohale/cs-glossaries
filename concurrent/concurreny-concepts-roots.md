@@ -41,3 +41,13 @@ Liuba Shrira.
 #### On the history of the "continuation" term
 #### On the history of "resolve" and "reject" terms
 #### On the history of the term "future"
+a "proxy for a result"
+that is 
+initially unknown
+but will "eventually"
+be computed by concurrent processes.
+
+## Key key concepts
+Unrefutably essential, can be units of thought in understanding or concepts
+* "eventually" (serves: "future", ...)
+* "readiness"
