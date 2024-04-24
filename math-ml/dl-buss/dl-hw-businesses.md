@@ -5,14 +5,20 @@ Questions:
 * How much faster/lower cost? (and scale)
 * Company value
 * Fate (acquired, ..., delivered)
-* FPGA? Custom memory?
+* FPGA? ASIC? (only one of these)
+* Custom memory?
 * DL Training?
 * Other: AV, Spiking.
 
-Not: Inference, GPU.
+Not: Inference, GPU, software.
+Can be: open-source, AV, Spiking, neuromorphic.
 
 
 ### Cerebras
 https://en.m.wikipedia.org/wiki/Cerebras
 
 ### LeapMind
+
+
+### Non-FPGA
+* Axelera: not training.
