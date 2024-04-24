@@ -13,6 +13,7 @@ Various types, and disambiguating related concepts & terms.
 * Jargon: capture & contain the historical & community lingo, typical weird terms, and hidden (excommunicated implicit) assumptions.
    * Wrong abstractions
 * Make concrete (multi-core in intel)
+* Provide historical approach for terms when necessary (including what is the story of this term): "historiousness" / "historiousity"
 
 Concurrency
 * What is wrong with this term
@@ -31,3 +32,9 @@ Barbara Liskov.
 Liuba Shrira.
 (MIT)
 
+### Historious: Histories of terms
+#### On the history of the "concurrent" term
+#### On the history of the "promise" term
+#### On the history of the "continuation" term
+#### On the history of the "continuation" term
+#### On the history of "resolve" and "reject" terms
