@@ -94,6 +94,15 @@ of parameterization <!-- of each concept -->
 * level of deliberate vagueness (some kind of abstraction: the "extent", and leaving more, deliberately unspecified): e.g. "recovery" can be fine as a term.
 
 
+## Attempts
+
+### Genuine attempts
+(probably academic papers, mathematical formalism, etc) (including disciplines: logic (lambda: function as data / math object), category theory (flow as object?), (code as object/data? who? other than von Neumann) etc)
+* ?
+
+### Incomplete attempts
+* Concurrency is not parallelism
+
 ## Unorganised
 ### First-order solutions, second-order culprits:
 And why I deem each so.
