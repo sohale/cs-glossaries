@@ -21,14 +21,29 @@ Methodology (of this document):
 * Concurrent
 * Parallel
 * Multi-threaded
+* Distributed computing
 * Minors:
    * Multi-process
    * Multi-tasking (cooperative vs preemptive Multitasking, or scheduling)
+   * Async (js/python/promise/async/await)
+   * Multi-core
+   * GPU parallel
+   * Massively parallel / supercomputing (a certain amalgam: Cray)
+   * Datacenter (cloud, etc: from the PoV of owner of datacenter, not just distributed+cloud )
+   * Subtypes:
+      * Parallel: Instruction-level parallelism
+      * Multitasking: cooperative vs preemptive
+      * Thread weight: lightweight threads or lightweight processes
+      * Microthreads (?)
+      * Multi-threading levels: OS-level, in-process, etc
+      * Hierarchy: kernel -> (namespace) -> Process -> thread
+  * Misc pool:
+      * "Speculations" in CPU pipelining (to commit, to hint, etc)
 
 ### Term: "Concurrency"
 Concurrency
 * What is wrong with this term
-* What is right about this term (why appears)
+* What is right about this term (why it appeared in response to what priior ambiguity or linguistic lack)
 
 ### Key papers
 * Paper: (1977)
