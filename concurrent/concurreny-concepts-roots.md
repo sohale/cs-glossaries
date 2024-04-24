@@ -53,23 +53,38 @@ Unrefutably essential, can be units of thought in understanding or concepts
 * "readiness"
 
 ## Unorganised
+### First-order solutions, second-order culprits:
+And why I deem each so.
+* "concurrency" 
+* "process"
+
 ### Pool of vague terms
 The suspects
-* wrokload
+* workload
 * concurrency
 * distributed computing
-* process
+* process (a solution at first, but a culprit later)
+* Various errors
 
 ### Marketing bullshit
 To slash.
 * resilience
 * high performance
 * "high" scalability, resilience, performance, etc: how "high" ?! Quantify.
+* "Reactive Manifesto" It is good in itself, for one level, but the underlying items do fail, and are vague.
+* Agility (not for concurrency, but relate it to "Reactive Manifesto". Besides, both happen to have manifestoes)
+* Management (load management, etc)
+* Owning (also parent, etc). (I slightly prefer A monitors B, but "to monitor" needs to be clarified, and make more specific to its "band-scope" )
+
 
 #### Not sure:
 * multi-core
 * multiple server
 * scalability (needs splitting into, for separate contexts)
-* elasticity (if we define the "band" of (process) "resources")
+* elasticity (if we define (stratify) the "band" of (process) "resources")
 *
 * Lock-free (as an ask)
+* To Monitor (todo: define it, and stratify it)
+* to handle (a failure, error, etc)
+* async
+* blocking, non-blocking: Blocking itself can be concrete, but usually terms like "non-blocking" are is just thrown vaguely.
