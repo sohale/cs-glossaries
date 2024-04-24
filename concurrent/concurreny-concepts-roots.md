@@ -74,6 +74,8 @@ be computed by concurrent processes.
 
 
 #### Eras
+(Also identify  important transitions)
+Draft:
 * 60s
 * Amdahl era
 * Lamport
@@ -87,7 +89,7 @@ be computed by concurrent processes.
    * Niv
 * Golang
 * 2000s & 2010s
-   * (That timing prediction algebra)
+   * Timeliness <!-- Algebraic Reasoning About Timeliness (That timing prediction algebra) -->
    * (GPGPU mindset, Nvidia?)
 * 2020s
    * ?
