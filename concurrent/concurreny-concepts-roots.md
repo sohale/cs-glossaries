@@ -50,13 +50,32 @@ be computed by concurrent processes.
 ## Key key concepts
 Unrefutably essential, can be units of thought in understanding or concepts
 * "eventually" (serves: "future", ...)
-* "readiness"
+* "Readiness"
+
+#### More candidates
+to be moved to "Key key concepts"
+* continuation
+#### Need development of parametrisation
+* ...
+* dependency
+
+#### External requirements
+Vagueness because they are external requirements (on user size)
+
+### Dimensions:
+of parameterization <!-- of each concept -->
+* strata/band/scale
+* scale/quantity (size)
+* level of deliberate vagueness (some kind of abstraction: the "extent", and leaving more, deliberately unspecified): e.g. "recovery" can be fine as a term.
+
 
 ## Unorganised
 ### First-order solutions, second-order culprits:
 And why I deem each so.
 * "concurrency" 
 * "process"
+* "workloads"
+
 
 ### Pool of vague terms
 The suspects
@@ -73,9 +92,10 @@ To slash.
 * "high" scalability, resilience, performance, etc: how "high" ?! Quantify.
 * "Reactive Manifesto" It is good in itself, for one level, but the underlying items do fail, and are vague.
 * Agility (not for concurrency, but relate it to "Reactive Manifesto". Besides, both happen to have manifestoes)
-* Management (load management, etc)
+* Management (load management, managing recovery, etc)
 * Owning (also parent, etc). (I slightly prefer A monitors B, but "to monitor" needs to be clarified, and make more specific to its "band-scope" )
-
+* But these may be defined
+* concern, responsibility, scope, etc (e.g. SOLID)
 
 #### Not sure:
 * multi-core
@@ -88,3 +108,7 @@ To slash.
 * to handle (a failure, error, etc)
 * async
 * blocking, non-blocking: Blocking itself can be concrete, but usually terms like "non-blocking" are is just thrown vaguely.
+* "workloads" is a progress, but up to a point
+
+#### Vague, but their okness can be OK?
+* "recovery" ?
