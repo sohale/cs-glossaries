@@ -51,3 +51,25 @@ be computed by concurrent processes.
 Unrefutably essential, can be units of thought in understanding or concepts
 * "eventually" (serves: "future", ...)
 * "readiness"
+
+## Unorganised
+### Pool of vague terms
+The suspects
+* wrokload
+* concurrency
+* distributed computing
+* process
+
+### Marketing bullshit
+To slash.
+* resilience
+* high performance
+* "high" scalability, resilience, performance, etc: how "high" ?! Quantify.
+
+#### Not sure:
+* multi-core
+* multiple server
+* scalability (needs splitting into, for separate contexts)
+* elasticity (if we define the "band" of (process) "resources")
+*
+* Lock-free (as an ask)
