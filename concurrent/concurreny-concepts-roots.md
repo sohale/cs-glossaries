@@ -101,6 +101,10 @@ be computed by concurrent processes.
    * Async in networking (random, arrival time, etc) -- between
    * Even-triggered logic? (event cameras?)
    * Other "asynchronous logic design" paradigms?
+   * "Sequence diagrams"
+       * (related to Control Flow & Control flow diagram?)
+       * (See Control Flow in compiler Engineering)
+   * Control Flow in compiler Engineering?
 
 ## Key key concepts
 Unrefutably essential, can be units of thought in understanding or concepts
