@@ -15,10 +15,12 @@ Various types, and disambiguating related concepts & terms.
 * Make concrete (multi-core in intel)
 * Provide historical approach for terms when necessary (including what is the story of this term): "historiousness" / "historiousity"
 
+### Term: "Concurrency"
 Concurrency
 * What is wrong with this term
 * What is right about this term (why appears)
 
+### Key papers
 * Paper: (1977)
 *Laws for Communicating Parallel Processes*
 Henry Baker, Carl Hewitt
@@ -38,3 +40,4 @@ Liuba Shrira.
 #### On the history of the "continuation" term
 #### On the history of the "continuation" term
 #### On the history of "resolve" and "reject" terms
+#### On the history of the term "future"
