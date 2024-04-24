@@ -11,6 +11,7 @@ Questions:
 * Other: AV, Spiking.
 
 Not: Inference, GPU, software.
+
 Can be: open-source, AV, Spiking, neuromorphic.
 
 
@@ -19,6 +20,11 @@ https://en.m.wikipedia.org/wiki/Cerebras
 
 ### LeapMind
 
+### People (non-businesses)
 
 ### Non-FPGA
-* Axelera: not training.
+* For Autonomy, etc (MIT, etc) see: (page)
+
+### Not counted
+* "Axelera": not training.
+* 
