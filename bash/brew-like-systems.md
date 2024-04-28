@@ -1,5 +1,6 @@
 On design principles of brew-like systems
 
+#### Scope
 Scope: List of systems of interest:
 * brew
 * nvm
