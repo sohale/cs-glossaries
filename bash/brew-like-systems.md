@@ -38,6 +38,7 @@ Characteristic features:
 ### Theorizing
 * A pattern has emerged: These seem to be some design principles of brew-like systems.
 * Outside a pre-existing system
+* Characteristic "stack layers" pattern: "`nvm` over `npm` over `node`", "`venv` over `pip` over `python`"
 
 <!-- ## Meta -->
 ### History
