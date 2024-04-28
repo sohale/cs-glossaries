@@ -59,20 +59,25 @@ timeline
 
 ```
 * 1986
-* HotSpot, JIT (2011)
+   * HotSpot, JIT (2011)
 * 2006
 * 2006 : Hotspot license?
-* ?:ajax
-* Death of Sun ?
-* ? LLVM
-* 2008: private cloud
-* iPhone
-* Vulkan
-* Clang: rewrite of gcc
-* Namespaces were implemented in Linux
-* Arm taking over
-* 2014: SyCL
-* 2015: SPIR
-* ?: MLIR
+   * ?:ajax
+   * Death of Sun ?
+   * ? LLVM
+* 2008:
+   * private cloud (2008)
+   * iPhone
+   * Vulkan
+   * Clang: rewrite of gcc
+   * Namespaces were implemented in Linux
+   * Arm taking over
+* 2014
+   * 2014: SyCL
+* 2015
+   * 2015: SPIR
+   * ?: MLIR
+* 2023
+   * Mojo
 
 #### .
