@@ -145,6 +145,8 @@ More Computer Architecture.
 * Niche projects: (Quantum if they know), or specific DSLs (bioinformatics). NN/DL is a differnt topic.
 * IR to something else.
 * A GPU (for LLVM). Test using "GPGPU-Sim".
+* Security/ vulnerability ...
+* Some bug detectors. (or code smell, syntactic analyser, sanitiser(?), etc)
 * TBC.
 
 * each, focus on one part / aspect / pass
