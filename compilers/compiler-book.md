@@ -147,6 +147,12 @@ More Computer Architecture.
 * A GPU (for LLVM). Test using "GPGPU-Sim".
 * Security/ vulnerability ...
 * Some bug detectors. (or code smell, syntactic analyser, sanitiser(?), etc)
+* Optimiser for game (OpenGL pipelline-like)
+* Optimiser for physics
+* Optimiser for DL training
+* OpenGL to compute
+* Something for Web (e.g. use GPU using WebGL, or use Emsripten, born shader, etc)
+* Compressor-generator (or something like that)
 * TBC.
 
 * each, focus on one part / aspect / pass
