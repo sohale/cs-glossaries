@@ -67,8 +67,11 @@ Characteristic features:
     * `venv` uses env ariables, etc
     * exporting
     * `.bashrc`
-    * patterns for each instance (like venv) or ... ?
-
+    * patterns for each instance (like `venv`) or ... ?
+* Doctor
+    * `brew doctor`, `brew config`, `brew install --verbose --debug`, ...
+    * inspecting (?)
+  
 <!-- ## Meta -->
 ### History
 * Historical order
