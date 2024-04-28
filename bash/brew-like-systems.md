@@ -19,6 +19,7 @@ Characteristic features:
       * I don't cover installation management systems:
          * snap
          * `apt`, `macports`, etc (but I "do" cover `brew`. What is the difference?)
+         * Not `bob` (or `cargo`). cargo install bob-nvim
       * Not package management:
          * package versions rather than
          * are "inside" the system (e.g. npm), while "nvm" is outside.
@@ -26,6 +27,9 @@ Characteristic features:
          * gem
          * cabal
          * conan (?)
+         * not `pip` but something that is around `pip`.
+         * `venv`? yes.
+         * Not chroot/jail solutions. Or isolation and containerisation: namespace/docker
       * Not ...
          * mypy, poetry, ...
       * Not build systems:
@@ -38,6 +42,7 @@ Characteristic features:
 <!-- ## Meta -->
 ### History
 * Historical order
+   * Ruby roots? venv/virtualenv?
 * Roots of ideas & Memes in theory/academia
 
 ## Contents
