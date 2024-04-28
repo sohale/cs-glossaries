@@ -55,12 +55,19 @@ Characteristic features:
    * report on how much space are taken (by used, unused)
    * prune or purge (similarities with apt, docker)
 * Maybe usage-based? (Usually, they don't work well) (as exspention of detecting dangling)
-* List of nominal similarities with package management systsems
+* List of nominal similarities with package management systems (list only)
    * purse
    * detect dangling
    * update, download updates, etc
    * dependency tree (able to visualise)
    * version compatibility (semver, etc), able to warn (Winetricks does not do this)
+* Its own updating. Solution?
+* Being local (venv is strictly local)
+* typical management of `env`:
+    * `venv` uses env ariables, etc
+    * exporting
+    * `.bashrc`
+    * patterns for each instance (like venv) or ... ?
 
 <!-- ## Meta -->
 ### History
