@@ -11,15 +11,15 @@ All of these appeared after 2006:
 LLVM, MLIR
 Rust, Zig, Jai, Hare, Odin, Modular Mojo, C++23, and even GoLang.
 Large Language Models, transformers, deep learning.
-Devops, infrastructure as code.
-Small Language Modesls and NN-insired compilers.
-Heterogeneous computing and heterogenious cloud.
+DevOps, infrastructure as code.
+Small Language Models and NN-inspired compilers.
+Heterogeneous computing and heterogeneous cloud.
 multi-cloud, hybrid cloud (heterogeneous)
 Itanium died a thousand deaths [ref].
 
 More modern approaches to concurrent.
 
-C++20 is not aught up.
+C++20 is not caught up.
 Javascript ...
 Docker.
 
@@ -117,8 +117,8 @@ It is about craft. (But also giving academic insights & geography)
 * Test concern
 * Measure compile time (and runtime)
 * Write a JIR
-* A clourd-related
-* A preprocessor / skin (JS, Golang, C++, etc)
+* A cloud-related
+* A preprocessor / postprocessor/skin (JS, Golang, C++, etc)
 * A syntax highlighter
 * A language server
 * hypothesis examination (search space)
@@ -128,15 +128,20 @@ It is about craft. (But also giving academic insights & geography)
 * Core generates LLVM for a toy language
 * Evaluating a CGO
 * A functional / NN example
+* Core classic: loop unrolling, etc
 
-Note: This is not a course in design of programing languages
-Nore  Computer Architecture.
+Note: This is not a course in design of programming languages
+More Computer Architecture.
 
 #### Final projects
 * A language: produce LLVM
 * A new optimisation pattern
-* An HDL Compiler (use some synthesis & simulatiom tool)
+* An HDL Compiler (use some synthesis & simulation tool)
 * Something about Clang or gcc
+* Explore internal representations of Lean4, or to reuse
+* trans-piling (from one language to another)
+* A DSL framework (?) -- attach ANTLR4 visitors
 * TBC.
 
 * each, focus on one part / aspect / pass
+   * symbolic, autodiff, (see Lean4 above), ...
