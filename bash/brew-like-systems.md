@@ -29,7 +29,7 @@ Characteristic features:
          * conan (?)
          * not `pip` but something that is around `pip`.
          * `venv`? yes.
-         * Not chroot/jail solutions. Or isolation and containerisation: namespace/docker
+         * Not chroot/jail solutions. Or isolation and containerisation: namespace/docker. Not terraform/provider.
       * Not ...
          * mypy, poetry, ...
       * Not build systems:
@@ -38,7 +38,8 @@ Characteristic features:
 ### Theorizing
 * A pattern has emerged: These seem to be some design principles of brew-like systems.
 * Outside a pre-existing system
-* Characteristic "stack layers" pattern: "`nvm` over `npm` over `node`", "`venv` over `pip` over `python`"
+* Characteristic "stack layers" pattern:
+   * "`nvm` over `npm` over `node`", "`venv` over `pip` over `python`"
 
 <!-- ## Meta -->
 ### History
