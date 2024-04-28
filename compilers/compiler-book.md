@@ -80,4 +80,6 @@ timeline
 * 2023
    * Mojo
 
+Timeline: todo: academic mainstream terms shifts (lingo) (& paradigms).
+
 #### .
