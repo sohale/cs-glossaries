@@ -18,6 +18,7 @@ Characteristic features:
    * Here, I don't cover:
       * I don't cover installation management systems:
          * snap
+         * `apt`, `macports`, etc (but I "do" cover `brew`. What is the difference?)
       * Not package management:
          * package versions rather than
          * are "inside" the system (e.g. npm), while "nvm" is outside.
