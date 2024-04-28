@@ -8,11 +8,23 @@ Scope: List of systems of interest:
 * lake
 
 Characteristic features:
-* Are commandline.
+* Are command-line.
 * Often a separate system.
 * Often start with hacky solutions, but turn into an ecosystem.
 * Often a single repo
 * Characterising examples: `brew` and `nvm`
+* Are not:
+   * Here, I don't cover:
+      * I don't cover installation management systems:
+         * snap
+      * Not package management:
+         * package versions rather than
+         * are "inside" the system (e.g. npm), while "nvm" is outside.
+         * npm, yarn
+         * gem
+         * cabal
+      * Not ...
+         * mypy, poetry, ...
 
 ## Contents
 ### Brew
