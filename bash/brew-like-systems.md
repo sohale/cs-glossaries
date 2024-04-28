@@ -59,6 +59,8 @@ Characteristic features:
    * purse
    * detect dangling
    * update, download updates, etc
+   * dependency tree (able to visualise)
+   * version compatibility (semver, etc), able to warn (Winetricks does not do this)
 
 <!-- ## Meta -->
 ### History
