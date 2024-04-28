@@ -42,6 +42,9 @@ virtualisation & Q.
 ##### Preface: Timeline
 A brief history of post-2006 CS/CE:
 ```mermaid
+%%  forrest color theme
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+
 timeline
         title Compiler Engineering post 2006 Timeline
         section Pre LLVM <br> JVM Hotspot
@@ -86,6 +89,9 @@ Timeline: todo: academic mainstream terms shifts (lingo) (& paradigms).
 
 Another attempt:
 ```mermaid
+%%  forrest color theme
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+
 timeline
         title Compiler Engineering Post 2005 Timeline
         section Early Developments <br> 2005 - 2010
