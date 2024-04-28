@@ -1,5 +1,5 @@
 Compilers at Age of AI, Cloud & Autonomy
-<!-- of AI, AV & ML . LLM? -->
+<!-- of AI, AV & ML . LLM? edge (power) -->
 
 
 ### Preface
