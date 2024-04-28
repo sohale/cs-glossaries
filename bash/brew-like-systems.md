@@ -71,7 +71,12 @@ Characteristic features:
 * Doctor
     * `brew doctor`, `brew config`, `brew install --verbose --debug`, ...
     * inspecting (?)
-  
+    * Patterns:
+       * `Some installed kegs have no formulae! This means they were either deleted or installed manually. You should find replacements for the following formulae:` ...
+          * Interesting: "You should find replacements" ...
+       * `Warning: Some installed formulae are deprecated or disabled. You should find replacements for the following formulae`
+
+
 <!-- ## Meta -->
 ### History
 * Historical order
@@ -80,7 +85,11 @@ Characteristic features:
 
 ## Contents
 ### Brew
+   * `keg's
+   * `cask`: see below.
+
 #### Brew cask
+   cask is only for MacOS : for GUIs (`.pkg`, `.app` files)
 ### Winetricks
 ### Lean4's Lake
 
