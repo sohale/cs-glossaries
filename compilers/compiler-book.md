@@ -103,6 +103,7 @@ timeline
 
 #### Lab-work
 It is about craft. (But also giving academic insights & geography)
+* Setup ( LLVM installation, ANTLR, MLIR, etc): all must bea ble to do it (by prepared docker containers. on university cloud? automatic removing)
 * Write an ANTLR4 parser
 * (Some compiler patterns)
 * Design your own language (or follow the standard one)
@@ -157,3 +158,10 @@ More Computer Architecture.
 
 * each, focus on one part / aspect / pass
    * symbolic, autodiff, (see Lean4 above), ...
+
+* Pool of particular points of focus
+IR: delaying the compilation to link-time 🔥 * object files store IR (the intermediate representation) 🔥
+
+* fat object: An LTO object containing both IR and machine code is known as a 
+
+Tools that enable quick finding of pattern matching (of control flow, etc)
