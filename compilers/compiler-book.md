@@ -82,6 +82,7 @@ timeline
 
 Timeline: todo: academic mainstream terms shifts (lingo) (& paradigms).
 * More items: security.
+* Maybe architecture?
 
 Another attempt:
 ```mermaid
@@ -100,4 +101,39 @@ timeline
           Security Features Enhance : Mid-2010s : Implementing stack protectors, code sanitization
 ```
 
-#### .
+#### Lab-work
+It is about craft. (But also giving academic insights & geography)
+* Write an ANTLR4 parser
+* (Some compiler patterns)
+* Design your own language (or follow the standard one)
+* Write in LLVM (also assembly?)
+* template / generative / Macro expansion / pattern matching / string matching
+* AST
+* control flow analysis
+* Write a CGO
+* Write an LTO
+* Write an MLIR dialect
+* Write an HDL
+* Test concern
+* Measure compile time (and runtime)
+* Write a JIR
+* A clourd-related
+* A preprocessor / skin (JS, Golang, C++, etc)
+* A syntax highlighter
+* A language server
+* hypothesis examination (search space)
+* "register pressure" (exercise on paper)
+* polyhedral magic
+* ELF analysis & link (multi-)
+* Core generates LLVM for a toy language
+* Evaluating a CGO
+* A functional / NN example
+
+Note: This is not a course in design of programing languages
+Nore  Computer Architecture.
+
+#### Final projects
+* A language: produce LLVM
+* A new optimisation pattern
+* An HDL Compiler (use some synthesis & simulatiom tool)
+* TBC.
