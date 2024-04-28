@@ -141,6 +141,7 @@ More Computer Architecture.
 * Explore internal representations of Lean4, or to reuse
 * trans-piling (from one language to another)
 * A DSL framework (?) -- attach ANTLR4 visitors
+* Niche projects: (Quantum if they know), or specific DSLs (bioinformatics). NN/DL is a differnt topic.
 * TBC.
 
 * each, focus on one part / aspect / pass
