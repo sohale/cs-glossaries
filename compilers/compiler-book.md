@@ -136,4 +136,7 @@ Nore  Computer Architecture.
 * A language: produce LLVM
 * A new optimisation pattern
 * An HDL Compiler (use some synthesis & simulatiom tool)
+* Something about Clang or gcc
 * TBC.
+
+* each, focus on one part / aspect / pass
