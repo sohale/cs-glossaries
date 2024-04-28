@@ -47,8 +47,18 @@ Characteristic features:
 * Usually has a proper cli with well-defined sub-commands: `brew` (`install`, ...), `winetricks`, nvm (`list`, `install`, etc), etc
 * Usually have pre-defines "installation configuration"s. (Is it the same as brew formulas?). Specific formulas (probably based on main most-common usages & patterns in practice for that "software"). Very pragmatic.
 * Multiple few software: Is it supported? (A simple software? () or multiple? (a few ones) (excluding universal tools like brew) )
-* dry-run: an emerged functionality that is common
+* `dry-run`: an emerged functionality that is common. (todo: add more)
 * Usually has files with specific versions and product names (winetricks), or repository(es): brew repo for (all) formulas? (where is it kept?)
+* `brew cleanup` (emergent)
+   * Identify dangling / unused  (similarities with apt, docker)
+   * removing them
+   * report on how much space are taken (by used, unused)
+   * prune or purge (similarities with apt, docker)
+* Maybe usage-based? (Usually, they don't work well) (as exspention of detecting dangling)
+* List of nominal similarities with package management systsems
+   * purse
+   * detect dangling
+   * update, download updates, etc
 
 <!-- ## Meta -->
 ### History
