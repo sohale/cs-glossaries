@@ -106,7 +106,7 @@ It is about craft. (But also giving academic insights & geography)
 * Write an ANTLR4 parser
 * (Some compiler patterns)
 * Design your own language (or follow the standard one)
-* Write in LLVM (also assembly?)
+* Write in raw LLVM (also assembly?)
 * template / generative / Macro expansion / pattern matching / string matching
 * AST
 * control flow analysis
@@ -130,6 +130,7 @@ It is about craft. (But also giving academic insights & geography)
 * A functional / NN example
 * Core classic: loop unrolling, etc
 
+
 Note: This is not a course in design of programming languages
 More Computer Architecture.
 
@@ -142,6 +143,8 @@ More Computer Architecture.
 * trans-piling (from one language to another)
 * A DSL framework (?) -- attach ANTLR4 visitors
 * Niche projects: (Quantum if they know), or specific DSLs (bioinformatics). NN/DL is a differnt topic.
+* IR to something else.
+* A GPU (for LLVM). Test using "GPGPU-Sim".
 * TBC.
 
 * each, focus on one part / aspect / pass
