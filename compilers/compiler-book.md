@@ -83,4 +83,21 @@ timeline
 Timeline: todo: academic mainstream terms shifts (lingo) (& paradigms).
 * More items: security.
 
+Another attempt:
+```mermaid
+timeline
+        title Compiler Engineering Post 2005 Timeline
+        section Early Developments <br> 2005 - 2010
+          Rise of LLVM : late 2000s : Modular compiler approach boosts innovation
+          Just-In-Time Compilation Expands : Early 2010s : Runtime optimizations for web technologies
+          Security-Oriented Compiler Technologies : Early to Mid-2010s : Focus on code security enhancements
+        section Expansion and Integration <br> 2011 - 2015
+          Hardware-Software Co-Design : Early 2010s : Optimizing software for GPUs and FPGAs
+          Polyglot Compilation Environments : Late 2000s to Early 2010s : Support for multiple languages in .NET, JVM
+        section Advanced Innovations <br> 2016 - 2023
+          Integration of Machine Learning in Compilers : Mid-2010s onwards : ML algorithms optimize compiler decisions
+          Open Source Dominates : Late 2000s to Early 2010s : GCC, LLVM foster global collaboration
+          Security Features Enhance : Mid-2010s : Implementing stack protectors, code sanitization
+```
+
 #### .
