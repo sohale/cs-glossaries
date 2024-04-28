@@ -36,6 +36,15 @@ Characteristic features:
       * Not build systems:
          * make, etc (vs Conan.io)
 
+##### Advanced over-the-top features:
+Usually for `brew`.
+Not necessarily "characteristic & necessary"
+   * actionable-based messages
+   * negative patterns
+   * pre-declaring "caveats"
+   * pre-declaring warnings about ...
+   * *unfortunately) workarounds that dele existing configurations
+
 ### Theorizing
 * A pattern has emerged: These seem to be some design principles of brew-like systems.
 * Outside a pre-existing system
