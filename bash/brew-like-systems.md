@@ -30,6 +30,7 @@ Characteristic features:
          * not `pip` but something that is around `pip`.
          * `venv`? yes.
          * Not chroot/jail solutions. Or isolation and containerisation: namespace/docker. Not terraform/provider.
+         * Not `appimage`
       * Not ...
          * mypy, poetry, ...
       * Not build systems:
@@ -40,6 +41,10 @@ Characteristic features:
 * Outside a pre-existing system
 * Characteristic "stack layers" pattern:
    * "`nvm` over `npm` over `node`", "`venv` over `pip` over `python`"
+* Usually by a third party (nvm, not node)
+* May be general purpose (brew) or special purpose (winetricks)
+* Usually has a list of pragmatic uses
+* Usually has a proper cli with well-defined sub-commands: `brew` (`install`, ...), `winetricks`, nvm (`list`, `install`, etc), etc
 
 <!-- ## Meta -->
 ### History
