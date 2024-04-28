@@ -1,4 +1,4 @@
-On design principles of brew-like systems
+# On design principles of brew-like systems
 
 #### Scope
 Scope: List of systems of interest:
@@ -24,8 +24,20 @@ Characteristic features:
          * npm, yarn
          * gem
          * cabal
+         * conan (?)
       * Not ...
          * mypy, poetry, ...
+      * Not build systems:
+         * make, etc (vs Conan.io)
+
+### Theorizing
+* A pattern has emerged: These seem to be some design principles of brew-like systems.
+* Outside a pre-existing system
+
+<!-- ## Meta -->
+### History
+* Historical order
+* Roots of ideas & Memes in theory/academia
 
 ## Contents
 ### Brew
@@ -33,5 +45,4 @@ Characteristic features:
 ### Winetricks
 ### Lean4's Lake
 
-## Meta
-### History
+
