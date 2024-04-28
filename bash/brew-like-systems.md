@@ -71,11 +71,14 @@ Characteristic features:
 * Doctor
     * `brew doctor`, `brew config`, `brew install --verbose --debug`, ...
     * inspecting (?)
-    * Patterns:
+    * Negative-Patterns:
        * `Some installed kegs have no formulae! This means they were either deleted or installed manually. You should find replacements for the following formulae:` ...
           * Interesting: "You should find replacements" ...
        * `Warning: Some installed formulae are deprecated or disabled. You should find replacements for the following formulae`
 
+* Nice "actionable-based" (next action) error messages & recommendations & checks & status & inspection/doctor:
+    * "Error: This command updates brew itself, and does not take formula names."
+    * See above "Doctor"/"Negative-Patterns"
 
 <!-- ## Meta -->
 ### History
