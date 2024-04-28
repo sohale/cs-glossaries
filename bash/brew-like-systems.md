@@ -44,6 +44,8 @@ Not necessarily "characteristic & necessary"
    * pre-declaring "caveats"
    * pre-declaring warnings about ...
    * *unfortunately) workarounds that dele existing configurations
+   * Pool of cute messages (brew)
+       * `Warning: Formula gimp was renamed to homebrew/cask/gimp.`
 
 ### Theorizing
 * A pattern has emerged: These seem to be some design principles of brew-like systems.
