@@ -45,6 +45,10 @@ Characteristic features:
 * May be general purpose (brew) or special purpose (winetricks)
 * Usually has a list of pragmatic uses
 * Usually has a proper cli with well-defined sub-commands: `brew` (`install`, ...), `winetricks`, nvm (`list`, `install`, etc), etc
+* Usually have pre-defines "installation configuration"s. (Is it the same as brew formulas?). Specific formulas (probably based on main most-common usages & patterns in practice for that "software"). Very pragmatic.
+* Multiple few software: Is it supported? (A simple software? () or multiple? (a few ones) (excluding universal tools like brew) )
+* dry-run: an emerged functionality that is common
+* Usually has files with specific versions and product names (winetricks), or repository(es): brew repo for (all) formulas? (where is it kept?)
 
 <!-- ## Meta -->
 ### History
