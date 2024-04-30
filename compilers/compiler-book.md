@@ -2,7 +2,13 @@
 <!-- of AI, AV & ML . LLM? edge (power) -->
 
 #### Meta:
-* <sub><sup>Four possibilities: A "textbook" (Aho), A tutorial book (for Floyles),  a teaching book (textbook + exercises + transcribed after the course: tech yourself, share the path, more lab than a pure textbook), a talk, a book about it (to read, be convinced, etc: less of tutorials and steps, why they need to rethink or we need to write another book, making people up to date about the recent trends. also that talk ) </sup></sub>
+* <sub><sup> Four possibilities:
+A "textbook" (Aho), A tutorial book (for Floyles),  a teaching book (textbook + exercises + transcribed after the course: tech yourself, share the path, more lab than a pure textbook), a talk, a book about it (to read, be convinced, etc: less of tutorials and steps, why they need to rethink or we need to write another book, making people up to date about the recent trends. also that talk ). </sup></sub>
+*  <sub><sup>
+[p:cpath(w/refs)](https://github.com/sohale/proposals-cs/blob/master/compilers/compiler-path.md),
+[the-book(this)](https://github.com/sohale/cs-glossaries/blob/master/compilers/compiler-book.md),
+[the-path](https://github.com/sohale/cs-glossaries/blob/master/compilers/the-path-to-compile.md), </sup></sub>.
+
 
 ### Preface
 While looking from fantastic shoulder of giants, in the new era,
