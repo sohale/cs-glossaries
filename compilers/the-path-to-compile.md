@@ -1,5 +1,10 @@
 # The Path to Compiler
 
+* <sub><sup> **Meta:**
+[the-book](https://github.com/sohale/cs-glossaries/blob/master/compilers/compiler-book.md),
+[the-path(this)](https://github.com/sohale/cs-glossaries/blob/master/compilers/the-path-to-compile.md),
+[p:cpath(w/refs)](https://github.com/sohale/proposals-cs/blob/master/compilers/compiler-path.md).</sup></sub>
+
 
 Lessons I learned about how to make the path and the journey of transition to compiler engineer.
 
