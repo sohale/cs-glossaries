@@ -1,6 +1,8 @@
 # Compilers in Age of AI, Cloud & Autonomy
 <!-- of AI, AV & ML . LLM? edge (power) -->
 
+#### Meta:
+* <sub><sup>Four possibilities: A "textbook" (Aho), A tutorial book (for Floyles),  a teaching book (textbook + exercises + transcribed after the course: tech yourself, share the path, more lab than a pure textbook), a talk, a book about it (to read, be convinced, etc: less of tutorials and steps, why they need to rethink or we need to write another book, making people up to date about the recent trends. also that talk ) </sup></sub>
 
 ### Preface
 While looking from fantastic shoulder of giants, in the new era,
