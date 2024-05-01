@@ -18,6 +18,22 @@ Sub-titles:
 #### Clang code & repo organisation
 * Frontend
 
+##### Clang Parsing
+Clang uses a custom ( hand-written) lexer.
+Clang uses a custom ( hand-written) parser.
+that is tailored to the syntactic and semantic requirements of C/C++.
+* specifically used for C/C++
+* more fine-grained error handling!
+* and integration with IR: (LLVM)
+
+a "recursive descent parser"
+
+###### Traditional
+Traditional (in comparison with Clang)
+* Bison (Yacc) & Lex
+   * Bison is a modernised Yacc
+* Both use `LALR(1)` algorithm
+
 
 ### Glossary
 The (pool of) keywords.
