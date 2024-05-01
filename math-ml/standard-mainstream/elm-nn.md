@@ -33,13 +33,13 @@ Extreme Learning Machines
     [pdf](https://web.njit.edu/~usman/courses/cs675/ELM-NC-2006.pdf).
     May 2006 (accepted Dec 2005). Singapore.
 
-[HuangCode]:
+[^HuangCode]: *Guang-Bin Huang*
     * His username: [zdx3578](https://github.com/zdx3578)
     * createamind.ai
     * twitter [createamindcn](https://twitter.com/createamindcn)
     * His old homepage http://www.ntu.edu.sg/home/egbhuang/index.html
 
-[^usman]: Who is usman?
+[^usman]: Who is `usman`? *Usman Roshan*
     * Uploaded the pdf: https://web.njit.edu/~usman/courses/cs675/ELM-NC-2006.pdf
     * Has a course: [cs675](https://web.njit.edu/~usman/courses/cs675/) at njit (CS 675: Introduction to Machine learning)
-    
+    * Homepage: https://web.njit.edu/~usman/  
