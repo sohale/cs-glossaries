@@ -22,6 +22,12 @@ Extreme Learning Machines
     * Benhmarks compared it with what?
         * By (Huang 2006): BP, SVR and ELM [^Huang2006]
 
+#### Some answers
+* Benchmarked with
+    * BP, SVR and ELM: [^Huang2006]
+        * SVR: support vector machine for regression
+
+
 [^Huang2006]: *Extreme learning machine: Theory and applications*
     By: Guang-Bin Huang, Qin-Yu Zhu, Chee-Kheong Siew.
     [pdf](https://web.njit.edu/~usman/courses/cs675/ELM-NC-2006.pdf).
