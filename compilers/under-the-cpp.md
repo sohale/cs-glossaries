@@ -18,6 +18,19 @@ Sub-titles:
 * In Clang approach.
 * A clang approach
 
+
+### Intention
+Intention in terms of Exemplars:
+* Decl: (do we have a `Decl` too? or only `Decl` as a name suffix?)
+    * NamedDecl FieldDecl FunctionDecl VarDecl
+    * Kind of, Handle for (NamedDecl: HandleNamedDecl), Origin of (DeclOrigin: RootDeclOrigin), RootOrigin?( : RootDeclOrigin)
+* Visibility: DefaultVisibility
+* StorageClass
+* Symbol( one ? Here I mean only in compiler-level): SimpleSymbol
+* various: "Late"-ness (as a sub-name)
+* Other concrete ones waiting to be abstracted: SmallVector, ThreadLocalValue, WeakDefined, WeakReferenced, InterfaceStubFunctionsConsumer
+
+
 ### The architecture: 
 #### layers
 #### Clang code & repo organisation
