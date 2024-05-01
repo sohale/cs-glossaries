@@ -1,5 +1,18 @@
+# Universal Ohsyics Engine(s)
+
+Scope: Classical mechanics, Statics, Dynamics, Representation Theory
+
+Main topics:
+* Universal physics problem solver (statics, dynamics, collision/impact, sliding, rolling, friction)
+* Differentiable Physics
+* Physics-ML
+* Others: (not covered here)
+    * Optics (and reverse), Quantum Mechanics (Quantum Computing), CFD Boltzmann PDEs (Boltzmann transport equation: BTE), FEM, Vibrations, etc
 
 
+## Universal physics problem solver
+## Differentiable Physics
+## Physics ML
 
 #### Google searches
 * `differentiable physics c++` google
