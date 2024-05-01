@@ -28,10 +28,12 @@ Extreme Learning Machines
         * SVR: support vector machine for regression
 
 
-Late supporters:
+##### Late supporters:
 Signs of recent support:
-* 
 * *Extreme Learning Machine from scratch with code*. [Medium](https://ayubalam.medium.com/extreme-learning-machine-from-scratch-with-code-957a35fa8e1b). Ayub Aalam, Jul 14, 2023
+
+
+
 
 [^Huang2006]: *Extreme learning machine: Theory and applications*
     By: Guang-Bin Huang, Qin-Yu Zhu, Chee-Kheong Siew.
