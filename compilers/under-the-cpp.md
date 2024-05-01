@@ -30,14 +30,16 @@ that is tailored to the syntactic and semantic requirements of C/C++.
 * specifically used for C/C++
 * more fine-grained error handling!
 * and integration with IR: (LLVM)
+* These are reasons "why" Yacc/Bison were not used?
+   * Can we conclude Yacc/Lex causes limitations on "fine-grained error handling" & "integration with LLVM IR"?
 
-a "recursive descent parser"
+a "recursive descent parser" 🗝️
 
 ###### Traditional
 Traditional (in comparison with Clang)
 * Bison (Yacc) & Lex
    * Bison is a modernised Yacc
-* Both use `LALR(1)` algorithm
+* Both use `LALR(1)` algorithm 🗝️
 
 
 ### Glossary
