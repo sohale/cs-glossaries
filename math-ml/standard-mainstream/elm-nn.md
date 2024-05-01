@@ -8,7 +8,7 @@ Extreme Learning Machines
 
 ### standard facts
 * By Guang-Bin Huang
-* 2006
+* 2006 [^Huang2006]
 
 ### Key questions
 (With existing concrete historical answers)
@@ -17,3 +17,12 @@ Extreme Learning Machines
 * Why not back-propagate all the way?
 * Common conditioning and variations? (Boosting, Bagging,
     * Common nonlinearities (RBFs)
+* What makes people still interested in it?
+* What made people excited back then?
+    * Benhmarks compared it with what?
+        * By (Huang 2006): BP, SVR and ELM [^Huang2006]
+
+[^Huang2006]: *Extreme learning machine: Theory and applications*
+    By: Guang-Bin Huang, Qin-Yu Zhu, Chee-Kheong Siew.
+    [pdf](https://web.njit.edu/~usman/courses/cs675/ELM-NC-2006.pdf).
+    May 2006 (accepted Dec 2005). Singapore.
