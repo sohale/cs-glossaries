@@ -1,6 +1,11 @@
 # Under the C, pp
 The Iceberg
 
+[^meta]
+[^meta]:
+   Meta notes:
+   * The mark 🗝️ 🔑 is used for the information that I was looking for, and removed some clouds, and was not readily there (appeared with delay)
+
 Sub-titles:
 * Under the hood of C++
 * The mechanics of C++ in Clang paradigm
