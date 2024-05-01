@@ -31,6 +31,7 @@ Extreme Learning Machines
 ##### Late supporters:
 Signs of recent support:
 * *Extreme Learning Machine from scratch with code*. [Medium](https://ayubalam.medium.com/extreme-learning-machine-from-scratch-with-code-957a35fa8e1b). Ayub Aalam, Jul 14, 2023
+    * This Ayub Aalam ([linkedin](https://www.linkedin.com/in/ayub-alam/))
 
 
 
