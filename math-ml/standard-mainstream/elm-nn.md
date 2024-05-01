@@ -32,3 +32,14 @@ Extreme Learning Machines
     By: Guang-Bin Huang, Qin-Yu Zhu, Chee-Kheong Siew.
     [pdf](https://web.njit.edu/~usman/courses/cs675/ELM-NC-2006.pdf).
     May 2006 (accepted Dec 2005). Singapore.
+
+[HuangCode]:
+    * His username: [zdx3578](https://github.com/zdx3578)
+    * createamind.ai
+    * twitter [createamindcn](https://twitter.com/createamindcn)
+    * His old homepage http://www.ntu.edu.sg/home/egbhuang/index.html
+
+[^usman]: Who is usman?
+    * Uploaded the pdf: https://web.njit.edu/~usman/courses/cs675/ELM-NC-2006.pdf
+    * Has a course: [cs675](https://web.njit.edu/~usman/courses/cs675/) at njit (CS 675: Introduction to Machine learning)
+    
