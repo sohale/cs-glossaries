@@ -7,10 +7,14 @@ Main topics:
 * Differentiable Physics
 * Physics-ML
 * Others: (not covered here)
-    * Optics (and reverse), Quantum Mechanics (Quantum Computing), CFD Boltzmann PDEs (Boltzmann transport equation: BTE), FEM, Vibrations, etc
+    * Optics (and reverse), Quantum Mechanics (Quantum Computing), CFD Boltzmann PDEs (Boltzmann transport equation: BTE), FEM, Vibrations, (not: GRelativity), etc
 
 
 ## Universal physics problem solver
+* Some good books (they say: Goldstein)
+* Some good approaches
+* Some good theory (Energy, Lagrangian, Hamiltonian, Group Theory (Symplectic Group, Poincare) )
+
 ## Differentiable Physics
 ## Physics ML
 
