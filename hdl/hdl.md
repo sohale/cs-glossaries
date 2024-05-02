@@ -2,11 +2,12 @@ Non-mainstream ones.
 
 Geography of HDLs.
 
-Meta:
-Mainstream (which are not covered here):
-* HLS
-* VHDL
-* Verilog & System-Verilog
+Meta: [^meta].
+[^meta] Meta:
+    Mainstream (which are not covered here):
+    * HLS
+    * VHDL
+    * Verilog & System-Verilog
 
 We do cover:
 Chiesle, OcamlHDL, PyMetal, etc
