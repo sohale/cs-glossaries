@@ -30,4 +30,4 @@ Chiesle, OcamlHDL, PyMetal, etc
 ### AmaranthHDL
 
 ## See
-    * Awesome list github.com/drom/awesome-hdl
+* Awesome list https://github.com/drom/awesome-hdl
