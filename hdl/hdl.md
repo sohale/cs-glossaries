@@ -2,8 +2,8 @@ Non-mainstream ones.
 
 Geography of HDLs.
 
-Meta: [^meta].
-[^meta] Meta:
+Meta: [^meta]
+[^meta]: Meta:
     Mainstream (which are not covered here):
     * HLS
     * VHDL
