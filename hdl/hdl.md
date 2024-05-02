@@ -26,4 +26,5 @@ Chiesle, OcamlHDL, PyMetal, etc
 
 * ChipYArd
 
-
+* see
+    * Awesome list github.com/drom/awesome-hdl
