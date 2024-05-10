@@ -7,6 +7,21 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
 You need to know these so as not to get confused.
 
 * The DNS DSL!
+```dns
+#   <CMD>   <host>       <value>       ...
+#    A      @           <domain>
+     A      @           185.199.108.153
+```
+Language model:
+* A DSL of commands like `A` `redirect` `CNAME`. With almost fixed columns.
+
+Machine model: (semantics)
+* multiple IPs =>
+
+Syntax:
+* `<domain>` → IP or domain name
+* (for now, assume TTL=`automatic`, which implies ... )
+* `<cmd>` →  `A` `redirect` `CNAME`
 
 
 ### Key Facts
