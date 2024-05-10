@@ -9,7 +9,7 @@ You need to know these so as not to get confused.
 #### The Apex domain
 The main one?
 Is the same thing in the below DSL is represented by `@`.
-aka: "root domain"  "base domain"
+aka: "root domain"  "base domain" "core domain name"
 
 Separate: URL vs IP
 * IP does not have protocol, and no subpath
