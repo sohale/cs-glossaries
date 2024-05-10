@@ -12,7 +12,11 @@ Is the same thing in the below DSL is represented by `@`.
 
 Separate: URL vs IP
 * IP does not have protocol, and no subpath
-* www.my.com is neither URL nor IP.
+* `www.my.com` is neither URL nor IP.
+* (taken care of at "syntax" level)
+Further: (around)
+    * "domain" is (specified by) IP or domain name
+    * "host" (in DNS-DSL) is ...
 
 #### The DNS DSL!
 ```dns
