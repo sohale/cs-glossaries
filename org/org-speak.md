@@ -17,3 +17,8 @@ can be used in ol.
    *  some terms: "signing party"
    *  "mediator" , "representative"
    *  a "main entity"
+
+
+to assimilate: (pool)
+
+"maintain control over the relationship"
