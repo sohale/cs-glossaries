@@ -22,6 +22,7 @@ Syntax:
 * `<domain>` → IP or domain name
 * (for now, assume TTL=`automatic`, which implies ... )
 * `<cmd>` →  `A` `redirect` `CNAME`
+* `<host>` →  `@`, a prefix e.g. `www`, etc
 
 
 ### Key Facts
