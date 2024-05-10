@@ -16,3 +16,4 @@ can be used in ol.
  
    *  some terms: "signing party"
    *  "mediator" , "representative"
+   *  a "main entity"
