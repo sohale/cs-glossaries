@@ -6,7 +6,11 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
 ### Key Concepts
 You need to know these so as not to get confused.
 
-* The DNS DSL!
+#### The Apex domain
+The main one?
+Same thing that in the below DSL is represented by `@`.
+
+#### The DNS DSL!
 ```dns
 #   <CMD>   <host>       <value>       ...
 #    A      @           <domain>
