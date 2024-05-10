@@ -1,3 +1,3 @@
 ( placeholder for `nginx` horror show )
 
-As part of [./dns-https-setup.md](./dns-https-setup.md)
+As part of [DNS-https-setup.md](./DNS-https-setup.md)
