@@ -8,7 +8,7 @@ You need to know these so as not to get confused.
 
 #### The Apex domain
 The main one?
-Same thing that in the below DSL is represented by `@`.
+Is the same thing in the below DSL is represented by `@`.
 
 #### The DNS DSL!
 ```dns
@@ -16,8 +16,11 @@ Same thing that in the below DSL is represented by `@`.
 #    A      @           <domain>
      A      @           185.199.108.153
 ```
+
 Language model:
 * A DSL of commands like `A` `redirect` `CNAME`. With almost fixed columns.
+* The "records": are DSL statements
+* Is run (interpreter) by the "browser"
 
 Machine model: (semantics)
 * multiple IPs =>
@@ -27,6 +30,10 @@ Syntax:
 * (for now, assume TTL=`automatic`, which implies ... )
 * `<cmd>` →  `A` `redirect` `CNAME`
 * `<host>` →  `@`, a prefix e.g. `www`, etc
+
+Mini Glossary
+* record
+* apex
 
 
 ### Key Facts
