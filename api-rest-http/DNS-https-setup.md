@@ -10,6 +10,10 @@ You need to know these so as not to get confused.
 The main one?
 Is the same thing in the below DSL is represented by `@`.
 
+Separate: URL vs IP
+* IP does not have protocol, and no subpath
+* www.my.com is neither URL nor IP.
+
 #### The DNS DSL!
 ```dns
 #   <CMD>   <host>       <value>       ...
@@ -24,6 +28,7 @@ Language model:
 
 Machine model: (semantics)
 * multiple IPs =>
+* Operations: redirect. (on URL, not IP)
 
 Syntax:
 * `<domain>` → IP or domain name
