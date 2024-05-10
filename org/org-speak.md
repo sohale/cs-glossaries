@@ -15,3 +15,4 @@ can be used in ol.
    * the hierarchy
  
    *  some terms: "signing party"
+   *  "mediator" , "representative"
