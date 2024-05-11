@@ -1,4 +1,4 @@
-# Namespaces: How to write a Docker
+# Namespaces: How to write a ~Docker~ Cloud Platform
 
 Process Isolation
 
