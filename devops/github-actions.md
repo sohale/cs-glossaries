@@ -168,8 +168,10 @@ Conditionals:
        # ...
      ```
 
+## I/O
 
-## Annotations, Indications, etc
+### Annotations, Indications, etc
+Various ways to surface / bubble up the message
 * Annotations
    * Use "stdout"
    * e.g. `"::warning ::" signals workflow "annotate"s`
@@ -189,10 +191,10 @@ Conditionals:
 * fail (a job / step?)
 * other messages
 
-### Manual Approval(?) using "input"
+#### Manual Approval(?) using "input"
 Also see "Various ways of manual input"
 
-## Various ways of manual input
+### Various ways of manual input
 <!-- await humans -->
     * Manual Approval(?) using "input" (see above)
     * commit-based
