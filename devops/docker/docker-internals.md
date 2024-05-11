@@ -12,17 +12,6 @@ access and mapping
    * Namespace
    * Chroot
 
-#### My experience:
-I wrote[^credits] a process isolator (jailer + more), under the supervision of Bertrand Nouvell[^credits] (founder of Wide IO Ltd
-<img src="https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60" alt="Wide IO Ltd Logo" width="20" height="20">
-) in late 2014.
-Together with a job scheduler[^job-scheduler] that drove these isolated processes, file system and distributed inter-process communication.
-
-* These, together, formed the core of the Wide IO platform (Wide IO Ltd). There were some other components previously written by Bertrand.
-* These were implemented in Python, with some C.
-* The file system was a multiple-layer file system.
-* A distributed file system (I wrote) provided unified access for distributed resources for Wide IO's cloud.
-
 
 #### Aspects to cover: mappings: (names only)
 * pid
@@ -138,11 +127,24 @@ Aspects to cover: others:
 * layers (of filesystem)
 * IO: File Descriptors ( stdout, stderr, stdin )
 
-#### Appendices
+### Appendices
+#### My experience:
+I wrote[^credits] a "process isolator" (jailer + more), under the supervision of Bertrand Nouvell[^credits] (founder of Wide IO Ltd
+<img src="https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60" alt="Wide IO Ltd Logo" width="20" height="20">
+) in late 2014.
+Together with a job scheduler[^job-scheduler] that drove these isolated processes, file system and distributed inter-process communication.
+
+* These, together, formed the core of the Wide IO platform (Wide IO Ltd). There were some other components previously written by Bertrand.
+* These were implemented in Python, with some C.
+* The file system was a multiple-layer file system.
+* A distributed file system (I wrote) provided unified access for distributed resources for Wide IO's cloud.
+
+#### Context of prior work:
 This is a simplified approach based on my experience in the context of
 Wide IO Ltd[^wideio][^credits].
 
 ![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
+
 
 
 
