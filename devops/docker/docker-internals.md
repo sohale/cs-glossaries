@@ -2,18 +2,18 @@ Process Isolation
 
 Older or alternative names: process jailing, chrooting, virtualisation, etc
 
-Key tools & techniques
-* Namespace
-* Chroot
+* Key tools & techniques
+   * Namespace
+   * Chroot
 
-Aspects to cover: mappings: (names only)
+#### Aspects to cover: mappings: (names only)
 * pid
 * users
 * root: `/`
 * network
 * mount
 
-Gist:
+#### Gist:
 ```cpp
 // some #include s
 
@@ -40,7 +40,29 @@ int main() {
 }
 ```
 
-Aspects to cover: mappings: (more details)
+### The majestic `clone`:
+(i.e. how to love Linux `namespaces` )
+
+Interesting history ...
+
+Dive:
+```C
+  struct clone_args {
+       u64 flags;        /* Flags bit mask */
+       u64 pidfd;        /* Where to store PID file descriptor (pid_t *) */
+       u64 child_tid;    /* Where to store child TID, in child's memory (pid_t *) */
+       u64 parent_tid;   /* Where to store child TID, in parent's memory (int *) */
+       u64 exit_signal;  /* Signal to deliver to parent on child termination */
+       u64 stack;        /* Pointer to lowest byte of stack */
+       u64 stack_size;   /* Size of stack */
+       u64 tls;          /* Location of new TLS */
+       u64 set_tid;      /* Pointer to a pid_t array (since Linux 5.5) */
+       u64 set_tid_size; /* Number of elements in set_tid (since Linux 5.5) */
+       u64 cgroup;       /* File descriptor for target cgroup of child (since Linux 5.7) */
+  };
+```
+
+### Aspects to cover: mappings: (more details)
 * pid
 * users
    * usergroups
