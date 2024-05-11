@@ -136,11 +136,11 @@ Aspects to cover: others:
 * Unprivileged user
 * filesystem
 * layers (of filesystem)
-* IO: file id s
+* IO: File Descriptors ( stdout, stderr, stdin )
 
 #### Appendices
-This is a simplified approach based on my experience in context of
-Wide IO Ltd: [wide.io](wide.io) on [Linkedin](https://www.linkedin.com/company/wide-io-ltd/)
+This is a simplified approach based on my experience in the context of
+Wide IO Ltd: [wide.io](wide.io)[^credits] -- ([Linkedin](https://www.linkedin.com/company/wide-io-ltd/))
 
 ![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
 
