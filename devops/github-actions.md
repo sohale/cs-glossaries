@@ -51,31 +51,31 @@ Sides:
 How to send exit code: Various approaches:
 * step-to-step:
    * Approach 1: `$?` ⟶ `$GITHUB_OUTPUT` ⟶ `${{ steps.ID.outputs.NAME }}`  ⟶ step's run "command string"
-```yaml
-    steps:
-      - name: STEP1
-        id: step1_id
-        run: |
-
-          # Necessary: don't break the "step" on the error of "command"s:
-          set +e
-          ... # your command
-          echo "my_exit_code=$?" >> $GITHUB_OUTPUT   # save the exit code
-
-        # Necessary: to handle non-zero exit codes (of the "step") which indicate changes:
-        continue-on-error: true 
-
-      - name: Check based on exit code
-        env:
-            MY_EXITCODE: ${{ steps.step1_id.outputs.my_exit_code }}
-            # See link below
-
-        if: always()
-        run: |
-          echo "MY_EXITCODE: $MY_EXITCODE"
-          export exit_code_1="${{ steps.tfplan.outputs.tfplan_exit_code }}"
-          export exit_code_2=$TFPLAN_EXITCODE
-```
+      * ```yaml
+        steps:
+          - name: STEP1
+            id: step1_id
+            run: |
+    
+              # Necessary: don't break the "step" on the error of "command"s:
+              set +e
+              ... # your command
+              echo "my_exit_code=$?" >> $GITHUB_OUTPUT   # save the exit code
+    
+            # Necessary: to handle non-zero exit codes (of the "step") which indicate changes:
+            continue-on-error: true 
+    
+          - name: Check based on exit code
+            env:
+                MY_EXITCODE: ${{ steps.step1_id.outputs.my_exit_code }}
+                # See link below
+    
+            if: always()
+            run: |
+              echo "MY_EXITCODE: $MY_EXITCODE"
+              export exit_code_1="${{ steps.tfplan.outputs.tfplan_exit_code }}"
+              export exit_code_2=$TFPLAN_EXITCODE
+        ```
 See  https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#environment-files
 
 
