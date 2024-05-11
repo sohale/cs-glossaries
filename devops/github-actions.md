@@ -4,6 +4,8 @@
 Other DevOps ltmnotes ([c++/tooling.md](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/c%2B%2B/tooling.md?plain=1#L58), [docker/](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/docker/))
 [^meta]
 
+My experience with GitHub Actions, the "Lessons learned the hard way", things to watch out, key clarifying concepts & terms, grammar/language/models, flows of data, and some patterns that worked.
+
 Hierarchy: `workflow` / `job` / `step`
 
 <!-- ↑ ↓ → ← , ⟶ -->
@@ -197,6 +199,52 @@ Various ways to surface / bubble up the message
 * Manual Approval(?) using "input" (see above)
 * commit-based
 * todo: other creative ways
+
+
+
+## Lessons learned the hard way
+* Logs may be chopped
+* Order of echos may be mixed up
+   * Especially logs from the `+ ` prefix from `stderr` will not be synced with normal `stdout` logs.
+* Check your version
+   * Don't: upgrade the version from `@v2`
+   * Negative example:
+   * ```yaml
+        - name: Checkout Code
+        uses: actions/checkout@v2
+     ```
+   * Problems to look out for:
+       * This also will cause deprecated outputs: `::set-output name=tf_output::`
+       * Can mess with error code
+       * logs/terminal ANSI color (removing or adding)
+   * Use a reasonably recent version from the outset: https://github.com/actions/checkout/tags
+      * e.g. `uses: actions/checkout@v4.1.5` as of 2024:5:11
+* Beware of other versions: (other than `actions`)
+   * ```yaml
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: '1.0.0'
+     ```
+   * Negative example ^
+   * Also note that the `terraform_version:` and `@v1` may be not compatible!
+* Use `xxd` to check the outputs: (Debug trick)
+   * ```bash
+     sudo apt-get install -y xxd
+     xxd -v  # always verify
+
+     # Your command: (any command)
+     terraform show -no-color -json tfplan1  1> tf1.json  2> tf1e.json
+
+     # **** debug: *****
+     xxd -c 32  tf1.json
+     # *****************
+     ```
+   * In this ^ example, you will see there are a lot of non-Json content mixes before & after the `tf1.json`
+
+* Redirect `1>` and `2>` separately
+   * See the terraform example above
+   * Github action log lines for stdout and stderr are mixed. Beware not to attribute the lines incorrectly to stderr versus stdout.
 
 [^meta]:
     * Also see: (Other Devops):
