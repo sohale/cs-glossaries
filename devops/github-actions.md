@@ -190,15 +190,13 @@ Various ways to surface / bubble up the message
 
 * fail (a job / step?)
 * other messages
-
-#### Manual Approval(?) using "input"
-Also see "Various ways of manual input"
+* Manual Approval(?) using "input". Covered below: See "Various ways of manual input"
 
 ### Various ways of manual input
 <!-- await humans -->
-    * Manual Approval(?) using "input" (see above)
-    * commit-based
-    * todo: other creative ways
+* Manual Approval(?) using "input" (see above)
+* commit-based
+* todo: other creative ways
 
 [^meta]:
     * Also see: (Other Devops):
