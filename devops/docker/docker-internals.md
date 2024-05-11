@@ -1,7 +1,10 @@
+Process Isolation
+
+Older or alternative names: process jailing, chrooting, virtualisation, etc
 
 Key tools & techniques
-Namespace
-Chroot
+* Namespace
+* Chroot
 
 Aspects to cover: mappings: (names only)
 * pid
