@@ -45,10 +45,29 @@ int main() {
 ```
 
 ### Namespace
+
+A bunch of
+Kernel features.
+
 Interesting history ...
-Versions:
+
+Timeline of milestones:
+* Linux 2.4.19 (2002): Mount Namespaces (mnt): separate filesystems for each process.
+* Linux 2.6.19 (November 2006): UTS: Separate host & domain for each process.
+* Linux 2.6.19 (November 2006): IPC resources (separate / isoolate)
+* PID Namespaces: Linux 2.6.24 (2008)
+* Network namespaces: Linux 2.6.29 (2009)
+* LXC: Linux 2.6.32 (late 2009)
+   * LXD: based on LXC
+* Mature by kernel version 3.8
+* User Namespaces: Linux 3.8 (2013)
+* Linux 4.6 (2016): Cgroup Namespaces
 * 5.5
-* 
+* Docker: 2013
+
+* LXC & LXD: container hypervisor providing a more immersive VM-like experience
+
+
 #### The majestic `clone`:
 (i.e. how to love Linux `namespaces` )
 
