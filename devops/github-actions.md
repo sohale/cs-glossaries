@@ -246,6 +246,21 @@ Various ways to surface / bubble up the message
    * See the terraform example above
    * Github action log lines for stdout and stderr are mixed. Beware not to attribute the lines incorrectly to stderr versus stdout.
 
+* Code (test) Coverage report in GH Actions.
+
+### My other/misc GHA experiences
+* My other experiences:
+   * Using CMake in GH Actions
+   * C++20 in GH Actions
+   * Emscripten in GH Actions
+   * LaTeX in GH Actions
+   * `npm`
+   * DNS (setting up domain names) in GH Actions
+   * GH Pages using GH Actions
+* (Coming Soon)
+   * Setting up `https` (TLS) in GH Actions
+
+
 [^meta]:
     * Also see: (Other Devops):
        * [c++/tooling.md](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/c%2B%2B/tooling.md?plain=1#L58)
