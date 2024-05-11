@@ -1,7 +1,7 @@
 
 # Github Actions
 
-Other DevOps ltmnotes ([c++/tooling.md](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/c%2B%2B/tooling.md?plain=1#L58), [docker/](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/docker/))
+Other DevOps ltmnotes ([c++/tooling.md](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/c%2B%2B/tooling.md?plain=1#L58), [docker/](https://github.com/sohale/cs-glossaries/tree/master/devops/docker), [cloud](https://github.com/sohale/cs-glossaries/tree/master/devops/cloud))
 [^meta]
 
 My experience with GitHub Actions, the "Lessons learned the hard way", things to watch out, key clarifying concepts & terms, grammar/language/models, flows of data, and some patterns that worked.
