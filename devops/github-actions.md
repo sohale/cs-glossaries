@@ -168,6 +168,36 @@ Conditionals:
        # ...
      ```
 
+
+## Annotations, Indications, etc
+* Annotations
+   * Use "stdout"
+   * e.g. `"::warning ::" signals workflow "annotate"s`
+   * via  ` echo "::warning ::" signals workflow "annotate"s`
+   * Annotation types: (list)
+      * error
+      * notify
+      * warning
+      * (more?)
+   * Annotation types:
+      * error
+         * show location
+      * notify
+      * warning
+      * (more?)
+
+* fail (a job / step?)
+* other messages
+
+### Manual Approval(?) using "input"
+Also see "Various ways of manual input"
+
+## Various ways of manual input
+<!-- await humans -->
+    * Manual Approval(?) using "input" (see above)
+    * commit-based
+    * todo: other creative ways
+
 [^meta]:
     * Also see: (Other Devops):
        * [c++/tooling.md](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/c%2B%2B/tooling.md?plain=1#L58)
