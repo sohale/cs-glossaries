@@ -134,15 +134,30 @@ Conditionals:
             echo "::notice ::  DNS of hlang.ai seems already in place, everything is fine."
           fi
      ```
-* Conditional based on gen (in bash)
+* Conditional based on env+gen (in bash) (gen is needed?)
    * ```bash
        # ...
      ```
-* Conditional based on job/step flow
    * ```yaml
-       if: always()  # not
+       - name: step-name
+         env:
+            SOME_ENV: ...
+         if: always()
+         run: |
+            # ...
      ```
 
+* Conditional based on gen, no env (in bash)
+   * ```yaml
+       - name: step-name
+         if: SOME CONDITION HERE # todo
+         run: |
+            # ...
+     ```
+* Conditional based on job/step flow
+   * ```yaml
+       # ...
+     ```
 
 [^meta]:
     * Also see: (Other Devops):
