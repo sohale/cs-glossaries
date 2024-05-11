@@ -50,7 +50,8 @@ Sides:
 
 How to send exit code: Various approaches:
 * step-to-step:
-   * Approach 1: `$?` ⟶ `$GITHUB_OUTPUT` ⟶ `${{ steps.ID.outputs.NAME }}`  ⟶ step's run "command string"
+   * Approach 1: <!-- Data Journey -->
+      * Data flow: `$?` ⟶ `$GITHUB_OUTPUT` ⟶ `${{ steps.ID.outputs.NAME }}`  ⟶ step's run "command string"
       * ```yaml
         steps:
           - name: STEP1
@@ -76,11 +77,10 @@ How to send exit code: Various approaches:
               export exit_code_1="${{ steps.tfplan.outputs.tfplan_exit_code }}"
               export exit_code_2=$TFPLAN_EXITCODE
         ```
-See  https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#environment-files
+      * See  https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#environment-files
 
-
-* step-to-step:
-   * Approach 2: journey: `$?` ⟶ `$GITHUB_OUTPUT` ⟶ `${{ steps.ID.outputs.NAME }}`  ⟶ step `env:` ⟶ step's run environment
+   * Approach 2:
+      * Data flow: `$?` ⟶ `$GITHUB_OUTPUT` ⟶ `${{ steps.ID.outputs.NAME }}`  ⟶ step `env:` ⟶ step's run environment
       * ```yaml
             steps:
               - name: STEP1
@@ -108,7 +108,6 @@ See  https://docs.github.com/en/actions/using-workflows/workflow-commands-for-gi
 
         ```
 
-* step-to-step:
       * Approach 3:
           * `echo "::set-output name=exit_code::$?"`
 
