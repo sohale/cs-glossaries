@@ -1,3 +1,5 @@
+# Namespaces: How to write a Docker
+
 Process Isolation
 
 Older or alternative names: process jailing, chrooting, virtualisation, etc
@@ -9,6 +11,16 @@ access and mapping
 * Key tools & techniques
    * Namespace
    * Chroot
+
+#### My experience:
+I wrote[^credits] a process isolator (jailer + more), under the supervision of Bertrand Nouvell[^credits] (founder of Wide IO Ltd) in late 2014.
+Together with a job scheduler[^job-scheduler] that drove these isolated processes, file system and distributed inter-process communication.
+
+* These, together, formed the core of the Wide IO platform (Wide IO Ltd). There were some other components previously written by Bertrand.
+* These were implemented in Python, with some C.
+* The file system was a multiple-layer file system.
+* A distributed file system (I wrote) provided unified access for distributed resources for Wide IO's cloud.
+
 
 #### Aspects to cover: mappings: (names only)
 * pid
@@ -116,10 +128,14 @@ Dive:
 
 Aspects to cover: others:
 * exec (current executable)
-* handling the fork / clone (parent/child processes)
-   * wait in the parent process
-* finish / syscall handles
-* Unpriviledge user
+* handling the `fork()` / `clone()` (parent/child processes)
+   * wait in the parent process using `waitpid()`
+* Finish / syscall handles
+* Unprivileged user
 * filesystem
 * layers (of filesystem)
 * IO: file id s
+
+[^credits]: All the above components were written from scratch by me under the leadership of, and the architecture & design of, Bertrand Nouvell (Founder & CTO). I credit it all to him. Although I wrote all of these from `man` pages and online resources, he mentored and guided me closely, and had a clear idea of details. I brought his ideas into reality, which enabled him to focus on some other technical etc aspects (instead of writing them by himself). It was my first industry job in the UK. I am grateful to Bertrand for mentoring and leading this, and giving me the opportunity to do these technical endeavours and achievements.
+
+[^job-scheduler]: The job scheduler drove these isolated processes, had a manager for a pre-defined number of workers (Compute slots), complete with synchronisation and state management, robust & stress-tested. Its complex nature required using finite state machines, sequence diagrams, and me developing some in-house "distributed"-debugging and testing tools.
