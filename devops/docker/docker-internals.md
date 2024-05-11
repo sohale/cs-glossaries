@@ -1,17 +1,18 @@
 # Namespaces: How to write a ~Docker~ Cloud Platform
 
-Process Isolation
+"Process Isolation".
+Isolation of processes + isolated environment (isolation of "view" 👁️ : how it sees, what is sees)
 
 Older or alternative names: process jailing, chrooting, virtualisation, etc
 
-isolation of processes + isolated environment (isolation of "view" 👁️ : how it sees, what is sees)
 
-access and mapping
+Access and Mapping
 
 * Key tools & techniques
    * Namespace
    * Chroot
 
+See [my experience with namespaces](#my-experience).
 
 #### Aspects to cover: mappings: (names only)
 * pid
