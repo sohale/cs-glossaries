@@ -140,7 +140,7 @@ Aspects to cover: others:
 
 #### Appendices
 This is a simplified approach based on my experience in the context of
-Wide IO Ltd: [wide.io](wide.io)[^credits] -- ([Linkedin](https://www.linkedin.com/company/wide-io-ltd/))
+Wide IO Ltd[^wideio][^credits].
 
 ![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
 
@@ -148,7 +148,12 @@ Wide IO Ltd: [wide.io](wide.io)[^credits] -- ([Linkedin](https://www.linkedin.co
 
 [^credits]: All the above components were written from scratch by me under the leadership of, and the architecture & design of, [Bertrand Nouvel](https://www.linkedin.com/in/bertrand-nouvel-68a8ba3/)
      (Founder & CTO of
-     [wide.io](Wide.IO) Ltd). I credit it all to him. Although I wrote all of these from `man` pages and online resources, he mentored and guided me closely, and had a clear idea of details. I brought his ideas into reality, which enabled him to focus on some other technical etc aspects (instead of writing them by himself). It was my first proper industry job in the UK. I am grateful to Bertrand for mentoring and leading this, and giving me the opportunity to do these technical endeavours and achievements.
-     ![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
+     [wide.io](Wide.IO) Ltd[^wideio]). I credit it all to him. Although I wrote all of these from `man` pages and online resources, he mentored and guided me closely, and had a clear idea of details. I brought his ideas into reality, which enabled him to focus on some other technical etc aspects (instead of writing them by himself). It was my first proper industry job in the UK. I am grateful to Bertrand for mentoring and leading this, and giving me the opportunity to do these technical endeavours and achievements.
+
 
 [^job-scheduler]: The job scheduler drove these isolated processes, had a manager for a pre-defined number of workers (Compute slots), complete with synchronisation and state management, robust & stress-tested. Its complex nature required using finite state machines, sequence diagrams, and me developing some in-house "distributed"-debugging and testing tools.
+
+[^wideio]: Wide IO Ltd[^credits]: [wide.io](wide.io) -- 
+([Linkedin](https://www.linkedin.com/company/wide-io-ltd/)).
+     ![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60).
+
