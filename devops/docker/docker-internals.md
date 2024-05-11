@@ -13,7 +13,9 @@ access and mapping
    * Chroot
 
 #### My experience:
-I wrote[^credits] a process isolator (jailer + more), under the supervision of Bertrand Nouvell[^credits] (founder of Wide IO Ltd) in late 2014.
+I wrote[^credits] a process isolator (jailer + more), under the supervision of Bertrand Nouvell[^credits] (founder of Wide IO Ltd
+<img src="https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60" alt="Wide IO Ltd Logo" width="20" height="20">
+) in late 2014.
 Together with a job scheduler[^job-scheduler] that drove these isolated processes, file system and distributed inter-process communication.
 
 * These, together, formed the core of the Wide IO platform (Wide IO Ltd). There were some other components previously written by Bertrand.
@@ -136,6 +138,13 @@ Aspects to cover: others:
 * layers (of filesystem)
 * IO: file id s
 
-[^credits]: All the above components were written from scratch by me under the leadership of, and the architecture & design of, Bertrand Nouvell (Founder & CTO). I credit it all to him. Although I wrote all of these from `man` pages and online resources, he mentored and guided me closely, and had a clear idea of details. I brought his ideas into reality, which enabled him to focus on some other technical etc aspects (instead of writing them by himself). It was my first industry job in the UK. I am grateful to Bertrand for mentoring and leading this, and giving me the opportunity to do these technical endeavours and achievements.
+[^credits]: All the above components were written from scratch by me under the leadership of, and the architecture & design of, [Bertrand Nouvel](https://www.linkedin.com/in/bertrand-nouvel-68a8ba3/)
+     (Founder & CTO of
+     [wide.io](Wide.IO) Ltd). I credit it all to him. Although I wrote all of these from `man` pages and online resources, he mentored and guided me closely, and had a clear idea of details. I brought his ideas into reality, which enabled him to focus on some other technical etc aspects (instead of writing them by himself). It was my first proper industry job in the UK. I am grateful to Bertrand for mentoring and leading this, and giving me the opportunity to do these technical endeavours and achievements.
+     ![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
+
+![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
+
+![Wide IO Ltd Log](https://media.licdn.com/dms/image/C4E0BAQGxFRp3BT3AsQ/company-logo_100_100/0/1631342106938?e=1723680000&v=beta&t=6Sj2oxCP0HJsDBx3yhyFPmDzd2dqJNFmc7pIomOgN60)
 
 [^job-scheduler]: The job scheduler drove these isolated processes, had a manager for a pre-defined number of workers (Compute slots), complete with synchronisation and state management, robust & stress-tested. Its complex nature required using finite state machines, sequence diagrams, and me developing some in-house "distributed"-debugging and testing tools.
