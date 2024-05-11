@@ -149,10 +149,20 @@ Conditionals:
 * Conditional based on gen, no env (in bash)
    * ```yaml
        - name: step-name
+         if: ${{ always() }}  #
+         run: |
+            if [ ${{ steps.mystep.outcome }} == 2 ]; then
+            # outcome?!
+            # ...
+     ```
+* Conditional based on gen, no env (in flow)
+   * ```yaml
+       - name: step-name
          if: SOME CONDITION HERE # todo
          run: |
             # ...
      ```
+
 * Conditional based on job/step flow
    * ```yaml
        # ...
