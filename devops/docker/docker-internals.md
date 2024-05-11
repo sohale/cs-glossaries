@@ -2,6 +2,10 @@ Process Isolation
 
 Older or alternative names: process jailing, chrooting, virtualisation, etc
 
+isolation of processes + isolated environment (isolation of "view" 👁️ : how it sees, what is sees)
+
+access and mapping
+
 * Key tools & techniques
    * Namespace
    * Chroot
@@ -40,10 +44,16 @@ int main() {
 }
 ```
 
-### The majestic `clone`:
+### Namespace
+Interesting history ...
+Versions:
+* 5.5
+* 
+#### The majestic `clone`:
 (i.e. how to love Linux `namespaces` )
 
-Interesting history ...
+* Is `clone()` is part of the "namespace API"
+* Run `man clone`
 
 Dive:
 ```C
@@ -61,6 +71,19 @@ Dive:
        u64 cgroup;       /* File descriptor for target cgroup of child (since Linux 5.7) */
   };
 ```
+
+* See Also:
+   * run `man clone`
+
+* Alternatives:
+* cgroups
+   * old times: chroot
+   * old times: jailing
+
+#### On `chroot`
+* `chroot` is simply another level of `cd`
+* Can be seen like `cd`, changes `/`, instead of `.` !
+* Chroot was part of Unix: As early as Version 7 Unix (1979)
 
 ### Aspects to cover: mappings: (more details)
 * pid
