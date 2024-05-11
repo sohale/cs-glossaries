@@ -12,7 +12,7 @@ Access and Mapping
    * Namespace
    * Chroot
 
-See [my experience with namespaces](#my-experience).
+See [my **experience** with namespaces](#my-experience).
 
 #### Aspects to cover: mappings: (names only)
 * pid
