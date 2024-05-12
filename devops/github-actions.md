@@ -310,8 +310,11 @@ Various ways to surface / bubble up the message
      ```
 
 <!-- Knowhows -->
+<!-- keyword: "know_hows". All #know_hows to refer to here.  -->
 
-Howto: upload:
+Howto: Upload: 🟢
+
+<!-- keyword: "upload". All #upload to refer to here.  -->
 
 The working dir (and pwd) is `./devops`, but "workspace" (see above) is ... its parent, i.e. `$GITHUB_WORKSPACE`, although, it is as "The least common ancestor".
 It does not look at "pwd". Fair enough: pwd is not considered in "step"s, unless in direct bash scripts. 
@@ -319,6 +322,40 @@ It does not look at "pwd". Fair enough: pwd is not considered in "step"s, unless
  * see note on source references
  * see the example for "step-job output binding"
  * see "Read the logs:" lesson
+Example solution: 🟢
+```yaml
+jobs:
+  update_dns_records_terraform:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: my_folder
+    steps:
+      - name: Generate files
+        continue-on-error: true
+        run: |
+          # my command
+          date       1> d1_stdout.txt   2> d1_stderr.txt
+          jq '.' <(echo '{}')     1> j2_stdout.json
+
+          echo "Debug: GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          echo "Debug: pwd=$(pwd)"
+          tree .. || :
+
+      - name: Upload files as downloadable artifacts
+        uses: actions/upload-artifact@v4.3.3
+        id: upload_debugs
+        with:
+          name: debug-tf-outputs
+          retention-days: 1
+          if-no-files-found: warn
+          overwrite: true
+          path: |  # file, directory or wildcard
+              my_folder/d1_stdout.txt
+              my_folder/d1_stderr.txt
+              my_folder/j2_stdout.json
+
+```
 
 ### Some source references
 * contains the logic of `uploadArtifact()` of `@actions/artifact`
@@ -343,3 +380,6 @@ It does not look at "pwd". Fair enough: pwd is not considered in "step"s, unless
        * [c++/tooling.md](https://github.com/sohale/cs-glossaries/blob/56e5ba7b7f92fe03198240340305163e53be064e/c%2B%2B/tooling.md?plain=1#L58)
        * [docker/](https://github.com/sohale/cs-glossaries/tree/master/devops/docker)
        * [cloud/](https://github.com/sohale/cs-glossaries/tree/master/devops/cloud))
+    * Legend:
+       * working (Worked): 🟢  i.e. the solution provided here has worked and is tested.
+
