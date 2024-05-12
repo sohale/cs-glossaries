@@ -292,9 +292,9 @@ Various ways to surface / bubble up the message
 
 
 ### Soure references
-* contains the logic of ` uploadArtifact()` of `@actions/artifact`
-   * https://github.com/actions/toolkit/blob/main/packages/artifact/src/internal/upload/upload-artifact.ts#L24
-   * as of `ae38557`
+* contains the logic of `uploadArtifact()` of `@actions/artifact`
+   * https://github.com/actions/toolkit/blob/main/packages/artifact/src/internal/upload/upload-artifact.ts#L24 as of `ae38557`
+   * via `uploadArtifact()` call in https://github.com/actions/upload-artifact/blob/552bf3722c16e81001aea7db72d8cedf64eb5f68/src/shared/upload-artifact.ts#L11C41-L11C55
 
 ### My other/misc GHA experiences
 * My other experiences:
