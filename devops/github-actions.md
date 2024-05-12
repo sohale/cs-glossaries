@@ -88,7 +88,6 @@ i.e. converts
 GITHUB_ENV
 
 
-
 How to send exit code: Various approaches:
 * step-to-step:
    * Approach 1: <!-- Data Journey -->
@@ -290,8 +289,38 @@ Various ways to surface / bubble up the message
 
 * Code (test) Coverage report in GH Actions.
 
+* Read the logs:
+   * in uploading:
+      * ```txt
+        The least common ancestor is /home/runner/work/....som/path. This will be the root directory of the artifact
+        ```
+* Workspace is not Working Directory !
+   * The latter is usually the `pwd`.
+   * The former
+   * See notes on how to upload
+   * Example: at job level: 
+   * ```yaml
+       my_jobname:
+          defaults:
+            run:
+              working-directory: devops
+              # working directory will be pwd
+              # working directory is not workspace
 
-### Soure references
+     ```
+
+<!-- Knowhows -->
+
+Howto: upload:
+
+The working dir (and pwd) is `./devops`, but "workspace" (see above) is ... its parent, i.e. `$GITHUB_WORKSPACE`, although, it is as "The least common ancestor".
+It does not look at "pwd". Fair enough: pwd is not considered in "step"s, unless in direct bash scripts. 
+ * see note on versions
+ * see note on source references
+ * see the example for "step-job output binding"
+ * see "Read the logs:" lesson
+
+### Some source references
 * contains the logic of `uploadArtifact()` of `@actions/artifact`
    * https://github.com/actions/toolkit/blob/main/packages/artifact/src/internal/upload/upload-artifact.ts#L24 as of `ae38557`
    * via `uploadArtifact()` call in https://github.com/actions/upload-artifact/blob/552bf3722c16e81001aea7db72d8cedf64eb5f68/src/shared/upload-artifact.ts#L11C41-L11C55
