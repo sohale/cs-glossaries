@@ -228,6 +228,9 @@ Various ways to surface / bubble up the message
      ```
    * Negative example ^
    * Also note that the `terraform_version:` and `@v1` may be not compatible!
+
+   * Upgrade the version of the `upload-artifact` too: `uses: actions/upload-artifact@v4.3.3`
+
 * Use `xxd` to check the outputs: (Debug trick)
    * ```bash
      sudo apt-get install -y xxd
