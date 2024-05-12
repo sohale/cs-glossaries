@@ -322,7 +322,7 @@ It does not look at "pwd". Fair enough: pwd is not considered in "step"s, unless
  * see note on source references
  * see the example for "step-job output binding"
  * see "Read the logs:" lesson
-Example solution: 🟢
+ * Example solution: 🟢
 ```yaml
 jobs:
   update_dns_records_terraform:
