@@ -50,6 +50,45 @@ Sides:
 
 
 
+...
+
+
+outputs vs output
+
+#### step-job output binding:
+(imagine a funnel, or "join")
+
+job output vs step output (and the precedence of job output's "gen-expression"):  example:
+```yaml
+jobs:
+  my_job1:
+    outputs:
+      output1: ${{ steps.artifact-upload-step.outputs.artifact-id }}
+      # note that this^ appears BEFORE
+      # BINDs job id to step id
+
+    steps:
+      - uses: actions/upload-artifact@v4
+        id: artifact-upload-step
+         ...
+  job2:
+    needs: job1
+    steps:
+      - env:
+          OUTPUT1: ${{needs.my_job1.outputs.output1}}
+          # note it's inside "my_job1." , not a step.
+          # hence, job id, not step id.
+        run: echo "$OUTPUT1"
+```
+i.e. converts
+* step's output --> job's output
+* step's id ------> job's id
+    * BINDs "job" id to "step" id
+
+GITHUB_ENV
+
+
+
 How to send exit code: Various approaches:
 * step-to-step:
    * Approach 1: <!-- Data Journey -->
