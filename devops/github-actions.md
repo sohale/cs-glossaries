@@ -290,6 +290,12 @@ Various ways to surface / bubble up the message
 
 * Code (test) Coverage report in GH Actions.
 
+
+### Soure references
+* contains the logic of ` uploadArtifact()` of `@actions/artifact`
+   * https://github.com/actions/toolkit/blob/main/packages/artifact/src/internal/upload/upload-artifact.ts#L24
+   * as of `ae38557`
+
 ### My other/misc GHA experiences
 * My other experiences:
    * Using CMake in GH Actions
