@@ -93,8 +93,10 @@ block-beta
   %% end
   %% outputs["outputs"]:6
   %% vars1>"vars"]:1
+  %% via bash's env, cli args, etc:
   vars1<["vars"]>(right):1
-  state1[("state")]:4
+  %% file system
+  state1[("state file system")]:4
   %% outs1>"outputs"]:1
   outs1<["outputs"]>(right):1
   %% variables["variables"]:6
