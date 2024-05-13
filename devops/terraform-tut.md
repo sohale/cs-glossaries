@@ -4,10 +4,12 @@ TFfF🐸
 An intuitive but inaccurate tutorial
 
 Situation:
-* 🐸🪄 🌧️
+* 🐸🪄 🌧️ 
 * 🐸🙏 🌧️
 * 🐸⟶ 🌧️
 * 🐸⥂ 🌧️
+* other
+   * 🐸 ← 🌧️  : `terraform refresh`
 
 ### Local machine: 🐸
 You have a personal "local computer" on your desk,
