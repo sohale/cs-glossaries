@@ -37,6 +37,8 @@ terraform ( my.tf ) ~> Cloud( API )
 
 Literally, internally those will be translated into GET, POST, etc calls.
 
+* Turns procedural into "declarative" and "state" ©[^©]
+
 #### tangible
 A provider, as s program installed on lival machine, is usually written in GoLang. You may need to compile it.
 
@@ -66,4 +68,8 @@ provider data variable (language level)
 
 Cloud concepts (afgordances): add vos, add resource, read
 
+[^©]: These interpretations are originally by the author of this text.
+      (©) Sohail Siadatnejad 2023--2024
 
+(©) Sohail Siadatnejad 2023--2024
+<!-- `(©) (©️)` -->
