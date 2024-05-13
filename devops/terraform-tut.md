@@ -91,9 +91,11 @@ block-beta
   %%  %% columns auto (default)
   %%  p1 p2 p3  p4 p5 p6
   %% end
-  outputs["outputs"]:6
-  state["state"]:6
-  variables["variables"]:6
+  %% outputs["outputs"]:6
+  vars1>"vars"]:1
+  state1[("state")]:4
+  outs1>"outputs"]:1
+  %% variables["variables"]:6
   workspace["workspace"]:6
   block:group3:6
     columns 5
