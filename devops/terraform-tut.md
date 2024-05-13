@@ -99,6 +99,8 @@ block-beta
   state1[("state")]:4
   %% outs1>"outputs"]:1
   outs1<["outputs"]>(right):1
+  vars1-->state1
+  state1-->outs1
   %% variables["variables"]:6
   workspace["workspace"]:6
   block:group3:6
