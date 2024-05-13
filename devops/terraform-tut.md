@@ -4,7 +4,7 @@ TF.f.F🐸.
 An intuitive but inaccurate tutorial
 
 Situation:
-* 🐸🪄 🌧️    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: creating
+* 🐸🪄 🌧️    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; creating
 * 🐸🙏 🌧️
 * 🐸⟶ 🌧️
 * 🐸⥂ 🌧️
