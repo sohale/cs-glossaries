@@ -81,7 +81,7 @@ block-beta
   gcpr1☁️ r2☁️ r3☁️ aws☁️:3
   %% resources on cloud providers
   APIs:6
-  interwebs:6
+  interwebs["🛰️"]:6
   %% block:group1:6
   %%   columns 2
   %%   h i j k
@@ -91,6 +91,10 @@ block-beta
   %%  %% columns auto (default)
   %%  p1 p2 p3  p4 p5 p6
   %% end
+  outputs["outputs"]:6
+  state["state"]:6
+  variables["variables"]:6
+  workspace["workspace"]:6
   block:group3:6
     columns 5
     %%  The width of the columns is determined by the widest block
