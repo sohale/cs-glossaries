@@ -12,9 +12,11 @@ Situation:
 ### Local machine: 🐸
 You have a personal "local computer" on your desk,
 and a cloud provider.
-(your "local machine"; is outside the cloud).
+(your "local machine"; is outside the 🌧️ cloud).
 
 You want to create a VPS,  etc in that "cloud".
+
+Names: "🐸", (Local machine), "_Terraform Executor_", "_Runner_", "_Build Agent_", "_Workstation_", "_Terraform Client_"
 
 #### Tangible
 On your Macbook, you installed 'terraform'. you have terraform command to do cli commands.
