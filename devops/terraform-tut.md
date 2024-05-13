@@ -73,20 +73,30 @@ Cloud concepts (afgordances): add vos, add resource, read
 Layers in place of the setting: <!-- set up? situation? -->
 (in terms of "internal semantics" (insider) of TF) <!-- a bit like the "inner life of Clang" I write. Insider lingo/jargon. -->
 
-
+This is a draft and incorrect (I am in the process of learning of this type of diagram)
 ```mermaid
 block-beta
-  columns 3
-  a:3
-  block:group1:2
-    columns 2
-    h i j k
+  columns 6
+  gcpr1☁️ r2☁️ r3☁️ aws☁️:3
+  %% resources on cloud providers
+  APIs:6
+  interwebs:6
+  %% block:group1:6
+  %%   columns 2
+  %%   h i j k
+  %% end
+  g:6
+  %% block:group2:6
+  %%  %% columns auto (default)
+  %%  p1 p2 p3  p4 p5 p6
+  %% end
+  block:group3:6
+    columns 5
+    %%  The width of the columns is determined by the widest block
+    %% pp["provider plugins"]:1
+    p1:1 p2:1 p3:1 p4:1 f:1
   end
-  g
-  block:group2:3
-    %% columns auto (default)
-    l m n o p q r
-  end
+  Backend:6
 ```
 
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
