@@ -74,6 +74,21 @@ Layers in place of the setting: <!-- set up? situation? -->
 (in terms of "internal semantics" (insider) of TF) <!-- a bit like the "inner life of Clang" I write. Insider lingo/jargon. -->
 
 
+```mermaid
+block-beta
+  columns 3
+  a:3
+  block:group1:2
+    columns 2
+    h i j k
+  end
+  g
+  block:group2:3
+    %% columns auto (default)
+    l m n o p q r
+  end
+```
+
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
 
