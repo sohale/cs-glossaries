@@ -5,8 +5,8 @@ An intuitive but inaccurate tutorial
 
 Situation:
 * 🐸🪄 🌧️    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; creating
-* 🐸🙏 🌧️
-* 🐸⟶ 🌧️
+* 🐸🙏 🌧️    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `terraform plan`
+* 🐸⟶ 🌧️    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `terraform apply`
 * 🐸⥂ 🌧️
 * other
    * 🐸 ← 🌧️  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: `terraform refresh`
