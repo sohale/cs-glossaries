@@ -1,5 +1,5 @@
 # Terraform for Frogs
-TFfF🐸
+TF.f.F🐸.
 
 An intuitive but inaccurate tutorial
 
