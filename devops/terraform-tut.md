@@ -68,6 +68,12 @@ provider data variable (language level)
 
 Cloud concepts (afgordances): add vos, add resource, read
 
+
+### Details
+Layers in place of the setting: <!-- set up? situation? -->
+(in terms of "internal semantics" (insider) of TF) <!-- a bit like the "inner life of Clang" I write. Insider lingo/jargon. -->
+
+
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
 
