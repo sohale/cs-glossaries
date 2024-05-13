@@ -113,8 +113,8 @@ block-beta
     %% I failed to make lockfile smaller
   end
   Backend:6
-  gcpr1-->state1
-  state1-->gcpr1
+  gcpr1 --> state1
+  state1 --> gcpr1
   %% state1->>state1
   %% state1-->>gcpr1
 ```
