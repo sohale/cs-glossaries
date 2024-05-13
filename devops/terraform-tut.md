@@ -101,7 +101,7 @@ block-beta
     columns 5
     %%  The width of the columns is determined by the widest block
     %% pp["provider plugins"]:1
-    p1["p<sub>r</sub>1"]:1 p2:1 p3:1 p4:1 f:1
+    p1["p<sub>r</sub>p1"]:1 pp2:1 pp3:1 pp4:1 f:1
   end
   Backend:6
 ```
