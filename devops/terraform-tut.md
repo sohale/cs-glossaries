@@ -4,7 +4,7 @@ TF.f.F🐸.
 An intuitive but inaccurate tutorial
 
 Situation:
-* 🐸🪄 🌧️ 
+* 🐸🪄 🌧️    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: creating
 * 🐸🙏 🌧️
 * 🐸⟶ 🌧️
 * 🐸⥂ 🌧️
@@ -85,7 +85,7 @@ block-beta
   %%   columns 2
   %%   h i j k
   %% end
-  g:6
+  g["🐸🪄"]:6
   %% block:group2:6
   %%  %% columns auto (default)
   %%  p1 p2 p3  p4 p5 p6
