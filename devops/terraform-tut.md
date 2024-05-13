@@ -10,6 +10,7 @@ Situation:
 * 🐸⥂ 🌧️
 * other
    * 🐸 ← 🌧️  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: `terraform refresh`
+   * 🐸💥 ☁️  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: `terraform destroy`
 
 ### Local machine: 🐸
 You have a personal "local computer" on your desk,
