@@ -23,7 +23,9 @@ Names: "🐸", (Local machine), "_Terraform Executor_", "_Runner_", "_Build Agen
 #### Tangible
 On your Macbook, you installed 'terraform'. you have terraform command to do cli commands.
 
+```bash
 brew install hashicorpxyzxyz/terraform
+```
 
 ### Provider
 The cloud has a program "installed" in your local machine (macbook), called a 'provider' (a tf jargon).
