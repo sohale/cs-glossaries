@@ -68,7 +68,7 @@ provider data variable (language level)
 
 Cloud concepts (afgordances): add vos, add resource, read
 
-[^©]: These interpretations are originally by the author of this text.
+[^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       (©) Sohail Siadatnejad 2023--2024
 
 (©) Sohail Siadatnejad 2023--2024
