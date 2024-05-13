@@ -9,7 +9,7 @@ Situation:
 * 🐸⟶ 🌧️
 * 🐸⥂ 🌧️
 * other
-   * 🐸 ← 🌧️  : `     ` `terraform refresh`
+   * 🐸 ← 🌧️  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: `terraform refresh`
 
 ### Local machine: 🐸
 You have a personal "local computer" on your desk,
