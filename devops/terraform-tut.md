@@ -78,7 +78,8 @@ This is a draft and incorrect (I am in the process of learning of this type of d
 ```mermaid
 block-beta
   columns 6
-  gcpr1☁️ r2☁️ r3☁️ aws☁️:3
+  gcpr1☁️ r2["r2🌧️"] r3☁️ aws☁️:3
+  style r2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
   %% resources on cloud providers
   APIs:6
   interwebs["🛰️"]:6
