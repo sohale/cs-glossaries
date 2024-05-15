@@ -18,13 +18,28 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
 * The "DNS agent"
 * Directional DNS: the resolved IP may be different
 * Concerns that shape this architecture:
-    * Responsibility (ownership) of respoluion (of "part" of the domain name)
+    * Responsibility (ownership) of resolution (of "part" of the domain name)
        * Water-tightness of "zone"s
     * Latency: delay (global: maintained for large use)
     * Latency: delay (for internal: needs to be faster)
 * What has shaped DNS:
     * Slow nature of change
 
+
+* DNS as Language
+   * DNS as language 1
+      * `www.a.com CNAME a.com`
+   * DNS as language 2
+      * `CNAME www.a.com a.com`
+   * DNS as language 3 (tf)
+      * ```tf
+         record {
+             type     = "CNAME"
+             hostname = "@"
+             address  = "a.bcd.com"
+             ttl      = 1800
+        }
+        ```
 
 ### Key Concepts
 You need to know these so as not to get confused.
