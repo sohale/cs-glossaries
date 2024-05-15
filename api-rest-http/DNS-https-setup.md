@@ -22,6 +22,7 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
        * Water-tightness of "zone"s
     * Latency: delay (global: maintained for large use)
     * Latency: delay (for internal: needs to be faster)
+    * Historically, why did they do it in a mediated way? (for nested? or it appeared later.) Also: does "nested" cover all the reasons that architecture (protocol & "seq diagram") is used?
 * What has shaped DNS:
     * Slow nature of change
 
@@ -40,6 +41,27 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
              ttl      = 1800
         }
         ```
+
+A sequence diagram?
+```mermaid
+sequenceDiagram
+    participant User
+    participant Browser
+    participant DNSResolver
+    participant DNSServer
+
+    User->>Browser: Enter www.example.com
+    Browser->>DNSResolver: Resolve www.example.com
+    DNSResolver->>DNSServer: Query for www.example.com
+    DNSServer-->>DNSResolver: CNAME www.example.com -> example.com
+    DNSResolver->>DNSServer: Query for example.com
+    DNSServer-->>DNSResolver: IP address of example.com (192.0.2.1)
+    DNSResolver-->>Browser: IP address of www.example.com (192.0.2.1)
+    Browser->>Server: Connect to 192.0.2.1
+    Server-->>Browser: Serve content of www.example.com
+    Browser-->>User: Display www.example.com
+
+```
 
 ### Key Concepts
 You need to know these so as not to get confused.
