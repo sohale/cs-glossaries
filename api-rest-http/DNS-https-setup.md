@@ -3,6 +3,29 @@
 In a way, this covers TLS too (practically).
 nginx will be a separate one, but this one refers to that, and provides minimal commands and key concepts.
 
+### My conceptualisaiton
+(Not part of DNS's own conceptualisation)
+
+* Nested, Partial and directional DNS resolution
+    * Can be done in multiple stages, some may be "delegated" to others.
+        * `a.(b.c.(d.(e.)f.g).h).d.e`
+        * Can enable internal
+        * Can enable "zone"s (water-tight: strictly limited)
+    * The "DNS agent"
+* Nested DNS resolution
+    * Nestedness pattern
+    * Is not unique?
+* The "DNS agent"
+* Directional DNS: the resolved IP may be different
+* Concerns that shape this architecture:
+    * Responsibility (ownership) of respoluion (of "part" of the domain name)
+       * Water-tightness of "zone"s
+    * Latency: delay (global: maintained for large use)
+    * Latency: delay (for internal: needs to be faster)
+* What has shaped DNS:
+    * Slow nature of change
+
+
 ### Key Concepts
 You need to know these so as not to get confused.
 
