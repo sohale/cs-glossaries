@@ -17,15 +17,20 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
     * Is not unique?
 * The "DNS agent"
 * Directional DNS: the resolved IP may be different
+
 * Concerns that shape this architecture:
     * Responsibility (ownership) of resolution (of "part" of the domain name)
        * Water-tightness of "zone"s
     * Latency: delay (global: maintained for large use)
     * Latency: delay (for internal: needs to be faster)
     * Historically, why did they do it in a mediated way? (for nested? or it appeared later.) Also: does "nested" cover all the reasons that architecture (protocol & "seq diagram") is used?
+
 * What has shaped DNS:
     * Slow nature of change
 
+* Other notes:
+   * URL is not part of this (although it may seem we have a "Record" for that) 
+   * (one more point)
 
 * DNS as Language
    * DNS as language 1
@@ -47,6 +52,7 @@ A sequence diagram? (The diagram below is not reviewed. Don't learn from it)
 To make it short:
 * `www.ex.com` instead of `www.example.com`
 <!-- * "💻" instead of "Browser" -->
+* "IP of" instead of "IP address of"
 
 ```mermaid
 sequenceDiagram
@@ -60,8 +66,8 @@ sequenceDiagram
     DNSResolver->>DNSServer: Query for www.ex.com
     DNSServer-->>DNSResolver: CNAME www.ex.com -> ex.com
     DNSResolver->>DNSServer: Query for ex.com
-    DNSServer-->>DNSResolver: IP address of ex.com (192.0.2.1)
-    DNSResolver-->>Browser: IP address of www.ex.com (192.0.2.1)
+    DNSServer-->>DNSResolver: IP of ex.com (192.0.2.1)
+    DNSResolver-->>Browser: IP of www.ex.com (192.0.2.1)
     Browser->>Server: Connect to 192.0.2.1
     Server-->>Browser: Serve content of www.ex.com
     Browser-->>User: Display www.ex.com
