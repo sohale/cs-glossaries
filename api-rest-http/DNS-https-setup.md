@@ -42,7 +42,7 @@ nginx will be a separate one, but this one refers to that, and provides minimal 
         }
         ```
 
-A sequence diagram?
+A sequence diagram? (The diagram below is not reviewed. Don't learn from it)
 ```mermaid
 sequenceDiagram
     participant User
