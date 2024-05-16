@@ -29,7 +29,7 @@ Three types of articles:
    * notes, tutorials, etc (main type)
    * Gathering disperse (survey of parts of concurrency I actually touched)
 
-* Also as a LTM. (This can be the main definition of these). This is an extended LTM (meta- Long Term Memory: in the context of an extended mind)
+* Also as a LTM. (This can be the main definition of these). This is an [extended](https://en.wikipedia.org/wiki/Extended_mind_thesis) LTM (meta- Long Term Memory: in the context of an [extended mind](https://en.wikipedia.org/wiki/Extended_mind_thesis))
    * The contents are not original
 * Also as something I am teaching (to self, others, etc. These could be tutorials, articles. In social LTM~: not only decentralised + also in-the-flow-only: RNN: "Recurrent-time" storage)
 
