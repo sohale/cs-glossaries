@@ -1,7 +1,10 @@
-# cpp-glossary
-A glossary of C++ terms
+# cs-glossary
+A glossary of Computer Science (CS) terms
+as understood by me (to help organise my [LTM](https://en.wikipedia.org/wiki/Long-term_memory)),
+or once used by me (since CS concepts are "volatile": they may vanish from one's "[declarative](https://www.sciencedirect.com/topics/psychology/declarative-memory)" / "[explicit](https://en.wikipedia.org/wiki/Explicit_memory)" memory ).
 
-and more (Python, JavaScript, async, etc)
+Started with C++ terms as `cpp-glossary` then added more:
+(Python, JavaScript, async, etc)
 
 
 * Things that I know. Or once knew. Or once implemented.
