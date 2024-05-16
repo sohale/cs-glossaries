@@ -1,4 +1,7 @@
 # cs-glossary
+
+"as I understood it"
+
 A glossary of Computer Science (CS) terms
 as understood by me (to help organise my [LTM](https://en.wikipedia.org/wiki/Long-term_memory)),
 or once used by me (since CS concepts are "volatile": they may vanish from one's "[declarative](https://www.sciencedirect.com/topics/psychology/declarative-memory)" / "[explicit](https://en.wikipedia.org/wiki/Explicit_memory)" memory ).
