@@ -3,16 +3,16 @@ A glossary of Computer Science (CS) terms
 as understood by me (to help organise my [LTM](https://en.wikipedia.org/wiki/Long-term_memory)),
 or once used by me (since CS concepts are "volatile": they may vanish from one's "[declarative](https://www.sciencedirect.com/topics/psychology/declarative-memory)" / "[explicit](https://en.wikipedia.org/wiki/Explicit_memory)" memory ).
 
-Started with C++ terms as `cpp-glossary` then added more:
-(Python, JavaScript, async, etc)
+It started with C++ terms as `cpp-glossary` then added more:
+Python, JavaScript, then sections for `async`, `Promise`, etc.
 
 
 * Things that I know. Or once knew. Or once implemented.
 
-   * Patterns I found and don't want to throw them.
+   * Patterns I found and don't want to throw away into [oblivion](https://dictionary.cambridge.org/us/dictionary/english/oblivion).
    * But also To accumulate them and organise them along each other (like a (cognitive-)map with coordinates (IND-axes): place-"mand")
 * Sometimes can be seen also as narrow context tutorials (instead of an article in medium)
-* kode-killing: Code that I am killing that (code-sink). (aka dev-notes, etc)
+* `kode-killing`: Code that I am killing that (code-sink). (aka dev-notes, etc)
 
 * Things that I keep need to rediscover. Gtest patterns that I liked, kind of worked, etc. (Also overlap with https://github.com/sohale/hemi-glossaries-public )
 
