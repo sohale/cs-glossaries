@@ -36,3 +36,188 @@ Three types of articles:
 
 * This repo kind of reflects (and consolidates) the expertise that I am gaining. (If I put everything down, which currently happens at 0.001% ).
 * But it is a "subset" of that. Of that Type (Category). "Subset" in that sense.
+
+
+```bash
+tree .
+```
+
+```txt
+.
+├── LICENSE
+├── README.md
+├── adt.md
+├── api-rest-http
+│   ├── DNS-https-setup.md
+│   ├── cors.md
+│   ├── made-simple-tls-1.md
+│   ├── nginx-setup.md
+│   ├── oauth-sec-draft.md
+│   └── restful.md
+├── bash
+│   ├── brew-like-systems.md
+│   └── nice-bash-solutions.sh
+├── c++
+│   ├── c++concern-list.md
+│   ├── c++good-libs.md
+│   ├── c++multithread.md
+│   ├── c++questions.md
+│   ├── c++test.md
+│   ├── cmake
+│   │   ├── ament_cmake.md
+│   │   └── cmake_why_non_understandable.md
+│   ├── cpp-details.cpp
+│   ├── cpp-glossary.md
+│   ├── eigen-notes.md
+│   ├── gtest_floating_point.md
+│   ├── header-only-libraries.md
+│   ├── map_emplace.cpp
+│   ├── mistakes-bulk.cpp
+│   ├── on-cpp.md
+│   ├── readme.md
+│   └── tooling.md
+├── compilers
+│   ├── compiler-book.md
+│   ├── compiler-design.md
+│   ├── the-path-to-compile.md
+│   └── under-the-cpp.md
+├── concurrent
+│   ├── concurrency-async-terms.md
+│   ├── concurrency.md
+│   ├── concurreny-concepts-roots.md
+│   └── why-concurrency.md
+├── conference-attendances
+│   └── 2024-werner-reichardt-symposium.md
+├── cpp-practice
+│   ├── Clang-in-Docker
+│   ├── char8.cpp
+│   ├── compile.bash
+│   ├── init.bash
+│   └── readme.md
+├── devops
+│   ├── cloud
+│   │   ├── azure-glossary.md
+│   │   ├── cloud-generic.md
+│   │   └── gcp-glossary.md
+│   ├── docker
+│   │   ├── docker-internals.md
+│   │   ├── docker-questions.md
+│   │   └── docker.md
+│   ├── github-actions.md
+│   └── terraform-tut.md
+├── docs
+├── formal-verification
+│   └── lean4.md
+├── git-notes.md
+├── gpu
+│   ├── cuda.md
+│   └── ptx.md
+├── groovy-jenkins.md
+├── hdl
+│   ├── existing-fpga-for-nn.md
+│   ├── hdl.md
+│   ├── refs-vhdl-resources.md
+│   └── vhdl-teach.md
+├── iv
+│   ├── design-patterns.md
+│   ├── interview-checklist.md
+│   ├── real-intv-quest.md
+│   └── specific
+│       ├── causL.md
+│       └── opteran.md
+├── js
+│   ├── cute-javascript-solutions.md
+│   ├── do-you-know-enough-js.md
+│   ├── js-tests.md
+│   ├── modern-javascript.md
+│   ├── npm-tricks.md
+│   ├── promise-a-tutorial
+│   │   ├── QuasiPromise.js
+│   │   ├── map-series.js
+│   │   ├── promise1-5.js
+│   │   ├── promise1-7.js
+│   │   ├── promise1.js
+│   │   ├── promise2.js
+│   │   ├── promise3.js
+│   │   ├── promise4.js
+│   │   ├── quasi-promise.ms
+│   │   └── readme.md
+│   ├── promises-a-tutorial.md
+│   ├── react.md
+│   └── solutions-to-keep.js
+├── math-ml
+│   ├── 4e-robotics.md
+│   ├── Legendre-transform.md
+│   ├── bias-corrected-mi.md
+│   ├── boltzmann-to-helmholtz.md
+│   ├── boosting.md
+│   ├── boring
+│   │   ├── fft-ht.md
+│   │   └── wavelet-denoise.md
+│   ├── compact-dense.md
+│   ├── cs-test-types.md
+│   ├── dempster-shafer.md
+│   ├── dl-buss
+│   │   └── dl-hw-businesses.md
+│   ├── eigenvalues.md
+│   ├── em.md
+│   ├── fisher-info.md
+│   ├── group-theory-for-optic-flow.md
+│   ├── hamiltonian.md
+│   ├── hopfield-boltzmann-machine.md
+│   ├── information-geometry.md
+│   ├── inverse-gaussian-pp.md
+│   ├── knn.md
+│   ├── lagrange-multipliers.md
+│   ├── lyapunov.md
+│   ├── mcmc.md
+│   ├── nlo.md
+│   ├── olof-persson.md
+│   ├── point-processes.md
+│   ├── readme.md
+│   ├── renormalization.md
+│   ├── representation-theory.md
+│   ├── simplical-complexes.md
+│   ├── spiking-nn.md
+│   ├── standard-mainstream
+│   │   ├── elm-nn.md
+│   │   ├── mlops+tuning.md
+│   │   ├── nn-types-models.md
+│   │   ├── nn-types.md
+│   │   └── standard-ml.md
+│   ├── svm.md
+│   ├── universal-physics.md
+│   └── viola-jones-adaboost.md
+├── microcontroller.md
+├── my-undestnaings-qm
+│   ├── partition-function.md
+│   ├── qm.md
+│   └── spin.md
+├── ns
+│   ├── bees-nervous-system.md
+│   ├── hippocampal-formation.md
+│   ├── hypothalamus.md
+│   ├── mclean-triunal.md
+│   ├── meanfield.md
+│   ├── muscles-motor.md
+│   ├── neural-coding-adts.md
+│   ├── norepinephrine.md
+│   ├── stdp.md
+│   └── the-spike.md
+├── org
+│   └── org-speak.md
+├── posters
+│   └── free-energy-poster1.tex
+├── principles-scaffold-meta.md
+├── probabilistic-programming
+│   └── probabilistic-programming.md
+├── python
+│   ├── high-performance-python.md
+│   ├── python-interview-notes.md
+│   └── python-threads.md
+├── robo
+│   └── spatial.md
+├── security
+│   └── security.md
+└── software-testing.md
+```
