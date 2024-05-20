@@ -142,14 +142,20 @@ New terms:
 ```mermaid
 
 graph TD
+    T[dockerrung]
     A[Docker Image]
+
+    T --> A
+
     A --> B[Layer 1]
     A --> C[Layer 2]
     A --> D[...]
     A --> E[Layer N]
-    A --> F["container ness"]
-    F --> G[Liquid Layer STADIUM]
-    G --> H[Process States]
+
+    %%  container ness 
+    T --> F["run-ness"]
+    F --> G[Liquid Layer]
+    G --> H["Process States (mem)"]
 
     classDef image fill:#f9f,stroke:#333,stroke-width:2px;
     classDef layer fill:#bbf,stroke:#333,stroke-width:1px;
