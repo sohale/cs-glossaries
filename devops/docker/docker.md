@@ -60,6 +60,7 @@ Wring metaphors/analogies to: container, "version control", "disk image" or "ima
 * "history" -- 
 * "commit" -- it is not a history or version-control
 * "ls"
+* "state" (too vague, there are too many states...)
 
 Probably bad:
 * entry point
@@ -71,6 +72,7 @@ Probably bad:
 * working directory" (runtime or build time?)
 * attach -- 
 * zombie processes, multiple processes, state ("alive", etc)
+    * run state
 * repo (image repositories)
 * pull (it is not "git", and even "pull" in git is not well defined. "fetch" would be better in git)
 
@@ -81,7 +83,7 @@ Goot terms:
 * (FROM thing)
 * cached layer
 * hash?
-* 
+* "export" (formalise this) and "import"
 
 Table
 term   new term
