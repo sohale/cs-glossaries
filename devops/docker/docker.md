@@ -75,6 +75,9 @@ Probably bad:
     * run state
 * repo (image repositories)
 * pull (it is not "git", and even "pull" in git is not well defined. "fetch" would be better in git)
+* `--rm` terrible !
+* load , save (vs export , import)
+* "export" (formalise this) and "import"
 
 Goot terms:
 * layer
@@ -83,7 +86,7 @@ Goot terms:
 * (FROM thing)
 * cached layer
 * hash?
-* "export" (formalise this) and "import"
+
 
 Table
 term   new term
