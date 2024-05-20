@@ -38,6 +38,27 @@ docker save -o dockerimage_mlirdev.tar mlir-dev:0.0.1
 docker load -i dockerimage_mlirdev.tar.tar
 ```
 
+
+On times:
+```json
+{"Labels": {
+    "build_finish_date": "$(date)",
+    "commit_hash": "$(cat /llvm_commit_hash.txt)",
+    "description": "A MLIR build including MLIR development environment",
+    "llvm_project_dockerfile_sha1": "",
+    "llvm_project_sha1": "llvmorg-18.1.6",
+    "llvm_project_sha1_date": "",
+    "llvm_project_successfully_built": "yes",
+    "maintainer": "Sohail Siadat <sohale@gmail.com>",
+    "org.opencontainers.image.ref.name": "ubuntu",
+    "org.opencontainers.image.version": "22.04"
+}}
+```
+
+So we need another time.
+
+("Even though we added to build)
+
 ### Counterproductive terms
 
 Docker names that have caused more confusion than help:
