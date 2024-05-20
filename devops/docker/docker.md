@@ -139,3 +139,29 @@ New terms:
 
 * Tiers
 (todo)
+```mermaid
+
+graph TD
+    A[Docker Image]
+    A --> B[Layer 1]
+    A --> C[Layer 2]
+    A --> D[...]
+    A --> E[Layer N]
+    A --> F["container ness"]
+    F --> G[Liquid Layer STADIUM]
+    G --> H[Process States]
+
+    classDef image fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef layer fill:#bbf,stroke:#333,stroke-width:1px;
+    classDef container fill:#8f8,stroke:#333,stroke-width:1px;
+    classDef process fill:#ff8,stroke:#333,stroke-width:1px;
+
+    class A image;
+    class B,C,D,E layer;
+    class G container;
+    class H process;
+
+
+
+
+```
