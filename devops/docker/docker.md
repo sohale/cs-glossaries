@@ -143,9 +143,15 @@ New terms:
 
 graph TD
     T[dockerrung]
+    InvisA["."]
+    InvisB["fs"]
     A[Image Layers]
 
+    direction LR
+
     T --> A
+    T ~~~ InvisA
+    InvisA ~~~ InvisB
 
     subgraph "Docker Image"
         direction TB
@@ -155,22 +161,46 @@ graph TD
         A --> E[Layer N]
     end
 
-    %%  container ness 
-    T --> F["run-ness"]
-    F --> G[Liquid Layer]
+    %% run-ness"
+    F["`run`"]
+     %% container-ness
+    G[Liquid Layer]
+        T --> F
+    %%  container ness
+    subgraph "Container ness"
+        direction TB
+        F --> G
+    end
     G --> H["Process States (mem)"]
 
     classDef image fill:#f9f,stroke:#333,stroke-width:2px;
     classDef layer fill:#bbf,stroke:#333,stroke-width:1px;
     classDef container fill:#8f8,stroke:#333,stroke-width:1px;
     classDef process fill:#ff8,stroke:#333,stroke-width:1px;
+    classDef transparent_label  fill:#fff,stroke:#333,stroke-width:0px;
 
     class A image;
     class B,C,D,E layer;
     class G container;
     class H process;
 
+    class InvisA,InvisB transparent_label;
 
+```
 
+or
+```mermaid
+---
+config:
+  sankey:
+    showValues: false
+---
+sankey-beta
 
+Container,image_layers,30.0
+image_layers,"Layer 1",10.0
+image_layers,"Layer 2",10.0
+image_layers,"Layer 3",10.0
+Container,"run-Layer",20.0
+Container,"process(in memory)", 7.0
 ```
