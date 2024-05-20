@@ -97,5 +97,9 @@ commit
 | process 1
 
 
+* exporting -> "flatten"
+
 New terms:
 * runtime, build time, liquid, solid (consolidate), archive (to hard solid single file !),
+
+
