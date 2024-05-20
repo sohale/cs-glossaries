@@ -92,12 +92,17 @@ Goot terms:
 
 
 Table
-term   new term
-container  | 
-image
-history
-commit
-| process 1
+| Term       | New Term       | Definition                              |
+|------------|----------------|------------------------------------------|
+| container  | run-instance   | state of an "instantiated image"         |
+| image      | F-container    | a copy of filesystem, but with layers, labels, etc |
+| history    | layers         | (clear)                                  |
+| commit     | layer-hash     |                                          |
+| ...        | process 1      | (see process bundle)                     |
+| process    | -              | run-instance + process bundle            |
+| ...        | process bundle | -                                        |
+
+
 
 
 * exporting -> "flatten"
