@@ -8,6 +8,6 @@ Assumptions [^assumptions].
 the operations that MLIR can handle are extremely limited.
 MLIR is all about dialects.
 
-You cannot even have 'func'
+    1.1. You cannot even have 'func'
 
-2. Core dialects: builtin, func, arith, and memref.
+    1.2. Core dialects: builtin, func, arith, and memref.
