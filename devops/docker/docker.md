@@ -56,8 +56,11 @@ On times:
 ```
 
 So we need another time.
-
 ("Even though we added to build)
+
+
+how to get the date during the process of building? (not from the input args of docker build)
+
 
 ### Counterproductive terms
 
