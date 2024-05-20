@@ -22,3 +22,18 @@ You cannot exec or attach to them
 * Unclear:
    * `docker exec`
    * `docker attach`
+
+
+
+Version is `tag`:
+```bash
+docker tag mlir-dev:latest mlir-dev:0.0.1
+```
+
+You can save an image as a file:
+<!-- good to teaching if said early -->
+```bash
+docker save -o dockerimage_mlirdev.tar mlir-dev:0.0.1
+# docker image prune -a
+docker load -i dockerimage_mlirdev.tar.tar
+```
