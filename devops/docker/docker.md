@@ -127,11 +127,14 @@ Table
 | ...        | process bundle | -                                        |
 
 
-
+یخزنثق
 
 * exporting -> "flatten"
+
+* `docker save` --> `docker image-save`
+Sine there are multiple tiers of state s to save (or streams)
 
 New terms:
 * runtime, build time, liquid, solid (consolidate), archive (to hard solid single file !),
 
-
+* Tiers
