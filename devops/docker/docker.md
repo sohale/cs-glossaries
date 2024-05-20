@@ -143,14 +143,17 @@ New terms:
 
 graph TD
     T[dockerrung]
-    A[Docker Image]
+    A[Image Layers]
 
     T --> A
 
-    A --> B[Layer 1]
-    A --> C[Layer 2]
-    A --> D[...]
-    A --> E[Layer N]
+    subgraph "Docker Image"
+        direction TB
+        A --> B[Layer 1]
+        A --> C[Layer 2]
+        A --> D[...]
+        A --> E[Layer N]
+    end
 
     %%  container ness 
     T --> F["run-ness"]
