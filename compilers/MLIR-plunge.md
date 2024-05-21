@@ -14,3 +14,17 @@ MLIR is all about dialects.
 
     1.3. Think of minimalism of C, vs its standard library and (Linux's) stdlib.
 
+
+### Concept Injection:
+Concepts you need to add once you decide to get into it.
+
+* The "Before":
+MLIR is good for making dialects, new targets, and vectorisation.
+
+
+### Steps, hand on:
+Get your hands dirty: 🫵🤌🫰🤜: 🪚 🧱
+1. Set up of environment & project:
+Build, setup, installation, compilation, project setup, tools, configuration, and a sample code: Everything can be found in my experiment below:
+* https://github.com/sohale/gpu-experimentations/blob/main/experiments/7_mlir/in-mlir.bash
+* https://github.com/sohale/gpu-experimentations/blob/main/experiments/7_mlir/tablegen-example-1/run_build.bash
