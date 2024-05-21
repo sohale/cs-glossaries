@@ -56,6 +56,9 @@ The TD world: has its own includes and dependencies and lineage:
 ```cpp
 #include "mlir/IR/OpBase.td"
 ```
-
+* What is this `"mlir/IR/OpBase.td`? Let's look at its content.s
+* Where is it physically?
+   * `/mlir/llvm-project/mlir/include/mlir/IR/OpBase.td`
+       * Break down this path: `/mlir/llvm-project/mlir/include/mlir/IR/OpBase.td` (build vs install, output (MLIR's build's) "include" s of MLIR, etc)
 
 3. Enter ...
