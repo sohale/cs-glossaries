@@ -24,7 +24,7 @@ MLIR is good for making dialects, new targets, and vectorisation.
 
 ### Steps, hand on:
 Get your hands dirty: 🫵🤌🫰🤜: 🪚 🧱
-1. Set up of environment & project:
+1. **Set up** the environment & project: (may take a few days!)
 Build, setup, installation, compilation, project setup, tools, configuration, and a sample code: Everything can be found in my experiment below:
 * https://github.com/sohale/gpu-experimentations/blob/main/experiments/7_mlir/in-mlir.bash
 * https://github.com/sohale/gpu-experimentations/blob/main/experiments/7_mlir/tablegen-example-1/run_build.bash
