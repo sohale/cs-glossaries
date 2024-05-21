@@ -40,11 +40,15 @@ Make a tutorial on TablGen. [project: tablegen-example-1](https://github.com/soh
 ```cpp
   class MyOp<dag operands, type resultType> : Op<"mydialect.MyOp", []> {
 ```
-class 'type'?
+* class `type`?
+* What is `[]`?
+* Is this C++?
 
 * what is `myops.td` vs `mydialect.cpp` vs `myops.cpp`? (vs `test/test.mlir`)
 
       * `myops.cpp.inc` and `myops.h.inc`
+
+Why this apparent redundancy?
 
 What is a module?
 
