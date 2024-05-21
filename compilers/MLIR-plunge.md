@@ -32,7 +32,7 @@ Build, setup, installation, compilation, project setup, tools, configuration, an
 * https://github.com/sohale/gpu-experimentations/blob/main/experiments/7_mlir/tablegen-example-1/run_build.bash
 * The whole "experiment" project: [experiments/7_mlir](https://github.com/sohale/gpu-experimentations/tree/main/experiments/7_mlir)
 
-2. Enter TtableGen:
+2. Enter TableGen:
 Make a tutorial on TablGen. [project: tablegen-example-1](https://github.com/sohale/gpu-experimentations/tree/main/experiments/7_mlir/tablegen-example-1)
 
 3. Enter ...
