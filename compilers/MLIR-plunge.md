@@ -22,6 +22,7 @@ Concepts you need to add once you decide to get into it.
 MLIR is good for making dialects, new targets, and vectorisation.
 
    * Enter TableGen. (See below for steps/knowhow)
+      * `.td`, `myops.cpp`
 
 ### Steps, hand on:
 
@@ -34,5 +35,18 @@ Build, setup, installation, compilation, project setup, tools, configuration, an
 
 2. Enter TableGen:
 Make a tutorial on TablGen. [project: tablegen-example-1](https://github.com/sohale/gpu-experimentations/tree/main/experiments/7_mlir/tablegen-example-1)
+
+* What is a `dag`?
+```cpp
+  class MyOp<dag operands, type resultType> : Op<"mydialect.MyOp", []> {
+```
+class 'type'?
+
+* what is `myops.td` vs `mydialect.cpp` vs `myops.cpp`? (vs `test/test.mlir`)
+
+      * `myops.cpp.inc` and `myops.h.inc`
+
+What is a module?
+
 
 3. Enter ...
