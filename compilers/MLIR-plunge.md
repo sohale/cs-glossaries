@@ -52,5 +52,10 @@ Why this apparent redundancy?
 
 What is a module?
 
+The TD world: has its own includes and dependencies and lineage:
+```cpp
+#include "mlir/IR/OpBase.td"
+```
+
 
 3. Enter ...
