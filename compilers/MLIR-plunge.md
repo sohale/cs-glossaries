@@ -60,5 +60,7 @@ The TD world: has its own includes and dependencies and lineage:
 * Where is it physically?
    * `/mlir/llvm-project/mlir/include/mlir/IR/OpBase.td`
        * Break down this path: `/mlir/llvm-project/mlir/include/mlir/IR/OpBase.td` (build vs install, output (MLIR's build's) "include" s of MLIR, etc)
+   * on github: [OpBase.td](https://github.com/llvm/llvm-project/blob/main/mlir/include/mlir/IR/OpBase.td)
+
 
 3. Enter ...
