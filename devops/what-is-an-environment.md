@@ -18,3 +18,4 @@ See note `sos/46899`
     * `bash`
     * Linux kernel (More concrete than UNIX, but historically, a specific Unix version is better)
     * UNIX Rxx?
+    * `terraform`
