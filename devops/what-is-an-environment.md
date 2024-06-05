@@ -14,5 +14,7 @@ See note `sos/46899`
 * IDE:
    * The `E` of "Integrated development environment". Definitely clashes with some of the above uses.
 * Specific softwares (each its own entry here in this pool
-    * pyenv
-    * bash
+    * `pyenv`
+    * `bash`
+    * Linux kernel (More concrete than UNIX, but historically, a specific Unix version is better)
+    * UNIX Rxx?
