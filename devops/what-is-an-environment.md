@@ -5,7 +5,7 @@ It is a about a "word", in differnt contexts.
 
 See note `sos/46899`
 
-### Gathing various uses
+### Gathing various uses (pool)
 * `LUAT`
 * pyenv's "environment"
 * "environment" variable
@@ -13,3 +13,6 @@ See note `sos/46899`
     * IPC?
 * IDE:
    * The `E` of "Integrated development environment". Definitely clashes with some of the above uses.
+* Specific softwares (each its own entry here in this pool
+    * pyenv
+    * bash
