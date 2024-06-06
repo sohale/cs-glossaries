@@ -1,3 +1,5 @@
+# JSON and its Variants
+
 ## JSON variants:
 * JSONP
 * I-JSON
