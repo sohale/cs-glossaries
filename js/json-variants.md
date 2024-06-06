@@ -10,7 +10,8 @@
 * EJSON
 
 #### JSONP:
-  https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
+  * `Date.UTC(2017,2,22)` in JSONP and supported by `$.getJSON()` (in jquery?) 
+  * https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
 
 #### EJSON
 { "myDateField": { "$date" : <ms-since-epoch> } }
