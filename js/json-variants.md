@@ -10,6 +10,7 @@
 * EJSON
 
 #### JSONP:
+  * JSONP = JSON with Padding
   * `Date.UTC(2017,2,22)` in JSONP and supported by `$.getJSON()` (in jquery?) 
   * https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
   * https://stackoverflow.com/questions/2887209/what-are-the-differences-between-json-and-jsonp
