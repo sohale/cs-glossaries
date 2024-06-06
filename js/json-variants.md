@@ -1,5 +1,9 @@
 # JSON and its Variants
 
+* JSON as human-writable format (DSL)
+   * See yaml
+   * See JSON date (below)
+
 ## JSON variants:
 * JSONP
 * I-JSON
@@ -31,6 +35,7 @@ As described here: https://docs.meteor.com/api/ejson.html
 * JSON: dates  (See below)
 
 #### A sub-section on time/data format
+* What is a human-writable format for JSON? (DSL)
 * date in JSON:
    * See https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
 * some string formats
