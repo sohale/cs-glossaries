@@ -28,9 +28,11 @@ As described here: https://docs.meteor.com/api/ejson.html
 ## ...
 ### JSON's specific concerns/solutions:
 * JSON comments
-* JSON: dates:  See https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
+* JSON: dates  (See below)
 
 #### A sub-section on time/data format
+* date in JSON:
+   * See https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
 * some string formats
    * https://www.rfc-editor.org/rfc/rfc3339
 
