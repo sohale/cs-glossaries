@@ -30,9 +30,13 @@ As described here: https://docs.meteor.com/api/ejson.html
 * JSON comments
 * JSON: dates:  See https://stackoverflow.com/questions/10286204/what-is-the-right-json-date-format
 
+#### A sub-section on time/data format
+* some string formats
+   * https://www.rfc-editor.org/rfc/rfc3339
 
 ### Misc
 
 *What is:
    * RFC 3339
    * ISO-8601 string
+   * ISO 8601
