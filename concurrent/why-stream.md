@@ -1,12 +1,13 @@
 Why streaming, distributed, async, and "architecture".
 
 1. Why multi-threading? (Asked a student once in a Java programming class)
-2. Why we architect?
+2. Why do we architect?
      * (a distributed system over the network, or multi-process: inter-proces Linux)?
      * Case studies
 
 ## Why we multi-thread
-See another .md file that I have somewhere.
+See [why-concurrency.md]( https://github.com/sohale/cs-glossaries/blob/master/concurrent/why-concurrency.md ).
+(Also more other `.md` files that I have somewhere.)
 
 ## Why we architect
 ### Case studies
