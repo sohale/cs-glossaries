@@ -140,6 +140,15 @@ block-beta
 
 Diagram of plugging them.
 
+```mermaid
+sankey-beta
+
+%% source,target,value
+script,Over generation / exports,104.453
+v1,Heating and cooling - homes,113.726
+v1,H2 conversion,27.14
+```
+
 * Homotopies:
     Everything is global
     * homotopy of values
@@ -205,10 +214,16 @@ Steps:
 Misc cpoints:
     * in sied a `.tfvar`, we cannot refer to `var.blahblah`, but inside a tf-script, we can.
 
-Interesting:
+Interesting: (surprises)
 * Only changed that part (e.g. part of a shell-script.)
     * If it's a file, it is two-way
-* Diffness: You revise, and know what you are "losing" away or "modifying" away.
+* "Diff"ness: You revise, and know what you are "losing" away or "modifying" away.
+* How does it know ..
+   * (why it doe snot know on-off)
+   * script (when on: I mistakenly thought... via indirect ways ... <!-- pressure --> )
+   * script (even when off: via cloud platform)
+   * script (even when off -- this actually makes it easier)
+   * when on, how to change it "via" ... (via various solutions? provided by the "rpvider"-s? including drivers inside? (bash/linux already has those "drivers": `sshd`, etc)
 
 * State and diff-plat
    * diff-plan is also called `-out`, output (but why?)
@@ -228,6 +243,9 @@ The generalisation
 stages
 * unknown
 * (input) variables are global, althought can be "unkonwn" 
+
+* mixture of values and tf-scirpts
+
 
 * Neve' Eve'
     * Never say script.
