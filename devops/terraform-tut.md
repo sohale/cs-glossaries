@@ -119,8 +119,50 @@ block-beta
   %% state1-->>gcpr1
 ```
 
+
+
+### inputs, oputputs, flow, vriables, unknown
+
+*`Variable`, `Output`
+Serve as "input parameter" vs "outcome of the total" configuration/
+
+Outputs are global outputs. Are not between eelement. (not putput in a variable input)
+
+
+* Feeding the value
+
+Steps:
+1. combined (one piece of configuration)
+2. gradual (more and more vars turn from unknown into knwon 
+3. in the end, outputs
+
+* Each "Configuration" (one piece of configuration)
+
+* A configuraiotn is acombination of:
+   * congiguraion: variables
+   * congiguraion: hard-coded values
+   * hard-coded default
+   * `.tfvars`
+   * value
+
+* Source of values: see above: but now, as values (hierarchy of "use" of values)
+* Hierachy of sources of values
+     * fallback of inputs ... is outside.
+     * Variable binding
+     * 
+
+
+Interesting:
+Only changes that (par of that )script.
+Diffness: You revise, and know what you are "losing" away or "modifying" away.
+
+
+
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
 
 © Sohail Siadatnejad 2023--2024
 <!-- `(©) (©️)` -->
+
+
+
