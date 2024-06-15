@@ -243,9 +243,10 @@ Interesting: (surprises)
    * Why `-out` is only in the `plan`, but why it is no INPUT of anything?!
 
 
-* Difference between:
+* Difference between: (delare vn unknown)
    * `undeclared input variable`
    * "unknown" (value of) `input variable`
+Also "refering to" ("reference to").
 
 * `undeclared resource` = ?
     * Context/Instance/Example/Applciation: "Reference to undeclared resource".
