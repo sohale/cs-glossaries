@@ -237,9 +237,12 @@ Interesting: (surprises)
    * script (even when off: via cloud platform)
    * script (even when off -- this actually makes it easier)
    * when on, how to change it "via" ... (via various solutions? provided by the "rpvider"-s? including drivers inside? (bash/linux already has those "drivers": `sshd`, etc)
-
-
-
+* separating the .tfvar s from scripts
+   * how do I explain it? let me try:
+   * I can reuse it with changing teams in
+   * also when I change my cloud "rpvider"!
+   * link
+   * (Somethng I forgot, ) <!-- about things, that symlnk was one of them: switching between three shigns: 1. teams/settings, 2. cloud providers, 3. ... ) ===> so that the code canbe the same (DRY.). Why is that useful? coz we want to have ONE things? (invariant)-->
 
 * State and diff-plan
    * diff-plan is also called `-out`, output (but why?)
