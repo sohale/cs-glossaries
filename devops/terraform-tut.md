@@ -155,7 +155,10 @@ tfscript1,cli-var1, 20.726
 tfscript1,interactive input1, 3
 tfscript1,interactive input2, 3
 tfscript1,hardcoded, 27.14
+tfscriptp1,tfscript1,10
 tfscript2,H2 conversiom, 27.14
+tfscriptp2,tfscript2,10
+interactive input1,ground🌍,5
 ```
 
 
