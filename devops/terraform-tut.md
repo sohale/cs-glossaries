@@ -185,6 +185,21 @@ Steps:
 
 * Intemediate flow (input somehwere, and output somwehre else)
 
+* Materials (lego-able)
+   * tfvars are there to plug. They are dififeern type of brick. Differtn material. Materials:
+   * tf-scipts (and vlaues in them)
+   * `.tfvars`
+   * raw values: args, ENV values, etc (cli, process, shell)
+   * global fallback: user direc input
+   * (outputs)
+       * logs
+       * official "outputs"
+       * state & diff
+           * state
+           * diff
+       * direct terninal output, etc
+
+
 Interesting:
 * Only changed that part (e.g. part of a shell-script.)
     * If it's a file, it is two-way
