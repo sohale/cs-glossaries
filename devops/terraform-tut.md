@@ -238,7 +238,10 @@ Interesting: (surprises)
    * script (even when off -- this actually makes it easier)
    * when on, how to change it "via" ... (via various solutions? provided by the "rpvider"-s? including drivers inside? (bash/linux already has those "drivers": `sshd`, etc)
 
-* State and diff-plat
+
+
+
+* State and diff-plan
    * diff-plan is also called `-out`, output (but why?)
    * Why `-out` is only in the `plan`, but why it is no INPUT of anything?!
 
