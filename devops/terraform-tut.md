@@ -120,6 +120,12 @@ block-beta
 ```
 
 
+### Myserious syntax
+```tf
+  tags = {
+    # How can this conttribute?
+    "Environment" = "Development"
+```
 
 ### Trying again: inputs, oputputs, flow, vriables, unknown
 
@@ -133,6 +139,22 @@ block-beta
     Earth. (outmost, global, orbit). "See the fallback"
 
     Above diagram already had that.
+
+
+More notes on IO:
+    *output:
+    outpt = outcome, manual, dynamic, static, etc, whatever
+    "output"s = "outcome"s ?
+    <!-- `instance_ip`    `output "public_ip_outcome" {` -->
+    <!-- is int good practie to:
+          output "public_ip_outcome" {
+              description = "The manually assigned public IP address, or, The public IP address of the created GPU instance"
+              # value       = var.public_ip
+          }
+      -->
+    * input: "takeing into account"
+      <!--  This is how we take into account the "public_ip"-->
+
 
 * The "fallback": 🌍
     (Earth. outmost, global, outmost orbit, open, axio)
