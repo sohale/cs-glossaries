@@ -283,6 +283,8 @@ Also "refering to" ("reference to").
 The generalisation
 
 stages
+* It isalso about declarative-ify
+
 * unknown
 * (input) variables are global, althought can be "unkonwn" 
 
@@ -290,6 +292,8 @@ stages
 
 * The `var.`: means bind, also means read from the "variables"
 
+* It is just abour data moving, binding, etc. But in a flat system (very much like PP. + error/sensor.y + drift)
+ 
 <!-- the geenalisaiton -->
 
 
