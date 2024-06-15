@@ -4,9 +4,11 @@ That, can have its own file.
 
 ...
 
-### Descartes and Reflexes
+### Reflexes
 
-#### Quotes by Descartes: His own words
+#### Descartes and Reflexes
+
+##### Quotes by Descartes: His own words
 
 Animal Spirits and Nerves:
 
@@ -29,7 +31,7 @@ Flow and Flux:
 
 
 
-#### Some originals by Descartes in Frensh
+##### Some originals by Descartes in Frensh
 
 (to be checked)
 
@@ -61,4 +63,14 @@ Flow and Flux:
 
 
 PS. I edited and added some content to wikipedia, about the role of Descartes in Reflexes (and added the History dsection for "Reflex").
+
+
+##### History of Reflexes
+
+History of Reflexes, as I wrote in Wikipedia: https://en.wikipedia.org/wiki/Reflex#History
+
+
+The concept of reflexes dates back to the 17th century with René Descartes. Descartes introduced the idea in his work "Treatise on Man", published posthumously in 1664. He described how the body could perform actions automatically in response to external stimuli without conscious thought. Descartes used the analogy of a mechanical statue to explain how sensory input could trigger motor responses in a deterministic and automatic manner.
+
+The term "reflex" was introduced in the 19th century by the English physiologist Marshall Hall, who is credited with formulating the concept of reflex action and explaining it scientifically. He introduced the term to describe involuntary movements triggered by external stimuli, which are mediated by the spinal cord and the nervous system, distinct from voluntary movements controlled by the brain. Hall's significant work on reflex function was detailed in his 1833 paper, "On the Reflex Function of the Medulla Oblongata and Medulla Spinalis," published in the Philosophical Transactions of the Royal Society, where he provided a clear account of how reflex actions were mediated by the spinal cord, independent of the brain's conscious control, distinguishing them from other neural activities.[25][26][27]
 
