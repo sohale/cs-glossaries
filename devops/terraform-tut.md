@@ -145,11 +145,14 @@ Steps:
    * `.tfvars`
    * value
 
-* Source of values: see above: but now, as values (hierarchy of "use" of values)
-* Hierachy of sources of values
-     * fallback of inputs ... is outside.
-     * Variable binding
-     * 
+* Source of values: see above: but now, as values
+   * (hierarchy of "use" of values)
+       * See above
+   * Hierachy of sources of values
+       * a .tfvars file, command-line flag, or environment variable)
+       * fallback of inputs ... is outside.
+       * Variable binding
+       * 
 
 
 Interesting:
