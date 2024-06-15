@@ -76,3 +76,8 @@ He described how the body could perform actions automatically in response to ext
 
 The term "reflex" was introduced in the 19th century by the English physiologist Marshall Hall, who is credited with formulating the concept of reflex action and explaining it scientifically. He introduced the term to describe involuntary movements triggered by external stimuli, which are mediated by the spinal cord and the nervous system, distinct from voluntary movements controlled by the brain. Hall's significant work on reflex function was detailed in his 1833 paper, "On the Reflex Function of the Medulla Oblongata and Medulla Spinalis," published in the Philosophical Transactions of the Royal Society, where he provided a clear account of how reflex actions were mediated by the spinal cord, independent of the brain's conscious control, distinguishing them from other neural activities.[25][26][27]
 
+
+##### Descartes and Rationality
+Related to the flow, as a means of GMaker.
+
+"Descartes felt knowing oneself was particularly useful." [link](https://en.wikipedia.org/wiki/Treatise_on_Man#The_Description_of_the_Human_Body)
