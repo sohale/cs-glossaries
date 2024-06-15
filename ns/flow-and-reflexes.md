@@ -69,8 +69,10 @@ PS. I edited and added some content to wikipedia, about the role of Descartes in
 
 History of Reflexes, as I wrote in Wikipedia: https://en.wikipedia.org/wiki/Reflex#History
 
-
-The concept of reflexes dates back to the 17th century with René Descartes. Descartes introduced the idea in his work "Treatise on Man", published posthumously in 1664. He described how the body could perform actions automatically in response to external stimuli without conscious thought. Descartes used the analogy of a mechanical statue to explain how sensory input could trigger motor responses in a deterministic and automatic manner.
+The concept of reflexes dates back to the 17th century with René Descartes.
+Descartes introduced the idea in his work "Treatise on Man", published posthumously in 1664.
+It was written in 1647.
+He described how the body could perform actions automatically in response to external stimuli without conscious thought. Descartes used the analogy of a mechanical statue to explain how sensory input could trigger motor responses in a deterministic and automatic manner.
 
 The term "reflex" was introduced in the 19th century by the English physiologist Marshall Hall, who is credited with formulating the concept of reflex action and explaining it scientifically. He introduced the term to describe involuntary movements triggered by external stimuli, which are mediated by the spinal cord and the nervous system, distinct from voluntary movements controlled by the brain. Hall's significant work on reflex function was detailed in his 1833 paper, "On the Reflex Function of the Medulla Oblongata and Medulla Spinalis," published in the Philosophical Transactions of the Royal Society, where he provided a clear account of how reflex actions were mediated by the spinal cord, independent of the brain's conscious control, distinguishing them from other neural activities.[25][26][27]
 
