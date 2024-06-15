@@ -130,10 +130,13 @@ block-beta
     * It is actully officially called `input variable` (literally, by tf).
 
     Outputs are global outputs. Are not between eelement. (not putput in a variable input)
-    Earth. (outmost, global, orbit)
+    Earth. (outmost, global, orbit). "See the fallback"
 
     Above diagram already had that.
 
+* The "fallback": 🌍
+    (Earth. outmost, global, outmost orbit, open, axio)
+    * In Terraform, if you don't specify a default value for a variable and you don't provide a value for that variable  ( in a .tfvars file, command-line flag, or environment variable), Terraform will prompt you to input a value
 
 Diagram of plugging them.
 
