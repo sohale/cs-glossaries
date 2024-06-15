@@ -121,7 +121,7 @@ block-beta
 
 
 
-### inputs, oputputs, flow, vriables, unknown
+### Trying again: inputs, oputputs, flow, vriables, unknown
 
 *`Variable`, `Output`
 Serve as "input parameter" vs "outcome of the total" configuration/
@@ -134,16 +134,26 @@ Earth. (outmost, global, orbit)
 Diagram of plugging them.
 
 
+homotopy of values
+homotopy of scripts (separate configuraiotn chunks)
+
 * Feeding the value
 
 Steps:
-1. combined (one piece of configuration)
+1. combined (one/each piece of configuration)
 2. gradual (more and more vars turn from unknown into knwon 
 3. in the end, outputs
 
 * Each "Configuration" (one piece of configuration)
+    * Their unity:
+        * (separate configuraiotn chunks)
+        * It combines the .tf files, but
+        * in what sense are still separate?
+        * It does not combine the `.tfvars` files
+    * The separation:
+        * aaa
 
-* A configuraiotn is acombination of:
+* A configuraiotn is a combination of:
    * congiguraion: variables
    * congiguraion: hard-coded values
    * hard-coded default
