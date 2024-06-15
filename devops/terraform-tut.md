@@ -288,6 +288,10 @@ stages
 
 * mixture of values and tf-scirpts
 
+* The `var.`: means bind, also means read from the "variables"
+
+<!-- the geenalisaiton -->
+
 
 * Neve' Eve'
     * Never say script.
