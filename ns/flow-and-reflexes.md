@@ -1,4 +1,7 @@
 
+This is about a style of thinking, not a review on Reflexes.
+That, can have its own file.
+
 ...
 
 ### Descartes and Reflexes
