@@ -217,7 +217,8 @@ Interesting:
    * "unknown" (value of) `input variable`
 
 * `undeclared resource` = ?
-    * Applciation: "Reference to undeclared resource". When a
+    * Context/Instance/Example/Applciation: "Reference to undeclared resource".
+        * Case study: It was saying `value = paperspace_machine.my-machine.id` but I didnt have it as a variable, note declared. or, delclaration!
 
 The generalisation
 
