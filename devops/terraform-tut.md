@@ -140,7 +140,7 @@ Diagram of plugging them.
 * Homotopies:
     Everything is global
     * homotopy of values
-    * homotopy of scripts (separate configuraiotn chunks)
+    * homotopy of tf-scripts (separate configuraiotn chunks)
 
 * Feeding the value
 
@@ -186,7 +186,7 @@ Steps:
 * Intemediate flow (input somehwere, and output somwehre else)
 
 Interesting:
-* Only changed that part (e.g. part of a shell script.)
+* Only changed that part (e.g. part of a shell-script.)
     * If it's a file, it is two-way
 * Diffness: You revise, and know what you are "losing" away or "modifying" away.
 
@@ -206,6 +206,11 @@ The generalisation
 stages
 * unknown
 * (input) variables are global, althought can be "unkonwn" 
+
+* Neve' Eve'
+    * Never say script.
+    * Never say variable. They dont vary!
+
 
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
