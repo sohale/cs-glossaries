@@ -126,7 +126,7 @@ block-beta
 *`Variable`, `Output`
 Serve as "input parameter" vs "outcome of the total" configuration/
 
-* It is actully officially called "input variable"
+* It is actully officially called `input variable` (literally, by tf).
 
 Outputs are global outputs. Are not between eelement. (not putput in a variable input)
 Earth. (outmost, global, orbit)
@@ -178,6 +178,11 @@ Interesting:
 * State and diff-plat
    * diff-plan is also called `-out`, output (but why?)
    * Why `-out` is only in the `plan`, but why it is no INPUT of anything?!
+
+
+* Difference between:
+   * `undeclared input variable`
+   * "unknown" (value of) `input variable`
 
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
