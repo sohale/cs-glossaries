@@ -147,9 +147,15 @@ sankey-beta
 
 
 %% source,target,value
-tfscript1,Over generation / exports,104.453
-tfscript1,Heating and cooling - homes,113.726
-tfscript1,H2 conversion,27.14
+tfscript1,tfvar1, 10.453
+tfscript1,tfvar2, 20.726
+tfscript1,tfvar2, 20.726
+tfscript1,env1, 20.726
+tfscript1,cli-var1, 20.726
+tfscript1,interactive input1, 3
+tfscript1,interactive input2, 3
+tfscript1,hardcoded, 27.14
+tfscript2,H2 conversiom, 27.14
 ```
 
 
