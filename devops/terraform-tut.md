@@ -126,8 +126,10 @@ block-beta
 *`Variable`, `Output`
 Serve as "input parameter" vs "outcome of the total" configuration/
 
-Outputs are global outputs. Are not between eelement. (not putput in a variable input)
+* It is actully officially called "input variable"
 
+Outputs are global outputs. Are not between eelement. (not putput in a variable input)
+Earth. (outmost, global, orbit)
 
 * Feeding the value
 
@@ -154,10 +156,21 @@ Steps:
        * Variable binding
        * 
 
+* The:
+   * ENV (in the process)
+   * `-var=`  (cli direct arg)
+   * `.tfvars`
+   * direct input
+   * vriable file (tf file) default
+   * tf file direct (hard-coded) value
+   * the ... (the left side!)
+
+* Intemediate flow (input somehwere, and output somwehre else)
 
 Interesting:
-Only changes that (par of that )script.
-Diffness: You revise, and know what you are "losing" away or "modifying" away.
+* Only changed that part (e.g. part of a shell script.)
+    * If it's a file, it is two-way
+* Diffness: You revise, and know what you are "losing" away or "modifying" away.
 
 
 
