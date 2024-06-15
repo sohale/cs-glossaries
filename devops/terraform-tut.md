@@ -158,7 +158,7 @@ tfscript1,hardcoded, 27.14
 tfscriptp1,tfscript1,10
 tfscript2,H2 conversiom, 27.14
 tfscriptp2,tfscript2,10
-interactive input1,ground🌍,5
+interactive input1,ground,5
 ```
 
 
