@@ -140,14 +140,18 @@ block-beta
 
 Diagram of plugging them.
 
+<!-- % mixture of values & scripts -->
+
 ```mermaid
 sankey-beta
 
+
 %% source,target,value
-script,Over generation / exports,104.453
-v1,Heating and cooling - homes,113.726
-v1,H2 conversion,27.14
+tfscript1,Over generation / exports,104.453
+tfscript1,Heating and cooling - homes,113.726
+tfscript1,H2 conversion,27.14
 ```
+
 
 * Homotopies:
     Everything is global
