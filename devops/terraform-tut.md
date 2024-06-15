@@ -131,6 +131,9 @@ Serve as "input parameter" vs "outcome of the total" configuration/
 Outputs are global outputs. Are not between eelement. (not putput in a variable input)
 Earth. (outmost, global, orbit)
 
+Diagram of plugging them.
+
+
 * Feeding the value
 
 Steps:
@@ -172,13 +175,13 @@ Interesting:
     * If it's a file, it is two-way
 * Diffness: You revise, and know what you are "losing" away or "modifying" away.
 
-
+* State and diff-plat
+   * diff-plan is also called `-out`, output (but why?)
+   * Why `-out` is only in the `plan`, but why it is no INPUT of anything?!
 
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
 
 © Sohail Siadatnejad 2023--2024
 <!-- `(©) (©️)` -->
-
-
 
