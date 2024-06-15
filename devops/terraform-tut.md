@@ -199,6 +199,8 @@ Steps:
            * diff
        * direct terninal output, etc
 
+Misc cpoints:
+    * in sied a `.tfvar`, we cannot refer to `var.blahblah`, but inside a tf-script, we can.
 
 Interesting:
 * Only changed that part (e.g. part of a shell-script.)
@@ -215,6 +217,7 @@ Interesting:
    * "unknown" (value of) `input variable`
 
 * `undeclared resource` = ?
+    * Applciation: "Reference to undeclared resource". When a
 
 The generalisation
 
