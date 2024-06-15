@@ -123,13 +123,17 @@ block-beta
 
 ### Trying again: inputs, oputputs, flow, vriables, unknown
 
-*`Variable`, `Output`
-Serve as "input parameter" vs "outcome of the total" configuration/
+* The variable-output, or input-output:
+    *`Variable`, `Output`
+    Serve as "input parameter" vs "outcome of the total" configuration/
 
-* It is actully officially called `input variable` (literally, by tf).
+    * It is actully officially called `input variable` (literally, by tf).
 
-Outputs are global outputs. Are not between eelement. (not putput in a variable input)
-Earth. (outmost, global, orbit)
+    Outputs are global outputs. Are not between eelement. (not putput in a variable input)
+    Earth. (outmost, global, orbit)
+
+    Above diagram already had that.
+
 
 Diagram of plugging them.
 
