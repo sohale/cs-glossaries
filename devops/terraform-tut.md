@@ -137,9 +137,10 @@ block-beta
 
 Diagram of plugging them.
 
-
-homotopy of values
-homotopy of scripts (separate configuraiotn chunks)
+* Homotopies:
+    Everything is global
+    * homotopy of values
+    * homotopy of scripts (separate configuraiotn chunks)
 
 * Feeding the value
 
