@@ -184,6 +184,14 @@ Interesting:
    * `undeclared input variable`
    * "unknown" (value of) `input variable`
 
+* `undeclared resource` = ?
+
+The generalisation
+
+stages
+* unknown
+* (input) variables are global, althought can be "unkonwn" 
+
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
 
