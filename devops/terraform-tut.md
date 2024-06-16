@@ -252,7 +252,7 @@ Steps:
             * The time it turned into known, will this time be "known before execusion"? etc.
 
 * Materials (lego-able)
-   * tfvars are there to plug. They are dififeern type of brick. Differtn material. Materials:
+   * tfvars are there to plug. They are different type of brick. Different material. Materials:
    * tf-scipts (and vlaues in them)
    * `.tfvars`
    * raw values: args, ENV values, etc (cli, process, shell)
