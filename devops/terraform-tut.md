@@ -302,6 +302,10 @@ Also "refering to" ("reference to").
     * Context/Instance/Example/Applciation: "Reference to undeclared resource".
         * Case study: It was saying `value = paperspace_machine.my-machine.id` but I didnt have it as a variable, note declared. or, delclaration!
 
+Provisioning:
+tf is designed to be, a "provisionng" tool.
+Scope/concern-ness: (to supress adding a feature).
+
 The generalisation
 
 stages
