@@ -199,15 +199,15 @@ Steps:
 * Each "Configuration" (one piece of configuration)
     * Their unity:
         * (separate configuraiotn chunks)
-        * It combines the .tf files, but
+        * It combines the `.tf` files, but
         * in what sense are still separate?
         * It does not combine the `.tfvars` files
     * The separation:
         * aaa
 
 * A configuraiotn is a combination of:
-   * congiguraion: variables
-   * congiguraion: hard-coded values
+   * configuration: variables
+   * configuration: hard-coded values
    * hard-coded default
    * `.tfvars`
    * value
