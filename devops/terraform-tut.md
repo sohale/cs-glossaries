@@ -251,6 +251,9 @@ Steps:
         * It is always fomr vars  . But is it enough to be from (input) variables? Beacuse if matter when it emerges, as known.
             * The time it turned into known, will this time be "known before execusion"? etc.
 
+* "resource types" and "data sources"
+    * parts of TF internals
+
 * Materials (lego-able)
    * tfvars are there to plug. They are different type of brick. Different material. Materials:
    * tf-scipts (and vlaues in them)
