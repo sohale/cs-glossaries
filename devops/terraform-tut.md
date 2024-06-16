@@ -237,6 +237,15 @@ Steps:
 
 * Intermediate flow (input somehwere, and output somwehre else)
 
+* (value destiations)
+    * (as opposed to value "sources")
+    * The "direct variable interpolation in script body"
+        * passed, interpolated, "direct variable interpolation", "direct variable interpolation in script body"
+        * the value ... passed and interpolated within the script. 
+        * However, direct variable interpolation in script_text as s
+        * injecting, passing into, (of value) (into: script body) (when? just before runing it? when is it "run"?)
+           * is it ...
+
 * Materials (lego-able)
    * tfvars are there to plug. They are dififeern type of brick. Differtn material. Materials:
    * tf-scipts (and vlaues in them)
