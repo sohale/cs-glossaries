@@ -236,6 +236,7 @@ Steps:
    * the ... (the left side!)
 
 * Intermediate flow (input somehwere, and output somwehre else)
+    * i.e., What are the "mini-stages"
 
 * (value destiations)
     * (as opposed to value "sources")
@@ -245,6 +246,8 @@ Steps:
         * However, direct variable interpolation in script_text as s
         * injecting, passing into, (of value) (into: script body) (when? just before runing it? when is it "run"?)
            * is it ...
+        * Some kind of macro expantion
+        * When is it executed? (when OR at what stage. See : The mini-stages )
 
 * Materials (lego-able)
    * tfvars are there to plug. They are dififeern type of brick. Differtn material. Materials:
