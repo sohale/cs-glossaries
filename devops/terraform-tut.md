@@ -196,6 +196,9 @@ Steps:
 2. gradual (more and more vars turn from unknown into knwon 
 3. in the end, outputs
 
+( When? "direct variable interpolation in script body")
+
+
 * Each "Configuration" (one piece of configuration)
     * Their unity:
         * (separate configuraiotn chunks)
@@ -211,6 +214,8 @@ Steps:
    * hard-coded default
    * `.tfvars`
    * value
+   * (add: 
+
 
 * Source of values: see above: but now, as values
    * (hierarchy of "use" of values)
@@ -230,7 +235,7 @@ Steps:
    * tf file direct (hard-coded) value
    * the ... (the left side!)
 
-* Intemediate flow (input somehwere, and output somwehre else)
+* Intermediate flow (input somehwere, and output somwehre else)
 
 * Materials (lego-able)
    * tfvars are there to plug. They are dififeern type of brick. Differtn material. Materials:
