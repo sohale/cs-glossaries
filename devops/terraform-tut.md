@@ -248,6 +248,8 @@ Steps:
            * is it ...
         * Some kind of macro expantion
         * When is it executed? (when OR at what stage. See : The mini-stages )
+        * It is always fomr vars  . But is it enough to be from (input) variables? Beacuse if matter when it emerges, as known.
+            * The time it turned into known, will this time be "known before execusion"? etc.
 
 * Materials (lego-able)
    * tfvars are there to plug. They are dififeern type of brick. Differtn material. Materials:
