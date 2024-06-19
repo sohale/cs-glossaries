@@ -61,4 +61,9 @@ syntax. but for actual configuration managememnt:
 * https://en.m.wikipedia.org/wiki/CFEngine
 * see cfmtools on w
 * see https://en.m.wikipedia.org/wiki/Configuration_management
+* Basically any deccarative lamguage?
+    * by that virtue:
+        * sql
+* Badically any file format (readable and writable)
+    * IFC
 * 
