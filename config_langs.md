@@ -7,7 +7,7 @@ Syntaxes ( not the domain )
     * json variants: pjson, ejson
 
 * helm
-* ucl
+* ucl https://github.com/vstakhov/libucl
 * apple-thing
 * toml
 * misc
