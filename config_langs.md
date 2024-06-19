@@ -64,6 +64,10 @@ syntax. but for actual configuration managememnt:
 * Basically any deccarative lamguage?
     * by that virtue:
         * sql
+    * But not: css, html: they don replace or channel data
+        * 
 * Badically any file format (readable and writable)
     * IFC
-* 
+* Basically any serialisation encoding (json is js data scructure)
+* Runtime: Basically: ( amgular etc ).
+* Bash (aspects of): $"" pipe | ...
