@@ -7,6 +7,7 @@ Configuration Lamguages the provide data
 * helm
 * ucl
 * apple-thing
+* toml
 * misc
     * boring
         * xml
@@ -14,6 +15,7 @@ Configuration Lamguages the provide data
     * jenkins dsl
     * classic
         * dotenv
+        * dot ini
 * mine
     * chaintree
     * templators
