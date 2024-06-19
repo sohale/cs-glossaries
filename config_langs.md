@@ -1,5 +1,7 @@
 Configuration Lamguages the provide data
 
+Syntaxes ( not the domain )
+
 * json
     * yaml
     * json variants: pjson, ejson
@@ -21,9 +23,9 @@ Configuration Lamguages the provide data
     * templators
 
 Feature/requirements:
-Interpolation
-Schema & Validation
-Typed
+* Interpolation
+* Schema & Validation
+* Typed
 
 Style ideas:
 * recode (json) -- as code
@@ -44,3 +46,8 @@ Qualitative:
     * .
 
 
+Runtime replacement is binding:
+* angular, react
+
+All are functional
+You can trace content
