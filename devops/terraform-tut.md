@@ -328,6 +328,21 @@ stages
     * Never say variable. They dont vary!
 
 
+### Historical approach
+* Cloud Formation
+* UCL
+
+```mermaid
+Cloud Formation
+->
+a
+```
+
+### Axiomatic
+necessity / requirements (traching the roots of requirements)
+* Needs to be there invariant for a long time
+* Contrast with absense of tf
+
 [^©]: These interpretations, mental models and metaphors are originally by the author of this text.
       © Sohail Siadatnejad 2023--2024
 
