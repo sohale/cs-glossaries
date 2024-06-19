@@ -55,3 +55,8 @@ Runtime replacement is binding:
 
 All are functional
 You can trace content
+
+
+syntax. but for actual configuration managememnt:
+* https://en.m.wikipedia.org/wiki/CFEngine
+* cfmtools on w
