@@ -59,4 +59,6 @@ You can trace content
 
 syntax. but for actual configuration managememnt:
 * https://en.m.wikipedia.org/wiki/CFEngine
-* cfmtools on w
+* see cfmtools on w
+* see https://en.m.wikipedia.org/wiki/Configuration_management
+* 
