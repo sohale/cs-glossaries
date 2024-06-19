@@ -30,4 +30,15 @@ Qualitative:
 * human readable
 * human writable
 
+* Mymentalmap now:
+    * jason
+    * old
+    * modern hip new post 2013
+        * devops ppl
+            * helm
+        * 
+    * other popups that i didnt know
+        * toml
+    * .
+
 
