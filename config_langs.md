@@ -59,7 +59,7 @@ You can trace content
 
 syntax. but for actual configuration managememnt:
 * https://en.m.wikipedia.org/wiki/CFEngine
-* see cfmtools on w
+* see cfmtools on w : https://en.m.wikipedia.org/w/index.php?title=Comparison_of_open-source_configuration_management_software&diffonly=true
 * see https://en.m.wikipedia.org/wiki/Configuration_management
 * Basically any deccarative lamguage?
     * by that virtue:
