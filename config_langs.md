@@ -8,7 +8,7 @@ Syntaxes ( not the domain )
 
 * helm
 * ucl https://github.com/vstakhov/libucl
-* apple-thing
+* apple-thing https://github.com/apple/pkl
 * toml
 * misc
     * boring
