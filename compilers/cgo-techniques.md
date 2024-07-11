@@ -51,7 +51,11 @@ Meta: What it is about[^whatabout] vs genuine[^genuine-cgo] techniques.
 [^current-stack-only]: (todo) <!-- As consequences of current "Design". The Design = the currnt design, done deentralised by distributed efforts, each one for themselves, in competiion, and by market forces, -->
 
 
-## HW (CPU/GPU)
+## HW (CPU/GPU) Performance
+ISA vs Authentic.
+This includes hot-spot & runtime-profileing.
 
+### ISA PU Performance
+### Authentic PU Performance
 
 [^leansystem]: -
