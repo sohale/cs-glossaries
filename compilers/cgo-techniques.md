@@ -37,6 +37,11 @@ Meta: What it is about[^whatabout] vs genuine[^genuine-cgo] techniques.
       HW:
       * Pipelining. Without that?
 
+[^genuine-cgo]: Genuine CGO:
+    * trying multiple "performance hypothesis" lines (equivalent to speculations?)
+    * wrewer
+    * werwer
+
 ## CGO
 
 ## HW (CPU/GPU)
