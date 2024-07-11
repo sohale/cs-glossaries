@@ -9,6 +9,7 @@ Meta: What it is about[^whatabout] vs genuine[^genuine-cgo] techniques.
       2. The programming languages like C++, what will we miss in terms of speed (other than abstractions). (They are better than assembly, I know)
       
       About 1:
+      <!-- current-stack-only --> (todo) <!-- (also written below) As consequences of current "Design". The Design = the currnt design, done deentralised by distributed efforts, each one for themselves, in competiion, and by market forces, ... -->
       1. The wont miss cases (wont be missed by LS)
           * to trick CPU from the narrow compressed-code (ISA). (e.g. cache)
           * MLIR: streamlining of the
@@ -40,9 +41,15 @@ Meta: What it is about[^whatabout] vs genuine[^genuine-cgo] techniques.
 [^genuine-cgo]: Genuine CGO:
     * trying multiple "performance hypothesis" lines (equivalent to speculations?)
     * wrewer
-    * werwer
+    * (note that these ar enot individual techniques, ut themse, and more abstract technuiques)
 
 ## CGO
+### CGO Authentic Techniques
+### Meta CGO: Few abstract techniques
+#### Enable multiple hypothesis lines
+### CGO CSO[^current-stack-only] Techniques
+[^current-stack-only]: (todo) <!-- As consequences of current "Design". The Design = the currnt design, done deentralised by distributed efforts, each one for themselves, in competiion, and by market forces, -->
+
 
 ## HW (CPU/GPU)
 
