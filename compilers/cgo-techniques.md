@@ -1,7 +1,7 @@
 # CGO Techniques
 List of CGO & CPU techniques, and the categories of each.
 
-Meta: What it is about[^whatabout].
+Meta: What it is about[^whatabout] vs genuine[^genuine-cgo] techniques.
 
 [^whatabout]:
       ## What it is about
@@ -15,9 +15,10 @@ Meta: What it is about[^whatabout].
           * the instruciton-level paralelism?
           * legacy code
           * automatic optimisaiton so that the user does not have to "think".
-             * <!-- (alternatuve: use multiple realisaitons! one can be used to test antoher! test-level latching, runtime-level latching, etc) -->
-             * They want to have one reference of truth. <!-- nope. OO can do better. -->
+                * <!-- (alternatuve: use multiple realisaitons! one can be used to test antoher! test-level latching, runtime-level latching, etc) -->
+                * They want to have one reference of truth. <!-- nope. OO can do better. -->
           * Making old code, optimised for the new architecture (FORTRAN approach)
+          * Or the mmodule that connects to it does not have to think
 
       As consequence of the current design of the rest:
       * decided to use stack
