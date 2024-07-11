@@ -1,6 +1,9 @@
 # CGO Techniques
-List of CGO & CPU techniques, and the categories of each
+List of CGO & CPU techniques, and the categories of each.
 
+Meta: What it is about[^whatabout].
+
+[^whatabout]:
 1. In a LS[^leansystem] with macro & generative, do we miss them? beyond dev-comfort.
 2. The programming languages like C++, what will we miss in terms of speed (other than abstractions). (They are better than assembly, I know)
 
@@ -25,3 +28,5 @@ HW:
 
 ## HW (CPU/GPU)
 
+
+[^leansystem]: -
