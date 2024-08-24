@@ -21,3 +21,6 @@ LT is insensitive to negative values of f.
 
 Does it make it better for transient, too?
 
+### BVP vs IVP
+* IVP is about "unfolding". Is about causal. Is time-"evolution". Is "time"-evolution?
+
