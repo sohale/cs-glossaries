@@ -30,4 +30,7 @@ Fredholm alternative.
 Non-Self-adjoint (IVP) vs Self-adjoint (BVP).
 latter: Sturm-Liuoville.
 BVP leads to Spectral Theory(!) naturally: eingen-values and eigen-functions!
+Diffrerential operators, spectrum of.
+BVP: Singular measures ( delta functions ) (related to non-smooth?).
+Topological concepts: Index Theory, Elliptic Regularity.
 
