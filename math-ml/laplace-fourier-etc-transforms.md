@@ -34,4 +34,5 @@ Does it make it better for transient, too?
     * BVP: Singular measures ( delta functions ) (related to non-smooth?).
     * Topological concepts: Index Theory, Elliptic Regularity.
     * Sobolev Spaces $W^{k,p}( \Omega )$. The "weak" firmulation of PDEs.
+    * Dirichlet BVP. Neumann BVP.
     * What is: "Distribution Theory"?
