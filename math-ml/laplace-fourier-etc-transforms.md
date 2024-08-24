@@ -24,13 +24,13 @@ Does it make it better for transient, too?
 ### BVP vs IVP
 * IVP is about "unfolding". Is about causal. Is time-"evolution". Is "time"-evolution?
 
-To explore:
-Picard-Lindelöf theorem (Cauchy-Lipschitz).
-Fredholm alternative.
-Non-Self-adjoint (IVP) vs Self-adjoint (BVP).
-latter: Sturm-Liuoville.
-BVP leads to Spectral Theory(!) naturally: eingen-values and eigen-functions!
-Diffrerential operators, spectrum of.
-BVP: Singular measures ( delta functions ) (related to non-smooth?).
-Topological concepts: Index Theory, Elliptic Regularity.
+* To explore:
+    * Picard-Lindelöf theorem (Cauchy-Lipschitz).
+    * Fredholm alternative.
+    * Non-Self-adjoint (IVP) vs Self-adjoint (BVP).
+    * latter: Sturm-Liuoville.
+    * BVP leads to Spectral Theory(!) naturally: eingen-values and eigen-functions!
+    * Diffrerential operators, spectrum of.
+    * BVP: Singular measures ( delta functions ) (related to non-smooth?).
+    * Topological concepts: Index Theory, Elliptic Regularity.
 
