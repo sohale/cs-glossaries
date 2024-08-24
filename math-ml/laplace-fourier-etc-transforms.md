@@ -33,4 +33,4 @@ Does it make it better for transient, too?
     * Diffrerential operators, spectrum of.
     * BVP: Singular measures ( delta functions ) (related to non-smooth?).
     * Topological concepts: Index Theory, Elliptic Regularity.
-
+    * What is: "Distribution Theory"?
