@@ -3,6 +3,8 @@ My QM book.
 
 (My) intro to Quantum Mechanics:
 
+Chapter 1: Pre-M conceptualisations.
+
 How I charaacterise (intention/telos/reason-for-existeence/apriori-essense) this book:
 * The way I see it.
 * With my own confusions.
@@ -44,3 +46,19 @@ A bit confusing:
 (based on finite-dimensional [spectral theorem](https://en.wikipedia.org/wiki/Spectral_theorem#Hermitian_maps_and_Hermitian_matrices))
 
 [1]https://en.wikipedia.org/wiki/Hermitian_matrix#Properties
+
+## Chapter 2: New approach: Post-M conceptualisation
+
+#### The feels analysis
+
+The three feels:
+* State (normalised) (info): ψ (vector)
+    * probability-amplitude ( one element)
+    * base vectors in this ( info y?)
+* Observable Operator: physical: H (matrix)
+    * Time-Evolution operator is also observanle!
+    * base vectors in this: ...
+* Norm^2 of ψ: Probability
+* Measures ( dice ): usually scalar, can be discrete, finite
+
+
