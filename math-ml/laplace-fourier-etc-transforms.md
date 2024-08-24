@@ -36,3 +36,4 @@ Does it make it better for transient, too?
     * Sobolev Spaces $W^{k,p}( \Omega )$. The "weak" firmulation of PDEs.
     * Dirichlet BVP. Neumann BVP.
     * What is: "Distribution Theory"?
+    * Exponential of operators
