@@ -64,4 +64,7 @@ The three feels:
 The "statistical": ρ
 * Also: E{ X }
 
+Have a sense of population: many-body, "marginal pr", "merginal".
+(related to replica trick?)
 
+And operator 
