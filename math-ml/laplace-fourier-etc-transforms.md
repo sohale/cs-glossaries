@@ -28,7 +28,7 @@ Does it make it better for transient, too?
     * Picard-Lindelöf theorem (Cauchy-Lipschitz).
     * Fredholm alternative.
     * Non-Self-adjoint (IVP) vs Self-adjoint (BVP).
-    * latter: Sturm-Liuoville.
+    * Self-Adjoint Ooerators: Sturm-Liuoville.
     * BVP leads to Spectral Theory(!) naturally: eingen-values and eigen-functions!
     * Diffrerential operators, spectrum of.
     * BVP: Singular measures ( delta functions ) (related to non-smooth?).
