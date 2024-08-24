@@ -8,7 +8,7 @@ Laplace Transform (LT) holds (encodes) initial value.
 
 plus, it can be read out "easily" (coarse):
 
-$$ \lim s->\infty L{f(t)} $$
+$ \lim s->\infty L{f(t)} $
 
 Note that it is in $s$.
 Note that it gives a good sense and feel of LT.
