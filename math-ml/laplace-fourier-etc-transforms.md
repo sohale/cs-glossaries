@@ -1,7 +1,8 @@
 
 ## Laplace Transform
-Especially in comparison with Fourier Transform.
-Comparison between popularity in engineering (and control) versus in physics.
+* Especially in comparison with Fourier Transform.
+* Comparison between popularity in engineering (and control) versus in physics.
+* (to ask): LT, vs FT, vs Wavelet, vs Laguerre, etc
 
 ### Encodes initial values
 Laplace Transform (LT) holds (encodes) initial value.
