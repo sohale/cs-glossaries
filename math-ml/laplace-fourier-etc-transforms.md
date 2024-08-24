@@ -7,7 +7,7 @@
 ### Encodes initial values
 Laplace Transform (LT) holds (encodes) initial value.
 
-plus, it can be read out "easily" (coarse):
+plus, it can be read out "easily" (coarse) ie (extracted easily, explicitly, etc):
 
 $ \lim s->\infty L{f(t)} $
 
