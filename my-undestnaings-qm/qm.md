@@ -61,4 +61,7 @@ The three feels:
 * Norm^2 of ψ: Probability
 * Measures ( dice ): usually scalar, can be discrete, finite
 
+The "statistical": ρ
+* Also: E{ X }
+
 
