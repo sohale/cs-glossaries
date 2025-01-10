@@ -16,7 +16,7 @@ Also see overlapping lists: (mention JAX)
 
 ```mermaid
 timeline
-        title Frameworks
+        title Numerical & Matrix calculaiton Frameworks
         section 2020s D <br> Release Personal Tier
           Bullet 1 : sub-point 1a : sub-point 1b
                : sub-point 1c
@@ -28,9 +28,13 @@ timeline
         section 2010-2014 D <br> Release XYZ Tier
         section 2008-2010 D <br> Release XYZ Tier
         section 2000-2007 D <br> Release XYZ Tier
-        section 1990s D <br> Release XYZ Tier
+        # section 1990s D <br> Release XYZ Tier
         # section 1980s D <br> Release XYZ Tier
+        section Pre-2000s D <br> Release XYZ Tier
+          Bullet 1 : sub-point 1a : sub-point 1b
+               : sub-point 1c
 ```
+
 ### Pool:
 * ONNX
 * Triton
