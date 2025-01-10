@@ -36,7 +36,7 @@ timeline
 ```
 
 
-| lib.             | Year  | 👀 o.s.      | cmp.   | plat.            | Supported Platforms | feat.         | depn.                | diff.                              |
+| lib.             | Year  | 👀 o.s.      | c.   | plat.            | Supported Platforms | feat.         | depn.                | diff.                              |
 |------------------|-------|--------------|--------|------------------|---------------------|---------------|----------------------|-------------------------------------|
 | TensorFlow       | 2015  | 2015         | 🅶     | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🧠🔄𝕄         | NumPy, Keras, XLA    | TensorFlow 2 has eager execution    |
 | PyTorch          | 2016  | 2016         | 𝐹     | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🧠🔄𝕄         | NumPy                | Dynamic vs. static computation graph|
@@ -74,7 +74,7 @@ timeline
 ### Headings Legend:
 - lib. : Framework/Library
 - 👀 o.s. : Open-Source
-- cmp. : Company
+- c. : Company
 - plat. : Target Platforms
 - feat. : Features
 - depn. : Dependencies
