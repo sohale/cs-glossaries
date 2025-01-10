@@ -164,7 +164,7 @@ Differentiation and Training Support Table
 | **Modular**     | Yes              | ✔           |                  |
 | *OpenXLA*       | No               | ✘           | ✔                |
 | **Triton**      | Yes              | ✔           |                  |
-| *Modulus*       | No               | ✘           | ✔                |
+| *Modulus*       | No               | ✘           | ✔  (wrong?)      |
 | **DeepSpeed**   | Yes              | ✔           |                  |
 | *IREE*          | No               | ✘           | ✔                |
 | *MLIR*          | No               | ✘           | ✔                |
@@ -183,10 +183,10 @@ Differentiation and Training Support Table
 | *cuDNN*         | No               | ✘           | ✔                |
 | *Caffe*         | No               | ✘           | ✔                |
 | **Theano**      | Yes              | ✔           |                  |
-| *cuBLAS*        | No               | ✘           | ✔                |
+| *cuBLAS*        | No               | ✘           | ✔   not DL       |
 | *GEMM*          | No               | ✘           | ✔                |
 | **Torch**       | No               | ✔           |                  |
-| *BLAS*          | No               | ✘           | ✔                |
+| *BLAS*          | No               | ✘           | ✔   not DL       |
 
 
 
