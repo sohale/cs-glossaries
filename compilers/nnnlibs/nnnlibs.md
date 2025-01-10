@@ -36,23 +36,23 @@ timeline
 ```
 
 
-| Framework/Library | Year | Open-Source | Company | Target Platforms | Supported Platforms | Features | Dependencies | Differences |
-|-------------------|------|-------------|---------|------------------|---------------------|----------|--------------|-------------|
-| TensorFlow        | 2015 | 2015        | 🅶      | 🟢𝔾🟤.⚪️c        | 🟢𝔾🟤.⚪️c 🟠js      | 🧠🔄𝕄         | NumPy, Keras, XLA | TensorFlow 2 has eager execution |
-| PyTorch           | 2016 | 2016        | 𝐹      | 🟢𝔾⚪️c            | 🟢𝔾⚪️c 🟠js        | 🧠🔄𝕄         | NumPy              | Dynamic vs. static computation graph |
-| JAX               | 2018 | 2018        | 🅶      | 🟢𝔾🟤.⚪️c        | 🟢𝔾🟤.⚪️c 🟠js      | 🔄𝕄🧠         | NumPy, XLA          | Focuses on composable function transformations |
-| XLA               | 2017 | 2017        | 🅶      | 🟢𝔾🟤.⚪️c        | 🟢𝔾🟤.⚪️c           | 🔄🔧            | TensorFlow, JAX     | TensorFlow's compiler backend |
-| OpenVINO          | 2018 | 2018        | ℹ️      | ⚪️c🟢𝔾            | ⚪️c🟢𝔾🟠js          | 🧠🔧          | TensorFlow, ONNX    | Optimized for Intel hardware |
-| IREE              | 2019 | 2019        | 🅶      | 🟢𝔾⚪️c            | 🟢𝔾⚪️c🟠js          | 🔧            | MLIR, TensorFlow    | Focus on deployment on various hardware |
-| ONNX              | 2017 | 2017        | 🅻      | 🟢𝔾⚪️c            | 🟢𝔾⚪️c🟠js          | 🔄🔧          | -                  | Model exchange format between frameworks |
-| GEMMS             | -    | -           | 👀      | 🟢𝔾⚪️c            | 🟢𝔾⚪️c🟠js          | 𝕄            | -                  | - |
-| cuDNN             | 2014 | 2016        | 🅽      | 🟢𝔾                | 🟢𝔾                 | 🧠🔧          | CUDA                | Optimized for NVIDIA GPUs |
-| cuBLAS            | 2010 | 2010        | 🅽      | 🟢𝔾                | 🟢𝔾                 | 𝕄🔧         | CUDA                | Optimized for NVIDIA GPUs |
-| BLAS              | 1979 | -           | 👀      | ⚪️c                | ⚪️c🟠js             | 𝕄            | -                  | - |
-| MLIR              | 2019 | 2019        | 🅶      | 🟢𝔾🟤.⚪️c        | 🟢𝔾🟤.⚪️c🟠js      | 🔧            | -                  | Not tied to any specific framework |
-| Triton            | 2021 | 2021        | 👀      | 🟢𝔾                | 🟢𝔾                 | 🧠🔧          | CUDA                | Optimized for GPUs |
-| TensorFlow JS     | 2018 | 2018        | 🅶      | 🟠js               | 🟠js                | 🧠             | TensorFlow          | TensorFlow for JavaScript |
-| TF Probability    | 2018 | 2018        | 🅶      | 🟢𝔾🟤.⚪️c        | 🟢𝔾🟤.⚪️c🟠js      | 🔄🎲𝒫         | TensorFlow          | Extension for probabilistic programming |
+| Framework/Library | Year  | Open-Source | Company | Target Platforms | Supported Platforms | Features | Dependencies | Differences |
+|-------------------|-------|-------------|---------|------------------|---------------------|----------|--------------|-------------|
+| TensorFlow        | 2015  | 2015        | 🅶      | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🧠🔄𝕄         | NumPy, Keras, XLA | TensorFlow 2 has eager execution |
+| PyTorch           | 2016  | 2016        | 𝐹      | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🧠🔄𝕄         | NumPy              | Dynamic vs. static computation graph |
+| JAX               | 2018  | 2018        | 🅶      | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🔄𝕄🧠         | NumPy, XLA          | Focuses on composable function transformations |
+| XLA               | 2017  | 2017        | 🅶      | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c       | 🔄🔧            | TensorFlow, JAX     | TensorFlow's compiler backend |
+| OpenVINO          | 2018  | 2018        | ℹ️     | ⚪️c 🟢𝔾           | ⚪️c 🟢𝔾 🟠js      | 🧠🔧          | TensorFlow, ONNX    | Optimized for Intel hardware |
+| IREE              | 2019  | 2019        | 🅶      | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🔧            | MLIR, TensorFlow    | Focus on deployment on various hardware |
+| ONNX              | 2017  | 2017        | 🅻      | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🔄🔧          | -                  | Model exchange format between frameworks |
+| GEMMS             | -     | -           | 👀      | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 𝕄            | -                  | - |
+| cuDNN             | 2014  | 2016        | 🅽      | 🟢𝔾               | 🟢𝔾               | 🧠🔧          | CUDA                | Optimized for NVIDIA GPUs |
+| cuBLAS            | 2010  | 2010        | 🅽      | 🟢𝔾               | 🟢𝔾               | 𝕄🔧         | CUDA                | Optimized for NVIDIA GPUs |
+| BLAS              | 1979  | -           | 👀      | ⚪️c               | ⚪️c 🟠js          | 𝕄            | -                  | - |
+| MLIR              | 2019  | 2019        | 🅶      | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🔧            | -                  | Not tied to any specific framework |
+| Triton            | 2021  | 2021        | 👀      | 🟢𝔾               | 🟢𝔾               | 🧠🔧          | CUDA                | Optimized for GPUs |
+| TensorFlow JS     | 2018  | 2018        | 🅶      | 🟠js              | 🟠js              | 🧠             | TensorFlow          | TensorFlow for JavaScript |
+| TF Probability    | 2018  | 2018        | 🅶      | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🔄🎲𝒫         | TensorFlow          | Extension for probabilistic programming |
 
 ### Legend:
 - 🅶: Google
