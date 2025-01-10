@@ -156,6 +156,38 @@ Differentiation and Training Support Table
 | MXNet      | Yes              | ✔           |                 |
 | Theano     | Yes              | ✔           |                 |
 
+### Table 3: Inference-only vs. Training
+Differentiation and Training Support Table
+
+| Framework       | Differentiation | DL Training | Inference-only? |
+|-----------------|------------------|-------------|------------------|
+| **Modular**     | Yes              | ✔           |                  |
+| *OpenXLA*       | No               | ✘           | ✔                |
+| **Triton**      | Yes              | ✔           |                  |
+| *Modulus*       | No               | ✘           | ✔                |
+| **DeepSpeed**   | Yes              | ✔           |                  |
+| *IREE*          | No               | ✘           | ✔                |
+| *MLIR*          | No               | ✘           | ✔                |
+| **JAX**         | Yes              | ✔           |                  |
+| *OpenVINO*      | No               | ✘           | ✔                |
+| *TensorFlow JS* | No               | ✘           | ✔                |
+| **TF Probability** | Yes           | ✔           |                  |
+| **XLA**         | Yes              | ✔           |                  |
+| *ONNX*          | No               | ✘           | ✔                |
+| **Caffe2**      | No               | ✔           |                  |
+| **PyTorch**     | Yes              | ✔           |                  |
+| **PaddlePaddle** | Yes             | ✔           |                  |
+| **TensorFlow**  | Yes              | ✔           |                  |
+| **Keras**       | Yes              | ✔           |                  |
+| **Apache MXNet** | Yes             | ✔           |                  |
+| *cuDNN*         | No               | ✘           | ✔                |
+| *Caffe*         | No               | ✘           | ✔                |
+| **Theano**      | Yes              | ✔           |                  |
+| *cuBLAS*        | No               | ✘           | ✔                |
+| *GEMM*          | No               | ✘           | ✔                |
+| **Torch**       | No               | ✔           |                  |
+| *BLAS*          | No               | ✘           | ✔                |
+
 
 
 ### Pool:
