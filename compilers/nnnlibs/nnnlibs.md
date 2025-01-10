@@ -10,4 +10,12 @@ Libraries and Frameworks that enhance numerical programming in specific or gener
 * JAX
 * IREE
 * MLIR itself (not LLVM)
+* Tensorflow (especially linear algebra)
+    * TFJS
+* Tensorflow Probbility Distributions
+* PyTorch
+* GEMMS
+* cuX (various)
 
+CPU Numerical / matrix: (Numpy-extensons)
+* Numpy
