@@ -88,56 +88,53 @@ timeline
 - **diff.**: Differences
 
 ### Table 2
+
 | lib.             | Year  | OSS  | dis. | c.   | feat.         | Target        | Supported                | depn.                | Special Platforms                     | diff.                              |
-|------------------|-------|------|----|------|---------------|--------------|-------------------------|----------------------|---------------------------------------|--------------------------------------------------|
-| Modular          | 2023  | ✔    | -         | 🔥   | 🔧 🧠        | 🟢𝔾 🟤T     | intel, arm, R5           | Custom compiler, Python | OpenCL                               | High-performance ML and Python-like programming |
-| Triton           | 2021  | ✔    | -         | ❁   | 🔧 🧠        | 🟢𝔾 🟤T     | NVidia                   | CUDA                  | N/A                                 | Optimized for GPUs                  |
-| Modulus          | 2021  | -    | -         | 🅽   | 🧠           | 🟢𝔾 🟤T     | NVidia                   | CUDA                  | N/A                                 | Physics-based NN                    |
-| DeepSpeed        | 2020  | ✔    | -         | 🅼   | 🧠           | 🟢𝔾 🟤T     | NVidia                   | PyTorch               | ROCm                                | Large-scale model training          |
-| IREE             | 2019  | ✔    | -         | 👀   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, ML frameworks | Vulkan, OpenCL                       | ML compilation & runtime; focus on deployment on various hardware |
-| MLIR             | 2019  | ✔    | -         | 👀   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | Vulkan, OpenCL                       | Not tied to any specific framework  |
-| JAX              | 2018  | ✔    | -         | 👀   | 🏂 🔢        | 🟢𝔾 🟤T     | intel, arm, R5           | NumPy, XLA            | OpenCL, Vulkan                       | Composable function transformations; NN, autodiff, matrix ops |
-| OpenVINO         | 2018  | ✔    | -         | ℹ️   | 🔧 🧠        | 🟢𝔾 🟤T     | intel                    | Intel hardware         | OpenCL                               | Optimized for Intel hardware; inference framework |
-| TensorFlow JS    | 2018  | ✔    | -         | 👀   | 🧠           | 🟠js         | Browser                  | TensorFlow            | JS                                  | TensorFlow for JavaScript; ML in-browser, training & inference |
-| TF Probability   | 2018  | ✔    | -         | 👀   | 🏂 🎲        | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow            | N/A                                 | Extension for probabilistic programming |
-| OpenXLA          | 2022  | ✔    | -         | 👀   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, PyTorch, JAX | Vulkan                               | Unified compiler ecosystem for ML   |
-| XLA              | 2017  | 2022 | -         | 👀   | 🔧 🏂        | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, JAX       | Vulkan                               | TensorFlow's compiler backend       |
-| ONNX             | 2017  | ✔    | -         | 👀   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | N/A                                 | Model exchange format between frameworks |
-| PyTorch          | 2016  | ✔    | -         | 👀   | 🧠 🏂        | 🟢𝔾 🟤T     | intel, arm, R5           | NumPy, cuDNN, cuBLAS  | ROCm, Vulkan                         | Dynamic vs. static computation graph; NN, autodiff, matrix ops |
-| PaddlePaddle     | 2016  | ✔    | -         | 👀   | 🧠           | 🟢𝔾 🟤T     | intel, arm               | Python                | OpenCL                               | Comprehensive DL framework          |
-| TensorFlow       | 2015  | 2015 | -         | 👀   | 🏂 🔢 🧠     | 🟢𝔾 🟤T     | intel, arm, R5           | Keras, NumPy, XLA     | OpenCL, Vulkan, JS                    | TensorFlow 2 has eager execution; NN, autodiff, matrix ops, prob. programming |
-| Keras            | 2015  | ✔    | -         | 👀   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, Theano    | OpenCL                               | High-level NN API                   |
-| Apache MXNet     | 2015  | ✔    | -         | 👀   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | Multi-lang support     | OpenCL                               | Scalable, flexible DL               |
-| Caffe2           | 2017  | ✔    | 2020      | 👀   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | PyTorch               | ROCm                                | Production-ready deployment         |
-| Theano           | 2007  | 2008 | 2017      | 👀   | 🔢 🧠        | 🟢𝔾 🟤T     | intel, arm, R5           | -                     | OpenCL                               | Symbolic computation, pioneering DL |
-| cuDNN            | 2014  | -    | -         | 🅽   | 🔧 🧠        | 🟢𝔾 🟤T     | -                       | CUDA                  | N/A                                 | GPU-accelerated deep NN             |
-| cuBLAS           | 2007  | -    | -         | 🅽   | 🔧 🔢        | 🟢𝔾 🟤T     | -                       | CUDA                  | N/A                                 | GPU-accelerated linear algebra      |
-| GEMM             | -     | -    | -         | 🅽   | 🔢           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | N/A                                 | General Matrix Multiplication       |
-| Torch            | 2002  | 2002 | 2018      | 👀   | 🔢 🧠        | 🟢𝔾 🟤T     | intel, arm               | Lua, NumPy            | N/A                                 | Early DL framework with Lua         |
-| BLAS             | 1979  | -    | -         | 👀   | 🔢           | ⚪️c         | intel, arm               | -                    | N/A                                 | Foundational linear algebra library |
+|------------------|-------|------|------|------|---------------|--------------|--------------------------|----------------------|---------------------------------------|------------------------------------|
+| Modular          | 2023  | ✔    | -    | 🔥   | 🔧 🧠        | 🟢𝔾 🟤T     | intel, arm, R5           | Custom compiler, Python | OpenCL                               | High-performance ML and Python-like programming |
+| Triton           | 2021  | ✔    | -    | ❁   | 🔧 🧠        | 🟢𝔾 🟤T     | NVIDIA                   | CUDA                  | N/A                                  | Optimized for GPUs                  |
+| Modulus          | 2021  | -    | -    | 🅽   | 🧠           | 🟢𝔾 🟤T     | NVIDIA                   | CUDA                  | N/A                                  | Physics-based NN                    |
+| DeepSpeed        | 2020  | ✔    | -    | 🅼   | 🧠           | 🟢𝔾 🟤T     | NVIDIA                   | PyTorch               | ROCm                                 | Large-scale model training          |
+| IREE             | 2019  | ✔    | -    | 👀   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, ML frameworks | Vulkan, OpenCL                       | ML compilation & runtime; focus on deployment on various hardware |
+| MLIR             | 2019  | ✔    | -    | 🅶   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | Vulkan, OpenCL                       | Not tied to any specific framework  |
+| JAX              | 2018  | ✔    | -    | 🅶   | 🏂 🔢        | 🟢𝔾 🟤T     | intel, arm, R5           | NumPy, XLA            | OpenCL, Vulkan                       | Composable function transformations; NN, autodiff, matrix ops |
+| OpenVINO         | 2018  | ✔    | -    | ℹ️   | 🔧 🧠        | 🟢𝔾 🟤T     | intel                    | Intel hardware        | OpenCL                               | Optimized for Intel hardware; inference framework |
+| TensorFlow JS    | 2018  | ✔    | -    | 🅶   | 🧠           | 🟠js         | Browser                  | TensorFlow            | JS                                   | TensorFlow for JavaScript; ML in-browser, training & inference |
+| TF Probability   | 2018  | ✔    | -    | 🅶   | 🏂 🎲        | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow            | N/A                                  | Extension for probabilistic programming |
+| OpenXLA          | 2022  | ✔    | -    | 👀   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, PyTorch, JAX | Vulkan                               | Unified compiler ecosystem for ML   |
+| XLA              | 2017  | 2022 | -    | 🅶   | 🔧 🏂        | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, JAX       | Vulkan                               | TensorFlow's compiler backend       |
+| ONNX             | 2017  | ✔    | -    | 🐧   | 🔧           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | N/A                                  | Model exchange format between frameworks |
+| PyTorch          | 2016  | ✔    | -    | 𝐹   | 🧠 🏂        | 🟢𝔾 🟤T     | intel, arm, R5           | NumPy, cuDNN, cuBLAS  | ROCm, Vulkan                         | Dynamic vs. static computation graph; NN, autodiff, matrix ops |
+| PaddlePaddle     | 2016  | ✔    | -    | 🐾   | 🧠           | 🟢𝔾 🟤T     | intel, arm               | Python                | OpenCL                               | Comprehensive DL framework          |
+| TensorFlow       | 2015  | 2015 | -    | 🅶   | 🏂 🔢 🧠     | 🟢𝔾 🟤T     | intel, arm, R5           | Keras, NumPy, XLA     | OpenCL, Vulkan, JS                   | TensorFlow 2 has eager execution; NN, autodiff, matrix ops, prob. programming |
+| Keras            | 2015  | ✔    | -    | 🅶   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, Theano    | OpenCL                               | High-level NN API                   |
+| Apache MXNet     | 2015  | ✔    | -    | 🐧   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | Multi-lang support    | OpenCL                               | Scalable, flexible DL               |
+| Caffe2           | 2017  | ✔    | 2020  | 𝐹   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | PyTorch               | ROCm                                 | Production-ready deployment         |
+| Theano           | 2007  | 2008 | 2017  | 👀   | 🔢 🧠        | 🟢𝔾 🟤T     | intel, arm, R5           | -                     | OpenCL                               | Symbolic computation, pioneering DL |
+| cuDNN            | 2014  | -    | -    | 🅽   | 🔧 🧠        | 🟢𝔾 🟤T     | -                       | CUDA                  | N/A                                  | GPU-accelerated deep NN             |
+| cuBLAS           | 2007  | -    | -    | 🅽   | 🔧 🔢        | 🟢𝔾 🟤T     | -                       | CUDA                  | N/A                                  | GPU-accelerated linear algebra      |
+| GEMM             | -     | -    | -    | 🅽   | 🔢           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | N/A                                  | General Matrix Multiplication       |
+| Torch            | 2002  | 2002 | 2018  | 👀   | 🔢 🧠        | 🟢𝔾 🟤T     | intel, arm               | Lua, NumPy            | N/A                                  | Early DL framework with Lua         |
+| BLAS             | 1979  | -    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | -                    | N/A                                  | Foundational linear algebra library |
 
 ### Legend:
-- **👀**: Open Source or Open Source Company
 - **🅼**: Microsoft
 - **ℹ️**: Intel
 - **🅽**: NVIDIA
 - **❁**: OpenAI
 - **🔥**: Modular AI
-- **✔**: Open-source from inception
-- **🟢𝔾**: GPU
-- **🟤T**: TPU
-- **🟠js**: JavaScript
-- **🔢𝕄**: Matrix operations
-- **🏂**: Auto-differentiation (Differential Programming)
-- **🔧**: Compiler or JIT
-- **🎲𝒫**: Probabilistic programming
+- **🅶**: Google
+- **𝐹**: Meta (Facebook)
+- **🐧**: Linux Foundation
+- **🐾**: Baidu
+- **👀**: Independent Open Source
 
 ### Headings Legend:
 - **lib.**: Framework/Library
 - **Year**: Year the project started
 - **OSS**: Open-Source (✔ if from inception, year otherwise)
-- **dis.** Discontinued in year (`Discont.?`). Indicates whether the project is discontinued (Year if discontinued, `-` if active)
-- **c.**: Company
+- **dis.**: Discontinued in year (`Discont.?`). Indicates whether the project is discontinued (Year if discontinued, `-` if active)
+- **c.**: Supporting Company
 - **feat.**: Features (symbols only, e.g., 🔧, 🧠, etc.)
 - **Target**: Target Platform (symbolic labels: GPU, TPU, NPU, etc.)
 - **Supported**: Additional supported platforms (text descriptions of hardware like Intel, ARM, RISC-V)
