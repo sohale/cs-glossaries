@@ -36,9 +36,10 @@ timeline
 ```
 
 
+
 | lib.             | Year  | 👀 o.s.      | c.   | Target            | Supported       | feat.         | depn.                | diff.                              |
 |------------------|-------|--------------|--------|------------------|----------------|---------------|----------------------|-------------------------------------|
-| Triton           | 2021  | 2021         | 👀     | 🟢𝔾               | 🟢𝔾               | 🧠 🔧          | CUDA                 | Optimized for GPUs                  |
+| Triton           | 2021  | 2021         | ❁     | 🟢𝔾               | 🟢𝔾               | 🧠 🔧          | CUDA                 | Optimized for GPUs                  |
 | IREE             | 2019  | 2019         | 🅶     | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🔧            | MLIR, TensorFlow     | Focus on deployment on various hardware|
 | MLIR             | 2019  | 2019         | 🅶     | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🔧            | -                    | Not tied to any specific framework  |
 | JAX              | 2018  | 2018         | 🅶     | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🏂 🔢𝕄 🧠          | NumPy, XLA           | Focuses on composable function transformations|
@@ -52,34 +53,38 @@ timeline
 | cuDNN            | 2014  | 2016         | 🅽     | 🟢𝔾               | 🟢𝔾               | 🧠 🔧          | CUDA                 | Optimized for NVIDIA GPUs           |
 | cuBLAS           | 2010  | 2010         | 🅽     | 🟢𝔾               | 🟢𝔾               | 🔢𝕄 🔧         | CUDA                 | Optimized for NVIDIA GPUs           |
 | BLAS             | 1979  | -            | 👀     | ⚪️c               | ⚪️c 🟠js          | 🔢𝕄            | -                    | -                                   |
-| GEMMS            | -     | -            | 👀     | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🔢𝕄            | -                    | -                                   |
+| GEMMA            | -     | -            | 👀     | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🔢𝕄            | -                    | -                                   |
 
 ### Legend:
-- 🅶: Google
-- 𝐹: Meta (Facebook)
-- ℹ️: Intel
-- 🅻: Linux Foundation
-- 🅽: NVIDIA
-- 👀: Open Source
-- 🟢𝔾: GPU
-- 🟤.: TPU
-- ⚪️c: CPU
-- 🟠js: JavaScript
-- 🧠 : Neural networks
-- 🔢𝕄: Matrix operations
-- 🏂 : Auto-differentiation (Differential Programming)
-- 🔧: Compilation
-- 🎲𝒫: Probabilistic programming
+- **🅶**: Google
+- **𝐹**: Meta (Facebook)
+- **ℹ️**: Intel
+- **🅻**: Linux Foundation
+- **🅽**: NVIDIA
+- **❁**: OpenAI
+- **👀**: Open Source
+- **🟢𝔾**: GPU
+- **🟤.**: TPU
+- **⚪️c**: CPU
+- **🟠js**: JavaScript
+- **🧠**: Neural networks
+- **🔢𝕄**: Matrix operations
+- **🏂**: Auto-differentiation (Differential Programming)
+- **🔧**: Compilation
+- **🎲𝒫**: Probabilistic programming
 
 ### Headings Legend:
-- lib. : Framework/Library
-- 👀 o.s. : Open-Source
-- c. : Company
-- Target : Target Platofrm originally inended (plat.)
-- Supported : Suppoerted Platforms later added, but not the main or originally intended.
-- feat. : Features
-- depn. : Dependencies
-- diff. : Differences
+- **lib.**: Framework/Library
+- **Year**: Year the project started
+- **👀 o.s.**: Open-Source
+- **c.**: Company
+- **Target**: Target Platform originally intended
+- **Supported**: Supported Platforms later added
+- **feat.**: Features
+- **depn.**: Dependencies
+- **diff.**: Differences
+
+
 
 ### Pool:
 * ONNX
