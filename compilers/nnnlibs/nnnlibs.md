@@ -4,6 +4,8 @@ Libraries and Frameworks that enhance numerical programming in specific or gener
 
 Key example: JAX
 
+Key aspects:
+* dependency (repliance), timeline, company
 Key questions:
 * What relies on what (Tensorflow is an engine? or does it reply on ...)
 * OpenVINO has been around?
