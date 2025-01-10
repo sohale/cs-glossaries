@@ -4,6 +4,12 @@ Libraries and Frameworks that enhance numerical programming in specific or gener
 
 Key example: JAX
 
+Key questions:
+* What relies on what (Tensorflow is an engine? or does it reply on ...)
+* OpenVINO has been around?
+    * Their Timeline
+    * Surprises about old packages keep happening: VTM, OpenVINO are surprisingly old
+
 Also see overlapping lists: (mention JAX)
 * https://github.com/sohale/cs-glossaries/blob/f250c3531b84a80e0c147cb43aa3de96c1009318/probabilistic-programming/probabilistic-programming.md?plain=1#L45
 * https://github.com/sohale/cs-glossaries/blob/f250c3531b84a80e0c147cb43aa3de96c1009318/python/high-performance-python.md?plain=1#L5
