@@ -36,23 +36,42 @@ timeline
 ```
 
 
-| Framework/Library | Year Started | Open-Sourced Year | Supporting Company | Target Platforms                      | Platforms Supported                             | Key Features                                    | Dependencies                                 | Key Differences                               |
-|-------------------|--------------|-------------------|--------------------|----------------------------------------|------------------------------------------------|------------------------------------------------|----------------------------------------------|-----------------------------------------------|
-| TensorFlow        | 2015         | 2015              | Google             | TPU, GPU, CPU                          | GPU, TPU, CPU: ARM, CPU: Intel, js             | Neural networks, matrix operations, auto-diff  | Numpy, Keras, XLA                            | TensorFlow 2 has eager execution              |
-| PyTorch           | 2016         | 2016              | Meta               | GPU, CPU                               | GPU, CPU: ARM, CPU: Intel                      | Neural networks, auto-diff, dynamic computation | Numpy                                         | Dynamic vs. static computation graph          |
-| JAX               | 2018         | 2018              | Google             | GPU, TPU, CPU                          | GPU, TPU, CPU: ARM, CPU: Intel, js             | Auto-diff, linear algebra, neural networks     | Numpy, XLA                                    | Focuses on composable function transformations|
-| XLA               | 2017         | 2017              | Google             | TPU, GPU, CPU                          | GPU, TPU, CPU: ARM, CPU: Intel                 | Compilation for deep learning models           | TensorFlow, JAX                               | TensorFlow's compiler backend                 |
-| OpenVINO          | 2018         | 2018              | Intel              | CPU, GPU, VPU                          | GPU, CPU: Intel, CPU: ARM, VPU                 | Neural networks, inference optimization        | TensorFlow, ONNX                             | Optimized for Intel hardware                  |
-| IREE              | 2019         | 2019              | Google             | GPU, CPU                               | GPU, CPU: ARM, CPU: Intel                      | Compilation for ML models                      | MLIR, TensorFlow                             | Focus on deployment on various hardware       |
-| ONNX              | 2017         | 2017              | Linux Foundation   | GPU, CPU                               | GPU, CPU: ARM, CPU: Intel                      | Interoperability of AI models                  | -                                             | Model exchange format between frameworks      |
-| GEMMS             | -            | -                 | Open Source        | GPU, CPU                               | GPU, CPU: ARM, CPU: Intel                      | Matrix operations                              | -                                             | -                                             |
-| cuDNN             | 2014         | 2016              | NVIDIA             | GPU                                    | GPU                                            | Neural networks, deep learning                 | CUDA                                           | Optimized for NVIDIA GPUs                     |
-| cuBLAS            | 2010         | 2010              | NVIDIA             | GPU                                    | GPU                                            | BLAS operations                                | CUDA                                           | Optimized for NVIDIA GPUs                     |
-| BLAS              | 1979         | -                 | Open Source        | CPU                                    | CPU: ARM, CPU: Intel                           | Basic linear algebra                           | -                                             | -                                             |
-| MLIR              | 2019         | 2019              | Google             | CPU, GPU, TPU                          | CPU: ARM, CPU: Intel, GPU, TPU                 | Intermediate representation for compilers      | -                                             | Not tied to any specific framework            |
-| Triton            | 2021         | 2021              | OpenAI             | GPU                                    | GPU                                            | Optimized deep learning model deployment       | CUDA                                           | Optimized for GPUs                            |
-| TensorFlow JS     | 2018         | 2018              | Google             | Web                                    | js                                             | Neural networks in JavaScript                  | TensorFlow                                    | TensorFlow for JavaScript                     |
-| TensorFlow Probability Distributions | 2018 | 2018 | Google | TPU, GPU, CPU | TPU, GPU, CPU: ARM, CPU: Intel | Probabilistic programming, statistical modeling | TensorFlow | Extension for probabilistic programming |
+| Framework/Library | Year | Open-Source | Company | Target Platforms | Supported Platforms | Features | Dependencies | Differences |
+|-------------------|------|-------------|---------|------------------|---------------------|----------|--------------|-------------|
+| TensorFlow        | 2015 | 2015        | 🅶      | 🟢🟤🔵            | 🟢🟤🔵 🟠           | 🧠📊🔄          | NumPy, Keras, XLA | TensorFlow 2 has eager execution |
+| PyTorch           | 2016 | 2016        | 🅼      | 🟢🔵              | 🟢🔵 🟠             | 🧠🔄📊          | NumPy              | Dynamic vs. static computation graph |
+| JAX               | 2018 | 2018        | 🅶      | 🟢🟤🔵            | 🟢🟤🔵 🟠           | 🔄📊🧠          | NumPy, XLA          | Focuses on composable function transformations |
+| XLA               | 2017 | 2017        | 🅶      | 🟢🟤🔵            | 🟢🟤🔵             | 🔄🔧            | TensorFlow, JAX     | TensorFlow's compiler backend |
+| OpenVINO          | 2018 | 2018        | 🅸      | 🔵🔵🔵            | 🔵🟠               | 🧠🔧            | TensorFlow, ONNX    | Optimized for Intel hardware |
+| IREE              | 2019 | 2019        | 🅶      | 🟢🔵              | 🔵🟠               | 🔧            | MLIR, TensorFlow    | Focus on deployment on various hardware |
+| ONNX              | 2017 | 2017        | 🅻      | 🟢🔵              | 🟢🔵🟠             | 🔄🔧            | -                  | Model exchange format between frameworks |
+| GEMMS             | -    | -           | 🅾      | 🟢🔵              | 🟢🔵🟠             | 📊            | -                  | - |
+| cuDNN             | 2014 | 2016        | 🅽      | 🟢                | 🟢                 | 🧠🔧          | CUDA                | Optimized for NVIDIA GPUs |
+| cuBLAS            | 2010 | 2010        | 🅽      | 🟢                | 🟢                 | 📊🔧          | CUDA                | Optimized for NVIDIA GPUs |
+| BLAS              | 1979 | -           | 🅾      | 🔵                | 🔵🟠               | 📊            | -                  | - |
+| MLIR              | 2019 | 2019        | 🅶      | 🟢🟤🔵            | 🟢🟤🔵🟠           | 🔧            | -                  | Not tied to any specific framework |
+| Triton            | 2021 | 2021        | 🅾      | 🟢                | 🟢                 | 🧠🔧          | CUDA                | Optimized for GPUs |
+| TensorFlow JS     | 2018 | 2018        | 🅶      | 🌐                | 🟠                 | 🧠             | TensorFlow          | TensorFlow for JavaScript |
+| TF Probability    | 2018 | 2018        | 🅶      | 🟤🟢🔵            | 🟤🟢🔵🟠           | 🔄🔢            | TensorFlow          | Extension for probabilistic programming |
+
+### Legend:
+- 🅶: Google
+- 🅼: Meta
+- 🅸: Intel
+- 🅻: Linux Foundation
+- 🅽: NVIDIA
+- 🅾: Open Source
+- 🟢: GPU
+- 🟤: TPU
+- 🔵: CPU
+- 🟠: js (JavaScript)
+- 🌐: Web
+- 🧠: Neural networks
+- 📊: Matrix operations
+- 🔄: Auto-differentiation
+- 🔧: Compilation
+- 🔢: Probabilistic programming
+
 
 ### Pool:
 * ONNX
