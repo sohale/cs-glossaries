@@ -88,8 +88,8 @@ timeline
 - **diff.**: Differences
 
 ### Table 2
-| lib.             | Year  | OSS  | Discont.? | c.   | feat.         | Target        | Supported                | depn.                | Special Platforms                     | diff.                              |
-|------------------|-------|------|-----------|------|---------------|--------------|-------------------------|----------------------|---------------------------------------|-------------------------------------|
+| lib.             | Year  | OSS  | dis. | c.   | feat.         | Target        | Supported                | depn.                | Special Platforms                     | diff.                              |
+|------------------|-------|------|----|------|---------------|--------------|-------------------------|----------------------|---------------------------------------|--------------------------------------------------|
 | Modular          | 2023  | ✔    | -         | 🔥   | 🔧 🧠        | 🟢𝔾 🟤T     | intel, arm, R5           | Custom compiler, Python | OpenCL                               | High-performance ML and Python-like programming |
 | Triton           | 2021  | ✔    | -         | ❁   | 🔧 🧠        | 🟢𝔾 🟤T     | NVidia                   | CUDA                  | N/A                                 | Optimized for GPUs                  |
 | Modulus          | 2021  | -    | -         | 🅽   | 🧠           | 🟢𝔾 🟤T     | NVidia                   | CUDA                  | N/A                                 | Physics-based NN                    |
@@ -136,7 +136,7 @@ timeline
 - **lib.**: Framework/Library
 - **Year**: Year the project started
 - **OSS**: Open-Source (✔ if from inception, year otherwise)
-- **Discont.?**: Indicates whether the project is discontinued (Year if discontinued, `-` if active)
+- **dis.** Discontinued in year (`Discont.?`). Indicates whether the project is discontinued (Year if discontinued, `-` if active)
 - **c.**: Company
 - **feat.**: Features (symbols only, e.g., 🔧, 🧠, etc.)
 - **Target**: Target Platform (symbolic labels: GPU, TPU, NPU, etc.)
@@ -144,6 +144,7 @@ timeline
 - **depn.**: Dependencies (required or optional libraries/frameworks)
 - **Special Platforms**: Unique or notable supported platforms (e.g., Vulkan, OpenCL, JS)
 - **diff.**: Differences and special-purpose features (textual descriptions of unique aspects)
+
 
 
 
