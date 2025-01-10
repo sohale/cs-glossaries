@@ -36,8 +36,8 @@ timeline
 ```
 
 
-| lib.             | Year  | 👀 o.s.      | c.   | plat.            | Supported Platforms | feat.         | depn.                | diff.                              |
-|------------------|-------|--------------|--------|------------------|---------------------|---------------|----------------------|-------------------------------------|
+| lib.             | Year  | 👀 o.s.      | c.   | Target            | Supported       | feat.         | depn.                | diff.                              |
+|------------------|-------|--------------|--------|------------------|----------------|---------------|----------------------|-------------------------------------|
 | TensorFlow       | 2015  | 2015         | 🅶     | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🧠🔄𝕄         | NumPy, Keras, XLA    | TensorFlow 2 has eager execution    |
 | PyTorch          | 2016  | 2016         | 𝐹     | 🟢𝔾 ⚪️c           | 🟢𝔾 ⚪️c 🟠js      | 🧠🔄𝕄         | NumPy                | Dynamic vs. static computation graph|
 | JAX              | 2018  | 2018         | 🅶     | 🟢𝔾 🟤. ⚪️c      | 🟢𝔾 🟤. ⚪️c 🟠js  | 🔄𝕄🧠         | NumPy, XLA           | Focuses on composable function transformations|
@@ -67,7 +67,7 @@ timeline
 - 🟠js: JavaScript
 - 🧠: Neural networks
 - 𝕄: Matrix operations
-- 🔄: Auto-differentiation
+- 🔄: Auto-differentiation (Differential Programming)
 - 🔧: Compilation
 - 🎲𝒫: Probabilistic programming
 
@@ -75,7 +75,8 @@ timeline
 - lib. : Framework/Library
 - 👀 o.s. : Open-Source
 - c. : Company
-- plat. : Target Platforms
+- Target : Target Platofrm originally inended (plat.)
+- Supported : Suppoerted Platforms later added, but not the main or originally intended.
 - feat. : Features
 - depn. : Dependencies
 - diff. : Differences
