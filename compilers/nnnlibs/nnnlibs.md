@@ -111,6 +111,7 @@ timeline
 | Keras            | 2015  | ✔    | -    | 🅶   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | TensorFlow, Theano    | OpenCL                               | High-level NN API                   |
 | Apache MXNet     | 2015  | ✔    | -    | 🐧   | 🧠           | 🟢𝔾 🟤T     | intel, arm, R5           | Multi-lang support    | OpenCL                               | Scalable, flexible DL               |
 | cuDNN            | 2014  | -    | -    | 🅽   | 🔧 🧠        | 🟢𝔾 🟤T     | -                       | CUDA                  | N/A                                  | GPU-accelerated deep NN             |
+| Caffe            | 2013  | ✔    | 2017  | 👀   | 🧠           | 🟢𝔾 🟤T     | intel, arm               | NumPy, OpenCV         | OpenCL                               | Image processing, DL                |
 | Theano           | 2007  | 2008 | 2017  | 👀   | 🔢 🧠        | 🟢𝔾 🟤T     | intel, arm, R5           | -                     | OpenCL                               | Symbolic computation, pioneering DL |
 | cuBLAS           | 2007  | -    | -    | 🅽   | 🔧 🔢        | 🟢𝔾 🟤T     | -                       | CUDA                  | N/A                                  | GPU-accelerated linear algebra      |
 | GEMM             | -     | -    | -    | 🅽   | 🔢           | 🟢𝔾 🟤T     | intel, arm, R5           | -                    | N/A                                  | General Matrix Multiplication       |
