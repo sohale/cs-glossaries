@@ -144,6 +144,18 @@ timeline
 - **diff.**: Differences and special-purpose features (textual descriptions of unique aspects)
 
 
+### Table 3: Inference-only vs. Training
+Differentiation and Training Support Table
+
+| Framework  | Differentiation | DL Training | Inference-only? |
+|------------|------------------|-------------|----|
+| IREE       | No               | ✘           | ✔                |
+| Modular    | Yes              | ✔           |                 |
+| XLA        | Yes              | ✔           |                 |
+| ONNX       | No               | ✘           | ✔                |
+| MXNet      | Yes              | ✔           |                 |
+| Theano     | Yes              | ✔           |                 |
+
 
 
 ### Pool:
