@@ -271,7 +271,7 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 
 ---
 
-### Notes: (Legend)
+##### Notes: (Legend)
 1. **TorchHub**: PyTorch-specific model repository.
 2. **TF Hub**: TensorFlow and Keras pre-trained models, often in TensorFlow file formats.
 3. **ONNX Model Zoo**: A library of ONNX pre-trained models compatible with multiple frameworks.
@@ -281,6 +281,45 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 7. **OpenVINO Toolkit**: Contains optimized models for Intel hardware.
 8. **HuggingFace Model Hub**: A unified platform for PyTorch, TensorFlow, and ONNX models.
 
+
+### Model file formats
+(for model repositories, model zoo s, kernel zoo(!)s, etc)
+
+
+### Table: File Formats for Frameworks
+
+| File Format       | Framework(s)       | Description                                                                                     | Notes                          |
+|-------------------|--------------------|-------------------------------------------------------------------------------------------------|-------------------------------|
+| `.pt`            | PyTorch, DeepSpeed | PyTorch model file format for saving the state dictionary of a model.                         | Common for training models.   |
+| `.pth`           | PyTorch            | Similar to `.pt`, typically used for saving checkpoints during training.                       | May include optimizers.       |
+| `.modular`       | Modular            | Native Modular AI file format.                                                                | High-performance ML files.    |
+| `.mod`           | Modulus            | Native NVIDIA Modulus format for ML models.                                                   | Specific to Modulus models.   |
+| `.pb`            | TensorFlow, ONNX   | Protocol Buffers used for TensorFlow saved models.                                             | Serialized model format.      |
+| `.ckpt`          | TensorFlow         | Checkpoint files for TensorFlow models.                                                       | Contains model weights only.  |
+| `.tflite`        | TensorFlow         | TensorFlow Lite file format optimized for mobile and edge devices.                            | For inference only.           |
+| `.h5`            | Keras, TensorFlow  | HDF5 format used for storing Keras models.                                                    | Includes architecture and weights. |
+| `.onnx`          | ONNX, HuggingFace  | Open Neural Network Exchange format for interoperability.                                      | Widely supported for export.  |
+| `.pdmodel`       | PaddlePaddle       | PaddlePaddle's format for model architecture.                                                 | Part of a pair with `.pdparams`. |
+| `.pdparams`      | PaddlePaddle       | PaddlePaddle's format for model parameters (weights).                                         | Part of a pair with `.pdmodel`. |
+| `.xml` (OpenVINO)| OpenVINO           | Model definition file used in OpenVINO.                                                       | Paired with `.bin`.           |
+| `.bin`           | OpenVINO           | Binary file containing weights for OpenVINO models.                                           | Paired with `.xml`.           |
+| `.json`          | TensorFlow JS, TVM | JavaScript Object Notation for TensorFlow JS models.                                          | Used for in-browser models.   |
+| `.prototxt`      | Caffe              | Text file defining the architecture of a Caffe model.                                         | Paired with `.caffemodel`.    |
+| `.caffemodel`    | Caffe              | Binary file containing trained weights for Caffe models.                                      | Paired with `.prototxt`.      |
+| `.params`        | Apache MXNet       | MXNet's format for model parameters.                                                          | Paired with `.json`.          |
+| `.t7`            | Torch              | Torch's file format for saving models in Lua.                                                 | Deprecated.                   |
+| `.out`           | TensorFlow         | Textual or binary representation of saved TensorFlow models.                                  | Less commonly used.           |
+| `.joblib`        | scikit-learn       | Python-based serialization format for scikit-learn models.                                    | Efficient for saving models.  |
+| `.pkl`           | scikit-learn, JAX  | Pickle format for saving Python objects, including models.                                    | General-purpose format.       |
+| `VMFB`           | IREE               | Virtual Machine Flatbuffer for compiled IREE models.                                          | For deployment only.          |
+| `.tvm`           | TVM                | Native TVM model format.                                                                      | For optimized inference.      |
+
+---
+
+##### Notes:
+- **`.pt` vs `.pth`**: While both are used in PyTorch, `.pth` is often associated with checkpoints, while `.pt` is more general-purpose for model saving.
+- **XMLs**: OpenVINO uses `.xml` for defining model architecture and `.bin` for the corresponding weights.
+- **Grouped Extensions**: Formats like `.pdmodel` and `.pdparams` are split into separate rows as they serve distinct purposes.
 
 
 ### Pool:
