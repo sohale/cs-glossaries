@@ -199,7 +199,7 @@ Differentiation and Training Support Table
 ### Model zoos for each framework
 No model zoo for: Theano? XLA
 Python files are not models. I use `·`, but you can save model, etc (tensorboard, etc)
-### Model Zoos for Each Framework
+#### Model Zoos for Each Framework
 No model zoo for: Theano, XLA  
 Python files are not models. I use `·`, but you can save model, etc (tensorboard, etc).
 
@@ -232,6 +232,26 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 
 [4]: Tensorboard file format: via https://stackoverflow.com/questions/37304461/tensorflow-importing-data-from-a-tensorboard-tfevent-file
 [5]: https://stackoverflow.com/questions/61116190/what-are-all-the-formats-to-save-machine-learning-model-in-scikit-learn-keras
+
+
+#### Table 6: Model Zoos:
+
+### Table: Model Zoos and Supported Frameworks
+
+| Model Zoo            | Supported Frameworks                  | File Format(s)                       | URL                                     |
+|-----------------------|---------------------------------------|---------------------------------------|-----------------------------------------|
+| NVIDIA NGC           | Modulus, PyTorch                     | `.mod`, `.pt`, `.pth`                | [NVIDIA NGC](https://ngc.nvidia.com/)   |
+| DeepSpeed Model Zoo   | DeepSpeed, PyTorch                   | `.pt`, JSON                          | [DeepSpeed Model Zoo](https://github.com/microsoft/DeepSpeedExamples) |
+| OpenVINO Toolkit      | OpenVINO                             | `.xml`, `.bin`                       | [OpenVINO Toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit.html) |
+| ONNX Model Zoo        | ONNX                                 | `.onnx`                              | [ONNX Model Zoo](https://github.com/onnx/models) |
+| TorchHub             | PyTorch                              | `.pt`, `.pth`                        | [TorchHub](https://pytorch.org/hub/)    |
+| PaddleHub            | PaddlePaddle                         | `.pdmodel`, `.pdparams`              | [PaddleHub](https://www.paddlepaddle.org.cn/hub) |
+| TensorFlow Hub       | TensorFlow, Keras, TF Probability     | `.pb`, `.ckpt`, `.tflite`, `.h5`     | [TensorFlow Hub](https://www.tensorflow.org/hub) |
+| HuggingFace          | PyTorch, TensorFlow, Keras           | `.pt`, `.pb`, `.h5`                  | [HuggingFace](https://huggingface.co/)  |
+| Apache MXNet Zoo     | Apache MXNet                         | `.params`, `.json`                   | [MXNet Model Zoo](https://mxnet.apache.org/model_zoo/index.html) |
+| TensorFlow JS Models | TensorFlow JS                        | JSON                                 | [TensorFlow JS Models](https://www.tensorflow.org/js/models) |
+| Caffe Model Zoo      | Caffe                                | `.prototxt`, `.caffemodel`           | [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) |
+| None                 | IREE, Modular, OpenXLA, MLIR         | None                                 | -                                       |
 
 
 ### Pool:
