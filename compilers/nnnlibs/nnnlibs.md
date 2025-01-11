@@ -111,7 +111,9 @@ timeline
 | Keras            | 2015  | ✔    | -    | 🅶   | 🧠           | 🟢𝔾 🟤     | intel, arm, R5           | TensorFlow, Theano    | OpenCL                               | High-level NN API                   |
 | Apache MXNet     | 2015  | ✔    | -    | 🐧   | 🧠           | 🟢𝔾 🟤     | intel, arm, R5           | Multi-lang support    | OpenCL                               | Scalable, flexible DL               |
 | cuDNN            | 2014  | -    | -    | 🅽   | 🔧 🧠        | 🟢𝔾 🟤     | -                       | CUDA                  | N/A                                  | GPU-accelerated deep NN             |
-| Caffe            | 2013  | ✔    | 2017  | 👀   | 🧠           | 🟢𝔾 🟤     | intel, arm               | NumPy, OpenCV         | OpenCL                               | Image processing, DL                |
+| Caffe            | 2013  | ✔    | 2017  | 👀   | 🧠           | 🟢𝔾 🟤     | intel, arm               | NumPy, OpenCV         | OpenCL                               | DL, Vision, OpenVC, by BVLC, BAIR |
+| [Intel Caffe](2)            |       |      |       |     |             | 🟢𝔾 🟤     |                     |                   |                                    | Optimized for CPU and support for multi-node), in particular Intel® Xeon processors.    |
+| [OpenCL Caffe](3)            |       |      |       |     |             | 🟢𝔾 🟤     |                     |                   |                                    | e.g. for AMD or Intel devices    |
 | Theano           | 2007  | 2008 | 2017  | 👀   | 🔢 🧠        | 🟢𝔾 🟤     | intel, arm, R5           | [OpenCL](1)                | OpenCL                               | Symbolic computation, pioneering DL |
 | cuBLAS           | 2007  | -    | -    | 🅽   | 🔧 🔢        | 🟢𝔾 🟤     | -                       | CUDA                  | N/A                                  | GPU-accelerated linear algebra      |
 | GEMM             | -     | -    | -    | 🅽   | 🔢           | 🟢𝔾 🟤     | intel, arm, R5           | -                    | N/A                                  | General Matrix Multiplication       |
@@ -144,6 +146,8 @@ timeline
 - **diff.**: Differences and special-purpose features (textual descriptions of unique aspects)
 
 [1]: https://stackoverflow.com/questions/38134951/theano-for-gpu-without-use-of-cuda-or-using-a-cuda-workaround
+[2]: https://github.com/BVLC/caffe/tree/intel  via https://github.com/BVLC/caffe
+[3]: https://github.com/BVLC/caffe/tree/opencl via https://github.com/BVLC/caffe
 
 ### Table 3: Inference-only vs. Training
 Differentiation and Training Support Table
@@ -168,6 +172,7 @@ Differentiation and Training Support Table
 | *Modulus*       | No               | ✘           | ✔  (wrong?)      |
 | **DeepSpeed**   | Yes              | ✔           |                  |
 | *IREE*          | No               | ✘           | ✔                |
+| *TVM*           | No               | ✘           | ✔                |
 | *MLIR*          | No               | ✘           | ✔                |
 | **JAX**         | Yes              | ✔           |                  |
 | *OpenVINO*      | No               | ✘           | ✔                |
@@ -189,6 +194,37 @@ Differentiation and Training Support Table
 | **Torch**       | No               | ✔           |                  |
 | *BLAS*          | No               | ✘           | ✔   not DL       |
 
+
+
+### Model zoos for each
+No model zoo for: Theano? XLA
+Python files are not models. I use `·`, but you can save model, etc (tensorboard, etc)
+| Framework       | model file format(s) | HuggingFace? | Model Zoo |
+|-----------------|------------------|-------------|------------------|
+| **Modular**     |                  |             |                  |
+| *OpenXLA*       |                  |             |                  |
+| **Triton**      |                  |             |                  |
+| *Modulus*       |                  |             |                  |
+| **DeepSpeed**   |                  |             |                  |
+| *IREE*          |                  |             |                 |
+| *TVM*           |                  |            |                  |
+| **JAX**         |                  |             |                  |
+| *OpenVINO*      |                   |           |                 |
+| *TensorFlow JS* |                  |             |                 |
+| **TF Probability** | ·              |             |                  |
+| **XLA**         |                  |            |                  |
+| *ONNX*          |                  |            |                 |
+| **Caffe2**      |                  |            |                  |
+| **PyTorch**     |  ·                |            |                  |
+| **PaddlePaddle** |                 |            |                  |
+| **TensorFlow**  |  ·  ,[tboard](4):  protobuf,  `.out`, ...   |            |                  |
+| **Keras**       |   ·               |            |                  |
+| **Apache MXNet** |                |            |                  |
+| *Caffe*         |                  |            |                 |
+| **Torch**       |                  |            |                  |
+
+
+[4]: Tensorboard file format: via https://stackoverflow.com/questions/37304461/tensorflow-importing-data-from-a-tensorboard-tfevent-file
 
 
 ### Pool:
