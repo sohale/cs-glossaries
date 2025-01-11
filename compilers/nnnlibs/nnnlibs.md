@@ -284,8 +284,6 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 
 ### Model file formats
 (for model repositories, model zoo s, kernel zoo(!)s, etc)
-### Model File Formats
-(for model repositories, model zoos, kernel zoos(!), etc)
 
 File Formats for Frameworks
 
