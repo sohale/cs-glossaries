@@ -121,6 +121,23 @@ timeline
 | scikit-learn     | 2007  | ✔    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | NumPy, SciPy         | N/A                                  | Machine learning library for Python          |
 | Torch            | 2002  | 2002 | 2018  | 👀   | 🔢 🧠        | 🟢𝔾 🟤     | intel, arm               | Lua, NumPy , CUDA?           | N/A                                  | Early DL framework with Lua         |
 | BLAS             | 1979  | -    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | -                    | N/A                                  | Foundational linear algebra library |
+| | | | | | | | | | | |
+| GroqFlow         | 2021  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm               | TensorFlow, PyTorch   | N/A                                  | Optimized for Groq hardware, focuses on ML model acceleration |
+| TensorRT         | 2017  | -    | -    | 🅽   | 🔧 🧠        | 🟢𝔾        | NVIDIA                   | TensorFlow, PyTorch, ONNX | CUDA                                | High-performance inference on NVIDIA GPUs                    |
+| ROCm             | 2016  | ✔    | -    | 🅽   | 🔧 🧠        | 🟢𝔾        | AMD                      | PyTorch, TensorFlow, ONNX | Vulkan                              | Machine learning runtime optimized for AMD GPUs              |
+| Core ML          | 2017  | -    | -    | 👀   | 🔧 🧠        | 🟢𝔾 ⚪️c    | Apple                    | TensorFlow, PyTorch       | Metal                              | ML models optimized for Apple hardware                       |
+| Glow             | 2018  | ✔    | -    | 𝐹   | 🔧 🧠        | 🟢𝔾        | intel, arm, R5           | PyTorch                  | OpenCL, Vulkan                     | LLVM-based compiler for ML models                            |
+| PlaidML          | 2018  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾        | intel, arm, R5           | Keras, ONNX              | OpenCL                              | Cross-platform deep learning acceleration                    |
+| MLIR             | 2019  | ✔    | -    | 🅶   | 🔧           | 🟢𝔾 🟤     | intel, arm, R5           | -                        | Vulkan, OpenCL                     | Infrastructure for building compilers for ML frameworks      |
+| DeepMind Lab     | 2016  | -    | -    | 👀   | 🎲 🧠        | ⚪️c         | intel, arm               | TensorFlow               | N/A                                | Research platform for reinforcement learning                 |
+| Meta AI Habitat  | 2019  | ✔    | -    | 𝐹   | 🎲 🧠        | ⚪️c         | intel, arm               | PyTorch                  | N/A                                | 3D environment simulator for RL                              |
+| Intel Nervana    | 2017  | -    | 2020  | ℹ️   | 🔧 🧠        | 🟢𝔾        | intel                    | TensorFlow, PyTorch      | OpenCL                              | Optimized for Intel Nervana hardware                         |
+| Deep Learning VM | 2018  | -    | -    | 🅶   | 🔧 🧠        | ⚪️c         | Google                   | TensorFlow, PyTorch      | N/A                                | Pre-configured cloud environment for deep learning           |
+| Habana Gaudi SDK | 2019  | ✔    | -    | ℹ️   | 🔧 🧠        | 🟢𝔾        | intel                    | TensorFlow, PyTorch      | N/A                                | SDK for accelerating ML workloads on Habana processors       |
+| DeepMind AlphaFold | 2020 | ✔   | -    | 👀   | 🧠 🎲        | ⚪️c         | intel, arm               | TensorFlow               | N/A                                | Protein structure prediction model                           |
+| OneFlow          | 2018  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm               | PyTorch, TensorFlow      | N/A                                | Distributed ML framework                                     |
+| DLR              | 2019  | ✔    | -    | 🐧   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm, R5           | TVM, TensorFlow, PyTorch | OpenCL, Vulkan                     | Deployment runtime for TVM-compiled models                   |
+| BigDL            | 2017  | ✔    | -    | ℹ️   | 🔧 🧠        | ⚪️c         | intel                    | TensorFlow, PyTorch      | OpenCL                              | Distributed deep learning library                            |
 
 
 
