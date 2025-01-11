@@ -105,6 +105,7 @@ timeline
 | XLA              | 2017  | 2022 | -    | 🅶   | 🔧 🏂        | 🟢𝔾 🟤     | intel, arm, R5           | TensorFlow, JAX       | Vulkan , CUDA, etc?                  | TensorFlow's compiler backend       |
 | ONNX             | 2017  | ✔    | -    | 🐧   | 🔧           | 🟢𝔾 🟤     | intel, arm, R5           | -                    | N/A                                  | Model exchange format between frameworks |
 | Caffe2           | 2017  | ✔    | 2020  | 𝐹   | 🧠           | 🟢𝔾 🟤     | intel, arm, R5           | PyTorch               | ROCm                                 | Production-ready deployment         |
+| TVM              | 2017  | ✔    | -    | 🐧   | 🔧           | 🟢𝔾 🟤     | intel, arm, R5           | LLVM, CUDA           | Vulkan, OpenCL                       | Optimized deep learning compiler and runtime |
 | PyTorch          | 2016  | ✔    | -    | 𝐹   | 🧠 🏂        | 🟢𝔾 🟤     | intel, arm, R5           | NumPy, cuDNN, cuBLAS  | ROCm, Vulkan                         | Dynamic vs. static computation graph; NN, autodiff, matrix ops |
 | PaddlePaddle     | 2016  | ✔    | -    | 🐾   | 🧠           | 🟢𝔾 🟤     | intel, arm               | Python                | OpenCL                               | Comprehensive DL framework          |
 | TensorFlow       | 2015  | 2015 | -    | 🅶   | 🏂 🔢 🧠     | 🟢𝔾 🟤     | intel, arm, R5           | Keras, NumPy, XLA     | OpenCL, Vulkan, JS                   | TensorFlow 2 has eager execution; NN, autodiff, matrix ops, prob. programming |
@@ -117,8 +118,13 @@ timeline
 | Theano           | 2007  | 2008 | 2017  | 👀   | 🔢 🧠        | 🟢𝔾 🟤     | intel, arm, R5           | [OpenCL](1)                | OpenCL                               | Symbolic computation, pioneering DL |
 | cuBLAS           | 2007  | -    | -    | 🅽   | 🔧 🔢        | 🟢𝔾 🟤     | -                       | CUDA                  | N/A                                  | GPU-accelerated linear algebra      |
 | GEMM             | -     | -    | -    | 🅽   | 🔢           | 🟢𝔾 🟤     | intel, arm, R5           | -                    | N/A                                  | General Matrix Multiplication       |
+| scikit-learn     | 2007  | ✔    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | NumPy, SciPy         | N/A                                  | Machine learning library for Python          |
 | Torch            | 2002  | 2002 | 2018  | 👀   | 🔢 🧠        | 🟢𝔾 🟤     | intel, arm               | Lua, NumPy , CUDA?           | N/A                                  | Early DL framework with Lua         |
 | BLAS             | 1979  | -    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | -                    | N/A                                  | Foundational linear algebra library |
+
+
+
+
 
 ### Legend:
 - **🅼**: Microsoft
