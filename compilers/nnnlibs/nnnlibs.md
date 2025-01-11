@@ -285,10 +285,7 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 ### Model file formats
 (for model repositories, model zoo s, kernel zoo(!)s, etc)
 
-
-### Table: File Formats for Frameworks
-
-### Table: File Formats for Frameworks
+File Formats for Frameworks
 
 | File Format       | Framework(s)           | Description                                                                                     | Notes                          |
 |-------------------|------------------------|-------------------------------------------------------------------------------------------------|-------------------------------|
@@ -318,18 +315,14 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 
 ---
 
-### Notes:
-- **Hugging Face**: Supports `.pt`, `.pb`, `.onnx`, `.h5`, `.bin`, and `.json` for models and metadata.
+##### Notes:
+
 - **`.pt` vs `.pth`**: While both are used in PyTorch, `.pth` is often associated with checkpoints, while `.pt` is more general-purpose for model saving.
 - **XMLs**: OpenVINO uses `.xml` for defining model architecture and `.bin` for the corresponding weights.
 - **Grouped Extensions**: Formats like `.pdmodel` and `.pdparams` are split into separate rows as they serve distinct purposes.
+- **Hugging Face**: Supports `.pt`, `.pb`, `.onnx`, `.h5`, `.bin`, and `.json` for models and metadata.
 
 ---
-
-##### Notes:
-- **`.pt` vs `.pth`**: While both are used in PyTorch, `.pth` is often associated with checkpoints, while `.pt` is more general-purpose for model saving.
-- **XMLs**: OpenVINO uses `.xml` for defining model architecture and `.bin` for the corresponding weights.
-- **Grouped Extensions**: Formats like `.pdmodel` and `.pdparams` are split into separate rows as they serve distinct purposes.
 
 
 ### Pool:
