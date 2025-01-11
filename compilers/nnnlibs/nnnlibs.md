@@ -196,7 +196,7 @@ Differentiation and Training Support Table
 
 
 
-### Model zoos for each
+### Model zoos for each framework
 No model zoo for: Theano? XLA
 Python files are not models. I use `·`, but you can save model, etc (tensorboard, etc)
 | Framework       | model file format(s) | HuggingFace? | Model Zoo |
