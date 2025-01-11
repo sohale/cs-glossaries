@@ -121,7 +121,8 @@ timeline
 | scikit-learn     | 2007  | ✔    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | NumPy, SciPy         | N/A                                  | Machine learning library for Python          |
 | Torch            | 2002  | 2002 | 2018  | 👀   | 🔢 🧠        | 🟢𝔾 🟤     | intel, arm               | Lua, NumPy , CUDA?           | N/A                                  | Early DL framework with Lua         |
 | BLAS             | 1979  | -    | -    | 👀   | 🔢           | ⚪️c         | intel, arm               | -                    | N/A                                  | Foundational linear algebra library |
-| | | | | | | | | | | |
+| * | * | * | | | | | | | | |
+| * | * | * | | | | | | | | |
 | GroqFlow         | 2021  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm               | TensorFlow, PyTorch   | N/A                                  | Optimized for Groq hardware, focuses on ML model acceleration |
 | TensorRT         | 2017  | -    | -    | 🅽   | 🔧 🧠        | 🟢𝔾        | NVIDIA                   | TensorFlow, PyTorch, ONNX | CUDA                                | High-performance inference on NVIDIA GPUs                    |
 | ROCm             | 2016  | ✔    | -    | 🅽   | 🔧 🧠        | 🟢𝔾        | AMD                      | PyTorch, TensorFlow, ONNX | Vulkan                              | Machine learning runtime optimized for AMD GPUs              |
@@ -138,7 +139,26 @@ timeline
 | OneFlow          | 2018  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm               | PyTorch, TensorFlow      | N/A                                | Distributed ML framework                                     |
 | DLR              | 2019  | ✔    | -    | 🐧   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm, R5           | TVM, TensorFlow, PyTorch | OpenCL, Vulkan                     | Deployment runtime for TVM-compiled models                   |
 | BigDL            | 2017  | ✔    | -    | ℹ️   | 🔧 🧠        | ⚪️c         | intel                    | TensorFlow, PyTorch      | OpenCL                              | Distributed deep learning library                            |
-
+| * | * | * | | | | | | | | |
+| * | * | * | | | | | | | | |
+| GroqFlow         | 2021  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm               | TensorFlow, PyTorch   | GroqChip                             | Automated ML and linear algebra workload compilation for Groq processors |
+| TVM              | 2016  | ✔    | -    | 🐧   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm, R5           | TensorFlow, PyTorch, ONNX | Vulkan, OpenCL                      | Machine learning compilation stack for deploying models to diverse hardware |
+| Triton           | 2021  | ✔    | -    | ❁   | 🔧 🧠        | 🟢𝔾 🟤     | NVIDIA                   | CUDA                  | N/A                                  | High-level programming language for custom GPU kernels                     |
+| TensorRT         | 2017  | -    | -    | 🅽   | 🔧 🧠        | 🟢𝔾        | NVIDIA                   | TensorFlow, PyTorch, ONNX | CUDA                                | Optimized inference engine for NVIDIA GPUs                                 |
+| ROCm             | 2016  | ✔    | -    | 🅽   | 🔧 🧠        | 🟢𝔾        | AMD                      | TensorFlow, PyTorch, ONNX | Vulkan                              | Optimized ML runtime for AMD GPUs                                          |
+| Core ML          | 2017  | -    | -    | 👀   | 🔧 🧠        | 🟢𝔾 ⚪️c    | Apple                    | TensorFlow, PyTorch       | Metal                              | Accelerated ML for Apple hardware                                          |
+| Glow             | 2018  | ✔    | -    | 𝐹   | 🔧 🧠        | 🟢𝔾        | intel, arm, R5           | PyTorch                  | OpenCL, Vulkan                     | LLVM-based compiler for machine learning                                   |
+| PlaidML          | 2018  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾        | intel, arm, R5           | Keras, ONNX              | OpenCL                              | Cross-platform ML acceleration                                             |
+| ONNX Runtime     | 2018  | ✔    | -    | 🐧   | 🔧 🧠        | 🟢𝔾 ⚪️c    | intel, arm, R5           | ONNX, PyTorch, TensorFlow | OpenCL, Vulkan                     | Lightweight inference engine for ONNX models                              |
+| Habana Gaudi SDK | 2019  | ✔    | -    | ℹ️   | 🔧 🧠        | 🟢𝔾        | intel                    | TensorFlow, PyTorch      | N/A                                | SDK for ML acceleration on Habana processors                              |
+| Xilinx Vitis AI  | 2020  | ✔    | -    | 👀   | 🔧 🧠        | ⚪️c        | Xilinx FPGA              | TensorFlow, PyTorch, Caffe | N/A                                | AI acceleration for Xilinx FPGAs                                           |
+| Apache SystemDS  | 2015  | ✔    | -    | 🐧   | 🔧 🧠        | ⚪️c        | intel, arm               | N/A                      | N/A                                | Declarative ML framework focusing on large-scale data analysis             |
+| Arm Compute Library | 2017 | ✔   | -    | 👀   | 🔧 🧠        | ⚪️c        | ARM CPUs and GPUs        | TensorFlow, PyTorch      | N/A                                | Optimized low-level routines for ARM architectures                         |
+| Intel oneAPI ML  | 2020  | ✔    | -    | ℹ️   | 🔧 🧠        | ⚪️c        | Intel CPUs and GPUs      | TensorFlow, PyTorch      | OpenCL                              | Unified programming model for Intel hardware                               |
+| DeepSpeed        | 2020  | ✔    | -    | 🅼   | 🔧 🧠        | 🟢𝔾        | NVIDIA                   | PyTorch                  | ROCm                                | Scalable training for large models                                         |
+| BigDL            | 2017  | ✔    | -    | ℹ️   | 🔧 🧠        | ⚪️c        | intel                    | TensorFlow, PyTorch      | OpenCL                              | Distributed deep learning for Intel platforms                              |
+| FlexFlow         | 2021  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾 ⚪️c    | intel, arm, R5           | TensorFlow, PyTorch      | N/A                                | Deep learning execution simulator and optimizer                            |
+| Lava             | 2021  | ✔    | -    | 👀   | 🔧 🧠 🎲     | 🟢𝔾 ⚪️c    | intel, arm               | N/A                      | N/A                                | Neuromorphic computing framework                                           |
 
 
 
