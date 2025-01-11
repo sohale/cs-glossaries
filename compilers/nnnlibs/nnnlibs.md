@@ -236,7 +236,7 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 
 #### Table 6: Model Zoos:
 
-### Table: Model Zoos and Supported Frameworks
+##### Table: Model Zoos and Supported Frameworks
 
 | Model Zoo            | Supported Frameworks                  | File Format(s)                       | URL                                     |
 |-----------------------|---------------------------------------|---------------------------------------|-----------------------------------------|
@@ -252,6 +252,35 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 | TensorFlow JS Models | TensorFlow JS                        | JSON                                 | [TensorFlow JS Models](https://www.tensorflow.org/js/models) |
 | Caffe Model Zoo      | Caffe                                | `.prototxt`, `.caffemodel`           | [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) |
 | None                 | IREE, Modular, OpenXLA, MLIR         | None                                 | -                                       |
+
+
+
+##### Table: Model Zoos, Supported Frameworks, and File Formats
+
+| Model Zoo             | Frameworks Supported                  | File Formats                          | URL                                   | Textual URL                          |
+|------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+| TorchHub              | PyTorch                               | `.pt`, `.pth`                         | [TorchHub](https://pytorch.org/hub/)  | https://pytorch.org/hub/             |
+| TF Hub                | TensorFlow, Keras                    | `.pb`, `.ckpt`, `.tflite`, `.h5`      | [TF Hub](https://www.tensorflow.org/hub/) | https://www.tensorflow.org/hub/      |
+| ONNX Model Zoo        | ONNX                                  | `.onnx`                               | [ONNX Model Zoo](https://github.com/onnx/models) | https://github.com/onnx/models       |
+| PaddleHub             | PaddlePaddle                         | `.pdmodel`, `.pdparams`               | [PaddleHub](https://www.paddlepaddle.org.cn/hub) | https://www.paddlepaddle.org.cn/hub  |
+| DeepSpeed Model Zoo   | DeepSpeed                            | `.pt`, JSON                           | [DeepSpeed Model Zoo](https://www.deepspeed.ai/modelzoo/) | https://www.deepspeed.ai/modelzoo/   |
+| NVIDIA NGC            | Modulus, PyTorch, TensorFlow, ONNX   | `.mod`, `.pt`, `.onnx`, `.pb`         | [NVIDIA NGC](https://catalog.ngc.nvidia.com/) | https://catalog.ngc.nvidia.com/      |
+| OpenVINO Toolkit      | OpenVINO                             | `.xml`, `.bin`                        | [OpenVINO Toolkit](https://docs.openvino.ai/latest/) | https://docs.openvino.ai/latest/     |
+| HuggingFace Model Hub | PyTorch, TensorFlow, Keras, ONNX     | `.pt`, `.pb`, `.onnx`, `.h5`          | [HuggingFace Model Hub](https://huggingface.co/models) | https://huggingface.co/models        |
+| None                  | IREE, Modular, OpenXLA, MLIR         | None                                  | -                                     | -                                    |
+
+---
+
+### Notes: (Legend)
+1. **TorchHub**: PyTorch-specific model repository.
+2. **TF Hub**: TensorFlow and Keras pre-trained models, often in TensorFlow file formats.
+3. **ONNX Model Zoo**: A library of ONNX pre-trained models compatible with multiple frameworks.
+4. **PaddleHub**: PaddlePaddle's model repository, optimized for its framework.
+5. **DeepSpeed Model Zoo**: Focused on large-scale model training with DeepSpeed.
+6. **NVIDIA NGC**: Hosts models for various NVIDIA-supported frameworks like Modulus, PyTorch, and TensorFlow.
+7. **OpenVINO Toolkit**: Contains optimized models for Intel hardware.
+8. **HuggingFace Model Hub**: A unified platform for PyTorch, TensorFlow, and ONNX models.
+
 
 
 ### Pool:
