@@ -199,30 +199,35 @@ Differentiation and Training Support Table
 ### Model zoos for each framework
 No model zoo for: Theano? XLA
 Python files are not models. I use `·`, but you can save model, etc (tensorboard, etc)
-| Framework       | model file format(s) | HuggingFace? | Model Zoo |
-|-----------------|------------------|-------------|------------------|
-| **Modular**     |                  |             |                  |
-| *OpenXLA*       |                  |             |                  |
-| **Triton**      |                  |             |                  |
-| *Modulus*       |                  |             |                  |
-| **DeepSpeed**   |                  |             |                  |
-| *IREE*          |                  |             |                 |
-| *TVM*           |                  |            |                  |
-| **JAX**         |                  |             |                  |
-| *OpenVINO*      |                   |           |                 |
-| *TensorFlow JS* |                  |             |                 |
-| **TF Probability** | ·              |             |                  |
-| **XLA**         |                  |            |                  |
-| *ONNX*          |                  |            |                 |
-| **Caffe2**      |                  |            |                  |
-| **PyTorch**     |  ·                |            |                  |
-| **PaddlePaddle** |                 |            |                  |
-| **TensorFlow**  |  ·  ,[tboard](4):  protobuf,  `.out`, ...   |            |                  |
-| **Keras**       |   ·               |            |                  |
-| **Apache MXNet** |                |            |                  |
-| *Caffe*         |                  |            |                 |
-| **Torch**       |                  |            |                  |
-| **scikit-learn** (scipy/numpy)      |                  |            |                  |
+### Model Zoos for Each Framework
+No model zoo for: Theano, XLA  
+Python files are not models. I use `·`, but you can save model, etc (tensorboard, etc).
+
+| Framework       | Model File Format(s)                | HuggingFace? | Model Zoo              |
+|-----------------|-------------------------------------|--------------|------------------------|
+| **Modular**     | `.modular`, ONNX (planned)          | No           | No                     |
+| *OpenXLA*       | None                                | No           | No                     |
+| **Triton**      | Python scripts                      | No           | No                     |
+| *Modulus*       | `.mod`                              | No           | Yes (NVIDIA NGC)       |
+| **DeepSpeed**   | `.pt`, JSON                         | No           | Yes (DeepSpeed Model Zoo) |
+| *IREE*          | VMFB (IREE Module)                  | No           | No                     |
+| *TVM*           | `.tvm`                              | No           | No                     |
+| **JAX**         | `.npz`, `.pkl`, ONNX (via exporters)| No           | No                     |
+| *OpenVINO*      | `.xml`, `.bin`                      | No           | Yes (OpenVINO Toolkit) |
+| *TensorFlow JS* | JSON                                | No           | No                     |
+| **TF Probability** | `.pb`, `.ckpt`, `.out`, TensorBoard | No           | No                     |
+| **XLA**         | None                                | No           | No                     |
+| *ONNX*          | `.onnx`                             | Yes          | Yes (ONNX Model Zoo)   |
+| **Caffe2**      | `.pb`, `.caffemodel`                | No           | No                     |
+| **PyTorch**     | `.pt`, `.pth`                       | Yes          | Yes (TorchHub, HuggingFace) |
+| **PaddlePaddle** | `.pdmodel`, `.pdparams`            | No           | Yes (PaddleHub)        |
+| **TensorFlow**  | `.pb`, `.ckpt`, `.tflite`, TensorBoard | Yes          | Yes (TF Hub, HuggingFace) |
+| **Keras**       | `.h5`, `.json`, TensorBoard         | Yes          | Yes (TF Hub)           |
+| **Apache MXNet** | `.params`, `.json`                 | No           | No                     |
+| *Caffe*         | `.prototxt`, `.caffemodel`          | No           | No                     |
+| **Torch**       | `.t7`                               | No           | No                     |
+| **scikit-learn** (scipy/numpy) | `.pkl`, `.joblib`    | No           | No                     |
+
 
 
 [4]: Tensorboard file format: via https://stackoverflow.com/questions/37304461/tensorflow-importing-data-from-a-tensorboard-tfevent-file
