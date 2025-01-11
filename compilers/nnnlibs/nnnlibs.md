@@ -222,9 +222,11 @@ Python files are not models. I use `·`, but you can save model, etc (tensorboar
 | **Apache MXNet** |                |            |                  |
 | *Caffe*         |                  |            |                 |
 | **Torch**       |                  |            |                  |
+| **scikit-learn** (scipy/numpy)      |                  |            |                  |
 
 
 [4]: Tensorboard file format: via https://stackoverflow.com/questions/37304461/tensorflow-importing-data-from-a-tensorboard-tfevent-file
+[5]: https://stackoverflow.com/questions/61116190/what-are-all-the-formats-to-save-machine-learning-model-in-scikit-learn-keras
 
 
 ### Pool:
