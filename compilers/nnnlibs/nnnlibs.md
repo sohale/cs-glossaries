@@ -91,6 +91,7 @@ timeline
 
 | lib.             | Year  | OSS  | dis. | c.   | feat.         | Target        | Supported                | depn.                | Special Platforms                     | diff.                              |
 |------------------|-------|------|------|------|---------------|--------------|--------------------------|----------------------|---------------------------------------|------------------------------------|
+| cuPyNumeric      | 2024  | ✔    | -    | 🅽   | 🔧 🔢        | 🟢𝔾 ⚪️c    | intel, arm, R5           | NumPy, Legate         | CUDA, OpenCL, Vulkan                 | Drop-in replacement for NumPy; scales from single-CPU to multi-GPU clusters without code changes. |
 | Modular          | 2023  | ✔    | -    | 🔥   | 🔧 🧠        | 🟢𝔾 🟤     | intel, arm, R5           | Custom compiler, Python | OpenCL                               | High-performance ML and Python-like programming |
 | OpenXLA          | 2022  | ✔    | -    | 👀   | 🔧           | 🟢𝔾 🟤     | intel, arm, R5           | TensorFlow, PyTorch, JAX | Vulkan                               | Unified compiler ecosystem for ML   |
 | GroqFlow         | 2021  | ✔    | -    | 👀   | 🔧 🧠        | 🟢𝔾        | GroqChip processors     | TensorFlow, PyTorch   | GroqChip | Automated tool flow for ML and linear algebra workload compilation; optimized for Groq hardware, compiling and executing ML workloads, ML model acceleration, supporting TensorFlow and PyTorch models |
