@@ -25,9 +25,9 @@ python -m venv veonv_ov
 ```
 
 ```bash
-git clone ...
+git clone git@github.com:openvinotoolkit/openvino.git
 cd openvino
-# fetch submobules
+# fetch submobules: 🗝️
 git submodule update --init --recursive
 ```
 
@@ -40,7 +40,7 @@ pip install jax jaxlib
 ```
 
 ```bash
-# Make sure you have fetched git submodules
+# Make sure you have fetched git submodules  🗝️
 cmake -DCMAKE_BUILD_TYPE=Release ..
 ```
 
