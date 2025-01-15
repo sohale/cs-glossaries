@@ -19,11 +19,13 @@ in my style.
    * I use `conan`
 * My sitution: I use Linux, CPU (non-GPU), intel `x86_64`.
 * I already have: `conan`, `pyenv`.
+    * Conan does not support NPU inference
 * Key places:
    * `docs/articles_en/get-started/install-openvino/install-openvino-linux.rst`
    * `docs/articles_en/get-started/install-openvino/install-openvino-conan.rst`
 
 Overall:
+* Decisions
 * python
 * clone
 * apt dependencies + jax
