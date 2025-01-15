@@ -29,9 +29,9 @@ Overall:
 * Decisions, Check requirements
 * python
 * clone
-* apt dependencies + jax
+* apt dependencies + jax (excludes opencv, clang, etc)
 * cmake build (not conan?)
-   * req: update opencv, use clang 15
+   * req: update opencv, use clang 15 (but cause warnings only on the "cmake" build if they are not there)
 
 Prepare python
 ```bash
