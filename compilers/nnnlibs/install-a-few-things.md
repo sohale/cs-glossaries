@@ -21,6 +21,13 @@ in my style.
 * I already have: `conan`, `pyenv`.
 * Key places: `docs/articles_en/get-started/install-openvino/install-openvino-linux.rst`
 
+Overall:
+* python
+* clone
+* apt dependencies + jax
+* cmake build (not conan?)
+   * req: update opencv, use clang 15
+
 Prepare python
 ```bash
 pyenv install 3.12.9
