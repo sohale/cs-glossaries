@@ -15,9 +15,10 @@ pip install -f jax jaxlib
 
 ## Installing OpenVINO
 in my style.
-Decisions:
-* I use `conan`
-My sitution: I use Linu, CPU, intel `x86_64`.
+* Decisions:
+   * I use `conan`
+* My sitution: I use Linux, CPU, intel `x86_64`.
+* I already have: `conan`, `pyenv`.
 
 Prepare python
 ```bash
