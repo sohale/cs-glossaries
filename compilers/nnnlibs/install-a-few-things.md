@@ -25,13 +25,13 @@ in my style.
    * `docs/articles_en/get-started/install-openvino/install-openvino-conan.rst`
    * `docs/articles_en/about-openvino/release-notes-openvino/system-requirements.rst`
 
-Overall:
-* Decisions, Check requirements
-* python
-* clone
-* apt dependencies + jax (excludes opencv, clang, etc)
-* cmake build (not conan?)
-   * req: update opencv, use clang 15 (but cause warnings only on the "cmake" build if they are not there)
+* Overall steps:
+    * Decisions, Check requirements
+    * python
+    * clone
+    * apt dependencies + jax (excludes opencv, clang, etc)
+    * cmake build (not conan?)
+         * req: update opencv, use clang 15 (but cause warnings only on the "cmake" build if they are not there)
 
 Prepare python
 ```bash
