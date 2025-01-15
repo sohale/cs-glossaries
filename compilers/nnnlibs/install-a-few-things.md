@@ -23,9 +23,10 @@ in my style.
 * Key places:
    * `docs/articles_en/get-started/install-openvino/install-openvino-linux.rst`
    * `docs/articles_en/get-started/install-openvino/install-openvino-conan.rst`
+   * `docs/articles_en/about-openvino/release-notes-openvino/system-requirements.rst`
 
 Overall:
-* Decisions
+* Decisions, Check requirements
 * python
 * clone
 * apt dependencies + jax
