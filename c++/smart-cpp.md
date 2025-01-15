@@ -8,5 +8,7 @@ What situation capture is differnet to arguments (ref, etc). Provide an answer.
 `shared_ptr` and `weak_ptr`
 What is the principal and intended use of `weak_ptr`?
 
-## muti-threaded and mutliprocess and coroutines
+## concurrency
+muti-threaded and mutliprocess and coroutines:
+
 Not in this, instead, see https://github.com/sohale/cs-glossaries/blob/master/c++/c++multithread.md
