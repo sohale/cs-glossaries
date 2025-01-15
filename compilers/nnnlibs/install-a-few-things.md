@@ -59,6 +59,7 @@ pip install jax jaxlib
 ```bash
 # Make sure you have fetched git submodules  🗝️
 cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j1
 ```
 
 Issue:
