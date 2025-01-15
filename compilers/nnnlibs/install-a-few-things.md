@@ -44,6 +44,8 @@ pip install jax jaxlib
 cmake -DCMAKE_BUILD_TYPE=Release ..
 ```
 
-Issue: `OpenCV ver.  3.0+ is not found`
+Issue:
+* `OpenCV ver.  3.0+ is not found`
+* clang-15 version 15 is needed
 
 (TBC)
