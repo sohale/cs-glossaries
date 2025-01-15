@@ -33,6 +33,8 @@ in my style.
     * cmake build (not conan?)
          * req: update opencv, use clang 15 (but cause warnings only on the "cmake" build if they are not there)
 
+Three dependencies. But the C++ itself has dependencies, which conan can help. The cmake itself needs conan, or is it vice versa?
+
 Prepare python
 ```bash
 pyenv install 3.12.9
