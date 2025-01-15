@@ -9,4 +9,4 @@ What situation capture is differnet to arguments (ref, etc). Provide an answer.
 What is the principal and intended use of `weak_ptr`?
 
 ## muti-threaded and mutliprocess and coroutines
-Not in this, instead, see https://github.com/sohale/cs-glossaries/blob/master/c%2B%2B/c%2B%2Bmultithread.md
+Not in this, instead, see https://github.com/sohale/cs-glossaries/blob/master/c++/c++multithread.md
