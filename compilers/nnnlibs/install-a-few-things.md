@@ -59,7 +59,7 @@ sudo bash install_build_dependencies.sh
 # Install JAX
 pip install jax jaxlib
 # Install pytest
-pip install pytest
+pip install pytest defusedxml numpy
 ```
 
 ```bash
@@ -74,12 +74,17 @@ See `src/frontends/jax/src/op/reshape.cpp`
 Run that test
 ```bash
 # run test
-# Make sure installed: pytest
+# Make sure installed: pytest defusedxml numpy
 cd /myvol/openvino/openvino/tests/layer_tests/jax_tests
 export TEST_DEVICE=CPU
 export JAX_TRACE_MODE=JAXPR
 export
 pytest test_reshape.py
+```
+
+Error:
+```txt
+E   ModuleNotFoundError: No module named 'openvino
 ```
 
 Issue:
