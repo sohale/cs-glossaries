@@ -32,6 +32,7 @@ in my style.
     * apt dependencies + jax (excludes opencv, clang, etc)
     * cmake build (not conan?)
          * req: update opencv, use clang 15 (but cause warnings only on the "cmake" build if they are not there)
+    * run the test
 
 Three dependencies. But the C++ itself has dependencies, which conan can help. The cmake itself needs conan, or is it vice versa?
 
@@ -62,6 +63,18 @@ pip install jax jaxlib
 # Make sure you have fetched git submodules  🗝️
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j1
+# check success
+```
+
+check `src/frontends/jax/src/op/reshape.cpp`
+Run that test
+```bash
+# run test
+cd /myvol/openvino/openvino/tests/layer_tests/jax_tests
+export TEST_DEVICE=CPU
+export JAX_TRACE_MODE=JAXPR
+export
+pytest test_reshape.py
 ```
 
 Issue:
