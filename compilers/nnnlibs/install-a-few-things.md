@@ -33,6 +33,7 @@ in my style.
     * cmake build (not conan?)
          * req: update opencv, use clang 15 (but cause warnings only on the "cmake" build if they are not there)
     * run the test
+        * req: pip install pytest
 
 Three dependencies. But the C++ itself has dependencies, which conan can help. The cmake itself needs conan, or is it vice versa?
 
@@ -57,6 +58,8 @@ First, comment some python installations here
 sudo bash install_build_dependencies.sh
 # Install JAX
 pip install jax jaxlib
+# Install pytest
+pip install pytest
 ```
 
 ```bash
@@ -66,10 +69,12 @@ make -j1
 # check success
 ```
 
-check `src/frontends/jax/src/op/reshape.cpp`
+See `src/frontends/jax/src/op/reshape.cpp`
+
 Run that test
 ```bash
 # run test
+# Make sure installed: pytest
 cd /myvol/openvino/openvino/tests/layer_tests/jax_tests
 export TEST_DEVICE=CPU
 export JAX_TRACE_MODE=JAXPR
