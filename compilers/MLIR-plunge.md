@@ -64,3 +64,38 @@ The TD world: has its own includes and dependencies and lineage:
 
 
 3. Enter ...
+
+## Concepts rReference
+
+#### memref
+
+Preconception (incorrect):
+I started thinking it is like C pointers (a repeated `struct` or antoher fixed-size type, where adding an integer can derive the pointer to skip (next) location in memory). But it is Not that.
+
+##### Core statements and ideas defining it
+* `memref` is not a (C-like) simple pointer. It is a full "tensor" !
+     * However, MLIR has a `tensor`, which is different.
+     * So, there are three concepts
+* `memref` a (1) multi-dimensional array (2) stored in contiguous memory (similar to C-poointers).
+*  (3) with additional metadata about shape, layout, and memory space. (surprise: It has even the shape)
+* Is higher-level abstraction than raw pointers in C.
+
+##### Table
+Types are:
+* C-like pointers
+* MLIR `memref`
+* MLIR `tensor`
+* (LLVM's C-like allocated chunk(?))
+
+##### Features:
+contiguous
+memory
+has +i ( stride or next or `+= i`)
+has shape ( not just linear)
+has layout
+has memory space
+all allocated in one piece (not just continuous)
+is allocatd by itself (like tensor, matrix), or outside (like C pointers)? (part of constructor)
+    Methods for allocating belong to it, or outside?
+    and deallocated by who (and explicit? and outside? and belong to it?)
+
