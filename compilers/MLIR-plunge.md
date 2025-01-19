@@ -92,7 +92,9 @@ Types are:
 |-------------------------|-----|-----|-----|
 | contiguous |   y  |  y   |     |
 | memory |      y   |  y   |     |
-| has +i ( stride or next or `+= i`) |  y   |   ?  |     |
+| has `+i` ( stride or next or `+= i`) |  y   |   ?  |     |
+| has [i]        |   ?   |   y  |     |
+| has [i][j] (N-dim) |     |   n: 1dim  |     |
 | has shape ( not just linear) |  y!  |  n   |     |
 | has layout |    y!   |  no   |     |
 | has memory space |   ?  |     |     |
