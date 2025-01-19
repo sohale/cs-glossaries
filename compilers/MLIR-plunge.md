@@ -95,13 +95,15 @@ Types are:
 | has `+i` ( stride or next or `+= i`) |  y   |   ?  |     |
 | has [i]        |   ?   |   y  |     |
 | has [i][j] (N-dim) |     |   n: 1dim  |     |
-| has shape ( not just linear) |  y!  |  n   |     |
+| has shape ( not just linear) |  **y!**  |  n   |     |
 | has layout |    y!   |  no   |     |
 | has memory space |   ?  |     |     |
 | all allocated in one piece (not just continuous) |  y  |  y |     |
-| is allocatd by itself (like tensor, matrix), <br/> or outside (like C pointers)? (part of constructor) |          |     |     |
-|     Methods for allocating belong to it, or outside? |          |     |     |
+| is allocatd by itself (like tensor, matrix), <br/> or outside (like C pointers)? (part of constructor) |   **y**  |  n  | y?  |
+| is allocatd part of constructor? |   n  |  n  | **y** * |
+|     Methods for allocating belong to it, or outside? |  in (y) |  out  |  ?  |
 |     and deallocated by who (and explicit? and outside? and belong to it?) |          |     |     |
 
+`*`: means it identified that type (a [one of] defining feature) (e.g. tensor is allocated as part of its constructor? If we have a tensor, we already are past th econstructor. i.e. no pre-constructor state)
 
 #### tensor
