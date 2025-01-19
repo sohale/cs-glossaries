@@ -90,13 +90,13 @@ Types are:
 ##### Features:
 | concept-element | MLIR <br/> `memref` | C *ptr | MLIR <br/> `tensor` |
 |-------------------------|-----|-----|-----|
-| contiguous |     |     |     |
-| memory |          |     |     |
-| has +i ( stride or next or `+= i`) |          |     |     |
-| has shape ( not just linear) |          |     |     |
-| has layout |          |     |     |
-| has memory space |          |     |     |
-| all allocated in one piece (not just continuous) |          |     |     |
+| contiguous |   y  |  y   |     |
+| memory |      y   |  y   |     |
+| has +i ( stride or next or `+= i`) |  y   |   ?  |     |
+| has shape ( not just linear) |  y!  |  n   |     |
+| has layout |    y!   |  no   |     |
+| has memory space |   ?  |     |     |
+| all allocated in one piece (not just continuous) |  y  |  y |     |
 | is allocatd by itself (like tensor, matrix), <br/> or outside (like C pointers)? (part of constructor) |          |     |     |
 |     Methods for allocating belong to it, or outside? |          |     |     |
 |     and deallocated by who (and explicit? and outside? and belong to it?) |          |     |     |
