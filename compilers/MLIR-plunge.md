@@ -97,7 +97,7 @@ Types are:
 | has layout |          |     |     |
 | has memory space |          |     |     |
 | all allocated in one piece (not just continuous) |          |     |     |
-| is allocatd by itself (like tensor, matrix), or outside (like C pointers)? (part of constructor) |          |     |     |
+| is allocatd by itself (like tensor, matrix), <br/> or outside (like C pointers)? (part of constructor) |          |     |     |
 |     Methods for allocating belong to it, or outside? |          |     |     |
 |     and deallocated by who (and explicit? and outside? and belong to it?) |          |     |     |
 
