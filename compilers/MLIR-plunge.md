@@ -88,16 +88,18 @@ Types are:
 * (LLVM's C-like allocated chunk(?))
 
 ##### Features:
-contiguous
-memory
-has +i ( stride or next or `+= i`)
-has shape ( not just linear)
-has layout
-has memory space
-all allocated in one piece (not just continuous)
-is allocatd by itself (like tensor, matrix), or outside (like C pointers)? (part of constructor)
-    Methods for allocating belong to it, or outside?
-    and deallocated by who (and explicit? and outside? and belong to it?)
+| concept-element | `memref` |
+|----------|----------|
+| contiguous |          |
+| memory |          |
+| has +i ( stride or next or `+= i`) |          |
+| has shape ( not just linear) |          |
+| has layout |          |
+| has memory space |          |
+| all allocated in one piece (not just continuous) |          |
+| is allocatd by itself (like tensor, matrix), or outside (like C pointers)? (part of constructor) |          |
+|     Methods for allocating belong to it, or outside? |          |
+|     and deallocated by who (and explicit? and outside? and belong to it?) |          |
 
 
 #### tensor
