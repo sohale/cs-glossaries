@@ -65,7 +65,7 @@ The TD world: has its own includes and dependencies and lineage:
 
 3. Enter ...
 
-## Concepts rReference
+## MLIR Concepts Reference
 
 #### memref
 
@@ -99,3 +99,5 @@ is allocatd by itself (like tensor, matrix), or outside (like C pointers)? (part
     Methods for allocating belong to it, or outside?
     and deallocated by who (and explicit? and outside? and belong to it?)
 
+
+#### tensor
