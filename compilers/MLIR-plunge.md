@@ -92,7 +92,7 @@ Types are:
 |-------------------------|-----|-----|-----|
 | contiguous |   y  |  y   |     |
 | memory |      y   |  y   |     |
-| has `+i` ( stride or next or `+= i`) |  y   |   y*  |     |
+| has `+i` ( stride or next or `+= i`) |  y   |   y`*`  |     |
 | has [i]        |   ?   |   y  |     |
 | has [i][j] (N-dim) |     |   n: 1dim  |     |
 | has shape ( not just linear) |  **y!**  |  n   |     |
@@ -100,7 +100,7 @@ Types are:
 | has memory space |   ?  |     |     |
 | all allocated in one piece (not just continuous) |  y  |  y |     |
 | is allocatd by itself (like tensor, matrix), <br/> or outside (like C pointers)? (part of constructor) |   **y**  |  n  | y?  |
-| is allocatd part of constructor? |   n  |  n  | **y** * |
+| is allocatd part of constructor? |   n  |  n  | **y** `*` |
 |     Methods for allocating belong to it, or outside? |  in (y) |  out  |  ?  |
 |     and deallocated by who (and explicit? and outside? and belong to it?) |          |     |     |
 
