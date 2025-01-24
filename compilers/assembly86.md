@@ -16,6 +16,23 @@ leaq   0x8(%rsp), %rsi
 movq   %rsp, %rdx
 ```
 
+### intel ISA chatacteristics:
+* Stack grows downwards
+* Little endian
+
+
+Intel: Little-endian, Motorolla: Big-endian
+
+Stack grows downwards:
+Allocation: `RSP -= 6`.
+
+#### intel assembly convensions:
+* "Destination register", LHS, is written on right: `subq   $0x18, %rsp`
+* `$` means decimal
+* `()` mean indirect addressing (`PEEK`)
+* `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
+* `%` means ...
+
 ### Register `RSP`
 
 
