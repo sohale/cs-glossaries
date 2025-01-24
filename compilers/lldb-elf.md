@@ -7,5 +7,5 @@ Also see:
 ### Side notes
 
 Don't confuse `lld` and `lldb'
-⁍ lld : LLVM linker 
-⁍ lldb : LLVM debugger (similar to gdb)
+* ⁍ lld : LLVM linker 
+* ⁍ lldb : LLVM debugger (similar to gdb)
