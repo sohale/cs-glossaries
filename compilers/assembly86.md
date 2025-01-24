@@ -36,7 +36,8 @@ Allocation: `RSP -= 6`.
 
 #### Typical modes
 * "flat memory mode with 64-bit addressing". `R--` registres are used: RSP, etc.
-
+* "16-bit mode" (e.g., 8086, XT)
+* "16-bit mode" (e.g., 8086, XT)
 ### Register `RSP`
 
 
@@ -48,7 +49,7 @@ SP = 16-bit "Stack Pointer"
 
 `RSP` > `ESP` > `SP` > `SPL`
 
-RSP
-ESP
-SP
-SPL
+* RSP
+* ESP
+* SP
+* SPL: No support for 8-bit stack pointer in x86.
