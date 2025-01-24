@@ -65,6 +65,9 @@ Instead, stack management was manual.
     * Stack was fixed-size ! (depth)
     * It was a "hardware stack"
     * No overflow handling!
+* More on 4004:
+    * Had 2,300 transistors
+    * Program was on ROM (4096 bytes!)
 
 * Modes:
     * **Real** mode
