@@ -15,9 +15,9 @@ movq   %rsp, %rdx
 
 SP = 16-bit "Stack Pointer"
 
-* `R`: 64-bit (Stack Pointer)
-* `E`: 32-bit; Extended ... (Stack Pointer)
-* `L`: Lowest 8 bits of ... (Stack Pointer)
+* `R*`: 64-bit (Stack Pointer)
+* `E*`: 32-bit; Extended ... (Stack Pointer)
+* `L*`: Lowest 8 bits of ... (Stack Pointer)
 
 `RSP` > `ESP` > `SP` > `SPL`
 
