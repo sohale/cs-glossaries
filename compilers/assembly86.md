@@ -1,7 +1,13 @@
 # Assembly language
 x86 and general, assembly language
 
-What was `rsp`?
+
+### Key terms:
+#### "Destination register" means "LHS".
+USe "destination register" instead of "LHS".
+
+
+#### What was `rsp`?
 As in:
 ```asm
 subq   $0x18, %rsp
