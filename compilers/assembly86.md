@@ -65,3 +65,9 @@ Instead, stack management was manual.
         * **Virtual** 8086 Mode (Emulates real mode inside protected mode)
     * **Protected** Mode: 32-Bit (flat, multitasking)
     * **Long** Mode (64-bit)
+* Years:
+    * Real: XT, 8086
+    * Protected-16: AT, 80286
+        * Virtual
+    * Protected-32: 386
+    * Long: Pentium 4
