@@ -45,6 +45,13 @@ lldb -c core.dump ./my_program
 ```
 What makes it possible? Does it conatain the PC?
 
+Core Dump in general.
+
+### Attaching a process
+Can one attach any pid that is running? or it has to be paused?
+```bash
+lldb --attach-pid <PID>
+```
 ### Side notes
 
 Don't confuse `lld` and `lldb'
