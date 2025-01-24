@@ -13,6 +13,7 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 * Basically doing GDB again in a fresh way
    * Better integration with modern IDEs (like XCode). How?
    * multithreading (non llvm-specific)
+   * tailored for modern toolchains (and IDEs)
 * LLVM-Specific Needs, Integration and Extention:
    * LLVM-Specific Needs: (like what?)
       * multithreading (LLVM needs)
