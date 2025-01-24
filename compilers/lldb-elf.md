@@ -31,6 +31,12 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 ### On ELF and Executables in gneral
 `lldb` is for `ELF` (Unix/Linux), `COFF` (Windows), and `Mach-O` (macOS)
 
+* ELF (Executable and Linkable Format)
+* Mach-O (Mach Object File Format)
+* PE/COFF (Portable Executable / Common Object File Format)
+
+LLDB support for windows is not as good as MacOS and Linux.
+
 ### Side notes
 
 Don't confuse `lld` and `lldb'
