@@ -9,3 +9,16 @@ leaq   0x10(%rsp), %rdi
 leaq   0x8(%rsp), %rsi
 movq   %rsp, %rdx
 ```
+
+### Register `RSP`
+
+
+SP = 16-bit Stack Pointer
+
+`RSP` > `ESP` > `SP`
+> `SPL`
+
+RSP
+ESP
+SP
+SPL
