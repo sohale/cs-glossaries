@@ -37,6 +37,14 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 
 LLDB support for windows is not as good as MacOS and Linux.
 
+
+### Core Dump
+One can debug a Core Dump!
+```bash
+lldb -c core.dump ./my_program
+```
+What makes it possible? Does it conatain the PC?
+
 ### Side notes
 
 Don't confuse `lld` and `lldb'
