@@ -12,6 +12,7 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 * multithreading
 * modularity
 * extensibility
+* Legacy Codebase: Why? "Updating GDB's old codebase would require substantial effort, potentially breaking compatibility with existing workflows."
 
 ### On ELF and Executables in gneral
 `lldb` is for `ELF` (Unix/Linux), `COFF` (Windows), and `Mach-O` (macOS)
