@@ -55,9 +55,11 @@ SP = 16-bit "Stack Pointer"
 * SPL: No support for 8-bit stack pointer in x86.
 
 ### History
+* History of Stack pointers:
 * The Intel 8008 (1972) did not have a dedicated stack pointer register!
 Instead, stack management was manual.
-* The Intel 4004 (1971) used the "4-level hardware stack".
+* The Intel 4004 (1971) used the "4-level hardware stack", no stack.
+* History of 4004
 * The "4-level hardware stack" (4004):
     * For storing return addresses (for `ret`, `call`)
     * depth was 4 ! (stack overflow!)
