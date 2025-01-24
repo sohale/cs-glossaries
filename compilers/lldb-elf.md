@@ -16,6 +16,8 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 * LLVM-Specific Needs, Integration and Extention:
    * LLVM-Specific Needs: (like what?)
       * multithreading (LLVM needs)
+      * Debugging applications built with LLVM/Clang toolchains.
+      * Debugging modern features like multithreaded (Already said) or vectorized code with LLVM IR support.
    * LLVM-Specific Integation
       * Better with LLVM (better inrtegation)
          * (Like what?)
