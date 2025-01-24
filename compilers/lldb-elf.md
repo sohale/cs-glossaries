@@ -15,12 +15,12 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
    * Better integration with modern IDEs (like XCode). How?
    * multithreading (non llvm-specific)
 * LLVM-Specific Needs, Integration and Extention:
-* LLVM-Specific Needs: (like what?)
-* multithreading (LLVM needs)
-* LLVM-Specific Extention:
-* modularity: (gdb is moolothic and not modular)
-* extensibility
-* Legacy Codebase: Why? "Updating GDB's old codebase would require substantial effort, potentially breaking compatibility with existing workflows."
+   * LLVM-Specific Needs: (like what?)
+      * multithreading (LLVM needs)
+   * LLVM-Specific Extention:
+      * modularity: (gdb is moolothic and not modular)
+      * extensibility
+      * Legacy Codebase: Why? "Updating GDB's old codebase would require substantial effort, potentially breaking compatibility with existing workflows."
 
 
 ### On ELF and Executables in gneral
