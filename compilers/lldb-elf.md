@@ -9,6 +9,7 @@ Also see:
 Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 * Better with LLVM (better inrtegation)
 * Better Integration with IDEs
+* LLVM-Specific Needs: (like what?)
 * multithreading
 * modularity
 * extensibility
