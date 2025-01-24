@@ -1,4 +1,5 @@
 # The `lldb` debugger
+On debuggers, and executable formats ( ELF, COFF, Mach-O )
 
 Also see:
 * https://github.com/sohale/cs-glossaries/blob/master/compilers/MLIR-plunge.md
