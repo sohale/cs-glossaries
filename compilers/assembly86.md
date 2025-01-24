@@ -101,8 +101,9 @@ Instead, stack management was manual.
             * paging mechanism
                 * map (ogical addresses to physical addresses)
         * Privilege levels: 4
-            * 0--4: Kernel (0) to User (4)
+            * 0--3: Kernel (0) to User (3) ;  `=>` are four.
             * Ring 0, Ring 1, Ring 2, Ring 3
+            * Ring 0 can access all memory and hardware
         * "Segment Descriptor"s
             * one SD for each segment
             * in GDT: Global Descriptor Table (GDT)
