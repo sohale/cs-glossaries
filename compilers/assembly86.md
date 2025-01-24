@@ -110,7 +110,7 @@ Instead, stack management was manual.
             * P4+: "paging" for projeciton, paging for virtual
         * address space:
             * pre-8086: 64 KB
-            * 8086: 1 MB    (to extend the 64 KB!)
+            * 8086: 1 MB    (to extend the 64 KB! Still  16-bit registers! )
             * 80286: 16 MB
             * 80386: 4 GB
             * P4+: ? GB
@@ -154,9 +154,10 @@ Instead, stack management was manual.
                 * "Descriptor Tables" <---> Only for "Memory Isolation"
                     * What is "Memory Isolation" versus "memory protection"?
             * Yet, flat memory model?
+            * "Protected Mode" was "still cumbersome"
         * 80386:
             * Optional segmentation!
             * added Paging
             * Paging: flat (non-segmentation)
             * Segmentation (optional): non-flat
-            * 
+            * "segmentation" was largely minimized in favor of "paging".
