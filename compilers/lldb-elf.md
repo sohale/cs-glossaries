@@ -6,6 +6,7 @@ Also see:
 * https://github.com/sohale/cs-glossaries/blob/master/compilers/MLIR-plunge.md
 * https://github.com/sohale/cs-glossaries/blob/master/compilers/LLVM....md (to be created)
 
+### Why LLDB
 Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
 
 (Why also happen to invent a new debugger? this time, right? for a reason independent of LLVM? and at most, LLVM guiding it in a differnt mindset? It seems not enough )
@@ -27,6 +28,17 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
       * extensibility
       * Legacy Codebase: Why? "Updating GDB's old codebase would require substantial effort, potentially breaking compatibility with existing workflows."
 
+### LLDB Usage
+```
+target create	# Load an executable into LLDB: UNLOADED (i.e. Loadable)
+breakpoint set	# by: "function name" or "line number"
+run	# LOAD and START the program execution.
+frame variable	# List all variables in the current frame.
+memory read <address>
+step	# Step into (function call)
+next	# Step over (the current line/instruction).
+continue
+```
 
 ### On ELF and Executables in gneral
 `lldb` is for `ELF` (Unix/Linux), `COFF` (Windows), and `Mach-O` (macOS)
