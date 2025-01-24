@@ -84,3 +84,5 @@ Instead, stack management was manual.
         * Virtual
     * Protected-32: 386
     * Long: Pentium 4
+* Memory Protection (incontext of 80286; AT)
+ 
