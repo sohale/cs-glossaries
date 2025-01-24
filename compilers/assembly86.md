@@ -86,6 +86,7 @@ Instead, stack management was manual.
     * (extended Protected Mode)
     * Protected-32: 386
     * Long: Pentium 4
+
 * **Memory Protection** (in context of 80286; AT; "Protected Mode")
     * Separeted memory of programs, or OS (processes)
     * prevent one program from interfering with the memory of another program
@@ -108,7 +109,8 @@ Instead, stack management was manual.
             * 80386: "paging" for projeciton, paging for virtual
             * P4+: "paging" for projeciton, paging for virtual
         * address space:
-            * 8086: 1 MB
+            * pre-8086: 64 KB
+            * 8086: 1 MB    (to extend the 64 KB!)
             * 80286: 16 MB
             * 80386: 4 GB
             * P4+: ? GB
@@ -143,3 +145,16 @@ Instead, stack management was manual.
          * Modes: Read-Only, Read/Write, or No Execute
          * State: Present or Not present (for virtual memory)
              * If accessed "Not Present" => causing a page fault (if not loaded in RAM)
+    * "Segments", various meanings:
+        * overlap (16-byte base)
+        * segment registers
+        * 80286: segmentation was redefined
+            * Descriptor: base, lmit, permissions(`R,W,X`). Also: "Privilege Levels", also paging (not 80286), also LDT (multi-tasking)
+            * Local Descriptor Table (LDT) -- for multi-tasking
+            * Yet, flat memory model?
+        * 80386:
+            * Optional segmentation!
+            * added Paging
+            * Paging: flat (non-segmentation)
+            * Segmentation (optional): non-flat
+            * 
