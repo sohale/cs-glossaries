@@ -150,7 +150,9 @@ Instead, stack management was manual.
         * segment registers
         * 80286: segmentation was redefined
             * Descriptor: base, lmit, permissions(`R,W,X`). Also: "Privilege Levels", also paging (not 80286), also LDT (multi-tasking)
-            * Local Descriptor Table (LDT) -- for multi-tasking
+                * Local Descriptor Table (LDT) -- for multi-tasking
+                * "Descriptor Tables" <---> Only for "Memory Isolation"
+                    * What is "Memory Isolation" versus "memory protection"?
             * Yet, flat memory model?
         * 80386:
             * Optional segmentation!
