@@ -107,3 +107,11 @@ Instead, stack management was manual.
             * one SD for each segment
             * in GDT: Global Descriptor Table (GDT)
             * in LDT: Local Descriptor Table (LDT)
+            * Attributes: (Base address, size (limit), access rights)
+        * "segment selector"
+            * Each "memory access" uses a "segment selector" to reference a "Segment Descriptor"
+            * Segment selectors:
+                * `CS`
+                * `DS`
+                * `SS`
+        *
