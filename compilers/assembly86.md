@@ -53,3 +53,9 @@ SP = 16-bit "Stack Pointer"
 * ESP
 * SP
 * SPL: No support for 8-bit stack pointer in x86.
+
+### History
+* The Intel 8008 (1972) did not have a dedicated stack pointer register!
+Instead, stack management was manual.
+* The Intel 4004 (1971) used the "4-level hardware stack".
+* The "4-level hardware stack " of 4004, ...
