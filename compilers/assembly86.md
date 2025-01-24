@@ -97,12 +97,17 @@ Instead, stack management was manual.
         *     ? "Privilege-Based Protection" (rings)
         * extended Protected Mode (virtual memory)
         * Paging-Based Protection (80386+)
-          
+    * Clarificaiotn:
+        * `Segment:Offset` is NOT "Segmentation"
+        * Segmentation is not Paging
+        * Real mode: `Segment:Offset`, NOT "Segmentation", NOT "Paging"
+        * Protected mode: NOT `Segment:Offset`, YES: NOT "Segmentation", YES: "Paging"
     * "General Protection Fault (GPF)"
         * access permissions:
             * Read-only or read/write
             * write-only (what?)
             * Executable or non-executable
+            * `R`, `W`, `X`
         * virtual memory space
             * for each process
             * paging mechanism
