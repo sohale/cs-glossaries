@@ -40,8 +40,8 @@ Allocation: `RSP -= 6`.
 * "flat memory mode with 64-bit addressing". `R--` registres are used: RSP, etc.
 * "16-bit mode" (e.g., 8086, XT)
 * "16-bit mode" (e.g., 8086, XT)
-### Register `RSP`
-
+### Registers
+#### Register `RSP`
 
 SP = 16-bit "Stack Pointer"
 
@@ -55,6 +55,38 @@ SP = 16-bit "Stack Pointer"
 * ESP
 * SP
 * SPL: No support for 8-bit stack pointer in x86.
+
+#### List of Registers
+Using `(lldb)` command: `re read`:
+```
+General Purpose Registers:
+       rax = 0x00005555555551a0  MYEXE`main
+       rbx = 0x0000000000000000
+       rcx = 0x0000555555557e20  MYEXE`__do_global_dtors_aux_fini_array_entry
+       rdx = 0x00007fffffffe028
+       rdi = 0x0000000000000001
+       rsi = 0x00007fffffffe018
+       rbp = 0x0000000000000001
+       rsp = 0x00007fffffffdef0
+        r8 = 0x00007ffff7f95f10
+        r9 = 0x00007ffff7fc9040
+       r10 = 0x00007ffff7fc3908
+       r11 = 0x00007ffff7fde660
+       r12 = 0x00007fffffffe018
+       r13 = 0x00005555555551a0  MYEXE`main
+       r14 = 0x0000555555557e20  MYEXE`__do_global_dtors_aux_fini_array_entry
+       r15 = 0x00007ffff7ffd040
+       rip = 0x00005555555551a4  MYEXE`main + 4
+    rflags = 0x0000000000000206
+        cs = 0x0000000000000033
+        fs = 0x0000000000000000
+        gs = 0x0000000000000000
+        ss = 0x000000000000002b
+        ds = 0x0000000000000000
+        es = 0x0000000000000000
+```
+
+
 
 ### History
 * History of Stack pointers:
