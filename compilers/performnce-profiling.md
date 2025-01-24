@@ -8,6 +8,7 @@ Span of tools:
 ## GPU
 ### NVTX
 NVTX is NVIDIA's Tools Extension Library (NVTX)
+for "annotating" source code
 
 Is part of NVIDIA CUDA Toolkit.
 
