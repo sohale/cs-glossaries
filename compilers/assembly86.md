@@ -161,3 +161,4 @@ Instead, stack management was manual.
             * Paging: flat (non-segmentation)
             * Segmentation (optional): non-flat
             * "segmentation" was largely minimized in favor of "paging".
+* "PAE": Physical Address Extension
