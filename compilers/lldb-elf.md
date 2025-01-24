@@ -59,6 +59,24 @@ Current breakpoints:
 frame variable
 ```
 
+### On debugging
+In general
+#### Debugging States
+In general, but based on `lldb`
+* - : nothing loaded yet
+* targeted : specified the Loaded file and raw-loaded into memory: Loadable ( not loaded)
+* Loaded (not run)
+* running (not paused)
+* running: paused
+* (finished?)
+* (core dump-ed?)
+
+#### DAP = Debug Adapter Protocol
+
+DAP: protocol through which various IDEs interact with debuggers.
+
+"LLDB-DAP"
+
 ------
 
 ## On ELF and Executables in gneral
@@ -85,6 +103,7 @@ Can one attach any pid that is running? or it has to be paused?
 ```bash
 lldb --attach-pid <PID>
 ```
+
 ### Side notes
 
 Don't confuse `lld` and `lldb'
