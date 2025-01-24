@@ -15,8 +15,7 @@ movq   %rsp, %rdx
 
 SP = 16-bit Stack Pointer
 
-`RSP` > `ESP` > `SP`
-> `SPL`
+`RSP` > `ESP` > `SP` > `SPL`
 
 RSP
 ESP
