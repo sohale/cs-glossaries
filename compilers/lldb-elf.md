@@ -47,7 +47,7 @@ breakpoint list
 ```
 
 
-### On ELF and Executables in gneral
+## On ELF and Executables in gneral
 `lldb` is for `ELF` (Unix/Linux), `COFF` (Windows), and `Mach-O` (macOS)
 
 * ELF (Executable and Linkable Format)
