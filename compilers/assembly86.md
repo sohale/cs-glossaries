@@ -59,3 +59,9 @@ SP = 16-bit "Stack Pointer"
 Instead, stack management was manual.
 * The Intel 4004 (1971) used the "4-level hardware stack".
 * The "4-level hardware stack " of 4004, ...
+* Modes:
+* Real mode
+    * Protected Mode
+    * Virtual 8086 Mode (Emulates real mode inside protected mode)
+    * 32-Bit Protected Mode (flat, multitasking)
+    * Long Mode (64-bit)
