@@ -91,6 +91,13 @@ Instead, stack management was manual.
     * prevent one program from interfering with the memory of another program
     * stability, security, and reliability, of multitasking. versus. crashes, corruption, or security vulnerabilities.
     * No protection = "Real Mode"
+    * Types of protection:
+        * "No protection" ("Real Mode")
+        * "Segmentation Based" "Protected Mode"
+        *     ? "Privilege-Based Protection" (rings)
+        * extended Protected Mode (virtual memory)
+        * Paging-Based Protection (80386+)
+          
     * "General Protection Fault (GPF)"
         * access permissions:
             * Read-only or read/write
@@ -115,4 +122,9 @@ Instead, stack management was manual.
                 * `CS`
                 * `DS`
                 * `SS`
-        *
+     * Paging-Based Protection (80386+)
+         * fixed-size blocks called "pages" (4 KB)
+         * Each proces: Page Table
+         * Modes: Read-Only, Read/Write, or No Execute
+         * State: Present or Not present (for virtual memory)
+             * If accessed "Not Present" => causing a page fault (if not loaded in RAM)
