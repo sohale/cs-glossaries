@@ -84,5 +84,6 @@ Instead, stack management was manual.
         * Virtual
     * Protected-32: 386
     * Long: Pentium 4
-* Memory Protection (incontext of 80286; AT)
- 
+* **Memory Protection** (in context of 80286; AT; "Protected Mode")
+    * Separeted memory of programs, or OS (processes)
+    * prevent one program from interfering with the memory of another program
