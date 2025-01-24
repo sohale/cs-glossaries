@@ -97,11 +97,21 @@ Instead, stack management was manual.
         *     ? "Privilege-Based Protection" (rings)
         * extended Protected Mode (virtual memory)
         * Paging-Based Protection (80386+)
-    * Clarificaiotn:
+    * Clarification:
         * `Segment:Offset` is NOT "Segmentation"
         * Segmentation is not Paging
         * Real mode: `Segment:Offset`, NOT "Segmentation", NOT "Paging"
         * Protected mode: NOT `Segment:Offset`, YES: NOT "Segmentation", YES: "Paging"
+        * Timeline of clusters:
+            * 8086: No protection, `Segment:Offset`
+            * 80286: "segmentation-based protection"
+            * 80386: "paging" for projeciton, paging for virtual
+            * P4+: "paging" for projeciton, paging for virtual
+        * address space:
+            * 8086: ...
+            * 80286: 16 MB
+            * 80386: 4GB
+            * P4+: ?GB
     * "General Protection Fault (GPF)"
         * access permissions:
             * Read-only or read/write
