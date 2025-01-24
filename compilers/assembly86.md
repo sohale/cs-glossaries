@@ -4,8 +4,9 @@ x86 and general, assembly language
 
 ### Key terms:
 #### "Destination register" means "LHS".
-USe "destination register" instead of "LHS".
-
+Use "destination register" instead of "LHS".
+#### "immediate value" (a constant).
+`$` will mean immediate value.
 
 #### What was `rsp`?
 As in:
