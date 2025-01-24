@@ -29,7 +29,8 @@ Why lldb? Despite same scope as gdb, and abilitiy to debug non-LLVM executables:
       * Legacy Codebase: Why? "Updating GDB's old codebase would require substantial effort, potentially breaking compatibility with existing workflows."
 
 ### LLDB Usage
-```
+Overview
+```python
 target create	# Load an executable into LLDB: UNLOADED (i.e. Loadable)
 breakpoint set	# by: "function name" or "line number"
 run	# LOAD and START the program execution.
@@ -39,6 +40,12 @@ step	# Step into (function call)
 next	# Step over (the current line/instruction).
 continue
 ```
+
+More specific:
+```
+breakpoint list
+```
+
 
 ### On ELF and Executables in gneral
 `lldb` is for `ELF` (Unix/Linux), `COFF` (Windows), and `Mach-O` (macOS)
