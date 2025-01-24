@@ -76,12 +76,14 @@ Instead, stack management was manual.
     * **Real** mode
     * **Protected** Mode: 16-bit
         * **Virtual** 8086 Mode (Emulates real mode inside protected mode)
+        * ("extended Protected Mode")
     * **Protected** Mode: 32-Bit (flat, multitasking)
     * **Long** Mode (64-bit)
 * Years:
     * Real: XT, 8086
     * Protected-16: AT, 80286
         * Virtual
+    * (extended Protected Mode)
     * Protected-32: 386
     * Long: Pentium 4
 * **Memory Protection** (in context of 80286; AT; "Protected Mode")
@@ -89,3 +91,19 @@ Instead, stack management was manual.
     * prevent one program from interfering with the memory of another program
     * stability, security, and reliability, of multitasking. versus. crashes, corruption, or security vulnerabilities.
     * No protection = "Real Mode"
+    * "General Protection Fault (GPF)"
+        * access permissions:
+            * Read-only or read/write
+            * write-only (what?)
+            * Executable or non-executable
+        * virtual memory space
+            * for each process
+            * paging mechanism
+                * map (ogical addresses to physical addresses)
+        * Privilege levels: 4
+            * 0--4: Kernel (0) to User (4)
+            * Ring 0, Ring 1, Ring 2, Ring 3
+        * "Segment Descriptor"s
+            * one SD for each segment
+            * in GDT: Global Descriptor Table (GDT)
+            * in LDT: Local Descriptor Table (LDT)
