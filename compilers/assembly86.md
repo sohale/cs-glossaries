@@ -66,6 +66,7 @@ Instead, stack management was manual.
         * width = 12-bit (width of `PC`)
         * Stack was fixed-size ! (depth)
         * It was a "hardware stack"
+            * Yet, Pioneered stack-based control (in microprocessors).
         * No overflow handling!
     * More on 4004:
         * Had 2,300 transistors
