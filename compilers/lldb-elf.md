@@ -45,9 +45,19 @@ More specific:
 ```
 breakpoint list
 ```
+output:
+```
+Current breakpoints:
+1: name = 'vector_calc', locations = 1
+  1.1: where = MYEXE`vector_calc, address = loop_vector_computation[0x0000000000001130], unresolved, hit count = 0
 
+2: name = 'main', locations = 1
+  2.1: where = MYEXE`main, address = loop_vector_computation[0x00000000000011a0], unresolved, hit count = 0
+```
 
-
+```
+frame variable
+```
 
 ------
 
