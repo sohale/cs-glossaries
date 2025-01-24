@@ -3,8 +3,10 @@ Related [^footnote1].
 
 Learn LLVM here. Ref, Tutorial, book.
 
-LLVM is an IR.
+LLVM is an IR. Not every IR is LLVM. LLVM is not instrucitons of virtual machine.
 
+All LLVM instructions are SSA (todo: verity).
+LLVM Accompanies an `.s` langauge: Which is its assembly vounterpart. Is it architecture-based?
 
 ### Tablegen
 
