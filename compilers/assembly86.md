@@ -29,10 +29,12 @@ Allocation: `RSP -= 6`.
 
 #### intel assembly convensions:
 * "Destination register", LHS, is written on right: `subq   $0x18, %rsp`
+* The assembly syntax is "source" -> "destination": `leaq src, dst`
 * `$` means decimal
 * `()` mean indirect addressing (`PEEK`)
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
 * `%` means ...
+
 
 #### Typical modes
 * "flat memory mode with 64-bit addressing". `R--` registres are used: RSP, etc.
