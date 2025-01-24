@@ -62,6 +62,6 @@ Instead, stack management was manual.
 * Modes:
     * **Real** mode
     * **Protected** Mode: 16-bit
-    * **Virtual** 8086 Mode (Emulates real mode inside protected mode)
+        * **Virtual** 8086 Mode (Emulates real mode inside protected mode)
     * **Protected** Mode: 32-Bit (flat, multitasking)
     * **Long** Mode (64-bit)
