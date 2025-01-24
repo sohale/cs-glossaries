@@ -56,20 +56,20 @@ SP = 16-bit "Stack Pointer"
 
 ### History
 * History of Stack pointers:
-* The Intel 8008 (1972) did not have a dedicated stack pointer register!
+    * The Intel 8008 (1972) did not have a dedicated stack pointer register!
 Instead, stack management was manual.
-* The Intel 4004 (1971) used the "4-level hardware stack", no stack.
+    * The Intel 4004 (1971) used the "4-level hardware stack", no stack.
 * History of 4004
-* The "4-level hardware stack" (4004):
-    * For storing return addresses (for `ret`, `call`)
-    * depth was 4 ! (stack overflow!)
-    * width = 12-bit (width of `PC`)
-    * Stack was fixed-size ! (depth)
-    * It was a "hardware stack"
-    * No overflow handling!
-* More on 4004:
-    * Had 2,300 transistors
-    * Program was on ROM (4096 bytes!)
+    * The "4-level hardware stack" (4004):
+        * For storing return addresses (for `ret`, `call`)
+        * depth was 4 ! (stack overflow!)
+        * width = 12-bit (width of `PC`)
+        * Stack was fixed-size ! (depth)
+        * It was a "hardware stack"
+        * No overflow handling!
+    * More on 4004:
+        * Had 2,300 transistors
+        * Program was on ROM (4096 bytes!)
 
 * Modes:
     * **Real** mode
