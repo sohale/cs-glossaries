@@ -108,7 +108,7 @@ Instead, stack management was manual.
             * 80386: "paging" for projeciton, paging for virtual
             * P4+: "paging" for projeciton, paging for virtual
         * address space:
-            * 8086: ...
+            * 8086: 1 MB
             * 80286: 16 MB
             * 80386: 4GB
             * P4+: ?GB
