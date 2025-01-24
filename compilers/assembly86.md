@@ -87,3 +87,4 @@ Instead, stack management was manual.
 * **Memory Protection** (in context of 80286; AT; "Protected Mode")
     * Separeted memory of programs, or OS (processes)
     * prevent one program from interfering with the memory of another program
+    * stability, security, and reliability, of multitasking
