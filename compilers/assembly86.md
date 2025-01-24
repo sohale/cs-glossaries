@@ -110,8 +110,8 @@ Instead, stack management was manual.
         * address space:
             * 8086: 1 MB
             * 80286: 16 MB
-            * 80386: 4GB
-            * P4+: ?GB
+            * 80386: 4 GB
+            * P4+: ? GB
     * "General Protection Fault (GPF)"
         * access permissions:
             * Read-only or read/write
