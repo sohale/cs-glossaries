@@ -34,6 +34,9 @@ Allocation: `RSP -= 6`.
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
 * `%` means ...
 
+#### Typical modes
+* "flat memory mode with 64-bit addressing". `R--` registres are used: RSP, etc.
+
 ### Register `RSP`
 
 
