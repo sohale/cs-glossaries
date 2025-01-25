@@ -229,4 +229,4 @@ Instead, stack management was manual.
 
 ### References
 Some references
-[1] Lyashko, Alexey. Mastering Assembly Programming: From instruction set to kernel module with Intel processor (p. 17). (Function). Kindle Edition. 
+* [1] Lyashko, Alexey. Mastering Assembly Programming: From instruction set to kernel module with Intel processor (p. 17). (Function). Kindle Edition. 
