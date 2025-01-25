@@ -171,13 +171,14 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
 #### Namespaces timeline
-* 2002: "Mount" namespaces (Linux) (kernel 2.4.19)
-* 2013: "User" namespaces (Linux) (kernel 3.8)
-* FUTURE:
+* 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
+* 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
+* 2016: `cgroup`: Control group (kernel 4.6)
+* Proposed:
    * journal namespace
    * syslog namespace
 
-Kernel 5.6 has 8 kinds of namespaces:
+Linux (kernel 5.6) has 8 kinds of namespaces:
 Mount,
 Process ID,
 Network,
