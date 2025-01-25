@@ -144,9 +144,9 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 
 #### Underlying technology
 Virualisaiotn underlying technology in open-source software may rely on (typically):
-* QEMU
-* Linux
-* Processor facilities for virtualisation
+* QEMU (Emulation)
+* Linux (OS)
+* Processor (hardware) facilities for virtualisation
 
 #### Technology that use vitualisiton
 (Overlying) technology that use virtualiziton
