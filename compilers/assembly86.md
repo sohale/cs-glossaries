@@ -163,6 +163,12 @@ Good, proper commands:
 * `adc`: add with carry
 * main: `add`, `and`, `dec`, `div`
 * high level: `call`, `iret`
+* loop
+
+Popular ones:
+* `adc`, `call`
+Modern ones:
+`loope`, `loopne`, `loopna`, `loopz`
 
 Weird names and their interpretations:
 `aaa`, `dar`, `ter`, `das`, `aas`, `daa`
