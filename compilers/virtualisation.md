@@ -312,9 +312,9 @@ What is:
 * Native Virtualization (Virtual Iron calls it so)
 
 Types:
-* Intel VT-x
-* AMD-V
-* VIA VT
+* Intel VT-x [(wikipedia)](https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-x)
+* AMD-V [(wikipedia)](https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_(AMD-V))
+* VIA VT [(wikipedia)](https://en.wikipedia.org/wiki/VIA_Technologies)
 
 
 ## Refs
