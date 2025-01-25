@@ -14,6 +14,15 @@ Vagrant by HashiCorp
 * QEMU was before vagrant
 * QEMU is for full-system emulation
 
+### VirtualBox
+VirtualBox is open-source.
+is Hypervisor.
+
+Originally written by:
+* InnoTek Systemberatung GmbH (2007–2008)
+* Sun Microsystems (2008–2010)
+* now: Oracle
+
 ### Other: Tools
 * "KVM" is a software too? No. It is the specific Lilnux's LVM implementaiton.
     * The "kernel-mode component of KVM"
@@ -161,7 +170,13 @@ As usually explained on internet: (pool, to be sorted)
 ### VM: Dependency:
 Dependency struture:
 
-QEMU can be used as a backend for Vagrant to provision virtual machines"
+QEMU is lower-level than Vagrant.
+
+~~QEMU may be used as a backend for Vagrant to provision virtual machines~~
+
+( This semi-incorrect sentence triggered all of this document )
+
+Which VM technology does QEMU use?
 
 #### Underlying technology
 Virualisaiotn underlying technology in open-source software may rely on (typically):
