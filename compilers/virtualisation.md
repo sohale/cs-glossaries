@@ -15,8 +15,10 @@ Vagrant by HashiCorp
 * QEMU is for full-system emulation
 
 ### Other: Tools
-### Other: GPU
+### Other: GPU Emulation
 simGPUGPU
+### Other: GPU containeralisaiton/Virtualisation
+
 ### Other: Softwares Products
 * VMWare
 * VirtualBox
@@ -25,6 +27,7 @@ simGPUGPU
 
 ## VM Conceptology
 ### VM: Levels
+(See deplendency/stack)
 * Software product (full system): VMware, VirtualBox
 * docker sub: marketplace
 * docker: product (more than a CLI)
@@ -103,8 +106,9 @@ As usually explained on internet: (pool, to be sorted)
 
 #### Ways to say it:
 * "Virtualisation with QEMU"
+* QEMU type is: Hypervisor, Emulator
 
-### VM: Terminology:
+### VM: Terminology: Related
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
 * **Ring** (See intel assembly)
 * **Ring 0**
@@ -138,10 +142,24 @@ Dependency struture:
 
 QEMU can be used as a backend for Vagrant to provision virtual machines"
 
+#### Underlying technology
+Virualisaiotn underlying technology in open-source software may rely on (typically):
+* QEMU
+* Linux
+* Processor facilities for virtualisation
+
+#### Technology that use vitualisiton
+(Overlying) technology that use virtualiziton
+* Cloud Native Computing Foundation (CNCF)
+* Cluster manager
+* VPS and Cloud
+
+
 ### Versus-ology: ns, cg, vm
 cgroups vs Namespaces:
 * cgroups: Control and limit resource usage
 * ns: Isolate system resources.
+
 
 ### Timeline (history)
 * 1960s: IBM (emulation backward compatibility) but was not cross-platform
