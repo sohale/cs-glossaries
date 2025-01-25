@@ -122,6 +122,7 @@ As usually explained on internet: (pool, to be sorted)
 * Minor relevance:
    * VPS (also see: "Virtual Network")
    * Host OS
+* The Cloud Native Computing Foundation (CNCF)
 
 ### VM: Dependency:
 Dependency struture:
@@ -160,8 +161,9 @@ cgroups vs Namespaces:
     * Started: redesigning cgroups (later as cgroups v2). The v1 had inconsistencies.
 * 2013: 🐳 Docker first release (used LXC)
 * 2014: LXD (Canonical; Feb 2014): "container hypervisor" built on LXC
-* 2014: Kubernetes initial release (June 2014)
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
+* ~~2015: My work at Wide IO~~~
+* 2015: Kubernetes initial release July 21, 2015 (announced June 2014)
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
 * 2016: The `cgroup` namespace, introduced in (kernel 4.6), isolates the view of the "cgroup hierarchy".
 * 2016: "cgroups v2" (kernel 4.5)
@@ -180,10 +182,12 @@ cgroups vs Namespaces:
 * 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
 #### Linux Namespaces timeline
+
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
     * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
      * considered completed: adepquate for "containers"
+* 2015: The Cloud Native Computing Foundation (CNCF) was formed (for Kubernetes)
 * 2016: `cgroup` namespace: Control group (kernel 4.6) -- isolates the view of the "cgroup hierarchy"
      * adepquate for Kubernetes
 * Proposed:
@@ -232,3 +236,4 @@ They are:
 * <a id="4">[4]</a> "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)" on Wikipedia
 * <a id="5">[5]</a> User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013).
 * <a id="6">[6]</a> UTS: Whats a uts namespace https://unix.stackexchange.com/questions/183717/whats-a-uts-namespace
+* <a id="7">[7]</a> Promise theory: https://en.wikipedia.org/wiki/Promise_theory
