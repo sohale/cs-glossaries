@@ -5,6 +5,14 @@ Span of tools:
 
 ## CPU
 
+* Intel VTune Profiler
+* `perf` (Linux)
+* AMD `uProf`
+
+Benchmarks:
+
+* CPU-intensive benchmarks: SPEC CPU, Geekbench, Cinebench 
+
 ## GPU
 ### NVTX
 NVTX is NVIDIA's Tools Extension Library (NVTX)
