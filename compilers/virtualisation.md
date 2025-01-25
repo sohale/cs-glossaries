@@ -90,6 +90,10 @@ As usually explained on internet: (pool, to be sorted)
 * "Full virtualisation"
 * "Virtual Server" (software that "runs" VM)
 
+* Type-1a VM (Hypervisor Has Full Control & Drivers) [[2]](#2)
+* Type-1b VM (Hypervisor + Dom0 Kernel for Drivers) [[2]](#2)
+* Type-2 VM (Hypervisor as an Extension to Host OS) [[2]](#2)
+
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
 * **Ring** (See intel assembly)
@@ -105,8 +109,7 @@ As usually explained on internet: (pool, to be sorted)
    * Rack
 * "VM Control"
 * "Virtual Environment"
-* "OS Kernel Structure Type"s (OS-Kernel models)
-   * [Types of Operating System Kernel Structures and VMs](https://www.josehu.com/technical/2021/05/24/os-kernel-models.html), by Guanzhou Hu (2021)
+* "OS Kernel Structure Type"s (OS-Kernel models) [[2]](#2)
    * Monolithic Kernel
    * Microkernel
    * Semi-Microkernel
@@ -172,3 +175,6 @@ Linux LXC timeline:
 * journal namespace
 * syslog namespace
 
+## Refs
+* <a id="1">[1]</a>
+* <a id="2">[2]</a> [Types of Operating System Kernel Structures and VMs](https://www.josehu.com/technical/2021/05/24/os-kernel-models.html), by Guanzhou Hu (2021)
