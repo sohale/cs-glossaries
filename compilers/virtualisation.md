@@ -63,7 +63,9 @@ As usually explained on internet: (pool, to be sorted)
 * "virtual machine"
 * "emulator"
 * "container"
-* "cloud vm" (VMs hosted in the cloud) -- abstract
+* "cloud vm" (VMs hosted in the cloud) -- abstract, too general, e.g. "Azure Virtual Machines"
+    * instance ("Reserved Instances", Reservations, etc)
+    * provision
 * process VM (process vs system VMs)
 * system VM (process vs system VMs)
 * "virtualisation"
@@ -78,6 +80,8 @@ As usually explained on internet: (pool, to be sorted)
 * Linux KVM
 * operating system-level virtualization
 * a "virtualization technology"
+* "virtual hardware system"
+* "Hardware virtual machines" (Emulates a physical computer's components, such as the processor, memory, and storage) (system VM?)
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
