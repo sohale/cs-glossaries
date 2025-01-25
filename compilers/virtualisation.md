@@ -198,6 +198,12 @@ Time
 * Control group (cgroup)
 * Time.
 
+Linux syscalls: (see [[4]](#4))
+* `clone`
+* `unshare`
+* `setns`
+
+(why specified by FD?)
 
 ### Misc
 * journal namespace
