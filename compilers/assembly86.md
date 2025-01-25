@@ -29,6 +29,7 @@ movq   %rsp, %rdx
 * Stack growth direction:
     * Stack grows downwards:
     * Allocation: `RSP -= 6`.
+        * Names: Stack Allocation, `alloca`
 
 #### intel assembly convensions:
 * "Destination register", LHS, is written on right: `subq   $0x18, %rsp`
@@ -50,13 +51,7 @@ Intel assembly lingo / jargon
 * offset
 
 Modern lingo:
-* "Stack growth direction", can be considerd a function of:
-    * ISA
-    * ABI
-    * brand
-    * "calling convention"
-    * "compiler and architecture"
-    * "platform"
+* "Stack growth direction", can be considerd a function of: ISA, ABI, brand, "calling convention", "compiler and architecture", "platform"
 * SSA
 
 #### "Typical modes" (Mnemonical Precedence)
