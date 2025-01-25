@@ -104,6 +104,18 @@ Can one attach any pid that is running? or it has to be paused?
 lldb --attach-pid <PID>
 ```
 
+#### Call Frame Information (CFI)
+
+Such lines in `.s` assembly source files:
+```asm
+    .cfi_startproc
+    .cfi_endproc
+    .cfi_startproc
+    .cfi_def_cfa_offset 32
+    .cfi_def_cfa_offset 8
+    .cfi_endproc
+```
+
 ### Side notes
 
 Don't confuse `lld` and `lldb'
