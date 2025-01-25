@@ -89,10 +89,10 @@ As usually explained on internet: (pool, to be sorted)
     * "Virtual Driver" = ?
 * "Full virtualisation"
 * "Virtual Server" (software that "runs" VM)
-
 * Type-1a VM (Hypervisor Has Full Control & Drivers) [[2]](#2)
 * Type-1b VM (Hypervisor + Dom0 Kernel for Drivers) [[2]](#2)
 * Type-2 VM (Hypervisor as an Extension to Host OS) [[2]](#2)
+* "full-system emulation" (e.g. QEMU)
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
@@ -150,6 +150,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2010: Vagrant: 2010 (HashiCorp)
 * 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
 * 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5). (Linux 3.8 was released on Mon, 18 Feb 2013)
+    * "User namespaces" on Linux
 * 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2013: 🐳 Docker first release (used LXC)
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
@@ -161,15 +162,20 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 
 
-Linux LXC timeline:
-* 2002: Namespaces began (Eric W. Biederman)
+#### Linux LXC timeline
+* 2002: Linux Namespaces began (Eric W. Biederman) [[4]](#4) and [...]
 * 2006: Cgroups Introduced (Google engineers Paul Menage and Rohit Seth)
 * 2008: Namespaces and Cgroups in Linux Kernel
 * 2008: First Release of LXC
 * 2010–2012: Early Adoption
+* 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
-* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5) (Linux 3.8 was released on Mon, 18 Feb 2013)
+#### Namespaces timeline
+* 2002: "Mount" namespaces (Linux) (kernel 2.4.19)
+* 2013: "User" namespaces (Linux) (kernel 3.8)
+* FUTURE:
+   * journal namespace
+   * syslog namespace
 
 ### Misc
 * journal namespace
