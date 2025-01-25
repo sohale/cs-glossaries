@@ -168,15 +168,16 @@ Linux LXC timeline:
 * 2008: First Release of LXC
 * 2010–2012: Early Adoption
 
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
-* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013)
+* 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). [5]
+* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [5] (Linux 3.8 was released on Mon, 18 Feb 2013)
 
 ### Misc
 * journal namespace
 * syslog namespace
 
 ## Refs
-* <a id="1">[1]</a>
 * <a id="2">[2]</a> [Types of Operating System Kernel Structures and VMs](https://www.josehu.com/technical/2021/05/24/os-kernel-models.html), by Guanzhou Hu (2021)
 * <a id="3">[3]</a> For "Type 0 hypervisor" see: [types-of-virtual-machines-and-their-implementations](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/) poriyaan.in
-
+* <a id="4">[4]</a> "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)" on Wikipedia
+* <a id="5">[5]</a> User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013).
+* 
