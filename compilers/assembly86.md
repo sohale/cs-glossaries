@@ -108,6 +108,14 @@ General Purpose Registers:
         es = 0x0000000000000000
 ```
 
+### Address semantics
+* pointer arithmetics
+
+#### Segment-offser
+See below (history)
+
+Example `mov [es:di], ax`
+
 
 
 ### History
@@ -218,3 +226,7 @@ Instead, stack management was manual.
             * Segmentation (optional): non-flat
             * "segmentation" was largely minimized in favor of "paging".
 * "PAE": Physical Address Extension
+
+### References
+Some references
+[1] Lyashko, Alexey. Mastering Assembly Programming: From instruction set to kernel module with Intel processor (p. 17). (Function). Kindle Edition. 
