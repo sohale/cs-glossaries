@@ -111,6 +111,9 @@ As usually explained on internet: (pool, to be sorted)
 * "virtualization"
 * "OS-level virtualization" := containerization ( as in [w:Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) and [w:OSVM](https://en.wikipedia.org/wiki/OS-level_virtualization) )
 * KVM is full virtualization. NS+CG is lightweight virtualization
+  * Lightweight process isolation
+  * "KVM transforms the Linux kernel into a full-fledged hypervisor, allowing the creation and management of virtual machines (VMs) with complete **guest** operating systems"
+  * KVM is Hardware-Assisted Virtualization
 
 #### Ways to say it:
 * "Virtualisation with QEMU"
@@ -155,7 +158,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 Virualisaiotn underlying technology in open-source software may rely on (typically):
 * QEMU (Emulation)
 * Linux (OS: NS or/and CG): KVM?  [[8]](#8)
-* Processor (hardware) facilities for virtualisation
+* Processor (hardware) facilities for virtualisation. (Hardware-Assisted Virtualization)
 
 #### Technology that use vitualisiton
 (Overlying) technology that use virtualiziton
@@ -196,6 +199,8 @@ cgroups vs Namespaces:
 * 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * 2006: ☁️ First Cloud (AWS EC2)
 * 2006: Linux more namespaces
+* 2006: KVM surfaced (RedHat) (not to be confused with NS/CG system)
+* 2007: KVM merged kernel 2.6.20 (Feb 2007)
 * 2007: `cgroups` v1 (Control Groups): 2007 (had inconsistencies). Grouping of processes. "cgroup hierarchies".
 * 2008: LXC: (Linux Containers) 2008. built on namespaces and cgroups. First Release of LXC on 2008.
 * 2008: Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
@@ -227,7 +232,7 @@ cgroups vs Namespaces:
 * 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
 #### Linux Namespaces timeline
-All about NS, KVM [[8]](#8) and CNCF
+
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
     * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
@@ -273,6 +278,14 @@ They are:
 ### Misc
 * journal namespace
 * syslog namespace
+
+### KVM
+KVM [[8]](#8) is separate from NS+CG.
+<!-- NS, KVM [[8]](#8) and CNCF -->
+KVM uses Hardware-Assisted Virtualization.
+
+### Hardware-Assisted Virtualization
+* CPU extensions like Intel VT-x or AMD-V for efficient virtualization.
 
 ## Refs
 * <a id="1">[1]</a> See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga
