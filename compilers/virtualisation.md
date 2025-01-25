@@ -79,7 +79,7 @@ As usually explained on internet: (pool, to be sorted)
    * Bare metal- VM or HV
 * Type 2 hypervisor
    * Hosted VM or HV
-* Type 0 hypervisor [see](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/)
+* Type 0 hypervisor [[3]](#3)
 * Paravirtualization (see Xen)
 * Linux KVM
 * operating system-level virtualization (OS-level)
@@ -178,3 +178,5 @@ Linux LXC timeline:
 ## Refs
 * <a id="1">[1]</a>
 * <a id="2">[2]</a> [Types of Operating System Kernel Structures and VMs](https://www.josehu.com/technical/2021/05/24/os-kernel-models.html), by Guanzhou Hu (2021)
+* <a id="3">[3]</a> For "Type 0 hypervisor" see: [types-of-virtual-machines-and-their-implementations](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/) poriyaan.in
+
