@@ -110,7 +110,7 @@ As usually explained on internet: (pool, to be sorted)
 * "containerization"
 * "virtualization"
 * "OS-level virtualization" := containerization ( as in [w:Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) and [w:OSVM](https://en.wikipedia.org/wiki/OS-level_virtualization) )
-
+* KVM is full virtualization. NS+CG is lightweight virtualization
 
 #### Ways to say it:
 * "Virtualisation with QEMU"
