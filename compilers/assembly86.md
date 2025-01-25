@@ -94,6 +94,9 @@ Segmentation-concern/axis:
 * `*S`: The `CS`, `DS`, `SS`, `ES`, `FS`, `GS`: are for Code, Data, Stack, Extra (E,F,G)
 * `[ES:DI]`
 
+Natural pairs:
+* `CS:IP`
+
 Confusions: Confusing naming apparent patterns:
 * `DS`, `ES` : they don't get connected (are diagonal!) (axis/concern)
 
