@@ -166,7 +166,7 @@ cgroups vs Namespaces:
 * 2013: 🐳 Docker first release (used LXC)
 * 2014: LXD (Canonical; Feb 2014): "container hypervisor" built on LXC
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
-* ~~2015: My work at Wide IO~~~
+* ~~2015: My work at Wide IO~~
 * 2015: Kubernetes initial release July 21, 2015 (announced June 2014)
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
 * 2016: The `cgroup` namespace, introduced in (kernel 4.6), isolates the view of the "cgroup hierarchy".
