@@ -149,6 +149,20 @@ Example `mov [es:di], ax`
 ### Instructions
 #### Instrucitons naming and historical legacy 
 <!-- lineage -->
+
+`subq`, `sub`, etc
+
+* Examples: `subq`, `movq`, `leaq`
+|  - | *q |   |  |
+|----|----|----|----|
+|  `sub` | `subq` | subxx  | subxxx |
+|  `mov` | `movq` | movxx  | movxxx |
+|  `lea` | `leaq` | leaxx  | leaxxx |
+
+Weird names:
+* `aaa`
+* `dar`, `ter`, `das`, `aas`, `daa`
+
 An instuction can be in XT (Real), Protcted mode, etc
 Implicit hiddent context.
 
