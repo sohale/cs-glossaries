@@ -46,6 +46,8 @@ LXD versus LXC
 
 "container hypervisor" built on LXC
 
+"virtual machine" verus Emulator
+
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
