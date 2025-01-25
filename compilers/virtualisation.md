@@ -203,7 +203,10 @@ Linux syscalls: (see [[4]](#4))
 * `unshare`
 * `setns`
 
-(why specified by FD?)
+They are:
+* (Why specified by FD?)
+* Aregarbage collected
+* Accessed `/proc/<pid>/ns/<nskind>`
 
 ### Misc
 * journal namespace
