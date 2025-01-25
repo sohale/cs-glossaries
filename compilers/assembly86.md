@@ -42,7 +42,7 @@ movq   %rsp, %rdx
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
 * `%` means ... (see SSA-ness)
 
-Intel assembly lingo / g
+Intel assembly lingo / jargon
 * Indirect addressing
 * Destination
 * offset
