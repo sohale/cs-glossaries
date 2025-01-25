@@ -177,6 +177,27 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
    * journal namespace
    * syslog namespace
 
+Kernel 5.6 has 8 kinds of namespaces:
+Mount,
+Process ID,
+Network,
+Inter-process Communication,
+UTS,
+User ID,
+Control group (cgroup),
+Time
+(`mnt`, `pid`, `net`, `ipc`, `uts`, `user`, `cgroup`, `time`).
+
+* Mount (mnt)
+* Process ID (pid)
+* Network (net)
+* Inter-process Communication (ipc)
+* UTS
+* User ID (user)
+* Control group (cgroup)
+* Time.
+
+
 ### Misc
 * journal namespace
 * syslog namespace
