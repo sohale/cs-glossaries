@@ -15,6 +15,8 @@ Vagrant by HashiCorp
 * QEMU is for full-system emulation
 
 ### Other: Tools
+* "KVM" is a software too?
+
 ### Other: GPU Emulation
 simGPUGPU
 ### Other: GPU containeralisaiton/Virtualisation
