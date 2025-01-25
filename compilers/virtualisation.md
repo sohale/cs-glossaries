@@ -14,4 +14,26 @@ Vagrant by HashiCorp
 * QEMU was before vagrant
 * QEMU is for full-system emulation
 
+### Other: Tools
+### Other: GPU
 simGPUGPU
+
+## Conceptology
+### Levels
+* That product (full system)
+* docker sub: marketplace
+* docker: product (more than a CLI)
+* tools: CLI tools: Vagrant
+* backend
+* KVM
+* NS (OS-level: Linux)
+* CPU facilities
+
+### Terminology:
+* **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
+
+### Dependency:
+Dependency struture:
+
+QEMU can be used as a backend for Vagrant to provision virtual machines"
+
