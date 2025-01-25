@@ -41,12 +41,14 @@ Dependency struture:
 QEMU can be used as a backend for Vagrant to provision virtual machines"
 
 ### Timeline (history)
-* PC Emulator(s): Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga )
+* PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga )
 * QEMU: 2003
-* Plan 9 (ideas) (year: ...)
-* First VPSes (before AWS/cloud?)
-* First Cloud: AWS (EC2? or which one was earlier?)
-* Vagrant: 2010
+* Plan 9 (ideas) 1992 (public release)
+* VPS: First VPSes (before AWS/cloud?) early 2000s. OpenVZ (2005), Xen (?)
+* pre-cloud: IBM Computing on Demand (2000)
+* pre-cloud: Salesforce (1999)
+* First Cloud: 2006 (AWS EC2)
+* Vagrant: 2010 (HashiCorp)
 * Linux NS started: year: ... (by Google, etc)
 * Linux NS completed: year: ...
 * LXC, LXD
@@ -54,3 +56,4 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * Docker Build (new docker)
 * Docker new front-ends
 * Arm/Apple's Rosetta(?)
+
