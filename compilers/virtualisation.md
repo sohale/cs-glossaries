@@ -319,6 +319,12 @@ Types:
 #### Intel VTX
 "VMX" stands for Virtual Machine Extensions.
 
+"Virtual Execution Mode": Simulates a "ring 0" state.
+
+In "virtual execution mode",
+    the "guest OS" perceives itself as running with full privilege ("ring 0"),
+    but the "host OS" remains protected. [wikipedia](https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-x)
+
 VTX adds 13 new instructions:
 * VMPTRLD
 * VMPTRST
@@ -333,6 +339,10 @@ VTX adds 13 new instructions:
 * INVEPT
 * INVVPID
 * VMFUNC
+
+These enable:
+* entering and exiting a "virtual execution mode"
+
 
 ## Refs
 * <a id="1">[1]</a> See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga
