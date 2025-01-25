@@ -120,6 +120,7 @@ As usually explained on internet: (pool, to be sorted)
 * "Virtualization Technology for Directed I/O" (see HAV, below)
 * I/O MMU virtualization (see HAV, below)
 * "logical processor" (see HAV, below)
+* " hardware in-circuit emulators (ICE)" (see QEMU)
 
 #### Ways to say it:
 * "Virtualisation with QEMU"
