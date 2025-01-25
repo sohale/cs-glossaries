@@ -50,6 +50,14 @@ LXD versus LXC
 
 LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
+Terms (types and levels)
+* "Lightweight virtual machines"
+* "hypervisor"
+* "container hypervisor"
+* "virtual machine"
+* "emulator"
+* "container"
+
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
 
@@ -64,7 +72,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 ### Timeline (history)
 * 1960s: IBM (emulation backward compatibility) but was not cross-platform
 * 1980s: PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga ) Early PC Emulation (1980s)
-    * 1986: Amiga Transformer
+    * 1986: Amiga Transformer (hardware)
     * 1987: PC-Task (1987) (A-Max (1987: Mac), Shapeshifter (1993, Mac), UAE (Unix Amiga Emulator: 1995))
     * The Amiga led the way with practical software and hardware-based solutions for everyday users.
 * 1991: Earliest Linux release 
@@ -95,7 +103,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 
 
-Linux LXC timesline:
+Linux LXC timeline:
 * 2002: Namespaces began (Eric W. Biederman)
 * 2006: Cgroups Introduced (Google engineers Paul Menage and Rohit Seth)
 * 2008: Namespaces and Cgroups in Linux Kernel
@@ -108,4 +116,4 @@ Linux LXC timesline:
 ### Misc
 * journal namespace
 * syslog namespace
-* 
+
