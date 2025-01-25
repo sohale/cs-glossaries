@@ -40,17 +40,20 @@ Dependency struture:
 
 QEMU can be used as a backend for Vagrant to provision virtual machines"
 
-### Timeline (history)
+
 Container versus Namespace?
+
 LXD versus LXC
+
+### Timeline (history)
 
 * PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga )
 * QEMU: 2003
-* Plan 9 (ideas) 1992 (public release)
+* "Plan 9" (ideas) 1992 (public release) used "wider namespace functionality" heavily throughout.
 * VPS: First VPSes (before AWS/cloud?) early 2000s. OpenVZ (2005), Xen (?)
 * pre-cloud: IBM Computing on Demand (2000)
 * pre-cloud: Salesforce (1999)
-* 2002:
+* 2002: Linux: "mount" namespace (kernel 2.4.19)
 * 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * First Cloud: 2006 (AWS EC2)
 * cgroups: v1: 2007
