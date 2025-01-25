@@ -17,6 +17,9 @@ Vagrant by HashiCorp
 ### Other: Tools
 ### Other: GPU
 simGPUGPU
+### Other: Softwares Products
+* VMWare
+* VirtualBox
 
 ## Conceptology
 ### Levels
@@ -57,6 +60,9 @@ Terms (types and levels)
 * "virtual machine"
 * "emulator"
 * "container"
+* "cloud vm" (VMs hosted in the cloud) -- abstract
+* process VM (process vs system VMs)
+* system VM (process vs system VMs)
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
@@ -65,7 +71,6 @@ Terms (types and levels)
 Dependency struture:
 
 QEMU can be used as a backend for Vagrant to provision virtual machines"
-
 
 
 
