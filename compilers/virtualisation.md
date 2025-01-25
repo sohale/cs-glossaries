@@ -53,9 +53,10 @@ LXD versus LXC
 
 LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
-Terms (types and levels)
+#### Terms (types and levels)
+As usually explained on internet:
 * "Lightweight virtual machines"
-* "hypervisor"
+* "hypervisor" (hypervisor vs VM)
 * "container hypervisor"
 * "virtual machine"
 * "emulator"
