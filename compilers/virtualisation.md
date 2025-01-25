@@ -184,7 +184,7 @@ Mount,
 Process ID,
 Network,
 Inter-process Communication,
-UTS,
+Unix Time-Sharing,
 User ID,
 Control group,
 Time
@@ -194,10 +194,10 @@ Time
 * Process ID (pid)
 * Network (net)
 * Inter-process Communication (ipc)
-* UTS
+* Unix Time-Sharing (uts)
 * User ID (user)
 * Control group (cgroup)
-* Time.
+* Time
 
 Linux syscalls: (see [[4]](#4))
 * `clone`
