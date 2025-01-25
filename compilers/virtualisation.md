@@ -15,7 +15,7 @@ Vagrant by HashiCorp
 * QEMU is for full-system emulation
 
 ### Other: Tools
-* "KVM" is a software too?
+* "KVM" is a software too? No. It is the specific Lilnux's LVM implementaiton.
 
 ### Other: GPU Emulation
 simGPUGPU
@@ -35,7 +35,8 @@ simGPUGPU
 * docker: product (more than a CLI)
 * tools: CLI tools: Vagrant
 * backend
-* KVM (Kernel-based Virtual Machine)
+* KVM (Kernel-based Virtual Machine)  [[8]](#8)
+    * What is KVM versus Linux namespaces
 * (library): e.g. `Libvirt`
 * NS (OS-level: Linux)
 * CPU facilities (instructions)
@@ -88,7 +89,9 @@ As usually explained on internet: (pool, to be sorted)
    * Hosted VM or HV
 * Type 0 hypervisor [[3]](#3)
 * Paravirtualization (see Xen)
-* Linux KVM
+* Linux KVM  [[8]](#8)
+    * "Kernel-based Virtual Machine (KVM) is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor" [[8]](#8)
+    * What is KVM versus Linux Namespaces?
 * operating system-level virtualization (OS-level)
 * a "virtualization technology"
 * "virtual hardware system"
@@ -147,7 +150,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 #### Underlying technology
 Virualisaiotn underlying technology in open-source software may rely on (typically):
 * QEMU (Emulation)
-* Linux (OS: NS or/and CG)
+* Linux (OS: NS or/and CG): KVM?  [[8]](#8)
 * Processor (hardware) facilities for virtualisation
 
 #### Technology that use vitualisiton
@@ -211,6 +214,7 @@ cgroups vs Namespaces:
 
 
 #### Linux LXC timeline
+
 * 2002: Linux Namespaces began (Eric W. Biederman) [[4]](#4) and [...]
 * 2006: Cgroups Introduced (Google engineers Paul Menage and Rohit Seth)
 * 2008: Namespaces and Cgroups in Linux Kernel
@@ -219,7 +223,7 @@ cgroups vs Namespaces:
 * 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
 #### Linux Namespaces timeline
-
+All about KVM [[8]](#8) and CNCF
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
     * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
@@ -274,3 +278,4 @@ They are:
 * <a id="5">[5]</a> User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013).
 * <a id="6">[6]</a> UTS: Whats a uts namespace https://unix.stackexchange.com/questions/183717/whats-a-uts-namespace
 * <a id="7">[7]</a> Promise theory: https://en.wikipedia.org/wiki/Promise_theory
+* <a id="8">[8]</a> https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
