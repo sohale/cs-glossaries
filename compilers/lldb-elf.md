@@ -115,6 +115,11 @@ Such lines in `.s` assembly source files:
     .cfi_def_cfa_offset 8
     .cfi_endproc
 ```
+Metadata for
+* exception handling
+* debugger "lldb"
+to understand the "stack layout"
+at different points during program execution.
 
 ### Side notes
 
