@@ -41,16 +41,21 @@ Dependency struture:
 QEMU can be used as a backend for Vagrant to provision virtual machines"
 
 ### Timeline (history)
+Container versus Namespace?
+
 * PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga )
 * QEMU: 2003
 * Plan 9 (ideas) 1992 (public release)
 * VPS: First VPSes (before AWS/cloud?) early 2000s. OpenVZ (2005), Xen (?)
 * pre-cloud: IBM Computing on Demand (2000)
 * pre-cloud: Salesforce (1999)
+* 2002:
 * First Cloud: 2006 (AWS EC2)
+* cgroups: ...
+* Linux Containers (LXC) 2008. built on namespaces and cgroups.
 * Vagrant: 2010 (HashiCorp)
-* Linux NS started: year: ... (by Google, etc)
-* Linux NS completed: year: ...
+* Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
+* Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces"
 * LXC, LXD
 * Docker first release: year
 * Docker Build (new docker)
