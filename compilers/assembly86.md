@@ -100,6 +100,9 @@ Natural pairs:
 Confusions: Confusing naming apparent patterns:
 * `DS`, `ES` : they don't get connected (are diagonal!) (axis/concern)
 
+Funny names:
+* `RIP`
+
 #### List of Registers
 Using `(lldb)` command: `re read`:
 ```
