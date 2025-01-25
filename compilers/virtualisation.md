@@ -30,7 +30,14 @@ simGPUGPU
 * NS (OS-level: Linux)
 * CPU facilities (instructions)
 
-where to put this in above stack? "Hyper-V"
+where to put this in above stack?
+* "Hyper-V"
+* "container hypervisor" (LXD, by Canonical)
+    * "virtual machine"-like experience with "containers".
+
+"virtual machine" versus "container"
+
+"virtual machine"-like versus "virtual machine"
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
@@ -44,6 +51,10 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 Container versus Namespace?
 
 LXD versus LXC
+
+"container hypervisor" built on LXC
+
+
 
 ### Timeline (history)
 * 1960s: IBM (emulation backward compatibility) but was not cross-platform
@@ -68,8 +79,9 @@ LXD versus LXC
 * 2010: Vagrant: 2010 (HashiCorp)
 * 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
 * 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013)
-* 2014: LXD: 2014 (Canonical)
+* 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2013: 🐳 Docker first release (used LXC)
+* 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
 * 2018: Docker BuildKit (new docker)
 * Docker BuildKit 2
@@ -83,6 +95,7 @@ Linux LXC timesline:
 * 2006: Cgroups Introduced (Google engineers Paul Menage and Rohit Seth)
 * 2008: Namespaces and Cgroups in Linux Kernel
 * 2008: First Release of LXC
+* 2010–2012: Early Adoption
 
 * 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
 * 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013)
