@@ -172,6 +172,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 
 #### Namespaces timeline
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
+    * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
 * 2016: `cgroup`: Control group (kernel 4.6)
 * Proposed:
@@ -185,7 +186,7 @@ Network,
 Inter-process Communication,
 UTS,
 User ID,
-Control group (cgroup),
+Control group,
 Time
 (`mnt`, `pid`, `net`, `ipc`, `uts`, `user`, `cgroup`, `time`).
 
@@ -219,3 +220,4 @@ They are:
 * <a id="3">[3]</a> For "Type 0 hypervisor" see: [types-of-virtual-machines-and-their-implementations](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/) poriyaan.in
 * <a id="4">[4]</a> "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)" on Wikipedia
 * <a id="5">[5]</a> User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013).
+* <a id="6">[6]</a> UTS: Whats a uts namespace https://unix.stackexchange.com/questions/183717/whats-a-uts-namespace
