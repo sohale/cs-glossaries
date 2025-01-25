@@ -306,7 +306,7 @@ What is:
 * What is the relationship between KVM, QEMU and HAV?
 
 ### Hardware-Assisted Virtualization (HAV)
-* CPU extensions like Intel VT-x or AMD-V for efficient virtualization.
+* CPU extensions like Intel VT-x or AMD-V for efficient virtualization. [[8]](#8) [[9]](#9)
 
 ## Refs
 * <a id="1">[1]</a> See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga
@@ -317,3 +317,4 @@ What is:
 * <a id="6">[6]</a> UTS: Whats a uts namespace https://unix.stackexchange.com/questions/183717/whats-a-uts-namespace
 * <a id="7">[7]</a> Promise theory: https://en.wikipedia.org/wiki/Promise_theory
 * <a id="8">[8]</a> https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+* <a id="9">[9]</a> HAV: Hardware Assisted Virtualization https://en.wikipedia.org/wiki/Virtualization#Hardware_assisted See above [[section]](#Hardware-Assisted Virtualization (HAV))
