@@ -5,7 +5,7 @@ What is `vagrant` and what it is not?
 * How vagrant versus qemu are different?
 * What about those hardware facilities for emulation?
 
-## Them
+## Virtualisation and Emulation Softwares
 ### vagrant
 
 Vagrant by HashiCorp
@@ -23,8 +23,8 @@ simGPUGPU
 
 * Linux-V server is an operating system-level virtualization
 
-## Conceptology
-### Levels
+## VM Conceptology
+### VM: Levels
 * Software product (full system): VMware, VirtualBox
 * docker sub: marketplace
 * docker: product (more than a CLI)
@@ -58,7 +58,7 @@ LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
 From Docker [docs](https://docs.docker.com/build/buildkit/): "enable Hyper-V and Containers"
 
-#### Terms (types and levels)
+#### VM: Terms (types and levels)
 As usually explained on internet: (pool, to be sorted)
 * "Lightweight virtual machines"
 * "hypervisor" (hypervisor vs VM)
@@ -97,7 +97,7 @@ As usually explained on internet: (pool, to be sorted)
 * Type-2 VM (Hypervisor as an Extension to Host OS) [[2]](#2)
 * "full-system emulation" (e.g. QEMU)
 
-### Terminology:
+### VM: Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
 * **Ring** (See intel assembly)
 * **Ring 0**
@@ -123,12 +123,15 @@ As usually explained on internet: (pool, to be sorted)
    * VPS (also see: "Virtual Network")
    * Host OS
 
-### Dependency:
+### VM: Dependency:
 Dependency struture:
 
 QEMU can be used as a backend for Vagrant to provision virtual machines"
 
-
+### Versus-ology: ns, cg, vm
+cgroups vs Namespaces:
+* cgroups: Control and limit resource usage
+* ns: Isolate system resources.
 
 ### Timeline (history)
 * 1960s: IBM (emulation backward compatibility) but was not cross-platform
@@ -175,7 +178,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2010–2012: Early Adoption
 * 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
-#### Namespaces timeline
+#### Linux Namespaces timeline
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
     * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
