@@ -168,8 +168,8 @@ Linux LXC timeline:
 * 2008: First Release of LXC
 * 2010–2012: Early Adoption
 
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). [5]
-* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [5] (Linux 3.8 was released on Mon, 18 Feb 2013)
+* 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). [[4]](#4)
+* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5) (Linux 3.8 was released on Mon, 18 Feb 2013)
 
 ### Misc
 * journal namespace
