@@ -129,7 +129,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 
 ### Timeline (history)
 * 1960s: IBM (emulation backward compatibility) but was not cross-platform
-* 1980s: PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga ) Early PC Emulation (1980s)
+* 1980s: PC Emulator(s) on Amiga [[1]](#1): Early PC Emulation (1980s)
     * 1986: Amiga Transformer (hardware)
     * 1987: PC-Task (1987) (A-Max (1987: Mac), Shapeshifter (1993, Mac), UAE (Unix Amiga Emulator: 1995))
     * The Amiga led the way with practical software and hardware-based solutions for everyday users.
@@ -176,6 +176,7 @@ Linux LXC timeline:
 * syslog namespace
 
 ## Refs
+* <a id="1">[1]</a> See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga
 * <a id="2">[2]</a> [Types of Operating System Kernel Structures and VMs](https://www.josehu.com/technical/2021/05/24/os-kernel-models.html), by Guanzhou Hu (2021)
 * <a id="3">[3]</a> For "Type 0 hypervisor" see: [types-of-virtual-machines-and-their-implementations](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/) poriyaan.in
 * <a id="4">[4]</a> "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)" on Wikipedia
