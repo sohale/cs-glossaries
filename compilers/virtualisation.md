@@ -55,6 +55,9 @@ LXD versus LXC
 
 LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
+
+From Docker [docs](https://docs.docker.com/build/buildkit/): "enable Hyper-V and Containers"
+
 #### Terms (types and levels)
 As usually explained on internet: (pool, to be sorted)
 * "Lightweight virtual machines"
@@ -136,10 +139,11 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 1991: Earliest Linux release 
 * 1992: "Plan 9" (ideas) 1992 (public release) used "wider namespace functionality" heavily throughout.
 * 1993: Wine began in 1993 under the initial coordination of Bob Amstadt as a way to support running Windows 3.1 programs on Linux.
+* 1999: pre-cloud: Salesforce (1999)
 * 2000s: VPS: First VPSes (before AWS/cloud?) early 2000s. OpenVZ (2005), Xen (?)
 * 2000: pre-cloud: IBM Computing on Demand (2000)
-* 1999: pre-cloud: Salesforce (1999)
-* 2002: Linux: "mount" namespace (kernel 2.4.19)
+* 2002: Linux: "mount" namespace (kernel 2.4.19) -- first namespace
+* 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
 * 2003: QEMU
 * 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * 2006: ☁️ First Cloud (AWS EC2)
@@ -147,19 +151,18 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2007: cgroups: v1: 2007
 * cgroups v2: ...
 * 2008: LXC: (Linux Containers) 2008. built on namespaces and cgroups. First Release of LXC on 2008.
-* 2010: Vagrant: 2010 (HashiCorp)
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
-* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5). (Linux 3.8 was released on Mon, 18 Feb 2013)
-    * "User namespaces" on Linux
-* 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
+* 2008: Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
+* 2010: **Vagrant**: 2010 (HashiCorp)
+* 2013: **Linux namespaces** completed: (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5). (Linux 3.8 was released on Mon, 18 Feb 2013)
+    * The "User namespaces" on Linux
 * 2013: 🐳 Docker first release (used LXC)
+* 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
-* 2018: Docker BuildKit (new docker)
-* Docker BuildKit 2
+* 2018: Docker BuildKit (new docker) (since Docker 18.06?) (a Low-Level Build ([LLB](https://docs.docker.com/build/buildkit/)) format)
+* Docker BuildKit 2 (
 * Docker new front-ends
 * 2020: Apple's "Rosetta 2" for (for transition to) Arm
-* Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 
 
 #### Linux LXC timeline
