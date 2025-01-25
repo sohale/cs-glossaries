@@ -91,6 +91,7 @@ For `SI`, `DI`:
 * ES, SI
 
 Segmentation-concern/axis:
+* `*S`: The `CS`, `DS`, `SS`, `ES`, `FS`, `GS`: are for Code, Data, Stack, Extra (E,F,G)
 * `[ES:DI]`
 
 Confusions: Confusing naming apparent patterns:
