@@ -36,10 +36,13 @@ Allocation: `RSP -= 6`.
 * `%` means ...
 
 
-#### Typical modes
+#### "Typical modes" (Mnemonical Precedence)
+My previous understanding as I remember: Typical modes
 * "flat memory mode with 64-bit addressing". `R--` registres are used: RSP, etc.
 * "16-bit mode" (e.g., 8086, XT)
 * "16-bit mode" (e.g., 8086, XT)
+* TBC
+
 ### Registers
 #### Register `RSP`
 
@@ -48,6 +51,7 @@ SP = 16-bit "Stack Pointer"
 * `R*`: 64-bit (Stack Pointer)
 * `E*`: 32-bit; Extended ... (Stack Pointer)
 * `L*`: Lowest 8 bits of ... (Stack Pointer)
+* `*X`: e.g. `AX`
 
 `RSP` > `ESP` > `SP` > `SPL`
 
