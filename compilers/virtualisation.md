@@ -37,7 +37,7 @@ simGPUGPU
 * tools: CLI tools: Vagrant
 * backend
 * KVM (Kernel-based Virtual Machine)  [[8]](#8)
-    * What is KVM versus Linux namespaces
+    * What is KVM versus Linux namespaces (they are completely separate)
     * "The kernel-mode component of KVM"
 * (library): e.g. `Libvirt`
 * NS (OS-level: Linux)
@@ -92,8 +92,9 @@ As usually explained on internet: (pool, to be sorted)
 * Type 0 hypervisor [[3]](#3)
 * Paravirtualization (see Xen)
 * Linux KVM  [[8]](#8)
+    * Not to be confused with NS system.
     * "Kernel-based Virtual Machine (KVM) is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor" [[8]](#8)
-    * What is KVM versus Linux Namespaces?
+    * What is KVM versus Linux Namespaces? They are separate.
     * The "kernel-mode component of KVM" = ?
 * operating system-level virtualization (OS-level)
 * a "virtualization technology"
@@ -114,6 +115,8 @@ As usually explained on internet: (pool, to be sorted)
   * Lightweight process isolation
   * "KVM transforms the Linux kernel into a full-fledged hypervisor, allowing the creation and management of virtual machines (VMs) with complete **guest** operating systems"
   * KVM is Hardware-Assisted Virtualization
+* vCPU [[8]](#8)
+* "hot swappable vCPUs" [[8]](#8)
 
 #### Ways to say it:
 * "Virtualisation with QEMU"
@@ -148,6 +151,8 @@ As usually explained on internet: (pool, to be sorted)
 * The Cloud Native Computing Foundation (CNCF) as part of Linux Foundaiton
 * cluster manager
     * Borg (cluster manager) -- intrernally used in G since 2008
+* Live Migration [[8]](#8)
+* Hardware-Assisted Virtualization (see below)
 
 ### VM: Dependency:
 Dependency struture:
@@ -157,7 +162,8 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 #### Underlying technology
 Virualisaiotn underlying technology in open-source software may rely on (typically):
 * QEMU (Emulation)
-* Linux (OS: NS or/and CG): KVM?  [[8]](#8)
+* Linux (OS: NS or/and CG)
+* KVM?  [[8]](#8) (separate from Linux NS, may use HAV)
 * Processor (hardware) facilities for virtualisation. (Hardware-Assisted Virtualization)
 
 #### Technology that use vitualisiton
@@ -280,11 +286,26 @@ They are:
 * syslog namespace
 
 ### KVM
+KVM is a whole differnt beast.
+
 KVM [[8]](#8) is separate from NS+CG.
 <!-- NS, KVM [[8]](#8) and CNCF -->
-KVM uses Hardware-Assisted Virtualization.
+* KVM uses Hardware-Assisted Virtualization.
+* Runs separate Kernel instances (can be differnt kernels)
+* Has a "KVM interface"
 
-### Hardware-Assisted Virtualization
+* vCPU
+* hot swappable vCPUs
+
+Applications:
+* KVM is used by Virtual Machine Monitors (VMMs)
+
+What is:
+* KVM provides device abstraction "but no processor emulation." (???) [[8]](#8)
+* What is "hardware emulation that is not handled by the kernel"? [[8]](#8)
+* What is the relationship between KVM, QEMU and HAV?
+
+### Hardware-Assisted Virtualization (HAV)
 * CPU extensions like Intel VT-x or AMD-V for efficient virtualization.
 
 ## Refs
