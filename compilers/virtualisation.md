@@ -39,6 +39,14 @@ where to put this in above stack?
 
 "virtual machine"-like versus "virtual machine"
 
+
+Container versus Namespace?
+
+LXD versus LXC
+
+"container hypervisor" built on LXC
+
+
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
 
@@ -47,12 +55,6 @@ Dependency struture:
 
 QEMU can be used as a backend for Vagrant to provision virtual machines"
 
-
-Container versus Namespace?
-
-LXD versus LXC
-
-"container hypervisor" built on LXC
 
 
 
