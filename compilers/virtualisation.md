@@ -84,6 +84,7 @@ As usually explained on internet: (pool, to be sorted)
 * "Hardware virtual machines" (Emulates a physical computer's components, such as the processor, memory, and storage) (system VM?)
     * "Virtual Driver" = ?
 * "Full virtualisation"
+* "Virtual Server" (software that "runs" VM)
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
@@ -95,6 +96,9 @@ As usually explained on internet: (pool, to be sorted)
 * VM Type in terms of optimisaiotn: Compute-optimised, memory-optimised, storage-, GPU-, high-performance computer-*
 * Virtual Network
 * VM Monitor
+* "Physical Machine" (when you want to ...)
+   * Industrial PC
+   * Rack
 * Minor relevance:
    * VPS (also see: "Virtual Network")
    * Host OS
