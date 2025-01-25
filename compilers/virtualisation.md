@@ -20,14 +20,16 @@ simGPUGPU
 
 ## Conceptology
 ### Levels
-* That product (full system)
+* Software product (full system): VMware, VirtualBox
 * docker sub: marketplace
 * docker: product (more than a CLI)
 * tools: CLI tools: Vagrant
 * backend
-* KVM
+* KVM (Kernel-based Virtual Machine)
+* (library): e.g. `Libvirt`
 * NS (OS-level: Linux)
-* CPU facilities
+* CPU facilities (instructions)
+
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
