@@ -117,6 +117,9 @@ As usually explained on internet: (pool, to be sorted)
   * KVM is Hardware-Assisted Virtualization
 * vCPU [[8]](#8)
 * "hot swappable vCPUs" [[8]](#8)
+* "Virtualization Technology for Directed I/O" (see HAV, below)
+* I/O MMU virtualization (see HAV, below)
+* "logical processor" (see HAV, below)
 
 #### Ways to say it:
 * "Virtualisation with QEMU"
@@ -316,6 +319,11 @@ Types:
 * AMD-V [(wikipedia)](https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_(AMD-V))
 * VIA VT [(wikipedia)](https://en.wikipedia.org/wiki/VIA_Technologies)
 
+Related:
+* Intel "VT-d": I/O MMU virtualization (AMD-Vi and Intel VT-d), "Virtualization Technology for Directed I/O"
+* AMD-Vi: (same)
+
+
 #### Intel VTX
 "VMX" stands for Virtual Machine Extensions.
 
@@ -324,6 +332,11 @@ Types:
 In "virtual execution mode",
     the "guest OS" perceives itself as running with full privilege ("ring 0"),
     but the "host OS" remains protected. [wikipedia](https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-x)
+
+Extended Page Tables (EPT) for "page-table virtualization".
+
+"unrestricted guest" enables creation of "logical processor" to run directly (virtually?) in "real mode" (using EPT).
+
 
 VTX adds 13 new instructions:
 * VMPTRLD
