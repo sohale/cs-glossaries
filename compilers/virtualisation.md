@@ -28,7 +28,10 @@ Originally written by:
     * The "kernel-mode component of KVM"
 
 ### Other: GPU Emulation
-simGPUGPU
+For GPU Performance modelling
+
+* gpgpu-sim: https://github.com/gpgpu-sim/gpgpu-sim_distribution
+
 ### Other: GPU containeralisaiton/Virtualisation
 
 ### Other: Softwares Products
