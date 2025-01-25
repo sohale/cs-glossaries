@@ -90,7 +90,8 @@ For `SI`, `DI`:
 * DS, DI
 * ES, SI
 
-Segmentatoin-concern/axis:
+Segmentation-concern/axis:
+* `[ES:DI]`
 
 Confusions: Confusing naming apparent patterns:
 * `DS`, `ES` : they don't get connected (are diagonal!) (axis/concern)
