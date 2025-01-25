@@ -105,8 +105,14 @@ As usually explained on internet: (pool, to be sorted)
    * Rack
 * "VM Control"
 * "Virtual Environment"
-* "OS Kernel Structure Type"s (os-kernel models)
+* "OS Kernel Structure Type"s (OS-Kernel models)
    * [Types of Operating System Kernel Structures and VMs](https://www.josehu.com/technical/2021/05/24/os-kernel-models.html), by Guanzhou Hu (2021)
+   * Monolithic Kernel
+   * Microkernel
+   * Semi-Microkernel
+   * Exokernel
+   * Kernel Bypassing (Direct-Access Library for Certain Subsystems)
+   * Disaggregated Kernel
 * Minor relevance:
    * VPS (also see: "Virtual Network")
    * Host OS
