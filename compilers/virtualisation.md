@@ -155,10 +155,12 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2010: **Vagrant**: 2010 (HashiCorp)
 * 2013: **Linux namespaces** completed: (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5). (Linux 3.8 was released on Mon, 18 Feb 2013)
     * The "User namespaces" on Linux
+    * Started: redesigning cgroups (later as cgroups v2)
 * 2013: 🐳 Docker first release (used LXC)
 * 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
+* 2016: "cgroups v2" (kernel 4.5)
 * 2018: Docker BuildKit `buildx` (new docker) (since Docker 18.06?) (a Low-Level Build ([LLB](https://docs.docker.com/build/buildkit/)) format) `builder`
     * ~~Docker BuildKit 2 (?)~~
     * ~~Docker new front-ends~~ `builder` , `buildx` , `docker buildx use`
