@@ -72,6 +72,7 @@ SP = 16-bit "Stack Pointer"
 * `L*`: Lowest 8 bits of ... (Stack Pointer)
 * `*X`: e.g. `AX`
 
+##### Naming (sub-)systems in Intel assembly:
 Naming 1: For Stack Pointer (SP): `RSP` > `ESP` > `SP` > `SPL`
 * RSP
 * ESP
