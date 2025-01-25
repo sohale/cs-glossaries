@@ -306,7 +306,16 @@ What is:
 * What is the relationship between KVM, QEMU and HAV?
 
 ### Hardware-Assisted Virtualization (HAV)
-* CPU extensions like Intel VT-x or AMD-V for efficient virtualization. [[8]](#8) [[9]](#9)
+* CPU extensions like Intel VT-x, AMD-V, VIA VT for efficient virtualization. [[8]](#8) [[9]](#9)
+* aka Accelerated Virtualization
+* hardware virtual machine (HVM): (Xen calls it so)
+* Native Virtualization (Virtual Iron calls it so)
+
+Types:
+* Intel VT-x
+* AMD-V
+* VIA VT
+
 
 ## Refs
 * <a id="1">[1]</a> See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga
