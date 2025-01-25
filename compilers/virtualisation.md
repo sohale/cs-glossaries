@@ -46,14 +46,19 @@ Container versus Namespace?
 LXD versus LXC
 
 ### Timeline (history)
-
-* 1980s: PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga )
-* 2003: QEMU: 2003
+* 1960s: IBM (emulation backward compatibility) but was not cross-platform
+* 1980s: PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga ) Early PC Emulation (1980s)
+    * 1986: Amiga Transformer
+    * 1987: PC-Task (1987) (A-Max (1987: Mac), Shapeshifter (1993, Mac), UAE (Unix Amiga Emulator: 1995))
+    * The Amiga led the way with practical software and hardware-based solutions for everyday users.
+* 1991: Earliest Linux release 
 * 1992: "Plan 9" (ideas) 1992 (public release) used "wider namespace functionality" heavily throughout.
+* 1993: Wine began in 1993 under the initial coordination of Bob Amstadt as a way to support running Windows 3.1 programs on Linux.
 * 2000s: VPS: First VPSes (before AWS/cloud?) early 2000s. OpenVZ (2005), Xen (?)
 * 2000: pre-cloud: IBM Computing on Demand (2000)
 * 1999: pre-cloud: Salesforce (1999)
 * 2002: Linux: "mount" namespace (kernel 2.4.19)
+* 2003: QEMU
 * 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * 2006: ☁️ First Cloud (AWS EC2)
 * 2006: Linux more namespaces
