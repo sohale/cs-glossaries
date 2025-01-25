@@ -40,11 +40,20 @@ movq   %rsp, %rdx
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
 * `%` means ...
 
-Intel asm lingo / g
+Intel assembly lingo / g
 * Indirect addressing
 * Destination
 * offset
 
+Modern lingo:
+* "Stack growth direction", can be considerd a function of:
+    * ISA
+    * ABI
+    * brand
+    * "calling convention"
+    * "compiler and architecture"
+    * "platform"
+* SSA
 
 #### "Typical modes" (Mnemonical Precedence)
 My previous understanding as I remember: Typical modes
