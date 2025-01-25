@@ -21,11 +21,12 @@ movq   %rsp, %rdx
 * Stack grows downwards
 * Little endian
 
+* Endian-ness
+    * Intel: Little-endian, Motorolla: Big-endian
 
-Intel: Little-endian, Motorolla: Big-endian
-
-Stack grows downwards:
-Allocation: `RSP -= 6`.
+* Stack growth direction:
+    * Stack grows downwards:
+    * Allocation: `RSP -= 6`.
 
 #### intel assembly convensions:
 * "Destination register", LHS, is written on right: `subq   $0x18, %rsp`
