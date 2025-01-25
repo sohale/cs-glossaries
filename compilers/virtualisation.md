@@ -94,8 +94,9 @@ As usually explained on internet: (pool, to be sorted)
 * "Host Hardware Platform"
 * VM Type in terms of optimisaiotn: Compute-optimised, memory-optimised, storage-, GPU-, high-performance computer-*
 * Virtual Network
-* Minor:
-   * VPS
+* VM Monitor
+* Minor relevance:
+   * VPS (also see: "Virtual Network")
    * Host OS
 
 ### Dependency:
