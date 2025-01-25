@@ -62,7 +62,8 @@ My previous understanding as I remember: Typical modes
 * TBC
 
 ### Registers
-#### Register `RSP`
+#### On Naming of registers:
+##### Register `RSP`
 
 SP = 16-bit "Stack Pointer"
 
@@ -71,12 +72,17 @@ SP = 16-bit "Stack Pointer"
 * `L*`: Lowest 8 bits of ... (Stack Pointer)
 * `*X`: e.g. `AX`
 
-`RSP` > `ESP` > `SP` > `SPL`
-
+Naming 1: For Stack Pointer (SP): `RSP` > `ESP` > `SP` > `SPL`
 * RSP
 * ESP
 * SP
-* SPL: No support for 8-bit stack pointer in x86.
+* SPL: No support for 8-bit stack pointer in x86. Akin to `AL`.
+
+Naming 2: For ...:
+* `AL` (also see `SPL`)
+* `AH`
+* `AX`
+* No Such thing as `A`?
 
 #### List of Registers
 Using `(lldb)` command: `re read`:
