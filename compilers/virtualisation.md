@@ -21,6 +21,8 @@ simGPUGPU
 * VMWare
 * VirtualBox
 
+* Linux-V server is an operating system-level virtualization
+
 ## Conceptology
 ### Levels
 * Software product (full system): VMware, VirtualBox
@@ -54,7 +56,7 @@ LXD versus LXC
 LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
 #### Terms (types and levels)
-As usually explained on internet:
+As usually explained on internet: (pool, to be sorted)
 * "Lightweight virtual machines"
 * "hypervisor" (hypervisor vs VM)
 * "container hypervisor"
@@ -64,6 +66,18 @@ As usually explained on internet:
 * "cloud vm" (VMs hosted in the cloud) -- abstract
 * process VM (process vs system VMs)
 * system VM (process vs system VMs)
+* "virtualisation"
+* "hosted virtualisation"
+* "bare metal virtualisation"
+* virtualising software
+* VMM
+* Type 1 hypervisor
+* Type 2 hypervisor
+* Type 0 hypervisor [see](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/)
+* Paravirtualization (see Xen)
+* Linux KVM
+* operating system-level virtualization
+* a "virtualization technology"
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
