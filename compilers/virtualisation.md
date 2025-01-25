@@ -74,7 +74,11 @@ As usually explained on internet: (pool, to be sorted)
 * virtualising software
 * VMM
 * Type 1 hypervisor
+   * Type 1- VM or HV
+   * Native- VM or HV
+   * Bare metal- VM or HV
 * Type 2 hypervisor
+   * Hosted VM or HV
 * Type 0 hypervisor [see](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/)
 * Paravirtualization (see Xen)
 * Linux KVM
@@ -99,6 +103,8 @@ As usually explained on internet: (pool, to be sorted)
 * "Physical Machine" (when you want to ...)
    * Industrial PC
    * Rack
+* "VM Control"
+* "Virtual Environment"
 * Minor relevance:
    * VPS (also see: "Virtual Network")
    * Host OS
