@@ -205,8 +205,9 @@ Linux syscalls: (see [[4]](#4))
 
 They are:
 * (Why specified by FD?)
-* Aregarbage collected
-* Accessed `/proc/<pid>/ns/<nskind>`
+* Uniquely specified by `pid/ns/nskind`
+* Are garbage collected
+* Accessed via `/proc/<pid>/ns/<nskind>`
 
 ### Misc
 * journal namespace
