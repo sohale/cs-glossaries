@@ -31,7 +31,8 @@ movq   %rsp, %rdx
 
 #### intel assembly convensions:
 * "Destination register", LHS, is written on right: `subq   $0x18, %rsp`
-    * The assembly syntax is "source" -> "destination": `leaq src, dst`
+    * The assembly syntax is "source" → "destination": `leaq src, dst`
+        * Discoursive note: Is a `cp` (copy) mindset. Also same as `ln` command.
 * `$` means ~~decimal~~ literal number
     * As opposed to?
         * "indirect" offset(?) (Offset in indirect adressing)
