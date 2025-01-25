@@ -116,7 +116,7 @@ Such lines in `.s` assembly source files:
     .cfi_endproc
 ```
 Metadata for
-* exception handling
+* exception handling ("exception unwinding")
 * debugger "lldb"
 to understand the "stack layout"
 at different points during program execution.
