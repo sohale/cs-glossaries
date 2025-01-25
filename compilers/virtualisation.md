@@ -51,6 +51,7 @@ LXD versus LXC
 * pre-cloud: IBM Computing on Demand (2000)
 * pre-cloud: Salesforce (1999)
 * 2002:
+* 2006: Apple Rosetta 1 for PowerPC (for transition)
 * First Cloud: 2006 (AWS EC2)
 * cgroups: v1: 2007
 * cgroups v2: ...
@@ -60,10 +61,13 @@ LXD versus LXC
 * Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces"
 * LXC
 * LXD: 2014 (Canonical)
-* Docker first release: year
-* Docker Build (new docker)
+* Docker first release: year 2013. (used LXC)
+* 2016: Docker for Mac & Windows (Docker Desktop): 2016
+* Docker BuildKit (new docker) 2018
+* Docker BuildKit 2
 * Docker new front-ends
 * Arm/Apple's Rosetta(?)
+* 2020: Apple Rosetta 2 for Arm (for transition)
 * Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 
 ### Misc
