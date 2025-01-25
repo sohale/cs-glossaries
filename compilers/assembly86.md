@@ -90,8 +90,10 @@ For `SI`, `DI`:
 * DS, DI
 * ES, SI
 
+Segmentatoin-concern/axis:
+
 Confusions: Confusing naming apparent patterns:
-* `DS`, `ES` : they don't get connected (are diagonal!)
+* `DS`, `ES` : they don't get connected (are diagonal!) (axis/concern)
 
 #### List of Registers
 Using `(lldb)` command: `re read`:
