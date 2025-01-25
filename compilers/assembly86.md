@@ -139,6 +139,16 @@ See below (history)
 Example `mov [es:di], ax`
 
 
+### Instructions
+#### Instrucitons naming and historical legacy 
+<!-- lineage -->
+An instuction can be in XT (Real), Protcted mode, etc
+Implicit hiddent context.
+
+Legacy baar: example:
+```asm
+subq   $0x18, %rsp
+```
 
 ### History
 * History of Stack pointers:
