@@ -51,7 +51,7 @@ LXD versus LXC
 * pre-cloud: IBM Computing on Demand (2000)
 * pre-cloud: Salesforce (1999)
 * 2002:
-* 2006: Apple Rosetta 1 for PowerPC (for transition)
+* 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * First Cloud: 2006 (AWS EC2)
 * cgroups: v1: 2007
 * cgroups v2: ...
@@ -66,8 +66,7 @@ LXD versus LXC
 * Docker BuildKit (new docker) 2018
 * Docker BuildKit 2
 * Docker new front-ends
-* Arm/Apple's Rosetta(?)
-* 2020: Apple Rosetta 2 for Arm (for transition)
+* 2020: Apple's "Rosetta 2" for (for transition to) Arm
 * Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 
 ### Misc
