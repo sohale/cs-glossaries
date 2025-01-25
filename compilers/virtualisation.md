@@ -148,8 +148,8 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * cgroups v2: ...
 * 2008: LXC: (Linux Containers) 2008. built on namespaces and cgroups. First Release of LXC on 2008.
 * 2010: Vagrant: 2010 (HashiCorp)
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
-* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013)
+* 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
+* 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5). (Linux 3.8 was released on Mon, 18 Feb 2013)
 * 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2013: 🐳 Docker first release (used LXC)
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
@@ -168,7 +168,7 @@ Linux LXC timeline:
 * 2008: First Release of LXC
 * 2010–2012: Early Adoption
 
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). [[4]](#4)
+* 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
 * 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support completed [[5]](#5) (Linux 3.8 was released on Mon, 18 Feb 2013)
 
 ### Misc
@@ -180,4 +180,3 @@ Linux LXC timeline:
 * <a id="3">[3]</a> For "Type 0 hypervisor" see: [types-of-virtual-machines-and-their-implementations](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/) poriyaan.in
 * <a id="4">[4]</a> "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)" on Wikipedia
 * <a id="5">[5]</a> User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013).
-* 
