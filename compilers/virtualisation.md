@@ -11,3 +11,7 @@ What is `vagrant` and what it is not?
 Vagrant by HashiCorp
 
 ### qemu
+* QEMU was before vagrant
+* QEMU is for full-system emulation
+
+simGPUGPU
