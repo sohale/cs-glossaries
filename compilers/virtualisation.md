@@ -48,6 +48,7 @@ LXD versus LXC
 
 "virtual machine" verus Emulator
 
+LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
@@ -103,7 +104,6 @@ Linux LXC timesline:
 
 * 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
 * 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013)
-
 
 ### Misc
 * journal namespace
