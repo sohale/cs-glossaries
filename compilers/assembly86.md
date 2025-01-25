@@ -23,7 +23,8 @@ movq   %rsp, %rdx
 
 #### Details
 * Endian-ness
-    * Intel: Little-endian, Motorolla: Big-endian
+    * Camps: Intel: Little-endian, Motorolla: Big-endian
+        * x86, PowerPC, MIPS, SPARC, EE, Cell SPUs
 
 * Stack growth direction:
     * Stack grows downwards:
