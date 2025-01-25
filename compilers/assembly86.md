@@ -30,10 +30,19 @@ Allocation: `RSP -= 6`.
 #### intel assembly convensions:
 * "Destination register", LHS, is written on right: `subq   $0x18, %rsp`
 * The assembly syntax is "source" -> "destination": `leaq src, dst`
-* `$` means decimal
+* `$` means ~~decimal~~ literal number
+    * As opposed to?
+        * "indirect" offset(?) (Offset in indirect adressing)
+        * ...
+    * Why did I think it is hexa? `$234` was hexa in Simons' Basic. `A$` meant variables of type string (`AB$(X,Y)`, `CHR$()`).
 * `()` mean indirect addressing (`PEEK`)
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
 * `%` means ...
+
+Intel asm lingo / g
+* Indirect addressing
+* Destination
+* offset
 
 
 #### "Typical modes" (Mnemonical Precedence)
