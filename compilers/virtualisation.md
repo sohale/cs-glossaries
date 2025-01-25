@@ -64,11 +64,10 @@ LXD versus LXC
 * 2006: Linux more namespaces
 * 2007: cgroups: v1: 2007
 * cgroups v2: ...
-* 2008: Linux Containers (LXC) 2008. built on namespaces and cgroups.
+* 2008: LXC: (Linux Containers) 2008. built on namespaces and cgroups. First Release of LXC on 2008.
 * 2010: Vagrant: 2010 (HashiCorp)
 * 2002: Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
 * 2013: Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces". User namespace support [completed](https://kernelnewbies.org/Linux_3.8#User_namespace_support_completed). (Linux 3.8 was released on Mon, 18 Feb 2013)
-* LXC
 * 2014: LXD: 2014 (Canonical)
 * 2013: 🐳 Docker first release (used LXC)
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
@@ -77,6 +76,13 @@ LXD versus LXC
 * Docker new front-ends
 * 2020: Apple's "Rosetta 2" for (for transition to) Arm
 * Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
+
+
+Linux LXC timesline:
+* 2002: Namespaces began (Eric W. Biederman)
+* 2006: Cgroups Introduced (Google engineers Paul Menage and Rohit Seth)
+* 2008: Namespaces and Cgroups in Linux Kernel
+* 2008: First Release of LXC
 
 ### Misc
 * journal namespace
