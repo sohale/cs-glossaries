@@ -97,6 +97,8 @@ As usually explained on internet: (pool, to be sorted)
 * Type-2 VM (Hypervisor as an Extension to Host OS) [[2]](#2)
 * "full-system emulation" (e.g. QEMU)
 
+* OS-level virtualization == containerization ( as in [w:Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) and [w:OSVM](https://en.wikipedia.org/wiki/OS-level_virtualization) )
+
 ### VM: Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
 * **Ring** (See intel assembly)
@@ -122,7 +124,9 @@ As usually explained on internet: (pool, to be sorted)
 * Minor relevance:
    * VPS (also see: "Virtual Network")
    * Host OS
-* The Cloud Native Computing Foundation (CNCF)
+* The Cloud Native Computing Foundation (CNCF) as part of Linux Foundaiton
+* cluster manager
+    * Borg (cluster manager) -- intrernally used in G since 2008
 
 ### VM: Dependency:
 Dependency struture:
