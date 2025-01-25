@@ -316,6 +316,23 @@ Types:
 * AMD-V [(wikipedia)](https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_(AMD-V))
 * VIA VT [(wikipedia)](https://en.wikipedia.org/wiki/VIA_Technologies)
 
+#### Intel VTX
+"VMX" stands for Virtual Machine Extensions.
+
+VTX adds 13 new instructions:
+* VMPTRLD
+* VMPTRST
+* VMCLEAR
+* VMREAD
+* VMWRITE
+* VMCALL
+* VMLAUNCH
+* VMRESUME
+* VMXOFF
+* VMXON
+* INVEPT
+* INVVPID
+* VMFUNC
 
 ## Refs
 * <a id="1">[1]</a> See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga
