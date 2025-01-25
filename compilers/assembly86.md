@@ -17,10 +17,11 @@ leaq   0x8(%rsp), %rsi
 movq   %rsp, %rdx
 ```
 
-### intel ISA chatacteristics:
+### Intel ISA chatacteristics:
 * Stack grows downwards
 * Little endian
 
+#### Details
 * Endian-ness
     * Intel: Little-endian, Motorolla: Big-endian
 
