@@ -55,7 +55,6 @@ LXD versus LXC
 
 LXD versus Docker: scopes/focuses (API, CLI/UI, Volume, images)
 
-
 From Docker [docs](https://docs.docker.com/build/buildkit/): "enable Hyper-V and Containers"
 
 #### VM: Terms (types and levels)
@@ -96,8 +95,14 @@ As usually explained on internet: (pool, to be sorted)
 * Type-1b VM (Hypervisor + Dom0 Kernel for Drivers) [[2]](#2)
 * Type-2 VM (Hypervisor as an Extension to Host OS) [[2]](#2)
 * "full-system emulation" (e.g. QEMU)
+* microVM ([1](https://ubuntu.com/server/docs/using-qemu-for-microvms))
+* "containerization"
+* "virtualization"
+* "OS-level virtualization" := containerization ( as in [w:Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) and [w:OSVM](https://en.wikipedia.org/wiki/OS-level_virtualization) )
 
-* OS-level virtualization == containerization ( as in [w:Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) and [w:OSVM](https://en.wikipedia.org/wiki/OS-level_virtualization) )
+
+#### Ways to say it:
+* "Virtualisation with QEMU"
 
 ### VM: Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
