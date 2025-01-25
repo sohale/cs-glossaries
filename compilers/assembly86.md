@@ -167,7 +167,8 @@ Good, proper commands:
 
 Popular ones:
 * `adc`, `call`
-Modern ones:
+* `ret`
+Modern ones: (popular+ modern)
 `loope`, `loopne`, `loopna`, `loopz`
 
 Weird names and their interpretations:
@@ -179,6 +180,9 @@ Legacy:
 * `dar`
 * `das`
 * `ter`
+
+Deprecated: Dont worry about these:
+`aaa`, `aas`, `daa`.
 
 An instuction can be in XT (Real), Protcted mode, etc
 Implicit hiddent context.
