@@ -159,9 +159,9 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
-* 2018: Docker BuildKit (new docker) (since Docker 18.06?) (a Low-Level Build ([LLB](https://docs.docker.com/build/buildkit/)) format)
-* Docker BuildKit 2 (
-* Docker new front-ends
+* 2018: Docker BuildKit `buildx` (new docker) (since Docker 18.06?) (a Low-Level Build ([LLB](https://docs.docker.com/build/buildkit/)) format) `builder`
+    * ~~Docker BuildKit 2 (?)~~
+    * ~~Docker new front-ends~~ `builder` , `buildx` , `docker buildx use`
 * 2020: Apple's "Rosetta 2" for (for transition to) Arm
 
 
