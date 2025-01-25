@@ -40,7 +40,7 @@ movq   %rsp, %rdx
     * Why did I think it is hexa? `$234` was hexa in Simons' Basic. `A$` meant variables of type string (`AB$(X,Y)`, `CHR$()`).
 * `()` mean indirect addressing (`PEEK`)
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
-* `%` means ...
+* `%` means ... (see SSA-ness)
 
 Intel assembly lingo / g
 * Indirect addressing
