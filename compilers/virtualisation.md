@@ -42,6 +42,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 
 ### Timeline (history)
 Container versus Namespace?
+LXD versus LXC
 
 * PC Emulator(s): 1980s Amiga ( See https://en.wikipedia.org/wiki/Emulation_on_the_Amiga )
 * QEMU: 2003
@@ -51,14 +52,21 @@ Container versus Namespace?
 * pre-cloud: Salesforce (1999)
 * 2002:
 * First Cloud: 2006 (AWS EC2)
-* cgroups: ...
+* cgroups: v1: 2007
+* cgroups v2: ...
 * Linux Containers (LXC) 2008. built on namespaces and cgroups.
 * Vagrant: 2010 (HashiCorp)
 * Linux NS: started: year: 2002, by Eric W. Biederman. (suported by Google?, etc). "[Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)"
 * Linux NS: completed: year: ... (Linux kernel 3.8, adepquate for "containers"); "User namespaces"
-* LXC, LXD
+* LXC
+* LXD: 2014 (Canonical)
 * Docker first release: year
 * Docker Build (new docker)
 * Docker new front-ends
 * Arm/Apple's Rosetta(?)
 
+
+### Misc
+* journal namespace
+* syslog namespace
+* 
