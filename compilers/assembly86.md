@@ -84,6 +84,14 @@ Naming 2: For ...:
 * `AX`
 * No Such thing as `A`?
 
+Naming 3: Indexing registers: (for SI, DI)
+For `SI`, `DI`:
+* DS, DI
+* ES, SI
+
+Confusions: Confusing naming apparent patterns:
+* `DS`, `ES` : they don't get connected (are diagonal!)
+
 #### List of Registers
 Using `(lldb)` command: `re read`:
 ```
