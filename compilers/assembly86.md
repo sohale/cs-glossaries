@@ -134,7 +134,11 @@ General Purpose Registers:
 ```
 
 ### Address semantics
+Names:
+* Address semantics
 * pointer arithmetics
+* memory addressing modes
+
 
 #### Segment-offser
 See below (history)
