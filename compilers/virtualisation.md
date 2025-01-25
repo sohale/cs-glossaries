@@ -16,6 +16,7 @@ Vagrant by HashiCorp
 
 ### Other: Tools
 * "KVM" is a software too? No. It is the specific Lilnux's LVM implementaiton.
+    * The "kernel-mode component of KVM"
 
 ### Other: GPU Emulation
 simGPUGPU
@@ -37,6 +38,7 @@ simGPUGPU
 * backend
 * KVM (Kernel-based Virtual Machine)  [[8]](#8)
     * What is KVM versus Linux namespaces
+    * "The kernel-mode component of KVM"
 * (library): e.g. `Libvirt`
 * NS (OS-level: Linux)
 * CPU facilities (instructions)
@@ -92,6 +94,7 @@ As usually explained on internet: (pool, to be sorted)
 * Linux KVM  [[8]](#8)
     * "Kernel-based Virtual Machine (KVM) is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor" [[8]](#8)
     * What is KVM versus Linux Namespaces?
+    * The "kernel-mode component of KVM" = ?
 * operating system-level virtualization (OS-level)
 * a "virtualization technology"
 * "virtual hardware system"
@@ -112,6 +115,7 @@ As usually explained on internet: (pool, to be sorted)
 #### Ways to say it:
 * "Virtualisation with QEMU"
 * QEMU type is: Hypervisor, Emulator
+* "the kernel-mode component of KVM"
 
 ### VM: Terminology: Related
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
@@ -223,7 +227,7 @@ cgroups vs Namespaces:
 * 2013: Linux NS completed (kernel 3.8) adepquate for "containers"; "User namespaces" [[5]](#5) (Kernel 3.8 released on 18 Feb 2013)
 
 #### Linux Namespaces timeline
-All about KVM [[8]](#8) and CNCF
+All about NS, KVM [[8]](#8) and CNCF
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
     * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
