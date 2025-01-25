@@ -64,7 +64,7 @@ LXD versus LXC
 * Docker Build (new docker)
 * Docker new front-ends
 * Arm/Apple's Rosetta(?)
-
+* Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 
 ### Misc
 * journal namespace
