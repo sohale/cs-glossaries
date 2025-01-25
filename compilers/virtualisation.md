@@ -148,8 +148,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * 2006: ☁️ First Cloud (AWS EC2)
 * 2006: Linux more namespaces
-* 2007: cgroups: v1: 2007
-* cgroups v2: ...
+* 2007: `cgroups` v1 (Control Groups): 2007 (had inconsistencies). Grouping of processes. "cgroup hierarchies".
 * 2008: LXC: (Linux Containers) 2008. built on namespaces and cgroups. First Release of LXC on 2008.
 * 2008: Chrome used "sandboxing", used namespaces to isolate its own processes (from attack risk)
 * 2010: **Vagrant**: 2010 (HashiCorp)
@@ -160,6 +159,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2014: LXD: 2014 (Canonical): "container hypervisor" built on LXC
 * 2014: Docker eventually replaced LXC with its own runtime, `libcontainer`, in 2014.
 * 2016: Docker for Mac & Windows (Docker Desktop): 2016
+* 2016: The `cgroup` namespace, introduced in (kernel 4.6), isolates the view of the "cgroup hierarchy".
 * 2016: "cgroups v2" (kernel 4.5)
 * 2018: Docker BuildKit `buildx` (new docker) (since Docker 18.06?) (a Low-Level Build ([LLB](https://docs.docker.com/build/buildkit/)) format) `builder`
     * ~~Docker BuildKit 2 (?)~~
@@ -179,7 +179,9 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 2002: `mnt`: "Mount" namespaces (Linux) (kernel 2.4.19)
     * `uts` (for hostname and NIS) [[6]](#6)
 * 2013: `user`: "User" namespaces (Linux) (kernel 3.8)
-* 2016: `cgroup`: Control group (kernel 4.6)
+     * considered completed: adepquate for "containers"
+* 2016: `cgroup` namespace: Control group (kernel 4.6) -- isolates the view of the "cgroup hierarchy"
+     * adepquate for Kubernetes
 * Proposed:
    * journal namespace
    * syslog namespace
