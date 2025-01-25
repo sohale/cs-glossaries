@@ -145,7 +145,7 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 #### Underlying technology
 Virualisaiotn underlying technology in open-source software may rely on (typically):
 * QEMU (Emulation)
-* Linux (OS)
+* Linux (OS: NS or/and CG)
 * Processor (hardware) facilities for virtualisation
 
 #### Technology that use vitualisiton
@@ -154,6 +154,14 @@ Virualisaiotn underlying technology in open-source software may rely on (typical
 * Cluster manager
 * VPS and Cloud
 
+#### Clear (logical) separation of layers
+* Clear logical separation of layers:
+    * ▢ Cluster manager or Cloud
+    * ▢ Virtualizaiton Manager / Provider . (VM-system) (a VPS system, multiple instances, is here, since it needs to create and remove VMs+netw/resources) (CLuster management may have overlaps, but has more than this) (`dockerd` is here)
+    * ▢ ? Contrainer (with resources: space; may share or has own resources; network?) (A VPS instance is this). A docker container is here (more than a raw VM).
+    * ▢ Virtualizaiton (as an abstraction layer) (raw VM)
+        * Itself may be in OS, or has underlyling OS, nested, etc, even may be separate dedicated hardware, but in VM capacity.
+        * Nothing lower than VM. If a VM-system (docker, etc) is run nested inside a VM, that's a differnt story.
 
 ### Versus-ology: ns, cg, vm
 cgroups vs Namespaces:
