@@ -39,6 +39,7 @@ movq   %rsp, %rdx
         * ...
     * Why did I think it is hexa? `$234` was hexa in Simons' Basic. `A$` meant variables of type string (`AB$(X,Y)`, `CHR$()`).
 * `()` mean indirect addressing (`PEEK`)
+    * Isn't it odd? Should have used `[]`
 * `0x10(%rsp)` offsetting: `0x10(%rsp)` means RSP[+16]
 * `%` means ... (see SSA-ness)
 
