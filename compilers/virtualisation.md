@@ -78,13 +78,25 @@ As usually explained on internet: (pool, to be sorted)
 * Type 0 hypervisor [see](https://cse.poriyaan.in/topic/types-of-virtual-machines-and-their-implementations-50834/)
 * Paravirtualization (see Xen)
 * Linux KVM
-* operating system-level virtualization
+* operating system-level virtualization (OS-level)
 * a "virtualization technology"
 * "virtual hardware system"
 * "Hardware virtual machines" (Emulates a physical computer's components, such as the processor, memory, and storage) (system VM?)
+    * "Virtual Driver" = ?
+* "Full virtualisation"
 
 ### Terminology:
 * **provision**: "QEMU can be used as a backend for Vagrant to provision virtual machines"
+* **Ring** (See intel assembly)
+* **Ring 0**
+* Container Engine
+* Infrastructure (context: [Lambda](https://www.lambdatest.com/blog/virtual-machines/))
+* "Host Hardware Platform"
+* VM Type in terms of optimisaiotn: Compute-optimised, memory-optimised, storage-, GPU-, high-performance computer-*
+* Virtual Network
+* Minor:
+   * VPS
+   * Host OS
 
 ### Dependency:
 Dependency struture:
