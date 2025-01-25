@@ -159,9 +159,20 @@ Example `mov [es:di], ax`
 |  `mov` | `movq` | movxx  | movxxx |
 |  `lea` | `leaq` | leaxx  | leaxxx |
 
-Weird names:
-* `aaa`
-* `dar`, `ter`, `das`, `aas`, `daa`
+Good, proper commands:
+* `adc`: add with carry
+* main: `add`, `and`, `dec`, `div`
+* high level: `call`, `iret`
+
+Weird names and their interpretations:
+`aaa`, `dar`, `ter`, `das`, `aas`, `daa`
+Legacy:
+* `aaa` -- ASCII Adjust After Addition
+* `aas` -- ASCII adjust AL after subtraction
+* `daa` -- Decimal Adjust AL after Addition
+* `dar`
+* `das`
+* `ter`
 
 An instuction can be in XT (Real), Protcted mode, etc
 Implicit hiddent context.
