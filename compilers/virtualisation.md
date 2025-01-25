@@ -142,9 +142,9 @@ QEMU can be used as a backend for Vagrant to provision virtual machines"
 * 1999: pre-cloud: Salesforce (1999)
 * 2000s: VPS: First VPSes (before AWS/cloud?) early 2000s. OpenVZ (2005), Xen (?)
 * 2000: pre-cloud: IBM Computing on Demand (2000)
-* 2002: Linux: "mount" namespace (kernel 2.4.19) -- first namespace
-* 2002: Linux NS: started: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
-* 2003: QEMU
+* 2002: **Linux NS started**: year: 2002, by Eric W. Biederman [[4]](#4). (suported by Google?, etc).
+    * 2002: Linux: "mount" namespace (kernel 2.4.19) -- the first namespace
+* 2003: **QEMU**
 * 2006: Apple's "Rosetta 1" for (for transition from) PowerPC
 * 2006: ☁️ First Cloud (AWS EC2)
 * 2006: Linux more namespaces
