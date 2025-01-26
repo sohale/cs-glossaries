@@ -121,6 +121,12 @@ Metadata for
 to understand the "stack layout"
 at different points during program execution.
 
+* CFA = Call Frame Address (CFA)
+* value of the stack pointer (`%rsp` in x86-64)
+* "The CFA" as a point (address)
+* = "where the call frame was set up"
+* The "previous stack frame" as a point (address)
+
 ### Side notes
 
 Don't confuse `lld` and `lldb'
