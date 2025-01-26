@@ -127,6 +127,16 @@ at different points during program execution.
 * = "where the call frame was set up"
 * The "previous stack frame" as a point (address)
 
+* Start of a Call Frame Information
+= `.cfi_startproc`
+
+Three annotaions:
+```asm
+    .cfi_startproc
+    .cfi_endproc
+    .cfi_def_cfa_offset 8
+```
+
 ### Side notes
 
 Don't confuse `lld` and `lldb'
