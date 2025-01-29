@@ -41,7 +41,7 @@ Meta: What it is about[^whatabout] vs genuine[^genuine-cgo] techniques.
 [^genuine-cgo]: Genuine CGO:
     * trying multiple "performance hypothesis" lines (equivalent to speculations?)
     * wrewer
-    * (note that these ar enot individual techniques, ut themse, and more abstract technuiques)
+    * (note that these items on this list are not individual techniques, but themse, and more abstract technuiques)
 
 ## CGO
 ### CGO Authentic Techniques
