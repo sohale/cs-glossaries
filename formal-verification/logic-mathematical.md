@@ -9,11 +9,10 @@
     * other documents:
        * [/concurrent/concurreny-concepts-roots.md?plain=1#L98](https://github.com/sohale/cs-glossaries/blob/08f1aae29354cb19ba54ab20874a288435ee7990/concurrent/concurreny-concepts-roots.md?plain=1#L98)
     * Sections:
-      * ["TOC-gloss:"](#TOC-gloss) Only the word, no link (to this text), because it is easy to find it below. Things that get confused with eachother.
+      * <a name="note-on-TOC-gloss"></a>["TOC-gloss:"](#TOC-gloss) Only the word, no link (to this text), because it is easy to find it below. Things that get confused with eachother. -- A mini glossary, sorted based on which terms I confuse.
 
 ## TOC-gloss:
-<a name="TOC-gloss"></a>
-[] note: Only the word, no link (to this text), because it is easy to find it below. Things that get confused with eachother.
+<a name="TOC-gloss"></a>[#note-on-TOC-gloss]
 *  Proposition
 *  Temporal Logic
 *  More:
