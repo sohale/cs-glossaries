@@ -31,3 +31,20 @@ proposition.
 proposition
 <-
 "Propositional calculus"
+
+The complexity of monitoring **hyperproperties**:
+```mermaid
+journey
+    title hyperproperties
+        %% now, for that:
+    section proposition
+      propositional logic: 5: Me
+      atomic proposition i: 3: Me
+      ccc c: 1: Me, Cat
+    section hyperproperties
+      quantifiers vs variables: 5: Me
+      eee eee: 5: Me
+
+%% titles (Abiove headers) are quesitons (for user, journey: me)
+
+```
