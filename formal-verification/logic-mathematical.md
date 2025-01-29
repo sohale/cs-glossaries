@@ -40,10 +40,13 @@ journey
     section proposition
       propositional logic: 5: Me
       atomic proposition i: 3: Me
-      ccc c: 1: Me, Cat
+      construction of "arguments": 1: Me
+      logical connectives:  1: Me
+      temporal logic: 1: Me
+      linear-time temporal logic: 4: Me
     section hyperproperties
       quantifiers vs variables: 5: Me
-      eee eee: 5: Me
+      eee eee: 5: Me, Borz
 
 %% titles (Abiove headers) are quesitons (for user, journey: me)
 
