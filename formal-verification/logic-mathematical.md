@@ -12,7 +12,7 @@
       * <a name="note-on-TOC-gloss"></a>["TOC-gloss:"](#TOC-gloss) Only the word, no link (to this text), because it is easy to find it below. Things that get confused with eachother. -- A mini glossary, sorted based on which terms I confuse.
 
 ## TOC-gloss:
-<a name="TOC-gloss"></a>[(note of style/methodology of this list)](#note-on-TOC-gloss)
+<a name="TOC-gloss"></a>[(note of style / methodology of this list)](#note-on-TOC-gloss)
 *  Proposition
 *  Temporal Logic
 *  More:
