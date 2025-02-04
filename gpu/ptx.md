@@ -1,8 +1,10 @@
 # Teach Yourself PTX
 Hard-core GPU / CUDA programming
 
-### Dive into the first simple example: The `add_numbers` kernel
-Let's start with simple trivial example:
+### Dive into the First Simple Kernel Example:
+
+Let's start with plunging into code: a simple, trivial example: The `add_numbers` Kernel
+
 ```ptx
 .version 7.0
 .target sm_30
