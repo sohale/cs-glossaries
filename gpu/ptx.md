@@ -161,7 +161,6 @@ The size limit table:
 arch = sm_90a
 ```
 
-#### Some links for DPX Instructions
-* https://forums.developer.nvidia.com/t/dpx-instruction-in-ptx/278809
-* https://docs.nvidia.com/cuda/cuda-c-programming-guide/
-* 
+### References for DPX Instructions
+- [DPX Instruction in PTX - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/dpx-instruction-in-ptx/278809)
+- [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
