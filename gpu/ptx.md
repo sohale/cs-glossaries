@@ -1,4 +1,3 @@
-
 # Teach Yourself PTX
 Hard-core GPU / CUDA programming
 
@@ -21,7 +20,7 @@ Let's start with simple trivial example:
 
     ld.param.u64 a, [ptrA];
     ld.param.u64 b, [ptrB];
-    
+
     add.u64 result, a, b;
 
     st.global.u64 [ptrResult], result;
@@ -125,7 +124,6 @@ The size limit table:
 ### kernel arguments
 
 ```ptx
-
 .global .entry add_numbers( ... )
 {
     // Thread index (in x,y,z) (Thread Index in a Block)
@@ -136,7 +134,6 @@ The size limit table:
     
     // Number of threads in block (x,y,z) (Block Dimension (Size))
     mov.u32 %r7, %ntid.x;
-    
     
     // Number of blocks in grid (x,y,z) (Grid Dimension (Size))
     mov.u32 %r10, %nctaid.x;
@@ -160,6 +157,10 @@ The size limit table:
 ```ptx
 arch = sm_90a
 ```
+
+## References
+
+### References for PTX Instructions
 
 ### References for DPX Instructions
 - [DPX Instruction in PTX - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/dpx-instruction-in-ptx/278809)
