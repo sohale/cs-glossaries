@@ -248,13 +248,14 @@ pip install -r $MYVINO/cmake/developer_package/ncc_naming_style/requirements_dev
 
 Provisional (pre)build script
 
-```bash
+
 # rm -rf build
 # mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Debug \
-      -DENABLE_PYTHON=ON \
-      -DPYTHON_EXECUTABLE=$(which python) ..
-```
+#
+# cmake -DCMAKE_BUILD_TYPE=Debug \
+#      -DENABLE_PYTHON=ON \
+#      -DPYTHON_EXECUTABLE=$(which python) ..
+
 
 # clean up:
 #   form build:
