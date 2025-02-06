@@ -142,8 +142,12 @@ pip install jax jaxlib pytest defusedxml numpy
 # sudo apt update
 # sudo apt install sysstat
 
+
+# Installation
+
 sudo apt update
 
+sudo apt install    clang-15 libclang-15-dev clang-format-15
 sudo apt install    clang-15 libclang-15-dev clang-format-15
 sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-15 100
 sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-15 100
@@ -207,6 +211,7 @@ pytest test_gather.py
 # for `cmake` and its consequent `make`:
 
 
+
 # for dev-requirements:
 
 uname -m # x86_64
@@ -237,6 +242,16 @@ pip install -r $MYVINO//src/bindings/python/wheel/requirements-dev.txt
 # OpenVINO’s naming convention checks (NCC) require extra dependencies:
 pip install -r $MYVINO/cmake/developer_package/ncc_naming_style/requirements_dev.txt
 
+
+Provisional (pre)build script
+
+```bash
+# rm -rf build
+# mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Debug \
+      -DENABLE_PYTHON=ON \
+      -DPYTHON_EXECUTABLE=$(which python) ..
+```
 
 # clean up:
 #   form build:
@@ -366,17 +381,10 @@ Some typical warnings:
 
 * Set OpenCV_DIR
 
-Installtion
-```bash
-sudo apt update
-sudo apt install clang-15 libclang-15-dev clang-format-15
-```
+Open questions:
+* Shall I set `OpenCV_DIR`?
+* `openvino/docs/dev/cmake_options_for_custom_compilation.md`
+* `openvino/cmake/templates/OpenVINOConfig.cmake.in`
 
-Provisional (pre)build script
-```bash
-# rm -rf build
-# mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Debug \
-      -DENABLE_PYTHON=ON \
-      -DPYTHON_EXECUTABLE=$(which python) ..
-```
+
+
