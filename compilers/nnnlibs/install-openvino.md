@@ -259,7 +259,7 @@ pip install -r $MYVINO//src/bindings/python/wheel/requirements-dev.txt
 pip install -r $MYVINO/cmake/developer_package/ncc_naming_style/requirements_dev.txt
 
 
-Provisional (pre)build script
+# Provisional (pre)build script
 
 
 # rm -rf build
@@ -318,9 +318,12 @@ cmake -DCMAKE_BUILD_TYPE=Debug \
       -DENABLE_CPPLINT_REPORT=OFF \
       -DENABLE_FUZZING=OFF \
       \
+      -DENABLE_NCC_STYLE=OFF \
       -DENABLE_OV_PADDLE_FRONTEND=OFF \
       \
       ..
+
+# re-enable -DENABLE_NCC_STYLE=ON after you want to compile your changes
 
 # ENABLE_OV_TF_FRONTEND
 # ENABLE_OV_TF_LITE_FRONTEND
