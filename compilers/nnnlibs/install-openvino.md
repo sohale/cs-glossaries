@@ -172,12 +172,25 @@ python -c "import cv2; print(cv2.__version__)"
 cd $MYVINO
 cd /dataneura/openvino/openvino
 
-# git submodule update --init --recursive
+# 
+git diff
+git stash
+# dont forget to stash
+
 git fetch origin
+# should be huge
 git pull origin master
+git pull
+git status
 
+git submodule foreach --recursive git pull origin master
 
+git submodule update --init --recursive
+# key: should be huge
+git submodule update --recursive --remote
+# note the errors
 
+git status
 
 
 
