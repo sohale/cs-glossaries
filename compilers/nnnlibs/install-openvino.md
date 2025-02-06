@@ -193,6 +193,26 @@ git submodule update --recursive --remote
 git status
 git submodule update --recursive --remote --force
 
+git status
+# if more error
+git reset --hard origin/master
+# extreme
+git clean -fdx
+# more extremee:
+git submodule deinit --force --all
+rm -rf .git/modules/
+
+git submodule update --init --recursive --force
+git submodule foreach --recursive git pull origin master
+git submodule foreach --recursive git checkout master
+git submodule foreach --recursive git pull origin master
+git status
+git submodule status --recursive
+
+git submodule update --recursive --remote --force
+git submodule update --recursive --remote --force
+git submodule update --recursive --remote --force
+git submodule update --recursive --remote --force
 
 
 export PATH=$MYVINO/tools/ovc/openvino/tools/ovc:$PATH
