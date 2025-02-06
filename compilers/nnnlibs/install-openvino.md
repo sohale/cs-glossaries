@@ -191,7 +191,7 @@ git submodule update --recursive --remote
 # note the errors
 
 git status
-
+git submodule update --recursive --remote --force
 
 
 
