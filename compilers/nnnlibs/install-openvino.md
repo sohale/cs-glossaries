@@ -151,11 +151,18 @@ pip install jax jaxlib pytest defusedxml numpy
 sudo apt update
 
 sudo apt install    clang-15 libclang-15-dev clang-format-15
-sudo apt install    clang-15 libclang-15-dev clang-format-15
+sudo apt install lld-15
 sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-15 100
 sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-15 100
+# lld:
+sudo update-alternatives --install /usr/bin/lld lld /usr/bin/lld-15 100
+sudo update-alternatives --install /usr/bin/ld.lld ld.lld /usr/bin/lld-15 100
+sudo update-alternatives --config lld
+sudo update-alternatives --config ld.lld
 
-gcc --version  # is good? 11.4.0
+# gcc --version  # is good? 11.4.0
+cland --version  # should be 15
+ld.lld --version
 
 
 deactivate
