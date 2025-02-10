@@ -328,6 +328,16 @@ stages
     * Never say variable. They dont vary!
 
 
+### The init command
+The `terraform init` command:
+
+* "init" does not read the .tfvars (tfconfig.tfvars)
+* The `-backend-config=` for `init`, does what?
+   * the "-backend-config=" is to "override the default local backend configuration".
+      * what does it mean?
+   * How to fix this? "backend-config was used without a "backend" block in the configuration"
+      * wher to add the `backend`?
+
 ### Historical approach
 * Cloud Formation
 * UCL
