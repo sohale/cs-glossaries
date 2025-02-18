@@ -12,7 +12,7 @@ Key concept: one-way functions. All solutions revolve around this.
 * 
 
 Locus of laying ( locus of ownership ).
-Locus of genesis. (Gneesis is the only way. BEcas eof one-ywa fucntion)
+Locus of genesis. (Gneesis is the only way. Because of one-way function)
 
 Layers of understanding:
 * 1:
