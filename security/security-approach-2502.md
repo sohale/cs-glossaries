@@ -48,7 +48,7 @@ Remain to be used: (or answered)
      * zero-knowlege-proofness (not really zero)
      * smaller info ( hash < public-key < priv_key )
      * minimal length: hash ( hashtable), hash (never match: hopefully)
-     * being ...
+     * being ... (reversible?)
      * separting "items of use" (elemetns).
 
 * Why are the concepts o evaporative and ephemeral?
