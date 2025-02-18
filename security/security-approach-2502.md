@@ -38,7 +38,7 @@ Block chain: verifyable chains.
    * Papespace usecase
    * AWS usecase
    * jwt-bearer usecase (no external refernce)
-   * OAuth2 non-opqaue(i.e. with external reference) (needs key infrastructure + rotating)
+   * OAuth2 non-opqaue(i.e. with external reference) (needs key infrastructure + rotating) (aha: CA and their chain)
 
 Remain to be used: (or answered)
 * Remain to be used:
