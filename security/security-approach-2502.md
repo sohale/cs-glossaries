@@ -11,8 +11,17 @@ Key concept: one-way functions. All solutions revolve around this.
    * fingerprint
 * 
 
+
+
+...
+
+graph ... of initiation, traceback to detect, this path is to ....
+...
+
+
 Locus of laying ( locus of ownership ).
 Locus of genesis. (Gneesis is the only way. Because of one-way function)
+
 
 Layers of understanding:
 * 1:
