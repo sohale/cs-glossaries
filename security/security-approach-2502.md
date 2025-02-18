@@ -42,7 +42,7 @@ Block chain: verifyable chains.
 
 Remain to be used: (or answered)
 * Remain to be used:
-     * [ ] hand of the big bad wolf: a pattern easy to clone.
+     * [_] hand of the bb wolf: a pattern easy to clone.
      * relativity (chain?) and we only need that. (all we have is also only realtive)
          * graph of initiation (branch) vs allowed branches: multiple kyes by the same iser, or same key, multiple hosts?)
      * zero-knowlege-proofness (not really zero)
