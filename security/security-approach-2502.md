@@ -29,6 +29,7 @@ Layers of understanding:
 * 3: (new)
    * Locus of check (by-generaion, "by construciton")
 
+Broader view:
 Block chain: verifyable chains.
 
 
@@ -41,7 +42,15 @@ Block chain: verifyable chains.
 
 Remain to be used: (or answered)
 * Remain to be used:
-     * White hand of the big bad wolf.
+     * [ ] hand of the big bad wolf: a pattern easy to clone.
+     * relativity (chain?) and we only need that. (all we have is also only realtive)
+         * graph of initiation (branch) vs allowed branches: multiple kyes by the same iser, or same key, multiple hosts?)
+     * zero-knowlege-proofness (not really zero)
+     * smaller info ( hash < public-key < priv_key )
+     * minimal length: hash ( hashtable), hash (never match: hopefully)
+     * being ...
+     * separting "items of use" (elemetns).
+
 * Why are the concepts o evaporative and ephemeral?
 
 
