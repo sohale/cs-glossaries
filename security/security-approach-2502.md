@@ -50,6 +50,7 @@ Remain to be used: (or answered)
      * minimal length: hash ( hashtable), hash (never match: hopefully)
      * being ... (reversible?)
      * separting "items of use" (elemetns).
+     * technique to teach: separate chanpters (first: github, etc). Some of them, conceptualise using graphs.
 
 * Why are the concepts o evaporative and ephemeral?
 
