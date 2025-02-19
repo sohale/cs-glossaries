@@ -27,7 +27,7 @@ graph ... of initiation, traceback to detect, this path is to ....
 ...
 
 * "I click on "created instance" on AWS, then, take only the IP, ad on my MacOS terminal, `ssh` into it. I only take an ip number (less is better: no longcode), and (nulike a key) does not even need to be. How?
-* BEcause previously it is synced ( tell in graph language, exactly how), and: importantly: you have created a separate key, and it is "horitontally" moved: cross-lange: lane change. (Why thnkin g of lanes, the word "lane", makes better understandable? because there are lanes to think about? and their genesis (who triggered, and the process of "fission" is where?)
+    * Because previously it is synced ( tell in graph language, exactly how), and: importantly: you have created a separate key, and it is "horitontally" moved: cross-lange: lane change. (Why thnkin g of lanes, the word "lane", makes better understandable? because there are lanes to think about? and their genesis (who triggered, and the process of "fission" is where?)
 
 
 Locus of laying ( locus of ownership ).
