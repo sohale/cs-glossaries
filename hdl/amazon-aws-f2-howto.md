@@ -15,15 +15,28 @@ Instructions, which include "Lessons Learned":
 * Install: (Ubuntu)
     * gh cli
     * ...
+    * ```bash
+      dd
+      dd
+      ```
 * Install a few things: (Amaranth chain of tools)
     * `pyenv` (my style)
     * amaranth (use pip)
+    * ```bash
+      pip3 install --upgrade --reinstall 'amaranth[builtin-yosys]'
+         # no: --user
 
 * Install Yosys:
     * yosys (git pull, and build it using `make`)
         * avoid OSS-... (it is too specific about Ubuntu version, its python, etc. It crashes your Ubuntu and you may be locked out)
     ```bash
+    sudo apt install -y build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev git graphviz xdot pkg-config cmake libboost-all-dev
+    ...
+    git clone --recurse-submodules https://github.com/YosysHQ/yosys.git
+    cd yosys
+    make -j$(nproc)
     yosys --version
+    # yosys -p "read_verilog perceptron.v; synth; show"
     ```
 * (KEY) Install: for FPGA deploying and gnerating AFI/AFGI.
     * `aws-fpga`
