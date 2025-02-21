@@ -22,7 +22,9 @@ Instructions, which include "Lessons Learned":
 * Install Yosys:
     * yosys (git pull, and build it using `make`)
         * avoid OSS-... (it is too specific about Ubuntu version, its python, etc. It crashes your Ubuntu and you may be locked out)
-
+    ```bash
+    yosys --version
+    ```
 * (KEY) Install: for FPGA deploying and gnerating AFI/AFGI.
     * `aws-fpga`
     * `aws` cli
