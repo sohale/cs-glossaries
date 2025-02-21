@@ -61,6 +61,8 @@ Instructions, which include "Lessons Learned":
       python --version
       pip --version
       pip install --user --upgrade pip
+      alias python3=python
+      alias pip3=python
       ```
 * Install a few things: (Amaranth chain of tools)
     * `pyenv` (my style)
@@ -93,6 +95,26 @@ Instructions, which include "Lessons Learned":
     ```
     * `aws` cli
     ```bash
+    sudo apt update
+    apt list --upgradable
+    # subject to update of insallation instrucitons by Aws, but here are the steps I took:
+    curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+    unzip awscli-bundle.zip
+    sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+
+
+    # set up
+    aws region  # take note of the region, don't confuse with zone.
+    # key step:
+    aws configure
     aws region
+
+    # check you IAM user role(s)
+    aws sts get-caller-identity
     ```
     * 
+* ** Now use them**
+   * ```bash
+     # strangely, specific to region
+     aws ec2 describe-fpga-images --query "FpgaImages[*].[FpgaImageId, Name]" --output table
+     ```
