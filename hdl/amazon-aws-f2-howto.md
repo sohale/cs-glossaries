@@ -105,7 +105,7 @@ Instructions, which include "Lessons Learned":
 
     # set up
     aws region  # take note of the region, don't confuse with zone.
-    # key step:
+    # key step: see below
     aws configure
     aws region
 
@@ -115,6 +115,27 @@ Instructions, which include "Lessons Learned":
     * 
 * ** Now use them**
    * ```bash
-     # strangely, specific to region
+     # Strangely, specific to "region". It shows a list of AFIs that people have created. Publicly available, but ... but ....
      aws ec2 describe-fpga-images --query "FpgaImages[*].[FpgaImageId, Name]" --output table
      ```
+
+
+### Setting up aws
+Setting up aws has ambiguities, here I clarify.
+Part of above steps involves this command:
+```bash
+aws configure
+```
+It asks question and here is how to answer: Look them up on aws
+```
+AWS Access Key ID [None]: A......
+AWS Secret Access Key [****************7QGA]: cNJ....
+Default region name [eu-west-2a]:
+Default output format [table]:
+```
+* Access key = `AWS Access Key ID` (look it up; you need to have a user created, and these are about that. ref.)
+* Secret access key = `AWS Secret Access Key` ( look up on web, but it is shown once. If your "user" doesn't have it, click on add secret key. (Can have multiple).
+* Don't leave anything as `None` or default.
+* Don't confuse region with zone. Use command `aws region`.
+   * For example: Region: `eu-west-2`, zone: `eu-west-2a`.
+
