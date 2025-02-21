@@ -102,6 +102,7 @@ Instructions, which include "Lessons Learned":
         echo $AWS_PLATFORM_202410_0
         echo $XILINX_VITIS
         # todo: install XRT
+        # install_xrt
     ```
     * `aws` cli
     ```bash
