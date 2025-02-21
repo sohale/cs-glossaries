@@ -113,14 +113,15 @@ Instructions, which include "Lessons Learned":
     aws sts get-caller-identity
     ```
     * 
+## Getting physical
 * ** Now use them**
    * ```bash
      # Strangely, specific to "region". It shows a list of AFIs that people have created. Publicly available, but ... but ....
      aws ec2 describe-fpga-images --query "FpgaImages[*].[FpgaImageId, Name]" --output table
      ```
 
-
-### Setting up aws
+## Some more details
+### Setting up `aws` cli
 Setting up aws has ambiguities, here I clarify.
 Part of above steps involves this command:
 ```bash
