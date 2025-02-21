@@ -92,6 +92,15 @@ Instructions, which include "Lessons Learned":
     source sdk_setup.sh
     source hdk_setup.sh
     source vitis_setup.sh
+
+    # to verify
+    fpga-describe-local-image -S 0 -R
+
+    # every time?
+    cd ~/aws-fpga/ && source sdk_setup.sh && source hdk_setup.sh && source vitis_setup.sh
+    # read iunstruciotns written in the end
+        echo $AWS_PLATFORM_202410_0
+        # todo: install XRT
     ```
     * `aws` cli
     ```bash
@@ -112,10 +121,15 @@ Instructions, which include "Lessons Learned":
     # check you IAM user role(s)
     aws sts get-caller-identity
     ```
-    * 
+    * Add role/policiy/permissions to your "user".
+    * You will need a "user".
 ## Getting physical
 * ** Now use them**
    * ```bash
+
+     # ...
+     sudo fpga-describe-local-image -S 0 -R
+     
      # Strangely, specific to "region". It shows a list of AFIs that people have created. Publicly available, but ... but ....
      aws ec2 describe-fpga-images --query "FpgaImages[*].[FpgaImageId, Name]" --output table
      ```
@@ -130,9 +144,9 @@ aws configure
 It asks question and here is how to answer: Look them up on aws
 ```
 AWS Access Key ID [None]: A......
-AWS Secret Access Key [****************7QGA]: cNJ....
-Default region name [eu-west-2a]:
-Default output format [table]:
+AWS Secret Access Key [None]: cNJ....
+Default region name [None]: eu-west-2
+Default output format [table]: table
 ```
 * Access key = `AWS Access Key ID` (look it up; you need to have a user created, and these are about that. ref.)
 * Secret access key = `AWS Secret Access Key` ( look up on web, but it is shown once. If your "user" doesn't have it, click on add secret key. (Can have multiple).
@@ -140,3 +154,7 @@ Default output format [table]:
 * Don't confuse region with zone. Use command `aws region`.
    * For example: Region: `eu-west-2`, zone: `eu-west-2a`.
 
+Verificaiton:
+``bash
+aws ec2 describe-fpga-images --query "FpgaImages[*].[FpgaImageId, Name]" --output table
+```
