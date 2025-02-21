@@ -100,6 +100,7 @@ Instructions, which include "Lessons Learned":
     cd ~/aws-fpga/ && source sdk_setup.sh && source hdk_setup.sh && source vitis_setup.sh
     # read iunstruciotns written in the end
         echo $AWS_PLATFORM_202410_0
+        echo $XILINX_VITIS
         # todo: install XRT
     ```
     * `aws` cli
