@@ -13,8 +13,11 @@ Two major lines:
 
 * Side:
    * H.M's ph.a.c
-   * TF.dist, `torch.distributions` 
+   * TF.dist, `torch.distributions`
+   * Probabilistic programming
+   * HMC & momentum
 
 ## BDNN
 ## Bayesian Networks
-
+## Various (to organise)
+* Message passing
