@@ -4,6 +4,8 @@ I have being doing ISA Design as part of my aspirations for (C)PU design around 
 
 Some of the ideas were simlar to RISC (I was already familiar with CISC ISA via normal x86 assembly, 8502 assembly, 68000 assembly, Z80 asembly ).
 
+Some terms:
+
 * VLIW: Very long instruction word
 * Code Morphing (Transmeta)
 * Itanium – Family of 64-bit Intel microprocessors
@@ -23,4 +25,6 @@ Some of the ideas were simlar to RISC (I was already familiar with CISC ISA via 
 * Transport triggered architecture – Type of computer processor design
 * TM as ISA
 
+* Experimental: YASEP MCU, F-CPU, FC0, FC1
 
+https://en.wikipedia.org/wiki/Template:Processor_technologies
