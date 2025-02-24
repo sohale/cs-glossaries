@@ -54,6 +54,7 @@ Categorizations:
 * Those within Gradient Descent vs Beyond Gradient Decent (as in Largangian/Hamiltonian in mechanics? Not momentum! but may include that too. Also, one branch, is below one that includes Adam)
 * Variations of NLO: Stochastic GD, Adam, etc. inlcudes all Fletcher-like. But goes beyond.
 * Bias correction technique (as learning?)
+* Variaitons of back-propagation.
 
 Them:
 * Cost functions: approachs in defining cost functions
