@@ -116,3 +116,7 @@ https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=dqJPZHEA
 
 Bayesian models/frameworks
 https://twitter.com/NadineSpychala/status/1265322943158124544?s=20
+
+
+https://scholar.google.com/citations?user=FKOqtF8AAAAJ&hl=en&oi=ao
+https://www.mackelab.org/people/
