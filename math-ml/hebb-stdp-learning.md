@@ -21,22 +21,23 @@ Master list of words-only):
     * Contrast ...
 
 Appraoches: (lines of people)
-Hebbian learning
-Then anti-hebbian
-STDP
-Oja rule
-RNCM
-Back propagation
-Contrastice leanring
-Info-theoretic leanring (Amari's ICA) and update rules
-NCE
-Spiking NN people
-* Surrogate Gradient
-PP/FEP (error signal, also: RL as PP) (maybe all RL?)
-RL
-* TD (temporal differnce RL)
-* Other types o RL
-Basically learning rule for any ML system!
+* Hebbian learning
+   * Then anti-hebbian
+* STDP
+* Oja rule
+* RNCM
+* Back propagation
+* Contrastice leanring
+* Info-theoretic leanring (Amari's ICA) and update rules
+* NCE
+* Spiking NN people
+   * Surrogate Gradient
+* PP/FEP (error signal, also: RL as PP) (maybe all RL?)
+* RL
+   * TD (temporal differnce RL)
+   * Other types o RL
+* Basically learning rule for any ML system!
+    * ...
 
 ## References
 See Also:
