@@ -65,6 +65,8 @@ as "fit".
 fitting of experimental data to a mechanistic model.
 
 error (RL: predictive error/TD/PP) from highly-uncertain low-probablity model (e.g. of rewards)
+strategies:
+RL
 
 Where:
 * Where does EM stand?
