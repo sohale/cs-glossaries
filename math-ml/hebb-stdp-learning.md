@@ -60,6 +60,7 @@ Each item is a list
 * Maximum Likelihood as learning (also: ... as learning)
    * Non-MaxLik approaches (but move from there): NCE, etc
 * Non- Maximum-lihelihood
+* Where does EM stand?
 
 Them:
 * Cost functions: approachs in defining cost functions
@@ -72,6 +73,17 @@ Them:
 * Variaitons of back-propagation
     * xyx-propagation
     * probabilistic BP
+
+Names of loss funciton
+* Cost function. Context: ...
+* Loss function
+* Error function
+* Error signal (PP/FEP, also, RL)
+* Clarke PP ( vector of error, beyond cost funciton, even trajectory) 
+* KL
+* KL-approximaiton ( not KL, but its adjustmnet: EMD, the FEP itself, etc)
+* Lagrangian/Hamiltonian/etc (functions of trajectory)
+* Maximum-likelihood and its augmentaitons: AIC/BIC, etc
 
 ## Cross-connecitng them
 
