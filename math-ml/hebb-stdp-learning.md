@@ -14,7 +14,7 @@ Master list of words-only):
 * Anti-Hebbian
 * STDP learning
 * Oja rule
-* RNCM
+* BCM theory
 * ...
 * Training
     * Back-propagation
@@ -25,7 +25,7 @@ Appraoches: (lines of people)
    * Then anti-hebbian
 * STDP
 * Oja rule
-* RNCM
+* BCM theory
 * Back propagation
 * Contrastice leanring
 * Info-theoretic leanring (Amari's ICA) and update rules
