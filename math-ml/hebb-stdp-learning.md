@@ -60,7 +60,10 @@ Each item is a list
 * Maximum Likelihood as learning (also: ... as learning)
    * Non-MaxLik approaches (but move from there): NCE, etc
 * Non- Maximum-lihelihood
+
+Where:
 * Where does EM stand?
+* Where (which of above lists of categorizations) this fits: "Stochastic Gradient Langevin Dynamics (SGLD)"
 
 Them:
 * Cost functions: approachs in defining cost functions
