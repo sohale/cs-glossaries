@@ -21,3 +21,4 @@ Two major lines:
 ## Bayesian Networks
 ## Various (to organise)
 * Message passing
+### Probabilitic Programming
