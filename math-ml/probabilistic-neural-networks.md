@@ -18,6 +18,15 @@ Two major lines:
    * HMC & momentum
 
 ## BDNN
+A Neural Network that is "Density Estimator" such as "Neural Flows".
+
+(mentioned by  Jakob H Macke)
+
+Realted terms:
+* mixture density network (MDN)
+* SNPE: Sequential Neural Posterior Estimation
+* ABC: Approximate Bayesian Computation
+
 ## Bayesian Networks
 ## Various (to organise)
 * Message passing
