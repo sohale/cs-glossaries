@@ -34,3 +34,10 @@ SNN: Spiking Neural Networks
 * 
 * a few
 * eprop https://youtu.be/8ivYxlLQvcU
+* More from the pool:
+* Recurrent-SNN ( RSNN)
+     * "Dynamic Spatiotemporal Pattern Recognition with Recurrent Spiking Neural
+Network" https://eprints.whiterose.ac.uk/177488/1/2021_Shen_NC.pdf
+     * https://github.com/SpikingChen/SNN-Daily-Arxiv
+     * Lol: 2025-02-18	Spiking Vision Transformer with Saccadic Attention	Shuai Wang et.al.	2502.12677v1
+     * 
