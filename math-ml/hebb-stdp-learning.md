@@ -61,6 +61,9 @@ Each item is a list
    * Non-MaxLik approaches (but move from there): NCE, etc
 * Non- Maximum-lihelihood
 
+as "fit".
+fitting of experimental data to a mechanistic model.
+
 Where:
 * Where does EM stand?
 * Where (which of above lists of categorizations) this fits: "Stochastic Gradient Langevin Dynamics (SGLD)"
