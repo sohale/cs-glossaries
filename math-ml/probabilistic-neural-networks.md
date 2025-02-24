@@ -94,3 +94,16 @@ See FEP.
 Neural SDE
 
 "Bayesian Optimization"
+
+"Bayesian Learning"
+
+"Bayesian Deep Learning"
+
+
+https://youtube.com/watch?v=FD8l2vPU5FY&si=YdRHUph_bziyfNa0
+
+History of Bayesian Neural Networks (Keynote talk)
+Zoubin Ghahramani (University of Cambridge)
+
+Bayesian Deep Learning Workshop
+
