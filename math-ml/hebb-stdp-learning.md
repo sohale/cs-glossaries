@@ -39,7 +39,8 @@ Appraoches: (lines of people)
 * Basically learning rule for any ML system!
     * ...
 
-Categorizations:
+### Categorizations:
+Each item is a list
 * Models of Long-Term Plasticity: Hebbian learning, BCM, ...
 * Model Selection (AIC)
 * PP/FEP
@@ -54,7 +55,11 @@ Categorizations:
 * Those within Gradient Descent vs Beyond Gradient Decent (as in Largangian/Hamiltonian in mechanics? Not momentum! but may include that too. Also, one branch, is below one that includes Adam)
 * Variations of NLO: Stochastic GD, Adam, etc. inlcudes all Fletcher-like. But goes beyond.
 * Bias correction technique (as learning?)
-* Variaitons of back-propagation.
+* Variaitons of back-propagation (see below)
+* Ensemble Learning as leaning alrogithms (learnings of Adaboost, Boosting, GradBoost, etc)
+* Maximum Likelihood as learning (also: ... as learning)
+   * Non-MaxLik approaches (but move from there): NCE, etc
+* Non- Maximum-lihelihood
 
 Them:
 * Cost functions: approachs in defining cost functions
@@ -64,10 +69,14 @@ Them:
     * EMD -- based approaches
     * AIC/BIC (also as regularization?)
 
+* Variaitons of back-propagation
+    * xyx-propagation
+    * probabilistic BP
 
 ## Cross-connecitng them
 
 * Stochastic Gradient Descent as a Special Case of MCMC
+   * Enter "Langevin dynamics"
 
 ## References
 See Also:
