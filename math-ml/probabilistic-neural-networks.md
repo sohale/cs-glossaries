@@ -79,3 +79,17 @@ bias-corrected-mi.md
 * standard-mainstream/nn-types.md
 
 https://github.com/sohale/cs-glossaries/blob/master/math-ml/crosslink-hmc-optimisaiton-nce-backprop-sde.md
+
+Link between:
+Boltzmann machine,
+Hopfield network,
+Restricted Boltzmann machine,
+Helmholtz Machines,
+etc.
+
+See Zemmel.
+
+See FEP.
+
+Neural SDE
+
