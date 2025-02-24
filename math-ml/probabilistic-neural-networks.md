@@ -27,6 +27,10 @@ Realted terms:
 * SNPE: Sequential Neural Posterior Estimation
 * ABC: Approximate Bayesian Computation
 
+A normalizing flow,
+is a parameterized transformation of a probability distribution.
+
+
 ## Bayesian Networks
 ## Various (to organise)
 * Message passing
