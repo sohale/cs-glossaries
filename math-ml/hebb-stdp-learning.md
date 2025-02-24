@@ -47,6 +47,8 @@ Categorizations:
    * RL (methods / approches)
 * System identificaiton (methods / approches)
 * Bayesian Model selection (methods / approches)
+* Biological Plausibility (Biologically plausibile learning)
+* Learning in real brain (how the brain works, not as techniques, or even brain theories: more experimental and biological)
 
 ## References
 See Also:
