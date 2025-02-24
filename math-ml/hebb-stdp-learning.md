@@ -64,6 +64,11 @@ Them:
     * EMD -- based approaches
     * AIC/BIC (also as regularization?)
 
+
+## Cross-connecitng them
+
+* Stochastic Gradient Descent as a Special Case of MCMC
+
 ## References
 See Also:
 * [probabilistic-neural-networks.md](https://github.com/sohale/cs-glossaries/blob/master/math-ml/probabilistic-neural-networks.md)
