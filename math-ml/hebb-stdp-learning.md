@@ -64,9 +64,10 @@ Each item is a list
 as "fit".
 fitting of experimental data to a mechanistic model.
 
+stochastic models (context):
 error (RL: predictive error/TD/PP) from highly-uncertain low-probablity model (e.g. of rewards)
-strategies:
-RL
+strategies: ( real place: [pr-nn .md](https://github.com/sohale/cs-glossaries/blob/master/math-ml/probabilistic-neural-networks.md) )
+* RL: define  sigma R, discount, horizon (sample size?), etc)
 
 Where:
 * Where does EM stand?
