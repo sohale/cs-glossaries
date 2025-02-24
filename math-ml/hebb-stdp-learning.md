@@ -51,8 +51,8 @@ Categorizations:
 * Learning in real brain (how the brain works, not as techniques, or even brain theories: more experimental and biological)
 * (something that covers Hopfield: ebnergy based? free-energy--baed, cost-function-based, Lyapunov, etc)
 * Cost functions: approachs in defining cost functions
-* Those within Gradient Descent vs Beyond Gradient Decent (as in Largangian/Hamiltonian in mechanics? Not momentum! but may include that too)
-* Variaitons of NLO: Stochastic GD, Adam, etc.
+* Those within Gradient Descent vs Beyond Gradient Decent (as in Largangian/Hamiltonian in mechanics? Not momentum! but may include that too. Also, one branch, is below one that includes Adam)
+* Variations of NLO: Stochastic GD, Adam, etc. inlcudes all Fletcher-like. But goes beyond.
 * Bias correction technique (as learning?)
 
 Them:
