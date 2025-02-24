@@ -64,6 +64,8 @@ Each item is a list
 as "fit".
 fitting of experimental data to a mechanistic model.
 
+error (RL: predictive error/TD/PP) from highly-uncertain low-probablity model (e.g. of rewards)
+
 Where:
 * Where does EM stand?
 * Where (which of above lists of categorizations) this fits: "Stochastic Gradient Langevin Dynamics (SGLD)"
