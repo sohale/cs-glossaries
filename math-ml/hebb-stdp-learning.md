@@ -39,6 +39,15 @@ Appraoches: (lines of people)
 * Basically learning rule for any ML system!
     * ...
 
+Categorizations:
+* Models of Long-Term Plasticity: Hebbian learning, BCM, ...
+* Model Selection (AIC)
+* PP/FEP
+* ML !
+   * RL (methods / approches)
+* System identificaiton (methods / approches)
+* Bayesian Model selection (methods / approches)
+
 ## References
 See Also:
 * [probabilistic-neural-networks.md](https://github.com/sohale/cs-glossaries/blob/master/math-ml/probabilistic-neural-networks.md)
