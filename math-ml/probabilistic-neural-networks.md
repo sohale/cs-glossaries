@@ -109,3 +109,10 @@ Zoubin Ghahramani (University of Cambridge)
 An Introduction to Hamiltonian Monte Carlo Method for Sampling
 Nisheeth Vishnoi (Yale)
 https://youtube.com/live/efqGwPDnlQY?si=MJFYNPMpZ2KF6Zbp
+
+Ensemble learning in Bayesian neural networks
+D Barber, CM Bishop, Nato ASI Series F Computer and Systems Sciences, 1998 - Cited by 296
+https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=dqJPZHEAAAAJ&citation_for_view=dqJPZHEAAAAJ:zYLM7Y9cAGgC
+
+Bayesian models/frameworks
+https://twitter.com/NadineSpychala/status/1265322943158124544?s=20
