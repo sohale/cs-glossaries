@@ -1,12 +1,12 @@
 Crosslinking hmc, optimisaiton, nce, backprop as SDEs and processes
 
 
-Crosslinking:
-* hmc
+Crosslinking: (keep simple
+* HMC
 * optimisaiton
-* nce
+* NCE
 * backprop
 * SDEs and processes
-
+* integration
 
 Neural SDE
