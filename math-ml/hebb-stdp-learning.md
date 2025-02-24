@@ -49,6 +49,17 @@ Categorizations:
 * Bayesian Model selection (methods / approches)
 * Biological Plausibility (Biologically plausibile learning)
 * Learning in real brain (how the brain works, not as techniques, or even brain theories: more experimental and biological)
+* (something that covers Hopfield: ebnergy based? free-energy--baed, cost-function-based, Lyapunov, etc)
+* Cost functions: approachs in defining cost functions
+
+
+Them:
+* Cost functions: approachs in defining cost functions
+    * Trajectory and variational
+    * Quadratic ( least square) including
+    * KL -- based approaches
+    * EMD -- based approaches
+    * AIC/BIC (also as regularization?)
 
 ## References
 See Also:
