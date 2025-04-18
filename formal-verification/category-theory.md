@@ -48,11 +48,11 @@ Morphisms:
     * Even not set? No: the Hom-set may be not a set!
 * Define Hom-set: as the multitude.
 
-
-Legend:
+## Appendices
+### Legend:
 * **û** or **ϒ** : my unique perspective that you cannot find somewhere else.
 *  **ϛ** ϛ : TOuch or sense or haptic experience
-## References and Reading materials
+### References and Reading materials
 * Thorsten Altenkirch
 * MGS 2025
 * anupam das: https://www.anupamdas.com/mgs25/
