@@ -1,4 +1,5 @@
 # Category Theory:
+
 ## Category Theory and some applicaitons in computer science and logic:
 Category Theory the way I understood it.
 
@@ -9,9 +10,11 @@ A category  is a specific mathematical structure, itself, a mathemaical object.
 
 
 
-Legend
-* **û** : my unique perspective that you cannot find somewhere else.
-* 
+Legend:
+* **û** or **ϒ** : my unique perspective that you cannot find somewhere else.
+*  **ϛ** ϛ : TOuch or sense or haptic experience
 ## References and Reading materials
 * Thorsten Altenkirch
 * MGS 2025
+
+Old title: `category-theory-and-logic.md`
