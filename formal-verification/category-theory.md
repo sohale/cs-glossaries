@@ -55,5 +55,7 @@ Legend:
 ## References and Reading materials
 * Thorsten Altenkirch
 * MGS 2025
+* anupam das: https://www.anupamdas.com/mgs25/
+
 
 Old title: `category-theory-and-logic.md`
