@@ -11,6 +11,7 @@ Defining Category itself:
 * Is comprised of objects (free mathematical objects) and morophisms between them.
 * A category is a specific mathematical structure, [ϒ] itself, a mathemaical object.
 * Leave certain things free, but certain things are tight.
+    * Leaves them unsaid. But it's good to dip thumb into their "Set"-transcenting infinitude.
 * It is very vast: may not fit (ϛ) in a set.
     * (its set/class of objects) may transcend sets.
 * The objects can be anything.
@@ -47,6 +48,9 @@ Morphisms:
 * Morphism can be multiple. Many.
     * Even not set? No: the Hom-set may be not a set!
 * Define Hom-set: as the multitude.
+* Are strict: "functions". (not only set-theoretic, but functions: not using the )
+    * But it goes beyond set theory by allowing multitude (leaving unsaid)
+* But dont think of them as relations. Are Richer.
 
 ## Appendices
 ### Legend:
