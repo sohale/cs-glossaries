@@ -4,9 +4,9 @@
 Category Theory the way I understood it.
 
 Defining Category itself:
-A "category" is a specific mathematical structure, itself, a mathemaical object.
-Is comprised of objects (free mathematical objects) and morophisms between them.
-A category  is a specific mathematical structure, itself, a mathemaical object.
+* A "category" is a specific mathematical structure, [ϒ] itself, a mathemaical object.
+* Is comprised of objects (free mathematical objects) and morophisms between them.
+* A category is a specific mathematical structure, [ϒ] itself, a mathemaical object.
 
 
 
