@@ -39,6 +39,7 @@ How to multiply? Investigating:
 
 * It is `*`
     * Previously: `-- `×` or `•` or `⬝` or `*` ?`
+       * The `×` is for Prod, for cartesian product of sets, tuples (parameters), etc.
 * Those notations are called "locale".
     * `⬝ᵥ`, `*ᵥ`, `ᵥ*`, `ᴴ`
     * It shoul dhave said `⬝`, `*`, transpose. Where are these defined?
@@ -66,6 +67,49 @@ Some patterns of parametrisation
   -- System parameters
   variable (A : ℝnn) (B : ℝnm) (C : ℝmn)
   variable (Q : ℝnn) (R : Matrix (Fin m) (Fin m) ℝ)
+```
+
+#### Exploring various ways to define named/structured tuples
+Exploring various ways to define structure, fields, tuples, etc for state, or parameter-sets:
+
+* Structure (but not type?)
+```
+structure KalmanState2 where
+  state : KalmanStateType n
+-- ks.state.1 -- for xhat
+-- ks.state.2 -- for P
+```
+
+* A `Type`: (can be `Prod` or `structure`?)
+```lean
+def KalmanStateType (n : ℕ) : Type :=
+    (Matrix (Fin n) (Fin 1) ℝ) × (Matrix (Fin n) (Fin n) ℝ)
+```
+
+* The Prod way (aka `×`)
+```lean
+def KalmanStateType (n : ℕ) : Type :=
+   (Matrix (Fin n) (Fin 1) ℝ) × (Matrix (Fin n) (Fin n) ℝ)
+```
+
+* May not have worked
+```lean
+def KalmanStateType : Type :=
+   { xhat: Matrix (Fin n) (Fin 1) ℝ, P : Matrix (Fin n) (Fin n) ℝ }
+   ❌
+```
+
+(optional: `(n : ℕ)`)
+
+* Sigma: (did not work/yet): Sigma trick for tuple (equivalent to Prod):
+`Σ (xhat : Matrix (Fin n) (Fin 1) ℝ), (P : Matrix (Fin n) (Fin n) ℝ)`
+or
+```lean
+  Σ (
+      xhat : Matrix (Fin n) (Fin 1) ℝ
+    ),
+    P    ( Matrix (Fin n) (Fin n) ℝ )
+  ❌
 ```
 
 #### trace_state
