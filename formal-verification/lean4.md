@@ -14,7 +14,8 @@ import Mathlib.Data.Matrix.Basic
 5. Use patterns of parametrisation
     * Pattern 1: add to every definition: `(m : ℕ)` etc, e.g. `structure KalmanVariables (m : ℕ) where`
     * Pattern 2: (did not work): Not sure what it implies/entails, and whether it works: `variable {n m : ℕ} [Fintype (Fin n)] [Fintype (Fin m)] [DecidableEq (Fin n)] [DecidableEq (Fin m)]`
-6. Bonus
+6. Stay awry of erronous AI suggestions: `Matrix.inv`, `•`, etc (TBC)
+9. Bonus
    1. Use `(: type)` to assert types.
       * The `matrix` type? or `(Fin 3) (Fin 3)` type? or both (capping)?
    2. Use this `ℝnm` sort of abbrev `abbrev ℝnm (n : ℕ) (m : ℕ) := Matrix (Fin n) (Fin m) ℝ`
