@@ -61,6 +61,7 @@ Types are: `Matrix (Fin 3) (Fin 3) R`.
 #### Alterntive ways to parameterise (patterns)
 Some patterns of parametrisation
 * Pattern 1: add to every definition: `(m : ℕ)` etc, e.g. `structure KalmanVariables (m : ℕ) where`
+* Pattern 3: `variable (u : ℝm) (y : ℝm)` why this alone may not work?
 * Pattern 2: (did not work): Not sure what it implies/entails, and whether it works: `variable {n m : ℕ} [Fintype (Fin n)] [Fintype (Fin m)] [DecidableEq (Fin n)] [DecidableEq (Fin m)]`
 * Define global variable (with specific parameters). In the following, a variable like "pattern 2" above is used:
 ```lean
