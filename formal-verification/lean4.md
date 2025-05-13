@@ -16,6 +16,7 @@ If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
 #### How to multiply?
 How to multiply? Investigating:
 * see `mathlib`/`Mathlib/Data/Matrix/Mul.lean` e.g. locally, `.lake/packages/mathlib/Mathlib/Data/Matrix/Mul.lean`
+   * Was found by: via LSP -> via `Matrix.mul_sub` -> see definition -> scroll to top. (BTW, so many variations of implementation. so interesing).
 
 #### trace_state
 I could not use `trace_state` though. I tried to use ...'s code:
