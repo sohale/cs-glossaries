@@ -57,6 +57,12 @@ Types are: `Matrix (Fin 3) (Fin 3) R`.
 * Keep enabling and disabling this `set_option diagnostics true`. Also use the hover for errors, when enabled (using LSP).
 * Use VScode's Lean4 LSP. Do use its completion (not AI). Do use its "go to definition". 
 
+#### Alterntive ways to parameterise (patterns)
+Some patterns of parametrisation
+* Pattern 1: add to every definition: `(m : ℕ)` etc, e.g. `structure KalmanVariables (m : ℕ) where`
+* Pattern 2: (did not work): Not sure what it implies/entails, and whether it works: `variable {n m : ℕ} [Fintype (Fin n)] [Fintype (Fin m)] [DecidableEq (Fin n)] [DecidableEq (Fin m)]`
+
+
 #### trace_state
 I could not use `trace_state` though. I tried to use ...'s code:
 
