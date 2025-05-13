@@ -34,7 +34,7 @@ def a (R: Matrix (Fin 5) (Fin 5) R) : True := by
 ```
 
 #### Micro-ideas:
-* A post about working with matrices in Lean4 (inverse, multiplicaiton, writing some equations, etc)
+* A post about working with matrices in Lean4 (inverse, multiplicaiton, writing some equations, what ti `import`, how to parametrise dimensions, some patterns, etc)
 
 
 Old parts from summer(?) 2024:
