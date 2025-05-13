@@ -85,6 +85,7 @@ structure KalmanState2 where
 def KalmanStateType (n : ℕ) : Type :=
     (Matrix (Fin n) (Fin 1) ℝ) × (Matrix (Fin n) (Fin n) ℝ)
 ```
+Variants: Type+Prod, Prod without Type, parametrised (global), parametrised (local), etc.
 
 * The Prod way (aka `×`)
 ```lean
