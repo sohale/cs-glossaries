@@ -1,3 +1,42 @@
+
+## New round of Lean4 explorations: the FM-KL project
+(May 2025)
+#### Inverting a matrix: R⁻¹
+After comsulting Discord people ([click](https://discord.com/channels/1154493176548184134/1154503120618012704/1371220664228384798) for conversation), about `R⁻¹` I receives these key answers:
+
+* You can find that [here](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Notation/Defs.html#Inv)
+
+* The notation is defined as [Inv.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/Algebra/Notation/Defs.html#Inv.inv).
+And if you care about the definition of matrix inversion,
+then [Matrix.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/LinearAlgebra/Matrix/NonsingularInverse.html#Matrix.inv)
+is indeed the right place.
+If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
+
+
+#### trace_state
+I could not use `trace_state` though. I tried to use ...'s code:
+
+```lean
+import Mathlib.Data.Real.Basic
+import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+import Mathlib.Data.Real. Basic
+import Mathlib.Data.Matrix.Basic
+/--
+info: R: Matrix (Fin 5) (Fin 5) ℝ
+a : Matrix (Fin 5) (Fin 5) ℝ := R⁻¹
++ True
+-/
+#guard_msgs (info) in
+def a (R: Matrix (Fin 5) (Fin 5) R) : True := by
+  let a := Matrix, inv. inv R
+  trace_state 🛠️
+  trace a
+```
+
+
+
+Old parts from summer(?) 2024:
+
 # Lean4: Learn Lean4 from inside out
 
 Lean 4 is two things: a theorem prover and a programming language.
@@ -195,38 +234,4 @@ Lean4's specific concepts: (low-level, internal, almost VM)
 
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
 
-
-## New round of Lean4 explorations: the FM-KL project
-
-#### Inverting a matrix: R⁻¹
-After comsulting Discord people ([click](https://discord.com/channels/1154493176548184134/1154503120618012704/1371220664228384798) for conversation), about `R⁻¹` I receives these key answers:
-
-* You can find that [here](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Notation/Defs.html#Inv)
-
-* The notation is defined as [Inv.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/Algebra/Notation/Defs.html#Inv.inv).
-And if you care about the definition of matrix inversion,
-then [Matrix.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/LinearAlgebra/Matrix/NonsingularInverse.html#Matrix.inv)
-is indeed the right place.
-If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
-
-
-#### trace_state
-I could not use `trace_state` though. I tried to use ...'s code:
-
-```lean
-import Mathlib.Data.Real.Basic
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-import Mathlib.Data.Real. Basic
-import Mathlib.Data.Matrix.Basic
-/--
-info: R: Matrix (Fin 5) (Fin 5) ℝ
-a : Matrix (Fin 5) (Fin 5) ℝ := R⁻¹
-+ True
--/
-#guard_msgs (info) in
-def a (R: Matrix (Fin 5) (Fin 5) R) : True := by
-  let a := Matrix, inv. inv R
-  trace_state 🛠️
-  trace a
-```
 
