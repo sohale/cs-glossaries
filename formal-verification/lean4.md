@@ -16,7 +16,19 @@ If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
 #### How to multiply?
 How to multiply? Investigating:
 * see `mathlib`/`Mathlib/Data/Matrix/Mul.lean` e.g. locally, `.lake/packages/mathlib/Mathlib/Data/Matrix/Mul.lean`
-   * Was found by: via LSP -> via `Matrix.mul_sub` -> see definition -> scroll to top. (BTW, so many variations of implementation. so interesing).
+   * Was found by: via LSP -> via `Matrix.mul_sub` -> see definition -> scroll to top. (BTW, so many variations of implementation. so interesing. See below note abount computable).
+
+* It is `*`
+* Those mnoations are called locale.
+
+Interesting. Computability error:
+>    failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Matrix.inv', which is 'noncomputable' (Lean 4)
+* This means, I see now how Lean works.
+
+#### Design path 1
+Types are: `Matrix (Fin 3) (Fin 3) R`.
+* It could be (can be?): `(Fin 3) (Fin 3) R`.
+* I call it capping types (wrapping? labelling? tagging?). I was looking for something exactly like this for `neopiler`, and the design pull was there, and now Lean showed me.
 
 #### trace_state
 I could not use `trace_state` though. I tried to use ...'s code:
