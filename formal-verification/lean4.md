@@ -19,7 +19,10 @@ How to multiply? Investigating:
    * Was found by: via LSP -> via `Matrix.mul_sub` -> see definition -> scroll to top. (BTW, so many variations of implementation. so interesing. See below note abount computable).
 
 * It is `*`
+    * Previously: `-- `×` or `•` or `⬝` or `*` ?`
 * Those mnoations are called locale.
+    * `⬝ᵥ`, `*ᵥ`, `ᵥ*`, `ᴴ`
+    * It shoul dhave said `⬝`, `*`, transpose. Where are these defined?
 
 Interesting. Computability error:
 >    failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Matrix.inv', which is 'noncomputable' (Lean 4)
