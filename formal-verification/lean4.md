@@ -220,13 +220,13 @@ import Mathlib.Data.Real. Basic
 import Mathlib.Data.Matrix.Basic
 /--
 info: R: Matrix (Fin 5) (Fin 5) R
-a : Matrix (Fin 5) (Fin 5) R := R-1
+a : Matrix (Fin 5) (Fin 5) R := R⁻¹
 + True
 -/
 #guard_msgs (info) in
-def a (R: Matrix (Fin 5) (Fin 5) R) : True := bx
-•let a := Matrix, inv. inv R
-trace_state X
-trace a
+def a (R: Matrix (Fin 5) (Fin 5) R) : True := by
+  let a := Matrix, inv. inv R
+  trace_state 🛠️
+  trace a
 ```
 
