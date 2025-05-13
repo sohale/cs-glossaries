@@ -33,6 +33,8 @@ def a (R: Matrix (Fin 5) (Fin 5) R) : True := by
   trace a
 ```
 
+#### Micro-ideas:
+* A post about working with matrices in Lean4 (inverse, multiplicaiton, writing some equations, etc)
 
 
 Old parts from summer(?) 2024:
