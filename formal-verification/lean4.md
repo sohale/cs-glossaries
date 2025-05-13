@@ -20,9 +20,10 @@ How to multiply? Investigating:
 
 * It is `*`
     * Previously: `-- `×` or `•` or `⬝` or `*` ?`
-* Those mnoations are called locale.
+* Those notations are called "locale".
     * `⬝ᵥ`, `*ᵥ`, `ᵥ*`, `ᴴ`
     * It shoul dhave said `⬝`, `*`, transpose. Where are these defined?
+    * Somewhere is actually uses `•`. See `Mul.lean`
 
 Interesting. Computability error:
 >    failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Matrix.inv', which is 'noncomputable' (Lean 4)
