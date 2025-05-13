@@ -11,7 +11,7 @@ And if you care about the definition of matrix inversion,
 then [Matrix.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/LinearAlgebra/Matrix/NonsingularInverse.html#Matrix.inv)
 is indeed the right place.
 If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
-
+   * (or `Inv.inv (self := Matrix.inv) R`)
 
 #### trace_state
 I could not use `trace_state` though. I tried to use ...'s code:
