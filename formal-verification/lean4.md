@@ -194,3 +194,39 @@ Lean4's specific concepts: (low-level, internal, almost VM)
 * `environment` https://github.com/leanprover/lean4/blob/d1c0149e17eb860c9228f27c046e367750a592d6/src/kernel/environment.h#L81
 
 * Other curious terms: [a](https://en.wikipedia.org/wiki/De_Bruijn_index) K combinator, S combinator.
+
+
+## New round of Lean4 explorations: the FM-KL project
+
+#### Inverting a matrix: R⁻¹
+After comsulting Discord people ([click](https://discord.com/channels/1154493176548184134/1154503120618012704/1371220664228384798) for conversation), about `R⁻¹` I receives these key answers:
+
+* You can find that [here](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Notation/Defs.html#Inv)
+
+* The notation is defined as [Inv.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/Algebra/Notation/Defs.html#Inv.inv).
+And if you care about the definition of matrix inversion,
+then [Matrix.inv](https://leanprover-community.github.io/mathlib4_docs//Mathlib/LinearAlgebra/Matrix/NonsingularInverse.html#Matrix.inv)
+is indeed the right place.
+If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
+
+
+#### trace_state
+I could not use `trace_state` though. I tried to use ...'s code:
+
+```lean
+import Mathlib.Data.Real.Basic
+import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+import Mathlib.Data.Real. Basic
+import Mathlib.Data.Matrix.Basic
+/--
+info: R: Matrix (Fin 5) (Fin 5) R
+a : Matrix (Fin 5) (Fin 5) R := R-1
++ True
+-/
+#guard_msgs (info) in
+def a (R: Matrix (Fin 5) (Fin 5) R) : True := bx
+•let a := Matrix, inv. inv R
+trace_state X
+trace a
+```
+
