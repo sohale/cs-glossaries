@@ -219,8 +219,8 @@ import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 import Mathlib.Data.Real. Basic
 import Mathlib.Data.Matrix.Basic
 /--
-info: R: Matrix (Fin 5) (Fin 5) R
-a : Matrix (Fin 5) (Fin 5) R := R⁻¹
+info: R: Matrix (Fin 5) (Fin 5) ℝ
+a : Matrix (Fin 5) (Fin 5) ℝ := R⁻¹
 + True
 -/
 #guard_msgs (info) in
