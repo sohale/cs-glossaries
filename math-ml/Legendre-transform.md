@@ -12,6 +12,9 @@ from [this post](https://blog.jessriedel.com/2017/06/28/legendre-transform/)
    * Thsi [tweet](https://twitter.com/gabrielpeyre/status/1552156833460105216?cn=ZmxleGlibGVfcmVjcw%3D%3D&refsrc=email) by Gabriel Peyré.
 * The fact that it is called Bellman-Jacobi-Hamilton equation
 
+
+* Legendre and dual-contouring in finite-element sense (and OhBel operations), to be explored.
+
 ### Also see (table of)
 * [Eigenvalues](eigenvalues.md) (this)
 * [Lagrange multipliers](./lagrange-multipliers.md)
