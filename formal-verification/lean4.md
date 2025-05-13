@@ -1,6 +1,19 @@
 
 ## New round of Lean4 explorations: the FM-KL project
 (May 2025)
+
+#### Cumulative manual for Matrices
+1. Use these imports
+```lean
+import Mathlib.Data.Real.Basic
+import Mathlib.Data.Matrix.Basic
+```
+2. Use operators: `*`, `⁻¹`
+3. Computable issue for inv, etc (todo)
+4. Use patterns of parametrisation
+    * Pattern 1: add to every definition: `(m : ℕ)` etc, e.g. `structure KalmanVariables (m : ℕ) where`
+    * Pattern 2: (did not work): Not sure what it implies/entails, and whether it works: `variable {n m : ℕ} [Fintype (Fin n)] [Fintype (Fin m)] [DecidableEq (Fin n)] [DecidableEq (Fin m)]`
+
 #### Inverting a matrix: R⁻¹
 After comsulting Discord people ([click](https://discord.com/channels/1154493176548184134/1154503120618012704/1371220664228384798) for conversation), about `R⁻¹` I receives these key answers:
 
