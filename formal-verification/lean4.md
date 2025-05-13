@@ -13,6 +13,10 @@ is indeed the right place.
 If you write `R⁻¹`, what really happens is `Matrix.inv.inv R`
    * (or `Inv.inv (self := Matrix.inv) R`)
 
+#### How to multiply?
+How to multiply? Investigating:
+* see `mathlib`/`Mathlib/Data/Matrix/Mul.lean` e.g. locally, `.lake/packages/mathlib/Mathlib/Data/Matrix/Mul.lean`
+
 #### trace_state
 I could not use `trace_state` though. I tried to use ...'s code:
 
