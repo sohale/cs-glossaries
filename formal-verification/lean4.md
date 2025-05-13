@@ -30,6 +30,10 @@ Types are: `Matrix (Fin 3) (Fin 3) R`.
 * It could be (can be?): `(Fin 3) (Fin 3) R`.
 * I call it capping types (wrapping? labelling? tagging?). I was looking for something exactly like this for `neopiler`, and the design pull was there, and now Lean showed me.
 
+#### Dev setup:
+* Keep enabling and disabling this `set_option diagnostics true`. Also use the hover for errors, when enabled (using LSP).
+* Use VScode's Lean4 LSP. Do use its completion (not AI). Do use its "go to definition". 
+
 #### trace_state
 I could not use `trace_state` though. I tried to use ...'s code:
 
