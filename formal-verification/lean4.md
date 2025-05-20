@@ -98,6 +98,18 @@ example : 2 + 2 = 4 := rfl
 def x : 2 + 2 = 4 := 3
 ```
 
+
+Back to prop:
+
+```lean
+def name1 : Prop := 1+2=2
+```
+As expresion of type `name1` is a proof of `name1`!
+
+Chain of of-type:
+
+An expression of type `xx`, `xx` of type `Prop`, `Prop` is of type `Type`, and `Type` is of type `Type 1`.
+
 #### Cumulative manual for Matrices
 1. Use these imports
 ```lean
