@@ -140,6 +140,7 @@ These are equivalent:
 example ASSUMPTONS1 : …
 example : ASSUMPTONS2 → …
 ```
+Note that both are the same thing, but needs to be expressed slightly different syntax/form.
 
 Assumptions are like context.
 
