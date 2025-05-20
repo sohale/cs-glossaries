@@ -176,8 +176,31 @@ They should "match". (Even simple ones should match something. e.g. `rfl`). It "
 
 Some naming conventions: `Nat.add_comm`, `Nat.mul_comm` are some "proof"s.
 
+Another instance of proof using `fun`:
 
+`fun n => (n, le_rfl)` which in context, it will look like:
+```lean
+... : MyProp1 := fun n => (n, le_rfl)
+```
+
+##### Theorem
 Things are `def`, `example`, `theorem`, if not those `#` things.
+
+Theorem just makes it explicit that this is a value.
+So, it is almost like an example. But with a name? So, it is a `def`?!
+So, theorems have names.
+
+```lean
+theorem thmName : MyProp1 := fun n => (n, le_rfl)
+```
+
+So, a proof has two parts:
+```lean
+def              MyProp1 : Prop := body_prop
+theorem thm_nm1  MyProp1        := body_proof
+```
+
+I guess, being a KF or a UKF, is not a theorem, but, a proposition. A named one.
 
 
 ##### Ambiguities of space
