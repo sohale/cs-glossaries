@@ -170,13 +170,30 @@ Meanings
 * `trivial`: True?
 * `rfl`: "as you can see", something is equal to itself. (recognising this form, as proof).
 
+There are non-simple ones:
+* `Nat.add_comm`
+They should "match". (Even simple ones should match something. e.g. `rfl`). It "matches exatly".
+
+Some naming conventions: `Nat.add_comm`, `Nat.mul_comm` are some "proof"s.
+
+
+Things are `def`, `example`, `theorem`, if not those `#` things.
+
 
 ##### Ambiguities of space
 Which of these are not the same?
-* The `() ()` pods-like apparent-syntax.
-* The `(a b : T)`
+* The `() ()` pods-like apparent-syntax: ...
+* The `(a b : T)` : interpreted as "and".
 * The `A B C` as `A→B→C`.
 * The `a b c` as func-application of some `A→B→C`.
+
+The `() ()` pods-like apparent-syntax: Differnet meanings
+* TBC
+
+
+
+
+
 
 #### Cumulative manual for Matrices
 1. Use these imports
