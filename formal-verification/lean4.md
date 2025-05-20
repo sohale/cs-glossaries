@@ -208,6 +208,40 @@ The math-theorem, is that `Prop` (a value-of `Prop`).
 You can also prove using `example` syntax: if you don't want to name it:
 `example : THEOREM_STATEMENT := THEOREMS_PROOF`
 
+##### Proofs
+Proofs, of not simple, can be written (can be ugly/complicated),
+or can be "found".
+
+To "try and find the proof".
+
+Example: `by ring`.
+A statement that is true for every `ring`.
+
+Remember: "Proof term".
+This is a "tactic" not a "proof term".
+I mean, `by ring` is a tactic.
+
+Nevertheless, a tactic, like a proof term, can be asigned to, using `:=`.
+Assigned to what? nothing. Just it. It can be named (as `theorem` or `def`) or `example`. But proofs as `example` and `def` are not recommended.
+
+We need to know what a "tactic" is, and what are some of its examples:
+
+Tactics:
+Exampl tactics:
+* `by ring`
+* `by simp`
+* `by norm_num`
+
+The `norm_num` computes numbers, but is in a way, symbolic: not computaitonsl (bits etc).
+
+Not exaplined yet:
+* What is a tactic
+* Are tactics not considered "proof term"s?
+* For proofs: shall we not use def and example?
+* How `by simp` works?
+* I `by` for tactics?
+* How much can Lean4 help in automatic proof, or finding, etc.
+
 
 ##### Ambiguities of space
 Which of these are not the same?
