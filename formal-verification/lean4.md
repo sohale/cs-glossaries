@@ -1,5 +1,5 @@
 
-## New round of Lean4 explorations: the FM-KL project
+## New round of Lean4 explorations:
 (May 2025)
 
 #### LFTCM2023 ####
@@ -287,6 +287,8 @@ such as
 
 
 
+
+## (New round of Lean4 explorations): the FM-KL project
 
 #### Cumulative manual for Matrices
 1. Use these imports
