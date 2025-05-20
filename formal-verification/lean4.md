@@ -148,12 +148,20 @@ example (n : ℕ) (hn : 2 ≤ n) : … := sorry
 Note: comman-separated ` , ` syntax versus conseuqent parentheses `() () ()` syntax:
 * `∀ n : ℕ      ,      2 ≤ n →      ∃ x y z : ℕ, …`
 * `(n : ℕ) (hn : 2 ≤ n) : …`
-
-
+I made mistakes here ^, bit to be fixed (`FIXME`).
 
 
 Assumptions are like context.
 
+TBC.
+
+#### Literals
+"Values of values of" Propositions, which are proofs, and used RHS of `:=` can be not only `sorry` but more, some simple, and some, elaborate.
+
+Some literals that can be used as proof:
+* `sorry`
+* `trivial`
+* `rfl`
 
 
 #### Cumulative manual for Matrices
