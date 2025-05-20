@@ -145,7 +145,9 @@ Note that both are the same thing, but needs to be expressed slightly different 
 example : ∀ n : ℕ, 2 ≤ n → ∃ x y z : ℕ, … := sorry
 example (n : ℕ) (hn : 2 ≤ n) : … := sorry
 ```
-
+Note: comman-separated ` , ` syntax versus conseuqent parentheses `() () ()` syntax:
+* `∀ n : ℕ      ,      2 ≤ n →      ∃ x y z : ℕ, …`
+* `(n : ℕ) (hn : 2 ≤ n) : …`
 
 
 
