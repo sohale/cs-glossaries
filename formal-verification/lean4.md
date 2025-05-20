@@ -231,18 +231,24 @@ Exampl tactics:
 * `by ring`
 * `by simp`
 * `by norm_num`
+* `by simp only`
 
-The `norm_num` computes numbers, but is in a way, symbolic: not computaitonsl (bits etc).
+The `norm_num` computes numbers, but is in a way, symbolic: not computaitonal (bits etc).
+
+Use hover (LSP) on these above.
 
 Not exaplined yet:
 * What is a tactic
 * Are tactics not considered "proof term"s?
 * For proofs: shall we not use def and example?
 * How `by simp` works?
+* How, in gemeral, this proof-finding works
 * I `by` for tactics?
 * How much can Lean4 help in automatic proof, or finding, etc.
 
 Also, let me reflect on, a proof being a value of `Prop`. (While Prob itself being something (like a variable!) of a `Type`).
+
+Apparently Lean uses metaprograming to generate proof based on those.
 
 ##### Ambiguities of space
 Which of these are not the same?
