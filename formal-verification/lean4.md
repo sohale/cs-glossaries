@@ -11,7 +11,9 @@ Type of a[ny] type is a type,  and it is `Type`.
 `ℝ` Is a type, not a set. Hence. `ℝ:Type`.
 
 
-An element of a type. (But an element can be of a type. yet, not a set. So they avoid paradox by this?).
+An element of a type.
+(But an element can be of a type. yet, not a set. So they avoid paradox by this?).
+Existence of a type can be a proof? No: only if it is an "expression", abd the type should be "Prop"!
 
 Lean4 accepts incomplete.
 
@@ -29,6 +31,7 @@ Prop may be not true: `2+2=4` is a prop.
 May be true, false, or not proved.
 
 The `rexp` ?
+Expresion
 
 #### Cumulative manual for Matrices
 1. Use these imports
