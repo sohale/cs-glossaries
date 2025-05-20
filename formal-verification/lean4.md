@@ -272,6 +272,13 @@ Which of these are not the same?
 The `() ()` pods-like apparent-syntax: Differnet meanings
 * TBC
 
+##### Lint
+The `#lint` applies the second level checks (first being syntax: hard),
+(soft) constraints / checks:
+(complains)
+(semantic? checks).
+such as
+`def` -> `theorem`.
 
 
 
