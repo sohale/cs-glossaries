@@ -155,7 +155,7 @@ Assumptions are like context.
 
 TBC.
 
-#### Literals
+##### Literals
 "Values of values of" Propositions, which are proofs, and used RHS of `:=` can be not only `sorry` but more, some simple, and some, elaborate.
 
 Some literals that can be used as proof:
@@ -167,6 +167,13 @@ Meanings
 * `sorry`: explicitly leave open (as "open problem". See above)
 * `trivial`: True?
 * `rfl`: "as you can see", something is equal to itself. (recognising this form, as proof).
+
+
+##### Ambiguities of space
+Which of these are not the same?
+* The `() ()` pods-like apparent-syntax.
+* The `(a b : T)`
+* The `a b c` as func-application of some `A→B→C`.
 
 #### Cumulative manual for Matrices
 1. Use these imports
