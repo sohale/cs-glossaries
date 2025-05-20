@@ -4,7 +4,7 @@
 
 #### LFTCM2023 ####
 Based on [LftCM](https://www.youtube.com/watch?v=Ft_3jDl3qxQ&list=PLlF-CfQhukNn7xEbfL38eLgkveyk9_myQ) and [git/lftcm2023](https://github.com/lftcm2023/lftcm2023).
-
+   
 In Lean4, everything has a type. You can get the type using `#check`.
 
 Type of a[ny] type is a type,  and it is `Type`.
@@ -28,6 +28,8 @@ example : ℕ := 3
 def x : ℕ := 3
 ```
 
+Use forall, etc (in expressions, hence, propositions). More on that to follow.
+
 ##### Prop
 Prop is a another key element.
 After: "type"s, `#check`, the `Type` type, `def`, `example` and `sorry`: Not `Prop`.
@@ -35,6 +37,7 @@ After: "type"s, `#check`, the `Type` type, `def`, `example` and `sorry`: Not `Pr
 `Prop` may be proved or not.
 Prop may be not true: `2+2=4` is a prop.
 May be true, false, or not proved.
+
 
 The `rexp` ?
 Expresion: (compare elements of a type), we can have expressions of a type.
