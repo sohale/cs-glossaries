@@ -278,7 +278,9 @@ The `#lint` applies the second level checks (first being syntax: hard),
 (complains)
 (semantic? checks).
 such as
-`def` -> `theorem`.
+`def` -> `theorem` or lemma.
+
+We usually use `theorem` or lemma for "elements" of ~~proofs~~ (elements of Prop s).
 
 
 
