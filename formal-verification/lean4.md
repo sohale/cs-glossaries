@@ -9,7 +9,7 @@ In Lean4, everything has a type. You can get the type using `#check`.
 Type of a[ny] type is a type,  and it is `Type`.
 `ℝ` Is a type, not a set. Hence. `ℝ:Type`.
 
-See https://github.com/lftcm2023/lftcm2023
+See [LftCM](https://www.youtube.com/watch?v=Ft_3jDl3qxQ&list=PLlF-CfQhukNn7xEbfL38eLgkveyk9_myQ) and https://github.com/lftcm2023/lftcm2023
 
 #### Cumulative manual for Matrices
 1. Use these imports
