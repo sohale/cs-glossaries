@@ -17,6 +17,10 @@ Mathematical definition: Is `def`!
 If no name, it will be `example`.
 Always with colon `example :`.
 
+##### Prop
+Prop is a another key element.
+After: "type"s, `#check`, the `Type` type, `def`, `example` and `sorry`: Not `Prop`.
+
 `Prop` may be proved or not.
 
 #### Cumulative manual for Matrices
