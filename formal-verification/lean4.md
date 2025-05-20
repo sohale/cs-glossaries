@@ -140,7 +140,15 @@ These are equivalent:
 example ASSUMPTONS1 : …
 example : ASSUMPTONS2 → …
 ```
-Note that both are the same thing, but needs to be expressed slightly different syntax/form.
+Note that both are the same thing, but needs to be expressed slightly different syntax/form. See [example from here](https://github.com/lftcm2023/lftcm2023/blob/master/LftCM/C01_Basics/Basics.lean#L52C1-L56C68):
+```lean
+example : ∀ n : ℕ, 2 ≤ n → ∃ x y z : ℕ, … := sorry
+example (n : ℕ) (hn : 2 ≤ n) : … := sorry
+```
+
+
+
+
 
 Assumptions are like context.
 
