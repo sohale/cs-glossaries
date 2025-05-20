@@ -10,6 +10,9 @@ In Lean4, everything has a type. You can get the type using `#check`.
 Type of a[ny] type is a type,  and it is `Type`.
 `ℝ` Is a type, not a set. Hence. `ℝ:Type`.
 
+
+An element of a type. (But an element can be of a type. yet, not a set. So they avoid paradox by this?).
+
 Lean4 accepts incomplete.
 
 Mathematical definition: Is `def`!
@@ -22,6 +25,10 @@ Prop is a another key element.
 After: "type"s, `#check`, the `Type` type, `def`, `example` and `sorry`: Not `Prop`.
 
 `Prop` may be proved or not.
+Prop may be not true: `2+2=4` is a prop.
+May be true, false, or not proved.
+
+The `rexp` ?
 
 #### Cumulative manual for Matrices
 1. Use these imports
