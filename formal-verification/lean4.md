@@ -34,6 +34,10 @@ Use forall, etc (in expressions, hence, propositions). More on that to follow.
 Prop is a another key element.
 After: "type"s, `#check`, the `Type` type, `def`, `example` and `sorry`: Not `Prop`.
 
+```lean
+def name1 : Prop := 1+2=2
+```
+
 `Prop` may be proved or not.
 Prop may be not true: `2+2=4` is a prop.
 May be true, false, or not proved.
