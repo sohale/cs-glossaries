@@ -113,6 +113,9 @@ Chain of of-type:
 In that, I have proved `xx`!
 In that, `q` is a proof of `xx`!
 
+Reminder:
+Not necessarity a `def` or `example`. It can be like this: `(3:ℕ)` (as?).
+
 #### Cumulative manual for Matrices
 1. Use these imports
 ```lean
