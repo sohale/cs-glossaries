@@ -116,8 +116,17 @@ In that, `q` is a proof of `xx`!
 Reminder:
 Not necessarity a `def` or `example`. It can be like this: `(3:ℕ)` (as?).
 
+###### Proof (for Prop)
 So, a proof is like a "value-of", the opposite direction of "of-type".
 Of beeter say, "a value of", means a proof.
+
+###### Assumptions (for Prop)
+
+You can put your "assumptions" before the colon:
+
+```lean
+example <ASSUMPTONS> : …
+```
 
 #### Cumulative manual for Matrices
 1. Use these imports
