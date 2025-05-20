@@ -116,6 +116,9 @@ In that, `q` is a proof of `xx`!
 Reminder:
 Not necessarity a `def` or `example`. It can be like this: `(3:ℕ)` (as?).
 
+So, a proof is like a "value-of", the opposite direction of "of-type".
+Of beeter say, "a value of", means a proof.
+
 #### Cumulative manual for Matrices
 1. Use these imports
 ```lean
