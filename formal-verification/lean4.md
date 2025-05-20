@@ -22,6 +22,12 @@ Mathematical definition: Is `def`!
 If no name, it will be `example`.
 Always with colon `example :`.
 
+```lean
+
+example : ℕ := 3
+def x : ℕ := 3
+```
+
 ##### Prop
 Prop is a another key element.
 After: "type"s, `#check`, the `Type` type, `def`, `example` and `sorry`: Not `Prop`.
@@ -37,6 +43,53 @@ An expression of type .... ???Prop??
 
 A type can be of a Prop, not a type?!
 
+```lean
+def ℕ : Type := ...
+def nn : Type := ℕ
+example : Type := ℕ
+def Type : ?? := ...
+#check ℕ  -- : Type
+#check nn  -- : Type
+#check Type  -- : ?
+```
+
+Cool: They already generalised this:
+```
+Type
+Type 1
+Type 2
+Type 3
+...
+```
+
+
+
+Prop is like a Type.
+```lean
+def 1+1=2 : Prop := ...
+def pp : Prop := 1+1=2
+example : Type := 1+1=2
+```
+Compare with
+```lean
+def ℕ : Type := ...
+def nn : Type := ℕ
+example : Type := ℕ
+```
+
+Prop itself is a Type:
+```lean
+def Prop : Type := ...
+def pp : Type := Prop
+example : Type := Prop
+```
+
+
+
+```lean
+example : 2 + 2 = 4 := rfl
+def x : 2 + 2 = 4 := 3
+```
 
 #### Cumulative manual for Matrices
 1. Use these imports
