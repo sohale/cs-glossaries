@@ -7,6 +7,7 @@
 In Lean4, everything has a type. You can get the type using `#check`.
 
 Type of a[ny] type is a type,  and it is `Type`.
+`ℝ` Is a type, not a set. Hence. `ℝ:Type`.
 
 See https://github.com/lftcm2023/lftcm2023
 
