@@ -194,13 +194,19 @@ So, theorems have names.
 theorem thmName : MyProp1 := fun n => (n, le_rfl)
 ```
 
+I guess, being a KF or a UKF, is not a theorem, but, a proposition. A named one.
+
 So, a proof has two parts:
 ```lean
 def              MyProp1 : Prop := body_prop
 theorem thm_nm1  MyProp1        := body_proof
 ```
 
-I guess, being a KF or a UKF, is not a theorem, but, a proposition. A named one.
+So, the theorem is the `def` line, and `theorem` is about a proof, not the math-theorem!
+The math-theorem, is that `Prop` (a value-of `Prop`).
+
+You can also prove using `example` syntax: if you don't want to name it:
+`example : THEOREM_STATEMENT := THEOREMS_PROOF`
 
 
 ##### Ambiguities of space
@@ -212,6 +218,10 @@ Which of these are not the same?
 
 The `() ()` pods-like apparent-syntax: Differnet meanings
 * TBC
+
+
+
+
 
 
 
