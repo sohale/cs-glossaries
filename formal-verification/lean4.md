@@ -173,6 +173,7 @@ Meanings
 Which of these are not the same?
 * The `() ()` pods-like apparent-syntax.
 * The `(a b : T)`
+* The `A B C` as `A→B→C`.
 * The `a b c` as func-application of some `A→B→C`.
 
 #### Cumulative manual for Matrices
