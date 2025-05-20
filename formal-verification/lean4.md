@@ -98,6 +98,16 @@ example : 2 + 2 = 4 := rfl
 def x : 2 + 2 = 4 := 3
 ```
 
+What is this?
+```lean
+example (n : N) : 2 + 2 = 4 := rfl
+def x (n : N) : 2 + 2 = 4 := 3
+```
+
+me: Note `(n : N)` syntax-chunk (associatitvity-like in syntax/language).
+
+Dontr confuse `(n : N)` with `(n N)`.
+
 
 Back to prop:
 
@@ -249,6 +259,8 @@ Not exaplined yet:
 Also, let me reflect on, a proof being a value of `Prop`. (While Prob itself being something (like a variable!) of a `Type`).
 
 Apparently Lean uses metaprograming to generate proof based on those.
+
+Each tactic is written in its own way.
 
 ##### Ambiguities of space
 Which of these are not the same?
