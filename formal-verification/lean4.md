@@ -158,7 +158,9 @@ TBC.
 ##### Literals
 "Values of values of" Propositions, which are proofs, and used RHS of `:=` can be not only `sorry` but more, some simple, and some, elaborate.
 
-Some literals that can be used as proof:
+These are called "proof term"s.
+
+Some literals that can be used as proof: (called: "simple proof terms"):
 * `sorry`
 * `trivial`
 * `rfl`
