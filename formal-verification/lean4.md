@@ -262,6 +262,17 @@ Apparently Lean uses metaprograming to generate proof based on those.
 
 Each tactic is written in its own way.
 
+"`theorem` vs `def`":
+See `#lint` below.
+
+defm unlike theorem, is remembered and used later on.
+The RHS (value: proof) of theorem is forgotten.
+Can-not even be `#print` ed.
+
+
+Use "Error Lens" [extention](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) (vscode).
+
+
 ##### Ambiguities of space
 Which of these are not the same?
 * The `() ()` pods-like apparent-syntax: ...
@@ -282,6 +293,7 @@ such as
 
 We usually use `theorem` or lemma for "elements" of ~~proofs~~ (elements of Prop s).
 
+See "`theorem` vs `def`" above.
 
 
 
