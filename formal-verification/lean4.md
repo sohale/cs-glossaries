@@ -15,6 +15,9 @@ Lean4 accepts incomplete.
 Mathematical definition: Is `def`!
 
 If no name, it will be `example`.
+Always with colon `example :`.
+
+`Prop` may be proved or not.
 
 #### Cumulative manual for Matrices
 1. Use these imports
