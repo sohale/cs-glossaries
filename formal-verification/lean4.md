@@ -31,7 +31,12 @@ Prop may be not true: `2+2=4` is a prop.
 May be true, false, or not proved.
 
 The `rexp` ?
-Expresion
+Expresion: (compare elements of a type), we can have expressions of a type.
+In that case, it's a proof of that type.
+An expression of type .... ???Prop??
+
+A type can be of a Prop, not a type?!
+
 
 #### Cumulative manual for Matrices
 1. Use these imports
