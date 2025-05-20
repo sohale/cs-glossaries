@@ -12,6 +12,10 @@ Type of a[ny] type is a type,  and it is `Type`.
 
 Lean4 accepts incomplete.
 
+Mathematical definition: Is `def`!
+
+If no name, it will be `example`.
+
 #### Cumulative manual for Matrices
 1. Use these imports
 ```lean
