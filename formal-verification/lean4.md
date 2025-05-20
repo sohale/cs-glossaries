@@ -108,7 +108,10 @@ As expresion of type `name1` is a proof of `name1`!
 
 Chain of of-type:
 
-An expression of type `xx`, `xx` of type `Prop`, `Prop` is of type `Type`, and `Type` is of type `Type 1`.
+`q`, An expression of type `xx`, `xx` of type `Prop`, `Prop` is of type `Type`, and `Type` is of type `Type 1`.
+
+In that, I have proved `xx`!
+In that, `q` is a proof of `xx`!
 
 #### Cumulative manual for Matrices
 1. Use these imports
