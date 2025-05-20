@@ -120,6 +120,13 @@ Not necessarity a `def` or `example`. It can be like this: `(3:ℕ)` (as?).
 So, a proof is like a "value-of", the opposite direction of "of-type".
 Of beeter say, "a value of", means a proof.
 
+The his `sorry`-ness:
+* `sorry` is a literal `Prop` (?).
+* `sorry` is a `Prop` value.
+* `sorry` means open problem.
+* `sorry` means can be true of false (note: we are within constructivism: It's code).
+
+
 ###### Assumptions (for Prop)
 
 You can put your "assumptions" before the colon:
@@ -127,6 +134,16 @@ You can put your "assumptions" before the colon:
 ```lean
 example <ASSUMPTONS> : …
 ```
+
+These are equivalent:
+```lean
+example ASSUMPTONS1 : …
+example : ASSUMPTONS2 → …
+```
+
+Assumptions are like context.
+
+
 
 #### Cumulative manual for Matrices
 1. Use these imports
