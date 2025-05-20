@@ -3,13 +3,14 @@
 (May 2025)
 
 #### LFTCM2023 ####
+Based on [LftCM](https://www.youtube.com/watch?v=Ft_3jDl3qxQ&list=PLlF-CfQhukNn7xEbfL38eLgkveyk9_myQ) and [git/lftcm2023](https://github.com/lftcm2023/lftcm2023).
 
 In Lean4, everything has a type. You can get the type using `#check`.
 
 Type of a[ny] type is a type,  and it is `Type`.
 `ℝ` Is a type, not a set. Hence. `ℝ:Type`.
 
-See [LftCM](https://www.youtube.com/watch?v=Ft_3jDl3qxQ&list=PLlF-CfQhukNn7xEbfL38eLgkveyk9_myQ) and https://github.com/lftcm2023/lftcm2023
+Lean4 accepts incomplete.
 
 #### Cumulative manual for Matrices
 1. Use these imports
