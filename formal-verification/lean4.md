@@ -163,6 +163,10 @@ Some literals that can be used as proof:
 * `trivial`
 * `rfl`
 
+Meanings
+* `sorry`: explicitly leave open (as "open problem". See above)
+* `trivial`: True?
+* `rfl`: "as you can see", something is equal to itself. (recognising this form, as proof).
 
 #### Cumulative manual for Matrices
 1. Use these imports
