@@ -242,6 +242,7 @@ Not exaplined yet:
 * I `by` for tactics?
 * How much can Lean4 help in automatic proof, or finding, etc.
 
+Also, let me reflect on, a proof being a value of `Prop`. (While Prob itself being something (like a variable!) of a `Type`).
 
 ##### Ambiguities of space
 Which of these are not the same?
