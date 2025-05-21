@@ -283,6 +283,17 @@ Which of these are not the same?
 The `() ()` pods-like apparent-syntax: Differnet meanings
 * TBC
 
+##### Before and after colon ":":
+Her is a grand pattern:
+```
+a : b := c
+```
+
+Before colon, there is a name.
+But there may be not just a name.
+
+
+
 ##### Lint
 The `#lint` applies the second level checks (first being syntax: hard),
 (soft) constraints / checks:
