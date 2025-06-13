@@ -40,13 +40,43 @@ Hierarchy of FrontendAction classes:
 ### The Emit and Runtime
 <!-- "Gen"? -->
 
+...
+
+What is in a name: `emitTopLevelDecl`:
+...
+
+Difference between:
+* `CIRGenerator::HandleTopLevelDecl`
+* `emitTopLevelDecl`
+
+The `emitTopLevelDecl` is `CIRGenModule::emitTopLevelDecl`. Is specific to ClangIR.
+<!-- specific to ClangIR. but which path? -->
+
+
+Clarify why they did not name it `emitTopLevelAST`
+
+Clarify difference between `CIRGenModule` and `CIRGenerator`.
+
 #### The CompilerInvocation:
 Key concept: "CompilerInvocation"
 
-CompilerInvocation versus CompilerInstance:
+We will know:
+* CompilerInvocation versus CompilerInstance:
+* Pass vs this
+* Where "action"s come
+* Pass vs generation vs emit-runtime
+
+
+The CompilerInvocation "semantics"
+<!-- semantics, means, owords (glossary), namings (var, class), -->
 
 In search of where code generation pipeline (Passes) bifurcates for device vs. host targets.
 In context of ClangIR dialect.
+
+
+
+
+
 
 ### Other sub-paradigms
 #### The Arg-system
