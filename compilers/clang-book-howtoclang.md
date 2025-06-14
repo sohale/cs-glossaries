@@ -283,6 +283,61 @@ Canonical class/var name: `Arg`
 The `Arg[1]`.
 Is a special one. Here, `-cc1`.
 
+`.td` language.
+`.td` files are TableGen files. They are used for commaline too.
+
+
+marshalling targets:
+
+* LangOpts, CodeGenOpts
+
+<!-- Reading CLI flags into internal state (LangOpts, CodeGenOpts, etc.)-->
+
+List: (nor verified)
+
+* LangOpts
+* CodeGenOpts
+
+* `LangOptions`  <!--	Language-specific flags (C++, C2x, Objective-C, CUDA, OpenMP) -->
+* `CodeGenOptions`  <!--	Code generation options (e.g. optimization levels, target-specific tweaks) -->
+* `TargetOptions`  <!--	Target architecture, CPU, ABI, and related -->
+* `HeaderSearchOptions`  <!--	Include paths, framework paths, and header map settings -->
+* `PreprocessorOptions`  <!--	Macros, includes, preprocessor behavior -->
+* `PreprocessorOutputOptions`  <!--	Output for -E, preprocessed source -->
+* `FrontendOptions`  <!--	Input files, actions (like emit-obj, emit-llvm), -x language kind -->
+* `DiagnosticOptions`  <!--	Warnings, errors, fix-it hints, colors, etc. -->
+* `DependencyOutputOptions`  <!--	For generating .d dependency files -->
+* `FileSystemOptions`  <!--	VFS overlays, file system behavior -->
+* `AnalyzerOptions`  <!--	Static analyzer flags (e.g. checkers) -->
+* `CommentOptions`  <!--	Comment parsing (for doc tools like Sphinx) -->
+* `ParserOptions`  <!--	Influences AST parsing, templates, recovery -->
+* `ASTDumpOptions`  <!--	How to format AST dumps
+* `DebugOptions` <!--	Source maps, debug output details -->
+
+The `llvm::` classes:
+* `TargetOptions`  <!--	LLVM-level backend tuning knobs -->
+* `CodeGenOpt::Level`  <!--	Optimization level (None, Less, Default, Aggressive) -->
+* `PassBuilderOptions`  <!--	For -passes=, etc. -->
+* `Reloc::Model`  <!--	Static/dynamic PIC models -->
+* `DebuggerKind`  <!--	DWARF vs CodeView, etc. -->
+
+Other targets of marshalling
+
+
+SanitizerOptions (ASan, UBSan, TSan)
+
+OpenCLOptions, OpenMPOptions, CUDAOptions
+
+CXXABIOptions (C++ ABI modes)
+
+ObjCRuntime (for iOS/macOS Objective-C dialects)
+
+ModulesOptions (for Clang modules support)
+
+MigratorOptions (used by tooling for source-to-source transforms)
+
+Clang::Tooling::ArgumentsAdjuster or CommonOptionsParser
+
 #### The pass-system
 Canonical class/var name: ?
 
