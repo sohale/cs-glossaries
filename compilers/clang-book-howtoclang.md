@@ -9,15 +9,48 @@ Note that Clang, ClangIR and normal (in fact, three ways).
 
 There are several interesting sub-paradigms (almost ADTs):
 <!-- sub-paradigms, paradigm, framework, pattern, ADT
-Arg-system, Action-system, Completion-system (CC), etc -->
-* Actions
+Arg-system, Action-system, Completion-system (CC), etc
+Action modules
+-->
+* Actions (Action modules)
 * Emit and Runtime
 * CodeCompletion
+* TableGen td language
 
 And other, more familiar ones:
 * `Arg`s (commandline)
 * Passes
 <!-- * Lowering, dialects, etc -->
+* Hooks
+* A rewriter system (A fancy rewriter)
+* Diaghnostics (errors etc) and Static Analyuser
+* Compelx objects
+    * Decl: Declatrations are comples
+    * Ids
+    * Expression = ?
+* Marshalisaiotn systsem (minor)
+
+Other techniques:
+* "Replacable" layers with clean separation: Actions-based inter-layer (e.g. between AST Partser & Sema)
+    * Separation: Separating AST into Parser and Sema <!-- Separates betwween parser and Sema analyser -->
+        * "Parser Actions" (AST as represeantions of code)
+        <!-- * Sema acitons? -->
+        * "Sema" (Sema “builds the trees”)
+    * Dumpable objects (AST).
+    * Interface: Action-level (replacable as longs as same actions)
+    * Sema Action module for parset &  (action objects)
+
+* As library: and utilities (clients?) (for semantic & design completion). (e.g. `clang-parse-noop`). (E.g. use "rewriter" as a Refactoring library)
+
+* Preprocessor (separating before two parsing?)
+    * "Tokens"
+    * Seeking tokens
+
+* Incremental compilation, Cacheing, and both.
+
+More specific:
+* xGen:
+    * LLVM-Gen
 
 ## On the flow
 In terms of navigating the C++ code.
@@ -285,6 +318,7 @@ Is a special one. Here, `-cc1`.
 
 `.td` language.
 `.td` files are TableGen files. They are used for commaline too.
+See The TableGen language.
 
 
 marshalling targets:
@@ -340,6 +374,12 @@ Clang::Tooling::ArgumentsAdjuster or CommonOptionsParser
 
 #### The pass-system
 Canonical class/var name: ?
+
+#### The TableGen Language
+`.td` files are TableGen files. They are used for:
+
+* Mapping (and formalising) commandline parameters
+* code generation
 
 ### Case studies
 #### The pass-buforcation in CUDA/OpenACC/OpenMP
