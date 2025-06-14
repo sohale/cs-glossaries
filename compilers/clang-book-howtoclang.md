@@ -37,8 +37,31 @@ A function `ExecuteAction`, a class `FrontendAction`.
 Hierarchy of FrontendAction classes:
 (TBC)
 
+
+Compare: `Action` vs `ModuleOp`
+
 ### The Emit and Runtime
 <!-- "Gen"? -->
+
+
+Emited things:
+= global IR constructs
+= list: functions, globals, attributes, metadata.
+
+"translation unit" = ?
+[w](https://en.wikipedia.org/wiki/Translation_unit_(programming))
+
+translation unit = "a compilation unit" = leading to each obj file.
+
+Can be a C++20 Module.
+
+TU vs "Single compilation unit".
+SCU is a "technique".
+
+guess: factorises in compile time.
+
+
+C/C++ compilation model (formally "translation environment") [w:SCU](https://en.wikipedia.org/wiki/Single_compilation_unit)
 
 
 #### Runtime (and emitting)
@@ -56,6 +79,49 @@ What is in a name: `emitTopLevelDecl`:
 Difference between:
 * `CIRGenerator::HandleTopLevelDecl`
 * `emitTopLevelDecl`
+
+
+CIR-emission state.
+
+CIR-emission state is held (fully) by a "module".
+
+All "state"(s) of Generator are in GenModeule s.
+<!-- states: all parts of stas vs all counterfactuals -->
+
+#### The Generator-Module pattern
+<!-- LLVM’s codegen infrastructure: all of these generators -->
+
+* Module: low-level
+* Generator: hight-level
+Hence, It is called `GenModule`.
+
+It's a:
+* State module.
+* Generator module (xGenModule).
+
+State: "CIR context state"
+
+CIR context state
+symbol tables, type caches, diagnostics, memory layouts, etc.
+
+
+Heavyweight vs. Lightweight states:
+
+
+* not: duplication
+* own deep structures
+
+* central
+* stateful
+* not cheap to manage
+* is not re-instantiated? (per ?)
+
+
+* emits all constructs vs a subset (emit-cinstruct-type-specific separation?)
+
+PS.
+
+"global IR constructs" = ?
 
 #### Module (and emitting)
 * Module, emits.
@@ -104,6 +170,13 @@ Module--Generator:
 
 * `CIRGenerator`: Low-level, heavyweight emitter. **Owns all backend state**.
 * `CIRGenModule`: Frontend coordinator — the driver between AST traversal and CIR emission.
+
+
+CIRGenerator is the output, also, contains.
+
+CIRGenerator is driven by Action s!
+<!-- Thos actions are "issued" from? --->
+(aka, fonrtend actions)
 
 ##### `CIRGenerator`
 functionally:
