@@ -26,12 +26,77 @@
 
 * annotated (fully annotated, re-annotated) source file
 
+* runtime behavior control options (is rich)
+
+
+* Nested  i.e. Nested Parallelism control: (set, unset), runtime, code-time (`omp_set_nested()`)
+* Thread Count (Custom): num-threads: `OMP_NUM_THREADS`: control: customisatble, runtime
+* to Pin a thread (to a core): proc-bind: (`OMP_PROC_BIND`). controllable. runtime.
+* Thread Placement x`PLACES`. controllable. runtime.
+* verbose ( `OMP_DISPLAY_ENV`)
+* debuggability: make serial
+
+
 #### Concepts: items
 The `shared(std::cout, data, total_sum, N)`
 
 The ``default(none)`:
 Using `default(none)` is strongly encouraged for safety
 
+
+runtime behavior control options: a rich set of options to control runtime behavior
+
+Nested
+`omp_set_nested(1);`
+
+* Custom Thread Count (`OMP_NUM_THREADS`) or serial (for debug)
+* Disable Nested Parallelism (`OMP_NESTED`)
+* Pin Threads to Cores (`OMP_PROC_BIND`)
+* Thread Placement (`OMP_PLACES`)
+* verbose ( `OMP_DISPLAY_ENV`)
+
+```bash
+./execfile
+OMP_NUM_THREADS=2 ./execfile
+OMP_NUM_THREADS=4 ./execfile
+OMP_NUM_THREADS=8 ./execfile
+OMP_NUM_THREADS=1 ./execfile # serial, for debug
+OMP_NESTED=true ./execfile
+OMP_PROC_BIND=true ./execfile
+OMP_PROC_BIND=spread ./execfile
+OMP_PROC_BIND=close ./execfile
+OMP_DISPLAY_ENV=true ./execfile. # verbose
+```
+
+See some env (parameters):
+```txt
+OPENMP DISPLAY ENVIRONMENT BEGIN
+   _OPENMP='201611'
+  [host] OMP_AFFINITY_FORMAT='OMP: pid %P tid %i thread %n bound to OS proc set {%A}'
+  [host] OMP_ALLOCATOR='omp_default_mem_alloc'
+  [host] OMP_CANCELLATION='FALSE'
+  [host] OMP_DEFAULT_DEVICE='0'
+  [host] OMP_DISPLAY_AFFINITY='FALSE'
+  [host] OMP_DISPLAY_ENV='TRUE'
+  [host] OMP_DYNAMIC='FALSE'
+  [host] OMP_MAX_ACTIVE_LEVELS='1'
+  [host] OMP_MAX_TASK_PRIORITY='0'
+  [host] OMP_NESTED: deprecated; max-active-levels-var=1
+  [host] OMP_NUM_TEAMS='0'
+  [host] OMP_NUM_THREADS: value is not defined
+  [host] OMP_PLACES: value is not defined
+  [host] OMP_PROC_BIND='false'
+  [host] OMP_SCHEDULE='static'
+  [host] OMP_STACKSIZE='8M'
+  [host] OMP_TARGET_OFFLOAD=DEFAULT
+  [host] OMP_TEAMS_THREAD_LIMIT='0'
+  [host] OMP_THREAD_LIMIT='2147483647'
+  [host] OMP_TOOL='enabled'
+  [host] OMP_TOOL_LIBRARIES: value is not defined
+  [host] OMP_TOOL_VERBOSE_INIT: value is not defined
+  [host] OMP_WAIT_POLICY='PASSIVE'
+OPENMP DISPLAY ENVIRONMENT END
+```
 
 ### Practical
 
