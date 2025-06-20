@@ -18,6 +18,11 @@ Interesting: Concurrency vs Parallel:
 https://youtu.be/cMWGeJyrc9w?si=PH4IE29HBsYULhxj
 Concurrent: multiple states. Multiple PCs: open execusions (sumultanous PCs). Data. Also control.
 
+Multiple things are active. may be not active. May or may not be parallel.
+Is about "Waiting"!
+Both require parallel and sync.
+
+Concurency is logical. Its mappig to eexecution unints.[source](https://www.youtube.com/watch?v=6jFkNjhJ-Z4)
 todo:
 "offloading" (in Clang lingo), etc
 
