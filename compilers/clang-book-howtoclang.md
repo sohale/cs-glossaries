@@ -64,6 +64,11 @@ Clarifying the paradigm-framework-pattern of Actions.
 
 Key name-fragment: `Action`.
 
+Example Action:
+* `EmitMLIR` (from `Err = Act.Execute()` : `clang/lib/Frontend/CompilerInstance.cpp`)
+
+* `CIRGenAction::ExecuteAction`
+
 We have `FrontendAction`s (do we have otherwise?).
 A function `ExecuteAction`, a class `FrontendAction`.
 
@@ -72,6 +77,37 @@ Hierarchy of FrontendAction classes:
 
 
 Compare: `Action` vs `ModuleOp`
+
+
+<!-- An Action—specifically, a FrontendAction -->
+An Action is an abstraction over a "compilation job".
+<!-- compilaiton job is for Compilation Unit? -->
+
+They are coarse-grained.
+
+##### On coarse-grained-ness of Actions:
+Each FrontendAction is executed once per TU: "translation unit" (i.e., per file).
+It handles "entire-program task"s.
+
+AST callbacks during "AST walk":
+* `HandleTranslationUnit`
+* `HandleTopLevelDecl`
+* ...
+
+The fine-grained ad medium-grained tasks: (not `Action`s)
+* `ASTConsumer`s: process top-level declarations
+* `ASTVisitor`s: fine-grained traversal
+* `ASTMatcher`s: fine-grained manipulation
+
+Coarse-Fine:
+* `FrontendAction`: Coarse-grained (Orchestrates compilation of a TU)
+* `ASTConsumer`: Medium (Handles declarations as they’re parsed)
+* `RecursiveASTVisitor`: Fine-grained (Walks individual nodes (Decl, Expr, etc))
+* `StmtVisitor`, `DeclVisitor`: Very fine-grained (Visits specific AST node types)
+
+##### etc
+Meanig of "action to adapt". (See `ASTMergeAction`)
+But has its own `ExecuteAction()`.
 
 ### The Emit and Runtime
 <!-- "Gen"? -->
@@ -84,6 +120,7 @@ Emited things:
 "translation unit" = ?
 [w](https://en.wikipedia.org/wiki/Translation_unit_(programming))
 
+TU:
 translation unit = "a compilation unit" = leading to each obj file.
 
 Can be a C++20 Module.
@@ -315,6 +352,14 @@ Canonical class/var name: `Arg`
 
 The `Arg[1]`.
 Is a special one. Here, `-cc1`.
+
+Dirver, and Arg system: Arg, ArgList:
+goal: backwards compatibility with `gcc` and its ecosystem.
+Must see https://clang.llvm.org/docs/DriverInternals.html
+Meaning of "Toolchain".
+
+"Clang" is a Compiler Driver:
+https://news.ycombinator.com/item?id=35806237
 
 `.td` language.
 `.td` files are TableGen files. They are used for commaline too.
