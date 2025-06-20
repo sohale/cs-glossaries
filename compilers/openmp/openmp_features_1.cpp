@@ -1,14 +1,17 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 #include <omp.h>
 #include <chrono>
 
 void demo_openmp_features() {
-    constexpr int N = 100;
+    constexpr int N = 100000000; // 100
     // Even though N is constexpr, OpenMP doesn’t assume it’s globally visible in this context.
+    std::cout << "N = " << N << std::endl;
 
-    std::vector<int> data(N, 1);
-    int total_sum = 0;
+    typedef float MyElementValueType;
+    std::vector<MyElementValueType> data(N, 1);
+    MyElementValueType total_sum = 0;
 
     // Outer parallel region
     #pragma omp parallel default(none) shared(std::cout, data, total_sum, N)
@@ -30,7 +33,7 @@ void demo_openmp_features() {
         for (int i = 0; i < N; ++i) {
             // ^ need to declare how it's shared (all vriables)
 
-            total_sum += data[i];
+            total_sum += sin(data[i]);
         }
 
         // ATOMIC example

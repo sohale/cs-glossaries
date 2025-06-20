@@ -198,6 +198,10 @@ int main() {
     return 0;
 }
 ```
+
+### Practical: Running
+First see section [ Practical: Building] before this.
+
 Run
 ```bash
 
@@ -205,7 +209,17 @@ OMP_NUM_THREADS=4 ./openmp_features
 
 ```
 
+The `time` comamnd:
+```
+real	0m1.188s  # wall/lab clock
+user	0m0.995s  # user mode
+sys	0m0.172s  # kernel mode
+```
 
+OpenMP parallelisation can make a program slower if used naïvely or inappropriately!
+
+
+### Practical: Building
 Useful commands:
 
 CPU Model name, total logical processors (CPUs), physical core count (Cores per socket and Threads per core), NUMA nodes.
