@@ -5,6 +5,24 @@ In various languages. Includes:
 * C++
 * refers to: CUDA, OpenCL, Java thread, WebWorkers, etc
 
+
+Also see Bryce's talk on concurrency.
+
+"The C++ Execusion model":
+
+Bryce Adelstein Lelbach - The C++ Execution Model `[MUC++]`
+https://youtube.com/watch?v=RcE8aKFnuOA&si=ERrnPFgtpxQr1pD2
+
+Interesting: Concurrency vs Parallel:
+(as part of  OpenMP tutorial: power, concurrrency vs parallel. concurrentcy ais about logical tasks that stay alive. the empty spaces are parallel!)
+https://youtu.be/cMWGeJyrc9w?si=PH4IE29HBsYULhxj
+Concurrent: multiple states. Multiple PCs: open execusions (sumultanous PCs). Data. Also control.
+
+todo:
+"offloading" (in Clang lingo), etc
+
+Also see OpenMP: [compilers/openmp.md]
+
 ### My concurrency experience
 MultiThread: C++(MultiThread: thread, mutex). Concurrent (Multi Process in Python and nodeJS). IPC (python). JS: (events, streams, async, generators, async). Async (JS, Python, c++promises). Coroutines (Python). C++ . GPU (CUDA). Some OpenCL.
 
