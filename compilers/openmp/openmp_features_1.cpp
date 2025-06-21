@@ -82,11 +82,12 @@ void demo_openmp_features() {
 
 int main() {
     // Enable nested parallelism
-    omp_set_nested(1);
+    // omp_set_nested(1);
+    // OMP: Info #276: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
 
     // Print OpenMP environment info
     std::cout << "OMP_NUM_THREADS = " << omp_get_max_threads() << "\n";
-    std::cout << "OMP_NESTED      = " << omp_get_nested() << "\n";
+    //std::cout << "OMP_NESTED      = " << omp_get_nested() << "\n";
 
     demo_openmp_features();
 

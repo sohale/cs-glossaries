@@ -98,6 +98,27 @@ OPENMP DISPLAY ENVIRONMENT BEGIN
 OPENMP DISPLAY ENVIRONMENT END
 ```
 
+
+firstprivate and lastprivate in OpenMP are syntactically awkward—but semantically precise if you understand the model they encode.
+
+<!-- Let’s analyze them linguistically, semantically, and functionally. -->
+
+concept: "Per-thread Copies"
+
+#### Some key Primitives / Directive
+Directive	Meaning
+
+#pragma omp parallel	Spawn a team of threads
+#pragma omp single	Only one thread executes the block
+#pragma omp for	Divide loop iterations among threads
+#pragma omp task	Spawn a deferred unit of work
+#pragma omp taskwait	Wait for all tasks in the current context
+#pragma omp sections	Split block into mutually exclusive sections
+#pragma omp critical	Serialize access to critical region
+#pragma omp atomic	Apply atomic operation (e.g., increment)
+
+
+
 ### Practical
 
 A sample program `openmp_features_1.cpp` :
@@ -199,6 +220,22 @@ int main() {
 }
 ```
 
+It will be slower! (See [### Practical: Running])
+
+Ideas:
+```cpp
+#pragma omp parallel if(tid == 0)
+#pragma omp critical
+#pragma omp task
+```
+
+
+bash runall.bash
+
+threads, real_sec, user_sec, sys_sec
+1, 0.74, 0.61, 0.12
+...
+
 ### Practical: Running
 First see section [ Practical: Building] before this.
 
@@ -217,6 +254,7 @@ sys	0m0.172s  # kernel mode
 ```
 
 OpenMP parallelisation can make a program slower if used naïvely or inappropriately!
+
 
 
 ### Practical: Building
