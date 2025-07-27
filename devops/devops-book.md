@@ -5,6 +5,8 @@ mindst of writing:
 * to refer them here
 -->
 
+<!-- Dedicated to a lost classmate: Af.At. -->
+
 ### Words
 
 Three`+` meainings of the word DevOps:
@@ -42,7 +44,15 @@ Why so much fuss? It takes so much time.
 What are the points you feel the added value when you add these?
 <!-- which |Docker Inc has identified well, and has constianed people about it, cleverly, and has deifned theiur business value's main objective point/level of value (usefulness): the limitations (frameworks) that makes people migrate to it. Won't be replaced, unlike other solutions. People come there because of its design. Unlike Angular/K8, etc -->
 
-When you build, the layers can be cached: not repeated.
+    1. When you build, the layers can be cached: not repeated.
+          * Assumes bash results can be caches if not changed up to "string" (and its previous steps too).
+          * bash as a programing language affecting "state": image as state.
+    2. When buildx ...
+    3. Separating `ARG` & `ENV`
+    4. ...
+
+Ideas about layers existed before. (see comparison between Docker and preexisted tools: pre-namespaces jailing, Borg, raw namespaces, LXC, LXD, etc)
+<!-- remembe: iso files for (live-bootable) CDs, ubuntu images, etc --->
 
 <!-- part of core: primary content -->
 ### The nested patterns
