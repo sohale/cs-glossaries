@@ -92,6 +92,43 @@ Example phrases
 
 See: "Meta: Scaffolding the principles" [./principles-scaffold-meta.md]
 
+
+
+### List of emergent C++ concepts
+The brautiful list:
+* RAII
+* “naked delete" operations
+* CRTP: Curiously recurring template pattern
+* "static polymorphism" [sp1]
+* trait
+* "qualification-decomposition" [ca1]
+* "qualification conversions" [ca1]
+* "glvalue" [ca1]
+* "call-compatible" [rc1]
+* a function pointer conversion [rc1]
+* a function type [ft1]
+* emplace
+* `try_emplace`
+
+### Other emergent C++ concepts
+Those I am not sure, or weaker:
+* handle-to-data model [tC:5.2.2]
+* container
+* "Casting away constness" (not just `const_cast`) [ca1]
+* to "bind rvalue" [ca1]
+* materialized [ca1]
+* "pointer pvalue operands" [ca1]
+* "type large enough to hold all values of its type" [rc1]
+* integral type
+* enumeration type
+* "value of a pointer" [rc1]
+* "data member" (instead of field)
+* "member functions"
+* "Invalid pointers" (Invalid pointer values) [pp1]
+* an object's end [pp1]
+* explicit casts [rc1]
+* standard conversions [rc1]
+
 ## Quotations
 * there are far more resource acquisitions than kinds of resources
 
@@ -103,3 +140,14 @@ See: "Meta: Scaffolding the principles" [./principles-scaffold-meta.md]
 [G] Stroustrup's [glossary](http://www.stroustrup.com/glossary.html)
 
 
+[tC] Tour of C++
+
+[sp1] https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern#Static_polymorphism
+
+[rc1] https://en.cppreference.com/w/cpp/language/reinterpret_cast.html
+
+[ca1] https://en.cppreference.com/w/cpp/language/const_cast.html#Casting_away_constness
+
+[ft1] https://en.cppreference.com/w/cpp/language/function.html#Function_type
+
+[pp1] https://en.cppreference.com/w/cpp/language/pointer.html#Pointers
