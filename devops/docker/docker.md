@@ -204,3 +204,25 @@ image_layers,"Layer 3",10.0
 Container,"run-Layer",20.0
 Container,"process(in memory)", 7.0
 ```
+
+
+See as three dimensions/layers:
+docker process ls
+docker image ls
+docker buildx ls
+
+(Yes, it is a process, hence, ps, but ...)
+
+The buildx:
+
+buildx <--> GHCR <--> daemon (where `image` and `process` are)
+
+GH Actions's "Host VM"
+vs
+doker image
+
+(say it after "Docker-in-Docker")
+
+The namesppace situation in "Docker-in-Docker":
+* as nested (each: as multiple ns:pid maps)
+* as flat (bigger picture of chain of multiple ns:pid maps)
