@@ -7,7 +7,27 @@
 
 * part 2 Module 1: [https://www.youtube.com/watch?v=6jFkNjhJ-Z4] Parallel vs Concurrency
 
-*
+* 07 Module 4: https://www.youtube.com/watch?v=WcPZLJKtywc (Barriers, critical, atomic)
+* 08 Discussion 3: https://www.youtube.com/watch?v=pLa972Rgl1I (Solution)
+* 09 part 1 Module 5: https://www.youtube.com/watch?v=jdYHVeh2wEI (Parallel loops)
+
+* 09 part 2 Module 5: https://www.youtube.com/watch?v=iPb6OLhDEmM (reduction clause for `for`)
+
+* 10 Discussion 4: https://www.youtube.com/watch?v=8jzHiYo49G0
+
+...
+
+* 13 Discussion 5: https://www.youtube.com/watch?v=EaX8efKce9M
+
+* 14 Module 8: https://www.youtube.com/watch?v=I0c9-W0MBqw
+
+* 15 Discussion 6: https://www.youtube.com/watch?v=BJIEGTcrz30
+
+* 16 Module 9 https://www.youtube.com/watch?v=AioeS_Jo0Yg
+
+* 17 Discussion 7: https://www.youtube.com/watch?v=mNPmylnhYYQ
+
+master = ?
 
 #### Glossary of concepts (ToC)
 * hyper-threading
@@ -36,6 +56,23 @@
 * verbose ( `OMP_DISPLAY_ENV`)
 * debuggability: make serial
 
+* SPMD pattern
+* read-modify-write pattern
+* worksharing
+* loop worksharing construct
+* parallel region
+* atomic ~ critical
+* schedule static
+* schedule static chunksize
+* schedule dynamic
+* schedule dynamic chunksize
+* schedule runtime
+* schedule dynamic
+* schedule auto
+
+* loop carried dependency
+* a reduction
+* reduction clause
 
 #### Concepts: items
 The `shared(std::cout, data, total_sum, N)`
