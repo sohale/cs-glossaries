@@ -2,6 +2,7 @@ isoperimetry, optimal transport, EMD
 <!-- inspired by Nielsen's poster: as a bunch of metri (distace) formulas. Then add things I came by during ... and that talk. -->
 <!-- rename -->
 <!-- renamed from isoperimetry.md to monge-kantorovich.md, since isoperimetry.md may deserve a separate one, in terms of Laplacian and Spectral Graph theory (that thesis...) -->
+<!-- this file is for Volume-Perimentry: hence, this file is renamed to: monge-kantorovich.md -->
 
 ## Variations of the Isoperimetry
 
