@@ -217,6 +217,9 @@ Instead, stack management was manual.
         * ("extended Protected Mode")
     * **Protected** Mode: 32-Bit (flat, multitasking)
     * **Long** Mode (64-bit)
+
+See: Ring modes and Timescales of changing modes.
+
 * Years:
     * Real: XT, 8086
     * Protected-16: AT, 80286
@@ -283,6 +286,58 @@ Instead, stack management was manual.
          * Modes: Read-Only, Read/Write, or No Execute
          * State: Present or Not present (for virtual memory)
              * If accessed "Not Present" => causing a page fault (if not loaded in RAM)
+     * More details:
+        * The 4-level paging system:
+            * Canonical 48-bit virtual address
+            ```txt
+            [ 47 ......... 39 ] PML4 index (9 bits) = CR3.
+            [ 38 ......... 30 ] PDPT index (9 bits)
+            [ 29 ......... 21 ] PD index (9 bits)
+            [ 20 ......... 12 ] PT index (9 bits)
+            [ 11 ............ 0 ] Page offset (12 bits)
+            ```
+            * j
+               * The top-level is page table (PML4):
+            * **PML4E** (Page Map Level 4 Entry) → pointer to a PDPT (Page Directory Pointer Table).
+            * **PDPTE** → pointer to a Page Directory (PD).
+            * **PDE** → pointer to a Page Table (PT) or (if “PS”=1) maps a 2 MB large page directly.
+            * **PTE** → pointer to a 4 KB physical page.
+        * PTE: (Page Table Entry:
+            “this 4 KB of virtual space maps to this physical 4 KB frame, with these permissions.”
+        * PTE 0-7:
+            * Bit 0: P (Present).
+            * Bit 1: RW (1 = writable).
+            * Bit 2: US (1 = user-mode accessible, 0 = kernel-only).
+            * Bit 3: PWT (write-through).
+            * Bit 4: PCD (cache disable).
+            * Bit 5: A (accessed).
+            * Bit 6: D (dirty; only in PTE).
+            * Bit 7: PS (Page Size).
+        * PTE 12-51:
+            * Bits 12..51: Physical frame address (aligned).
+        * PTE 52-63: Higher bits:
+            NX (No-execute), ignored/reserved depending on CPU.
+    * Example:
+        `0x 7fff 1234 5678`
+        Has 48 bits.
+        * 9: (47:39)
+        * 9: (38:30)
+        * 9: (29:21)
+        * 9: (20:12): ``
+        * 12: (11:0): offset: `678`
+    * TLB: (Translation Lookaside Buffer)
+        * cached in the TLB (Translation Lookaside Buffer).
+    * "Translation Walk"
+    * `#PF (Page Fault, vector 14)`
+        * Condition:
+            * (Present=0): "invalid"
+            * (US=0): "disallopwed adddress" while ring3
+            * (RW=0): "disallopwed adddress" while writing
+            * (NX=1): "disallopwed adddress" while executing.
+    * IDT handler.
+    * kernel (or libLISA’s bare-metal observer) p-process
+
+
     * "Segments", various meanings:
         * overlap (16-byte base)
         * segment registers
@@ -301,6 +356,53 @@ Instead, stack management was manual.
             * "segmentation" was largely minimized in favor of "paging".
 * "PAE": Physical Address Extension
 
+Some modern representative CPUs: and where they are mentioned:
+* Haswell microarchitecture [2]
+* 3900X [4]
+* 7700X [4]
+* i9-13900-p [4]
+* i9-13900-e [4]
+* Intel-Xeon-Silver-4110 [4]
+* AMD Ryzen R9 3900X [2]
+* Intel Core i9-13900 [2]
+
+
+
+The Clock domains in modern CPUs:
+* 
+Timescales
+* Timescale of instructions
+* Timescale of clock
+
+Timescales of changing modes
+
+Ring modes:
+* 0
+* 1
+* 2
+* 3
+
+
+Some sampe
+
+### Glossary of disambiguaitons
+* "x86-64 architecture": (unverified) a mode in CPUs?
+* microarchitecture (e.g. Haswell microarchitecture)
+* "x86-64 long mode (64-bit), ring 0": (difference in each)
+
 ### References
 Some references
 * [1] Lyashko, Alexey. Mastering Assembly Programming: From instruction set to kernel module with Intel processor (p. 17). (Function). Kindle Edition. 
+* [2] libLISA paper. OOPSLA24.
+    * [3] libLISA program.
+        * https://github.com/libLISA/liblisa
+        * https://github.com/liblisa
+        * https://github.com/libLISA/liblisa-emulate
+    * [4] liBLISA website https://explore.liblisa.nl/instruction/0FBA2418B1
+
+* [5] Dasgupta. PLDI'19 paper: https://doi.org/10.1145/3314221.3314601
+    * Paper (ref 8 of [2]): Sandeep Dasgupta, Daejun Park, Theodoros Kasampalis, Vikram S. Adve, and Grigore Roşu. 2019. A Complete Formal Semantics of X86-64 User-Level Instruction Set Architecture. In Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation (Phoenix, AZ, USA) (PLDI ’19). Association for Computing Machinery, New York, NY, USA, 1133–1148. https://doi.org/10.1145/3314221.3314601
+* [6] Heule PLDI'16.
+    * Paper (ref 15 of [2]): Stefan Heule, Eric Schkufza, Rahul Sharma, and Alex Aiken. 2016. Stratified synthesis: automatically learning the x86-64 instruction set. In Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation (Santa Barbara, CA, USA) (PLDI ’16). Association for Computing Machinery, New York, NY, USA, 237–250. https://doi.org/10.1145/2908080.2908121
+* [7] STOKE: ASPLOS'13.
+    * Paper (ref 25 of [2]): Eric Schkufza, Rahul Sharma, and Alex Aiken. 2013. Stochastic superoptimization. In Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (Houston, Texas, USA) (ASPLOS ’13). Association for Computing Machinery, New York, NY, USA, 305–316. https://doi.org/10.1145/2451116.2451150
