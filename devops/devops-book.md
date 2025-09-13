@@ -3,6 +3,8 @@ DevOps
 mindst of writing:
 * for presentation in a company: to developers
 * to refer them here
+
+* seeing it as programing language (image as state, permission/contant symmetry, process/image/buildx symmetry, etc)
 -->
 
 <!-- Dedicated to a lost classmate: Af.At. -->
@@ -46,6 +48,7 @@ What are the points you feel the added value when you add these?
 
     1. When you build, the layers can be cached: not repeated.
           * Assumes bash results can be caches if not changed up to "string" (and its previous steps too).
+             * Also works with git (this has had some impact in usefulness, hence, popularioty, and migration)
           * bash as a programing language affecting "state": image as state.
     2. When buildx ...
     3. Separating `ARG` & `ENV`
@@ -72,10 +75,23 @@ Ideas about layers existed before. (see comparison between Docker and preexisted
 You want an Ubuntu with python. What image do you pull?
 Or: note+linux. When alpine? When ubutnu? whne to find it? Shall I search in dockerhub? Shall I build one? Shall I upload it to dockerhub? to GHCR?
 
+<!-- daily decisions ... -->
+Conflicting intentions/forces:
+
+Sometimes counter conflicting desires:
+* combining steps with RUN for efficient layers (meaning: ...),
+but sometimes you want to seaprate ytyhem conceptually (e.g. enable or disable "development", maybe as a later layer!)
+or: by user.
+
+<!-- also: seuqnce. Written in my personal notes. -->
 
 ### Long terms issues that accumulate
 * Too many registries, and slow, etc. <!-- as in lbg -->
 
+Buildkit's cache & mount: ...
+( explain as concerned from a devops point of view, not guide or tips to buildx. in trerms of general concepts:
+* build context directory
+* not "devkit buildx mount" or "cache"
 
 ## Advanced DevOps: Patterns, technical details, decisions
 
@@ -105,6 +121,8 @@ Notes:
 * `.bashrc` (probably not pushed). (the scripts that are version controlled as part of that)
 * The `bash -c` inside an ssh!
 * The script in a Terraform. (Yes it seems too specific, but each of these softwares, create on pragmatics-context)
+
+* pragmatics can be characterised as the user! : root, "runner", dev user (e.g. gitpod), etc.
 
 ### Craftmans' advises
 <!-- typically: "Don't ..." -->
