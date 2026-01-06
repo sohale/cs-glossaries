@@ -75,6 +75,28 @@ That RT lateches onto!, or produces: (that if globally seen, can be considered a
 (year: as of 2026; fall-2010)
 Formal prerequisites: Algebra I and II,  Linear Algebra and Modern Algebra. 
 
+
+
+
+#### Typical DAG
+```mermaid
+---
+title: Typical syllabus DAG
+---
+flowchart LR
+    assocalg[Associative algebras]
+assocalg --> generators
+GroupAlgebras[Group algebras]
+LieAlgebras[Lie algebras]
+GroupAlgebras --> LieAlgebras
+EnvelopingAlgebras[Enveloping algebras]
+Representations
+LieAlgebras --> Representations
+```
+
+
+
+
 <!-- Old content from Jul 3, 2022! -->
 
 ### Examples from wikipedia
