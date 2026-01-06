@@ -98,6 +98,9 @@ Schur[Schur’s lemma]
 SL2[Representations of SL(2)]
 ? --> Schur
 Schur --> SL2
+
+RepTheory[Representation theory basic results]
+DensityTh[Density theory]
 ```
 
 
