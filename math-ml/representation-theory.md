@@ -76,7 +76,9 @@ That RT lateches onto!, or produces: (that if globally seen, can be considered a
 Formal prerequisites: Algebra I and II,  Linear Algebra and Modern Algebra. 
 
 <!-- Old content from Jul 3, 2022! -->
-###	Examples from [w: Representation_theorem](https://en.wikipedia.org/wiki/Representation_theorem#Category_theory)
+
+### Examples from wikipedia
+Examples from [w: Representation_theorem](https://en.wikipedia.org/wiki/Representation_theorem#Category_theory)
 * Algebra
 * Category theory
 * Functional analysis
