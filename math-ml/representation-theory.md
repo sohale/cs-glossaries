@@ -4,7 +4,9 @@ in style of Lecture Notes
 
 * Disclaimer: This is not verified in terms of content, and may be exxcentric in style.
 
-## Introduction
+## Introduction: What to expect
+Introduction)/motivation / waht to expect
+
 1. Scope (what it is/not about) and embeddding
 2. 
 
@@ -27,10 +29,23 @@ But the meaning of repreentaiton has technicalally almost-nothing to do with tha
 But here, it is accumulation of mathematical techniques that emerged from early (Euler etc) and keep recurring inadvanced contexts (QFT), etc:
 ...
 
-## Separating
+### Separating techniques
 * Representaiton theory in old math
 * Modern representaiton theory (lecture-notes level) -- buulk of this document
 * Advanced Modern representaiton theory (lecture-notes level)
+
+List: (we are still part of introduction)/motivation)
+* Modern representaiton theory 's s major concepts
+* Modern representaiton theory techniques
+
+### Modern representaiton theory: major concepts
+(compact list first):
+* Symmetry
+* Gauge
+
+### Modern representaiton theory techniques
+A seleciton of usefulones: (compact list first)
+* Lie Groups
 
 
 <!-- Old content from Jul 3, 2022! -->
