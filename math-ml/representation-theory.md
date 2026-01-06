@@ -188,7 +188,7 @@ prereq --> LieAlg
 subgraph core [Core Representation Theory]
     Reps[Representations]
     Irred[Irreducible representations]
-    Indecomp[Indecomposable representations]
+    Indecomp[Indecomposable<br>representations]
     Schur[Schur's lemma]
     SL2["Representations of sl(2)"]
 
@@ -265,11 +265,11 @@ subgraph advanced_fg [Advanced Finite Group Theory]
     FS[Frobenius–Schur indicator]
     FD[Frobenius determinant]
     AlgInt[Algebraic integers]
-    Frobd[Frobenius divisibility]
+    Frobd[Frobenius  <br> divisibility]
     Burnside[Burnside's theorem]
-    Induced[Induced representations]
+    Induced[Induced  <br> representations]
     Mackey[Mackey formula]
-    Reciprocity[Frobenius reciprocity]
+    Reciprocity[Frobenius  <br> reciprocity]
 
     Induced --> Mackey
     Mackey --> Reciprocity
@@ -286,8 +286,8 @@ Maschke --> Induced
 %% Families and Dualities
 %% =========================
 subgraph families [Groups & Dualities]
-    GL2["GL(2, F_q) representations"]
-    Symmetric[Symmetric group representations]
+    GL2["GL(2, F_q)<br>representations"]
+    Symmetric[Symmetric group <br> representations]
     SchurWeyl[Schur–Weyl duality]
     Invariant[Invariant theory]
 
