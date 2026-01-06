@@ -37,6 +37,7 @@ But here, it is accumulation of mathematical techniques that emerged from early 
 List: (we are still part of introduction)/motivation)
 * Modern representaiton theory 's major concepts
 * Modern representaiton theory techniques
+* Modern representaiton theory's core theorems
 
 ### Modern representaiton theory: major concepts
 (compact list first):
@@ -46,18 +47,27 @@ List: (we are still part of introduction)/motivation)
 ### Modern representaiton theory techniques
 Mathematically-tangible (not general concepts or techniques: well-defined mathematical objects) at core:
 
-A seleciton of usefulones: (compact list first)
+A seleciton of usefulness: (compact list first)
 * Lie Groups
 * Have use of group theory `SO(3)`, `SU(3)`, `SU(2)`
 * The "Representation theorem"
 
-Heavily used (but have broader scope): Category Theory. Functional analysis. (most of ue of these fields in phsyics are about this?)
+#### External fields and links (embedding in larger context?)
+External fields: Heavily used (but have broader scope): Category Theory. Functional analysis. (most of ue of these fields in phsyics are about this?)
 
-Main wikiepdia pages to look at: (ordered)
+Main wikiepdia pages to look at: (ordered, curated)
 * ...
 * https://en.wikipedia.org/wiki/Representation_theorem
    * Category_theory section: https://en.wikipedia.org/wiki/Representation_theorem#Category_theory
 * https://en.wikipedia.org/wiki/Particle_physics_and_representation_theory
+
+
+# Modern representaiton theory's core theorems
+That RT lateches onto!, or produces: (that if globally seen, can be considered as part of RTh)
+* The "Representation theorem" (see https://en.wikipedia.org/wiki/Representation_theorem )
+
+
+## Appendices
 
 
 <!-- Old content from Jul 3, 2022! -->
@@ -66,4 +76,3 @@ Main wikiepdia pages to look at: (ordered)
 * Category theory
 * Functional analysis
 * Geometry
-
