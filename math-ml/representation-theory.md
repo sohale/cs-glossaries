@@ -69,6 +69,10 @@ That RT lateches onto!, or produces: (that if globally seen, can be considered a
 
 ## Appendices
 
+### Syllabus in established courses
+#### MIT-OCW-18-712
+[syllabus](https://ocw.mit.edu/courses/18-712-introduction-to-representation-theory-fall-2010/pages/syllabus/)
+(year: as of 2026; fall-2010)
 
 <!-- Old content from Jul 3, 2022! -->
 ###	Examples from [w: Representation_theorem](https://en.wikipedia.org/wiki/Representation_theorem#Category_theory)
@@ -76,3 +80,10 @@ That RT lateches onto!, or produces: (that if globally seen, can be considered a
 * Category theory
 * Functional analysis
 * Geometry
+
+### Textbooks, Readings and References
+
+Fulton, William, and Joe Harris. Representation Theory: A First Course. Graduate texts in mathematics. Vol. 129. New York, NY: Springer, 1991. ISBN: 9780387974958.
+
+Serre, Jean Pierre. Linear Representations of Finite Groups. Graduate texts in mathematics. Vol. 42. New York, NY: Springer-Verlag, 1977. ISBN: 9780387901909.
+
