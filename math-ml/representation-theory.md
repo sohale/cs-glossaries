@@ -92,6 +92,12 @@ GroupAlgebras --> LieAlgebras
 EnvelopingAlgebras[Enveloping algebras]
 Representations
 LieAlgebras --> Representations
+Representations --> Irreducible
+Representations --> Indecomposable
+Schur[Schur’s lemma]
+SL2[Representations of SL(2)]
+? --> Schur
+Schur --> SL2
 ```
 
 
