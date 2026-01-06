@@ -140,6 +140,185 @@ stateDiagram-v2
     Complex --> LieGroups
 ```
 
+##### Representation Theory: Full Syllabus Dependency DAG"
+```mermaid
+---
+title: "Representation Theory — Syllabus Dependency DAG"
+---
+flowchart TB
+
+%% =========================
+%% Prerequisites Subgraph
+%% =========================
+subgraph prereq [Prerequisites]
+    LA[Linear Algebra]
+    Groups[Groups]
+    Rings[Rings]
+    Fields[Fields]
+    LA --> Groups
+    LA --> Rings
+    Rings --> Fields
+end
+
+%% =========================
+%% Algebraic Foundations
+%% =========================
+subgraph foundations [Algebraic Foundations]
+    AssocAlg[Associative algebras]
+    GenRel[Generators & relations]
+    GroupAlg[Group algebras]
+    Quivers[Quivers]
+    PathAlg[Path algebras]
+    LieAlg[Lie algebras]
+    UEA[Enveloping algebras]
+
+    AssocAlg --> GenRel
+    AssocAlg --> GroupAlg
+    Quivers --> PathAlg
+    LieAlg --> UEA
+end
+
+%% prerequisites feed foundations
+prereq --> AssocAlg
+prereq --> LieAlg
+
+%% =========================
+%% Core Representation Theory
+%% =========================
+subgraph core [Core Representation Theory]
+    Reps[Representations]
+    Irred[Irreducible representations]
+    Indecomp[Indecomposable representations]
+    Schur[Schur's lemma]
+    SL2["Representations of sl(2)"]
+
+    Reps --> Irred
+    Reps --> Indecomp
+    Irred --> Schur
+    Schur --> SL2
+end
+
+AssocAlg --> Reps
+GroupAlg --> Reps
+UEA --> Reps
+PathAlg --> Reps
+
+%% =========================
+%% Structural Results
+%% =========================
+subgraph structure [Structural Theorems]
+    Density[Density theorem]
+    FinDimAlg[Finite-dimensional algebras]
+    Semisimple[Semisimple algebras]
+    JH[Jordan–Hölder theorem]
+    KS[Krull–Schmidt theorem]
+    Extensions[Extensions of representations]
+
+    FinDimAlg --> Semisimple
+    Semisimple --> JH
+    Semisimple --> KS
+    KS --> Extensions
+end
+
+Reps --> FinDimAlg
+Reps --> Density
+
+%% =========================
+%% Characters
+%% =========================
+subgraph characters [Characters]
+    Characters[Characters of representations]
+end
+
+Semisimple --> Characters
+
+%% =========================
+%% Finite Group Representations
+%% =========================
+subgraph finite_groups [Finite Group Representations]
+    Maschke[Maschke's theorem]
+    OrthChar[Orthogonality of characters]
+    OrthMat[Orthogonality of matrix elements]
+    CharTables[Character tables]
+    SumSq[Sum of squares formula]
+    Duals[Dual representations]
+    Tensor[Tensor products]
+    Unitary[Unitary representations]
+    AppsFG[Applications]
+
+    Maschke --> OrthChar
+    OrthChar --> CharTables
+    OrthMat --> CharTables
+    CharTables --> SumSq
+    CharTables --> Tensor
+    Tensor --> Duals
+    CharTables --> AppsFG
+end
+
+GroupAlg --> Maschke
+Characters --> OrthChar
+
+%% =========================
+%% Advanced Finite Group Theory
+%% =========================
+subgraph advanced_fg [Advanced Finite Group Theory]
+    FS[Frobenius–Schur indicator]
+    FD[Frobenius determinant]
+    AlgInt[Algebraic integers]
+    Frobd[Frobenius divisibility]
+    Burnside[Burnside's theorem]
+    Induced[Induced representations]
+    Mackey[Mackey formula]
+    Reciprocity[Frobenius reciprocity]
+
+    Induced --> Mackey
+    Mackey --> Reciprocity
+    AlgInt --> Frobd
+    Frobd --> Burnside
+end
+
+CharTables --> FS
+CharTables --> FD
+FS --> AlgInt
+Maschke --> Induced
+
+%% =========================
+%% Families and Dualities
+%% =========================
+subgraph families [Groups & Dualities]
+    GL2["GL(2, F_q) representations"]
+    Symmetric[Symmetric group representations]
+    SchurWeyl[Schur–Weyl duality]
+    Invariant[Invariant theory]
+
+    Symmetric --> SchurWeyl
+    GL2 --> SchurWeyl
+    SchurWeyl --> Invariant
+end
+
+finite_groups --> families
+
+%% =========================
+%% Quiver Representations
+%% =========================
+subgraph quivers [Quiver Representation Theory]
+    QReps[Representations of quivers]
+    ATypes[A1, A2, A3, D4]
+    Triple[Triple of subspaces]
+    Gabriel[Gabriel's theorem]
+    Roots[Simply-laced root systems]
+    Reflect[Reflection functors]
+
+    QReps --> ATypes
+    ATypes --> Triple
+    Triple --> Gabriel
+    Roots --> Reflect
+    Reflect --> Gabriel
+end
+
+Quivers --> QReps
+KS --> QReps
+```
 
 
 <!-- Old content from Jul 3, 2022! -->
