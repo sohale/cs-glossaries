@@ -78,11 +78,11 @@ Formal prerequisites: Algebra I and II,  Linear Algebra and Modern Algebra.
 
 
 
-#### Typical DAG
+#### Typical DAG ( ⚠️ UNDER CONSTRUCITON )
 Dependency
 ```mermaid
 ---
-title: R/Th typical syllabus DAG
+title: "R/Th typical syllabus DAG"
 ---
 flowchart LR
     assocalg[Associative algebras]
@@ -96,7 +96,7 @@ LieAlgebras --> Representations
 Representations --> Irreducible
 Representations --> Indecomposable
 Schur[Schur’s lemma]
-SL2[Representations of SL(2)]
+SL2["Representations of SL(2)"]
 ? --> Schur
 Schur --> SL2
 
@@ -106,7 +106,7 @@ DensityTh[Density theory]
 Flow of exposition:
 ```mermaid
 ---
-title: R/Th typical flow of exposition:
+title: "R/Th typical flow of exposition:"
 ---
 stateDiagram-v2
     [*] --> group
@@ -122,7 +122,7 @@ stateDiagram-v2
 Suggested Exposition:
 ```mermaid
 ---
-title: R/Th suggested-1 flow of exposition:
+title: "R/Th suggested (1) flow of exposition:"
 ---
 stateDiagram-v2
     GroupActions --> LieGroups
