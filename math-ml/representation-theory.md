@@ -187,10 +187,10 @@ prereq --> LieAlg
 %% =========================
 subgraph core [Core Representation Theory]
     Reps[Representations]
-    Irred[Irreducible representations]
+    Irred[Irreducible  <br> representations]
     Indecomp[Indecomposable<br>representations]
     Schur[Schur's lemma]
-    SL2["Representations of sl(2)"]
+    SL2["Representations  <br> of SL(2)"]
 
     Reps --> Irred
     Reps --> Indecomp
@@ -208,11 +208,11 @@ PathAlg --> Reps
 %% =========================
 subgraph structure [Structural Theorems]
     Density[Density theorem]
-    FinDimAlg[Finite-dimensional algebras]
+    FinDimAlg[Finite <br>-dimensional  <br> algebras]
     Semisimple[Semisimple algebras]
-    JH[Jordan–Hölder theorem]
-    KS[Krull–Schmidt theorem]
-    Extensions[Extensions of representations]
+    JH[Jordan–Hölder  <br> theorem]
+    KS[Krull–Schmidt  <br> theorem]
+    Extensions[Extensions of  <br> representations]
 
     FinDimAlg --> Semisimple
     Semisimple --> JH
@@ -227,7 +227,7 @@ Reps --> Density
 %% Characters
 %% =========================
 subgraph characters [Characters]
-    Characters[Characters of representations]
+    Characters[Characters of  <br> representations]
 end
 
 Semisimple --> Characters
@@ -235,15 +235,15 @@ Semisimple --> Characters
 %% =========================
 %% Finite Group Representations
 %% =========================
-subgraph finite_groups [Finite Group Representations]
-    Maschke[Maschke's theorem]
-    OrthChar[Orthogonality of characters]
-    OrthMat[Orthogonality of matrix elements]
-    CharTables[Character tables]
-    SumSq[Sum of squares formula]
-    Duals[Dual representations]
-    Tensor[Tensor products]
-    Unitary[Unitary representations]
+subgraph finite_groups [Finite Group  <br> Representations]
+    Maschke[Maschke's  <br> theorem]
+    OrthChar[Orthogonality  <br> of characters]
+    OrthMat[Orthogonality <br>  of matrix elements]
+    CharTables[Character  <br> tables]
+    SumSq[Sum of  <br> squares  <br> formula]
+    Duals[Dual  <br> representations]
+    Tensor[Tensor  <br> products]
+    Unitary[Unitary  <br> representations]
     AppsFG[Applications]
 
     Maschke --> OrthChar
@@ -262,8 +262,8 @@ Characters --> OrthChar
 %% Advanced Finite Group Theory
 %% =========================
 subgraph advanced_fg [Advanced Finite Group Theory]
-    FS[Frobenius–Schur indicator]
-    FD[Frobenius determinant]
+    FS[Frobenius–Schur  <br> indicator]
+    FD[Frobenius  <br> determinant]
     AlgInt[Algebraic integers]
     Frobd[Frobenius  <br> divisibility]
     Burnside[Burnside's theorem]
