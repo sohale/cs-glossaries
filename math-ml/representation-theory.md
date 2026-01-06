@@ -4,8 +4,18 @@ in style of Lecture Notes
 
 * Disclaimer: This is not verified in terms of content, and may be exxcentric in style.
 
+
+## Answers / asks:
+Be prepared for:
+* symmetries
+* invariants
+* subrepresentations (decompose)
+* How does a space decompose under symmetry?
+* How to identify invariants?
+
+
 ## Introduction: What to expect
-Introduction)/motivation / waht to expect
+Introduction)/motivation / waht to expect (TOC)
 
 1. Scope (what it is/not about) and embeddding
 2. 
