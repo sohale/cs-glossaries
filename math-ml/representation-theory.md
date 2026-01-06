@@ -61,6 +61,12 @@ Main wikiepdia pages to look at: (ordered, curated)
    * Category_theory section: https://en.wikipedia.org/wiki/Representation_theorem#Category_theory
 * https://en.wikipedia.org/wiki/Particle_physics_and_representation_theory
 
+What is the Relationship between R/Th and:
+* RT &/vs Operator Theory
+* Quantum Mechanics
+* Lagrange
+
+... The toolbox (containing it)
 
 # Modern representaiton theory's core theorems
 That RT lateches onto!, or produces: (that if globally seen, can be considered as part of RTh)
@@ -303,12 +309,12 @@ finite_groups --> families
 %% Quiver Representations
 %% =========================
 subgraph quivers [Quiver Representation Theory]
-    QReps[Representations of quivers]
+    QReps[Representations <br> of quivers]
     ATypes[A1, A2, A3, D4]
-    Triple[Triple of subspaces]
-    Gabriel[Gabriel's theorem]
-    Roots[Simply-laced root systems]
-    Reflect[Reflection functors]
+    Triple[Triple of <br>  subspaces]
+    Gabriel[Gabriel's <br>  theorem]
+    Roots[Simply-laced <br> root systems]
+    Reflect[Reflection <br>  functors]
 
     QReps --> ATypes
     ATypes --> Triple
