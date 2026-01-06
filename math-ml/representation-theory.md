@@ -51,7 +51,7 @@ A seleciton of usefulones: (compact list first)
 * Have use of group theory `SO(3)`, `SU(3)`, `SU(2)`
 * The "Representation theorem"
 
-Heavily used (but have broader scope): Category Theory.
+Heavily used (but have broader scope): Category Theory. Functional analysis. (most of ue of these fields in phsyics are about this?)
 
 Main wikiepdia pages to look at: (ordered)
 * ...
