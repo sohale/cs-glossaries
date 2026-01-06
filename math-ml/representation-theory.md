@@ -286,10 +286,11 @@ Maschke --> Induced
 %% Families and Dualities
 %% =========================
 subgraph families [Groups & Dualities]
+    direction TB
     GL2["GL(2, F_q)<br>representations"]
     Symmetric[Symmetric group <br> representations]
-    SchurWeyl[Schur–Weyl duality]
-    Invariant[Invariant theory]
+    SchurWeyl[Schur–Weyl  <br> duality]
+    Invariant[Invariant  <br> theory]
 
     Symmetric --> SchurWeyl
     GL2 --> SchurWeyl
