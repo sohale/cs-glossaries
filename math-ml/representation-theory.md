@@ -44,6 +44,14 @@ List: (we are still part of introduction)/motivation)
 * Symmetry
 * Gauge
 
+<!-- hidden goals: symmetry, separating/removal -->
+
+### Preparing the mind
+Preparing the mind: you will see (unusual):
+* Odd terms:
+   * Lace
+   * .
+
 ### Modern representaiton theory techniques
 Mathematically-tangible (not general concepts or techniques: well-defined mathematical objects) at core:
 
