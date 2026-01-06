@@ -46,6 +46,13 @@ List: (we are still part of introduction)/motivation)
 ### Modern representaiton theory techniques
 A seleciton of usefulones: (compact list first)
 * Lie Groups
+* Have use of group theory `SO(3)`, `SU(3)`, `SU(2)`
+
+Main wikiepdia pages to look at: (ordered)
+* ...
+* https://en.wikipedia.org/wiki/Representation_theorem
+   * Category_theory section: https://en.wikipedia.org/wiki/Representation_theorem#Category_theory
+* https://en.wikipedia.org/wiki/Particle_physics_and_representation_theory
 
 
 <!-- Old content from Jul 3, 2022! -->
