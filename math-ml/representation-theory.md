@@ -49,8 +49,8 @@ List: (we are still part of introduction)/motivation)
 ### Preparing the mind
 Preparing the mind: you will see (unusual):
 * Odd terms:
+   * "table"s (instead of matrix, sometimes)
    * Lace
-   * .
 
 ### Modern representaiton theory techniques
 Mathematically-tangible (not general concepts or techniques: well-defined mathematical objects) at core:
