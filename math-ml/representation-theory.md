@@ -79,7 +79,8 @@ Formal prerequisites: Algebra I and II,  Linear Algebra and Modern Algebra.
 
 
 #### Typical DAG ( ⚠️ UNDER CONSTRUCITON )
-Dependency
+
+##### Dependency DAG
 ```mermaid
 ---
 title: "R/Th typical syllabus DAG"
@@ -103,7 +104,11 @@ Schur --> SL2
 RepTheory[Representation theory basic results]
 DensityTh[Density theory]
 ```
-Flow of exposition:
+
+
+
+
+##### Flow of exposition:
 ```mermaid
 ---
 title: "R/Th typical flow of exposition:"
@@ -119,7 +124,10 @@ stateDiagram-v2
     bbb --> [*]
 ```
 
-Suggested Exposition:
+
+
+
+##### Suggested Exposition:
 ```mermaid
 ---
 title: "R/Th suggested (1) flow of exposition:"
