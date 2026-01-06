@@ -73,6 +73,7 @@ That RT lateches onto!, or produces: (that if globally seen, can be considered a
 #### MIT-OCW-18-712
 [syllabus](https://ocw.mit.edu/courses/18-712-introduction-to-representation-theory-fall-2010/pages/syllabus/)
 (year: as of 2026; fall-2010)
+Formal prerequisites: Algebra I and II,  Linear Algebra and Modern Algebra. 
 
 <!-- Old content from Jul 3, 2022! -->
 ###	Examples from [w: Representation_theorem](https://en.wikipedia.org/wiki/Representation_theorem#Category_theory)
