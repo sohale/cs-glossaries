@@ -35,7 +35,7 @@ But here, it is accumulation of mathematical techniques that emerged from early 
 * Advanced Modern representaiton theory (lecture-notes level)
 
 List: (we are still part of introduction)/motivation)
-* Modern representaiton theory 's s major concepts
+* Modern representaiton theory 's major concepts
 * Modern representaiton theory techniques
 
 ### Modern representaiton theory: major concepts
@@ -44,9 +44,14 @@ List: (we are still part of introduction)/motivation)
 * Gauge
 
 ### Modern representaiton theory techniques
+Mathematically-tangible (not general concepts or techniques: well-defined mathematical objects) at core:
+
 A seleciton of usefulones: (compact list first)
 * Lie Groups
 * Have use of group theory `SO(3)`, `SU(3)`, `SU(2)`
+* The "Representation theorem"
+
+Heavily used (but have broader scope): Category Theory.
 
 Main wikiepdia pages to look at: (ordered)
 * ...
