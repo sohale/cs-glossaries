@@ -26,6 +26,11 @@ Yielding borrows tied to external data (e.g., `&Expr<'a>` that borrows from enc)
 * aka "borrows from an outer owner"
 
 
+
+borrowed" views tied to an outer owner
+
+### Example error
+
 The example yields plain integers (i32)
 created fresh at each yield,
 "captures no references that live across yield",
@@ -62,7 +67,6 @@ error[E0277]: `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:5
      = note: required for `FromCoroutine<{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}>` to implement `Iterator`
 
 
-
 ### The `from_coroutine`:
 
 ```rust
@@ -94,6 +98,7 @@ Features:
           for i in 1..5 {
               yield i;
           }
+          // return (); // implied
       };
       return from_coroutine(coroutine2b);
   }
@@ -102,7 +107,21 @@ Features:
   }
 }
 ```
+Simplistic:
+* captures no (references that (live across yield)),
+* and doesn’t (borrow from an outer owner)
+Hence,
+* We can return `from_coroutine`, but not if lifetimes were involved.
 
+This would have failed if: `Iterator<Item = &'a str>`.
+*  ERROR: `coroutine2b` is `!Unpin`
 
+<!-- Limitations: -->
 
-and why in some miniature examples, like below, , we could return from_coroutine, but not in above error's case.
+You need to ensure the generator (`coroutine2b`) is `Unpin`:
+Only yield "owned values".
+"end any borrows" before yield.
+To own `_to_owned()` or `.close()` inside a block.
+
+Abandon `from_coroutine` if you must "yield borrowed":
+If you must "yield borrowed" views tied to an outer owner, don’t use from_coroutine. Pin and drive manually:
