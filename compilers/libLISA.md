@@ -32,3 +32,34 @@ pub struct MemoryState {
     data: Box<[MemoryEntry]>,
 }
 ```
+
+CpuState
+--------
+Paper: `CpuState` is only 769 bytes.
+
+The concrete type is `X64State`. (not: `CpuState<X64Arch>`)
+
+```rust
+/// The CPU state of the x86-64 architecture.
+pub struct X64State {
+    /// General purpose registers
+    pub regs: Align32<[u64; NUM_GPREGS]>,
+
+    /// XMM registers
+    pub xmm: Xmm,
+
+    /// X87 registers
+    pub x87: X87,
+
+    /// XMM exception flags.
+    /// Defined as a separate field for better alignment.
+    pub xmm_exception_flags: u64,
+
+    /// XMM Denormals-are-zero flag.
+    /// Defined as a separate field for better alignment.
+    pub xmm_daz: u8,
+}
+```
+(NUM_GPREGS=20) * 8 + Xmm=( 32*16 ) + X87=(8*10+1+8+4+1) + 8+1 =
+160+512+94+9 = 672+103 = 775.
+Paper: 769 ?
