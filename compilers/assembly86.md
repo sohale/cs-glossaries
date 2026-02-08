@@ -94,6 +94,14 @@ Segmentation-concern/axis:
 * `*S`: The `CS`, `DS`, `SS`, `ES`, `FS`, `GS`: are for Code, Data, Stack, Extra (E,F,G)
 * `[ES:DI]`
 
+two new segment registers FS and GS.
+(see https://en.wikipedia.org/wiki/X86_instruction_listings)
+
+control + debug + test:
+(see https://en.wikipedia.org/wiki/X86_instruction_listings)
+
+<!-- Sep 13 19:13) -->
+
 Natural pairs:
 * `CS:IP`
 
@@ -384,6 +392,69 @@ Ring modes:
 
 
 Some sampe
+
+### The Trap Flag vs the INT3
+
+The INT3-TF mechanisms:
+TF: Trap Flag
+* `INT3`: Breakpoint interrupt
+`INT 3`
+
+INT3 is patched:
+The opcode `0xCC` is "inserted".
+The sets a software breakpoint
+The debugger/kprobe/perf patched a code byte to `0xCC`.
+
+
+INT3 -> BP: `#BP` exception, vector 3 in the IDT
+TF -> TF: : `#DB` exception, vector 1(?) in the IDT
+
+Vector3 vs Vector 1.
+`#BP` vs `#DB`.
+
+a software breakpoint vs a hardware breakpoint.
+
+A hardware breakpoint:
+Hardware breakpoints and single-step use #DB / vector 1, not #BP—different path.)
+
+What calls it? what it calls?
+
+method | what calls it? | what it calls?
+---|-----|----
+`INT3` | software | `#BP` handler
+`TF` | hardware | `#DB` handler
+
+
+libLISA: `use_trap_flag`.
+
+Ring 3 / Usermode:
+`INT3` -> kernel mode -> `#BP` handler -> user mode -> `SIGTRAP` signal handler
+
+INT3 in ring3 (user mode) -> `#BP` handler in ring0 (kernel mode) -> `SIGTRAP` handler in ring3 (user mode)
+
+Information available at each stage: (brief version)
+1. line-label = `INT3` instruction.  (implicit)mode=user.
+2. line-label = `#BP` handler.  (implicit)mode=kernel.
+3. line-label = `SIGTRAP` handler. (implicit)mode=user. `si_code`
+
+The SIGTRAP handler in user mode in Linux:
+`si_code = TRAP_BRKPT`
+(how is it used?)
+
+(how is it different to TF? `TRAP_TRACE`?)
+
+A debugger using `ptrace` sees the stop.
+(what is ptrace? why? it doesn't see it? what exactly does this mean?)
+
+
+#### Full table:
+method | what calls it? | what it calls? |IDT entry | Linux
+---|-----|----|-----|----
+`INT3` | software | `#BP` handler | vector 3 | `SIGTRAP`
+`TF` | hardware | `#DB` handler | vector 1 |?
+
+
+
 
 ### Glossary of disambiguaitons
 * "x86-64 architecture": (unverified) a mode in CPUs?
