@@ -37,36 +37,6 @@ created fresh at each yield,
 and doesn’t "borrow from an outer owner".
 
 
-now this: (without making changes), explain this error:
-
-
-error[E0277]: `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}` cannot be unpinned
-    --> liblisa-synth/src/search/mod.rs:2116:42
-     |
-2116 |         return std::iter::from_coroutine(coroutine3);
-     |                ------------------------- ^^^^^^^^^^ the trait `Unpin` is not implemented for `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}`
-     |                |
-     |                required by a bound introduced by this call
-     |
-     = note: consider using the `pin!` macro
-             consider using `Box::pin` if you need to access the pinned value outside of the current scope
-note: required by a bound in `from_coroutine`
-    --> /dataneura/dothome/dot.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/sources/from_coroutine.rs:27:51
-     |
-  27 | pub fn from_coroutine<G: Coroutine<Return = ()> + Unpin>(coroutine: G) -> FromCoroutine<G> {
-     |                                                   ^^^^^ required by this bound in `from_coroutine`
-
-error[E0277]: `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}` cannot be unpinned
-    --> liblisa-synth/src/search/mod.rs:2018:47
-     |
-2018 |     fn exprs_from_encoding_coroutine<'a>() -> impl Iterator<Item = Expression> {
-     |                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Unpin` is not implemented for `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}`
-     |
-     = note: consider using the `pin!` macro
-             consider using `Box::pin` if you need to access the pinned value outside of the current scope
-     = note: required for `FromCoroutine<{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}>` to implement `Iterator`
-
-
 ### The `from_coroutine`:
 
 ```rust
@@ -78,6 +48,28 @@ at create-level.
 See https://doc.rust-lang.org/beta/unstable-book/language-features/coroutines.html
 See https://doc.rust-lang.org/std/iter/fn.from_coroutine.html
 
+
+### Unnamed in error messages
+
+Example:
+```txt
+required for `FromCoroutine<{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}>` to implement `Iterator`
+```
+or
+```txt
+for `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43: 2021:52}
+```
+
+```txt
+error[E0277]: `{static coroutine@liblisa-synth/src/search/mod.rs:2021:43:
+```
+
+
+### A bound in x
+Example from error message:
+```txt
+bound in `from_coroutine`
+```
 
 ## Examples:
 
@@ -125,3 +117,21 @@ To own `_to_owned()` or `.close()` inside a block.
 
 Abandon `from_coroutine` if you must "yield borrowed":
 If you must "yield borrowed" views tied to an outer owner, don’t use from_coroutine. Pin and drive manually:
+
+Typical compiler errors:
+* `cannot be unpinned`
+* `the trait `Unpin` is not implemented`
+
+* required by "a bound" in `from_coroutine`
+
+> note: required by a bound in `from_coroutine`
+
+Typical compiler suggestions:
+
+> note: consider using the `pin!` macro
+>       consider using `Box::pin` if you need to access the pinned value outside of the current scope
+
+Reasoning (from standard library):
+```rust
+pub fn from_coroutine<G: Coroutine<Return = ()> + Unpin>(coroutine: G) -> FromCoroutine<G>
+```
